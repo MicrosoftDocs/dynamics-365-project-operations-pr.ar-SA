@@ -1,0 +1,954 @@
+- name: Dynamics 365 Project Operations
+  href: project-operations-home-page.md
+- name: Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة
+  items:
+    - name: عملية المبيعات
+      items:
+        - name: نظرة عامة على المبيعات
+          href: sales/sales-overview.md
+        - name: الاختلافات الرئيسية
+          href: sales/key-differences.md
+        - name: الإعداد
+          items:
+            - name: ال‏‏منتجات
+              href: sales/sales-products.md
+            - name: الوحدات ومجموعات الوحدات
+              href: sales/sales-units-unit-groups.md
+            - name: العملة
+              href: sales/sales-currency.md
+        - name: إدارة العملاء المتوقعين
+          href: sales/managing-leads.md
+        - name: إدارة الفرص
+          items:
+            - name: رأس الفرصة
+              href: sales/opportunity-header.md
+            - name: بنود مستندة إلى المنتج
+              href: sales/product-based-lines.md
+            - name: بنود مستندة إلى المشروع
+              href: sales/project-based-lines.md
+            - name: ربط عروض الأسعار والفرص
+              href: sales/link-quotes-opportunities.md
+            - name: إغلاق فرصة
+              href: sales/close-opportunity.md
+        - name: إدارة عروض الأسعار
+          items:
+            - name: المفاهيم الأساسية
+              href: sales/quotes-key-concepts.md
+            - name: إدارة القيم المدرجة في عرض الأسعار وموازنات العملاء والحدود التي يجب ألا يتم تجاوزها
+              href: sales/quote-values-budgets-limits.md
+            - name: إدارة العديد من العملاء في عرض أسعار
+              href: sales/manage-multiple-customers-quote.md
+            - name: بنود عروض أسعار مستندة إلى المنتج
+              item:
+                - name: حساب تكاليف بنود عروض الأسعار المستندة إلى المنتج
+                  href: sales/costing-product-based-quote-lines.md
+                - name: إدارة الوحدات المعقدة لبنود عرض الأسعار المستندة إلى المنتج
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: بنود عروض الأسعار المستندة إلى المشروع
+              items:
+                - name: إدارة قوائم أسعار المشروع
+                  href: sales/managing-project-price-lists.md
+                - name: إدارة العديد من العملاء في بند عرض أسعار
+                  href: sales/managing-multiple-customers-quote-line.md
+                - name: تعيين المشاريع والمهام لبند عرض أسعار
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: إنشاء تقديرات في بند عرض أسعار
+                  href: sales/create-estimate-quote-line.md
+                - name: استيراد التقديرات من مشروع إلى بند عرض الأسعار
+                  href: sales/import-estimate-project-quote-line.md
+                - name: إدارة القيم المدرجة في عرض الأسعار وموازنات العملاء والحدود التي يجب ألا يتم تجاوزها
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                - name: عمليات جدولة الفواتير في بند عرض الأسعار
+                  href: sales/invoice-schedule-quote-line
+            - name: الفوز بعرض أسعار
+              href: sales/win-quote.md
+            - name: خسارة عرض أسعار
+              href: sales/lose-quote.md
+        - name: إدارة العقود
+          items:
+            - name: المفاهيم الأساسية
+              href: sales/contacts-key-concepts.md
+            - name: إدارة قيم العقود وموازنات العملاء والحدود التي يجب ألا يتم تجاوزها
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: إدارة العديد من العملاء في عقد
+              href: sales/manage-multiple-customers-contract.md
+            - name: شروط التعاقد المستندة إلى المنتج
+              items:
+                - name: حساب تكاليف شروط التعاقد المستندة إلى المنتج
+                  href: sales/cost-product-based-contract-lines.md
+                - name: إدارة الوحدات المعقدة لشروط التعاقد المستندة إلى المنتج
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: شروط التعاقد المستندة إلى المشروع
+              items:
+                - name: إدارة قوائم أسعار المشروع
+                  href: sales/manage-project-price-lists.md
+                - name: إدارة العديد من العملاء في شروط التعاقد
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: تعيين المشاريع والمهام لشروط التعاقد
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: إنشاء تقديرات لمشروع إلى شروط التعاقد
+                  href: sales/create-estimate-project-contract-line.md
+                - name: استيراد التقديرات من مشروع إلى شروط التعاقد
+                  href: sales/import-estimate-project-contract-line.md
+                - name: إدارة قيم العقود وموازنات العملاء والحدود التي يجب ألا يتم تجاوزها في بند عرض الأسعار
+                  href: sales/manage-quoted-values-budgets-limits-quote-line.md
+                - name: عمليات جدولة الفواتير في بند عرض الأسعار
+                  href: sales/invoice-schedules-quote-line.md
+            - name: تأكيد عقد
+              href: sales/confirm-contract.md
+            - name: إغلاق عقد كعمل مكتمل
+              href: sales/close-contract-work-completed.md
+            - name: إغلاق عقد كملغي
+              href: sales/close-contract-canceled.md
+    - name: التسعير والتكلفة
+      items:
+        - name: قوائم أسعار المنتجات
+          href: pricing-costing/product-price-list.md
+        - name: قوائم أسعار المشروع
+          items:
+            - name: قائمة الأسعار للتكلفة
+              items:
+                - name: إعداد قوائم أسعار التكلفة
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: افتراضيات قوائم الأسعار
+                  href: pricing-costing/cost-price-list-default.md
+                - name: تجاوز الافتراضيات
+                  href: pricing-costing/cost-override-default.md
+            - name: إعداد قائمة الأسعار للمبيعات
+              items:
+                - name: إعداد قائمة أسعار المبيعات
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: افتراضيات قوائم أسعار المبيعات
+                  href: pricing-costing/sales-price-list-default.md
+                - name: تجاوز الافتراضيات
+                  href: pricing-costing/sales-override-default.md
+        - name: أبعاد التسعير
+          items:
+            - name: نظرة عامة على أبعاد التسعير
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: استخدام حقل موجود في عمليات المشروع كبُعد تسعير
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: الحقول المخصصة كأبعاد تسعير
+              items:
+                - name: إنشاء حقول وكيانات مخصصة كأبعاد تسعير
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: إضافة حقول مخصصة إلى إعداد الأسعار وكيانات الحركات
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: 'إعداد الحقول المخصصة كأبعاد تسعير '
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: إيقاف تشغيل بُعد تسعير
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: إدارة المشروع
+      items:
+        - name: نظرة عامة على إدارة المشروع
+          href: project-management/project-management-overview.md
+        - name: مراحل المشروع
+          href: project-management/project-stages.md
+        - name: التنقل في واجهة المستخدم
+          href: project-management/navigate-ui.md
+        - name: فهم حالة المشروع
+          href: project-management/understand-project-status.md
+        - name: تحديد تقاويم المشاريع
+          href: project-management/define-project-calendars.md
+        - name: إنشاء مشروع
+          items:
+            - name: إنشاء تقديرات أولية
+              href: project-management/create-initial-estimates.md
+            - name: تعيين تقويم المشروع
+              href: project-management/set-project-calendar.md
+            - name: تعيين عملة المشروع
+              href: project-management/set-project-currency.md
+            - name: تحديد عميل
+              href: project-management/set-customer.md
+            - name: إضافة مجموعة
+              href: project-management/add-group.md
+        - name: تحديث مشروع
+          href: project-management/update-project.md
+        - name: نسخ مشروع
+          href: project-management/copy-project.md
+        - name: تخطيط هيكل تنظيم العمل
+          items:
+            - name: إنشاء هيكل تنظيم العمل
+              items:
+                - name: إنشاء مهام
+                  href: project-management/wbs-create-tasks.md
+                - name: قص، ونسخ، ولصق المهام
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: التراجع عن المهام وإعادتها
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: التدرج الهرمي لهيكل تنظيم العمل
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: تحديثات المهام المجمعة
+                  href: project-management/bulk-task-updates.md
+                - name: تحرير تفاصيل المهمة
+                  href: project-management/edit-task-details.md
+            - name: إنشاء تعيينات
+              items:
+                - name: إضافة موارد موجودة
+                  href: project-management/add-existing-resources.md
+                - name: إضافة موارد عامة
+                  href: project-management/add-generic-resources.md
+                - name: فهم تأثير التعيينات على مجهود المهمة والمدة وتاريخ الانتهاء
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: عرض مخططات التعيينات
+                  href: project-management/view-assignment-contours.md
+            - name: التنقل في تجربة إدارة المهام
+              items:
+                - name: إدارة الأعمدة
+                  href: project-management/column-management.md
+                - name: مرات العرض
+                  href: project-management/task-management-views.md
+                - name: المستودعات
+                  href: project-management/task management-buckets.md
+        - name: تقدير المشاريع
+          items:
+            - name: نظرة عامة على تقدير المشاريع
+              href: project-management/estimating-projects-overview.md
+            - name: تقديرات الموارد
+              items:
+                - name: تحديث تقديرات المشروع لإظهار التغييرات التي تم إجراؤها على خطة المشروع
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: تحديث الأسعار وأسعار التكلفة في تقديرات المشروع
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: سعر تكلفة المورد وافتراضيات عملة التكلفة
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: سعر فاتورة المورد وافتراضيات عملة المبيعات
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: إنشاء تقديرات المصروفات
+              items:
+                - name: سعر تكلفة المصروفات وافتراضيات عملة التكلفة
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: سعر فاتورة المصروفات وافتراضيات عملة المبيعات
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: إنشاء عروض الأسعار والعقود
+          items:
+            - name: استيراد هيكل تنظيم العمل إلى عروض الأسعار
+              href: project-management/import-wbs-structure-quotes.md
+            - name: استيراد هيكل تنظيم العمل إلى العقود
+              href: project-management/import-wbs-structure-contracts.md
+        - name: تتبع المشروع
+          items:
+            - name: الصفحة الرئيسية لتعقب المشروع
+              href: project-management/project-tracking-overview.md
+            - name: تعاريف الأعمدة
+              items:
+                - name: الجهد
+                  href: project-management/effort.md
+                - name: التكلفة
+                  href: project-management/cost.md
+                - name: ال‏‏مبيعات
+                  href: project-management/sales.md
+            - name: تحديث التقدير عند الاكتمال
+              href: project-management/update-completed-estimate.md
+        - name: أعضاء فريق المشروع
+          items:
+            - name: نظرة عامة على أعضاء فريق المشروع
+              href: project-management/project-team-members-overview.md
+            - name: الاحتفاظ بأعضاء الفريق
+              items:
+                - name: إضافة أعضاء الفريق
+                  href: project-management/add-team-members.md
+                - name: تحديث أعضاء فريق المشروع
+                  href: project-management/update-project-team-members.md
+                - name: حذف أعضاء الفريق
+                  href: project-management/delete-team-members.md
+                - name: المحافظة على عمليات الحجز
+                  href: project-management/maintain-bookings.md
+                - name: الموافقون على المشاريع
+                  href: project-management/project-approvers.md
+        - name: المبيعات
+          items:
+            - name: نظرة عامة على علامة تبويب المبيعات
+              href: project-management/sales-tab-overview.md
+        - name: التعاون
+          items:
+            - name: المجموعات
+              href: project-management/groups.md
+        - name: الأسئلة المتداولة على تخطيط المشروع
+          href: project-management/project-planning-faq.md
+    - name: إدارة الموارد
+      items:
+        - name: نظرة عامة على إدارة الموارد
+          href: resource-management/resource-management-overview.md
+        - name: المفاهيم الأساسية
+          href: resource-management/resource-management-key-concepts.md
+        - name: الحجوزات مقابل التعيينات
+          href: resource-management/booking-vs-assignment.md
+        - name: أوضاع إدارة الموارد
+          items:
+            - name: نظرة عامة على أوضاع إدارة الموارد
+              href: resource-management/resource-management-mode-overview.md
+            - name: مختلط
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: مركزي
+              href: resource-management/resource-management-mode-central.md
+        - name: الحجز المركزي
+          items:
+            - name: نظرة عامة على الحجز المركزي
+              href: resource-management/centralized-booking-overview.md
+            - name: إضافة أعضاء الفريق العام إلى المهام
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: تحديد متطلبات الموارد
+              href: resource-management/define-resource-requirements.md
+            - name: تحديد مخططات المتطلبات
+              href: resource-management/define-resource-requirement-contours.md
+            - name: تحديث متطلبات الموارد
+              href: resource-management/update-resource-requirements.md
+            - name: إرسال متطلبات الموارد
+              href: resource-management/submit-resource-requirements.md
+            - name: طلبات الموارد
+              items:
+                - name: نظرة عامة على طلبات الموارد
+                  href: resource-management/resource-requests-overview.md
+                - name: مراجعة الحقول والإجراءات
+                  href: resource-management/review-fields-actions.md
+                - name: بحث عن الموارد
+                  href: resource-management/find-resources.md
+                - name: مراجعة الموارد المقترحة
+                  href: resource-management/review-proposed-resources.md
+        - name: حجز الموارد غير المركزية
+          items:
+            - name: نظرة عامة على حجز الموارد غير المركزية
+              href: resource-management/centralized-booking-overview.md
+            - name: خيارات للحجز مباشرة
+              href: resource-management/options-book-directly.md
+            - name: الوفاء بمتطلبات الموارد العامة
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: إدارة الموارد
+          items:
+            - name: إنشاء الموارد
+              href: resource-management/create-resources.md
+            - name: تحديد المهارات والكفاءات
+              href: resource-management/define-skills-proficiencies.md
+            - name: تحديد الأدوار
+              href: resource-management/define-roles.md
+            - name: تحديد تقاويم الموارد
+              href: resource-management/define-resource-calendars.md
+            - name: إقران الموارد بالوحدات التنظيمية
+              href: resource-management/associate-resources-organizational-units.md
+            - name: إقران الموارد بالشركات
+              href: resource-management/associate-resources-companies.md
+        - name: أساليب توزيع الحجوزات
+          href: resource-management/booking-allocation-methods.md
+        - name: حالة الحجز
+          href: resource-management/booking-status.md
+        - name: نماذج المهارات والكفاءة
+          href: resource-management/skills-proficiency-models.md
+        - name: تسوية الموارد
+          items:
+            - name: نظرة عامة على تسوية الموارد
+              href: resource-management/resource-reconciliation-overview.md
+            - name: المفاهيم الأساسية
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: التنقل
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: توسيع الحجوزات
+              href: resource-management/extend-bookings.md
+            - name: إدارة المناطق الزمنية المتعددة
+              href: resource-management/manage-multiple-time-zones.md
+        - name: استخدام المورد
+          items:
+            - name: نظرة عامة على استخدام الموارد
+              href: resource-management/resource-utilization-overview.md
+            - name: البحث والإعدادات والتنقل
+              href: resource-management/search-settings-navigation.md
+        - name: لوحة الجدولة
+          items:
+            - name: التنقل والإعدادات الأساسية
+              href: resource-management/navigation-key-settings-urs.md
+            - name: التخصيص
+              href: resource-management/personalization-urs.md
+            - name: بحث
+              href: resource-management/search-urs.md
+            - name: إجراءات الحجز
+              href: resource-management/booking-actions-urs.md
+            - name: الحجز
+              items:
+                - name: حجز لمشروع
+                  href: resource-management/book-project.md
+                - name: حجز المتطلبات المفتوحة
+                  href: resource-management/book-open-requirements.md
+                - name: استبدال الموارد
+                  href: resource-management/substitute-resources.md
+                - name: تحرير الحجوزات الموجودة
+                  href: resource-management/edit-existing-bookings.md
+        - name: الأسئلة المتداولة حول إدارة الموارد
+          href: resource-management/resource-management-faq.md
+    - name: الوقت
+      items:
+        - name: نظرة عامة إدخال الوقت
+          href: time/time-entry-overview.md
+        - name: إنشاء إدخالات الوقت
+          items:
+            - name: استيراد عمليات الحجز والتعيينات وإدخالات التقاويم
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: سلوك واجهة المستخدم
+              href: time/ui-behavior.md
+        - name: إرسال إدخالات الوقت
+          href: time/submit-time-entries.md
+        - name: استدعاء إدخالات الوقت
+          items:
+            - name: قبل الموافقة
+              href: time/recall-time-entries-before-approval.md
+            - name: بعد الموافقة
+              href: time/recall-time-entries-after-approval.md
+        - name: الموافقة على إدخالات الوقت
+          href: time/approvals.md
+        - name: ملاحظات المطورين
+          items:
+            - name: توسيع إدخالات الوقت
+              href: time/extending-time-entries.md
+            - name: تخصيص شبكة إدخال الوقت الأسبوعي
+              href: time/customize-weekly-time-entry-grid.md
+            - name: اعتبارات الأمان
+              href: time/security-considerations.md
+    - name: المصروفات
+      items:
+        - name: الصفحة الرئيسية للمصروفات
+          href: expense/expense-overview.md
+        - name: إدخال المصروفات الخفيفة
+          href: expense/expense-lite-entry.md
+        - name: إرسال إدخالات المصروفات واستدعاؤها
+          href: expense/submit-recall-expense-entries.md
+        - name: الموافقة على إدخالات المصروفات الخفيفة
+          href: expense/approvals.md
+        - name: تجربة إدارة المصروفات للمشاريع
+          items:
+            - name: التكوين والإعداد
+              items:
+                - name: إعداد السياسات
+                  href: expense/set-up-policies.md
+                - name: إعداد عمليات سير العمل
+                  href: expense/set-up-workflows.md
+                - name: إدارة التفويض
+                  href: expense/manage-delegation.md
+                - name: تكوين محددات إدارة المصروفات
+                  href: expense/configure-expense-management-parameters.md
+                - name: إعداد تكامل بطاقة الائتمان
+                  href: expense/set-up-credit-card-integration.md
+                - name: إعداد فئات المصروفات
+                  href: expense/set-up-expense-categories.md
+            - name: إنشاء تقارير المصروفات
+              items:
+                - name: التوزيعات في تقرير المصروفات
+                  href: expense/distributions-expense-report.md
+            - name: الموافقة على تقارير المصروفات
+              items:
+                - name: تقارير المصروفات والموافقون المتعددون
+                  href: expense/expense-reports-multiple-approvers.md
+            - name: نشر تقارير المصروفات
+              href: expense/posting-expense-reports.md
+            - name: طلب السفر
+              href: expense/travel-requisition.md
+            - name: السلفة النقدية
+              href: expense/cash-advance.md
+            - name: المصروفات اليومية
+              href: expense/per-diems.md
+            - name: الإدارة المالية
+              items:
+                - name: استرداد ضريبة القيمة المضافة
+                  href: expense/vat-recovery.md
+            - name: تجربة مصروفات جديدة
+              items:
+                - name: إعادة صياغة تقارير المصروفات
+                  href: expense/expense-reports-reimagined.md
+                - name: مطابقة الإيصال للمصروفات باستخدام OCR
+                  href: expense/match-receipt-expense-ocr.md
+        - name: المصروفات باستخدام الجهاز المحمول
+          href: expense/expense-using-mobile.md
+    - name: الموافقات
+      items:
+        - name: النظرة العامة
+          href: approvals/approvals-overview.md
+        - name: الموافقة على إدخالات الوقت
+          href: approvals/approving-time-entries.md
+        - name: الموافقة على إدخالات المصروفات
+          items:
+            - name: المصروفات الخفيفة
+              href: approvals/approve-lite-expense.md
+            - name: المصروفات الكاملة
+              href: approvals/approve-full-expense.md
+        - name: إلغاء إدخالات الوقت التي تمت الموافقة عليها
+          href: approvals/cancelling-approved-time-entries.md
+        - name: إلغاء إدخالات المصروفات التي تمت الموافقة عليها
+          items:
+            - name: المصروفات الخفيفة
+              href: approvals/cancel-lite-expense.md
+            - name: المصروفات الكاملة
+              href: approvals/cancel-full-expense.md
+    - name: القيم الفعلية
+      items:
+        - name: النظرة العامة
+          href: actuals/actuals-overview.md
+        - name: إنشاء قيم فعلية لمشروع داخلي
+          href: actuals/create-actuals-internal-project.md
+        - name: إنشاء قيم فعلية لمكون مشروع قابل للفوترة
+          items:
+            - name: الوقت والمادة
+              href: actuals/time-material.md
+            - name: سعر ثابت
+              href: actuals/fixed-price.md
+        - name: إدارة عمليات التحقق والحالات التي يجب ألا يتم تجاوزها
+          href: actuals/manage-not-exceed-status-validations.md
+        - name: دفاتر يومية المشاريع
+          items:
+            - name: إنشاء دفاتر يومية المشروع لتسجيل الرسوم في المشاريع
+              href: actuals/create-project-journals-record-fees-projects.md
+            - name: إنشاء دفاتر يومية المشاريع للوقت والمصروفات
+              href: actuals/create-project-journals-time-expense.md
+            - name: إنشاء دفاتر يومية التصحيح وتأكيدها
+              href: actuals/create-confirm-correction-journals-md
+        - name: إدارة تراكم الفوترة
+          href: actuals/manage-billing-backlog.md
+    - name: الفواتير الأولية
+      items:
+        - name: إنشاء جداول الفواتير
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: إنشاء فاتورة أولية يدوية
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: إدارة فاتورة أولية
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: تأكيد فاتورة أولية
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: الفواتير التصحيحية
+          href: proforma-invoicing/corrective-invoices.md
+        - name: تكوين عملية إنشاء فاتورة تلقائية
+          href: proforma-invoicing/configure-automated-invoice-creation.md
+- name: النشر الخفيف - التعامل مع الفواتير الأولية
+  items:
+    - name: السيناريوهات القابلة للتطبيق
+      href: applicable-scenarios.md
+    - name: الجديد
+      href: whats-new-mode-2-project-operations.md
+    - name: إعداد بيئتك
+      href: set-up-environment-mode-2.md
+    - name: نموذج البيانات
+      href: sample-data-mode-2.md
+    - name: عملية المبيعات
+      items:
+        - name: نظرة عامة على عملية المبيعات
+          href: sales/sales-overview.md
+        - name: الاختلافات الرئيسية
+          href: sales/key-differences.md
+        - name: الإعداد
+          items:
+            - name: ال‏‏منتجات
+              href: sales/sales-products.md
+            - name: الوحدات ومجموعات الوحدات
+              href: sales/sales-units-unit-groups.md
+            - name: العملة
+              href: sales/sales-currency.md
+        - name: إدارة العملاء المتوقعين
+          href: sales/managing-leads.md
+        - name: إدارة الفرص
+          items:
+            - name: رأس الفرصة
+              href: sales/opportunity-header.md
+            - name: بنود مستندة إلى المنتج
+              href: sales/product-based-lines.md
+            - name: بنود مستندة إلى المشروع
+              href: sales/project-based-lines.md
+            - name: ربط عروض الأسعار والفرص
+              href: sales/link-quotes-opportunities.md
+            - name: إغلاق فرصة
+              href: sales/close-opportunity.md
+        - name: إدارة عروض الأسعار
+          items:
+            - name: المفاهيم الأساسية
+              href: sales/quotes-key-concepts.md
+            - name: إدارة القيم المدرجة في عرض الأسعار وموازنات العملاء والحدود التي يجب ألا يتم تجاوزها
+              href: sales/quote-values-budget-limits.md
+            - name: إدارة العديد من العملاء في عرض أسعار
+              href: sales/manage-multiple-customers-quote.md
+            - name: بنود عروض أسعار مستندة إلى المنتج
+              items:
+                - name: حساب تكاليف بنود عروض الأسعار المستندة إلى المنتج
+                  href: sales/costing-product-based-quote-lines.md
+                - name: إدارة الوحدات المعقدة لبنود عرض الأسعار المستندة إلى المنتج
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: بنود عروض الأسعار المستندة إلى المشروع
+              items:
+                - name: إدارة قوائم أسعار المشروع
+                  href: sales/manage-project-price-lists.md
+                - name: إدارة العديد من العملاء في بند عرض أسعار
+                  href: sales/manage-multiple-customers-quote-line.md
+                - name: تعيين المشاريع والمهام لبند عرض أسعار
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: إنشاء تقديرات في بند عرض أسعار
+                  href: sales/create-estimate-quote-line.md
+                - name: استيراد التقديرات من مشروع إلى بند عرض الأسعار
+                  href: sales/import-estimate-project-quote-line.md
+                - name: إدارة القيم المدرجة في عرض الأسعار وموازنات العملاء والحدود التي يجب ألا يتم تجاوزها
+                  href: sales/manage-quoted-values-budget-limites-quote-line.md
+                - name: عمليات جدولة الفواتير في بند عرض الأسعار
+                  href: sales/invoice-schedule-quote-line.md
+            - name: الفوز بعرض أسعار
+              href: sales/win-quote.md
+            - name: خسارة عرض أسعار
+              href: sales/lose-quote.md
+        - name: إدارة العقود
+          items:
+            - name: المفاهيم الأساسية
+              href: sales/contracts-key-concepts.md
+            - name: إدارة قيم العقود وموازنات العملاء والحدود التي يجب ألا يتم تجاوزها
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: إدارة العديد من العملاء في عقد
+              href: sales/manage-multiple-customers-contract.md
+            - name: شروط التعاقد المستندة إلى المنتج
+              items:
+                - name: حساب تكاليف شروط التعاقد المستندة إلى المنتج
+                  href: sales/cost-product-based-contract-lines.md
+                - name: إدارة الوحدات المعقدة لشروط التعاقد المستندة إلى المنتج
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: شروط التعاقد المستندة إلى المشروع
+              items:
+                - name: إدارة قوائم أسعار المشروع
+                  href: sales/manage-project-price-lists.md
+                - name: إدارة العديد من العملاء في شروط التعاقد
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: تعيين المشاريع والمهام لشروط التعاقد
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: إنشاء تقديرات لمشروع إلى شروط التعاقد
+                  href: sales/create-estimate-project-contract-line.md
+                - name: استيراد التقديرات من مشروع إلى شروط التعاقد
+                  href: sales/import-estimate-project-contract-line.md
+                - name: إدارة قيم العقود وموازنات العملاء والحدود التي يجب ألا يتم تجاوزها في شروط التعاقد
+                  href: sales/manage-contract-values-project-based.md
+                - name: عمليات جدولة الفواتير في بند عرض الأسعار
+                  href: sales/invoice-schedules-quote-line.md
+            - name: تأكيد عقد
+              href: sales/confirm-contract.md
+            - name: إغلاق عقد كعمل مكتمل
+              href: sales/close-contract-work-completed.md
+            - name: إغلاق عقد كملغي
+              href: sales/close-contract-canceled.md
+    - name: التسعير والتكلفة
+      items:
+        - name: قوائم أسعار المنتجات
+          href: pricing-costing/product-price-lists.md
+        - name: قوائم أسعار المشروع
+          items:
+            - name: قائمة الأسعار للتكلفة
+              items:
+                - name: إعداد قوائم أسعار التكلفة
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: افتراضيات قوائم الأسعار
+                  href: pricing-costing/cost-price-list-default.md
+                - name: تجاوز الافتراضيات
+                  href: pricing-costing/cost-override-default.md
+            - name: إعداد قائمة الأسعار للمبيعات
+              items:
+                - name: إعداد قائمة أسعار المبيعات
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: افتراضيات قوائم أسعار المبيعات
+                  href: pricing-costing/sales-price-list-default.md
+                - name: تجاوز الافتراضيات
+                  href: pricing-costing/sales-override-default.md
+        - name: أبعاد التسعير
+          items:
+            - name: نظرة عامة على أبعاد التسعير
+              href: pricing-costing/pricing-dimension-overview.md
+            - name: استخدام حقل موجود في عمليات المشروع كبُعد تسعير
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: الحقول المخصصة كبُعد تسعير
+              items:
+                - name: إنشاء حقول وكيانات مخصصة كأبعاد تسعير
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: إضافة حقول مخصصة إلى إعداد الأسعار وكيانات الحركات
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: 'إعداد الحقول المخصصة كأبعاد تسعير '
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: إيقاف تشغيل بُعد تسعير
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: إدارة المشروع
+      items:
+        - name: نظرة عامة على إدارة المشروع
+          href: project-management/project-management-overview.md
+        - name: مراحل المشروع
+          href: project-management/project-stages.md
+        - name: التنقل في واجهة المستخدم
+          href: project-management/navigate-ui.md
+        - name: فهم حالة المشروع
+          href: project-management/understand-project-status.md
+        - name: تحديد تقاويم المشاريع
+          href: project-management/define-project-calendars.md
+        - name: إنشاء مشروع
+          items:
+            - name: إنشاء تقديرات أولية
+              href: project-management/create-initial-estimates.md
+            - name: تعيين تقويم المشروع
+              href: project-management/set-project-calendar.md
+            - name: تعيين عملة المشروع
+              href: project-management/set-project-currency.md
+            - name: تحديد عميل
+              href: project-management/set-customer.md
+            - name: إضافة مجموعة
+              href: project-management/add-group.md
+        - name: تحديث مشروع
+          href: project-management/update-project.md
+        - name: نسخ مشروع
+          href: project-management/copy-project.md
+        - name: تخطيط هيكل تنظيم العمل
+          items:
+            - name: إنشاء هيكل تنظيم العمل
+              items:
+                - name: إنشاء مهام
+                  href: project-management/wbs-create-tasks.md
+                - name: قص، ونسخ، ولصق المهام
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: التراجع عن المهام وإعادتها
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: التدرج الهرمي لهيكل تنظيم العمل
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: تحديثات المهام المجمعة
+                  href: project-management/bulk-task-updates.md
+                - name: تحرير تفاصيل المهمة
+                  href: project-management/edit-task-details.md
+            - name: إنشاء تعيينات
+              items:
+                - name: إضافة موارد موجودة
+                  href: project-management/add-existing-resources.md
+                - name: إضافة موارد عامة
+                  href: project-management/add-generic-resources.md
+                - name: فهم تأثير التعيينات على مجهود المهمة والمدة وتاريخ الانتهاء
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: عرض مخططات التعيينات
+                  href: project-management/view-assignment-contours.md
+            - name: التنقل في تجربة إدارة المهام
+              items:
+                - name: إدارة الأعمدة
+                  href: project-management/column-management.md
+                - name: مرات العرض
+                  href: project-management/task-management-views.md
+                - name: المستودعات
+                  href: project-management/task management-buckets.md
+        - name: تقدير المشاريع
+          items:
+            - name: نظرة عامة على تقدير المشاريع
+              href: project-management/estimate-projects-overview.md
+            - name: تقديرات الموارد
+              items:
+                - name: تحديث تقديرات المشروع لإظهار التغييرات التي تم إجراؤها على خطة المشروع
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: تحديث الأسعار وأسعار التكلفة في تقديرات المشروع
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: سعر تكلفة المورد وافتراضيات عملة التكلفة
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: سعر فاتورة المورد وافتراضيات عملة المبيعات
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: إنشاء تقديرات المصروفات
+              items:
+                - name: سعر تكلفة المصروفات وافتراضيات عملة التكلفة
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: سعر فاتورة المصروفات وافتراضيات عملة المبيعات
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: إنشاء عروض الأسعار والعقود
+          items:
+            - name: استيراد هيكل تنظيم العمل إلى عروض الأسعار
+              href: project-management/import-wbs-structure-quotes.md
+            - name: استيراد هيكل تنظيم العمل إلى العقود
+              href: project-management/import-wbs-structure-contracts.md
+        - name: تتبع المشروع
+          items:
+            - name: الصفحة الرئيسية لتعقب المشروع
+              href: project-management/cost-vs-effort-overview.md
+            - name: تعاريف الأعمدة
+              items:
+                - name: الجهد
+                  href: project-management/effort.md
+                - name: التكلفة
+                  href: project-management/cost.md
+                - name: المبيعات
+                  href: project-management/sales.md
+            - name: تحديث التقدير عند الاكتمال
+              href: project-management/update-completed-estimate.md
+        - name: أعضاء فريق المشروع
+          items:
+            - name: نظرة عامة على أعضاء فريق المشروع
+              href: project-management/project-team-members-overview.md
+            - name: الاحتفاظ بأعضاء الفريق
+              items:
+                - name: إضافة أعضاء الفريق
+                  href: project-management/add-team-members.md
+                - name: تحديث أعضاء فريق المشروع
+                  href: project-management/update-project-team-members.md
+                - name: حذف أعضاء الفريق
+                  href: project-management/delete-team-members.md
+                - name: المحافظة على عمليات الحجز
+                  href: project-management/maintain-bookings.md
+                - name: الموافقون على المشاريع
+                  href: project-management/project-approvers.md
+        - name: المبيعات
+          items:
+            - name: نظرة عامة على علامة تبويب المبيعات
+              href: project-management/sales-tab-overview.md
+        - name: التعاون
+          items:
+            - name: المجموعات
+              href: project-management/groups.md
+        - name: الأسئلة المتداولة على تخطيط المشروع
+          href: project-management/project-planning-faq.md
+    - name: إدارة الموارد
+      items:
+        - name: نظرة عامة على إدارة الموارد
+          href: resource-management/resource-management-overview.md
+        - name: المفاهيم الأساسية
+          href: resource-management/resource-management-key-concepts.md
+        - name: الحجوزات مقابل التعيينات
+          href: resource-management/booking-vs-assignment.md
+        - name: أوضاع إدارة الموارد
+          items:
+            - name: نظرة عامة على أوضاع إدارة الموارد
+              href: resource-management/resource-management-mode-overview.md
+            - name: مختلط
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: مركزي
+              href: resource-management/resource-management-mode-central.md
+        - name: الحجز المركزي
+          items:
+            - name: نظرة عامة على الحجز المركزي
+              href: resource-management/centralized-booking-overview.md
+            - name: إضافة أعضاء الفريق العام إلى المهام
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: تحديد متطلبات الموارد
+              href: resource-management/define-resource-requirements.md
+            - name: تحديد مخططات المتطلبات
+              href: resource-management/define-resource-requirement-contours.md
+            - name: تحديث متطلبات الموارد
+              href: resource-management/update-resource-requirements.md
+            - name: إرسال متطلبات الموارد
+              href: resource-management/submit-resource-requirements.md
+            - name: طلبات الموارد
+              items:
+                - name: نظرة عامة على طلبات الموارد
+                  href: resource-management/resource-requests-overview.md
+                - name: مراجعة الحقول والإجراءات
+                  href: resource-management/review-fields-actions.md
+                - name: بحث عن الموارد
+                  href: resource-management/find-resources.md
+                - name: مراجعة الموارد المقترحة
+                  href: resource-management/review-proposed-resources.md
+        - name: حجز الموارد غير المركزية
+          items:
+            - name: نظرة عامة على حجز الموارد غير المركزية
+              href: resource-management/decentralized-resource-booking-overview.md
+            - name: خيارات للحجز مباشرة
+              href: resource-management/options-book-directly.md
+            - name: الوفاء بمتطلبات الموارد العامة
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: إدارة الموارد
+          items:
+            - name: إنشاء الموارد
+              href: resource-management/create-resources.md
+            - name: تحديد المهارات والكفاءات
+              href: resource-management/define-skills-proficiencies.md
+            - name: تحديد الأدوار
+              href: resource-management/define-roles.md
+            - name: تحديد تقاويم الموارد
+              href: resource-management/define-resource-calendars.md
+            - name: إقران الموارد بالوحدات التنظيمية
+              href: resource-management/associate-resources-organizational-units.md
+            - name: إقران الموارد بالشركات
+              href: resource-management/associate-resources-companies.md
+        - name: أساليب توزيع الحجوزات
+          href: resource-management/booking-allocation-methods.md
+        - name: حالات الحجز
+          href: resource-management/booking-status.md
+        - name: نماذج المهارات والكفاءة
+          href: resource-management/skills-proficiency-models.md
+        - name: تسوية الموارد
+          items:
+            - name: نظرة عامة على تسوية الموارد
+              href: resource-management/resource-reconciliation-overview.md
+            - name: المفاهيم الأساسية
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: التنقل
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: توسيع الحجوزات
+              href: resource-management/extend-bookings.md
+            - name: إدارة المناطق الزمنية المتعددة
+              href: resource-management/manage-multiple-time-zones.md
+        - name: استخدام المورد
+          items:
+            - name: نظرة عامة على استخدام الموارد
+              href: resource-management/resource-utilization-overview.md
+            - name: البحث والإعدادات والتنقل
+              href: resource-management/search-settings-navigation.md
+        - name: لوحة الجدولة
+          items:
+            - name: التنقل والإعدادات الأساسية
+              href: resource-management/navigation-key-settings-urs.md
+            - name: التخصيص
+              href: resource-management/personalization-urs.md
+            - name: بحث
+              href: resource-management/search-urs.md
+            - name: إجراءات الحجز
+              href: resource-management/booking-actions-urs.md
+            - name: الحجز
+              items:
+                - name: حجز لمشروع
+                  href: resource-management/book-project.md
+                - name: حجز المتطلبات المفتوحة
+                  href: resource-management/book-open-requirements.md
+                - name: استبدال الموارد
+                  href: resource-management/substitute-resources.md
+                - name: تحرير الحجوزات الموجودة
+                  href: resource-management/edit-existing-bookings.md
+        - name: الأسئلة المتداولة حول إدارة الموارد
+          href: resource-management/resource-management-faq.md
+    - name: الوقت
+      items:
+        - name: نظرة عامة إدخال الوقت
+          href: time/time-entry-overview.md
+        - name: إنشاء إدخالات الوقت
+          items:
+            - name: استيراد عمليات الحجز والتعيينات وإدخالات التقاويم
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: سلوك واجهة المستخدم
+              href: time/ui-behavior.md
+        - name: إرسال إدخالات الوقت
+          href: time/submit-time-entries.md
+        - name: استدعاء إدخالات الوقت
+          items:
+            - name: قبل الموافقة
+              href: time/recall-time-entries-before-approval.md
+            - name: بعد الموافقة
+              href: time/recall-time-entries-after-approval.md
+        - name: الموافقة على إدخالات الوقت
+          href: time/approvals.md
+        - name: ملاحظات المطورين
+          items:
+            - name: توسيع إدخالات الوقت
+              href: time/extending-time-entries.md
+            - name: تخصيص شبكة إدخال الوقت الأسبوعي
+              href: time/customize-weekly-time-entry-grid.md
+            - name: اعتبارات الأمان
+              href: time/security-considerations.md
+    - name: المصروفات
+      items:
+        - name: الصفحة الرئيسية للمصروفات
+          href: expense/expense-overview.md
+        - name: إدخال المصروفات
+          href: expense-entry.md
+    - name: الموافقات
+      items:
+        - name: النظرة العامة
+          href: approvals/approvals-overview.md
+        - name: الموافقة على إدخالات الوقت
+          href: approvals/approving-time-entries.md
+        - name: الموافقة على إدخالات المصروفات
+          href: approve-expense-entries.md
+    - name: الفواتير الأولية
+      items:
+        - name: إنشاء جداول الفواتير
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: إنشاء فاتورة أولية يدوية
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: إدارة فاتورة أولية
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: تأكيد فاتورة أولية
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: الفواتير التصحيحية
+          href: proforma-invoicing/corrective-invoices.md
+        - name: تكوين عملية إنشاء فاتورة تلقائية
+          href: proforma-invoicing/configure-automated-invoice-creation.md

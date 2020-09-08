@@ -1,0 +1,3 @@
+> [!IMPORTANT]
+> <span data-ttu-id="98fc5-101">لقد تطور Dynamics 365 for Finance and Operations إلى تطبيقات مُصممة لهذا الغرض لمساعدتك في إدارة وظائف عمل محددة.</span><span class="sxs-lookup"><span data-stu-id="98fc5-101">Dynamics 365 for Finance and Operations has evolved into purpose-built applications to help you manage specific business functions.</span></span> <span data-ttu-id="98fc5-102">للحصول على مزيد من المعلومات حول هذه التغييرات، راجع [دليل ترخيص Dynamics 365](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf).</span><span class="sxs-lookup"><span data-stu-id="98fc5-102">For more information about these changes, see [Dynamics 365 Licensing Guide](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf).</span></span>
+ 
