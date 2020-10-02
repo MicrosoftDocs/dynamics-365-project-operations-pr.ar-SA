@@ -1,0 +1,45 @@
+---
+title: تحديد المهارات والكفاءات
+description: يقدم هذا الموضوع معلومات حول كيفية إعداد نماذج الكفاءة لتصنيف الموارد‬.
+author: ruhercul
+manager: AnnBe
+ms.date: 09/23/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-customerservice
+ms.technology: ''
+audience: Application User
+ms.reviewer: kfend
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: ruhercul
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 9376e0b268a3ab682716da604ceecfa1e878da68
+ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3897615"
+---
+# <a name="define-skills-and-proficiencies"></a><span data-ttu-id="ae325-103">تحديد المهارات والكفاءات</span><span class="sxs-lookup"><span data-stu-id="ae325-103">Define skills and proficiencies</span></span>
+
+<span data-ttu-id="ae325-104">_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_</span><span class="sxs-lookup"><span data-stu-id="ae325-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+
+<span data-ttu-id="ae325-105">المهارات هي خصائص الموارد التي تمت مشاركتها بين Dynamics 365 Project Operations و Dynamics 365 Field Service، إن وُجدت.</span><span class="sxs-lookup"><span data-stu-id="ae325-105">Skills are resource characteristics that are shared between Dynamics 365 Project Operations and if present, Dynamics 365 Field Service.</span></span> 
+
+- <span data-ttu-id="ae325-106">للاحتفاظ بمستودع المهارات في عمليات المشروع، انتقل إلى **موارد** \> **مهارات الموارد**.</span><span class="sxs-lookup"><span data-stu-id="ae325-106">To maintain the repository of skills in Project Operations, go to **Resources** \> **Resource Skills**.</span></span> 
+
+## <a name="use-proficiency-models-to-rate-resources"></a><span data-ttu-id="ae325-107">استخدام نماذج الكفاءة لتصنيف الموارد</span><span class="sxs-lookup"><span data-stu-id="ae325-107">Use proficiency models to rate resources</span></span>
+
+<span data-ttu-id="ae325-108">يتم تصنيف مهارات الموارد بواسطة نماذج كفاءة.</span><span class="sxs-lookup"><span data-stu-id="ae325-108">Skills for resources are rated by proficiency models.</span></span> <span data-ttu-id="ae325-109">توجد التصنيفات الفردية في نموذج الكفاءة.</span><span class="sxs-lookup"><span data-stu-id="ae325-109">The individual ratings are in a proficiency model.</span></span> 
+
+1. <span data-ttu-id="ae325-110">لإنشاء نموذج كفاءة، انتقل إلى **الموارد**\>**نماذج الكفاءة**، ثم حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="ae325-110">To create a proficiency model, go to **Resources** \> **Proficiency Models**, and then select **New**.</span></span>
+2. <span data-ttu-id="ae325-111">في نموذج التصنيف الجديد، حدد الحد الأدنى لقيمة التصنيف والقيمة القصوى للتصنيف والكيان الذي يتم تصنيفه.</span><span class="sxs-lookup"><span data-stu-id="ae325-111">In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.</span></span>
+3. <span data-ttu-id="ae325-112">في الشبكة الفرعية **قيم التصنيف**، يمكنك تحديد قيم التصنيف المختلفة، من الحد الأدنى إلى الحد الأقصى.</span><span class="sxs-lookup"><span data-stu-id="ae325-112">In the **Rating Values** sub-grid, you can define the different rating values, from the minimum to the maximum.</span></span>
+
+
+<span data-ttu-id="ae325-113">يتم عرض قيم التصنيف هذه في عوامل تصفية **متطلبات الموارد**، و**لوحة الجدولة**، و**مساعد الجدولة**.</span><span class="sxs-lookup"><span data-stu-id="ae325-113">These rating values are shown on the **Resource Requirements**, **Schedule Board**, and **Schedule Assistant** filters.</span></span>
