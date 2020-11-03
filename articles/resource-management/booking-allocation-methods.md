@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 74f8889022e42a7bbd37879df870401c0e103446
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: c2a964c18c7eae61c5a0239da3b18da31b6ad574
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897660"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070594"
 ---
 # <a name="booking-allocation-methods"></a>أساليب توزيع الحجوزات
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-سواء كنت تعمل على إضافة عضو فريق مباشرة في علامة تبويب **الفريق**، أو حجز مورد لأحد المشاريع أو المتطلبات من لوحة الجدولة، يمكنك استخدام بعض الأساليب المختلفة لتوزيع الحجز. يوضح هذا الموضوع كيفية عمل كل أسلوب، والأساليب التي قد تؤدي إلى إجراء حجز زائد للموارد.
+سواء كنت تعمل على إضافة عضو فريق مباشرة في علامة تبويب **الفريق** ، أو حجز مورد لأحد المشاريع أو المتطلبات من لوحة الجدولة، يمكنك استخدام بعض الأساليب المختلفة لتوزيع الحجز. يوضح هذا الموضوع كيفية عمل كل أسلوب، والأساليب التي قد تؤدي إلى إجراء حجز زائد للموارد.
 
 ## <a name="booking-allocation-methods"></a>أساليب توزيع الحجوزات
 

@@ -3,23 +3,23 @@ title: نسخ مشروع
 description: يوفر هذا الموضوع معلومات حول نسخ المشاريع في Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907813"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070585"
 ---
 # <a name="copy-a-project"></a>نسخ مشروع
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-مع Dynamics 365 Project Operations، يمكنك بناء مشاريع جديدة بسرعة باستخدام الإجراء **نسخ المشروع** على نموذج **المشاريع**. لنسخ مشروع، حدد مشروعًا، ثم حدد **نسخ**. سينسخ هذا الإجراء:
+مع Dynamics 365 Project Operations، يمكنك بناء مشاريع جديدة بسرعة عن طريق تحديد الإجراء **نسخ المشروع** على نموذج **المشاريع**. لنسخ مشروع، افتح المشروع الذي تريد نسخه، ثم حدد **نسخ المشروع**. سينسخ هذا الإجراء:
 
 - خصائص المشروع
 - هيكل تنظيم العمل
@@ -58,4 +58,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ## <a name="estimates"></a>التقديرات
 
-عند نسخ المشروع، يتم نسخ كل من بنود تقدير الموارد والمصروفات من المشروع المصدر.
+عند نسخ المشروع، يتم نسخ كل من بنود تقدير الموارد والمصروفات من المشروع المصدر. 
+
+للحصول على معلومات حول كيفية الوصول إلى "نسخ المشروع" برمجيًا، راجع [تطوير قوالب المشروع مع نسخ المشروع‬‬](dev-copy-project.md).

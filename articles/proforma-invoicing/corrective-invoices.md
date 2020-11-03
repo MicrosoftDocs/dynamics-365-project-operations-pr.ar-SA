@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e14da1c07d5b697de6caf1b9041c30581ecff102
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: b31e702cc15bbb3937e8c4b305064212f63ce919
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898065"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070812"
 ---
 # <a name="corrected-invoices"></a>الفواتير المصححة
 
-_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
+_**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
 يمكن تحرير الفواتير المؤكدة. عندما تقوم بتحرير فاتورة مؤكدة، يتم إنشاء مسودة فاتورة مُصححة. نظرًا لأن الافتراض هو أنك تريد إلغاء جميع المعاملات والكميات من الفاتورة الأصلية، فمن ثم تتضمن الفاتورة المصححة جميع المعاملات من الفاتورة الأصلية، وتكون جميع الكميات الموجودة بها صفر (0).
 

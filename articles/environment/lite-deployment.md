@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: e938876d459b3f6dfedd90e57e3042cda96bffb7
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948716"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070508"
 ---
 # <a name="deploy-project-operations-lite-deployment--deal-to-proforma-invoicing"></a>نشر Project Operations Lite – التعامل مع الفواتير الأولية
 
@@ -32,7 +32,7 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>تثبيت Project Operations في بيئة CDS جديدة
 
-1. بصفتك [المسؤول العمومي أو مسؤول Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) ولديك ترخيص، أنشئ بيئة CDS جديدة في [مركز إدارة PowerPlatform](https://admin.powerplatform.com). تأكد من تمكين **قاعدة بيانات CDS** و**تطبيقات Dynamics 365**. للحصول على مزيد من المعلومات، راجع [إنشاء البيئات وإدارتها في مركز إدارة Power Platform](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. بصفتك [المسؤول العمومي أو مسؤول Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) ولديك ترخيص، أنشئ بيئة CDS جديدة في [مركز إدارة PowerPlatform](https://admin.powerplatform.com). تأكد من تمكين **قاعدة بيانات CDS** و **تطبيقات Dynamics 365**. للحصول على مزيد من المعلومات، راجع [إنشاء البيئات وإدارتها في مركز إدارة Power Platform](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. حدد **Microsoft Dynamics 365 Project Operations** من قائمة نشر تطبيقات Dynamics 365.
 
 

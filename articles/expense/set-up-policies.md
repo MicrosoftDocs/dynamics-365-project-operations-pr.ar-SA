@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fbab7fd94fa429876216ee82b716da8d847fb01a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 30b3a0e1547ca7043b1433da2b4ebf02f2b473a1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896625"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070714"
 ---
 # <a name="define-expense-policies"></a>تحديد نُهج المصروفات
 
@@ -37,10 +36,10 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
         
 يمكنك تحديد ثلاثة أنواع من النُهج:         
         
-- **تحذير**: يتيح للعامل إرسال تقرير مصروفات أو طلب سفر ولكن سيتم تمييز المصروفات لكل الموافقين         
+- **تحذير** : يتيح للعامل إرسال تقرير مصروفات أو طلب سفر ولكن سيتم تمييز المصروفات لكل الموافقين         
   لإعداد تقارير في وقت لاحق.        
 
-- **خطأ**: للطلب من العامل مراجعة المصروفات للتوافق مع النهج قبل إرسال تقرير المصروفات أو طلب السفر.        
+- **خطأ** : للطلب من العامل مراجعة المصروفات للتوافق مع النهج قبل إرسال تقرير المصروفات أو طلب السفر.        
  
  - **المبرر** للطلب من العامل أو المدير إدخال مبررات لتجاوز مبلغ النهج قبل إرسال تقرير المصروفات أو طلب السفر.        
 

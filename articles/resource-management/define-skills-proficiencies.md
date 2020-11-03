@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9376e0b268a3ab682716da604ceecfa1e878da68
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 24538ed1d610a0cae4c2badc0fd33c2f738a8338
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897615"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070588"
 ---
 # <a name="define-skills-and-proficiencies"></a>تحديد المهارات والكفاءات
 
@@ -37,9 +36,9 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 يتم تصنيف مهارات الموارد بواسطة نماذج كفاءة. توجد التصنيفات الفردية في نموذج الكفاءة. 
 
-1. لإنشاء نموذج كفاءة، انتقل إلى **الموارد**\>**نماذج الكفاءة**، ثم حدد **جديد**.
+1. لإنشاء نموذج كفاءة، انتقل إلى **الموارد**\>**نماذج الكفاءة** ، ثم حدد **جديد**.
 2. في نموذج التصنيف الجديد، حدد الحد الأدنى لقيمة التصنيف والقيمة القصوى للتصنيف والكيان الذي يتم تصنيفه.
-3. في الشبكة الفرعية **قيم التصنيف**، يمكنك تحديد قيم التصنيف المختلفة، من الحد الأدنى إلى الحد الأقصى.
+3. في الشبكة الفرعية **قيم التصنيف** ، يمكنك تحديد قيم التصنيف المختلفة، من الحد الأدنى إلى الحد الأقصى.
 
 
-يتم عرض قيم التصنيف هذه في عوامل تصفية **متطلبات الموارد**، و**لوحة الجدولة**، و**مساعد الجدولة**.
+يتم عرض قيم التصنيف هذه في عوامل تصفية **متطلبات الموارد** ، و **لوحة الجدولة** ، و **مساعد الجدولة**.

@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3570aeb78804e9b267caa55a27e02d6c8df9a5c6
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 504aa90bfb478207059b5e2894a3990f9a4a5e9e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898155"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070712"
 ---
 # <a name="product-price-lists"></a>قوائم أسعار المنتجات
 
@@ -47,7 +46,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
  
 ## <a name="default-product-price-list"></a>قائمة أسعار المنتجات الافتراضية
-يحتوي كل سجل عميل على حقل **قائمة الأسعار الافتراضية**، حيث يمكنك تحديد قائمة أسعار تطابق العملة الخاصة بالعميل. لا يتم إدخال قيمة افتراضية تلقائيًا في هذا الحقل. عند وجود اتفاقية تسعير مخصصة مع عميل محدد، يمكنك استخدام هذا الحقل لربط قائمة أسعار بهذا العميل.
+يحتوي كل سجل عميل على حقل **قائمة الأسعار الافتراضية** ، حيث يمكنك تحديد قائمة أسعار تطابق العملة الخاصة بالعميل. لا يتم إدخال قيمة افتراضية تلقائيًا في هذا الحقل. عند وجود اتفاقية تسعير مخصصة مع عميل محدد، يمكنك استخدام هذا الحقل لربط قائمة أسعار بهذا العميل.
 
 تستخدم كيانات الفرصة وعرض الأسعار وعقد المشروع الترتيب التالي لإدخال قوائم أسعار المنتجات الافتراضية. يتم استخدام نفس الترتيب لقوائم أسعار المشروع.
 

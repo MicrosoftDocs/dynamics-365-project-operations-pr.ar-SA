@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948721"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070515"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>إضافة اشتراك Azure إلى مشروع LCS
 
@@ -23,11 +23,11 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="grant-admin-consent"></a>منح موافقة المسؤول
 
-1. في مشروع LCS الخاص بك، في قسم **البيئات**، حدد **إعدادات Microsoft Azure**.
+1. في مشروع LCS الخاص بك، في قسم **البيئات** ، حدد **إعدادات Microsoft Azure**.
 
 ![إعدادات تطبيق Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. في صفحة **إعدادات المشروع**، في علامة التبويب **موصلات Azure**، حدد **تخويل**. هذا يسمح بنشر البيئات في هذا المشروع.
+2. في صفحة **إعدادات المشروع** ، في علامة التبويب **موصلات Azure** ، حدد **تخويل**. هذا يسمح بنشر البيئات في هذا المشروع.
 
 ![موصلات Azure](./media/2AzureConnectors.png)
 
@@ -50,18 +50,18 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ![تفاصيل اشتراك Azure](./media/6AzureSubscription.png)
 
 2. حدد **الوصول للتحكم (IAM)** في جزء التنقل، ثم حدد **إضافة تعيين دور**.
-3. في شريط التمرير الموجود على الجانب الأيسر، حدد **دور المساهم**، وفي القائمة المتوفرة، ابحث عن وحدد**Dynamics Deployment Services**. 
+3. في شريط التمرير الموجود على الجانب الأيسر، حدد **دور المساهم** ، وفي القائمة المتوفرة، ابحث عن وحدد **Dynamics Deployment Services**. 
 4. حدد **حفظ**.
 
 ![الوصول إلى الاشتراك](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>إضافة اشتراك موصل إلى مشروع LCS
 
-1. في مشروع LCS الخاص بك، في صفحة **إعدادات Microsoft Azure**، حدد **إضافة** لإضافة موصل جديد.
+1. في مشروع LCS الخاص بك، في صفحة **إعدادات Microsoft Azure** ، حدد **إضافة** لإضافة موصل جديد.
 2. أدخل معرف اشتراك Azure الخاص بك. يمكنك العثور على معرف اشتراك Azure في [مدخل Azure](https://ms.portal.azure.com/)، أسفل **الإعدادات** في الجزء السفلي الأيمن من الشاشة.
-3. في حقل **التكوين لاستخدام Azure Resource Manager**، حدد **نعم**.
+3. في حقل **التكوين لاستخدام Azure Resource Manager** ، حدد **نعم**.
 4. تأكد من أن مجال مستأحر AAD الخاص باشتراك Azure يطابق المجال الذي يمتلك اشتراك Azure الذي تستخدمه، وحدد **التالي**.
-5. في شاشة **إعداد Microsoft Azure**، حدد **التالي** للتأكيد. إذا تلقيت خطأ في هذه الشاشة، فقم بالرجوع إلى القسم [توفير وصول Dynamics Deployment Services إلى اشتراك Azure](#provide) في هذه الموضوع وتأكد من إتمام كافة الخطوات.
+5. في شاشة **إعداد Microsoft Azure** ، حدد **التالي** للتأكيد. إذا تلقيت خطأ في هذه الشاشة، فقم بالرجوع إلى القسم [توفير وصول Dynamics Deployment Services إلى اشتراك Azure](#provide) في هذه الموضوع وتأكد من إتمام كافة الخطوات.
 6. قم بتنزيل شهادة إدارة Azure إلى مجلد محلي على جهاز الكمبيوتر الخاص بك ثم قم بتحميلها إلى مدخل إدارة Azure بالانتقال إلى **الإعدادات** > **إدارة الشهادات**. ستعمل هذه الشهادة على تمكين LCS من الاتصال مع Azure نيابة عنك. يمكنك تخطي هذه الخطوة إذا كان المستخدم لديه حق الوصول إلى الاشتراك.
 7. حدد **التالي**.
 8. حدد منطقه Azure التي سيتم النشر فيها وحدد مركز بيانات قريب من المكان الذي تخطط لاستخدام هذا النظام فيه.

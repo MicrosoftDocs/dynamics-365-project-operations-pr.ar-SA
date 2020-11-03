@@ -8,31 +8,31 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948717"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070509"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>تطبيق إعداد بيانات العرض التوضيحي وبيانات التكوين لعملية نشر Project Operations Lite – التعامل مع الفواتير الأولية‬.‬
 
 _**النشر الخفيف - التعامل مع الفواتير الأولية_
 
 1. قم بتنزيل [حزمة البيانات الرئيسية](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. انتقل إلى المجلد *ProjOpsDemoDataSetupAndMaster - Integrated CMT*، وقم بتشغيل الملف القابل للتنفيذ *DataMigrationUtility*.
+2. انتقل إلى المجلد *ProjOpsDemoDataSetupAndMaster - Integrated CMT* ، وقم بتشغيل الملف القابل للتنفيذ *DataMigrationUtility*.
 3. في الصفحة 1 من معالج ترحيل تكوين (CMT) Common Data Service، حدد **استيراد البيانات** ثم حدد **متابعة**.
 
 ![ترحيل التكوين](./media/1ConfigurationMigration.png)
 
-4. في الصفحة 2 من معالج CMT، حدد **Office 365** على أنه **نوع النشر**.
-5. حدد خانتي الاختيار **عرض قائمة بالمؤسسات المتاحة** و**إظهار الخيارات المتقدمة**‬.
+4. في الصفحة 2 من معالج CMT، حدد **Microsoft 365** على أنه **نوع النشر**.
+5. حدد خانتي الاختيار **عرض قائمة بالمؤسسات المتاحة** و **إظهار الخيارات المتقدمة** ‬.
 6. حدد منطقة المستأجر، وأدخل بيانات اعتمادك، ثم حدد **تسجيل الدخول**.
 
 ![تسجيل الدخول إلى التكوين](./media/2ConfigurationSignin.png)
 
 7. في الصفحة 3، من قائمة المؤسسات على المستأجر، حدد المؤسسة التي ترغب في استيراد بيانات العرض التوضيحي اليها، ثم حدد **تسجيل الدخول**.
-8. في الصفحة 4، حدد ملف zip، *MasterAndSetupData*، من المجلد الذي تم فك ضغطه، *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
+8. في الصفحة 4، حدد ملف zip، *MasterAndSetupData* ، من المجلد الذي تم فك ضغطه، *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
 
 ![ملف مضغوط](./media/3ZipFile.png)
 

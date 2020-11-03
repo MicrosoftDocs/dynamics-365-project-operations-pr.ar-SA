@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ea5399368214a293ca7c10fabf21d82407b5c76f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 345a4f38ad0bc5acddb90cfd8cb3e92154e46513
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898740"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070767"
 ---
 # <a name="units-and-unit-groups"></a>الوحدات ومجموعات الوحدات
 
@@ -46,4 +45,4 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 2. حدد **إضافة وحدة جديدة** وفي صفحة **الإنشاء السريع: وحدة‬‏‫** في حقل **الاسم** أدخل اسم الوحدة.
 3. في حقل **الكمية** أدخل الكمية التي ستحتويها الوحدة. على سبيل المثال، إذا كان الصندوق يحتوي على قطعتين، أدخل "2." 
 4. في حقل **‏‫الوحدة الأساسية‬** حدد وحدة أساسية لإنشاء اقل وحده قياس للوحدة. على سبيل المثال، يمكنك تحديد "قطعة".
-5. حدد **حفظ**:
+5. حدد **حفظ** :

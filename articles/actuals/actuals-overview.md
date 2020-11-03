@@ -1,5 +1,5 @@
 ---
-title: الصفحة الرئيسية للقيم الفعلية
+title: القيم الفعلية
 description: يقدم هذا الموضوع معلومات حول كيفية العمل مع القيم الفعلية في Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 75ad336a995aba3505325466433a5c5e2bb3e776
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907302"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070634"
 ---
-# <a name="actuals"></a>القيم الفعلية
+# <a name="actuals"></a>القيم الفعلية 
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
@@ -46,7 +45,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 يكمن منطق إنشاء الأسعار الافتراضية في دفتر اليومية. يتم نسخ قيم الحقول من إدخال الوقت إلى دفتر اليومية. تتضمن هذه القيم تاريخ الحركة وشروط التعاقد التي تم تعيين المشروع لهاـ وينتج عن العملة قائمة الأسعار المناسبة.
 
-تُستخدم الحقول التي تؤثر في التسعير الافتراضي مثل **الدور** و**وحدة المؤسسة** لتحديد السعر المناسب في دفتر اليومية. يمكنك إضافة حقل مخصص في إدخال الوقت. إذا أردت أن يتم نشر قيمة الحقل على القيم الفعلية، فأنشئ الحقل في كيان القيم الفعلية، واستخدم تعيينات الحقول لنسخ الحقل من إدخال الوقت إلى القيمة الفعلية.
+تُستخدم الحقول التي تؤثر في التسعير الافتراضي مثل **الدور** و **وحدة المؤسسة** لتحديد السعر المناسب في دفتر اليومية. يمكنك إضافة حقل مخصص في إدخال الوقت. إذا أردت أن يتم نشر قيمة الحقل على القيم الفعلية، فأنشئ الحقل في كيان القيم الفعلية، واستخدم تعيينات الحقول لنسخ الحقل من إدخال الوقت إلى القيمة الفعلية.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>إرسال أسطر دفتر اليومية والمصروفات الأساسية
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 94cf0f0d88e9be2522936b45122ed0037434d4f3
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961676"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070538"
 ---
 # <a name="submit-a-resource-request"></a>إرسال طلب المورد
 
@@ -21,7 +21,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 يمكنك إرسال متطلب مورد تم إنشاؤه كطلب مورد. ثم يتم إرسال الطلب إلى مدير مورد لاستيفائه.
 
-1. في Dynamics 365 Project Operations، في صفحة **المشاريع**، حدد علامة التبويب **الفريق** لعرض قائمة بالموارد القابلة للحجز. 
+1. في Dynamics 365 Project Operations، في صفحة **المشاريع** ، حدد علامة التبويب **الفريق** لعرض قائمة بالموارد القابلة للحجز. 
 2. حدد المورد العام الذي يحتوي على متطلب مورد من القائمة، ثم انقر فوق **إرسال طلب**.
 
 ستتغير حالة طلب عضو الفريق العام إلى **تم الإرسال**.
