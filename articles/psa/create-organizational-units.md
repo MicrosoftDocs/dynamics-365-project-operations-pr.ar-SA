@@ -3,7 +3,7 @@ title: إنشاء الوحدات التنظيمية
 description: كيفية إنشاء وحدات تنظيمية في Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c653f5bd066fd174c8fb0996820628c1b281519
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebb00b9838773560404a9e3f7a19cc83408d7889
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070693"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125065"
 ---
 # <a name="create-organizational-units-project-service"></a>إنشاء وحدات تنظيمية (Project Service)
 
@@ -38,11 +38,11 @@ ms.locfileid: "4070693"
   
 2.  انقر فوق **جديد**.  
   
-3.  في الناحية **عام** أدخل اسمًا للوحدة التنظيمية في **الاسم** ، ثم قم بملء الحقول الأخرى حسب الحاجة.  
+3.  في الناحية **عام** أدخل اسمًا للوحدة التنظيمية في **الاسم**، ثم قم بملء الحقول الأخرى حسب الحاجة.  
   
 4.  انقر فوق **حفظ** لإنشاء السجل حتى يمكنك متابعة تحريره.  
   
-5.  تحت **قوائم أسعار التكلفة** ، انقر فوق **+** لإضافة قائمة أسعار. يمكنك إضافة قوائم الأسعار فقط باستخدام سياق **التكلفة** هنا.  
+5.  تحت **قوائم أسعار التكلفة**، انقر فوق **+** لإضافة قائمة أسعار. يمكنك إضافة قوائم الأسعار فقط باستخدام سياق **التكلفة** هنا.  
   
 6.  في حقل **الاسم** ، انقر فوق الزر **بحث** وحدد قائمة أسعار تريد توفيرها لهذه الوحدة التنظيمية. تابع إضافة قوائم الأسعار حسب الحاجة.  
   

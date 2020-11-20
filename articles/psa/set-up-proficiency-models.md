@@ -3,7 +3,7 @@ title: إعداد نماذج الكفاءة
 description: كيفية إعداد نماذج الكفاءة في Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 653b7eef12c57203fbc6853e97d3be43bdb85b9d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2d13d5bbfd43ef88ec2f285357ee26a2a87db870
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070861"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122957"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>إعداد نماذج الكفاءة (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "4070861"
   
 2.  لعرض أو تحرير نموذج الكفاءة الافتراضي، انقر فوق **نظام التقييم الافتراضي‬** في القائمة، أو لإنشاء نموذج كفاءة جديد، انقر فوق **جديد**.  
   
-3.  إذا كنت تقوم بإنشاء نموذج كفاءة جديد، فاملأ الحقول في الناحية **عام** ، ثم انقر فوق **حفظ** لإنشاء السجل لكي تتابع تحريره. عند إنشاء نموذج كفاءة خاص بك، تذكر أن الأرقام الأعلى تُعد أفضل من الأرقام الأدنى.  
+3.  إذا كنت تقوم بإنشاء نموذج كفاءة جديد، فاملأ الحقول في الناحية **عام**، ثم انقر فوق **حفظ** لإنشاء السجل لكي تتابع تحريره. عند إنشاء نموذج كفاءة خاص بك، تذكر أن الأرقام الأعلى تُعد أفضل من الأرقام الأدنى.  
   
      على سبيل المثال، إذا كنت تعرض نموذج التقييم الافتراضي أو تحرره، فسترى مستويات الكفاءة التالية في **قيم التصنيف**.  
   

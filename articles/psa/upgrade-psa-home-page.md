@@ -2,7 +2,7 @@
 title: الصفحة الرئيسية للترقية
 description: يوضح هذا الموضوع مكان البحث عن معلومات هامة حول الميزات الجديدة والمتغيرة في Dynamics 365 Project Service Automation، وعملية الترقية إلى الإصدار الأحدث.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070725"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121742"
 ---
 # <a name="upgrade-home-page"></a>الصفحة الرئيسية للترقية
 
@@ -61,4 +61,4 @@ ms.locfileid: "4070725"
 اعتبارً من 1 مارس 2020، سيتعذر على عملاء Dynamics PSA إنشاء بيئات جديدة باستخدام إصدارات قديمة من PSA، على سبيل المثال الإصدار 2.x من PSA أو إصدار أقدم. لإنشاء بيئة جديدة، يجب استخدام الإصدار 3.x من PSA.
 
 > [!NOTE]
-> للحصول علي أفضل تجربه عند استخدام الإصدارات القديمة من تطبيقي Field Service وPSA، انتقل إلى صفحة **إعدادات النظام** وبالنسبة للحقل، حقل **استخدام الواجهة الموحدة الجديدة فقط (موصى به)** ، حدد **لا** نظرًا لأن هذه الإصدارات لم يتم تصميمها ليتم تحميلها بشكل صحيح في UCI. بعد أن تقوم بإيقاف تشغيل UCI، يمكنك فتح وتشغيل هذه الإصدارات من Field Service وPSA باستخدام عميل الويب القديم. 
+> للحصول على أفضل تجربه عند استخدام الإصدارات القديمة من تطبيقي Field Service وPSA، انتقل إلى صفحة **إعدادات النظام** وبالنسبة للحقل، حقل **استخدام الواجهة الموحدة الجديدة فقط (موصى به)**، حدد **لا** نظرًا لأن هذه الإصدارات لم يتم تصميمها ليتم تحميلها بشكل صحيح في UCI. بعد أن تقوم بإيقاف تشغيل UCI، يمكنك فتح وتشغيل هذه الإصدارات من Field Service وPSA باستخدام عميل الويب القديم. 

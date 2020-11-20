@@ -3,7 +3,7 @@ title: عرض استخدام الموارد الخاضع للرسوم
 description: يوفر هذا الموضوع معلومات حول طريقة عرض استخدام الموارد.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070666"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122147"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>عرض استخدام الموارد الخاضع للرسوم
  
@@ -46,7 +46,7 @@ ms.locfileid: "4070666"
 
 1. انتقل إلى **الموارد** \> **الموارد**. 
 2. حدد أحد الوارد لفتح السجل. 
-3. من علامة التبويب **Project Service** ، يمكنك أيضًا تعيين الاستخدام المستهدف للمورد.
+3. من علامة التبويب **Project Service**، يمكنك أيضًا تعيين الاستخدام المستهدف للمورد.
 
 > ![لقطة شاشة لاستخدام علامة التبويب Project Service لتعيين الاستخدام المستهدف](media/FAQ-utilization-2.png)
  
@@ -68,7 +68,7 @@ ms.locfileid: "4070666"
 
 1. لتعيين هذا، انتقل إلى **الموارد** \> **الموارد**. 
 2. حدد موردا ، ثم افتح السجل، ثم حدد علامة التبويب **Project Service**. 
-3. في شبكة **دور المورد** ، تأكد من وجود دور واحد للمورد وأنه تم تعيين **الوضع الافتراضي** إلى **نعم**.
+3. في شبكة **دور المورد**، تأكد من وجود دور واحد للمورد وأنه تم تعيين **الوضع الافتراضي** إلى **نعم**.
  
 ### <a name="change-billing-type-for-resource-role"></a>تغيير نوع الفوترة لدور المورد
 

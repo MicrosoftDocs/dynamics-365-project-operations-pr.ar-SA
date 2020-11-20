@@ -3,7 +3,7 @@ title: متطلبات الحجز المبدئي
 description: يوفر هذا الموضوع معلومات حول كيفية الوفاء بمتطلبات الحجز المبدئي.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070854"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124082"
 ---
 # <a name="soft-book-requirements"></a>متطلبات الحجز المبدئي
 
@@ -31,7 +31,7 @@ ms.locfileid: "4070854"
 
 ![تعيين حالة الحجز إلى مبدئي](media/Resource-Management-image77.png)
 
-عند وجود علامة التبويب **فريق** في طريقة عرض **أعضاء الفريق المسمى** ، يظهر المورد هناك. ويتم الإبلاغ عن الساعات الحجوزة مبدئيًا في عمود **الساعات المحجوزة مبدئيًا**.
+عند وجود علامة التبويب **فريق** في طريقة عرض **أعضاء الفريق المسمى**، يظهر المورد هناك. ويتم الإبلاغ عن الساعات الحجوزة مبدئيًا في عمود **الساعات المحجوزة مبدئيًا**.
 
 ![طريقة عرض الساعات المحجوزة مبدئيًا في أعضاء الفريق المسمى](media/Resource-Management-image78.png)
 
@@ -39,7 +39,7 @@ ms.locfileid: "4070854"
 
 ![تعيين عضو فريق محجوز مبدئيًا لمهمة](media/Resource-Management-image79.png)
 
-في علامة التبويب **التسوية** ، لا يتم عرض أي حجوزات لمورد الحجز المبدئي، لأن علامة التبويب **التسوية** تراعي الحجوزات الثابتة فقط.
+في علامة التبويب **التسوية**، لا يتم عرض أي حجوزات لمورد الحجز المبدئي، لأن علامة التبويب **التسوية** تراعي الحجوزات الثابتة فقط.
 
 ![المورد المحجوز مبدئيًا دون حجوزات في علامة تبويب التسوية](media/Resource-Management-image80.png)
 

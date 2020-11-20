@@ -3,7 +3,7 @@ title: الجديد أو المتغير في إصدار التحديث 15، ال
 description: يقدم هذا الموضوع معلومات حول الجديد في إصدار التحديث 15، الإصدار 3 من Project Service Automation.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6112e4874025e528a2bb583cf215fd9eff681534
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2112e70d7359e7f30725ef3069a18570da651c06
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070601"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119897"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>الإصدار 3 من Project Service Automation، إصدار التحديث 15
 

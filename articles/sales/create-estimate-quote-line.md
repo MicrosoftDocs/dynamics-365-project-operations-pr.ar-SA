@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070672"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122912"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>إنشاء تقديرات في بند عرض أسعار
 
@@ -80,11 +80,11 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 إذا قمت بإضافة حقل مخصص إلى تفاصيل بند عرض الأسعار وتريد أن يقوم النظام بإدخال قيمة الحقل كقيمة افتراضيه في بند التكلفة ذي الصلة الذي ينشئه، استخدم أدوات تسجيل المكونات الإضافية PreOperationContractLineDetailUpdate وPreOperationQuoteLineDetailUpdate. ويجب إعادة تسجيل هذه المكونات الإضافية بعد تغيير تفصيل بند عرض الأسعار أو تغيير تفاصيل شرط التعاقد. اتبع هذه الخطوات لاستكمال العملية.
 
 1. افتح PluginRegistrationTool، وقم بالاتصال بالمثيل الخاص بك على الإنترنت.
-2. حدد **بحث** ، وابحث عن المكون الإضافي المراد تحديثه.
+2. حدد **بحث**، وابحث عن المكون الإضافي المراد تحديثه.
 3. حدد المكون الإضافي، ثم في الصفحة الرئيسية، حدد **تحديد**.
 4. حدد خطوة المكون الإضافي المراد تحديثها، وانقر بزر الماوس الأيمن، ثم حدد **تحديث**.
-5. في مربع حوار **تحديث خطوة موجودة** ، في حقل **سمات التصفية** حدد زر علامة حذف ( **...** ):
-6. في مربع حوار **تحديد السمات** ، قم بتحديد خانات الاختيار للسمات المخصصة.
+5. في مربع حوار **تحديث خطوة موجودة**، في حقل **سمات التصفية** حدد زر علامة حذف (**...**):
+6. في مربع حوار **تحديد السمات**، قم بتحديد خانات الاختيار للسمات المخصصة.
 7. حدد **موافق** لإغلاق مربع الحوار، ثم حدد **تحديث الخطوة**.
 8. كرر الخطوات من 1 إلى 7 للمكون الإضافي الثاني.
 9. أغلق PluginRegistrationTool.

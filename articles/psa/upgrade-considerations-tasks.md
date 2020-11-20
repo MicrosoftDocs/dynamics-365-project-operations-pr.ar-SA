@@ -2,7 +2,7 @@
 title: اعتبارات ترقية هيكل تنظيم العمل
 description: يقدم هذا الموضوع معلومات حول ترقية هيكل تنظيم العمل من الإصدار 2.x حتى الإصدار 3.x من Project Service Automation.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 169dc24f0d1ae151ea5927123fb738221de88250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070726"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121787"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>اعتبارات ترقية هيكل تنظيم العمل
 يقدم هذا الموضوع معلومات حول ترقية هيكل تنظيم العمل من الإصدار 2.x حتى الإصدار 3.x من Project Service Automation. يحدد هذا الموضوع الحالة السليمة لمشروع في Project Service Automation (PSA) المطلوب للترقية الناجحة. كما توجد أيضا معلومات حول حالات الحظر الشائعة التي ستؤدي إلى فشل الترقية. للحصول على مزيد من المعلومات حول تعريف مهام المشروع ووظائفها في جدول مشروع، راجع[جداول المشروع](project-creating.md).

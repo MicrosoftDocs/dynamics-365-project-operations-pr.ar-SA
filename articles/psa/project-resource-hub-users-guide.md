@@ -3,7 +3,7 @@ title: دليل المستخدم لمركز موارد المشروع
 description: دليل المستخدم النهائي لمركز موارد المشروع في Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070635"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123137"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>دليل مستخدم مركز موارد المشروع
 
@@ -66,7 +66,7 @@ ms.locfileid: "4070635"
 
 - للوصول إلى هذه الأقسام، اضغط على زر **القائمة** ![زر القائمة](media/MenuButton.png "زر القائمة") على شريط التنقل، ثم اضغط على زر **المفضلة والأخيرة** ![زر المفضلة](media/FavButton.png "زر المفضلة").
 
-- لتثبيت عنصر كمفضلة، من قائمة العناصر **المستخدمة مؤخرًا** ، المس رمز التثبيت. سيتم تثبيت هذا التطبيق ونقله إلى المفضلة.
+- لتثبيت عنصر كمفضلة، من قائمة العناصر **المستخدمة مؤخرًا**، المس رمز التثبيت. سيتم تثبيت هذا التطبيق ونقله إلى المفضلة.
 
   ![المفضلة والعناصر الأخيرة](media/Favs_3.png "المفضلة والعناصر الأخيرة")
  
@@ -88,7 +88,7 @@ ms.locfileid: "4070635"
 
 1. اضغط على زر القائمة ![زر القائمة](media/MenuButton.png "زر القائمة")، ثم اضغط على **المصروفات**. يؤدي ذلك إلى إظهار تقويمك.
 
-2. يمكنك التبديل إلى طريقة عرض **اليوم** أو **الأسبوع** أو **الشهر** ، أو الانتقال إلى فترة الوقت السابقة أو التالية. 
+2. يمكنك التبديل إلى طريقة عرض **اليوم** أو **الأسبوع** أو **الشهر**، أو الانتقال إلى فترة الوقت السابقة أو التالية. 
 
 3. لإدخال المصروفات الخاصة بك، المس **جديد** في شريط الأوامر. 
 
