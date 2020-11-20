@@ -1,60 +1,60 @@
 ---
-title: الأرصدة والفواتير المصححة
+title: الفواتير التصحيحية - خفيف
 description: يوفر هذا الموضوع معلومات حول الفواتير المصححة في Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070755"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176415"
 ---
-# <a name="credits-and-corrected-invoices"></a><span data-ttu-id="56a08-103">الأرصدة والفواتير المصححة</span><span class="sxs-lookup"><span data-stu-id="56a08-103">Credits and corrected invoices</span></span>
+# <a name="corrected-invoices---lite"></a><span data-ttu-id="c4b5e-103">الفواتير التصحيحية - خفيف</span><span class="sxs-lookup"><span data-stu-id="c4b5e-103">Corrected invoices - lite</span></span>
 
-<span data-ttu-id="56a08-104">_**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_</span><span class="sxs-lookup"><span data-stu-id="56a08-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="c4b5e-104">_**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_</span><span class="sxs-lookup"><span data-stu-id="c4b5e-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="56a08-105">يمكن تصحيح فاتورة مشروع مؤكدة لمعالجة التغييرات أو الأرصدة نتيجة التفاوض مع العميل ومدير المشروع.</span><span class="sxs-lookup"><span data-stu-id="56a08-105">A confirmed project invoice can be corrected to process changes or credits as negotiated with the customer and project manager.</span></span>
+<span data-ttu-id="c4b5e-105">يمكن تصحيح فاتورة مشروع مؤكدة لمعالجة التغييرات أو الأرصدة نتيجة التفاوض مع العميل ومدير المشروع.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-105">A confirmed project invoice can be corrected to process changes or credits as negotiated with the customer and project manager.</span></span>
 
-<span data-ttu-id="56a08-106">لإجراء عمليات تحرير على فاتورة مؤكدة، افتح الفاتورة المؤكدة وحدد **تصحيح هذه الفاتورة**.</span><span class="sxs-lookup"><span data-stu-id="56a08-106">To make edits to a confirmed invoice, open the confirmed invoice and select **Correct this Invoice**.</span></span> 
+<span data-ttu-id="c4b5e-106">لإجراء عمليات تحرير على فاتورة مؤكدة، افتح الفاتورة المؤكدة وحدد **تصحيح هذه الفاتورة**.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-106">To make edits to a confirmed invoice, open the confirmed invoice and select **Correct this Invoice**.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="56a08-107">لا يتوفر هذا التحديد ما لم يتم تأكيد فاتورة المشروع.</span><span class="sxs-lookup"><span data-stu-id="56a08-107">This selection isn't available unless a project invoice is confirmed.</span></span>
+> <span data-ttu-id="c4b5e-107">لا يتوفر هذا التحديد ما لم يتم تأكيد فاتورة المشروع.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-107">This selection isn't available unless a project invoice is confirmed.</span></span>
 
-<span data-ttu-id="56a08-108">يتم إنشاء فاتورة مسودة جديدة من الفاتورة المؤكدة.</span><span class="sxs-lookup"><span data-stu-id="56a08-108">A new draft invoice is created from the confirmed invoice.</span></span> <span data-ttu-id="56a08-109">يتم نسخ كافة تفاصيل بنود الفاتورة من الفاتورة المؤكدة في السابق إلى المسودة الجديدة.</span><span class="sxs-lookup"><span data-stu-id="56a08-109">All invoice line details from the previously confirmed invoice are copied to the new draft.</span></span> <span data-ttu-id="56a08-110">فيما يلي بعض النقاط الأساسية للتعرف على تفاصيل البنود في الفاتورة الجديدة التي تم تصحيحها:</span><span class="sxs-lookup"><span data-stu-id="56a08-110">The following are some of the key points to understand about the line details on the new corrected invoice:</span></span>
+<span data-ttu-id="c4b5e-108">يتم إنشاء فاتورة مسودة جديدة من الفاتورة المؤكدة.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-108">A new draft invoice is created from the confirmed invoice.</span></span> <span data-ttu-id="c4b5e-109">يتم نسخ كافة تفاصيل بنود الفاتورة من الفاتورة المؤكدة في السابق إلى المسودة الجديدة.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-109">All invoice line details from the previously confirmed invoice are copied to the new draft.</span></span> <span data-ttu-id="c4b5e-110">فيما يلي بعض النقاط الأساسية للتعرف على تفاصيل البنود في الفاتورة الجديدة التي تم تصحيحها:</span><span class="sxs-lookup"><span data-stu-id="c4b5e-110">The following are some of the key points to understand about the line details on the new corrected invoice:</span></span>
 
-- <span data-ttu-id="56a08-111">يتم تحديث جميع الكميات إلى صفر.</span><span class="sxs-lookup"><span data-stu-id="56a08-111">All quantities are updated to zero.</span></span> <span data-ttu-id="56a08-112">يفترض التطبيق أن جميع الأصناف المفوترة مقيدة في الحساب بشكل كامل.</span><span class="sxs-lookup"><span data-stu-id="56a08-112">The application assumes that all invoiced items are fully credited.</span></span> <span data-ttu-id="56a08-113">عند الضرورة، يمكنك تحديث هذه الكميات يدويًا لتعكس الكمية التي تجري فوترتها، وليس الكمية التي يجري تقييدها في الحساب.</span><span class="sxs-lookup"><span data-stu-id="56a08-113">If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited.</span></span> <span data-ttu-id="56a08-114">استنادًا إلى الكمية التي تقوم بإدخالها، يحتسب التطبيق الكمية المقيدة في الحساب.</span><span class="sxs-lookup"><span data-stu-id="56a08-114">Based on the quantity you enter, the application calculates the credited quantity.</span></span> <span data-ttu-id="56a08-115">ويظهر هذا المبلغ في القيم الفعلية التي يتم إنشاؤها عند تأكيد الفاتورة المصححة.</span><span class="sxs-lookup"><span data-stu-id="56a08-115">This amount is reflected in the actuals that are created when the corrected invoice is confirmed.</span></span> <span data-ttu-id="56a08-116">إذا كنت تجري تغييرات على مبلغ الضريبة، فيجب عليك إدخال مبلغ الضريبة الصحيح وليس مبلغ الضريبة الذي يجري تقييده في الحساب.</span><span class="sxs-lookup"><span data-stu-id="56a08-116">If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.</span></span>
-- <span data-ttu-id="56a08-117">لا يتم نسخ شروط التعاقد التي تستند إلى المنتج والتي تم تأكيدها في السابق.</span><span class="sxs-lookup"><span data-stu-id="56a08-117">Previously confirmed product-based contract lines are not copied over.</span></span> <span data-ttu-id="56a08-118">لا يتم دعم معالجة التصحيحات على فاتورة مشروع تستند إلى منتج.</span><span class="sxs-lookup"><span data-stu-id="56a08-118">Processing corrections on a product-based project invoice is not supported.</span></span>
-- <span data-ttu-id="56a08-119">تتم دائمًا معالجه تصحيحات المراحل الرئيسية كأرصدة كاملة.</span><span class="sxs-lookup"><span data-stu-id="56a08-119">Milestone corrections are always processed as full credits.</span></span>
-- <span data-ttu-id="56a08-120">يمكن تصحيح مقدم الأتعاب أو السلفة إذا تمت فوترة العميل بمبلغ غير صحيح.</span><span class="sxs-lookup"><span data-stu-id="56a08-120">Retainer or advance amounts can be corrected if the customer was invoiced for an incorrect amount.</span></span>
-- <span data-ttu-id="56a08-121">يمكن تصحيح تسويات مقدم الأتعاب والسلف إذا تم استخدام مبلغ غير صحيح للتسوية في مقابل الرسوم في فاتورة مؤكدة سابقًا.</span><span class="sxs-lookup"><span data-stu-id="56a08-121">Reconciliations of retainers and advances can be corrected if an incorrect amount was used to reconcile against the charges on a previously confirmed invoice.</span></span>
+- <span data-ttu-id="c4b5e-111">يتم تحديث جميع الكميات إلى صفر.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-111">All quantities are updated to zero.</span></span> <span data-ttu-id="c4b5e-112">يفترض التطبيق أن جميع الأصناف المفوترة مقيدة في الحساب بشكل كامل.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-112">The application assumes that all invoiced items are fully credited.</span></span> <span data-ttu-id="c4b5e-113">عند الضرورة، يمكنك تحديث هذه الكميات يدويًا لتعكس الكمية التي تجري فوترتها، وليس الكمية التي يجري تقييدها في الحساب.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-113">If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited.</span></span> <span data-ttu-id="c4b5e-114">استنادًا إلى الكمية التي تقوم بإدخالها، يحتسب التطبيق الكمية المقيدة في الحساب.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-114">Based on the quantity you enter, the application calculates the credited quantity.</span></span> <span data-ttu-id="c4b5e-115">ويظهر هذا المبلغ في القيم الفعلية التي يتم إنشاؤها عند تأكيد الفاتورة المصححة.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-115">This amount is reflected in the actuals that are created when the corrected invoice is confirmed.</span></span> <span data-ttu-id="c4b5e-116">إذا كنت تجري تغييرات على مبلغ الضريبة، فيجب عليك إدخال مبلغ الضريبة الصحيح وليس مبلغ الضريبة الذي يجري تقييده في الحساب.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-116">If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.</span></span>
+- <span data-ttu-id="c4b5e-117">لا يتم نسخ شروط التعاقد التي تستند إلى المنتج والتي تم تأكيدها في السابق.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-117">Previously confirmed product-based contract lines are not copied over.</span></span> <span data-ttu-id="c4b5e-118">لا يتم دعم معالجة التصحيحات على فاتورة مشروع تستند إلى منتج.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-118">Processing corrections on a product-based project invoice is not supported.</span></span>
+- <span data-ttu-id="c4b5e-119">تتم دائمًا معالجه تصحيحات المراحل الرئيسية كأرصدة كاملة.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-119">Milestone corrections are always processed as full credits.</span></span>
+- <span data-ttu-id="c4b5e-120">يمكن تصحيح مقدم الأتعاب أو السلفة إذا تمت فوترة العميل بمبلغ غير صحيح.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-120">Retainer or advance amounts can be corrected if the customer was invoiced for an incorrect amount.</span></span>
+- <span data-ttu-id="c4b5e-121">يمكن تصحيح تسويات مقدم الأتعاب والسلف إذا تم استخدام مبلغ غير صحيح للتسوية في مقابل الرسوم في فاتورة مؤكدة سابقًا.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-121">Reconciliations of retainers and advances can be corrected if an incorrect amount was used to reconcile against the charges on a previously confirmed invoice.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="56a08-122">تم تعيين حقل **التصحيح** إلى **نعم** في تفاصيل بنود الفواتير التي تعتبر تصحيحات لرسوم تمت فوترها في السابق.</span><span class="sxs-lookup"><span data-stu-id="56a08-122">Invoice line details that are corrections to other already invoiced charges have the field **Correction** set to **Yes**.</span></span> <span data-ttu-id="56a08-123">تتضمن الفواتير ذات تفاصيل بنود فواتير مصححة حقلاً يسمى **لديه تصحيحات** معينًا أيضًا إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="56a08-123">Invoices that have corrected invoice line details have a field called **Has corrections** that is also set to **Yes**.</span></span>
+> <span data-ttu-id="c4b5e-122">تم تعيين حقل **التصحيح** إلى **نعم** في تفاصيل بنود الفواتير التي تعتبر تصحيحات لرسوم تمت فوترها في السابق.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-122">Invoice line details that are corrections to other already invoiced charges have the field **Correction** set to **Yes**.</span></span> <span data-ttu-id="c4b5e-123">تتضمن الفواتير ذات تفاصيل بنود فواتير مصححة حقلاً يسمى **لديه تصحيحات** معينًا أيضًا إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-123">Invoices that have corrected invoice line details have a field called **Has corrections** that is also set to **Yes**.</span></span>
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a><span data-ttu-id="56a08-124">القيم الفعلية التي تم إنشاؤها عند تأكيد فاتورة تصحيحية:</span><span class="sxs-lookup"><span data-stu-id="56a08-124">Actuals created on Confirmation of a corrective invoice:</span></span>
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a><span data-ttu-id="c4b5e-124">القيم الفعلية التي تم إنشاؤها عند تأكيد فاتورة تصحيحية:</span><span class="sxs-lookup"><span data-stu-id="c4b5e-124">Actuals created on Confirmation of a corrective invoice:</span></span>
 
-<span data-ttu-id="56a08-125">فيما يلي القيم الفعلية التي تم إنشاؤها بواسطة التطبيق عند تأكيد فاتورة تصحيحية استنادًا إلى العمليات التي تم تنفيذها على مسودة الفاتورة التصحيحية قبل التأكيد.</span><span class="sxs-lookup"><span data-stu-id="56a08-125">Below are the actuals created by the application on confirmation of a corrective based on the operations performed on the draft corrective invoice before confirmation.</span></span>
+<span data-ttu-id="c4b5e-125">فيما يلي القيم الفعلية التي تم إنشاؤها بواسطة التطبيق عند تأكيد فاتورة تصحيحية استنادًا إلى العمليات التي تم تنفيذها على مسودة الفاتورة التصحيحية قبل التأكيد.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-125">Below are the actuals created by the application on confirmation of a corrective based on the operations performed on the draft corrective invoice before confirmation.</span></span>
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
             <td width="216" valign="top">
-                <p><span data-ttu-id="56a08-126">
+                <p><span data-ttu-id="c4b5e-126">
                     <strong>السيناريو</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="56a08-126">
+                </span><span class="sxs-lookup"><span data-stu-id="c4b5e-126">
                     <strong>Scenario</strong>
                 </span></span></p>
             </td>
             <td width="808" valign="top">
-                <p><span data-ttu-id="56a08-127">
+                <p><span data-ttu-id="c4b5e-127">
                     <strong>القيم الفعلية المنشأة عند التأكيد</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="56a08-127">
+                </span><span class="sxs-lookup"><span data-stu-id="c4b5e-127">
                     <strong>Actuals created on confirmation</strong>
                 </span></span></p>
             </td>
@@ -62,233 +62,233 @@ ms.locfileid: "4070755"
         <tr>
             <td width="216" rowspan="4" valign="top">
                 <p>
-<span data-ttu-id="56a08-128">تأكيد تصحيح سلفة أو مقدم أتعاب مفوترة.<strong></strong>
-                </span><span class="sxs-lookup"><span data-stu-id="56a08-128">Confirm the correction of an invoiced advance or retainer.<strong></strong>
+<span data-ttu-id="c4b5e-128">تأكيد تصحيح سلفة أو مقدم أتعاب مفوترة.<strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c4b5e-128">Confirm the correction of an invoiced advance or retainer.<strong></strong>
                 </span></span></p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-129">إلغاء مبيعات غير مفوترة لمقدم الأتعاب أو السلفة التي تم إنشاؤها للتسوية.</span><span class="sxs-lookup"><span data-stu-id="56a08-129">An unbilled sales reversal of the retainer or advance that was created for reconciliation.</span></span> <span data-ttu-id="56a08-130">يكون هذا المبلغ موجبًا لأنه معد لإلغاء المبلغ السالب الذي تم إنشاؤه عند فوترة السلف أو مقدم الأتعاب.</span><span class="sxs-lookup"><span data-stu-id="56a08-130">This amount is positive because it is meant to cancel out the negative that was created when the retainer or advance was invoiced.</span></span>
+<span data-ttu-id="c4b5e-129">إلغاء مبيعات غير مفوترة لمقدم الأتعاب أو السلفة التي تم إنشاؤها للتسوية.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-129">An unbilled sales reversal of the retainer or advance that was created for reconciliation.</span></span> <span data-ttu-id="c4b5e-130">يكون هذا المبلغ موجبًا لأنه معد لإلغاء المبلغ السالب الذي تم إنشاؤه عند فوترة السلف أو مقدم الأتعاب.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-130">This amount is positive because it is meant to cancel out the negative that was created when the retainer or advance was invoiced.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-131">يتم إنشاء قيمة فعلية لإلغاء المبيعات المفوترة للمبلغ على السلفة أو مقدم الأتعاب لإلغاء المبيعات الأصلية المفوترة.</span><span class="sxs-lookup"><span data-stu-id="56a08-131">A billed sales reversal actual is created for the amount on the retainer or advance to reverse the original billed sales.</span></span>
+<span data-ttu-id="c4b5e-131">يتم إنشاء قيمة فعلية لإلغاء المبيعات المفوترة للمبلغ على السلفة أو مقدم الأتعاب لإلغاء المبيعات الأصلية المفوترة.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-131">A billed sales reversal actual is created for the amount on the retainer or advance to reverse the original billed sales.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-132">يتم إنشاء قيمة فعلية جديدة للمبيعات المفوترة للمبلغ المصحح على مقدم الأتعاب أو بنود الفاتورة المصححة القائمة على السلفة.</span><span class="sxs-lookup"><span data-stu-id="56a08-132">A new billed sales actual is created for the corrected amount on the retainer or advance-based corrected invoice line.</span></span>
+<span data-ttu-id="c4b5e-132">يتم إنشاء قيمة فعلية جديدة للمبيعات المفوترة للمبلغ المصحح على مقدم الأتعاب أو بنود الفاتورة المصححة القائمة على السلفة.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-132">A new billed sales actual is created for the corrected amount on the retainer or advance-based corrected invoice line.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-133">قيمة فعلية للمبيعات غير المفوترة للمبلغ السالب لمقدم الأتعاب أو بنود الفاتورة المصححة القائمة على السلفة، التي سيتم استخدامها للتسوية.</span><span class="sxs-lookup"><span data-stu-id="56a08-133">An unbilled sales actual of negative amount of the retainer or advance-based corrected invoice line, which will be used for reconciliation.</span></span>
+<span data-ttu-id="c4b5e-133">قيمة فعلية للمبيعات غير المفوترة للمبلغ السالب لمقدم الأتعاب أو بنود الفاتورة المصححة القائمة على السلفة، التي سيتم استخدامها للتسوية.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-133">An unbilled sales actual of negative amount of the retainer or advance-based corrected invoice line, which will be used for reconciliation.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="4" valign="top">
                 <p>
-<span data-ttu-id="56a08-134">تأكيد تصحيح سلفة أو مقدم أتعاب تمت تسويته في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="56a08-134">A confirmation of the correction of a previously reconciled retainer or advance.</span></span>
+<span data-ttu-id="c4b5e-134">تأكيد تصحيح سلفة أو مقدم أتعاب تمت تسويته في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-134">A confirmation of the correction of a previously reconciled retainer or advance.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-135">إلغاء مبيعات غير مفوترة لمقدم الأتعاب أو السلفة التي تم إنشاؤها للتسوية.</span><span class="sxs-lookup"><span data-stu-id="56a08-135">An unbilled sales reversal of the retainer or advance that was created for reconciliation.</span></span> <span data-ttu-id="56a08-136">يكون هذا المبلغ موجبًا وهو معد لإلغاء المبلغ السالب الذي تم إنشاؤه عند حدوث التسوية السابقة.</span><span class="sxs-lookup"><span data-stu-id="56a08-136">This amount is positive and is meant to cancel out the negative that was created when the previous reconciliation occurred.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-<span data-ttu-id="56a08-137">القيمة الفعلية لإلغاء مبيعات مفوترة للمبلغ على الفاتورة السابقة.</span><span class="sxs-lookup"><span data-stu-id="56a08-137">A billed sales reversal actual for the amount on the previous invoice.</span></span>
+<span data-ttu-id="c4b5e-135">إلغاء مبيعات غير مفوترة لمقدم الأتعاب أو السلفة التي تم إنشاؤها للتسوية.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-135">An unbilled sales reversal of the retainer or advance that was created for reconciliation.</span></span> <span data-ttu-id="c4b5e-136">يكون هذا المبلغ موجبًا وهو معد لإلغاء المبلغ السالب الذي تم إنشاؤه عند حدوث التسوية السابقة.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-136">This amount is positive and is meant to cancel out the negative that was created when the previous reconciliation occurred.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-138">قيمة فعلية جديدة للمبيعات المفوترة للمبلغ المصحح على مقدم الأتعاب المطبق على الفاتورة المصححة.</span><span class="sxs-lookup"><span data-stu-id="56a08-138">A new billed sales actual for the corrected retainer amount that is applied on the corrected invoice.</span></span>
+<span data-ttu-id="c4b5e-137">القيمة الفعلية لإلغاء مبيعات مفوترة للمبلغ على الفاتورة السابقة.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-137">A billed sales reversal actual for the amount on the previous invoice.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-139">قيمة فعلية للمبيعات غير المفوترة مع مبلغ سالب من السلفة أو مقدم الأتعاب المتبقية والمصححة، التي سيتم استخدامها للتسوية على الفواتير اللاحقة.</span><span class="sxs-lookup"><span data-stu-id="56a08-139">An unbilled sales actual with a negative amount from the corrected leftover retainer or advance, which will be used for reconciliation on later invoices.</span></span>
+<span data-ttu-id="c4b5e-138">قيمة فعلية جديدة للمبيعات المفوترة للمبلغ المصحح على مقدم الأتعاب المطبق على الفاتورة المصححة.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-138">A new billed sales actual for the corrected retainer amount that is applied on the corrected invoice.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="c4b5e-139">قيمة فعلية للمبيعات غير المفوترة مع مبلغ سالب من السلفة أو مقدم الأتعاب المتبقية والمصححة، التي سيتم استخدامها للتسوية على الفواتير اللاحقة.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-139">An unbilled sales actual with a negative amount from the corrected leftover retainer or advance, which will be used for reconciliation on later invoices.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="56a08-140">فوترة الرصيد الكامل لحركة وقت تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="56a08-140">Invoicing the full credit of a previously invoiced time transaction.</span></span>
+<span data-ttu-id="c4b5e-140">فوترة الرصيد الكامل لحركة وقت تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-140">Invoicing the full credit of a previously invoiced time transaction.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-141">إلغاء مبيعات مفوترة للساعات والمبلغ في تفاصيل بند الفاتورة الأصلية للوقت.</span><span class="sxs-lookup"><span data-stu-id="56a08-141">A billed sales reversal for the hours and amount on the original invoice line detail for time.</span></span>
+<span data-ttu-id="c4b5e-141">إلغاء مبيعات مفوترة للساعات والمبلغ في تفاصيل بند الفاتورة الأصلية للوقت.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-141">A billed sales reversal for the hours and amount on the original invoice line detail for time.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-142">قيمة فعلية جديدة للمبيعات غير المفوترة للساعات والمبلغ في تفاصيل بند الفاتورة الأصلية للوقت.</span><span class="sxs-lookup"><span data-stu-id="56a08-142">A new unbilled sales actual for the hours and amount on the original invoice line detail for time.</span></span>
+<span data-ttu-id="c4b5e-142">قيمة فعلية جديدة للمبيعات غير المفوترة للساعات والمبلغ في تفاصيل بند الفاتورة الأصلية للوقت.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-142">A new unbilled sales actual for the hours and amount on the original invoice line detail for time.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="3" valign="top">
                 <p>
-<span data-ttu-id="56a08-143">فوترة الرصيد الجزئي على حركة الوقت.</span><span class="sxs-lookup"><span data-stu-id="56a08-143">Invoicing the partial credit on a time transaction.</span></span>
+<span data-ttu-id="c4b5e-143">فوترة الرصيد الجزئي على حركة الوقت.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-143">Invoicing the partial credit on a time transaction.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-144">إلغاء مبيعات مفوترة للساعات والمبلغ المفوترة على تفاصيل بند الفاتورة الأصلية للوقت.</span><span class="sxs-lookup"><span data-stu-id="56a08-144">A billed sales reversal for the hours and amount invoiced on the original invoice line detail for time.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-<span data-ttu-id="56a08-145">قيمة فعلية جديدة للمبيعات غير المفوترة تخضع لرسوم الساعات والمبلغ على تفاصيل بنود الفاتورة المعدلة، وإلغاء لها، وقيمة فعلية مكافئة للمبيعات المفوترة.</span><span class="sxs-lookup"><span data-stu-id="56a08-145">A new unbilled sales actual that is chargeable for the hours and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+<span data-ttu-id="c4b5e-144">إلغاء مبيعات مفوترة للساعات والمبلغ المفوترة على تفاصيل بند الفاتورة الأصلية للوقت.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-144">A billed sales reversal for the hours and amount invoiced on the original invoice line detail for time.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-146">قيمة فعلية جديدة للمبيعات غير المفوترة تخضع لرسوم المبلغ والساعات المتبقية بعد خصم الأرقام المصححة على تفاصيل بنود الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="56a08-146">A new unbilled sales actual that is chargeable for the remaining hours and amount after deducting the corrected figures on the invoice line detail.</span></span>
+<span data-ttu-id="c4b5e-145">قيمة فعلية جديدة للمبيعات غير المفوترة تخضع لرسوم الساعات والمبلغ على تفاصيل بنود الفاتورة المعدلة، وإلغاء لها، وقيمة فعلية مكافئة للمبيعات المفوترة.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-145">A new unbilled sales actual that is chargeable for the hours and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="c4b5e-146">قيمة فعلية جديدة للمبيعات غير المفوترة تخضع لرسوم المبلغ والساعات المتبقية بعد خصم الأرقام المصححة على تفاصيل بنود الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-146">A new unbilled sales actual that is chargeable for the remaining hours and amount after deducting the corrected figures on the invoice line detail.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="56a08-147">فوترة الرصيد الكامل لحركة مصروفات تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="56a08-147">Invoicing the full credit of a previously invoiced expense transaction.</span></span>
+<span data-ttu-id="c4b5e-147">فوترة الرصيد الكامل لحركة مصروفات تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-147">Invoicing the full credit of a previously invoiced expense transaction.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-148">إلغاء مبيعات مفوترة للكمية والمبلغ على تفاصيل بند الفاتورة الأصلية للمصروفات.</span><span class="sxs-lookup"><span data-stu-id="56a08-148">A billed sales reversal for the quantity and amount on the original invoice line detail for the expense.</span></span>
+<span data-ttu-id="c4b5e-148">إلغاء مبيعات مفوترة للكمية والمبلغ على تفاصيل بند الفاتورة الأصلية للمصروفات.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-148">A billed sales reversal for the quantity and amount on the original invoice line detail for the expense.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-149">قيمة فعلية جديدة للمبيعات غير المفوترة للكمية والمبلغ على تفاصيل بند الفاتورة الأصلية للمصروفات.</span><span class="sxs-lookup"><span data-stu-id="56a08-149">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the expense.</span></span>
+<span data-ttu-id="c4b5e-149">قيمة فعلية جديدة للمبيعات غير المفوترة للكمية والمبلغ على تفاصيل بند الفاتورة الأصلية للمصروفات.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-149">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the expense.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="3" valign="top">
                 <p>
-<span data-ttu-id="56a08-150">فوترة الرصيد الجزئي لحركة مصروفات تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="56a08-150">Invoicing the partial credit of a previously invoiced expense transaction.</span></span>
+<span data-ttu-id="c4b5e-150">فوترة الرصيد الجزئي لحركة مصروفات تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-150">Invoicing the partial credit of a previously invoiced expense transaction.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-151">إلغاء مبيعات مفوترة للكمية والمبلغ على تفاصيل بند الفاتورة الأصلية للمصروفات.</span><span class="sxs-lookup"><span data-stu-id="56a08-151">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for an expense.</span></span>
+<span data-ttu-id="c4b5e-151">إلغاء مبيعات مفوترة للكمية والمبلغ على تفاصيل بند الفاتورة الأصلية للمصروفات.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-151">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for an expense.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-152">قيمة فعلية جديدة للمبيعات غير المفوترة تخضع لرسوم الكمية والمبلغ على تفاصيل بنود الفاتورة المصححة، وإلغاء لها، وقيمة فعلية مكافئة للمبيعات المفوترة.</span><span class="sxs-lookup"><span data-stu-id="56a08-152">A new unbilled sales actual that is chargeable for the quantity and amount on the corrected invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+<span data-ttu-id="c4b5e-152">قيمة فعلية جديدة للمبيعات غير المفوترة تخضع لرسوم الكمية والمبلغ على تفاصيل بنود الفاتورة المصححة، وإلغاء لها، وقيمة فعلية مكافئة للمبيعات المفوترة.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-152">A new unbilled sales actual that is chargeable for the quantity and amount on the corrected invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-153">قيمة فعلية جديدة للمبيعات غير المفوترة تخضع لرسوم المبلغ والكمية المتبقية بعد خصم الأرقام المصححة على تفاصيل بنود الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="56a08-153">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="56a08-154">فوترة الرصيد الكامل لحركة رسوم تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="56a08-154">Invoicing the full credit of a previously invoiced fee transaction.</span></span>
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-<span data-ttu-id="56a08-155">إلغاء مبيعات مفوترة للكمية والمبلغ على تفاصيل بند الفاتورة الأصلية للرسوم.</span><span class="sxs-lookup"><span data-stu-id="56a08-155">A billed sales reversal for the quantity and amount on the original invoice line detail for the fee.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-<span data-ttu-id="56a08-156">قيمة فعلية جديدة للمبيعات غير المفوترة للكمية والمبلغ على تفاصيل بند الفاتورة الأصلية للرسوم.</span><span class="sxs-lookup"><span data-stu-id="56a08-156">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the fee.</span></span>
+<span data-ttu-id="c4b5e-153">قيمة فعلية جديدة للمبيعات غير المفوترة تخضع لرسوم المبلغ والكمية المتبقية بعد خصم الأرقام المصححة على تفاصيل بنود الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-153">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="56a08-157">فوترة الرصيد الجزئي لحركة رسوم تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="56a08-157">Invoicing the partial credit of a previously invoiced fee transaction.</span></span>
+<span data-ttu-id="c4b5e-154">فوترة الرصيد الكامل لحركة رسوم تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-154">Invoicing the full credit of a previously invoiced fee transaction.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-158">إلغاء مبيعات مفوترة للكمية والمبلغ المفوتر على تفاصيل بند الفاتورة الأصلية للرسوم.</span><span class="sxs-lookup"><span data-stu-id="56a08-158">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for fee.</span></span>
+<span data-ttu-id="c4b5e-155">إلغاء مبيعات مفوترة للكمية والمبلغ على تفاصيل بند الفاتورة الأصلية للرسوم.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-155">A billed sales reversal for the quantity and amount on the original invoice line detail for the fee.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-159">قيمة فعلية جديدة للمبيعات غير المفوترة تخضع لرسوم الكمية والمبلغ على تفاصيل بنود الفاتورة التصحيحية المعدلة، وإلغاء لها، وقيمة فعلية مكافئة للمبيعات المفوترة.</span><span class="sxs-lookup"><span data-stu-id="56a08-159">A new unbilled sales actual that is chargeable for the quantity and amount on the edited corrective invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+<span data-ttu-id="c4b5e-156">قيمة فعلية جديدة للمبيعات غير المفوترة للكمية والمبلغ على تفاصيل بند الفاتورة الأصلية للرسوم.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-156">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="c4b5e-157">فوترة الرصيد الجزئي لحركة رسوم تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-157">Invoicing the partial credit of a previously invoiced fee transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="c4b5e-158">إلغاء مبيعات مفوترة للكمية والمبلغ المفوتر على تفاصيل بند الفاتورة الأصلية للرسوم.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-158">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="c4b5e-159">قيمة فعلية جديدة للمبيعات غير المفوترة تخضع لرسوم الكمية والمبلغ على تفاصيل بنود الفاتورة التصحيحية المعدلة، وإلغاء لها، وقيمة فعلية مكافئة للمبيعات المفوترة.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-159">A new unbilled sales actual that is chargeable for the quantity and amount on the edited corrective invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+<span data-ttu-id="c4b5e-160">فوترة الرصيد الكامل لمرحلة رئيسية تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-160">Invoicing the full credit of a previously invoiced milestone.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="c4b5e-161">إلغاء مبيعات مفوترة للمبلغ في تفاصيل بند الفاتورة الأصلية للمرحلة الرئيسية.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-161">A billed sales reversal for the amount on the original invoice line detail for the milestone.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="c4b5e-162">يتم تحديث فاتورة المرحلة الرئيسية أو حالة الفوترة على شروط تعاقد المشروع إلى **جاهزة للفوترة**.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-162">The milestone invoice or billing status on the project contract line is updated to **Ready to Invoice**.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" valign="top">
                 <p>
-<span data-ttu-id="56a08-160">فوترة الرصيد الكامل لمرحلة رئيسية تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="56a08-160">Invoicing the full credit of a previously invoiced milestone.</span></span>
+<span data-ttu-id="c4b5e-163">فوترة الرصيد الجزئي لمرحلة رئيسية تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-163">Invoicing the partial credit of a previously invoiced milestone.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-161">إلغاء مبيعات مفوترة للمبلغ في تفاصيل بند الفاتورة الأصلية للمرحلة الرئيسية.</span><span class="sxs-lookup"><span data-stu-id="56a08-161">A billed sales reversal for the amount on the original invoice line detail for the milestone.</span></span>
-                </p>
-                <p>
-<span data-ttu-id="56a08-162">يتم تحديث فاتورة المرحلة الرئيسية أو حالة الفوترة على شروط تعاقد المشروع إلى **جاهزة للفوترة**.</span><span class="sxs-lookup"><span data-stu-id="56a08-162">The milestone invoice or billing status on the project contract line is updated to **Ready to Invoice**.</span></span>
-                </p>
+<span data-ttu-id="c4b5e-164">غير مدعوم</span><span class="sxs-lookup"><span data-stu-id="c4b5e-164">Unsupported</span></span> </p>
             </td>
         </tr>
         <tr>
             <td width="216" valign="top">
                 <p>
-<span data-ttu-id="56a08-163">فوترة الرصيد الجزئي لمرحلة رئيسية تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="56a08-163">Invoicing the partial credit of a previously invoiced milestone.</span></span>
+<span data-ttu-id="c4b5e-165">الأرصدة والتصحيحات لشروط تعاقد مستندة إلى مشروع تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="c4b5e-165">Credits and corrections of a previously invoiced product-based contract line.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="56a08-164">غير مدعوم</span><span class="sxs-lookup"><span data-stu-id="56a08-164">Unsupported</span></span> </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-<span data-ttu-id="56a08-165">الأرصدة والتصحيحات لشروط تعاقد مستندة إلى مشروع تمت فوترتها في وقت سابق.</span><span class="sxs-lookup"><span data-stu-id="56a08-165">Credits and corrections of a previously invoiced product-based contract line.</span></span>
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-<span data-ttu-id="56a08-166">غير مدعوم</span><span class="sxs-lookup"><span data-stu-id="56a08-166">Unsupported</span></span> </p>
+<span data-ttu-id="c4b5e-166">غير مدعوم</span><span class="sxs-lookup"><span data-stu-id="c4b5e-166">Unsupported</span></span> </p>
             </td>
         </tr>
     </tbody>
