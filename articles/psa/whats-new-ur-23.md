@@ -3,7 +3,7 @@ title: الجديد أو المتغير في إصدار التحديث 23، ال
 description: يسرد هذا الموضوع الميزات والإصلاحات المتوفرة في الإصدار 3 من Project Service Automation، إصدار التحديث 23.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 08/25/2020
 ms.topic: article
@@ -17,51 +17,51 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eaae9cc62c449695cb2e999be48c57075aadbb21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 07f1a274914d7e641ddf2fd42f377dce1da7f815
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070591"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131102"
 ---
-# <a name="project-service-automation-update-release-23-v3"></a><span data-ttu-id="9480d-103">الإصدار 3 من Project Service Automation، إصدار التحديث 23</span><span class="sxs-lookup"><span data-stu-id="9480d-103">Project Service Automation Update Release 23, V3</span></span>
+# <a name="project-service-automation-update-release-23-v3"></a><span data-ttu-id="e64e2-103">الإصدار 3 من Project Service Automation، إصدار التحديث 23</span><span class="sxs-lookup"><span data-stu-id="e64e2-103">Project Service Automation Update Release 23, V3</span></span>
 
-<span data-ttu-id="9480d-104">يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="9480d-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="9480d-105">يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام.</span><span class="sxs-lookup"><span data-stu-id="9480d-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="9480d-106">هذا الإصدار متوافق مع Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="9480d-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="9480d-107">للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث.</span><span class="sxs-lookup"><span data-stu-id="9480d-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="9480d-108">لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="9480d-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="e64e2-104">يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="e64e2-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="e64e2-105">يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام.</span><span class="sxs-lookup"><span data-stu-id="e64e2-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="e64e2-106">هذا الإصدار متوافق مع Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="e64e2-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="e64e2-107">للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث.</span><span class="sxs-lookup"><span data-stu-id="e64e2-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="e64e2-108">لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="e64e2-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="9480d-109">يسرد هذا الموضوع الميزات والإصلاحات الجديدة أو التي تم تغييرها في الإصدار 3 من Project Service Automation، إصدار التحديث 23.</span><span class="sxs-lookup"><span data-stu-id="9480d-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 23.</span></span> <span data-ttu-id="9480d-110">يتضمن هذا الإصدار رقم البنية V 3.10.34.30 وهو متوفر بشكل عام من خلال تحديث ذاتي في أغسطس 2020.</span><span class="sxs-lookup"><span data-stu-id="9480d-110">This version has a build number of V 3.10.34.30 and is generally available through a self-update in August 2020.</span></span>
+<span data-ttu-id="e64e2-109">يسرد هذا الموضوع الميزات والإصلاحات الجديدة أو التي تم تغييرها في الإصدار 3 من Project Service Automation، إصدار التحديث 23.</span><span class="sxs-lookup"><span data-stu-id="e64e2-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 23.</span></span> <span data-ttu-id="e64e2-110">يتضمن هذا الإصدار رقم البنية V 3.10.34.30 وهو متوفر بشكل عام من خلال تحديث ذاتي في أغسطس 2020.</span><span class="sxs-lookup"><span data-stu-id="e64e2-110">This version has a build number of V 3.10.34.30 and is generally available through a self-update in August 2020.</span></span>
 
-## <a name="update-release-23"></a><span data-ttu-id="9480d-111">إصدار التحديث 23</span><span class="sxs-lookup"><span data-stu-id="9480d-111">Update Release 23</span></span>
+## <a name="update-release-23"></a><span data-ttu-id="e64e2-111">إصدار التحديث 23</span><span class="sxs-lookup"><span data-stu-id="e64e2-111">Update Release 23</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="9480d-112">إصلاحات الأخطاء</span><span class="sxs-lookup"><span data-stu-id="9480d-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="e64e2-112">إصلاحات الأخطاء</span><span class="sxs-lookup"><span data-stu-id="e64e2-112">Bug fixes</span></span>
 
-<span data-ttu-id="9480d-113">**الوقت والمصروفات**</span><span class="sxs-lookup"><span data-stu-id="9480d-113">**Time and Expense**</span></span>
+<span data-ttu-id="e64e2-113">**الوقت والمصروفات**</span><span class="sxs-lookup"><span data-stu-id="e64e2-113">**Time and Expense**</span></span>
 
-<span data-ttu-id="9480d-114">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="9480d-114">The following issues have been fixed:</span></span>
-- <span data-ttu-id="9480d-115">معالجة الحالة الطرفية في **حذف عضو فريق المشروع** لتوفير استثناء ذي معنىً.</span><span class="sxs-lookup"><span data-stu-id="9480d-115">Handle edge case in **Project Team Member Delete** to provide a meaningful exception.</span></span>
-- <span data-ttu-id="9480d-116">ينتج عن استيراد التعيين شاشة إزالة فارغة.</span><span class="sxs-lookup"><span data-stu-id="9480d-116">Assignment import results in a blank remove screen.</span></span>
+<span data-ttu-id="e64e2-114">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="e64e2-114">The following issues have been fixed:</span></span>
+- <span data-ttu-id="e64e2-115">معالجة الحالة الطرفية في **حذف عضو فريق المشروع** لتوفير استثناء ذي معنىً.</span><span class="sxs-lookup"><span data-stu-id="e64e2-115">Handle edge case in **Project Team Member Delete** to provide a meaningful exception.</span></span>
+- <span data-ttu-id="e64e2-116">ينتج عن استيراد التعيين شاشة إزالة فارغة.</span><span class="sxs-lookup"><span data-stu-id="e64e2-116">Assignment import results in a blank remove screen.</span></span>
 
-<span data-ttu-id="9480d-117">**إدارة الموارد**</span><span class="sxs-lookup"><span data-stu-id="9480d-117">**Resource Management**</span></span>
+<span data-ttu-id="e64e2-117">**إدارة الموارد**</span><span class="sxs-lookup"><span data-stu-id="e64e2-117">**Resource Management**</span></span>
 
-<span data-ttu-id="9480d-118">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="9480d-118">The following issues have been fixed:</span></span>
+<span data-ttu-id="e64e2-118">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="e64e2-118">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="9480d-119">تعرض **بطاقة مورد شبكة استخدام المورد** بيانات غير صحيحة عندما يزيد مقياس الوقت عن خمسة أيام.</span><span class="sxs-lookup"><span data-stu-id="9480d-119">The **Resource utilization grid resource card** shows incorrect data when the time scale is more than five days.</span></span>
-- <span data-ttu-id="9480d-120">عندما يقوم العملاء بإنشاء مورد قابل للحجز، يفشل المكون الإضافي بشكل متقطع في إضافة المورد إلى مجموعة Microsoft Office 365 بشكل تلقائي.</span><span class="sxs-lookup"><span data-stu-id="9480d-120">When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.</span></span>
-- <span data-ttu-id="9480d-121">تُظهر طريقة عرض **التسوية** الحدود اليدوية بشكل غير صحيح في طريق عرض **الأسبوع** أو **الشهر**.</span><span class="sxs-lookup"><span data-stu-id="9480d-121">**Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.</span></span>
+- <span data-ttu-id="e64e2-119">تعرض **بطاقة مورد شبكة استخدام المورد** بيانات غير صحيحة عندما يزيد مقياس الوقت عن خمسة أيام.</span><span class="sxs-lookup"><span data-stu-id="e64e2-119">The **Resource utilization grid resource card** shows incorrect data when the time scale is more than five days.</span></span>
+- <span data-ttu-id="e64e2-120">عندما يقوم العملاء بإنشاء مورد قابل للحجز، يفشل المكون الإضافي بشكل متقطع في إضافة المورد إلى مجموعة Microsoft Office 365 بشكل تلقائي.</span><span class="sxs-lookup"><span data-stu-id="e64e2-120">When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.</span></span>
+- <span data-ttu-id="e64e2-121">تُظهر طريقة عرض **التسوية** الحدود اليدوية بشكل غير صحيح في طريق عرض **الأسبوع** أو **الشهر**.</span><span class="sxs-lookup"><span data-stu-id="e64e2-121">**Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.</span></span>
 
-<span data-ttu-id="9480d-122">**إدارة المشروع**</span><span class="sxs-lookup"><span data-stu-id="9480d-122">**Project Management**</span></span>
+<span data-ttu-id="e64e2-122">**إدارة المشروع**</span><span class="sxs-lookup"><span data-stu-id="e64e2-122">**Project Management**</span></span>
 
-<span data-ttu-id="9480d-123">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="9480d-123">The following issues have been fixed:</span></span>
+<span data-ttu-id="e64e2-123">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="e64e2-123">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="9480d-124">يتسبب عدد كبير من كيانات **RetrieveMultiple لإعدادات المستخدم** في حدوث في تراجع أداء عمليات الموافقة على المشروع والعمليات الأخرى.</span><span class="sxs-lookup"><span data-stu-id="9480d-124">An excessive number of **RetrieveMultiple for usersettings** entities are causing degraded performance for project approvals and other operations.</span></span>
-- <span data-ttu-id="9480d-125">يقتصر البحث عن مورد شبكة **تخطيط المهمة** على عرض خمسة أعضاء فقط من فريق المشروع.</span><span class="sxs-lookup"><span data-stu-id="9480d-125">The **Task Planning** grid resource lookup is limited to only show up to five team members from the project team.</span></span> 
-- <span data-ttu-id="9480d-126">لا يقوم البحث عن مورد شبكة **تخطيط المهمة** بتصفية الموارد غير النشطة.</span><span class="sxs-lookup"><span data-stu-id="9480d-126">The **Task Planning** grid resource lookup does not filter inactive resources.</span></span>
-- <span data-ttu-id="9480d-127">الوضع اليدوي لا يعمل كما هو متوقع في هيكل تنظيم عمل تخطيط المشروع.</span><span class="sxs-lookup"><span data-stu-id="9480d-127">Manual mode is not working as expected in the project planning work breakdown structure.</span></span>
-- <span data-ttu-id="9480d-128">شبكة **تخطيط المهمة** تعرض **فئات الحركة غير النشطة**.</span><span class="sxs-lookup"><span data-stu-id="9480d-128">The **Task Planning** grid shows **Inactive Transaction Categories**.</span></span>
-- <span data-ttu-id="9480d-129">يتم تقريب شبكة **تعيينات الموارد** بشكل غير صحيح عندما تحتوي مهمة على تعيينات متعددة.</span><span class="sxs-lookup"><span data-stu-id="9480d-129">The **Resource Assignment** grid rounds incorrectly when a task has multiple assignments.</span></span>
-- <span data-ttu-id="9480d-130">تختلف قيم التقريب ما بين التكلفة المخططة والتكلفة الفعلية لمهمة واحدة.</span><span class="sxs-lookup"><span data-stu-id="9480d-130">Rounding values are different between planned cost and actual cost for a single task.</span></span>
+- <span data-ttu-id="e64e2-124">يتسبب عدد كبير من كيانات **RetrieveMultiple لإعدادات المستخدم** في حدوث في تراجع أداء عمليات الموافقة على المشروع والعمليات الأخرى.</span><span class="sxs-lookup"><span data-stu-id="e64e2-124">An excessive number of **RetrieveMultiple for usersettings** entities are causing degraded performance for project approvals and other operations.</span></span>
+- <span data-ttu-id="e64e2-125">يقتصر البحث عن مورد شبكة **تخطيط المهمة** على عرض خمسة أعضاء فقط من فريق المشروع.</span><span class="sxs-lookup"><span data-stu-id="e64e2-125">The **Task Planning** grid resource lookup is limited to only show up to five team members from the project team.</span></span> 
+- <span data-ttu-id="e64e2-126">لا يقوم البحث عن مورد شبكة **تخطيط المهمة** بتصفية الموارد غير النشطة.</span><span class="sxs-lookup"><span data-stu-id="e64e2-126">The **Task Planning** grid resource lookup does not filter inactive resources.</span></span>
+- <span data-ttu-id="e64e2-127">الوضع اليدوي لا يعمل كما هو متوقع في هيكل تنظيم عمل تخطيط المشروع.</span><span class="sxs-lookup"><span data-stu-id="e64e2-127">Manual mode is not working as expected in the project planning work breakdown structure.</span></span>
+- <span data-ttu-id="e64e2-128">شبكة **تخطيط المهمة** تعرض **فئات الحركة غير النشطة**.</span><span class="sxs-lookup"><span data-stu-id="e64e2-128">The **Task Planning** grid shows **Inactive Transaction Categories**.</span></span>
+- <span data-ttu-id="e64e2-129">يتم تقريب شبكة **تعيينات الموارد** بشكل غير صحيح عندما تحتوي مهمة على تعيينات متعددة.</span><span class="sxs-lookup"><span data-stu-id="e64e2-129">The **Resource Assignment** grid rounds incorrectly when a task has multiple assignments.</span></span>
+- <span data-ttu-id="e64e2-130">تختلف قيم التقريب ما بين التكلفة المخططة والتكلفة الفعلية لمهمة واحدة.</span><span class="sxs-lookup"><span data-stu-id="e64e2-130">Rounding values are different between planned cost and actual cost for a single task.</span></span>
 
-<span data-ttu-id="9480d-131">**المبيعات**</span><span class="sxs-lookup"><span data-stu-id="9480d-131">**Sales**</span></span>
+<span data-ttu-id="e64e2-131">**المبيعات**</span><span class="sxs-lookup"><span data-stu-id="e64e2-131">**Sales**</span></span>
 
-<span data-ttu-id="9480d-132">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="9480d-132">The following issues have been fixed:</span></span>
+<span data-ttu-id="e64e2-132">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="e64e2-132">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="9480d-133">يؤدي النقر المزدوج فوق **إحضار جميع فئات الحركات** إلى إنشاء أسطر متعددة.</span><span class="sxs-lookup"><span data-stu-id="9480d-133">**Fetch All Transaction Categories** double-click creates multiple lines.</span></span>
+- <span data-ttu-id="e64e2-133">يؤدي النقر المزدوج فوق **إحضار جميع فئات الحركات** إلى إنشاء أسطر متعددة.</span><span class="sxs-lookup"><span data-stu-id="e64e2-133">**Fetch All Transaction Categories** double-click creates multiple lines.</span></span>
