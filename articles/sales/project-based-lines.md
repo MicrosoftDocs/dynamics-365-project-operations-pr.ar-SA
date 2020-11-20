@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070505"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181931"
 ---
 # <a name="project-based-opportunity-lines"></a>بنود الفرصة المستندة إلى المشروع
 
@@ -26,7 +26,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 فيما يلي الحقول الموجودة في بند الفرصة المستندة إلى مشروع:
 
-| **الحقل** | **الموقع** | **الصلة والغرض والإرشاد** | **تأثير لاحق** |
+| **الحقل** | **الموقع** | **الوصف** | **تأثير لاحق** |
 | --- | --- | --- | --- |
 | نوع المنتج | علامة التبويب عام (مخفية) | هذا حقل مجموعة الخيارات. إذا كان لديك Dynamics 365 Operations مثبتًا، فأحد الخيارات المتوفرة هو **الخدمة المعتمدة على المشروع**.  | يتم تعيين قيمة هذا الحقل إلى **خدمة تستند إلى مشروع** عند إنشاء بند فرصة تستند إلى المشروع من شبكة البنود المستندة إلى المشروع في الفرصة. <br> إذا قمت بتغيير هذه القيمة أو تجاوزتها، فلن يتم تمكين وظيفة المشروع على عناصر البنود المستندة إلى مشروع الخاصة بك. |
 | الفرصة | علامة التبويب عام | هذا الحقل للقراءة فقط ويشير إلى سجل الفرصة الأصل الذي ينتمي إليه عنصر البند هذا. | لا يوجد تأثير لاحق لهذا الحقل. |

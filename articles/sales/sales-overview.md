@@ -1,29 +1,23 @@
 ---
-title: نظرة عامة على عمليات المبيعات
+title: نظرة عامة على عملية المبيعات
 description: يوفر هذا الموضوع معلومات حول عمليات المبيعات الأساسية.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070843"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177585"
 ---
-# <a name="sales-processes-overview"></a>نظرة عامة على عمليات المبيعات
+# <a name="sales-process-overview"></a>نظرة عامة على عملية المبيعات
+
+_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 تختلف عمليات المبيعات المستخدمة في المؤسسة المستندة إلى المشروع عن عمليات المبيعات المستخدمة في المؤسسة المستندة إلى المنتج. يحدث هذا نتيجة لأن دورات المبيعات الخاصة بالمؤسسات المستندة إلى المشروع أطول وتتطلب تقنيات تقديرات مخصصة لتحليل عروض الأسعار وإنشاءها لكل صفقة. يستخدم Dynamics 365 Project Operations بعض الوظائف التالية المستخدمة في عملية المبيعات:
 

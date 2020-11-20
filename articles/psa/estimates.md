@@ -3,7 +3,7 @@ title: التقديرات
 description: يقدم هذا الموضوع معلومات حول التقديرات في Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070846"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132681"
 ---
 # <a name="estimates"></a>التقديرات
 
@@ -81,7 +81,7 @@ ms.locfileid: "4070846"
 إذا قمت بإضافة حقل مخصص إلى تفاصيل بند عرض الأسعار وتريد أن يقوم النظام بإدخال قيمة الحقل كقيمة افتراضيه في بند التكلفة ذي الصلة الذي ينشئه، استخدم أدوات تسجيل المكونات الإضافية PreOperationContractLineDetailUpdate وPreOperationQuoteLineDetailUpdate. ويجب إعادة تسجيل هذه المكونات الإضافية بعد تغيير تفصيل بند عرض الأسعار أو تغيير تفاصيل شرط التعاقد. اتبع هذه الخطوات لاستكمال العملية.
 
 1. افتح PluginRegistrationTool، وقم بالاتصال بالمثيل الخاص بك على الإنترنت.
-2. حدد **بحث** ، وابحث عن المكون الإضافي المراد تحديثه.
+2. حدد **بحث**، وابحث عن المكون الإضافي المراد تحديثه.
 
     ![مربع حوار شجرة البحث](media/basic-guide-19.png)
 
@@ -90,11 +90,11 @@ ms.locfileid: "4070846"
 
     ![تحديد خطوة في المكون الإضافي](media/basic-guide-20.png)
 
-5. في مربع حوار **تحديث خطوة موجودة** ، في حقل **سمات التصفية** حدد زر علامة حذف ( **...** ):
+5. في مربع حوار **تحديث خطوة موجودة**، في حقل **سمات التصفية** حدد زر علامة حذف (**...**):
  
     ![مربع حوار تحديث خطوة موجودة](media/basic-guide-21.png)
 
-6. في مربع حوار **تحديد السمات** ، قم بتحديد خانات الاختيار للسمات المخصصة.
+6. في مربع حوار **تحديد السمات**، قم بتحديد خانات الاختيار للسمات المخصصة.
 
     ![مربع حوار تحديد السمات](media/basic-guide-22.png)
 

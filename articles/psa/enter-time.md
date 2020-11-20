@@ -3,7 +3,7 @@ title: إدخال الوقت
 description: كيفية إدخال الوقت في Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b06062cf21cacedda759cc7bf7f940fc33f16bd0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070847"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132857"
 ---
 # <a name="enter-time-project-service"></a>إدخال الوقت (Project Service)
 
@@ -39,7 +39,7 @@ ms.locfileid: "4070847"
   
 3. لإدخال الوقت، انقر فوق **جديد** أو انقر نقرًا مزدوجًا في التقويم ضمن اليوم الذي تريد إدخال الوقت له.  
   
-4. املأ الحقول في نموذج **إدخال الوقت‬** ، ثم انقر فوق **حفظ**.  
+4. املأ الحقول في نموذج **إدخال الوقت‬**، ثم انقر فوق **حفظ**.  
   
 5. تابع إدخال الوقت للأسبوع. عند الانتهاء من ذلك وكل شيء يبدو صحيحًا، انقر فوق **إرسال**. سيقوم أحد المدراء باستعراض إدخالات الوقت والموافقة عليها.  
   
@@ -51,7 +51,7 @@ ms.locfileid: "4070847"
   
    إذا كنت تستخدم تطبيق الأجهزة المحمولة:  
   
-9. من القائمة، انتقل إلى **إدخالات الوقت‬**.     يمكنك التبديل إلى طريقة عرض **اليوم** أو **الأسبوع** أو **الشهر** ، أو الانتقال إلى فترة الوقت السابقة أو التالية.  
+9. من القائمة، انتقل إلى **إدخالات الوقت‬**.     يمكنك التبديل إلى طريقة عرض **اليوم** أو **الأسبوع** أو **الشهر**، أو الانتقال إلى فترة الوقت السابقة أو التالية.  
   
 10. اضغط على **…** واضغط على **جديد**.  
   

@@ -1,21 +1,21 @@
 ---
-title: التسجيل في اشتراك معاينة
+title: التسجيل في اشتراك معاينة - خفيف
 description: يقدم هذا الموضوع معلومات حول كيفية الاشتراك في Project Operations Lite – التعامل مع الفواتير الأولية‬ ونشره.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070507"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175875"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>التسجيل للحصول على اشتراك معاينة للنشر الخفيف النشر – التعامل مع الفواتير الأولية‬
+# <a name="sign-up-for-a-preview-subscription---lite"></a>التسجيل في اشتراك معاينة - خفيف 
 
 يشرح هذا الموضوع كيفية الاشتراك في عرض شريك المعاينة ونشر Dynamics 365 Project Operations Lite – التعامل مع الفواتير الأولية‬.
 
@@ -67,7 +67,7 @@ ms.locfileid: "4070507"
 
 ![الصفحة الرئيسية لمركز الإدارة](./media/14AdminPortal.png)
 
-2. في صفحة **المستخدمين النشطين** ، حدد المستخدمين الذين ترغب في تعيين ترخيص لهم.
+2. في صفحة **المستخدمين النشطين**، حدد المستخدمين الذين ترغب في تعيين ترخيص لهم.
 
 ![تعيين التراخيص](./media/15AssignLicenses.png)
 
@@ -79,7 +79,7 @@ ms.locfileid: "4070507"
 1. يمكنك تزويد بيئة نشر Project Operations CDS جديدة باتباع الإرشادات في الموضوع، [نموذج نشر CDS](lite-deployment.md). عند تحديد نوع البيئة، تأكد من استخدام **الإصدار التجريبي (مستند إلى اشتراك)**.
 ![بيئة جديدة](./media/19CreateEnvironment.png)
 
-2. حدد الإعداد **تمكين تطبيقات Dynamics 365** ، واترك الخيار **نشر هذه التطبيقات تلقائيًا** فارغًا.  
+2. حدد الإعداد **تمكين تطبيقات Dynamics 365**، واترك الخيار **نشر هذه التطبيقات تلقائيًا** فارغًا.  
 3. حدد **حفظ** لإنشاء البيئة.
 
 ![إضافة قاعدة بيانات](./media/20CreateEnvironment1.png)
@@ -88,6 +88,6 @@ ms.locfileid: "4070507"
 
 ![تثبيت الحل](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a>تثبيت تكوين CDS واعداد بيانات العرض التوضيحي
+## <a name="install-a-cds-configuration-and-setup-demo-data"></a>تثبيت تكوين CDS وإعداد بيانات العرض التوضيحي
 
-قم بتثبيت تكوين CDS وإعداد بيانات العرض التوضيحية باتباع الإرشادات الواردة في الموضوع، [تطبيق اعداد بيانات العرض التوضيحي وبيانات التكوين‬](lite-apply-demo-setup-config-data.md).
+قم بتثبيت تكوين CDS وإعداد بيانات العرض التوضيحية باتباع الإرشادات الواردة في الموضوع، [تطبيق إعداد بيانات العرض التوضيحي وبيانات التكوين‬](lite-apply-demo-setup-config-data.md).

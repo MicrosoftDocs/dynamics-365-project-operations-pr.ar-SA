@@ -1,21 +1,21 @@
 ---
-title: بنود الفرصة المستندة إلى المنتج
+title: شروط الفرصة المستندة إلى المنتج - خفيف
 description: يوفر هذا الموضوع معلومات حول عناصر بنود الفرصة المستندة إلى المنتج في Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fd32bedb94cf36f706c112a845f342d9dde19805
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070570"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176293"
 ---
-# <a name="product-based-opportunity-lines"></a>بنود الفرصة المستندة إلى المنتج
+# <a name="product-based-opportunity-lines---lite"></a>شروط الفرصة المستندة إلى المنتج - خفيف
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
@@ -25,4 +25,4 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 
 تمثل **ميزانية العميل** أحد مفاهيم بنود الفرص المستندة إلى المنتج الخاصة بالفرص المستندة إلى المشروع. استخدم هذا الحقل لتعقب المبلغ الذي يرغب العميل في دفعه لصنف البند.
 
-وفي حاله تعيين أسلوب الإيراد الخاص بملخص الفرصة إلى **محسوب من النظام** ، يتم تلخيص قيم موازنة العميل في البنود المستندة إلى المنتج والمشروع لحساب الإيراد المقدر.
+وفي حاله تعيين أسلوب الإيراد الخاص بملخص الفرصة إلى **محسوب من النظام**، يتم تلخيص قيم موازنة العميل في البنود المستندة إلى المنتج والمشروع لحساب الإيراد المقدر.

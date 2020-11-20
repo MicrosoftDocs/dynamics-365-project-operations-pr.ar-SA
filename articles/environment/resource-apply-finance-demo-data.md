@@ -1,21 +1,21 @@
 ---
-title: تطبيق بيانات العرض التوضيحي لـ Project Operations على بيئة مستضافة في سحابة Finance
+title: تطبيق بيانات العرض التوضيحي على بيئة مستضافة في سحابة Finance
 description: يوضح هذا الموضوع كيفية تطبيق البيانات التجريبية من Project Operations إلى بيئة Dynamics 365 Finance المستضافة على السحابة.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096606"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365222"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>تطبيق بيانات العرض التوضيحي لـ Project Operations على بيئة مستضافة في سحابة Finance
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>تطبيق بيانات العرض التوضيحي على بيئة مستضافة في سحابة Finance
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
@@ -28,7 +28,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 المجموعة الأولى من بيانات الاعتماد المميزة هي بيانات اعتماد الحسابات المحلية وتحتوي على ارتباط تشعبي إلى الاتصال سطح المكتب البعيد. تتضمن بيانات الاعتماد اسم المستخدم وكلمة المرور الخاصة بمسؤول البيئة. يتم استخدام المجموعة الثانية من بيانات الاعتماد لتسجيل الدخول إلى SQL Server في هذه البيئة.
 
-2. قم بالاتصال بالبيئة بواسطة الارتباط التشعبي في **الحسابات المحلية** ، واستخدم **بيانات اعتماد الحساب المحلي** للمصادقة.
+2. قم بالاتصال بالبيئة بواسطة الارتباط التشعبي في **الحسابات المحلية**، واستخدم **بيانات اعتماد الحساب المحلي** للمصادقة.
 3. انتقل إلى **خدمات معلومات الإنترنت** > **مجموعات التطبيقات** > **AOSService** وأوقف الخدمة. أنت توقف الخدمة عند هذه النقطة لكي يمكنك الاستمرار في استبدال قاعدة بيانات SQL.
 
 ![إيقاف AOS](./media/2StopAOS.png)
@@ -46,7 +46,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 6. في مستكشف الكائنات، **قواعد البيانات** وحدد مكان **AXDB**. ستقوم باستبدال قاعدة البيانات بقاعدة البيانات الجديدة الموجودة في [مركز التنزيل](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. انسخ الملف المضغوط إلى VM الذي تتصل به عن بعد وقم باستخراج المحتويات المضغوطة.
-8. في SQL Server Management Studio، انقر بزر الماوس الأيمن فوق **AxDB** ، ثم حدد **المهام** > **استعادة** > **قاعدة البيانات**.
+8. في SQL Server Management Studio، انقر بزر الماوس الأيمن فوق **AxDB**، ثم حدد **المهام** > **استعادة** > **قاعدة البيانات**.
 
 ![استعادة قاعدة البيانات](./media/5RestoreDatabase.png)
 
@@ -54,7 +54,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ![الأجهزة المصدر](./media/6SourceDevice.png)
 
-10. حدد **الخيارات** ، ثم حدد **الكتابة فوق قاعدة البيانات الموجودة** و **إغلاق الاتصالات الموجودة بقاعدة البيانات الوجهة**. 
+10. حدد **الخيارات**، ثم حدد **الكتابة فوق قاعدة البيانات الموجودة** و **إغلاق الاتصالات الموجودة بقاعدة البيانات الوجهة**. 
 11. حدد **موافق**.
 
 ![استعادة الإعدادات](./media/7RestoreSetting.png)

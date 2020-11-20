@@ -3,7 +3,7 @@ title: إدخال المصروفات
 description: كيفية إدخال المصروفات في Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34510b38773031795d3877c2736275fe67dbdd7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070848"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132902"
 ---
 # <a name="enter-expenses-project-service"></a>إدخال المصروفات (Project Service)
 
@@ -39,7 +39,7 @@ ms.locfileid: "4070848"
   
 3. لإدخال المصروفات، انقر فوق **جديد** أو انقر نقرًا مزدوجًا في التقويم ضمن اليوم الذي تريد إدخال الوقت له.  
   
-4. املأ الحقول في نموذج **المصروفات الجديدة** ، ثم انقر فوق **حفظ**.  
+4. املأ الحقول في نموذج **المصروفات الجديدة**، ثم انقر فوق **حفظ**.  
   
 5. تابع إدخال مصروفاتك للأسبوع. عند الانتهاء من ذلك وكل شيء يبدو صحيحًا، انقر فوق **إرسال**. سيقوم أحد المدراء باستعراض مصروفاتك والموافقة عليها.  
   
@@ -49,7 +49,7 @@ ms.locfileid: "4070848"
   
    إذا كنت تستخدم تطبيق الأجهزة المحمولة:  
   
-8. من القائمة، انتقل إلى **المصروفات**.     يمكنك التبديل إلى طريقة عرض **اليوم** أو **الأسبوع** أو **الشهر** ، أو الانتقال إلى فترة الوقت السابقة أو التالية.  
+8. من القائمة، انتقل إلى **المصروفات**.     يمكنك التبديل إلى طريقة عرض **اليوم** أو **الأسبوع** أو **الشهر**، أو الانتقال إلى فترة الوقت السابقة أو التالية.  
   
 9. اضغط على **…** واضغط على **جديد**.  
   

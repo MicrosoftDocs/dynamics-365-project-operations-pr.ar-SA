@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070519"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181211"
 ---
-# <a name="opportunity-headersummary"></a>رأس/ملخص الفرصة
+# <a name="opportunity-settings"></a>إعدادات الفرصة
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
@@ -26,7 +26,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 يتضمن الجدول التالي الحقول الموجودة في فرصة مستندة إلى مشروع والتي تكون إما فريدة في Project Operations أو قد يكون هناك بعض التغييرات الهامة عن الفرص في المبيعات Sales.
 
-| **الحقل** | **الموقع** | **الصلة والغرض والإرشاد** | **تأثير لاحق** |
+| **الحقل** | **الموقع** | **الوصف** | **تأثير لاحق** |
 | --- | --- | --- | --- |
 | النوع | علامة التبويب عام (مخفية) | يشتمل حقل مجموعة الخيارات هذا على الخيارات التالية:</br>- المستند إلى العمل (متوفر فقط مع Project Operations)</br>- المستند إلى البند (يتوفر فقط عند تثبيت Project Operations وSales)</br>- يستند إلى صيانة الخدمة (يكون متوفرًا عند تثبيت Field Service) | عند استخدام Project Operations، يتم تعيين قيمة هذا الحقل تلقائيًا إلى **يستند إلى العمل** والذي يصنف الفرصة على أنها مستندة إلى المشروع. يجب أن تكون الفرصة مستندة إلى المشروع لتمكين كافة الوظائف والملحقات الخاصة بالمشروع في عملية المبيعات اللاحقة لهذه الصفقة. |
 | الشركة المالكة | علامة التبويب عام | هذه هي الشركة أو الكيان القانوني الذي سيقوم بتسليم المشروع للعميل. | سيتم نسخ معلومات هذا الحقل إلى الحقل المقابل في عرض أسعار المشروع الذي تم إنشاؤه من هذه الفرصة. |

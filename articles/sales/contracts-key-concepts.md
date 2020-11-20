@@ -1,21 +1,21 @@
 ---
-title: المفاهيم الأساسية - عقود المشروع
+title: عقود المشروع - المفاهيم الأساسية
 description: يوفر هذا الموضوع معلومات حول المفاهيم الأساسية لعقود المشروع في Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070580"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175515"
 ---
-# <a name="key-concepts---project-contracts"></a>المفاهيم الأساسية - عقود المشروع
+# <a name="project-contracts---key-concepts"></a>عقود المشروع - المفاهيم الأساسية
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
