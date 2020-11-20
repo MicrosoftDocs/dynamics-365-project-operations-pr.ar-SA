@@ -3,7 +3,7 @@ title: عرض تقديرات المشروع وتحريرها
 description: كيفية عرض تقديرات المشروع وتحريرها في Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d6f8375b71ef17319924e3a57800b1218f7258ee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34f0c1d85311dc6ec00e892ee899bc4dad0eed32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070720"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125837"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>عرض تقديرات المشروع وتحريرها (Project Service)
 
@@ -37,7 +37,7 @@ ms.locfileid: "4070720"
   
 3.  في الشريط عبر الجزء العلوي من الشاشة، حدد السهم لأسفل الموجود بجوار اسم المشروع، ثم انقر فوق **تقديرات المشروع**.  
   
-4.  في **التوزيع على الوقت حسب** ، حدد **المجهود** أو **التكلفة** أو **المبيعات** لتغيير تقديرات المشروع التي يجب عرضها.  
+4.  في **التوزيع على الوقت حسب**، حدد **المجهود** أو **التكلفة** أو **المبيعات** لتغيير تقديرات المشروع التي يجب عرضها.  
   
 5.  لإضافة المصروفات أو حذفها، انقر فوق **إظهار طريقة عرض الشبكة‬**. لإنشاء مصروفات جديدة، انقر فوق **مصروفات جديدة**. لحذف مصروفات، حددها من القائمة، ثم انقر فوق **حذف المصروفات**. عندما تنتهي من إضافة المصروفات أو حذفها، انقر فوق **حفظ**.  
   

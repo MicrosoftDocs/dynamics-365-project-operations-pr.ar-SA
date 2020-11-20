@@ -3,7 +3,7 @@ title: إدارة المشاريع والحجوزات في تقويم Office 365
 description: كيفية إدارة المشاريع والحجوزات في تقويم Office 365 الخاص بك
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070678"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129032"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>إدارة المشاريع والحجوزات في تقويمك في (Project Service)
 
@@ -60,7 +60,7 @@ ms.locfileid: "4070678"
   
 3.  انقر فوق علامة التبويب **المزامنة**.  
   
-4.  ضمن **حدد إذا ما كان يمكن مزامنة حجز الموارد مع** ، حدد **مزامنة حجز الموارد مع Outlook**.  
+4.  ضمن **حدد إذا ما كان يمكن مزامنة حجز الموارد مع**، حدد **مزامنة حجز الموارد مع Outlook**.  
   
 ## <a name="turn-on-synchronization-for-your-user-profile-user-task"></a>تشغيل المزامنة لملف تعريف المستخدم (مهمة المسؤول)  
   
@@ -70,20 +70,20 @@ ms.locfileid: "4070678"
   
 3.  انقر فوق علامة التبويب **المزامنة**  
   
-4.  ضمن **مزامنة حجز الموارد مع Outlook** ، حدد **حجز موارد المزامنة مع Outlook**.  
+4.  ضمن **مزامنة حجز الموارد مع Outlook**، حدد **حجز موارد المزامنة مع Outlook**.  
   
 ## <a name="import-your-personal-appointments-user-task"></a>استيراد المواعيد الشخصية (مهمة المستخدم)  
  يمكنك استيراد المواعيد الشخصية من تقويمك إلى طريقة عرض إدخال الوقت في Project Service Automation.‬  
   
 1. افتح تقويم [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] وانقر فوق **استيراد البيانات**.  
   
-2. في شاشة عوامل التصفية، حدد **المواعيد من Exchange** ، ثم انقر فوق **تطبيق**.  
+2. في شاشة عوامل التصفية، حدد **المواعيد من Exchange**، ثم انقر فوق **تطبيق**.  
   
 3. سوف يسحب النظام المواعيد إلى طريقة عرض إدخال الوقت كإدخالات مقترحة من الأسبوع الحالي. لإضافة إدخالات لأسبوع آخر، انقر فوق **السابق** أو **التالي**.  
   
 4. حدد الموعد الذي تريد إضافته إلى طريقة عرض إدخال الوقت في Project Service Automation.  
   
-5. على المربع المنبثق **إدخال الوقت** ، حدد الخيارات المناسبة لتحويل الموعد إلى طريقة عرض إدخال الوقت في Project Service Automation..  
+5. على المربع المنبثق **إدخال الوقت**، حدد الخيارات المناسبة لتحويل الموعد إلى طريقة عرض إدخال الوقت في Project Service Automation..  
   
 6. انقر فوق **حفظ**.  
   

@@ -3,7 +3,7 @@ title: تعيين موارد عامة قابل للحجز إلى مهمة وفر
 description: يوفر هذا الموضوع معلومات حول حجز الموارد العامة للمهام وفرق المشروع.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070659"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127052"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>تعيين موارد عامة قابل للحجز إلى مهمة وإنشاء متطلبات مورد 
 
@@ -31,7 +31,7 @@ ms.locfileid: "4070659"
 
 بالاضافه إلى حجز وتعيين الموارد الفعلية أو المسماة إلى المشروع، يمكنك تعيين موارد عامة لمهام المشروع. يمكن أن تعمل هذه الموارد كعناصر نائبه للموارد المسماة حتى تصبح مستعدا لعمل فريق للمشروع بموارد مسماة. 
 
-1. في Project Service Automation (PSA)، افتح صفحة **المشروع** وفي علامة تبويب **الجدول** ، أدخل اسم موضع للمورد العام في خلية **المورد** بالجدول. أو ، انقر فوق رمز **المورد** في الخلية لفتح منتقي المورد ثم قم بإدخال اسم للمورد العام الذي تريد إنشاؤه.
+1. في Project Service Automation (PSA)، افتح صفحة **المشروع** وفي علامة تبويب **الجدول**، أدخل اسم موضع للمورد العام في خلية **المورد** بالجدول. أو ، انقر فوق رمز **المورد** في الخلية لفتح منتقي المورد ثم قم بإدخال اسم للمورد العام الذي تريد إنشاؤه.
 
 ![إنشاء وتعيين عضو فريق عام](media/RM-how-to-9.png)
 

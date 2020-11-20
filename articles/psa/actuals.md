@@ -3,7 +3,7 @@ title: نظرة عامة على ‏‫القيم الفعلية‬
 description: يقدم هذا الموضوع معلومات حول القيم الفعلية للمشروع.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070842"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129752"
 ---
 # <a name="actuals-overview"></a>نظرة عامة على ‏‫القيم الفعلية‬
 
@@ -51,7 +51,7 @@ ms.locfileid: "4070842"
 
 ## <a name="using-entry-journals-to-record-costs"></a>استخدام دفاتر يومية الإدخال لتسجيل التكاليف
 
-في PSA، تتيح لك دفاتر يومية الإدخال تسجيل التكلفة أو العائد في فئات المواد أو الرسوم أو الوقت أو المصروفات أو الحركات الضريبية. يحتوي دفتر اليومية علي رأس وبنود وإجراء **تأكيد**. إليك بعض السيناريوهات التي قد تستخدم فيها دفتر اليومية:
+في PSA، تتيح لك دفاتر يومية الإدخال تسجيل التكلفة أو العائد في فئات المواد أو الرسوم أو الوقت أو المصروفات أو الحركات الضريبية. يحتوي دفتر اليومية على رأس وبنود وإجراء **تأكيد**. إليك بعض السيناريوهات التي قد تستخدم فيها دفتر اليومية:
 
 - يجب عليك تسجيل التكاليف والمبيعات الفعلية للمواد في أحد المشاريع.
 - يجب نقل القيم الفعلية من نظام آخر إلى PSA.

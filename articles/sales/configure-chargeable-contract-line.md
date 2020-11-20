@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070581"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128672"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>تكوين مكونات خاضعة للرسوم لشروط تعاقد مستندة إلى مشروع
 
@@ -35,13 +35,13 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 بإمكان الدور أن يكون خاضعًا أو غير خاضع للرسوم في شرط تعاقد محدد قائم على مشروع.
 
-في علامة التبويب **الأدوار الخاضعة للرسوم** لشروط تعاقد مستندة إلى مشروع، على الشبكة الفرعية **الفئات الخاضعة للرسوم** ، في حقل **نوع الفوترة** ، قم بتحديث نوع الفوترة لدور.
+على علامة تبويب **الأدوار الخاضعة للرسوم** في شرط تعاقد قائم على المشروع، في الشبكة الفرعية **الأدوار الخاضعة للرسوم** في حقل **نوع الفوترة**، قم بتحديث نوع الفوترة لدور.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>تحديث فئة حركة كي تكون خاضعة أو غير خاضعة للرسوم
 
 بإمكان فئة الحركة أن تكون خاضعة أو غير خاضعة للرسوم في شرط تعاقد محدد قائم على مشروع.
 
-في علامة التبويب **الفئات الخاضعة للرسوم** لشروط تعاقد مستندة إلى مشروع، على الشبكة الفرعية **الفئات الخاضعة للرسوم** ، في حقل **نوع الفوترة** ، قم بتحديث نوع الفوترة لحركة.
+على علامة تبويب **الفئات الخاضعة للرسوم** في شرط تعاقد قائم على المشروع، في الشبكة الفرعية **الفئات الخاضعة للرسوم** في حقل **نوع الفوترة**، قم بتحديث نوع الفوترة لحركة.
 
 ### <a name="resolve-chargeability"></a>حل الخضوع للرسوم
 

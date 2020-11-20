@@ -3,7 +3,7 @@ title: استخدام الوظيفة الإضافية Project Service لتخطي
 description: يوفر هذا الموضوع معلومات حول كيفية إضافة وتكوين واستخدام الوظيفة الإضافية لـ Microsoft project لـ Microsoft project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070774"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129662"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>استخدام الوظيفة الإضافية Project Service Automation لتخطيط عملك في Microsoft Project
 
@@ -59,7 +59,7 @@ ms.locfileid: "4070774"
 ## <a name="read-from-a-template"></a>القراءة من قالب  
  يمكنك القراءة من قالب أنشأته في [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ونسخه إلى [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] لبدء تخطيط المشروع. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [إنشاء قالب مشروع (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  من علامة التبويب **Project Service** ، انقر فوق **قراءة** > **قالب مشروع Project Service Automation**.  
+1.  من علامة التبويب **Project Service**، انقر فوق **قراءة** > **قالب مشروع Project Service Automation**.  
 
 2.  اختر قالب مشروع من القائمة وانقر فوق **فتح**.  
 
@@ -70,7 +70,7 @@ ms.locfileid: "4070774"
 
 1.  افتح مشروعًا، ثم انقر فوق شريط **المهام**.  
 
-2.  انقر فوق قائمة **مخطط جانت** ، ثم اختر **ورقة الموارد**.  
+2.  انقر فوق قائمة **مخطط جانت**، ثم اختر **ورقة الموارد**.  
 
 3.  على ورقة الموارد، انقر فوق القائمة المنسدلة **دور موارد Project Service** واختر دور Project Service Automation.  
 
@@ -78,9 +78,9 @@ ms.locfileid: "4070774"
 
 1.  من علامة التبويب Project Service، حدد صفًا، ثم انقر فوق **البحث عن موارد**.  
 
-2.  على شاشة **حجز مورد** ، حدد المورد الذي تريد استخدامه للمشروع.  
+2.  على شاشة **حجز مورد**، حدد المورد الذي تريد استخدامه للمشروع.  
 
-3.  انقر فوق **حجز** ، ثم انقر فوق **موافق**.  
+3.  انقر فوق **حجز**، ثم انقر فوق **موافق**.  
 
 ## <a name="publish-your-project"></a>نشر المشروع  
 عند اكتمال عملية تخطيط المشروع، الخطوة التالية هي استيراد المشروع ونشره في [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
@@ -95,9 +95,9 @@ ms.locfileid: "4070774"
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **الاستخدام**    |    استيراد إلى شاشة [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **تقديرات المشروع**.     |
 
 **لاستيراد مشروعك ونشره**  
-1. من علامة التبويب **Project Service** ، انقر فوق **نشر** > **مشروع جديد في Project Service Automation**.  
+1. من علامة التبويب **Project Service**، انقر فوق **نشر** > **مشروع جديد في Project Service Automation**.  
 
-2. في مربع الحوار **نشر في مشروع جديد في Project Service** ، أدخل **اسم المشروع** وحدد **العميل**.  
+2. في مربع الحوار **نشر في مشروع جديد في Project Service**، أدخل **اسم المشروع** وحدد **العميل**.  
 
 3. حدد **‏‫ربط خطة المشروع بـ Project Service Automation‬** بشكل اختياري لربط ملف خطة Project بـ Project Service Automation.  
 
@@ -139,11 +139,11 @@ ms.locfileid: "4070774"
 
 2. حدد **إلى مستندات مشروع Project Service Automation**.  
 
-3. في مربع الحوار **تمكين الفتح في [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ، حدد **نعم** أو **لا**.  
+3. في مربع الحوار **تمكين الفتح في [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**، حدد **نعم** أو **لا**.  
 
-   - عندما تنقر فوق **نعم** ، ستتمكن من تحديد الزر **فتح في [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** في Project Service Automation وتشغيل [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] وتحميل ملف المشروع من مكتبة مستندات SharePoint.  
+   - عندما تنقر فوق **نعم**، ستتمكن من تحديد الزر **فتح في [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** في Project Service Automation وتشغيل [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] وتحميل ملف المشروع من مكتبة مستندات SharePoint.  
 
-   - عندما تنقر فوق **لا** ، لن يعمل الارتباط الخاص بالزر **فتح في [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**.  
+   - عندما تنقر فوق **لا**، لن يعمل الارتباط الخاص بالزر **فتح في [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**.  
 
 4. يمكن العثور على ملف [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] في [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] تحت **المستندات** لمشروع [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] المعين.  
 
@@ -153,20 +153,20 @@ ms.locfileid: "4070774"
 
 2. حدد **إلى مستندات مشروع Project Service Automation**.  
 
-3. في مربع الحوار **تمكين الفتح في [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ، حدد **نعم** أو **لا**.  
+3. في مربع الحوار **تمكين الفتح في [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**، حدد **نعم** أو **لا**.  
 
-   - عندما تنقر فوق **نعم** ، ستتمكن من تحديد الزر **فتح في [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** في Project Service Automation وتشغيل [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] وتحميل ملف المشروع من مكتبة مستندات SharePoint.  
+   - عندما تنقر فوق **نعم**، ستتمكن من تحديد الزر **فتح في [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** في Project Service Automation وتشغيل [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] وتحميل ملف المشروع من مكتبة مستندات SharePoint.  
 
-   - عندما تنقر فوق **لا** ، لن يعمل الارتباط الخاص بالزر **فتح في [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**.  
+   - عندما تنقر فوق **لا**، لن يعمل الارتباط الخاص بالزر **فتح في [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**.  
 
 4. يمكن العثور على ملف [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] في [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] تحت **المستندات** لمشروع [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] المعين.  
 
 ## <a name="publish--your-project-as-a-template"></a>نشر مشروعك كقالب  
  يمكنك حفظ مشروعك وإعادة استخدامه عن طريق حفظه كقالب مشروع في [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  تعتبر قوالب المشروع بمثابة خطط مشروع قابلة لإعادة الاستخدام في [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [إنشاء قالب مشروع (Project Service Automation)](../psa/create-project-template.md)  
 
-1. من علامة التبويب **Project Service** ، انقر فوق **نشر** > **قالب مشروع جديد في Project Service Automation**.  
+1. من علامة التبويب **Project Service**، انقر فوق **نشر** > **قالب مشروع جديد في Project Service Automation**.  
 
-2. في مربع الحوار **نشر في مشروع جديد في قلب Project Service** ، أدخل **اسم قالب المشروع**.  
+2. في مربع الحوار **نشر في مشروع جديد في قلب Project Service**، أدخل **اسم قالب المشروع**.  
 
 3. بشكل اختياري، حدد **ربط خطة المشروع بـ Project Service Automation‬** لربط ملف Project بـ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 

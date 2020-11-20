@@ -3,7 +3,7 @@ title: إدارة طلبات الموارد
 description: كيفية إدارة طلبات الموارد في Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070643"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128987"
 ---
 # <a name="manage-resource-requests-project-service"></a>إدارة طلبات الموارد (Project Service)
 
@@ -37,11 +37,11 @@ ms.locfileid: "4070643"
   
     نفذ أحد الإجراءات التالية لتحسين البحث:  
   
-   -   حدد طريقة عرض أو ترتيب فرز من أعلى الشاشة. يمكنك أيضًا تحديد ما إذا كان سيتم إظهار توفر الموارد بالنسبة إلى **اليوم** أو **الأسبوع** أو **الشهر** ، واستخدم الأسهم لعرض الفترة الزمنية السابقة أو التالية. استخدم مربع البحث للعثور على مورد محدد.  
+   -   حدد طريقة عرض أو ترتيب فرز من أعلى الشاشة. يمكنك أيضًا تحديد ما إذا كان سيتم إظهار توفر الموارد بالنسبة إلى **اليوم** أو **الأسبوع** أو **الشهر**، واستخدم الأسهم لعرض الفترة الزمنية السابقة أو التالية. استخدم مربع البحث للعثور على مورد محدد.  
   
    -   انقر فوق **خيارات** لتغيير ما يظهر. على سبيل المثال، يمكنك إظهار وسيلة إيضاح تبيّن نظام الألوان لأنواع الحجوزات المختلفة، أو يمكنك أن تختار إظهار نوع معين فقط من الحجز (على سبيل المثال، حجز ثابت أو حجز مبدئي).  
   
-   -   انقر فوق **تصفية** لعرض الجزء **عامل تصفية** ، الذي يسمح لك بتصفية النتائج حسب الوحدة التنظيمية أو الدور أو المهارة أو سمات أخرى.  
+   -   انقر فوق **تصفية** لعرض الجزء **عامل تصفية**، الذي يسمح لك بتصفية النتائج حسب الوحدة التنظيمية أو الدور أو المهارة أو سمات أخرى.  
   
        ![شاشة طلبات الموارد في Project Service](../psa/media/project-service-resource-request-screen.png "شاشة طلبات الموارد في Project Service")  
   

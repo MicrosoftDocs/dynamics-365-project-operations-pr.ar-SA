@@ -3,7 +3,7 @@ title: حركات الأعمال
 description: يقدم هذا الموضوع معلومات حول حركات الأعمال.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d82f5d75de69b32b39c9a55d77287c0719930eb4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 048bd2d98e6332e6c48a24f4eacee5b937ef04a9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070766"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126962"
 ---
 # <a name="business-transactions"></a>حركات الأعمال
 
@@ -76,7 +76,7 @@ ms.locfileid: "4070766"
 
 ### <a name="transaction-origin"></a>أصل الحركة
 
-أصل الحركة هو كيان يخزن أصل كل حركة عمل. أثناء تنفيذ المشروع، ستقوم حركة عمل بإنشاء حركة عمل جديدة تقوم بدورها بإنشاء حركة عمل وما إلى ذلك. تم تصميم كيان أصل الحركة لتخزين البيانات المتعلقة بأصل كل حركة للمساعدة في اعداد التقارير وقابلية التتبع. 
+أصل الحركة هو كيان يخزن أصل كل حركة عمل. أثناء تنفيذ المشروع، ستقوم حركة عمل بإنشاء حركة عمل جديدة تقوم بدورها بإنشاء حركة عمل وما إلى ذلك. تم تصميم كيان أصل الحركة لتخزين البيانات المتعلقة بأصل كل حركة للمساعدة في إعداد التقارير وقابلية التتبع. 
 
 ### <a name="transaction-connection"></a>اتصال الحركة
 

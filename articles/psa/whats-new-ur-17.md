@@ -3,7 +3,7 @@ title: الجديد أو المتغير في إصدار التحديث 17، ال
 description: يسرد هذا الموضوع الميزات والإصلاحات المتوفرة في الإصدار 3 من Project Service Automation، إصدار التحديث 12.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ba685568692dafe117de42a71bb14d391cd7cc4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bb93208217972639f91b39b7b6705d9897373ef7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070600"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126782"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>الإصدار 3 من Project Service Automation، إصدار التحديث 17
 
@@ -52,6 +52,6 @@ ms.locfileid: "4070600"
 **المبيعات**
 
 - تم الإصلاح: يعالج **Invoice.PreValidateInvoiceUpdate** الآن سيناريو إعادة تعيين مالكي السجلات بشكل صحيح.
-- تم الإصلاح: عندما تكون فئة المعاملة **الوقت** ، تكون **UnitGroup** غير قابلة للتحرير لجميع الكيانات، بما فيها **QuoteLineDetails** و **JournalLine** و **InvoiceLineDetail** و **ContractLineDetails**. ومع ذلك، فإن **الوحدة** غير قابلة للتحرير فقط لكل من **JournalLine** و **InvoiceLineDetails**.
+- تم الإصلاح: عندما تكون فئة المعاملة **الوقت**، تكون **UnitGroup** غير قابلة للتحرير لجميع الكيانات، بما فيها **QuoteLineDetails** و **JournalLine** و **InvoiceLineDetail** و **ContractLineDetails**. ومع ذلك، فإن **الوحدة** غير قابلة للتحرير فقط لكل من **JournalLine** و **InvoiceLineDetails**.
 
 

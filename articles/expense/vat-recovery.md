@@ -5,15 +5,15 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c52d5ccef681ef9d9ff767c99af6f2fd0fd6da52
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070512"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126107"
 ---
 # <a name="vat-recovery-in-expense-management"></a>استرداد ضريبة القيمة المضافة في إدارة المصروفات
 
@@ -21,7 +21,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 لاستلام مبالغ مستردة في حركات الضريبة ذات القيمة المضافة (VAT) المؤهلة، يجب أن تقوم الشركة أو المؤسسة بتعيين المعلومات الدقيقة وتجميعها والتحقق منها وإرسالها. تشتمل هذه العملية على العديد من المهام، وقد تتضمن العديد من الموظفين أو الأدوار، وذلك وفقًا لحجم الشركة.
 
-لاسترداد ضريبة القيمة المضافة في وحدة **إدارة المصروفات** ، يجب إكمال المتطلبات الأساسية التالية:
+لاسترداد ضريبة القيمة المضافة في وحدة **إدارة المصروفات**، يجب إكمال المتطلبات الأساسية التالية:
 
 - يجب إنشاء أكواد الضريبة للبلاد/المناطق التي تم تخصيصها لفئات المصروفات.
 - يجب إنشاء مجموعة ضريبة مبيعات لكل كود ضريبة.
