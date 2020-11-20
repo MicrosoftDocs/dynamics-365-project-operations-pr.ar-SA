@@ -3,17 +3,17 @@ title: تحديد نوع التوزيع
 description: يوفر هذا الموضوع معلومات لمساعدتك على تحديد نوع نشر Project Operations الصحيح لشركتك.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070648"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401202"
 ---
 # <a name="determine-your-deployment-type"></a>تحديد نوع التوزيع
 
@@ -25,7 +25,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>عملاء Dynamics الحاليون الذين يستخدمون Dynamics 365 Project Service Automation
-يتضمن Project Operations القدرات التي تم شحنها مع Project Service Automation. سيتم إصدار مسار ترقية لهؤلاء العملاء في المستقبل.
+يتضمن Project Operations القدرات التي تم شحنها مع Project Service Automation. سيتم إصدار مسار ترقية لهؤلاء العملاء في الموجة 1 من إصدار 2021.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>عملاء Dynamics 365 Finance الحاليون الذين يستخدمون إدارة المشاريع والمحاسبة 
 
@@ -47,12 +47,13 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 يتضمن النشر الخفيف الإمكانيات التالية:
 
+- عملية المبيعات للمشاريع التي تقدم خبرات تطبيق Dynamics 365 Sales
 - تخطيط المشروع باستخدام Microsoft Project للويب
 - التسعير متعدد الأبعاد
 - إدارة الموارد الموحدة
 - تعقب الوقت
 - المصروفات الأساسية
-- مقترح الفاتورة
+- الفواتير الأولية والفواتير الموجهة للعملاء 
 
 #### <a name="deployment-steps"></a>خطوات التوزيع
 تحديد أفضل نموذج لنشر Project Operations باستخدام [استبيان النشر](https://aka.ms/provisionprojectoperations).
@@ -62,7 +63,8 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations لسيناريوهات الموارد/المنتجات غير المخزنة
 يتضمن Project Operations لسيناريوهات الموارد/المنتجات غير المخزنة‬ الإمكانيات التالية:
-  
+ 
+- عملية المبيعات للمشاريع التي تقدم خبرات تطبيق Dynamics 365 Sales
 - تخطيط المشروع باستخدام Microsoft Project للويب
 - التسعير متعدد الأبعاد
 - إدارة الموارد الموحدة
@@ -70,8 +72,8 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 - المصروفات الأساسية
 - المصروفات الكاملة
 - OCR الإيصال
-- الفوترة الكاملة
-- التعرف على الإيرادات
+- الفواتير الأولية والفواتير الموجهة للعملاء 
+- التعرف على إيرادات المشاريع
 
 #### <a name="deployment-steps"></a>خطوات التوزيع
 تحديد أفضل نموذج لنشر Project Operations باستخدام [استبيان النشر](https://aka.ms/provisionprojectoperations).

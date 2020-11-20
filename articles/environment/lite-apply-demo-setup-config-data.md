@@ -1,38 +1,45 @@
 ---
-title: تطبيق اعداد بيانات العرض التوضيحي وبيانات التكوين
+title: تطبيق إعداد العرض التوضيحي وبيانات التكوين - خفيف
 description: يقدم هذا الموضوع معلومات حول كيفية تطبيق إعداد بيانات العرض التوضيحي وبيانات التكوين في Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070509"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401247"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>تطبيق إعداد بيانات العرض التوضيحي وبيانات التكوين لعملية نشر Project Operations Lite – التعامل مع الفواتير الأولية‬.‬
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>تطبيق إعداد العرض التوضيحي وبيانات التكوين لـ Project Operations - خفيف 
 
 _**النشر الخفيف - التعامل مع الفواتير الأولية_
 
+## <a name="prerequisites"></a>المتطلبات الأساسية
+
+قبل بدء التكوين، يجب أن تتوفر لديك بيئة Common Data Service (CDS) تم تزويدها لـ Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>إرشادات
+
 1. قم بتنزيل [حزمة البيانات الرئيسية](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. انتقل إلى المجلد *ProjOpsDemoDataSetupAndMaster - Integrated CMT* ، وقم بتشغيل الملف القابل للتنفيذ *DataMigrationUtility*.
+2. انتقل إلى المجلد *ProjOpsDemoDataSetupAndMaster - Integrated CMT*، وقم بتشغيل الملف القابل للتنفيذ *DataMigrationUtility*.
 3. في الصفحة 1 من معالج ترحيل تكوين (CMT) Common Data Service، حدد **استيراد البيانات** ثم حدد **متابعة**.
 
 ![ترحيل التكوين](./media/1ConfigurationMigration.png)
 
 4. في الصفحة 2 من معالج CMT، حدد **Microsoft 365** على أنه **نوع النشر**.
-5. حدد خانتي الاختيار **عرض قائمة بالمؤسسات المتاحة** و **إظهار الخيارات المتقدمة** ‬.
+5. حدد خانتي الاختيار **عرض قائمة بالمؤسسات المتاحة** و **إظهار الخيارات المتقدمة**‬.
 6. حدد منطقة المستأجر، وأدخل بيانات اعتمادك، ثم حدد **تسجيل الدخول**.
 
 ![تسجيل الدخول إلى التكوين](./media/2ConfigurationSignin.png)
 
 7. في الصفحة 3، من قائمة المؤسسات على المستأجر، حدد المؤسسة التي ترغب في استيراد بيانات العرض التوضيحي اليها، ثم حدد **تسجيل الدخول**.
-8. في الصفحة 4، حدد ملف zip، *MasterAndSetupData* ، من المجلد الذي تم فك ضغطه، *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
+8. في الصفحة 4، حدد ملف zip، *MasterAndSetupData*، من المجلد الذي تم فك ضغطه، *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
 
 ![ملف مضغوط](./media/3ZipFile.png)
 
@@ -45,25 +52,25 @@ _**النشر الخفيف - التعامل مع الفواتير الأولية
 10. ستعمل عملية الاستيراد لمدة عشر دقائق تقريبًا حسب سرعة الشبكة. بعد اكتمالها، يمكنك إنهاء معالج CMT. 
 11. راجع مؤسستك للحصول على البيانات في الكيانات العشرين التالية:
 
-- ‏‏العملة
-- الوحدة التنظيمية
-- جهة اتصال
-- مجموعة الضرائب
-- مجموعة العملاء
-- الوحدة
-- مجموعة وحدات
-- قائمة الأسعار
-- قائمة أسعار معلمات المشروع
-- معدل تكرار الفاتورة
-- تفاصيل تكرار الفاتورة
-- فئة المورد القابل للحجز
-- فئة المعاملة
-- فئة المصروفات
-- سعر الدور
-- سعر فئة المعاملة
-- ‏‫الخاصية‬
-- المورد القابل للحجز
-- تعيين فئة المورد القابل للحجز
-- خاصية المورد القابل للحجز
+-   عملة
+-   عميل
+-   الوحدة التنظيمية
+-   جهة اتصال
+-   مجموعة الضرائب
+-   مجموعة العملاء
+-   الوحدة
+-   مجموعة وحدات
+-   قائمة الأسعار
+-   قائمة أسعار معلمات المشروع 
+-   معدل تكرار الفاتورة
+-   فئة المورد القابل للحجز
+-   فئة المعاملة
+-   فئة المصروفات
+-   سعر الدور
+-   سعر فئة المعاملة
+-   ‏‫الخاصية‬
+-   المورد القابل للحجز
+-   تعيين فئة المورد القابل للحجز
+-   خاصية المورد القابل للحجز
 
 ![اكتمال الاستيراد](./media/6CompleteImport.png)

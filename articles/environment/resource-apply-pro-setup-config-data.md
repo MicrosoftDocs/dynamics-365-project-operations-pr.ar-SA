@@ -1,23 +1,33 @@
 ---
-title: إعداد وتطبيق بيانات التكوين في Common Data Service لـ Project Operations
+title: إعداد بيانات التكوين وتطبيقها في Common Data Service
 description: يقدم هذا الموضوع معلومات حول إعداد وتطبيق بيانات التكوين في Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070517"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401112"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>إعداد وتطبيق بيانات التكوين في Common Data Service لـ Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>إعداد بيانات التكوين وتطبيقها في Common Data Service 
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
+
+## <a name="prerequisites"></a>المتطلبات الأساسية
+
+قبل أن تبدأ تكوين البيانات في Common Data Service (CDS)، يجب استيفاء المتطلبات الأساسية التالية:
+
+1.  تزويد بيئة CDS وبيئة Dynamics 365 Finance لـ Project Operations.
+2.  مشاركة معلومات الكيان القانوني من Dynamics 365 Finance مع بيئة CDS. وهذا يعني أن كيان **الشركة** في CDS يتضمن سجلات الشركة التالية:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>تثبيت بيانات الإعداد والتكوين
 
@@ -28,7 +38,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ![ترحيل التكوين](./media/1ConfigurationMigration.png)
 
 4. في الصفحة 2 من معالج CMT، حدد **Microsoft 365** على أنه **نوع النشر**.
-5. حدد خانتي الاختيار **عرض قائمة بالمؤسسات المتاحة** و **إظهار الخيارات المتقدمة** ‬.
+5. حدد خانتي الاختيار **عرض قائمة بالمؤسسات المتاحة** و **إظهار الخيارات المتقدمة**‬.
 6. حدد منطقة المستأجر، وأدخل بيانات اعتمادك، وحدد **تسجيل الدخول**.
 
 ![تسجيل الدخول إلى التكوين](./media/2ConfigurationSignin.png)
@@ -79,11 +89,11 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ![الموارد القابلة للحجز](./media/8BookableResources.png)
 
-3. في علامة التبويب **عام** ، حدد المستخدم المسؤول الخاص بك. تحقق من أن المنطقة الزمنية تتطابق مع تلك التي تعيش فيها. 
+3. في علامة التبويب **عام**، حدد المستخدم المسؤول الخاص بك. تحقق من أن المنطقة الزمنية تتطابق مع تلك التي تعيش فيها. 
 
 ![مورد جديد قابل للحجز](./media/9NewBookableResource.png)
 
-4. في علامة تبويب **الجدولة** ، في حقل **الشركة** ، قم اختيار شركة **USPM** ، ثم حدد **حفظ**. 
+4. في علامة تبويب **الجدولة**، في حقل **الشركة**، قم اختيار شركة **USPM**، ثم حدد **حفظ**. 
 
 ![علامة تبويب الجدولة](./media/10SchedulingTab.png)
 
@@ -114,10 +124,10 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
  
 12. قم بتحديث الحقول التالية:
 
- - **الشركة الافتراضية** : USPM
- - **الوحدة التنظيمية الافتراضية** : Contoso Robotics Global
- - **تكرار الفاتورة** : اليوم السابع واليوم الأخير
- - **قالب ساعة العمل** : قم بالتغيير إلى القالب الذي قمت بإنشائه.
+ - **الشركة الافتراضية**: USPM
+ - **الوحدة التنظيمية الافتراضية**: Contoso Robotics Global
+ - **تكرار الفاتورة**: اليوم السابع واليوم الأخير
+ - **قالب ساعة العمل**: قم بالتغيير إلى القالب الذي قمت بإنشائه.
 
 13. حدد **حفظ**. 
 
