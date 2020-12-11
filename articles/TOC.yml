@@ -2,7 +2,7 @@
   href: index.md
 - name: الشروع في العمل
   items:
-    - name: تحديد نوع التوزيع
+    - name: تحديد نوع النشر
       href: environment/determine-deployment-type.md
     - name: تحديثات Project Operations
       href: whats-new/project-operations-updates.md
@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: الجديد‬
       items:
+        - name: ديسمبر 2020 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: نوفمبر 2020 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: عملية مبيعات المشروع
@@ -87,7 +89,7 @@
                 - name: إدارة عدة عملاء على بنود عرض الأسعار القائم على المشروع
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: تكوين المكونات الخاضعة للرسوم لبند عرض أسعار المشروع
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: إنشاء تقديرات في بند عرض أسعار
                   href: sales/create-estimate-quote-line.md
                 - name: استيراد التقديرات من مشروع إلى بند عرض أسعار قائم على المشروع
@@ -109,7 +111,7 @@
             - name: إدارة قوائم أسعار المشروع على عقود المشروع
               href: sales/contracts-manage-project-price-lists.md
             - name: إدارة عدة عملاء على عقود المشروع
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: شروط التعاقد المستندة إلى المشروع
               items:
                 - name: نظرة عامة على شروط التعاقد المستندة إلى المشروع
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: نسخ عقد مشروع
               href: pro/sales/copy-project-contracts-sales.md
+            - name: مقدمات الأتعاب والسُلف
+              items:
+                - name: العقود المستندة إلى مقدمات الأتعاب والسُلف - خفيف
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: إعداد جدول مقدمات الأتعاب - خفيف
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: إنشاء سُلفة مؤقتة على عقد - خفيف
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: التسعير والتكلفة
       items:
         - name: إعداد قائمة الأسعار
@@ -158,18 +168,28 @@
           items:
             - name: نظرة عامة على أبعاد التسعير
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: إنشاء حل لأبعاد التسعير المخصصة
+              href: sales/create-solution-custompd.md
             - name: استخدام الحقول الموجودة كأبعاد تسعير
               items:
                 - name: حقول Project Operations كأبعاد تسعير
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: استخدام مورد قابل للحجز كبُعد تسعير
+                  href: sales/use-br-as-pd.md
+                - name: استخدام فئة الحركة كبُعد تسعير
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: مورد قابل للحجز مع أدوار متعددة على مشروع
+                  href: sales/br-playing-multiple-roles.md
             - name: الحقول المخصصة كأبعاد تسعير
               items:
                 - name: إنشاء حقول وكيانات مخصصة كأبعاد تسعير
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: إضافة حقول مخصصة إلى إعداد الأسعار وكيانات الحركات
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: 'إعداد الحقول المخصصة كأبعاد تسعير '
+                - name: إعداد الحقول المخصصة كأبعاد تسعير
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: تحديث سمات المكونات الإضافية لتشمل أبعاد التسعير الجديدة
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: إيقاف تشغيل بُعد التسعير
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: إدارة المشروع
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: إدارة الموارد
           items:
+            - name: إنشاء الموارد
+              href: resource-management/create-resources.md
             - name: تحديد المهارات والكفاءات
               href: resource-management/define-skills-proficiencies.md
+            - name: تحديد الأدوار
+              href: resource-management/define-roles.md
             - name: تحديد تقاويم الموارد
               href: resource-management/define-resource-calendars.md
         - name: أساليب توزيع الحجوزات
           href: resource-management/booking-allocation-methods.md
+        - name: حالات الحجز
+          href: resource-management/booking-status.md
         - name: نماذج المهارات والكفاءات
           href: resource-management/skills-proficiency-models.md
         - name: تسوية الموارد
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: إدارة فاتورة أولية للمشروع
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: فوترة سلفة أو مقدم الأتعاب
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: تأكيد فاتورة أولية للمشروع
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: تكوين التنفيذ التلقائي لفواتير المشروع
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: دفتر يومية التكامل في Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: الفوترة بين الشركات الشقيقة
+          items:
+            - name: نظرة عامة على الفوترة بين الشركات الشقيقة
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: تكوين الفوترة بين الشركات الشقيقة
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: إنشاء فواتير العميل والمورّد بين الشركات الشقيقة
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: إنشاء حركات بين الشركات الشقيقة
+              href: project-accounting/create-intercompany-transactions.md
+    - name: إقرار الإيرادات
+      items:
+        - name: نظرة عامة على إقرار الإيرادات
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: إعداد إقرار الإيرادات
+          items:
+            - name: إعداد أنواع الفترات
+              href: project-accounting/period-types.md
+            - name: إعداد قوالب التكلفة
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: إدارة تقديرات الإيرادات
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: مشاريع تقدير الإيرادات ثابتة السعر
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: أساليب التكلفة للإكمال
+          href: revenue-recognition/cost-complete-methods.md
 - name: النشر الخفيف – التعامل مع الفواتير الأولية
   items:
     - name: الشروع في العمل
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: الجديد‬
       items:
+        - name: الجديد في ديسمبر 2020 – النشر الخفيف – التعامل مع الفواتير الأولية
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: الجديد في نوفمبر 2020 – النشر الخفيف – التعامل مع الفواتير الأولية
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: عملية مبيعات المشروع
@@ -538,18 +594,28 @@
           items:
             - name: نظرة عامة على أبعاد التسعير
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: إنشاء حل لأبعاد التسعير المخصصة
+              href: sales/create-solution-custompd.md
             - name: استخدام الحقول الموجودة كأبعاد تسعير
               items:
-                - name: استخدام حقل موجود كبُعد تسعير
+                - name: حقول Project Operations كأبعاد تسعير
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: استخدام مورد قابل للحجز كبُعد تسعير
+                  href: sales/use-br-as-pd.md
+                - name: استخدام فئة الحركة كبُعد تسعير
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: مورد قابل للحجز مع أدوار متعددة على مشروع
+                  href: sales/br-playing-multiple-roles.md
             - name: الحقول المخصصة كأبعاد تسعير
               items:
                 - name: إنشاء حقول وكيانات مخصصة كأبعاد تسعير
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: إضافة حقول مخصصة إلى إعداد الأسعار وكيانات الحركات
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: 'إعداد الحقول المخصصة كأبعاد تسعير '
+                - name: إعداد الحقول المخصصة كأبعاد تسعير
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: تحديث سمات المكونات الإضافية لتشمل أبعاد التسعير الجديدة
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: إيقاف تشغيل بُعد التسعير
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: إدارة المشروع
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: إدارة الموارد
           items:
+            - name: إنشاء الموارد
+              href: resource-management/create-resources.md
             - name: تحديد المهارات والكفاءات
               href: resource-management/define-skills-proficiencies.md
+            - name: تحديد الأدوار
+              href: resource-management/define-roles.md
             - name: تحديد تقاويم الموارد
               href: resource-management/define-resource-calendars.md
         - name: أساليب توزيع الحجوزات
           href: resource-management/booking-allocation-methods.md
+        - name: حالات الحجز
+          href: resource-management/booking-status.md
         - name: نماذج المهارات والكفاءات
           href: resource-management/skills-proficiency-models.md
         - name: تسوية الموارد
@@ -834,6 +906,8 @@
       items:
         - name: جدول إصدار تحديثات Project Service 3.x
           href: psa/version-history-ps.md
+        - name: الجديد أو المتغير في إصدار التحديث 26، V3
+          href: psa/whats-new-ur-26.md
         - name: الجديد أو المتغير في إصدار التحديث 25، V3
           href: psa/whats-new-ur-25.md
         - name: الجديد أو المتغير في إصدار التحديث 24، V3
