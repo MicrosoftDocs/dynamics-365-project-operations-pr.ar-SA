@@ -1,6 +1,6 @@
 ---
 title: نموذج الأمان
-description: يوفر هذا الموضوع معلومات حول نموذج الأمان في Dynamics 365 Project operations.
+description: يقدم هذا الموضوع معلومات حول نموذج الأمان في Dynamics 365 Project Operations.
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124352"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642887"
 ---
 # <a name="security-model"></a>نموذج الأمان
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-يحتوي Microsoft Dynamics 365 Project Operations على نموذج أمان فريد يسمح لنموذج أمان الأعمال المعتمد على الدور والذي يتعاون مع مجموعات Microsoft Office. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+يحتوي Microsoft Dynamics 365 Project Operations على نموذج أمان فريد يسمح بنموذج أمان الأعمال المستند إلى الدور الذي يتعاون مع مجموعات Microsoft Office. 
 
 
 ## <a name="security-roles"></a>أدوار الأمان

@@ -1,5 +1,5 @@
 ---
-title: إعداد جدول مقدمات الأتعاب - خفيف
+title: إعداد جدولة مقدم الأتعاب
 description: يقدم هذا الموضوع معلومات حول كيفية إعداد جدول مقدمات الأتعاب في Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181256"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596356"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>إعداد جدول مقدمات الأتعاب - خفيف
+# <a name="set-up-a-retainer-schedule"></a>إعداد جدولة مقدم الأتعاب
 
-_**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
+_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 يتم إعداد جداول مقدمات الأتعاب في صفحة **عقد المشروع** في Dynamics 365 Project Operations.
 

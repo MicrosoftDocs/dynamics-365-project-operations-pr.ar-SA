@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129662"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642752"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>استخدام الوظيفة الإضافية Project Service Automation لتخطيط عملك في Microsoft Project
 
@@ -173,6 +173,59 @@ ms.locfileid: "4129662"
 4. انقر فوق **نشر**.  
 
 يؤدي ربط ملف Project بـ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] إلى جعل ملف Project الملف الرئيسي وإلى تعيين هيكل تنظيم العمل في قالب [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] للقراءة فقط.  لإجراء التغييرات على خطة المشروع، تحتاج إلى إجرائها في [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ونشرها كتحديثات إلى [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>قراءة جدول تحميل الموارد
+
+عند قراءة مشروع من Project Service Automation ، لا تتم مزامنة تقويم المورد مع عميل سطح المكتب. إذا كانت هناك اختلافات في مدد المهمة أو الجهد أو الانتهاء ، فربما يرجع ذلك إلى أن الموارد وعميل سطح المكتب ليس لهما نفس تقويم قالب ساعة العمل المطبق على المشروع.
+
+
+## <a name="data-synchronization"></a>مزامنة البيانات
+
+يوضح الجدول التالي كيفية مزامنة البيانات بين Project Service Automation والوظيفة الإضافية لسطح مكتب Microsoft Project.
+
+| **كيان.** | **الحقل** | **Microsoft Project إلى Project Service Automation** | **Project Service Automation إلى Microsoft Project** |
+| --- | --- | --- | --- |
+| مهمة المشروع | تاريخ الاستحقاق | ● | - |
+| مهمة المشروع | الجهود التقديرية | ● | - |
+| مهمة المشروع | معرف عميل MS Project | ● | - |
+| مهمة المشروع | المهمة الأصل | ● | - |
+| مهمة المشروع | Project | ● | - |
+| مهمة المشروع | مهمة المشروع | ● | - |
+| مهمة المشروع | اسم مهمة المشروع | ● | - |
+| مهمة المشروع | وحدة تعيين الموارد ‏‫(ميزة مهملة في الإصدار 3.0)‬ | ● | - |
+| مهمة المشروع | المدة المجدولة | ● | - |
+| مهمة المشروع | تاريخ البدء | ● | - |
+| مهمة المشروع | معرف WBS | ● | - |
+
+| **كيان.** | **الحقل** | **Microsoft Project إلى Project Service Automation** | **Project Service Automation إلى Microsoft Project** |
+| --- | --- | --- | --- |
+| عضو الفريق | معرف عميل MS Project | ● | - |
+| عضو الفريق | اسم المنصب | ● | - |
+| عضو الفريق | المشروع | ● | ● |
+| عضو الفريق | فريق المشروع | ● | ● |
+| عضو الفريق | وحدة تعيين الموارد | - | ● |
+| عضو الفريق | الدور | - | ● |
+| عضو الفريق | ساعات العمل | غير مُزامن | غير مُزامن |
+
+| **كيان.** | **الحقل** | **Microsoft Project إلى Project Service Automation** | **Project Service Automation إلى Microsoft Project** |
+| --- | --- | --- | --- |
+| تعيين المورد | من تاريخ | ● | - |
+| تعيين المورد | ساعات‬ | ● | - |
+| تعيين المورد | معرف عميل MS Project | ● | - |
+| تعيين المورد | العمل المخطط | ● | - |
+| تعيين المورد | Project | ● | - |
+| تعيين المورد | فريق المشروع | ● | - |
+| تعيين المورد | تعيين المورد | ● | - |
+| تعيين المورد | مهمة | ● | - |
+| تعيين المورد | إلى التاريخ | ● | - |
+
+| **كيان.** | **الحقل** | **Microsoft Project إلى Project Service Automation** | **Project Service Automation إلى Microsoft Project** |
+| --- | --- | --- | --- |
+| تبعيات مهمة المشروع | تبعية مهمة المشروع | ● | - |
+| تبعيات مهمة المشروع | نوع الارتباط | ● | - |
+| تبعيات مهمة المشروع | مهمة النشاط السابق | ● | - |
+| تبعيات مهمة المشروع | Project | ● | - |
+| تبعيات مهمة المشروع | المهمة اللاحقة | ● | - |
 
 ### <a name="see-also"></a>راجع أيضًا  
  [دليل مدير المشروع](../psa/project-manager-guide.md)

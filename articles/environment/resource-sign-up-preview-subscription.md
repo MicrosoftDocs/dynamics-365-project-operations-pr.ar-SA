@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121112"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642932"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>إعداد اشتراكات معاينة Project Operations لسيناريوهات المورد/المنتجات غير المخزنة
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يشرح هذا الموضوع كيفية الاشتراك في المعاينة/عرض الشريك ونشر بيئة Project Operations للسيناريوهات المستندة إلى مورد/منتجات غير مخزنة.
 
@@ -42,7 +44,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 قبل البدء، تأكد من تسجيل الدخول إلى مستعرض باستخدام حساب عمل المستخدم في المستأجر حيث تريد معاينة Project Operations.
 
-1. استرجع كود العرض الأول، **Dynamics 365 Project Operations (CRM) - الإصدار التجريبي للمعاينة** عن طريق لصقه في عنوان URL للمستعرض.
+1. استرد رمز العرض الأول، **Dynamics 365 Project Operations (CRM) - الإصدار التجريبي للمعاينة** عن طريق لصقه في عنوان URL للمتصفح.
 
 ![استرداد العرض](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ![تعيين التراخيص](./media/15AssignLicenses.png)
 
-3. تأكد من تحديد تراخيص **معاينة Dynamics 365 Project Operations (CRM) Preview** و **Office 365 Project Operations - معاينة** وحدد **حفظ التغييرات**.
+3. تحقق من تحديد ترخيص **معاينة Dynamics 365 Project Operations (CRM)** و **Office 365 Project Operations - معاينة** وحدد **حفظ التغييرات**.
 
 > [!NOTE]
 > لا يلزم تعيين مستخدم إلى عرض الإصدار التجريبي من Finance.

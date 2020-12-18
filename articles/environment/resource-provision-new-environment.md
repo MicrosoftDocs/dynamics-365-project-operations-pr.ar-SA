@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121157"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642934"
 ---
 # <a name="provision-a-new-environment"></a>تزويد بيئة جديدة
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
-يوفر هذا الموضوع معلومات حول كيفية تزويد بيئة Dynamics 365 Project Operations جديدة للسيناريوهات المستندة إلى المورد/المنتجات غير المخزنة.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+يوفر هذا الموضوع معلومات حول كيفية توفير بيئة Dynamics 365 Project Operations جديدة للسيناريوهات القائمة على الموارد/غير المخزنة.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>تمكين التزويد التلقائي Project Operations في مشروع LCS
 
@@ -120,7 +122,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ![تطبيق الحلول](./media/13ApplySolutions.png)
 
-5. حدد كلا الحلين، **Dynamics 365 Finance and Operations خريطة كيان الكتابة المزدوجة** و **خرائط كيان الكتابة المزدوجة في Dynamics 365 Project Operations**، ثم حدد **تطبيق**.
+5. حدد الحلين، **Dynamics 365 Finance and Operations خريطة كيان‬ الكتابة المزدوجة‬** و **Dynamics 365 Project Operations خرائط كيان‬ الكتابة المزدوجة‬**، ثم حدد **تطبيق**.
 
 ![تأكيد الحلول](./media/14ConfirmSolutions.png)
 
@@ -158,9 +160,10 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 | **تعيين الكيان** | **تحديث الكيان** | **المزامنة الأولية** | **أصل المزامنة الأولية** | **تشغيل المتطلبات الأساسية** | **المزامنة الأولية للمتطلبات الأساسية** |
 | --- | --- | --- | --- | --- | --- |
-| **أدوار موارد المشروع لجميع الشركات (bookableresourcecategories)** | Yes | ‏‏نعم | Common Data Service | Yes | ‏‫غير متوفر‬ |
-| **الكيانات القانونية (cdm\_الشركات)** | Yes | ‏‏نعم | تطبيقات Finance and Operations | Yes | ‏‫غير متوفر‬ |
-| **القيم الفعلية لتكامل Project Operations(msdyn\_القيم الفعلية)** | Yes | Yes | ‏‫غير متوفر‬ | ‏‏نعم | Yes |
+| **أدوار موارد المشروع لجميع الشركات (bookableresourcecategories)** | لا  | نعم  | Common Data Service | لا  | ‏‫غير متوفر‬ |
+| **الكيانات القانونية (cdm\_الشركات)** | لا  | نعم  | تطبيقات Finance and Operations | لا  | ‏‫غير متوفر‬ |
+| **دفتر الأستاذ (msdyn_ledgers)** | لا  | نعم  | تطبيقات Finance and Operations | نعم  | نعم، تطبيقات Finance and Operations |
+| **القيم الفعلية لتكامل Project Operations(msdyn\_القيم الفعلية)** | لا  | Yes | ‏‫غير متوفر‬ | ‏‏نعم | Yes |
 | **بنود عقد المشروع (salesorderdetails)** | Yes | Yes | ‏‫غير متوفر‬ | Yes | Yes |
 | **كيان التكامل لعلاقات معاملات المشروع (msdyn\_transactionconnections)** | Yes | Yes | ‏‫غير متوفر‬ | Yes | ‏‫غير متوفر‬ |
 | **المراحل الرئيسية لبنود تعاقد التكامل مع Project Operations (msdyn\_contractlinesscheduleofvalues)** | Yes | Yes | ‏‫غير متوفر‬ | Yes | ‏‫غير متوفر‬ |

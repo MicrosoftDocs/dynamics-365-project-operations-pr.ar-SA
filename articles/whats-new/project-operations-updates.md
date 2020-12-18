@@ -1,23 +1,26 @@
 ---
 title: تحديثات Project Operations
-description: يوفر هذا الموضوع معلومات حول الإصدارات التي تم إطلاقها من Dynamics 365 Project Operations.
+description: يقدم هذا الموضوع معلومات حول الإصدارات التي تم إصدارها من Dynamics 365 Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 11/02/2020
+ms.date: 12/07/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2d1a6b411f17ddf1633443c2cf1526f3424efac6
-ms.sourcegitcommit: 3a10fb3b7eaaa983e562ba9cda0576966e09421b
+ms.openlocfilehash: acafb97b2bb20deaf12db12cd9238cf5ad0817a9
+ms.sourcegitcommit: 87dd3b9bb23384e4d0c3208f0341a3de295eefc8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4404090"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689394"
 ---
 # <a name="project-operations-updates"></a>تحديثات Project Operations
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬، نشر خفيف - التعامل مع الفواتير الأولية‬، وProject Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="project-operations-components"></a>‏‫مكونات Project Operations
 
@@ -30,9 +33,9 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 | Project Operations على بيئة CDS | إدارة المشاريع والمحاسبة في بيئات تطبيقات Finance and Operations |
 | --- | --- |
-| 4.4.0.70 | 10.0.14 |
+| 4.5.0.134 | 10.0.15 |
 
-ملاحظات حول إصدار شهر نوفمبر 2020 من Project Operations لسيناريوهات [الموارد/المنتجات غير المخزنة‬](whats-new-nov-2020-resource-based.md) و[المنتجات المخزنة/الإنتاج](../prod-pma/whats-new/whats-new-nov-2020-production-based.md) و[النشر الخفيف](../pro/whats-new/whats-new-nov-2020-lite.md).
+ملاحظات الإصدار ديسمبر 2020 لـ Project Operations لـ [Resource/non-stocked](whats-new-dec-2020-resource-based.md).
 
 ## <a name="release-schedule-for-project-operations-on-cds-environment"></a>جدول إصدار Project Operations على بيئة CDS
 
@@ -41,18 +44,18 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | محطة العمل   | المنطقة        | الإصدار الحالي | الإصدار التالي | متوفر بشكل عام |
 |-----------|---------------|-----------------|--------------|---------------------|
 | محطة العمل 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | أمريكا الجنوبية |  4.4.0.70       | TBD     | 20 نوفمبر 20           |
-|    &nbsp; | كندا        |  4.4.0.70       | TBD     | 20 نوفمبر 20           |
-|   &nbsp;  | الهند         |  4.4.0.70       | TBD     | 20 نوفمبر 20           |
+|   &nbsp;  | أمريكا الجنوبية |  4.5.0.134       | TBD     | 08 يناير 2021           |
+|    &nbsp; | كندا        |  4.5.0.134       | TBD     | 08 يناير 2021          |
+|   &nbsp;  | الهند         |  4.5.0.134       | TBD     | 08 يناير 2021           |
 | محطة العمل 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | اليابان         |  4.4.0.70       | TBD     | 04 ديسمبر 20           |
-|   &nbsp;  | آسيا/المحيط الهادئ  |  4.4.0.70       | TBD     | 04 ديسمبر 20           |
-|   &nbsp;  | بريطانيا العظمى |  4.4.0.70       | TBD     | 04 ديسمبر 20           |
-|   &nbsp;  | ‏‫أوقيانوسيا‬       |  4.4.0.70       | TBD     | 04 ديسمبر 20           |
+|   &nbsp;  | اليابان         |  4.5.0.134       | TBD     | 15 يناير 2021           |
+|   &nbsp;  | آسيا/المحيط الهادئ  |  4.5.0.134       | TBD     | 15 يناير 2021           |
+|   &nbsp;  | بريطانيا العظمى |  4.5.0.134       | TBD     | 15 يناير 2021           |
+|   &nbsp;  | ‏‫أوقيانوسيا‬       |  4.5.0.134       | TBD     | 15 يناير 2021           |
 | محطة العمل 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | أوروبا        |  4.4.0.70       | TBD     | 11 ديسمبر 20           |
+|   &nbsp;  | أوروبا        |  4.4.0.70       | 4.5.0.134     | 11 ديسمبر 20           |
 | محطة العمل 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | أمريكا الشمالية | 4.3.0.61        | 4.4.0.70     | 15 نوفمبر 20           |
+|   &nbsp;  | أمريكا الشمالية |  4.4.0.70       | 4.5.0.134     | 18 ديسمبر 20           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>جدول الإصدار لإدارة المشاريع والمحاسبة في بيئة تطبيقات Finance and Operations
 
@@ -60,13 +63,13 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 | الإصدار المدعوم | متوفر بشكل عام (تحديث ذاتي) |
 | --- | --- |
+| 10.0.15 | 4 ديسمبر 2020 |
 | 10.0.14 | 23 اكتوبر 2020 |
-| 10.0.13 (مع تحديثات الجودة اعتبارًا من 2 أكتوبر 2020) | 18 سبتمبر 2020 |
 
 تخضع تواريخ الإصدار المستهدفة للتغيير. لمزيد من المعلومات، راجع [توافر تحديثات الخدمة](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
 
 | تاريخ الإصدار المستهدف | متوفر بشكل عام (تحديث ذاتي) |
 | --- | --- |
-| 10.0.15 | 4 ديسمبر 2020 |
 | 10.0.16 | 22 يناير 2021 |
+| 10.0.17 | 1 فبراير 2021 |
 

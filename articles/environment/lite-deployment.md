@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0633585fcef91d9218d6140764addb7cf96ab31d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d4ef905f875ac8af7b2d70c3e64506558bdea1ed
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175650"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642167"
 ---
 # <a name="deploy-project-operations---lite"></a>نشر Project Operations - خفيف
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يدعم Project Operations نماذج نشر متعددة. لتحديد نموذج النشر الأفضل، راجع [أنواع النشر](determine-deployment-type.md).
 

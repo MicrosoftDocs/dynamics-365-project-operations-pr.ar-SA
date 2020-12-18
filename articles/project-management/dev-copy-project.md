@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0100c29873be6346614e958ef6ea0c77da2c9590
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 22976730ef3c8c22ea028b27a6eb5f14fb88993e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131597"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642392"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>تطوير قوالب المشروع مع نسخ المشروع‬
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-يدعم Dynamics 365 Project Operations القدرة على نسخ مشروع وإرجاع أي تعيينات إلى الموارد العامة التي تمثل الدور. يمكن للعملاء استخدام هذه الوظيفة لبناء قوالب المشروع الأساسية.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+يدعم Dynamics 365 Project Operations القدرة علي نسخ مشروع وإرجاع أي تعيينات إلى الموارد العامة التي تمثل الدور. يمكن للعملاء استخدام هذه الوظيفة لبناء قوالب المشروع الأساسية.
 
 عند تحديد **نسخ المشروع**، يتم تحديث حالة المشروع الهدف. استخدم **سبب الحالة** لتحديد وقت اكتمال إجراء النسخ. يؤدي أيضًا تحديد **نسخ المشروع** إلى تحديث تاريخ بدء المشروع إلى تاريخ البدء الحالي في حال عدم اكتشاف تاريخ مستهدف في كيان المشروع الهدف.
 

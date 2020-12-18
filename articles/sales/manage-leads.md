@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181751"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513818"
 ---
 # <a name="manage-leads"></a>إدارة العملاء المتوقعين
 
@@ -53,7 +53,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 - حساب يستخدم **حقل الشركة** من العميل المتوقع.
 - سجل جهة اتصال مقترن بالحساب استنادا إلى القيم الموجودة في حقول **الاسم الأول** و **اسم العائلة** في العميل المتوقع.
-- فرصة مستندة إلى مشروع حيث تم تعيين حقل **النوع** إلى **معتمد على العمل**.
+- فرصة مستندة إلى المشروع والتي لها تم تعيين حقل **النوع** إلى **مستند إلى العمل**.
 
 لمزيد من المعلومات التفصيلية حول تأهيل العملاء المتوقعين، راجع [تأهيل العملاء المتوقعين أو تحويلهم](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070778"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642617"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>مزامنة عقود المشاريع والمشاريع مباشرة من Project Service Automation إلى Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يصف هذا الموضوع القالب والمهام الأساسية المستخدمة لمزامنة عقود المشاريع والمشاريع مباشرة من Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
 
@@ -46,7 +48,7 @@ ms.locfileid: "4070778"
 
 ## <a name="templates-and-tasks"></a>القوالب والمهام
 
-للوصول إلى القوالب المتوفرة، في مركز إدارة Microsoft Power Apps، حدد **المشاريع** ، ثم في الركن الأيمن العلوي، حدد **مشروع جديد** لتحديد القوالب العامة.
+للوصول إلى القوالب المتوفرة، في مركز إدارة Microsoft Power Apps، حدد **المشاريع**، ثم في الركن الأيمن العلوي، حدد **مشروع جديد** لتحديد القوالب العامة.
 
 تُستخدم القوالب والمهام الأساسية التالية لمزامنة عقود المشاريع والمشاريع من Project Service Automation إلى Finance:
 
@@ -133,9 +135,9 @@ ms.locfileid: "4070778"
 ## <a name="template-mapping-in-data-integration"></a>تعيين القالب في تكامل البيانات
 
 > [!NOTE] 
-> لم يتم تضمين حقول **CustomerReference** ، و **AddressCity** ، و **AddressCountryRegionID** ، و **AddressDescription** , **AddressLine1** ، و **AddressLine2** ، و **AddressState** ، و **AddressZipCode** في التعيين الافتراضي لعقود المشروع. يمكنك أضافه التعيينات إذا كنت تطلب ان تتم مزامنة هذه البيانات لعقود المشروعات.
+> لم يتم تضمين حقول **CustomerReference**، و **AddressCity**، و **AddressCountryRegionID**، و **AddressDescription**, **AddressLine1**، و **AddressLine2**، و **AddressState**، و **AddressZipCode** في التعيين الافتراضي لعقود المشروع. يمكنك أضافه التعيينات إذا كنت تطلب ان تتم مزامنة هذه البيانات لعقود المشروعات.
 >
-> لا يتم تضمين حقول **الوصف** ، و **المعرف الأصلي** ، و **مجموعة المشاريع** ، و **ProjectManagerPersonnelNumber** ، و **نوع المشروع** في التعيين الافتراضي للمشاريع. يمكنك أضافه التعيينات إذا كنت تطلب ان تتم مزامنة هذه البيانات للمشاريع.
+> لا يتم تضمين حقول **الوصف**، و **المعرف الأصلي**، و **مجموعة المشاريع**، و **ProjectManagerPersonnelNumber**، و **نوع المشروع** في التعيين الافتراضي للمشاريع. يمكنك أضافه التعيينات إذا كنت تطلب ان تتم مزامنة هذه البيانات للمشاريع.
 
 توضح الرسوم التوضيحية التالية أمثلة لتعيينات مهام القالب في تكامل البيانات. يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Project Service Automation إلى Finance.
 

@@ -1,28 +1,20 @@
 ---
 title: نظرة عامة على أبعاد التسعير
-description: يوفر هذا الموضوع معلومات حول أبعاد التسعير في Dynamics 365 Project operations.
+description: يقدم هذا الموضوع معلومات حول أبعاد التسعير في Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128447"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650168"
 ---
 # <a name="pricing-dimensions-overview"></a>نظرة عامة على أبعاد التسعير
 
@@ -40,9 +32,21 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ## <a name="pricing-dimensions"></a>أبعاد التسعير
 
-يُشحن Dynamics 365 Project Operations مع مجموعة افتراضية من أبعاد التسعير. يمكنك عرض أبعاد التسعير هذه عن طريق الانتقال إلى **عمليات المشروع** > **المعلمات**. في سجل المعلمات، في علامة التبويب **أبعاد التسعير المستندة إلى المبلغ**، تحقق من أن الدور، **msdyn_resourcecategory** والوحدة التنظيمية للموارد، **msdyn_organizationalunit** يشتملان على الحقلين **قابل للتطبيق على المبيعات** **قابل للتطبيق على التكلفة** معينين إلى **نعم**. مع تمكين هذه الحقول، سيتيح لك إمكانية إعداد السعر والتكلفة لكل مجموعة دور ووحدة تنظيمية.
+يتم شحن Dynamics 365 Project Operations بمجموعة افتراضية من أبعاد التسعير. يمكنك عرض أبعاد التسعير هذه عن طريق الانتقال إلى **عمليات المشروع** > **المعلمات**. في سجل المعلمات، في علامة التبويب **أبعاد التسعير المستندة إلى المبلغ**، تحقق من أن الدور، **msdyn_resourcecategory** والوحدة التنظيمية للموارد، **msdyn_organizationalunit** يشتملان على الحقلين **قابل للتطبيق على المبيعات** **قابل للتطبيق على التكلفة** معينين إلى **نعم**. مع تمكين هذه الحقول، سيتيح لك إمكانية إعداد السعر والتكلفة لكل مجموعة دور ووحدة تنظيمية.
 
-إذا كنت بحاجة إلى أسعار أو تكلفه للموارد الخاصة بك باستخدام سمات إضافية، فيمكنك إنشاء حقول وكيانات وأبعاد مخصصة.
+![لقطة شاشة لمعلمات Project Service مع تمييز "قابل للتطبيق على المبيعات"](media/PS-OOB-parameters.png)
+
+إذا كنت بحاجة إلى أسعار أو تكلفه للموارد الخاصة بك باستخدام سمات إضافية، فيمكنك إنشاء حقول وكيانات وأبعاد مخصصة. لمزيد من المعلومات، راجع المواضيع التالية: 
+  
+  > [!NOTE]
+  > يجب إكمال الإجراءات بالترتيب الذي تم سردها به.
+
+1. [إنشاء حل لأبعاد التسعير](../sales/create-solution-custompd.md)
+2. [إنشاء حقول وكيانات مخصصة](create-custom-fields-entities-pricing-dimensions.md)
+3. [إضافة حقول مخصصة إلى إعداد الأسعار وكيانات الحركات ](add-custom-fields-price-setup-transactional-entities.md)
+4. [إعداد الحقول المخصصة كأبعاد تسعير](set-up-custom-fields-pricing-dimensions.md)
+5. [تحديث سمات المكونات الإضافية لتشمل أبعاد التسعير الجديدة](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>وقت المورد البشري للتسعير
 غالبًا ما تكون كيفية قيام المؤسسة بتسعير وقت الموارد البشرية اعتبارًا استراتيجيًا مهمًا يؤثر بشكل مباشر على ربحية المؤسسة. اعمل مع الفرق المالية ورؤساء التدريب عندما تكون مؤسستك جاهزة لتحديد كيف تريد إعداد فاتورة ومعدلات تكلفة لوقت الموارد البشرية.

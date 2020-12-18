@@ -1,5 +1,5 @@
 ---
-title: إنشاء سُلفة مؤقتة على عقد - خفيف
+title: إنشاء سُلفة مؤقتة في عقد
 description: يقدم هذا الموضوع معلومات حول إنشاء سُلفة على عقد عند الحاجة.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181346"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595910"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>إنشاء سُلفة مؤقتة على عقد - خفيف
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>إنشاء سُلفة مؤقتة في عقد
 
-_**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
+_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 يدعم Microsoft Dynamics 365 Project Operations سيناريوهات الفوترة التي تشتمل على الدفعات المسبقة والسُلف. تعتبر عملية استخدام **السُلف** في **Project Operations** مماثلة لعقود **مقدم الأتعاب**. 
 

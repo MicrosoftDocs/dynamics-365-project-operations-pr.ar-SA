@@ -3,17 +3,17 @@ title: إدخال المصروفات (خفيفة)
 description: يقدم هذا الموضوع معلومات حول كيفية العمل مع إدخال المصروفات في عملية نشر خفيفة.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121067"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590930"
 ---
 # <a name="expense-entry-lite"></a>إدخال المصروفات (خفيفة)
 
@@ -21,7 +21,7 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 
 إدارة المصروفات الأساسية، أو الخفيفة، هي القدرة على تسجيل المصروفات البسيطة. يمكنك تسجيل المصروفات في مقابل مشروع، ومن ثم يقوم الموافق على المشروع بمراجعتها والموافقة عليها.
 
-لمزيد من المعلومات حول قدرات المصروفات في Dynamics 365 Project Operations، راجع [نظرة عامة حول المصروفات](expense-overview.md).
+لمزيد من المعلومات حول إمكانات المصروفات في Dynamics 365 Project Operations، راجع [نظرة عامة على المصروفات](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>تسجيل مصروفات أساسية
 
@@ -36,6 +36,10 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 
 1. انتقل إلى **المصروفات**، وحدد أحدها. أو حدد كافة المصروفات باستخدام خانة الاختيار الموجودة في الرأس.
 2. حدد **إرسال**. يعالج النظام الإدخالات المحددة ثم ينشئ طلبات الموافقة على المصروفات.
+
+## <a name="add-an-attachment"></a>إضافة مرفق
+
+قد تضطر إلى تزويد المعتمد بوثائق إضافية حول مصروفاتك. يمكنك إرفاق إيصال في الجدول الزمني لإدخال المصروفات. حدد **تحرير** وفي قسم **المخطط الزمني**، ثم حدد رمز دبوس المشبك لإرفاق الإيصال.
 
 ## <a name="recall-a-basic-expense"></a>استدعاء مصروفات أساسية
 
