@@ -24,8 +24,6 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: تطبيق بيانات العرض التوضيحي
           items:
-            - name: تطبيق بيانات العرض التوضيحي على بيئة مستضافة في سحابة Finance
-              href: environment/resource-apply-finance-demo-data.md
             - name: تطبيق بيانات التكوين في Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: نشر البيئات
@@ -38,6 +36,10 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: الجديد‬
       items:
+        - name: فبراير 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: يناير 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-jan-2021-resource-based.md
         - name: ديسمبر 2020 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: نوفمبر 2020 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
@@ -132,11 +134,11 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: مقدمات الأتعاب والسُلف
               items:
-                - name: العقود المستندة إلى مقدمات الأتعاب والسُلف - خفيف
+                - name: إعداد السلف والعقود المستندة إلى مقدم الأتعاب
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: إعداد جدول مقدمات الأتعاب - خفيف
+                - name: إعداد جدولة مقدم الأتعاب
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: إنشاء سُلفة مؤقتة على عقد - خفيف
+                - name: إنشاء سُلفة مؤقتة على عقد
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: التسعير والتكلفة
       items:
@@ -210,6 +212,8 @@
           href: project-management/copy-project.md
         - name: تخطيط هيكل تنظيم العمل
           items:
+            - name: إنشاء هيكل تنظيم العمل
+              href: project-management/create-wbs.md
             - name: إنشاء تعيينات
               href: project-management/create-assignments.md
         - name: تقدير المشاريع
@@ -232,6 +236,8 @@
               href: project-management/project-team-members-overview.md
             - name: الاحتفاظ بأعضاء الفريق
               href: project-management/maintain-team-members.md
+        - name: استكشاف الأخطاء وإصلاحها الخاصة بالتعامل مع شبكة المهام
+          href: project-management/projectplanningUIFAQ.md
         - name: التعاون
           items:
             - name: التعاون مع مجموعات Office
@@ -256,12 +262,14 @@
               href: resource-management/define-resource-requirements.md
             - name: تحديث متطلبات الموارد
               href: resource-management/update-resource-requirements.md
-            - name: إرسال طلب المورد
+            - name: إرسال طلب مورد
               href: resource-management/submit-resource-requirements.md
             - name: حجز لمشروع
               href: resource-management/book-project.md
             - name: مراجعة الموارد المقترحة
               href: resource-management/review-proposed-resources.md
+            - name: تحرير الحجوزات
+              href: resource-management/edit-existing-bookings.md
         - name: حجز الموارد غير المركزية (مختلطة)
           items:
             - name: أضافه أعضاء الفريق إلى شبكة أعضاء الفريق
@@ -326,6 +334,8 @@
                   href: expense/set-up-credit-card-integration.md
                 - name: إعداد فئات المصروفات
                   href: expense/set-up-expense-categories.md
+            - name: التعامل مع المصروفات الشخصية في تقرير المصروفات
+              href: expense/personal-expenses-expense-report.md
             - name: إنشاء تقارير المصروفات
               items:
                 - name: التوزيعات في تقرير المصروفات
@@ -370,22 +380,28 @@
           items:
             - name: إنشاء دفاتر يومية التصحيح وتأكيدها
               href: actuals/create-confirm-correction-journals.md
-    - name: الفواتير الأولية
+    - name: الفوترة
       items:
-        - name: إدارة تراكم فوترة المشروع
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: إدارة عمليات التحقق والحالات التي يجب ألا يتم تجاوزها
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: إنشاء فاتورة أولية للمشروع يدويًا
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: إدارة فاتورة أولية للمشروع
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: فوترة سلفة أو مقدم الأتعاب
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: تأكيد فاتورة أولية للمشروع
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: تكوين التنفيذ التلقائي لفواتير المشروع
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: نظرة عامة على عملية الفوترة
+          href: invoicing/post-project-invoices.md
+        - name: إدارة اقتراحات فواتير المشروع
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: الفواتير الأولية
+          items:
+            - name: إدارة تراكم فوترة المشروع
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: إدارة عمليات التحقق والحالات التي يجب ألا يتم تجاوزها
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: إنشاء فاتورة أولية للمشروع يدويًا
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: إدارة فاتورة أولية للمشروع
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: فوترة سلفة أو مقدم الأتعاب
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: تأكيد فاتورة أولية للمشروع
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: تكوين التنفيذ التلقائي لفواتير المشروع
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: محاسبة المشروع
       items:
         - name: افتراضيات الأبعاد المالية
@@ -404,10 +420,10 @@
               href: project-accounting/intercompany-invoicing-overview.md
             - name: تكوين الفوترة بين الشركات الشقيقة
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: إنشاء فواتير العميل والمورّد بين الشركات الشقيقة
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: إنشاء حركات بين الشركات الشقيقة
               href: project-accounting/create-intercompany-transactions.md
+            - name: إنشاء فواتير العميل والمورّد بين الشركات الشقيقة
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: إقرار الإيرادات
       items:
         - name: نظرة عامة على إقرار الإيرادات
@@ -418,12 +434,12 @@
               href: project-accounting/period-types.md
             - name: إعداد قوالب التكلفة
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: إدارة تقديرات الإيرادات
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: مشاريع تقدير الإيرادات ثابتة السعر
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: أساليب التكلفة للإكمال
           href: revenue-recognition/cost-complete-methods.md
+        - name: إدارة تقديرات الإيرادات
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: النشر الخفيف – التعامل مع الفواتير الأولية
   items:
     - name: الشروع في العمل
@@ -440,9 +456,13 @@
           href: environment/security-model.md
     - name: الجديد‬
       items:
-        - name: الجديد في ديسمبر 2020 – النشر الخفيف – التعامل مع الفواتير الأولية
+        - name: الجديد في فبراير 2021 - النشر الخفيف
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: الجديد في يناير 2021 - النشر الخفيف
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: الجديد في ديسمبر 2020 - النشر الخفيف
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: الجديد في نوفمبر 2020 – النشر الخفيف – التعامل مع الفواتير الأولية
+        - name: الجديد في نوفمبر 2020 - النشر الخفيف
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: عملية مبيعات المشروع
       items:
@@ -636,6 +656,8 @@
           href: project-management/copy-project.md
         - name: تخطيط هيكل تنظيم العمل
           items:
+            - name: إنشاء هيكل تنظيم العمل
+              href: project-management/create-wbs.md
             - name: إنشاء تعيينات
               href: project-management/create-assignments.md
         - name: تقدير المشاريع
@@ -658,10 +680,16 @@
               href: project-management/project-team-members-overview.md
             - name: الاحتفاظ بأعضاء الفريق
               href: project-management/maintain-team-members.md
+        - name: استكشاف الأخطاء وإصلاحها الخاصة بالتعامل مع شبكة المهام
+          href: project-management/projectplanningUIFAQ.md
         - name: التعاون
           items:
             - name: التعاون مع مجموعات Office
               href: project-management/collaboration-groups.md
+        - name: ملاحظات المطورين
+          items:
+            - name: تطوير قوالب المشروع مع نسخ المشروع‬
+              href: project-management/dev-copy-project.md
     - name: إدارة الموارد
       items:
         - name: المفاهيم الأساسية
@@ -678,12 +706,14 @@
               href: resource-management/define-resource-requirements.md
             - name: تحديث متطلبات الموارد
               href: resource-management/update-resource-requirements.md
-            - name: إرسال طلب المورد
+            - name: إرسال طلب مورد
               href: resource-management/submit-resource-requirements.md
             - name: حجز لمشروع
               href: resource-management/book-project.md
             - name: مراجعة الموارد المقترحة
               href: resource-management/review-proposed-resources.md
+            - name: تحرير الحجوزات
+              href: resource-management/edit-existing-bookings.md
         - name: حجز الموارد غير المركزية (مختلطة)
           items:
             - name: أضافه أعضاء الفريق إلى شبكة أعضاء الفريق
@@ -772,6 +802,10 @@
   items:
     - name: الجديد‬
       items:
+        - name: الجديد في يناير 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: الجديد في ديسمبر 2020 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
         - name: الجديد في نوفمبر 2020 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: نظرة عامة على نشر Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج‬
@@ -904,8 +938,16 @@
       href: psa/overview.md
     - name: الجديد‬
       items:
-        - name: جدول إصدار تحديثات Project Service 3.x
+        - name: جدول إصدارات التحديثات لـ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: الجديد أو المتغير في إصدار التحديث 28.5 الإصلاح العاجل، V3
+          href: psa/whats-new-ur-28-5.md
+        - name: الجديد أو المتغير في إصدار التحديث 28، V3
+          href: psa/whats-new-ur-28.md
+        - name: الجديد أو المتغير في إصدار التحديث 27.5 الإصلاح العاجل، V3
+          href: psa/whats-new-ur-27-5.md
+        - name: الجديد أو المتغير في إصدار التحديث 27، V3
+          href: psa/whats-new-ur-27.md
         - name: الجديد أو المتغير في إصدار التحديث 26، V3
           href: psa/whats-new-ur-26.md
         - name: الجديد أو المتغير في إصدار التحديث 25، V3
@@ -936,6 +978,8 @@
           href: psa/whats-new-ur-13.md
         - name: الجديد أو المتغير في إصدار التحديث 12، V3
           href: psa/whats-new-ur-12.md
+        - name: الجديد أو المتغير في الموجة 1 لعام 2021 من Project Service Automation V3.x
+          href: psa/whats-new-2021-wave1.md
         - name: الجديد أو المتغير في الموجة 1 لعام 2020 من Project Service Automation V3.x
           href: psa/whats-new-v3-2020-wave1.md
         - name: الجديد أو المتغير في Project Service Automation V3
@@ -992,6 +1036,8 @@
               href: psa/project-stages.md
             - name: إعدادات المشروع
               href: psa/project-settings.md
+            - name: خطط لعملك في Microsoft Project مع الوظيفة الإضافية لـ Project Service
+              href: psa/add-in-plan-work-projects.md
         - name: أبعاد التسعير والتكلفة
           items:
             - name: الصفحة الرئيسية لأبعاد التسعير والتكلفة
@@ -1070,7 +1116,7 @@
               href: psa/book-named-resource.md
             - name: حجوزات الموارد وكيفية ارتباطها بتعيينات المهام
               href: psa/FAQ-bookings-and-assignments.md
-            - name: إرسال طلب المورد
+            - name: إرسال طلب مورد
               href: psa/submit-resource-request.md
             - name: قبول مورد مقترح أو رفضه
               href: psa/accept-reject-proposed-resource.md
