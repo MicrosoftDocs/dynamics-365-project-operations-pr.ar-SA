@@ -3,6 +3,7 @@ title: تمكين ميزات تطبيق Project Finder Mobile
 description: كيفية تمكين ميزات تطبيق Project Finder Mobile في Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,50 +19,52 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132947"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144532"
 ---
-# <a name="enable-project-finder-mobile-app-features-project-service"></a><span data-ttu-id="d3bf6-103">تمكين ميزات تطبيق Project Finder Mobile (Project Service)</span><span class="sxs-lookup"><span data-stu-id="d3bf6-103">Enable Project Finder Mobile app features (Project Service)</span></span>
+# <a name="enable-project-finder-mobile-app-features-project-service"></a><span data-ttu-id="fbd2d-103">تمكين ميزات تطبيق Project Finder Mobile (Project Service)</span><span class="sxs-lookup"><span data-stu-id="fbd2d-103">Enable Project Finder Mobile app features (Project Service)</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="d3bf6-104">بإمكان الموارد استخدام تطبيق Project Finder Mobile‬‬ على الهاتف مع [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] للبحث عن مشاريع جديدة للعمل عليها وتحديث مجموعات مهاراتها.</span><span class="sxs-lookup"><span data-stu-id="d3bf6-104">Your resources can use the Project Finder Mobile app on their phone with [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to find new projects to work on and update their skill sets.</span></span>  
+<span data-ttu-id="fbd2d-104">بإمكان الموارد استخدام تطبيق Project Finder Mobile‬‬ على الهاتف مع [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] للبحث عن مشاريع جديدة للعمل عليها وتحديث مجموعات المهارات.</span><span class="sxs-lookup"><span data-stu-id="fbd2d-104">Your resources can use the Project Finder Mobile app on their phone with [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to find new projects to work on and update their skillsets.</span></span>  
   
- <span data-ttu-id="d3bf6-105">يتوفر التطبيق لهواتف [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] وأيضًا [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].</span><span class="sxs-lookup"><span data-stu-id="d3bf6-105">The app is available for [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] phones, and [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].</span></span>  
-  
- <span data-ttu-id="d3bf6-106">إنك تحتاج إلى تعيين بضعة خيارات في إعداد المعلمات لكي تسمح وحدتك التنظيمية للمستخدمين بعرض متطلبات موارد المشروع وتحديث مهاراتها.</span><span class="sxs-lookup"><span data-stu-id="d3bf6-106">You need to set a couple of options in the parameters setting for your organizational unit to allow users to view projects' resource requirements and update their skills.</span></span>  
+ <span data-ttu-id="fbd2d-105">يتوفر التطبيق لهواتف [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] وأيضًا [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].</span><span class="sxs-lookup"><span data-stu-id="fbd2d-105">The app is available for [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] phones, and [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].</span></span>  
+    
+ <span data-ttu-id="fbd2d-106">للسماح للمستخدمين بعرض متطلبات موارد المشروع وتحديث المهارات، يجب تحديد خيارات في إعداد المعلمات لوحدتك التنظيمية.</span><span class="sxs-lookup"><span data-stu-id="fbd2d-106">To allow users to view project resource requirements and update skills, options must be selected in the parameter settings for your organizational unit.</span></span>
   
 > [!NOTE]
->  <span data-ttu-id="d3bf6-107">يعمل تطبيق Project Finder Mobile‬‬ فقط مع [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]، وليس مع عمليات التثبيت المحلية.</span><span class="sxs-lookup"><span data-stu-id="d3bf6-107">The Project Finder Mobile app only works with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], not with on-premises installations.</span></span>  
+>  <span data-ttu-id="fbd2d-107">يعمل تطبيق Project Finder Mobile‬‬ فقط مع [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]، وليس مع عمليات التثبيت المحلية.</span><span class="sxs-lookup"><span data-stu-id="fbd2d-107">The Project Finder Mobile app only works with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], not with on-premises installations.</span></span>  
   
-1. <span data-ttu-id="d3bf6-108">انتقل إلى **Project Service > المعلمات‬**.</span><span class="sxs-lookup"><span data-stu-id="d3bf6-108">Go to **Project Service > Parameters**.</span></span>  
+1. <span data-ttu-id="fbd2d-108">انتقل إلى **Project Service > المعلمات‬**.</span><span class="sxs-lookup"><span data-stu-id="fbd2d-108">Go to **Project Service > Parameters**.</span></span>  
   
-2. <span data-ttu-id="d3bf6-109">انقر فوق إعداد المعلمات الذي تريد استخدامه للسماح بميزات تطبيق Project Finder Mobile‬‬.</span><span class="sxs-lookup"><span data-stu-id="d3bf6-109">Click the parameters setting you want to use for allowing the Project Finder Mobile app features.</span></span>  
+2. <span data-ttu-id="fbd2d-109">انقر فوق إعداد المعلمات الذي تريد استخدامه للسماح بميزات تطبيق Project Finder Mobile‬‬.</span><span class="sxs-lookup"><span data-stu-id="fbd2d-109">Click the parameters setting you want to use for allowing the Project Finder Mobile app features.</span></span>  
   
-3. <span data-ttu-id="d3bf6-110">في الناحية **عام** عيّن **متطلبات الموارد المرئية للموارد‬** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="d3bf6-110">In the **General** area, set **Resource requirements visible to resources** to **Yes**.</span></span>  
+3. <span data-ttu-id="fbd2d-110">في الناحية **عام** عيّن **متطلبات الموارد المرئية للموارد‬** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="fbd2d-110">In the **General** area, set **Resource requirements visible to resources** to **Yes**.</span></span>  
   
-4. <span data-ttu-id="d3bf6-111">عيّن **السماح بتحديث المهارة بواسطة المورد‬** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="d3bf6-111">Set **Allow skill update by resource** to **Yes**.</span></span>  
+4. <span data-ttu-id="fbd2d-111">عيّن **السماح بتحديث المهارة بواسطة المورد‬** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="fbd2d-111">Set **Allow skill update by resource** to **Yes**.</span></span>  
   
-   <span data-ttu-id="d3bf6-112">![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")</span><span class="sxs-lookup"><span data-stu-id="d3bf6-112">![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")</span></span>  
+   <span data-ttu-id="fbd2d-112">![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")</span><span class="sxs-lookup"><span data-stu-id="fbd2d-112">![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")</span></span>  
   
-   <span data-ttu-id="d3bf6-113">هذا إعداد عمومي.</span><span class="sxs-lookup"><span data-stu-id="d3bf6-113">This is a global setting.</span></span> <span data-ttu-id="d3bf6-114">بإمكان مدراء المشاريع تعيين ما إذا كان أحد المشاريع الفردية سيكون مرئيًا في صفحة **فريق المشروع**.</span><span class="sxs-lookup"><span data-stu-id="d3bf6-114">Project managers can set whether an individual project will be visible on that project's **Project Team** page.</span></span>  
+   <span data-ttu-id="fbd2d-113">هذا إعداد عمومي.</span><span class="sxs-lookup"><span data-stu-id="fbd2d-113">This is a global setting.</span></span> <span data-ttu-id="fbd2d-114">بإمكان مدراء المشاريع تعيين ما إذا كان أحد المشاريع الفردية سيكون مرئيًا في صفحة **فريق المشروع**.</span><span class="sxs-lookup"><span data-stu-id="fbd2d-114">Project managers can set whether an individual project will be visible on that project's **Project Team** page.</span></span>  
   
-   <span data-ttu-id="d3bf6-115">![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")</span><span class="sxs-lookup"><span data-stu-id="d3bf6-115">![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")</span></span>  
+   <span data-ttu-id="fbd2d-115">![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")</span><span class="sxs-lookup"><span data-stu-id="fbd2d-115">![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")</span></span>  
   
-## <a name="email-notifications"></a><span data-ttu-id="d3bf6-116">إعلامات البريد الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="d3bf6-116">Email notifications</span></span>  
- <span data-ttu-id="d3bf6-117">ترسل [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] رسائل البريد الإلكتروني فيما يتعلق بطلبات الموارد للمستلمين التاليين في الأوقات التالية:</span><span class="sxs-lookup"><span data-stu-id="d3bf6-117">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sends emails regarding resource requests to the following recipients at the following times:</span></span>  
+## <a name="email-notifications"></a><span data-ttu-id="fbd2d-116">إعلامات البريد الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="fbd2d-116">Email notifications</span></span>  
+ <span data-ttu-id="fbd2d-117">ترسل [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] رسائل البريد الإلكتروني فيما يتعلق بطلبات الموارد للمستلمين التاليين في الأوقات التالية:</span><span class="sxs-lookup"><span data-stu-id="fbd2d-117">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sends emails regarding resource requests to the following recipients at the following times:</span></span>  
   
-|<span data-ttu-id="d3bf6-118">المستلم</span><span class="sxs-lookup"><span data-stu-id="d3bf6-118">Recipient</span></span>|<span data-ttu-id="d3bf6-119">الحدث</span><span class="sxs-lookup"><span data-stu-id="d3bf6-119">Event</span></span>|  
+|<span data-ttu-id="fbd2d-118">مستلم</span><span class="sxs-lookup"><span data-stu-id="fbd2d-118">Recipient</span></span>|<span data-ttu-id="fbd2d-119">حدث</span><span class="sxs-lookup"><span data-stu-id="fbd2d-119">Event</span></span>|  
 |---------------|-----------|  
-|<span data-ttu-id="d3bf6-120">مدير المشروع</span><span class="sxs-lookup"><span data-stu-id="d3bf6-120">Project manager</span></span>|<span data-ttu-id="d3bf6-121">-   عند تسجيل أحد الموارد للعمل على مشروع باستخدام تطبيق Project Finder Mobile.</span><span class="sxs-lookup"><span data-stu-id="d3bf6-121">-   When a resource signs up for a project with the Project Finder Mobile app.</span></span>|  
-|<span data-ttu-id="d3bf6-122">المورد</span><span class="sxs-lookup"><span data-stu-id="d3bf6-122">Resource</span></span>|<span data-ttu-id="d3bf6-123">-   عندما يلبي مورد آخر عمل المشروع الذي قام المورد بالتسجيل للعمل عليه.</span><span class="sxs-lookup"><span data-stu-id="d3bf6-123">-   When the project work the resource has signed up for has already been fulfilled by another resource.</span></span><br /><span data-ttu-id="d3bf6-124">-   عند الموافقة على طلب الموافقة على المهارات أو رفضه.</span><span class="sxs-lookup"><span data-stu-id="d3bf6-124">-   When their skill approval request has been approved or rejected.</span></span><br /><span data-ttu-id="d3bf6-125">-   عند الموافقة على التسجيل للعمل على المشروع أو رفضه.</span><span class="sxs-lookup"><span data-stu-id="d3bf6-125">-   When their project sign up request has been approved or rejected.</span></span>|  
+|<span data-ttu-id="fbd2d-120">مدير المشروع</span><span class="sxs-lookup"><span data-stu-id="fbd2d-120">Project manager</span></span>|<span data-ttu-id="fbd2d-121">- قيام أحد الموارد بالاشتراك في مشروع باستخدام تطبيق Project Finder Mobile.</span><span class="sxs-lookup"><span data-stu-id="fbd2d-121">- A resource signs up for a project with the Project Finder Mobile app.</span></span>|  
+|<span data-ttu-id="fbd2d-122">مورد</span><span class="sxs-lookup"><span data-stu-id="fbd2d-122">Resource</span></span>|<span data-ttu-id="fbd2d-123">- تم بالفعل تنفيذ عمل المشروع الذي قام المورد بالاشتراك فيه بواسطة مورد آخر.</span><span class="sxs-lookup"><span data-stu-id="fbd2d-123">- The project work that the resource has signed up for has already been fulfilled by another resource.</span></span><br /><span data-ttu-id="fbd2d-124">- تمت الموافقة على طلب اعتماد المهارات أو رفضه.</span><span class="sxs-lookup"><span data-stu-id="fbd2d-124">- The skill approval request has been approved or rejected.</span></span><br /><span data-ttu-id="fbd2d-125">- تمت الموافقة على طلب الاشتراك في المشروع أو رفضه.</span><span class="sxs-lookup"><span data-stu-id="fbd2d-125">- The project sign-up request has been approved or rejected.</span></span>|  
   
-## <a name="privacy-notice"></a><span data-ttu-id="d3bf6-126">إشعار الخصوصية</span><span class="sxs-lookup"><span data-stu-id="d3bf6-126">Privacy notice</span></span>  
+## <a name="privacy-notice"></a><span data-ttu-id="fbd2d-126">إشعار الخصوصية</span><span class="sxs-lookup"><span data-stu-id="fbd2d-126">Privacy notice</span></span>  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
   
-### <a name="see-also"></a><span data-ttu-id="d3bf6-127">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="d3bf6-127">See Also</span></span>  
- [<span data-ttu-id="d3bf6-128">إعداد الموارد</span><span class="sxs-lookup"><span data-stu-id="d3bf6-128">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="fbd2d-127">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="fbd2d-127">See Also</span></span>  
+ [<span data-ttu-id="fbd2d-128">إعداد الموارد</span><span class="sxs-lookup"><span data-stu-id="fbd2d-128">Set up resources</span></span>](../psa/set-up-resources.md)
