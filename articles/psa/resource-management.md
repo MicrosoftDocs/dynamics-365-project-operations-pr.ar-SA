@@ -18,36 +18,38 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca49c29f079f04dad127cfe56f262577ea8cc4a1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6d62baf0d5a535d118df507edaba3059d44fd4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124037"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147401"
 ---
-# <a name="resourcing-projects-home-page"></a><span data-ttu-id="77e24-103">الصفحة الرئيسية لمشاريع تعيين الموارد</span><span class="sxs-lookup"><span data-stu-id="77e24-103">Resourcing projects home page</span></span>
+# <a name="resourcing-projects-home-page"></a><span data-ttu-id="77f38-103">الصفحة الرئيسية لمشاريع تعيين الموارد</span><span class="sxs-lookup"><span data-stu-id="77f38-103">Resourcing projects home page</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="77e24-104">وتعتبر الموارد الأصل الأكثر أهميةً في المؤسسة التي تستند إلى الخدمة.</span><span class="sxs-lookup"><span data-stu-id="77e24-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="77e24-105">تساعد إمكانية العثور على الموارد الصحيحة في الوقت المناسب وحجز هذه الموارد في المشاريع والاحتفاظ باستخدام الموارد المؤسسة على الوفاء بأهداف العائد وأهداف رضا العميل.</span><span class="sxs-lookup"><span data-stu-id="77e24-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="77e24-106">يمكنك استخدام وظيفة تعيين موارد المشروع في Project Service Automation (‏PSA) للقيام بما يلي:</span><span class="sxs-lookup"><span data-stu-id="77e24-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
+<span data-ttu-id="77f38-104">وتعتبر الموارد الأصل الأكثر أهميةً في المؤسسة التي تستند إلى الخدمة.</span><span class="sxs-lookup"><span data-stu-id="77f38-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="77f38-105">تساعد إمكانية العثور على الموارد الصحيحة في الوقت المناسب وحجز هذه الموارد في المشاريع والاحتفاظ باستخدام الموارد المؤسسة على الوفاء بأهداف العائد وأهداف رضا العميل.</span><span class="sxs-lookup"><span data-stu-id="77f38-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="77f38-106">يمكنك استخدام وظيفة تعيين موارد المشروع في Project Service Automation (‏PSA) للقيام بما يلي:</span><span class="sxs-lookup"><span data-stu-id="77f38-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
 
-- <span data-ttu-id="77e24-107">تكوين فرق المشروع من خلال حجز الموارد المتوفرة والمؤهلة.</span><span class="sxs-lookup"><span data-stu-id="77e24-107">Form project teams by booking available and qualified resources.</span></span>
-- <span data-ttu-id="77e24-108">إنشاء سجلات أعضاء الفريق العامة وتعريف الأدوار والوحدة التنظيمية للمورد.</span><span class="sxs-lookup"><span data-stu-id="77e24-108">Create generic team member records and define their roles and resource organization unit.</span></span>
-- <span data-ttu-id="77e24-109">إنشاء متطلبات الموارد لأعضاء الفريق العام من تعيينات المهام الخاصة بهم.</span><span class="sxs-lookup"><span data-stu-id="77e24-109">Generate resource requirements for generic team members from their task assignments.</span></span>
-- <span data-ttu-id="77e24-110">مطابقه المهارات من خلال تحديد المهارات المحددة في طلب المورد مقابل مهارات الموارد المتوفرة.</span><span class="sxs-lookup"><span data-stu-id="77e24-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
-- <span data-ttu-id="77e24-111">استبدال الموارد.</span><span class="sxs-lookup"><span data-stu-id="77e24-111">Substitute resources.</span></span>
-- <span data-ttu-id="77e24-112">محاذاة تعيينات جدول المشروع وحجوزات الموارد.</span><span class="sxs-lookup"><span data-stu-id="77e24-112">Align project schedule assignments and resource bookings.</span></span>
-- <span data-ttu-id="77e24-113">تسوية الفروق في الحجوزات والتعيينات.</span><span class="sxs-lookup"><span data-stu-id="77e24-113">Reconcile differences in bookings and assignments.</span></span>
-- <span data-ttu-id="77e24-114">تغيير حجوزات الموارد كاستجابة لحالة خارج المكتب.</span><span class="sxs-lookup"><span data-stu-id="77e24-114">Change resource bookings in response to out-of-office status.</span></span>
-- <span data-ttu-id="77e24-115">التعاون بين مديري المشاريع ومديري الموارد.</span><span class="sxs-lookup"><span data-stu-id="77e24-115">Collaborate between project managers and resource managers.</span></span>
-- <span data-ttu-id="77e24-116">عرض محفوظات استخدام الموارد مقابل هدف، بما في ذلك تصنيف لكيفية استهلاك وقت الموارد.</span><span class="sxs-lookup"><span data-stu-id="77e24-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
-- <span data-ttu-id="77e24-117">صيانة مستودع مهارات وكفاءة.</span><span class="sxs-lookup"><span data-stu-id="77e24-117">Maintain a skills and proficiency repository.</span></span>
+- <span data-ttu-id="77f38-107">تكوين فرق المشروع من خلال حجز الموارد المتوفرة والمؤهلة.</span><span class="sxs-lookup"><span data-stu-id="77f38-107">Form project teams by booking available and qualified resources.</span></span>
+- <span data-ttu-id="77f38-108">إنشاء سجلات أعضاء الفريق العامة وتعريف الأدوار والوحدة التنظيمية للمورد.</span><span class="sxs-lookup"><span data-stu-id="77f38-108">Create generic team member records and define their roles and resource organization unit.</span></span>
+- <span data-ttu-id="77f38-109">إنشاء متطلبات الموارد لأعضاء الفريق العام من تعيينات المهام الخاصة بهم.</span><span class="sxs-lookup"><span data-stu-id="77f38-109">Generate resource requirements for generic team members from their task assignments.</span></span>
+- <span data-ttu-id="77f38-110">مطابقه المهارات من خلال تحديد المهارات المحددة في طلب المورد مقابل مهارات الموارد المتوفرة.</span><span class="sxs-lookup"><span data-stu-id="77f38-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
+- <span data-ttu-id="77f38-111">استبدال الموارد.</span><span class="sxs-lookup"><span data-stu-id="77f38-111">Substitute resources.</span></span>
+- <span data-ttu-id="77f38-112">محاذاة تعيينات جدول المشروع وحجوزات الموارد.</span><span class="sxs-lookup"><span data-stu-id="77f38-112">Align project schedule assignments and resource bookings.</span></span>
+- <span data-ttu-id="77f38-113">تسوية الفروق في الحجوزات والتعيينات.</span><span class="sxs-lookup"><span data-stu-id="77f38-113">Reconcile differences in bookings and assignments.</span></span>
+- <span data-ttu-id="77f38-114">تغيير حجوزات الموارد كاستجابة لحالة خارج المكتب.</span><span class="sxs-lookup"><span data-stu-id="77f38-114">Change resource bookings in response to out-of-office status.</span></span>
+- <span data-ttu-id="77f38-115">التعاون بين مديري المشاريع ومديري الموارد.</span><span class="sxs-lookup"><span data-stu-id="77f38-115">Collaborate between project managers and resource managers.</span></span>
+- <span data-ttu-id="77f38-116">عرض محفوظات استخدام الموارد مقابل هدف، بما في ذلك تصنيف لكيفية استهلاك وقت الموارد.</span><span class="sxs-lookup"><span data-stu-id="77f38-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
+- <span data-ttu-id="77f38-117">صيانة مستودع مهارات وكفاءة.</span><span class="sxs-lookup"><span data-stu-id="77f38-117">Maintain a skills and proficiency repository.</span></span>
 
 
-<span data-ttu-id="77e24-118">يمكنك توظيف المشروع الخاص بك مع فريق من الموارد العامة أو المسماة في PSA.</span><span class="sxs-lookup"><span data-stu-id="77e24-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="77e24-119">يمكنك استخدام العديد من الطرق لإضافة أعضاء الفريق وتعيينهم ولإدارة الحجوزات والتعيينات الخاصة بهم.</span><span class="sxs-lookup"><span data-stu-id="77e24-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="77e24-120">للحصول على مزيد من المعلومات، راجع المواضيع التالية:</span><span class="sxs-lookup"><span data-stu-id="77e24-120">For additional information, see the following topics:</span></span>
+<span data-ttu-id="77f38-118">يمكنك توظيف المشروع الخاص بك مع فريق من الموارد العامة أو المسماة في PSA.</span><span class="sxs-lookup"><span data-stu-id="77f38-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="77f38-119">يمكنك استخدام العديد من الطرق لإضافة أعضاء الفريق وتعيينهم ولإدارة الحجوزات والتعيينات الخاصة بهم.</span><span class="sxs-lookup"><span data-stu-id="77f38-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="77f38-120">للحصول على مزيد من المعلومات، راجع المواضيع التالية:</span><span class="sxs-lookup"><span data-stu-id="77f38-120">For additional information, see the following topics:</span></span>
 
-- [<span data-ttu-id="77e24-121">حجز الموارد القابلة للحجز المسماة لفريق مشروع وتعيين المهام له</span><span class="sxs-lookup"><span data-stu-id="77e24-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
-- [<span data-ttu-id="77e24-122">تعيين موارد عامة قابل للحجز إلى مهمة وإنشاء متطلبات مورد</span><span class="sxs-lookup"><span data-stu-id="77e24-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
-- [<span data-ttu-id="77e24-123">حجز موارد مسماة من متطلبات الموارد</span><span class="sxs-lookup"><span data-stu-id="77e24-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
-- [<span data-ttu-id="77e24-124">إرسال طلب مورد</span><span class="sxs-lookup"><span data-stu-id="77e24-124">Submit a resource request</span></span>](submit-resource-request.md)
-- [<span data-ttu-id="77e24-125">قبول مورد مشروع مقترح أو رفضه من طلب مورد</span><span class="sxs-lookup"><span data-stu-id="77e24-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)
+- [<span data-ttu-id="77f38-121">حجز الموارد القابلة للحجز المسماة لفريق مشروع وتعيين المهام له</span><span class="sxs-lookup"><span data-stu-id="77f38-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
+- [<span data-ttu-id="77f38-122">تعيين موارد عامة قابل للحجز إلى مهمة وإنشاء متطلبات مورد</span><span class="sxs-lookup"><span data-stu-id="77f38-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
+- [<span data-ttu-id="77f38-123">حجز موارد مسماة من متطلبات الموارد</span><span class="sxs-lookup"><span data-stu-id="77f38-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
+- [<span data-ttu-id="77f38-124">إرسال طلب مورد</span><span class="sxs-lookup"><span data-stu-id="77f38-124">Submit a resource request</span></span>](submit-resource-request.md)
+- [<span data-ttu-id="77f38-125">قبول مورد مشروع مقترح أو رفضه من طلب مورد</span><span class="sxs-lookup"><span data-stu-id="77f38-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)

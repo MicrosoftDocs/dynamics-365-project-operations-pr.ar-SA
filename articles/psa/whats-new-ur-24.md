@@ -17,65 +17,67 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 15fe1c3482de66331dd543ee73391638919b2595
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126557"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146692"
 ---
-# <a name="project-service-automation-update-release-24-v3"></a><span data-ttu-id="d06b0-103">الإصدار 3 من Project Service Automation، إصدار التحديث 24</span><span class="sxs-lookup"><span data-stu-id="d06b0-103">Project Service Automation Update Release 24, V3</span></span>
+# <a name="project-service-automation-update-release-24-v3"></a><span data-ttu-id="eaef6-103">الإصدار 3 من Project Service Automation، إصدار التحديث 24</span><span class="sxs-lookup"><span data-stu-id="eaef6-103">Project Service Automation Update Release 24, V3</span></span>
 
-<span data-ttu-id="d06b0-104">يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="d06b0-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="d06b0-105">يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام.</span><span class="sxs-lookup"><span data-stu-id="d06b0-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="d06b0-106">هذا الإصدار متوافق مع Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="d06b0-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="d06b0-107">للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث.</span><span class="sxs-lookup"><span data-stu-id="d06b0-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="d06b0-108">لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="d06b0-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+[!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="d06b0-109">يسرد هذا الموضوع الميزات والإصلاحات الجديدة أو التي تم تغييرها في الإصدار 3 من Project Service Automation، إصدار التحديث 24.</span><span class="sxs-lookup"><span data-stu-id="d06b0-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 24.</span></span> <span data-ttu-id="d06b0-110">يتضمن هذا الإصدار رقم البنية V 3.10.42.43 وهو متوفر بشكل عام من خلال تحديث ذاتي في أكتوبر 2020.</span><span class="sxs-lookup"><span data-stu-id="d06b0-110">This version has a build number of V 3.10.42.43 and is generally available through a self-update in October 2020.</span></span>
+<span data-ttu-id="eaef6-104">يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="eaef6-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="eaef6-105">يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام.</span><span class="sxs-lookup"><span data-stu-id="eaef6-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="eaef6-106">هذا الإصدار متوافق مع Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="eaef6-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="eaef6-107">للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث.</span><span class="sxs-lookup"><span data-stu-id="eaef6-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="eaef6-108">لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="eaef6-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-## <a name="update-release-24"></a><span data-ttu-id="d06b0-111">إصدار التحديث 24</span><span class="sxs-lookup"><span data-stu-id="d06b0-111">Update Release 24</span></span>
+<span data-ttu-id="eaef6-109">يسرد هذا الموضوع الميزات والإصلاحات الجديدة أو التي تم تغييرها في الإصدار 3 من Project Service Automation، إصدار التحديث 24.</span><span class="sxs-lookup"><span data-stu-id="eaef6-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 24.</span></span> <span data-ttu-id="eaef6-110">يتضمن هذا الإصدار رقم البنية V 3.10.42.43 وهو متوفر بشكل عام من خلال تحديث ذاتي في أكتوبر 2020.</span><span class="sxs-lookup"><span data-stu-id="eaef6-110">This version has a build number of V 3.10.42.43 and is generally available through a self-update in October 2020.</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="d06b0-112">إصلاحات الأخطاء</span><span class="sxs-lookup"><span data-stu-id="d06b0-112">Bug fixes</span></span>
+## <a name="update-release-24"></a><span data-ttu-id="eaef6-111">إصدار التحديث 24</span><span class="sxs-lookup"><span data-stu-id="eaef6-111">Update Release 24</span></span>
 
-<span data-ttu-id="d06b0-113">**المبيعات**</span><span class="sxs-lookup"><span data-stu-id="d06b0-113">**Sales**</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="eaef6-112">إصلاحات الأخطاء</span><span class="sxs-lookup"><span data-stu-id="eaef6-112">Bug fixes</span></span>
 
-<span data-ttu-id="d06b0-114">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="d06b0-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="eaef6-113">**المبيعات**</span><span class="sxs-lookup"><span data-stu-id="eaef6-113">**Sales**</span></span>
 
-- <span data-ttu-id="d06b0-115">تحدث مشكلة أثناء إعداد قائمة الأسعار الافتراضية للمنتجات.</span><span class="sxs-lookup"><span data-stu-id="d06b0-115">Problem while setting default price list of products.</span></span>
-- <span data-ttu-id="d06b0-116">أداء الفوز بعرض الأسعار بطيء بسبب قائمة الأسعار المضمنة ونسخة سجلات أسعار الدور.</span><span class="sxs-lookup"><span data-stu-id="d06b0-116">Performance of Quote win is slow due to the embedded price list and role price records copy.</span></span>
-- <span data-ttu-id="d06b0-117">يتم تقريب **عقد المشروع/مركز المبيعات** > **بند سطر المنتج/كمية بند الأمر** إلى أقرب عدد صحيح بشكل تلقائي.</span><span class="sxs-lookup"><span data-stu-id="d06b0-117">**Project Contract/Sales Hub** > **Product Line Item/Order Line Quantity** is automatically rounded to the nearest integer.</span></span>
-- <span data-ttu-id="d06b0-118">رفع امتيازات النظام عند قراءة قوائم الأسعار.</span><span class="sxs-lookup"><span data-stu-id="d06b0-118">Elevate to system privileges when reading price lists.</span></span>
-- <span data-ttu-id="d06b0-119">نسخ حقول عنوان العميل **address1_freighttermscode** و **address1_shippingmethodcode** إلى عرض الأسعار/الأمر.</span><span class="sxs-lookup"><span data-stu-id="d06b0-119">Copy customer address fields **address1_freighttermscode** and **address1_shippingmethodcode** to Quote/Order.</span></span> 
+<span data-ttu-id="eaef6-114">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="eaef6-114">The following issues have been fixed:</span></span>
 
-
-<span data-ttu-id="d06b0-120">**الوقت والمصروفات**</span><span class="sxs-lookup"><span data-stu-id="d06b0-120">**Time and Expense**</span></span>
-
-<span data-ttu-id="d06b0-121">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="d06b0-121">The following issues have been fixed:</span></span>
-
-- <span data-ttu-id="d06b0-122">لا تدعم شبكة **إدخال الوقت** سلوك الوقت **التاريخ فقط**.</span><span class="sxs-lookup"><span data-stu-id="d06b0-122">The **Time Entry Grid** doesn't support **Date Only** time behavior.</span></span>
-- <span data-ttu-id="d06b0-123">لا يتم تحديث **إدخال الوقت** بشكل تلقائي.</span><span class="sxs-lookup"><span data-stu-id="d06b0-123">**Time Entry** is not refreshing automatically.</span></span> <span data-ttu-id="d06b0-124">يلزم إجراء تحديث يدوي.</span><span class="sxs-lookup"><span data-stu-id="d06b0-124">A manual refresh is required.</span></span>
-- <span data-ttu-id="d06b0-125">يتعذر استيراد إدخالات الوقت من تعيين عند وجود فاصل (0 ساعات) في تعيينات المورد.</span><span class="sxs-lookup"><span data-stu-id="d06b0-125">Unable to import the time entries from an assignment when there is a break (0 hours) in a resource's assignments.</span></span>
-- <span data-ttu-id="d06b0-126">عند إنشاء إدخال الوقت، عيّن وقت البدء بحيث يكون **msdyn_date** نفسه.</span><span class="sxs-lookup"><span data-stu-id="d06b0-126">When creating a time entry, set the start to the same as **msdyn_date**.</span></span>
-- <span data-ttu-id="d06b0-127">إعادة تمكين التحرير المجمع لإدخال الوقت.</span><span class="sxs-lookup"><span data-stu-id="d06b0-127">Re-enable bulk edit for time entry.</span></span>
-
-<span data-ttu-id="d06b0-128">**إدارة الموارد**</span><span class="sxs-lookup"><span data-stu-id="d06b0-128">**Resource Management**</span></span>
-
-<span data-ttu-id="d06b0-129">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="d06b0-129">The following issues have been fixed:</span></span>
-
-- <span data-ttu-id="d06b0-130">ستؤدي محاولة تحديث حالة حجز خلال اليوم من دون طلب إلى طرح استثناء مرجع خالٍ.</span><span class="sxs-lookup"><span data-stu-id="d06b0-130">Trying to update the status of an inter-day booking without a requirement will throw a null-ref exception.</span></span>
-- <span data-ttu-id="d06b0-131">خطأ في تحميل **طريقة عرض التسوية**.</span><span class="sxs-lookup"><span data-stu-id="d06b0-131">Error loading the **Reconciliation View**.</span></span>
+- <span data-ttu-id="eaef6-115">تحدث مشكلة أثناء إعداد قائمة الأسعار الافتراضية للمنتجات.</span><span class="sxs-lookup"><span data-stu-id="eaef6-115">Problem while setting default price list of products.</span></span>
+- <span data-ttu-id="eaef6-116">أداء الفوز بعرض الأسعار بطيء بسبب قائمة الأسعار المضمنة ونسخة سجلات أسعار الدور.</span><span class="sxs-lookup"><span data-stu-id="eaef6-116">Performance of Quote win is slow due to the embedded price list and role price records copy.</span></span>
+- <span data-ttu-id="eaef6-117">يتم تقريب **عقد المشروع/مركز المبيعات** > **بند سطر المنتج/كمية بند الأمر** إلى أقرب عدد صحيح بشكل تلقائي.</span><span class="sxs-lookup"><span data-stu-id="eaef6-117">**Project Contract/Sales Hub** > **Product Line Item/Order Line Quantity** is automatically rounded to the nearest integer.</span></span>
+- <span data-ttu-id="eaef6-118">رفع امتيازات النظام عند قراءة قوائم الأسعار.</span><span class="sxs-lookup"><span data-stu-id="eaef6-118">Elevate to system privileges when reading price lists.</span></span>
+- <span data-ttu-id="eaef6-119">نسخ حقول عنوان العميل **address1_freighttermscode** و **address1_shippingmethodcode** إلى عرض الأسعار/الأمر.</span><span class="sxs-lookup"><span data-stu-id="eaef6-119">Copy customer address fields **address1_freighttermscode** and **address1_shippingmethodcode** to Quote/Order.</span></span> 
 
 
-<span data-ttu-id="d06b0-132">**إدارة المشروع**</span><span class="sxs-lookup"><span data-stu-id="d06b0-132">**Project Management**</span></span>
+<span data-ttu-id="eaef6-120">**الوقت والمصروفات**</span><span class="sxs-lookup"><span data-stu-id="eaef6-120">**Time and Expense**</span></span>
 
-<span data-ttu-id="d06b0-133">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="d06b0-133">The following issues have been fixed:</span></span>
+<span data-ttu-id="eaef6-121">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="eaef6-121">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="d06b0-134">في **جدول المشروع**، عند التغيير من **يدوي** إلى **تلقائي**، لا يكتمل الحفظ التلقائي.</span><span class="sxs-lookup"><span data-stu-id="d06b0-134">In the **Project Schedule**, when changing from **Manual** to **Auto**, auto save is not completing.</span></span>
-- <span data-ttu-id="d06b0-135">يجب ألا يتم حساب تكاليف المصروفات نحو التباين في **شبكة تعقب المشروع**.</span><span class="sxs-lookup"><span data-stu-id="d06b0-135">Expense costs should not calculate toward variance on the **Project Tracking Grid**.</span></span>
-- <span data-ttu-id="d06b0-136">سلوك غير متناسق لأعمدة **علامة التقديرات** أثناء التحميل في مقابل تغيير نوع **التوزيع على الوقت**.</span><span class="sxs-lookup"><span data-stu-id="d06b0-136">Inconsistent behavior for **Estimates tag** columns during load versus changing the **Time-Phase** type.</span></span>
-- <span data-ttu-id="d06b0-137">قد لا تعكس التكلفة الفعلية في المشروع الإجماليات من **القيم الفعلية**.</span><span class="sxs-lookup"><span data-stu-id="d06b0-137">The actual cost on a project may not reflect the totals from **Actuals**.</span></span>
-- <span data-ttu-id="d06b0-138">لا يتطابق **تاريخ الانتهاء المقدر** على علامة تبويب **الملخص** مع **جدول WBS**.</span><span class="sxs-lookup"><span data-stu-id="d06b0-138">**Estimated Finish Date** on the **Summary** tab does not match the **WBS Schedule**.</span></span>
-- <span data-ttu-id="d06b0-139">لا يعمل **تحديث الساعات الفعلية** بالمستوى الأعلى بشكل صحيح.</span><span class="sxs-lookup"><span data-stu-id="d06b0-139">**Update Actual Hours** on outdent does not work correctly.</span></span>
-- <span data-ttu-id="d06b0-140">لا يستطيع مدير المشروع خارج **BU** الجذر إنشاء مشروع.</span><span class="sxs-lookup"><span data-stu-id="d06b0-140">A Project manager outside of root **BU** can't create a project.</span></span>
-- <span data-ttu-id="d06b0-141">لا تدوم التغييرات التي يتم إدخالها على المهمة أو الفئة في **تقديرات المصروفات**.</span><span class="sxs-lookup"><span data-stu-id="d06b0-141">Changes to task or category on **Expense Estimates** are not persisted.</span></span>
-- <span data-ttu-id="d06b0-142">يؤدي اختيار **نسخ العقد** إلى نسخ جداول الفواتير وحالة التشغيل.</span><span class="sxs-lookup"><span data-stu-id="d06b0-142">**Copy of contract** copies the invoice schedules and the run status.</span></span>
-- <span data-ttu-id="d06b0-143">يحسب الزر **تحديث القيم الفعلية** المهام الموجزة بشكل غير صحيح.</span><span class="sxs-lookup"><span data-stu-id="d06b0-143">**Refresh Actuals** button incorrectly calculates summary tasks.</span></span>
-- <span data-ttu-id="d06b0-144">الوظيفة الإضافية Microsoft Project: إصلاح خطأ مرجعي خالٍ عند وجود وحدة تعيين موارد فارغة لدي أي من أعضاء الفريق.</span><span class="sxs-lookup"><span data-stu-id="d06b0-144">Microsoft Project Add-in: Fix null reference error if any team member has an empty resourcing unit.</span></span>
+- <span data-ttu-id="eaef6-122">لا تدعم شبكة **إدخال الوقت** سلوك الوقت **التاريخ فقط**.</span><span class="sxs-lookup"><span data-stu-id="eaef6-122">The **Time Entry Grid** doesn't support **Date Only** time behavior.</span></span>
+- <span data-ttu-id="eaef6-123">لا يتم تحديث **إدخال الوقت** بشكل تلقائي.</span><span class="sxs-lookup"><span data-stu-id="eaef6-123">**Time Entry** is not refreshing automatically.</span></span> <span data-ttu-id="eaef6-124">يلزم إجراء تحديث يدوي.</span><span class="sxs-lookup"><span data-stu-id="eaef6-124">A manual refresh is required.</span></span>
+- <span data-ttu-id="eaef6-125">يتعذر استيراد إدخالات الوقت من تعيين عند وجود فاصل (0 ساعات) في تعيينات المورد.</span><span class="sxs-lookup"><span data-stu-id="eaef6-125">Unable to import the time entries from an assignment when there is a break (0 hours) in a resource's assignments.</span></span>
+- <span data-ttu-id="eaef6-126">عند إنشاء إدخال الوقت، عيّن وقت البدء بحيث يكون **msdyn_date** نفسه.</span><span class="sxs-lookup"><span data-stu-id="eaef6-126">When creating a time entry, set the start to the same as **msdyn_date**.</span></span>
+- <span data-ttu-id="eaef6-127">إعادة تمكين التحرير المجمع لإدخال الوقت.</span><span class="sxs-lookup"><span data-stu-id="eaef6-127">Re-enable bulk edit for time entry.</span></span>
+
+<span data-ttu-id="eaef6-128">**إدارة الموارد**</span><span class="sxs-lookup"><span data-stu-id="eaef6-128">**Resource Management**</span></span>
+
+<span data-ttu-id="eaef6-129">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="eaef6-129">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="eaef6-130">ستؤدي محاولة تحديث حالة حجز خلال اليوم من دون طلب إلى طرح استثناء مرجع خالٍ.</span><span class="sxs-lookup"><span data-stu-id="eaef6-130">Trying to update the status of an inter-day booking without a requirement will throw a null-ref exception.</span></span>
+- <span data-ttu-id="eaef6-131">خطأ في تحميل **طريقة عرض التسوية**.</span><span class="sxs-lookup"><span data-stu-id="eaef6-131">Error loading the **Reconciliation View**.</span></span>
+
+
+<span data-ttu-id="eaef6-132">**إدارة المشروع**</span><span class="sxs-lookup"><span data-stu-id="eaef6-132">**Project Management**</span></span>
+
+<span data-ttu-id="eaef6-133">تم إصلاح المشكلات التالية:</span><span class="sxs-lookup"><span data-stu-id="eaef6-133">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="eaef6-134">في **جدول المشروع**، عند التغيير من **يدوي** إلى **تلقائي**، لا يكتمل الحفظ التلقائي.</span><span class="sxs-lookup"><span data-stu-id="eaef6-134">In the **Project Schedule**, when changing from **Manual** to **Auto**, auto save is not completing.</span></span>
+- <span data-ttu-id="eaef6-135">يجب ألا يتم حساب تكاليف المصروفات نحو التباين في **شبكة تعقب المشروع**.</span><span class="sxs-lookup"><span data-stu-id="eaef6-135">Expense costs should not calculate toward variance on the **Project Tracking Grid**.</span></span>
+- <span data-ttu-id="eaef6-136">سلوك غير متناسق لأعمدة **علامة التقديرات** أثناء التحميل في مقابل تغيير نوع **التوزيع على الوقت**.</span><span class="sxs-lookup"><span data-stu-id="eaef6-136">Inconsistent behavior for **Estimates tag** columns during load versus changing the **Time-Phase** type.</span></span>
+- <span data-ttu-id="eaef6-137">قد لا تعكس التكلفة الفعلية في المشروع الإجماليات من **القيم الفعلية**.</span><span class="sxs-lookup"><span data-stu-id="eaef6-137">The actual cost on a project may not reflect the totals from **Actuals**.</span></span>
+- <span data-ttu-id="eaef6-138">لا يتطابق **تاريخ الانتهاء المقدر** على علامة تبويب **الملخص** مع **جدول WBS**.</span><span class="sxs-lookup"><span data-stu-id="eaef6-138">**Estimated Finish Date** on the **Summary** tab does not match the **WBS Schedule**.</span></span>
+- <span data-ttu-id="eaef6-139">لا يعمل **تحديث الساعات الفعلية** بالمستوى الأعلى بشكل صحيح.</span><span class="sxs-lookup"><span data-stu-id="eaef6-139">**Update Actual Hours** on outdent does not work correctly.</span></span>
+- <span data-ttu-id="eaef6-140">لا يستطيع مدير المشروع خارج **BU** الجذر إنشاء مشروع.</span><span class="sxs-lookup"><span data-stu-id="eaef6-140">A Project manager outside of root **BU** can't create a project.</span></span>
+- <span data-ttu-id="eaef6-141">لا تدوم التغييرات التي يتم إدخالها على المهمة أو الفئة في **تقديرات المصروفات**.</span><span class="sxs-lookup"><span data-stu-id="eaef6-141">Changes to task or category on **Expense Estimates** are not persisted.</span></span>
+- <span data-ttu-id="eaef6-142">يؤدي اختيار **نسخ العقد** إلى نسخ جداول الفواتير وحالة التشغيل.</span><span class="sxs-lookup"><span data-stu-id="eaef6-142">**Copy of contract** copies the invoice schedules and the run status.</span></span>
+- <span data-ttu-id="eaef6-143">يحسب الزر **تحديث القيم الفعلية** المهام الموجزة بشكل غير صحيح.</span><span class="sxs-lookup"><span data-stu-id="eaef6-143">**Refresh Actuals** button incorrectly calculates summary tasks.</span></span>
+- <span data-ttu-id="eaef6-144">الوظيفة الإضافية Microsoft Project: إصلاح خطأ مرجعي خالٍ عند وجود وحدة تعيين موارد فارغة لدي أي من أعضاء الفريق.</span><span class="sxs-lookup"><span data-stu-id="eaef6-144">Microsoft Project Add-in: Fix null reference error if any team member has an empty resourcing unit.</span></span>
 

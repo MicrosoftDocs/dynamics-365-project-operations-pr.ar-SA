@@ -18,31 +18,33 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92735262ebc4b48dd1143af57349d77e1fe3061c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c7da8b2a7eda51b2aa7cf04e325a92f33d834efc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124172"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147457"
 ---
-# <a name="skills-and-proficiency-models"></a><span data-ttu-id="b021b-103">نماذج المهارات والكفاءة</span><span class="sxs-lookup"><span data-stu-id="b021b-103">Skills and proficiency models</span></span>
+# <a name="skills-and-proficiency-models"></a><span data-ttu-id="51308-103">نماذج المهارات والكفاءة</span><span class="sxs-lookup"><span data-stu-id="51308-103">Skills and proficiency models</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="b021b-104">المهارات هي خصائص الموارد التي تمت مشاركتها بين Dynamics 365 Project Service Automation وDynamics 365 Field Service، إن وُجد.</span><span class="sxs-lookup"><span data-stu-id="b021b-104">Skills are resource characteristics that are shared between Dynamics 365 Project Service Automation and if present, Dynamics 365 Field Service.</span></span> 
+<span data-ttu-id="51308-104">المهارات هي خصائص الموارد التي تمت مشاركتها بين Dynamics 365 Project Service Automation وDynamics 365 Field Service، إن وُجد.</span><span class="sxs-lookup"><span data-stu-id="51308-104">Skills are resource characteristics that are shared between Dynamics 365 Project Service Automation and if present, Dynamics 365 Field Service.</span></span> 
 
-<span data-ttu-id="b021b-105">للاحتفاظ بمستودع المهارات في Project Service Automation، انتقل إلى **الموارد**\>**مهارات الموارد**.</span><span class="sxs-lookup"><span data-stu-id="b021b-105">To maintain the repository of skills in Project Service Automation, go to **Resources** \> **Resource Skills**.</span></span> 
+<span data-ttu-id="51308-105">للاحتفاظ بمستودع المهارات في Project Service Automation، انتقل إلى **الموارد**\>**مهارات الموارد**.</span><span class="sxs-lookup"><span data-stu-id="51308-105">To maintain the repository of skills in Project Service Automation, go to **Resources** \> **Resource Skills**.</span></span> 
 
 > ![مهارات الموارد](media/Resource-Management-image84.png)
 
-## <a name="use-proficiency-models-to-rate-resources"></a><span data-ttu-id="b021b-107">استخدام نماذج الكفاءة لتصنيف الموارد</span><span class="sxs-lookup"><span data-stu-id="b021b-107">Use proficiency models to rate resources</span></span>
+## <a name="use-proficiency-models-to-rate-resources"></a><span data-ttu-id="51308-107">استخدام نماذج الكفاءة لتصنيف الموارد</span><span class="sxs-lookup"><span data-stu-id="51308-107">Use proficiency models to rate resources</span></span>
 
-<span data-ttu-id="b021b-108">يتم تصنيف مهارات الموارد بواسطة نماذج كفاءة.</span><span class="sxs-lookup"><span data-stu-id="b021b-108">Skills for resources are rated by proficiency models.</span></span> <span data-ttu-id="b021b-109">توجد التصنيفات الفردية في نموذج الكفاءة.</span><span class="sxs-lookup"><span data-stu-id="b021b-109">The individual ratings are in a proficiency model.</span></span> 
+<span data-ttu-id="51308-108">يتم تصنيف مهارات الموارد بواسطة نماذج كفاءة.</span><span class="sxs-lookup"><span data-stu-id="51308-108">Skills for resources are rated by proficiency models.</span></span> <span data-ttu-id="51308-109">توجد التصنيفات الفردية في نموذج الكفاءة.</span><span class="sxs-lookup"><span data-stu-id="51308-109">The individual ratings are in a proficiency model.</span></span> 
 
-1. <span data-ttu-id="b021b-110">لإنشاء نموذج كفاءة، انتقل إلى **الموارد**\>**نماذج الكفاءة**، ثم حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="b021b-110">To create a proficiency model, go to **Resources** \> **Proficiency Models**, and then select **New**.</span></span>
-2. <span data-ttu-id="b021b-111">في نموذج التصنيف الجديد، حدد الحد الأدنى لقيمة التصنيف والقيمة القصوى للتصنيف والكيان الذي يتم تصنيفه.</span><span class="sxs-lookup"><span data-stu-id="b021b-111">In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.</span></span>
-3. <span data-ttu-id="b021b-112">في الشبكة الفرعية **قيم التصنيف**، يمكنك تحديد قيم التصنيف المختلفة، من الحد الأدنى إلى الحد الأقصى.</span><span class="sxs-lookup"><span data-stu-id="b021b-112">In the **Rating Values** subgrid, you can define the different rating values, from the minimum to the maximum.</span></span>
+1. <span data-ttu-id="51308-110">لإنشاء نموذج كفاءة، انتقل إلى **الموارد**\>**نماذج الكفاءة**، ثم حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="51308-110">To create a proficiency model, go to **Resources** \> **Proficiency Models**, and then select **New**.</span></span>
+2. <span data-ttu-id="51308-111">في نموذج التصنيف الجديد، حدد الحد الأدنى لقيمة التصنيف والقيمة القصوى للتصنيف والكيان الذي يتم تصنيفه.</span><span class="sxs-lookup"><span data-stu-id="51308-111">In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.</span></span>
+3. <span data-ttu-id="51308-112">في الشبكة الفرعية **قيم التصنيف**، يمكنك تحديد قيم التصنيف المختلفة، من الحد الأدنى إلى الحد الأقصى.</span><span class="sxs-lookup"><span data-stu-id="51308-112">In the **Rating Values** subgrid, you can define the different rating values, from the minimum to the maximum.</span></span>
 
 > ![تحديد التصنيفات الدنيا والقصوى](media/Resource-Management-image85.png)
 
-<span data-ttu-id="b021b-114">يتم عرض قيم التصنيف هذه في عوامل تصفية **متطلبات الموارد**، و **لوحة الجدولة**، و **مساعد الجدولة**.</span><span class="sxs-lookup"><span data-stu-id="b021b-114">These rating values are shown on the **Resource Requirements**, **Schedule Board**, and **Schedule Assistant** filters.</span></span>
+<span data-ttu-id="51308-114">يتم عرض قيم التصنيف هذه في عوامل تصفية **متطلبات الموارد**، و **لوحة الجدولة**، و **مساعد الجدولة**.</span><span class="sxs-lookup"><span data-stu-id="51308-114">These rating values are shown on the **Resource Requirements**, **Schedule Board**, and **Schedule Assistant** filters.</span></span>
