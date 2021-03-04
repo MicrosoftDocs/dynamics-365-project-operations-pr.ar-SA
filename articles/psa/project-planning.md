@@ -18,35 +18,37 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 645f9f1009bb52f6584bbce7f8ef07a033e450e9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123272"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148222"
 ---
-# <a name="project-planning-home-page"></a><span data-ttu-id="ff02e-103">الصفحة الرئيسية لتخطيط المشروع</span><span class="sxs-lookup"><span data-stu-id="ff02e-103">Project planning home page</span></span>
+# <a name="project-planning-home-page"></a><span data-ttu-id="5c8de-103">الصفحة الرئيسية لتخطيط المشروع</span><span class="sxs-lookup"><span data-stu-id="5c8de-103">Project planning home page</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="ff02e-104">يقدم Dynamics 365 Project Service Automation دعمًا متكاملا لمؤسسات الخدمة من خلال توفير أدوات لإدارة عملية المبيعات والتسليم.</span><span class="sxs-lookup"><span data-stu-id="ff02e-104">Dynamics 365 Project Service Automation offers end-to-end support for service organizations by providing tools for managing the sales and delivery process.</span></span> <span data-ttu-id="ff02e-105">ويساعد هذه المؤسسات على تحديد الفرص وتقديم العطاءات والتوصل إلى اتفاقيات تعاقدية وإدارة الموارد وتنفيذ المشاريع في الوقت المحدد وفي حدود الميزانية وتسجيل الوقت والنفقات وفاتورة العميل.</span><span class="sxs-lookup"><span data-stu-id="ff02e-105">It helps these organizations identify opportunities, submit bids, reach contractual agreements, manage resources, deliver projects on time and within budget, record time and expenses, and invoice the customer.</span></span> <span data-ttu-id="ff02e-106">ويمكن لأعضاء الفريق التعاون في المشروعات ، ويمكنهم الاحتفاظ بمعلومات حالة المشروع الحالية والدقيقة حتى يتمكن مديرو المشاريع من تحديد وإدارة مخاطر المشروع.</span><span class="sxs-lookup"><span data-stu-id="ff02e-106">Team members can collaborate on projects, and they can maintain current, accurate project status information so that project managers can identify and manage project risks.</span></span> <span data-ttu-id="ff02e-107">عادةً ما يتم تنفيذ هذه المهام المتقدمة في المؤسسات الكبيرة التي بها أقسام منفصلة تعمل معًا.</span><span class="sxs-lookup"><span data-stu-id="ff02e-107">These advanced tasks are typically performed in larger organizations that have separate divisions that work together.</span></span>
+<span data-ttu-id="5c8de-104">يقدم Dynamics 365 Project Service Automation دعمًا متكاملا لمؤسسات الخدمة من خلال توفير أدوات لإدارة عملية المبيعات والتسليم.</span><span class="sxs-lookup"><span data-stu-id="5c8de-104">Dynamics 365 Project Service Automation offers end-to-end support for service organizations by providing tools for managing the sales and delivery process.</span></span> <span data-ttu-id="5c8de-105">ويساعد هذه المؤسسات على تحديد الفرص وتقديم العطاءات والتوصل إلى اتفاقيات تعاقدية وإدارة الموارد وتنفيذ المشاريع في الوقت المحدد وفي حدود الميزانية وتسجيل الوقت والنفقات وفاتورة العميل.</span><span class="sxs-lookup"><span data-stu-id="5c8de-105">It helps these organizations identify opportunities, submit bids, reach contractual agreements, manage resources, deliver projects on time and within budget, record time and expenses, and invoice the customer.</span></span> <span data-ttu-id="5c8de-106">ويمكن لأعضاء الفريق التعاون في المشروعات ، ويمكنهم الاحتفاظ بمعلومات حالة المشروع الحالية والدقيقة حتى يتمكن مديرو المشاريع من تحديد وإدارة مخاطر المشروع.</span><span class="sxs-lookup"><span data-stu-id="5c8de-106">Team members can collaborate on projects, and they can maintain current, accurate project status information so that project managers can identify and manage project risks.</span></span> <span data-ttu-id="5c8de-107">عادةً ما يتم تنفيذ هذه المهام المتقدمة في المؤسسات الكبيرة التي بها أقسام منفصلة تعمل معًا.</span><span class="sxs-lookup"><span data-stu-id="5c8de-107">These advanced tasks are typically performed in larger organizations that have separate divisions that work together.</span></span>
 
-## <a name="project-management-tools"></a><span data-ttu-id="ff02e-108">أدوات إدارة المشاريع</span><span class="sxs-lookup"><span data-stu-id="ff02e-108">Project management tools</span></span>
+## <a name="project-management-tools"></a><span data-ttu-id="5c8de-108">أدوات إدارة المشاريع</span><span class="sxs-lookup"><span data-stu-id="5c8de-108">Project management tools</span></span>
 
-<span data-ttu-id="ff02e-109">تساعدك أدوات إدارة المشروع في PSA على تشغيل المشاريع بسهولة.</span><span class="sxs-lookup"><span data-stu-id="ff02e-109">The project management tools in PSA help you easily run projects.</span></span> <span data-ttu-id="ff02e-110">تساعد القوالب المضمنة وأدوات الجدولة مديري وفرق المشروع في الحفاظ على إنتاجيتهم.</span><span class="sxs-lookup"><span data-stu-id="ff02e-110">Built-in templates and scheduling tools help project managers and teams stay productive.</span></span> <span data-ttu-id="ff02e-111">فيما يلي بعض المهام التي تساعد الأدوات في:</span><span class="sxs-lookup"><span data-stu-id="ff02e-111">Here are some of the tasks that the tools help with:</span></span>
+<span data-ttu-id="5c8de-109">تساعدك أدوات إدارة المشروع في PSA على تشغيل المشاريع بسهولة.</span><span class="sxs-lookup"><span data-stu-id="5c8de-109">The project management tools in PSA help you easily run projects.</span></span> <span data-ttu-id="5c8de-110">تساعد القوالب المضمنة وأدوات الجدولة مديري وفرق المشروع في الحفاظ على إنتاجيتهم.</span><span class="sxs-lookup"><span data-stu-id="5c8de-110">Built-in templates and scheduling tools help project managers and teams stay productive.</span></span> <span data-ttu-id="5c8de-111">فيما يلي بعض المهام التي تساعد الأدوات في:</span><span class="sxs-lookup"><span data-stu-id="5c8de-111">Here are some of the tasks that the tools help with:</span></span>
 
-- <span data-ttu-id="ff02e-112">تخطيط المشاريع باستخدام جدول العمل والتقديرات.</span><span class="sxs-lookup"><span data-stu-id="ff02e-112">Plan projects by using a work schedule and estimates.</span></span>
-- <span data-ttu-id="ff02e-113">تقدير وتتبع تكاليف المشروع والإيرادات.</span><span class="sxs-lookup"><span data-stu-id="ff02e-113">Estimate and track project costs and revenue.</span></span>
-- <span data-ttu-id="ff02e-114">استخدام تقديرات المشروع أثناء عملية المبيعات.</span><span class="sxs-lookup"><span data-stu-id="ff02e-114">Use project estimates during the sales process.</span></span>
-- <span data-ttu-id="ff02e-115">التنبؤ بمتطلبات الموارد للمشاريع قيد الإعداد.</span><span class="sxs-lookup"><span data-stu-id="ff02e-115">Forecast resource requirements for projects that are in the pipeline.</span></span>
-- <span data-ttu-id="ff02e-116">تسليم المشاريع بنجاح من خلال تتبع التقدم واستهلاك التكلفة.</span><span class="sxs-lookup"><span data-stu-id="ff02e-116">Successfully deliver projects by tracking progress and cost consumption.</span></span>
+- <span data-ttu-id="5c8de-112">تخطيط المشاريع باستخدام جدول العمل والتقديرات.</span><span class="sxs-lookup"><span data-stu-id="5c8de-112">Plan projects by using a work schedule and estimates.</span></span>
+- <span data-ttu-id="5c8de-113">تقدير وتتبع تكاليف المشروع والإيرادات.</span><span class="sxs-lookup"><span data-stu-id="5c8de-113">Estimate and track project costs and revenue.</span></span>
+- <span data-ttu-id="5c8de-114">استخدام تقديرات المشروع أثناء عملية المبيعات.</span><span class="sxs-lookup"><span data-stu-id="5c8de-114">Use project estimates during the sales process.</span></span>
+- <span data-ttu-id="5c8de-115">التنبؤ بمتطلبات الموارد للمشاريع قيد الإعداد.</span><span class="sxs-lookup"><span data-stu-id="5c8de-115">Forecast resource requirements for projects that are in the pipeline.</span></span>
+- <span data-ttu-id="5c8de-116">تسليم المشاريع بنجاح من خلال تتبع التقدم واستهلاك التكلفة.</span><span class="sxs-lookup"><span data-stu-id="5c8de-116">Successfully deliver projects by tracking progress and cost consumption.</span></span>
 
-<span data-ttu-id="ff02e-117">توفر المواضيع التالية معلومات من شأنها أن تساعد مديري المشاريع على تقدير العمل ، وتقدير تكاليف المشروع ، ومتطلبات الموارد المتوقعة باستخدام الأدوات المدعومة في PSA:</span><span class="sxs-lookup"><span data-stu-id="ff02e-117">The following topics provide information that will help project managers estimate work, estimate project costs, and forecast resource requirements by using the tools that are supported in PSA:</span></span>
+<span data-ttu-id="5c8de-117">توفر المواضيع التالية معلومات من شأنها أن تساعد مديري المشاريع على تقدير العمل ، وتقدير تكاليف المشروع ، ومتطلبات الموارد المتوقعة باستخدام الأدوات المدعومة في PSA:</span><span class="sxs-lookup"><span data-stu-id="5c8de-117">The following topics provide information that will help project managers estimate work, estimate project costs, and forecast resource requirements by using the tools that are supported in PSA:</span></span>
 
-- [<span data-ttu-id="ff02e-118">إنشاء جدولة</span><span class="sxs-lookup"><span data-stu-id="ff02e-118">Creating a schedule</span></span>](project-creating.md)
-- [<span data-ttu-id="ff02e-119">تقدير تكلفة المشروع وإيراداته</span><span class="sxs-lookup"><span data-stu-id="ff02e-119">Estimating project cost and revenue</span></span>](project-estimating.md)
-- [<span data-ttu-id="ff02e-120">الاستفادة من الجدولة والتقديرات</span><span class="sxs-lookup"><span data-stu-id="ff02e-120">Leveraging the schedule and estimates</span></span>](project-leveraging.md)
-- [<span data-ttu-id="ff02e-121">تعقب تقدم المشروع واستهلاك التكلفة‬</span><span class="sxs-lookup"><span data-stu-id="ff02e-121">Tracking project progress and cost consumption</span></span>](project-tracking.md)
-- [<span data-ttu-id="ff02e-122">قوالب المشروع</span><span class="sxs-lookup"><span data-stu-id="ff02e-122">Project templates</span></span>](project-templates.md)
-- [<span data-ttu-id="ff02e-123">مراحل المشروع</span><span class="sxs-lookup"><span data-stu-id="ff02e-123">Project stages</span></span>](project-stages.md)
-- [<span data-ttu-id="ff02e-124">إعدادات المشروع</span><span class="sxs-lookup"><span data-stu-id="ff02e-124">Project settings</span></span>](project-settings.md)
+- [<span data-ttu-id="5c8de-118">إنشاء جدولة</span><span class="sxs-lookup"><span data-stu-id="5c8de-118">Creating a schedule</span></span>](project-creating.md)
+- [<span data-ttu-id="5c8de-119">تقدير تكلفة المشروع وإيراداته</span><span class="sxs-lookup"><span data-stu-id="5c8de-119">Estimating project cost and revenue</span></span>](project-estimating.md)
+- [<span data-ttu-id="5c8de-120">الاستفادة من الجدولة والتقديرات</span><span class="sxs-lookup"><span data-stu-id="5c8de-120">Leveraging the schedule and estimates</span></span>](project-leveraging.md)
+- [<span data-ttu-id="5c8de-121">تعقب تقدم المشروع واستهلاك التكلفة‬</span><span class="sxs-lookup"><span data-stu-id="5c8de-121">Tracking project progress and cost consumption</span></span>](project-tracking.md)
+- [<span data-ttu-id="5c8de-122">قوالب المشروع</span><span class="sxs-lookup"><span data-stu-id="5c8de-122">Project templates</span></span>](project-templates.md)
+- [<span data-ttu-id="5c8de-123">مراحل المشروع</span><span class="sxs-lookup"><span data-stu-id="5c8de-123">Project stages</span></span>](project-stages.md)
+- [<span data-ttu-id="5c8de-124">إعدادات المشروع</span><span class="sxs-lookup"><span data-stu-id="5c8de-124">Project settings</span></span>](project-settings.md)
