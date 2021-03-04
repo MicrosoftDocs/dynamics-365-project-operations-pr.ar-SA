@@ -1,9 +1,9 @@
 ---
-title: مزامنة عقود المشاريع والمشاريع مباشرة من Project Service Automation إلى Finance and Operations
+title: مزامنة عقود المشروع و المشروعات مباشرة من Project Service Automation إلى Finance
 description: يصف هذا الموضوع القالب والمهام الأساسية المستخدمة لمزامنة عقود المشاريع والمشاريع مباشرة من Microsoft Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642617"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764803"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>مزامنة عقود المشاريع والمشاريع مباشرة من Project Service Automation إلى Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>مزامنة عقود المشروع و المشروعات مباشرة من Project Service Automation إلى Finance 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ ms.locfileid: "4642617"
 تُستخدم القوالب والمهام الأساسية التالية لمزامنة عقود المشاريع والمشاريع من Project Service Automation إلى Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>التكامل مع Dynamics 365 Project Service Automation v2.x
-- **اسم القالب في تكامل البيانات:** المشاريع والعقود (PSA إلى Fin and Ops)
+- **اسم القالب في تكامل البيانات:** المشروعات والعقود (Project Service Automation إلى Finance)
 - **اسم المهام في المشروع:**
 
-    - عقود المشروع PSA إلى Fin and Ops
-    - مشاريع PSA إلى Fin and Ops
-    - خطوط عقد المشروع PSA إلى Fin and Ops
-    - مراحل خط عقد المشروع PSA إلى Fin and Ops
+    - عقود المشروع Project Service Automation إلى Finance
+    - المشروعات Project Service Automation إلى Finance
+    - شروط تعاقد المشروع Project Service Automation إلى Finance
+    - الأحداث الرئيسية لشروط تعاقد المشروع Project Service Automation إلى Finance
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>التكامل مع Dynamics 365 Project Service Automation v3.x
 هناك تغيير في المخطط في Project Service Automation يؤثر على قالب الحدث الرئيسي لبنود عقد المشروع ، ويلزم استخدام الإصدار 2 من القالب لتكامل Project Service Automation v3.x مع Dynamics 365.
 
-- **اسم القالب في تكامل البيانات:** المشاريع والعقود (PSA 3.x إلى Fin and Ops) - الإصدار 2.0
+- **اسم القالب في تكامل البيانات:** المشروعات والعقود (Project Service Automation 3.x إلى Finance)
 - **اسم المهام في المشروع:**
 
-    - عقود المشروع PSA إلى Fin and Ops
-    - مشاريع PSA إلى Fin and Ops
-    - خطوط عقد المشروع PSA إلى Fin and Ops
-    - مراحل خط عقد المشروع PSA إلى Fin and Ops
+    - عقود المشروع Project Service Automation إلى Finance
+    - المشروعات Project Service Automation إلى Finance
+    - شروط تعاقد المشروع Project Service Automation إلى Finance
+    - الأحداث الرئيسية لشروط تعاقد المشروع Project Service Automation إلى Finance
 
 قبل أن تتم مزامنة عقود المشاريع والمشاريع ، يجب عليك مزامنة الحسابات.
 
@@ -87,7 +87,8 @@ ms.locfileid: "4642617"
 
 تتم إدارة عقود المشروع في Project Service Automation ، وتتم مزامنتها مع Finance كعقود مشروع. كجزء من قالب التكامل ، يمكنك تعيين مصدر التكامل في Finance لعقد المشروع.
 
-تتم إدارة مشروع الوقت والمواد ومشاريع الأسعار الثابتة في Project Service Automation ، وتتم مزامنتها مع Finance كمشاريع. كجزء من تكامل القالب ، يمكنك تعيين مصدر التكامل في Finance للمشروع.
+يتم إدارة مشروعات الوقت والمواد والمشروعات ذات السعر الثابت في Project Service Automation ومزامنتها مع Finance كمشروعات. كجزء من تكامل القالب، يمكنك تعيين مصدر التكامل للمشروع في Finance. في الوقت الحالي، يتم دعم مشروعات الوقت والمواد والمشروعات ذات السعر الثابت فقط.
+
 
 تتم إدارة بنود عقد المشروع في Project Service Automation ، وتتم مزامنتها مع Finance كقواعد فوترة عقد المشروع. إذا كانت طريقة الفوترة تختلف عن نوع المشروع الافتراضي ، تقوم المزامنة بتحديث نوع المشروع لمشروع بند العقد ومجموعة المشروع.
 
@@ -113,16 +114,16 @@ ms.locfileid: "4642617"
 - **SourceDataID** لعقود المشروع والمشاريع يمكن تحديثها بقيمة مختلفة أو إزالتها من التعيين. قيمة القالب الافتراضية هي **Project Service Automation**.
 - يجب تحديث تعيين **PaymentTerms** بحيث يعكس شروط الدفع الصالحة في التمويل. يمكنك أيضا أزاله التعيين من مهمة المشروع. تعيين القيمة الافتراضية له القيم الافتراضية لبيانات العرض التوضيحي. يوضح الجدول التالي القيم الموجودة في التنفيذ التلقائي لخدمه المشروع.
 
-    | قيمة | ‏‏الوصف   |
+    | قيمة | الوصف    |
     |-------|---------------|
-    | 1     | صافي 30        |
-    | 2     | 2% 10، صافي 30 |
-    | 3     | صافي 45        |
+    | 1      | صافي 30        |
+    | 2      | 2% 10، صافي 30 |
+    | 3      | صافي 45        |
     | 4     | صافي 60        |
 
 ## <a name="power-query"></a>Power Query
 
-يجب استخدام Microsoft Power Query لـ Excel لتصفية البيانات إذا تم استيفاء الشروط التالية:
+استخدم Microsoft Power Query for Excel لتصفية البيانات في حالة توفر الشروط التالية:
 
 - يكون لديك أوامر مبيعات في Dynamics 365 Sales.
 - لديك وحدات تنظيمية متعددة في Project Service Automation ، وسيتم تعيين هذه الوحدات التنظيمية إلى كيانات قانونية متعددة في Finance.
@@ -130,7 +131,7 @@ ms.locfileid: "4642617"
 إذا كان يجب عليك استخدام Power Query ، فاتبع الإرشادات التالية:
 
 - يحتوي قالب المشاريع والعقود (PSA إلى Fin and Ops) على عامل تصفية افتراضي يتضمن أوامر مبيعات فقط من نوع **صنف العمل (msdyn\_ordertype = 192350001)**. يساعد عامل التصفية هذا على ضمان عدم إنشاء عقود المشروع لأوامر المبيعات في Finance. إذا قمت بإنشاء القالب الخاص بك ، يجب عليك إضافة عامل التصفية هذا.
-- يجب عليك إنشاء عامل تصفية Power Query يتضمن فقط المؤسسات التعاقدية التي يجب مزامنتها مع الكيان القانوني لمجموعة اتصال التكامل. على سبيل المثال ، يجب مزامنة عقود المشروع التي أبرمتها مع الوحدة التنظيمية للعقد لشركة Contoso US مع الكيان القانوني USSI ، ولكن يجب مزامنة عقود المشروع التي أبرمتها مع الوحدة التنظيمية للعقد في شركة Contoso Global مع الكيان القانوني USMF. إذا لم تقم بإضافة عامل التصفية هذا إلى تعيين المهام الخاص بك ، فستتم مزامنة جميع عقود المشروع مع الكيان القانوني المحدد لمجموعة الاتصال ، بغض النظر عن الوحدة التنظيمية للعقد.
+- قم بإنشاء عامل تصفية Power Query يتضمن فقط مؤسسات العقود التي يجب مزامنتها مع الكيان القانوني الخاص بتعيين اتصال التكامل. على سبيل المثال ، يجب مزامنة عقود المشروع التي أبرمتها مع الوحدة التنظيمية للعقد لشركة Contoso US مع الكيان القانوني USSI ، ولكن يجب مزامنة عقود المشروع التي أبرمتها مع الوحدة التنظيمية للعقد في شركة Contoso Global مع الكيان القانوني USMF. إذا لم تقم بإضافة عامل التصفية هذا إلى تعيين المهام الخاص بك ، فستتم مزامنة جميع عقود المشروع مع الكيان القانوني المحدد لمجموعة الاتصال ، بغض النظر عن الوحدة التنظيمية للعقد.
 
 ## <a name="template-mapping-in-data-integration"></a>تعيين القالب في تكامل البيانات
 

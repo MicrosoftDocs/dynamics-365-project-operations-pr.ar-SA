@@ -3,17 +3,18 @@ title: تزويد بيئة جديدة
 description: يوفر هذا الموضوع معلومات حول كيفية تزويد بيئة Project Operations جديدة.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642934"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727774"
 ---
 # <a name="provision-a-new-environment"></a>تزويد بيئة جديدة
 
@@ -60,17 +61,15 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ![الموافقة على التوزيع](./media/2DeploymentConsent.png)
 
-7. أكمل الحقول المطلوبة المتبقية في المعالج وقم بتأكيد التوزيع. يختلف وقت تزويد البيئة على حسب نوع البيئة. قد تستغرق عملية التزويد ست ساعات.
+7. اختياري - تطبيق بيانات تجريبية على البيئة. انتقل إلى **إعدادات متقدمة**، وحدد **تخصيص تكوين قاعدة بيانات SQL**، ثم قم بتعيين **تحديد مجموعة البيانات لقاعدة بيانات التطبيق** إلى **عرض توضيحي**.
+
+8. أكمل الحقول المطلوبة المتبقية في المعالج وقم بتأكيد التوزيع. يختلف وقت توفير البيئة وفقا لنوع البيئة. قد تستغرق عملية التزويد ست ساعات.
 
   بعد اكتمال التوزيع بنجاح، سيتم عرض البيئة بالحالة **تم نشرها**.
 
-8. للتأكد من أنه تم نشر البيئة بنجاح، حدد **تسجيل الدخول** وقم بتسجيل الدخول إلى البيئة للتأكيد.
+9. لتأكيد نشر البيئة بنجاح، قم بتحديد **تسجيل الدخول** سجل الدخول إلى البيئة للتأكيد.
 
 ![تفاصيل بيئة ](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>تطبيق بيانات العرض التوضيحي لـ Finance في Project Operations (خطوة اختيارية)
-
-طبق بيانات العرض التوضيحي لـ Finance في Project Operations على الإصدار 10.0.13 من البيئة المستضافة على السحابة كما هو موضح في [هذه المقالة](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>تطبيق التحديثات على بيئة Finance
 
@@ -151,6 +150,21 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 سيستغرق التحديث مدة 20 دقيقة تقريبًا. وستتلقى تحذيرًا عند اكتماله.
 
 ![تأكيد التحديث](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>تحديث إعدادات الأمان على Project Operations في Dataverse
+
+1. انتقل إلى Project Operations في بيئة Dataverse الخاصة بك. 
+2. انتقل إلى **الإعدادات** > **الأمان** > **أدوار الأمان**. 
+3. في صفحة **أدوار الأمان**، في قائمة الأدوار، حدد **مستخدم تطبيق الكتابة المزدوجة** وحدد علامة التبويب **الكيانات المخصصة**.  
+4. تحقق من أن الدور يحتوي على أذونات **قراءة** و **إلحاق بـ** لـ:
+      
+      - **نوع سعر الصرف للعملة**
+      - **مخطط الحسابات**
+      - **التقويم المالي**
+      - **دفتر الأستاذ**
+
+5. بعد تحديث دور الأمان، انتقل إلى **الإعدادات** > **الأمان** > **الفرق**، وحدد الفريق الافتراضي في طريق عرض الفريق **مالك العمل المحلي**.
+6. حدد **إدارة الأدوار** وتحقق من أن امتياز أمان **مستخدم تطبيق الكتابة المزدوجة** يتم تطبيقه على هذا الفريق.
 
 ## <a name="run-project-operations-dual-write-maps"></a>تشغيل خرائط ‏‫الكتابة المزدوجة في Project Operations
 
