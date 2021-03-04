@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070835"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148627"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>تغييرات إدارة الموارد (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 توفر أقسام هذه الموضوع معلومات حول التغييرات التي تم إجراؤها على منطقة إدارة الموارد في الإصدار 3.x من Dynamics 365 Project Service Automation.
 
 ## <a name="project-estimates"></a>تقديرات المشروع
 
-وبدلاً من كون تقديرات المشروع مستندة إلى كيان **msdyn\_projecttask** ( **Project Task** )، تستند تقديرات المشروع إلى كيان **msdyn\_resourceassignment** ( **تعيين المورد** ). أصبحت تعيينات الموارد "مصدر الحقيقة" لجدولة المهام وأسعارها.
+وبدلاً من كون تقديرات المشروع مستندة إلى كيان **msdyn\_projecttask** (**Project Task**)، تستند تقديرات المشروع إلى كيان **msdyn\_resourceassignment** (**تعيين المورد**). أصبحت تعيينات الموارد "مصدر الحقيقة" لجدولة المهام وأسعارها.
 
 ## <a name="line-tasks"></a>مهام البنود
 
@@ -65,7 +67,7 @@ ms.locfileid: "4070835"
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>جدولة الحقول في كيان مهمة المشروع
 
-تم إهمال الحقول في كيان **msdyn\_projecttask** أو تم نقلها إلى كيان **msdyn\_resourceassignment** أو تتم الإشارة إليها الآن من كيان **msdyn\_projectteam** ( **عضو فريق المشروع** ).
+تم إهمال الحقول في كيان **msdyn\_projecttask** أو تم نقلها إلى كيان **msdyn\_resourceassignment** أو تتم الإشارة إليها الآن من كيان **msdyn\_projectteam** (**عضو فريق المشروع**).
 
 | الحقل المهمل في \_projecttask (مهمة المشروع) | حقل جديد في msdyn\_resourceassignment (تعيين المورد) | تعليق |
 |---|---|---|
@@ -77,7 +79,7 @@ ms.locfileid: "4070835"
 
 ## <a name="schedule-contour"></a>مخطط الجدولة
 
-يتم تخزين مخطط الجدولة في حقل **العمل المخطط** ( **msdyn\_plannedwork** ) في كلٍّ من كياني **تعيين المورد** ( **msdyn\_resourceassignment** ).
+يتم تخزين مخطط الجدولة في حقل **العمل المخطط** (**msdyn\_plannedwork**) في كلٍّ من كياني **تعيين المورد** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>هيكل
 
@@ -139,7 +141,7 @@ ms.locfileid: "4070835"
 
 ## <a name="pricing-dimensions"></a>أبعاد التسعير
 
-في PSA 3.x، تمت إزالة حقول أبعاد التسعير الخاصة بالمورد (مثل **الدور** و **الوحدة التنظيمية** ) من كيان **msdyn\_projecttask**. يمكن استرداد هذه الحقول الآن من عضو فريق المشروع المقابل ( **msdyn\_projectteam** ) في تعيين المورد ( **msdyn\_resourceassignment** ) عند إنشاء تقديرات المشروع. تمت إضافة الحقل الجديد **msdyn\_organizationalunit** إلى كيان **msdyn\_projectteam**.
+في PSA 3.x، تمت إزالة حقول أبعاد التسعير الخاصة بالمورد (مثل **الدور** و **الوحدة التنظيمية**) من كيان **msdyn\_projecttask**. يمكن استرداد هذه الحقول الآن من عضو فريق المشروع المقابل (**msdyn\_projectteam**) في تعيين المورد (**msdyn\_resourceassignment**) عند إنشاء تقديرات المشروع. تمت إضافة الحقل الجديد **msdyn\_organizationalunit** إلى كيان **msdyn\_projectteam**.
 
 | الحقل المهمل في \_projecttask (مهمة المشروع) | حقل من msdyn\_projectteam (عضو فريق المشروع) تم استخدامه بدلاً من ذلك |
 |---|---|
@@ -155,12 +157,12 @@ ms.locfileid: "4070835"
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-تمت إضافة الحقول التالية إلى كيان **msdyn\_resourceassignment** :
+تمت إضافة الحقول التالية إلى كيان **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-لم يتم تغيير الحقول التالية للتكاليف والمبيعات الفعلية والمتبقية والمخطط لها في كيان **msdyn\_projecttask** :
+لم يتم تغيير الحقول التالية للتكاليف والمبيعات الفعلية والمتبقية والمخطط لها في كيان **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
