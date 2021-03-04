@@ -62,3 +62,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 لعرض مزيد من التفاصيل حول مورد واحد، انقر بزر الماوس الأيمن فوقه لفتح بطاقة المورد.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

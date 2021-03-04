@@ -77,3 +77,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 5. كرر الخطوات 1-3 لإنشاء عنوان قياسي آخر لـ "مهندس الأنظمة المتمرس".
 
 > ![نموذج بيانات لكيان العنوان القياسي](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

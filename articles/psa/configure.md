@@ -58,3 +58,6 @@ ms.locfileid: "5146917"
  [دليل مدير المشروع](../psa/project-manager-guide.md)   
  [دليل إدارة الموارد](../psa/resource-manager-guide.md)   
  [دليل الوقت والمصروفات والتعاون](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

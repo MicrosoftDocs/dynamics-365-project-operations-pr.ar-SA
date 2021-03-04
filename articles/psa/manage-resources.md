@@ -344,3 +344,6 @@ ms.locfileid: "5151327"
 ![مربع الحوار توسيع الحجز](media/Resource-Management-image58.png)
 
 يستطيع مدير المشروع أو مدير المورد استخدام لوحة الجدولة بعد ذلك لإدارة أي حالات يكون فيها المورد محجوزًا بشكل زائد بحيث يتجاوز السعة الخاصة به.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 > إذا بدأت الصفقة المستندة إلى المشروع مع فرصة، فستكون الأسبقية لعملية مبيعات الفرصة.
 
 يمكنك تحرير سير إجراءات عمل المنتج أو إنشاء سير إجراءات عمل خاص بك لتعقب عملية الأعمال حسب الحاجة. للحصول على مزيد من المعلومات حول سير إجراءات العمل، راجع [نظرة عامة حول عمليات سير إجراءات العمل](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

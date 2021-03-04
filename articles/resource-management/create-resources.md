@@ -20,3 +20,6 @@ ms.locfileid: "4514479"
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 يمكنك استخدام Dynamics 365 Field Service لإنشاء موارد قابلة للحجز لاستخدامها في بيئة Dynamics 365 Project Operations الخاصة بك. لإنشاء هذه الموارد، راجع [إعداد موارد قابلة للحجز](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

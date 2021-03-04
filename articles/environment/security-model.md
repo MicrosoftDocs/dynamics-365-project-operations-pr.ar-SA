@@ -81,3 +81,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 للحصول على مزيد من المعلومات حول الأمان في Finance، راجع [الأمان المستند إلى الدور](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

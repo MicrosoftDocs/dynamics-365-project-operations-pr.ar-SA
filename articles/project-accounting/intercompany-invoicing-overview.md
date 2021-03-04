@@ -43,3 +43,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 - [تكوين الفوترة بين الشركات الشقيقة](configure-intercompany-invoicing.md)
 - [تسجيل حركات بين الشركات الشقيقة](create-intercompany-transactions.md)
 - [إنشاء فواتير العميل والمورّد بين الشركات الشقيقة](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

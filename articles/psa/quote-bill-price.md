@@ -44,3 +44,6 @@ ms.locfileid: "5147826"
 - [مجموعات الوحدات والوحدات](advanced-units.md)
 - [العملة متعددة الوحدات](advanced-currency.md)
 - [تسجيل القيم الفعلية](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

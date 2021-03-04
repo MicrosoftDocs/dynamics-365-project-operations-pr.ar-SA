@@ -73,3 +73,6 @@ ms.locfileid: "5144847"
 > ![نموذج بيانات لكيان العنوان القياسي ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

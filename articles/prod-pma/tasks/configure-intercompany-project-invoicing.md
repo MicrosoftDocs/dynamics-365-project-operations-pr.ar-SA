@@ -64,3 +64,6 @@ ms.locfileid: "4070703"
 32. في حقل **الأسعار** ، حدد رقمًا.
 33. حدد **حفظ**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

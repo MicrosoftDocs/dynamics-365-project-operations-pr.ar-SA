@@ -78,3 +78,6 @@ ms.locfileid: "4960231"
 - سير عمل على مستوى البنود
 - دعم الموافق المؤقت
 - التفصيل المتقدم
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

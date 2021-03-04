@@ -34,3 +34,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 1. المنظمة
 2. العميل
 3. عرض الأسعار/العقد
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

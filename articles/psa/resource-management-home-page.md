@@ -41,3 +41,6 @@ ms.locfileid: "5147547"
 - [متطلبات الحجز المبدئي](resource-management-softbook-requirements.md)
 - [نماذج المهارات والكفاءة](resource-management-skills-proficiency.md)
 - [الأسئلة المتداولة حول إدارة الموارد](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

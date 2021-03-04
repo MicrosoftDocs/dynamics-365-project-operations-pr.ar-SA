@@ -76,3 +76,6 @@ ms.locfileid: "4070632"
 
 لمزيد من المعلومات، راجع [استلام العناصر في أمر الشراء من متطلب الصنف](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

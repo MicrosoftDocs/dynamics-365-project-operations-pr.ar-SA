@@ -35,3 +35,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 > [!NOTE]
 > في Dynamics 365 Project Operations، لن يؤدي إغلاق عقد مشروع كخاسر إلى التأثير في حالة الفرصة المقترنة. ستظل الفرصة مفتوحة ويجب إغلاقها يدويًا.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

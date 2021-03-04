@@ -127,3 +127,6 @@ ms.locfileid: "4070705"
 8.  حدد **التقويم** الذي سيتم استخدامه لتعيين الموارد.
 
 11. انقر فوق **موافق**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ ms.locfileid: "5148987"
 
    ![لقطة شاشة لتعديل طرق العرض على كيان المشروع](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

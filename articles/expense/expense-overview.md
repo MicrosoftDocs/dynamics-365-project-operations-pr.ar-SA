@@ -44,3 +44,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ## <a name="determine-your-expense-deployment"></a>تحديد نشر المصروفات
 لتحديد ما إذا كنت تقوم بتشغيل نشر إدارة المصروفات الأساسية، تأكد من أن عنوان URL ينتهي بـ **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

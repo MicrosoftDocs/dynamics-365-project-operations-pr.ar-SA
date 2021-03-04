@@ -48,3 +48,6 @@ ms.locfileid: "5147457"
 > ![تحديد التصنيفات الدنيا والقصوى](media/Resource-Management-image85.png)
 
 يتم عرض قيم التصنيف هذه في عوامل تصفية **متطلبات الموارد**، و **لوحة الجدولة**، و **مساعد الجدولة**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

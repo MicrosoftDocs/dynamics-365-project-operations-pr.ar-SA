@@ -124,3 +124,6 @@ ms.locfileid: "4070783"
 > يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Project Service Automation إلى Finance.
 
 [![تعيين Project Service Automation إلى قالب Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ ms.locfileid: "5150112"
  [دليل مدير الحسابات](../psa/account-manager-guide.md)   
  [دليل مدير المشروع](../psa/project-manager-guide.md)   
  [دليل إدارة الموارد](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

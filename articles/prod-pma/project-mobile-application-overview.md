@@ -49,3 +49,6 @@ ms.locfileid: "4070633"
 - [إدخال وقت المشروع]( project-time-entry-mobile-workspace.md)
 - [أوراق المشروع الزمنيه علي جهاز محمول](Mobile-timesheets.md)
 - [تنفيذ الحقول المخصصة لتطبيق الأجهزة المحمولة لـ Microsoft Dynamics 365 Project Timesheet على iOS وAndroid](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ ms.locfileid: "4070630"
 - [أداء جدولة موارد المشروع](project-scheduling-performance.md)
 - [إعداد الأدوار على قوالب هيكل تنظيم العمل](set-up-roles-wbs-template.md)
 - [استيفاء المورد للموارد المخططة](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

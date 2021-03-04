@@ -82,3 +82,6 @@ ms.locfileid: "5149977"
 
 3. حدد المورد الذي ترغب في تعيينه للمهمة.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

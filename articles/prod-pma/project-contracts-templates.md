@@ -153,3 +153,6 @@ ms.locfileid: "4764803"
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>تعيين المراحل الرئيسية لعقود المشاريع في المشاريع والعقود (PSA 3.x إلى Dynamics) - قالب v2:
 
 [![تعيين المرحلة الرئيسية لشروط تعاقد المشروع مع قالب من الإصدار الثاني](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

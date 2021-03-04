@@ -240,3 +240,6 @@ ms.locfileid: "4960456"
 22. حدد **إرسال**.
 23. أدخل أية تعليقات للمعتمد.
 24. حدد **تم**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

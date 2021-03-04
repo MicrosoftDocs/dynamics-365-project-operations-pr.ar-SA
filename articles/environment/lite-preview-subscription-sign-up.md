@@ -91,3 +91,6 @@ ms.locfileid: "4175875"
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>تثبيت تكوين CDS وإعداد بيانات العرض التوضيحي
 
 قم بتثبيت تكوين CDS وإعداد بيانات العرض التوضيحية باتباع الإرشادات الواردة في الموضوع، [تطبيق إعداد بيانات العرض التوضيحي وبيانات التكوين‬](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

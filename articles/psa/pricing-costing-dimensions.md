@@ -77,3 +77,6 @@ ms.locfileid: "5151282"
 | ----------------|-------------|----------|----------:|----------|
 | My company_Band1 | Contoso US  |Hour‬ | 145|دولار أمريكي     |
 | My company_Band2 | شركة حسني بالهند |Hour‬|   67|دولار أمريكي     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

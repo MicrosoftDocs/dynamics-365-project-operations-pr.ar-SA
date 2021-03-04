@@ -88,3 +88,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 7. حدد **موافق** لإغلاق مربع الحوار، ثم حدد **تحديث الخطوة**.
 8. كرر الخطوات من 1 إلى 7 للمكون الإضافي الثاني.
 9. أغلق PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

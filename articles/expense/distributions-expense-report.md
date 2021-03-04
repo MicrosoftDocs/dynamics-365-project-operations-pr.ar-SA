@@ -30,3 +30,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | سعر القطار   | DKK 578              | DKK 405                         | DKK 173                         |
 | فندق        | 725 يورو              | 557 يورو                         | 168 يورو                         |
 | الوجبات        | 346 يورو              | 284 يورو                         | 62 يورو                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ _**النشر الخفيف - التعامل مع الفواتير الأولية
     -   خاصية المورد القابل للحجز
 
     ![اكتمال الاستيراد](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

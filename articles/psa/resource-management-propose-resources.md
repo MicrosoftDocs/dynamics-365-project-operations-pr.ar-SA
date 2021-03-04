@@ -113,3 +113,6 @@ ms.locfileid: "5147502"
 لعرض مزيد من التفاصيل حول مورد واحد، انقر بزر الماوس الأيمن فوقه لفتح بطاقة المورد.
 
 ![بطاقة المورد](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

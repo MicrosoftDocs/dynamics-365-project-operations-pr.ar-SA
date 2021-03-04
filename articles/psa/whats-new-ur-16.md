@@ -64,3 +64,6 @@ ms.locfileid: "5143590"
 
     -   تم الإصلاح: عند قيام المستخدمين الترقية من 2.X إلى 3.X,، سيُسمح بالمشاريع التي لديها القيمة NULL لاسم المشروع.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

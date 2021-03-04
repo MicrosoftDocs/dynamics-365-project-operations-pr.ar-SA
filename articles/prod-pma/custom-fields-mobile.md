@@ -429,3 +429,6 @@ final class TSTimesheetDetails_Extension
 1. يحاول التطبيق وضع الفئة الافتراضية من مورد المشروع. يتم تعيين هذه الفئة الافتراضية في أسلوبي **getCurrentUserResource** و **getDelegatedResourcesForCurrentUser** في فئة **TSTimesheetSettingsService**.
 2. إذا لم يتم توفير الفئة الافتراضية على مستوى موارد المشروع ، فسيحاول التطبيق سحبها من نشاط المشروع. تم تعيين هذه الفئة الافتراضية في أسلوب **getActivitiesForProject** في فئة **TSTimesheetProjectService**.
 3. إذا لم يتم توفير الفئة الافتراضية على مستوى نشاط المشروع ، فإن الفئة الافتراضية المأخوذة من معلمات المشروع. تم تعيين هذه الفئة الافتراضية في أسلوب **getProjectDetailsbyRule** في فئة **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

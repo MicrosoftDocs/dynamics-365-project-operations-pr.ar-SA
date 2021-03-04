@@ -56,3 +56,6 @@ ms.locfileid: "4070811"
 21. في حقل **إيصال استلام المنتج** ، اكتب قيمة.
 22. حدد **موافق**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

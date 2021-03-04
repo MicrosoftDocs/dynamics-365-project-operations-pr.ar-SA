@@ -49,3 +49,6 @@ ms.locfileid: "4070622"
     | تاريخ الانتهاء    | ادخل تاريخ الانتهاء الخاص بعمليه المزامنة الخاصة بلفات الموارد والموردين. |
 
 [![عملية المزامنة](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

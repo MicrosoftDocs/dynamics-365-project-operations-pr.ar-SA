@@ -98,3 +98,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 قم بتثبيت إعداد CDS وبيانات التكوين كما هو موضح في الموضوع، [إعداد بيانات التكوين وتطبيقها في Common Data Service](resource-apply-pro-setup-config-data.md).
 أكمل هذه الخطوة فقط بعد نشر بيئة العرض التوضيحي لتطبيق Finance وبعد أن تصبح بيانات العرض التوضيحي في FO جاهزة.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

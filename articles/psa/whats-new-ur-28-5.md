@@ -42,3 +42,6 @@ ms.locfileid: "5146602"
 
 - تدهور أداء البحث عن المساعدة في الجدول
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

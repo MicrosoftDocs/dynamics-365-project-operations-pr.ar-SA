@@ -48,3 +48,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 حجز مورد ممن متطلبات الموارد:
 - [تعيين موارد عامة قابل للحجز إلى مهمة وإنشاء متطلبات مورد](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [حجز موارد مسماة من متطلبات الموارد](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

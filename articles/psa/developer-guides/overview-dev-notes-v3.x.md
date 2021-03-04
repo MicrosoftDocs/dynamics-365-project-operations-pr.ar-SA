@@ -33,3 +33,6 @@ ms.locfileid: "5148672"
 - [تغييرات الوقت والمصروفات (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
 - [تغييرات إدارة الموارد (Project Service Automation 3.x)](../developer-guides/resource-management-changes-v3.x.md)
 - [موارد الويب المهملة في Project Service Automation 3.x](../developer-guides/web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

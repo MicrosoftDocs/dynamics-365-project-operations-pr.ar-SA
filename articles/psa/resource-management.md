@@ -53,3 +53,6 @@ ms.locfileid: "5147401"
 - [حجز موارد مسماة من متطلبات الموارد](book-named-resource.md)
 - [إرسال طلب مورد](submit-resource-request.md)
 - [قبول مورد مشروع مقترح أو رفضه من طلب مورد](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

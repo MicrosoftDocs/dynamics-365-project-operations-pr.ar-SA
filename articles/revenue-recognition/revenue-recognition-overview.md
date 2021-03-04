@@ -60,3 +60,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 [إدارة تقديرات الإيرادات](rev-rec-completed-contract-method.md)
 
 [أساليب التكلفة للإكمال](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

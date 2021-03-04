@@ -113,3 +113,6 @@ ms.locfileid: "4070670"
 لمزيد من المعلومات، راجع [تكوين فوترة المشروع بين الشركات الشقيقة](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

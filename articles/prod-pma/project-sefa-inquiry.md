@@ -104,3 +104,6 @@ ms.locfileid: "4070628"
 - كتالوج المساعدة المحلية الفيدرالية
 - إيصالات
 - النفقات
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -273,3 +273,6 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

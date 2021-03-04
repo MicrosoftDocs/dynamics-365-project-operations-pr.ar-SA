@@ -74,3 +74,6 @@ ms.locfileid: "5143542"
 - عند اختيار بند قائم على المشروع في عرض أسعار أو عقد، فإن الزر **اقتراح** يجب أن يكون مرئيًا فقط عند تحديد خط مستند إلى منتج مرتبط بمنتج موجود.
 - قم بتقسم امتياز **Create_Product** من امتياز **Create_ProjectContract**.
 - يؤدي حذف بند فاتورة إلى فشل مرجع فارغ في **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

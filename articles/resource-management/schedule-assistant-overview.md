@@ -57,3 +57,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 -   شركة تعيين الموارد‬
 -   أنواع الموارد
 -   الموارد المفضلة
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

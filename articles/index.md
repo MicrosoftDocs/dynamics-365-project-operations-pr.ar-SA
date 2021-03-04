@@ -42,3 +42,6 @@ ms.locfileid: "4120797"
 - [نظرة عامة على Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [نظرة عامة على الموجة 1 من إصدار Dynamics 365 Project Operations 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

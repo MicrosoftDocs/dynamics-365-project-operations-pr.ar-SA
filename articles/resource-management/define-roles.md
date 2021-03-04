@@ -20,3 +20,6 @@ ms.locfileid: "4514481"
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 يمكنك استخدام الوظيفة المتوفرة في Dynamics 365 Field Service لتحديد الأدوار في بيئة Dynamics 365 Project Operations الخاصة بك. لإكمال هذا الإعداد، راجع [إعداد فئات موارد قابلة للحجز](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

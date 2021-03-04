@@ -64,3 +64,6 @@ ms.locfileid: "4513953"
 5.  عند المطالبة بتضمين أي كيانات تابعه للكيانات المحددة، حدد **لا، لا تقم بتضمين المكونات المطلوبة.**
 
     ![تضمين الكيانات التابعة](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -140,3 +140,6 @@ ms.locfileid: "4070776"
 [![تعيين القالب - تحديث القيم الفعلية](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![تعيين القالب - تحديث الحركة](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

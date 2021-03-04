@@ -48,3 +48,6 @@ ms.locfileid: "5148852"
   
 ### <a name="see-also"></a>راجع أيضًا  
  [دليل مدير المشروع](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

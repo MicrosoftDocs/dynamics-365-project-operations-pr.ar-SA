@@ -40,3 +40,6 @@ ms.locfileid: "4960591"
 
     1. يوافق مدير الموظف على تقرير المصروفات.
     2. يوافق مالك الموازنة على تقرير المصروفات.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

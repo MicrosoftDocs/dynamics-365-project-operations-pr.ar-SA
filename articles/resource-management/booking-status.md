@@ -20,3 +20,6 @@ ms.locfileid: "4514480"
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 يمكنك استخدام الوظيفة المتوفرة في Universal Resource Scheduling لـ Dynamics 365 Field Service لإعداد حالات الحجز الخاصة بمؤسسك. للحصول على معلومات حول كيفية إكمال هذا الإعداد، راجع [إعداد حالات الحجز](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

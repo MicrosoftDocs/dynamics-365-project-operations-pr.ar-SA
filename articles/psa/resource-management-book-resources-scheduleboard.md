@@ -53,3 +53,6 @@ ms.locfileid: "5144397"
 يتم استيفاء المتطلب باستخدام المورد المحدد. في الجزء **متطلبات الحجز**، لاحظ أنه تم تحديث المتطلبات، ويتم عرض المورد كما تم حجزه في المشروع.
 
 ![حجز المورد في المشروع](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

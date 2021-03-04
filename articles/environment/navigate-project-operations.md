@@ -38,3 +38,6 @@ Dynamics 365 Project Operations للسيناريوهات المستندة إلى
 
 > [!NOTE]
 > يمكنك الوصول إلى Project Operations في Common Data Service وفي الوحدة النمطية **إدارة المشاريع والمحاسبة** مباشرةً باستخدام عناوين URL الخاصة بها. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

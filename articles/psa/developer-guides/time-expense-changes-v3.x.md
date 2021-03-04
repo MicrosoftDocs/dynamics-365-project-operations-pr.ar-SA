@@ -32,3 +32,6 @@ ms.locfileid: "5148582"
 سابقًا، تم تنفيذ طريقتي عرض التقويم والشبكة للوقت والمصروفات كعناصر تحكم DHTMLX. النتائج الملموسة المتعلقة بتنفيذ طريقتي عرض التقويم والشبكة قديمة الآن (مهملة).
 
 للحصول على قائمة كاملة بالموارد المهملة، راجع [موارد الويب المهملة في Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

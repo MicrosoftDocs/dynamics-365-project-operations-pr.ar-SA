@@ -93,3 +93,6 @@ ms.locfileid: "5145522"
   
 ### <a name="see-also"></a>راجع أيضًا  
  [دليل الوقت والمصروفات والتعاون](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

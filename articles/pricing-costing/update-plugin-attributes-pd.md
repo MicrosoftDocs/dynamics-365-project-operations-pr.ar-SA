@@ -52,3 +52,6 @@ ms.locfileid: "4643202"
 7. حدد **موافق** لإغلاق الصفحة، ثم حدد **تحديث الخطوة**.
 8. كرر الخطوات من 2 إلى 7 للمكون الإضافي الثاني، **PreOperationQuoteLineDetail**. بالنسبة لهذا المكون الإضافي، يلزمك تحديث خطوة **تحديث msdyn_quotelinetransaction**.
 9. أغلق **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

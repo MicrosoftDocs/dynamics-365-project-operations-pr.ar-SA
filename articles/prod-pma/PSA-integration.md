@@ -75,3 +75,6 @@ ms.locfileid: "4642437"
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>قم بتثبيت حل تكامل Project Service Automation مع Finance في مثيل Project Service Automation الخاص بك
 
 قم بتنزيل حل تمامل Project Service Automation مع Finance من [مركز تنزيل Microsoft‬](https://www.microsoft.com/download/details.aspx?id=57016)، واتبع التعليمات المضمنة مع الحل.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

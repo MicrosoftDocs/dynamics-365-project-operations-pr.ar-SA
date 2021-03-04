@@ -125,3 +125,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
  
  ![مزامنة خريطة دفتر الأستاذ](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -30,3 +30,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 يمكنك [إنشاء فاتورة أولية يدويا](../proforma-invoicing/create-manual-proforma-invoice.md) أو استخدام [عملية دورية](../proforma-invoicing/configure-automated-invoice-creation.md). يمكن لمدير المشروع [تعديل مسودة فاتورة أولية](../proforma-invoicing/manage-proforma-invoice.md) حسب الحاجة ثم تأكيدها.
 
 يتم إرسال الفاتورة الأولية التي تم تأكيدها إلى وحدة **إدارة المشاريع والمحاسبة** في Finance. حيث يقوم محاسب المشروع بتنسيق وتحديث اقتراح فاتورة المشروع، ثم يقوم بنشر المستند وطباعته. يتم تسجيل الفواتير المنشورة للمشروع في دفتر الأستاذ العام بالإضافة إلى الدفاتر الفرعية للعملاء والمشروع.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

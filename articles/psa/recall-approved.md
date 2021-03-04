@@ -107,3 +107,6 @@ ms.locfileid: "5147817"
 يوضح الرسم التوضيحي التالي التغييرات التي تحدث لإدخالات المصروفات التي تمت الموافقة عليها عند استرجاعها.
 
 ![انتقالات حالة إدخال المصروفات](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

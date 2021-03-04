@@ -44,3 +44,6 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 2. قم بتثبيت **Microsoft Dynamics 365 Project Operations** من قائمة نشر تطبيقات Dynamics 365. لمزيد من المعلومات، راجع [إدارة تطبيقات Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

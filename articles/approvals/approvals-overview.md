@@ -59,3 +59,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 3. حدد **حفظ**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

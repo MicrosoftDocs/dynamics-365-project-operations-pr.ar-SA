@@ -342,3 +342,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

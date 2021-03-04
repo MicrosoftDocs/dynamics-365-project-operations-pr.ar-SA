@@ -37,3 +37,6 @@ ms.locfileid: "4960726"
 |فندق         |725 يورو              |557 يورو                        |168 يورو                          |
 |الوجبات         |346 يورو              |284 يورو                        |62 يورو                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

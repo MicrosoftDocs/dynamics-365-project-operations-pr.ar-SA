@@ -36,3 +36,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 استخدم مشروع LCS هذا لنشر بيئة Project Operations.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

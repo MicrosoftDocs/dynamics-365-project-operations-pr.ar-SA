@@ -52,3 +52,6 @@ ms.locfileid: "5147682"
 - [العمل مع نموذج بيانات Project Service](reports-working-project-service-data-model.md)
 - [لوحات المعلومات](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

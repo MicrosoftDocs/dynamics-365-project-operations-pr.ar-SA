@@ -55,3 +55,6 @@ ms.locfileid: "4180671"
     | المطور | Fabrikam US | Fabrikam US - Robotics | 150 دولارًا أمريكيًا |
 
 3. قم بإرفاق قائمة أسعار المبيعات، **معدلات الفواتير في Fabrikam US** بقائمة أسعار المشروع لعقد المشروع أو بحساب معين.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

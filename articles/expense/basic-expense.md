@@ -55,3 +55,6 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 ## <a name="see-also"></a>راجع أيضًا
 
 - [نظرة عامة على الموافقات](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

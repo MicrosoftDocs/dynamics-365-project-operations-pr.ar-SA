@@ -297,3 +297,6 @@ ms.locfileid: "5144487"
 
 > [!div class="mx-imgBorder"]
 > ![لقطة شاشة للموارد القابلة للحجز النشطة](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

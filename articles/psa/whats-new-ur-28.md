@@ -55,3 +55,6 @@ ms.locfileid: "5150607"
 - يتم إنشاء استثناء مرجع فارغ عند استدعاء المكون الإضافي **GetEstimatesForProject**.
 - **وضع علامة جاهزة للفاتورة** على شبكة الأحداث الرئيسي جزئيًا فقط يؤدي إلى تحديث السمات، باستثناء السمة **InvoiceStatus** الذي يتم تحديثه.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

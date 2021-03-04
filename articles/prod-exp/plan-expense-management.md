@@ -160,3 +160,6 @@ ms.locfileid: "4960321"
 - متى تنتهي صلاحية السياسة؟
 - ما هي قاعدة السياسة؟
 - ما هي نتيجة قاعدة السياسة؟
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -170,3 +170,6 @@ ms.locfileid: "4070772"
 [![تعيين القالب لحركات تقدير المصروفات](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![تعيين القالب لتقديرات المصروفات](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

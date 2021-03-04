@@ -24,3 +24,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 لن يُسمح لك بإغلاق الفرصة في حاله وجود عروض أسعار نشطة مقترنة بها. يمكنك إغلاق كافة عروض الأسعار النشطة والمبدئية المقترنة بفرصة في الوقت نفسه. بعد ذلك، سيُسمح لك بإغلاق الفرصة.
 
 لمزيد من المعلومات العامة حول إغلاق الفرص، انظر [إغلاق فرصة كفوز أو خسارة](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

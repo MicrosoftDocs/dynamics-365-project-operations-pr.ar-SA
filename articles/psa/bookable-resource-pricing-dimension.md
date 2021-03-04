@@ -76,3 +76,6 @@ ms.locfileid: "5144982"
 5. أضف **msdyn_projectteam** إلى حقل **الاسم المنطقي للكيان** و **msdyn_bookableresourceid** إلى حقل **اسم الحقل**. احفظ السجل.
 
  ![نموذج اسم حقل بعد التسعير الجديد](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

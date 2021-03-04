@@ -77,3 +77,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | --- | --- |
 | 10.0.17  | 19 مارس 2021 |
 | 10.0.18  | 16 أبريل 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

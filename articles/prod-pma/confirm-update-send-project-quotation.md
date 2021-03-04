@@ -57,3 +57,6 @@ ms.locfileid: "4070782"
 
 > [!NOTE]
 > لا يمكنك تعديل عرض أسعار المشروع بعد أن تتغير حالته إلى **مُرسل**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ ms.locfileid: "4643067"
 5. أضف  **msdyn_bookableresourceid** إلى **اسم الحقل**.
 
  ![نموذج اسم حقل بعد التسعير الجديد](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

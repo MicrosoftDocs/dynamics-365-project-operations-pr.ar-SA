@@ -106,3 +106,6 @@ ms.locfileid: "5151417"
 
 8. كرر الخطوات من 1 إلى 7 للمكون الإضافي الثاني.
 9. أغلق PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

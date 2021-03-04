@@ -52,3 +52,6 @@ ms.locfileid: "5148222"
 - [قوالب المشروع](project-templates.md)
 - [مراحل المشروع](project-stages.md)
 - [إعدادات المشروع](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

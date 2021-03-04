@@ -55,3 +55,6 @@ ms.locfileid: "5150292"
   
 ### <a name="see-also"></a>راجع أيضًا  
  [تكوين Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

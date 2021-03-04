@@ -209,3 +209,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 
 تم الآن تزويد بيئة Project Operations وتكوينها. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

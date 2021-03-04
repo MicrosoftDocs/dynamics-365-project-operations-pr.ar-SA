@@ -112,3 +112,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

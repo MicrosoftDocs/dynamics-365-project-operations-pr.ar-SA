@@ -142,3 +142,6 @@ _ينطبق على: Project Operations للسيناريوهات المستندة
 ## <a name="regulatory-updates"></a>التحديثات التنظيمية
 
 لمزيد من المعلومات حول التحديثات التنظيمية لـ Dynamics 365 Finance، راجع [التحديثات التنظيمية](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). من الطرق الأخرى للتعرف على التحديثات التنظيمية تسجيل الدخول إلى Lifecycle Services (LCS) وعرض التحديثات التنظيمية المخطط لها باستخدام أداة البحث عن المشكلة. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

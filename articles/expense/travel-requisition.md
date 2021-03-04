@@ -56,3 +56,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 > [!NOTE]
 > عند تعيين تقرير مصروفات إلى طلب سفر معتمد، لا يمكن أن يكون مبلغ الحركة أكبر من المبلغ المخول. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

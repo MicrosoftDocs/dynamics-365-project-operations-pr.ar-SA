@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4119762"
 ---
 # <a name="resource-management-overview"></a>نظرة عامة على إدارة الموارد
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ ms.locfileid: "4070779"
 
 3. حدد **حفظ** ، ثم أغلق الصفحة.
 4. في علامة التبويب **الكفاءات** ، أضف مهارة **ProjectMgmt** وشهادة **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

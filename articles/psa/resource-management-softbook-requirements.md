@@ -63,3 +63,6 @@ ms.locfileid: "5147367"
 لتحويل مورد تم حجزه مبدئيًا إلى الحجز بشكل ثابت في علامة التبويب **فريق** في المشروع، حدد المورد، ثم حدد **تأكيد**.
 
 ![تأكيد الأمر](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ ms.locfileid: "5147052"
 
 9. أغلق أداة تسجيل المكون الإضافي.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

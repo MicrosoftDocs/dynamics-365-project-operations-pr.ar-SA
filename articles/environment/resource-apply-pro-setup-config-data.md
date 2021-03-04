@@ -134,3 +134,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 13. حدد **حفظ**. 
 
 ![معلمات المشروع المحدثة](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

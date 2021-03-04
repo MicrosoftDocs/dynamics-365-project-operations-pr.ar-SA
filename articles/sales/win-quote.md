@@ -43,3 +43,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 > [!NOTE]
 > في Project Operations، لن يؤثر إغلاق عرض الأسعار على الفوز أو الخسارة في حالة الفرصة، والتي ستظل مفتوحة إلى أن يتم إغلاقها يدويًا.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

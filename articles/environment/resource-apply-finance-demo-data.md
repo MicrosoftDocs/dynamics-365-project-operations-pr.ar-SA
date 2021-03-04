@@ -79,3 +79,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 18. قم بإغلاق جلسة عمل سطح المكتب البعيد واستخدم صفحة **تفاصيل بيئة** LCS لتسجيل الدخول إلى البيئة للتأكد من أنها تعمل كما هو متوقع.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ ms.locfileid: "5151237"
 
 > ![وضع علامة على عدد المستخدمين وعدد الأشهر كعوامل جودة](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

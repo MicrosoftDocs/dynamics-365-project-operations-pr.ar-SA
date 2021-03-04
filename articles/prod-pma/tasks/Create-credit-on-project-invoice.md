@@ -39,3 +39,6 @@ ms.locfileid: "4070621"
 10. انقر فوق موافق. 
 
 بعد هذه الخطوة ، سيكون إشعار الدائن متاحًا لمقترح الفاتورة.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

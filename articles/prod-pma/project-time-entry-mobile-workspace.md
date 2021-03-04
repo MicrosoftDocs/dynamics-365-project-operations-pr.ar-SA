@@ -113,3 +113,6 @@ ms.locfileid: "4070625"
 11. حدد خاصية البند.
 12. ختياري: أدخل تعليقات خارجيه أو داخلية.
 13. حدد **تم**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

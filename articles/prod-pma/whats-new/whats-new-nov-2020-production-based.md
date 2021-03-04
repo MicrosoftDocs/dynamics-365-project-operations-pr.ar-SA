@@ -26,3 +26,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ## <a name="regulatory-updates"></a>التحديثات التنظيمية
 
 لمزيد من المعلومات حول التحديثات التنظيمية لتطبيقات Dynamics 365 Finance and Operations، راجع [التحديثات التنظيمية](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

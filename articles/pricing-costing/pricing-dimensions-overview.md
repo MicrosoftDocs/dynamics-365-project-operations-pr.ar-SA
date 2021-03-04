@@ -71,3 +71,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 | ----------------|-------------|----------|----------:|----------|
 | My company_Band1 | Contoso US  |Hour‬ | 145|دولار أمريكي     |
 | My company_Band2 | شركة حسني بالهند |Hour‬|   67|دولار أمريكي     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

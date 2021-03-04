@@ -106,3 +106,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
   - نظام Project Operations
   - نظام المشروع
   - نظام الكتابة المزدوج في Project Operations (يكون هذا الدور مطلوبا إذا كنت تقوم بنشر السيناريو المستند إلى الموارد/المنتجات غير المخزنة لـ Project Operations).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

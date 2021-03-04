@@ -96,3 +96,6 @@ ms.locfileid: "5144577"
     ```
 
 6. احفظ التخصيصات وانشرها.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

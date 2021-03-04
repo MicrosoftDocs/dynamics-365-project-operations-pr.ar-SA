@@ -57,3 +57,6 @@ ms.locfileid: "5143587"
 - تم الإصلاح: عندما تكون فئة المعاملة **الوقت**، تكون **UnitGroup** غير قابلة للتحرير لجميع الكيانات، بما فيها **QuoteLineDetails** و **JournalLine** و **InvoiceLineDetail** و **ContractLineDetails**. ومع ذلك، فإن **الوحدة** غير قابلة للتحرير فقط لكل من **JournalLine** و **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

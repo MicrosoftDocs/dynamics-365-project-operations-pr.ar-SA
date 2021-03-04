@@ -46,3 +46,6 @@ ms.locfileid: "5147592"
 > ![تحديد المورد](media/Resource-Management-image61.png)
 
 يتم استبدال عضو الفريق العام بالمورد المسمى الذي تم حجزه بشكل ثابت في فريق المشروع وتعيينات المهمة في جدول المشروع.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

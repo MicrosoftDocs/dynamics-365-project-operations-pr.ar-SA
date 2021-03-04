@@ -42,3 +42,6 @@ ms.locfileid: "5151057"
 تم إصلاح المشكلات التالية:
 
 - تدهور أداء البحث عن المساعدة في الجدول
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

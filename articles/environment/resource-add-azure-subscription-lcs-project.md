@@ -70,3 +70,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 لقد قمت بالاتصال بنجاح باشتراك Azure. يمكنك الآن نشر بيئات Dynamics 365 Finance المستضافة على السحابة.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

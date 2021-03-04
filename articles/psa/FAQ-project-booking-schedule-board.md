@@ -91,3 +91,6 @@ ms.locfileid: "5146512"
 
 4. الآن وبعد أن تم حجز المورد، يجب تعيين المهام إليه يدويًا.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
