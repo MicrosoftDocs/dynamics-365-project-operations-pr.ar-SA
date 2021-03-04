@@ -1,6 +1,6 @@
 ---
 title: إدارة تفويض المصروفات
-description: بإمكان المستخدم المفوض للمصروفات إنشاء تقارير المصروفات وإدارتها بالنيابة عن موظف آخر في المؤسسة.
+description: يمكن لمستخدم تفويض مصروفات إنشاء تقارير مصروفات وإدارتها لموظف آخر في المؤسسة.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070796"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960771"
 ---
-# <a name="manage-expense-delegation"></a><span data-ttu-id="b2905-103">إدارة تفويض المصروفات</span><span class="sxs-lookup"><span data-stu-id="b2905-103">Manage expense delegation</span></span>
+# <a name="manage-expense-delegation"></a><span data-ttu-id="fee42-103">إدارة تفويض المصروفات</span><span class="sxs-lookup"><span data-stu-id="fee42-103">Manage expense delegation</span></span>
 
-[!include [banner](../includes/banner.md)]
+<span data-ttu-id="fee42-104">بإمكان مفوض المصروفات إنشاء تقارير المصروفات وإدارتها لموظف آخر.</span><span class="sxs-lookup"><span data-stu-id="fee42-104">An expense delegate can create and manage expense reports for another employee.</span></span>
 
-<span data-ttu-id="b2905-104">بإمكان المستخدم المفوض للمصروفات إنشاء تقارير المصروفات وإدارتها بالنيابة عن موظف آخر في المؤسسة.</span><span class="sxs-lookup"><span data-stu-id="b2905-104">An expense delegate user can create and manage expense reports on behalf of another employee in the organization.</span></span>
+## <a name="configure-expense-delegation"></a><span data-ttu-id="fee42-105">تكوين تفويض المصروفات</span><span class="sxs-lookup"><span data-stu-id="fee42-105">Configure expense delegation</span></span>
 
-## <a name="configuring-expense-delegation"></a><span data-ttu-id="b2905-105">تكوين تفويض المصروفات</span><span class="sxs-lookup"><span data-stu-id="b2905-105">Configuring expense delegation</span></span>
+1. <span data-ttu-id="fee42-106">لإعداد مستخدم كمفوض حساب، انتقل إلى **إدارة المصروفات > الإعداد > عام > تفويضات**.</span><span class="sxs-lookup"><span data-stu-id="fee42-106">To set up a user as an expense delegate, go to **Expense management > Setup > General > Delegates**.</span></span>
+2. <span data-ttu-id="fee42-107">في صفحة **التفويضات**، حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="fee42-107">On the **Delegates** page, select **New**.</span></span>
+3. <span data-ttu-id="fee42-108">حدد الموظف الذي سيكون لديه تفويض محدد.</span><span class="sxs-lookup"><span data-stu-id="fee42-108">Select the employee that will have a delegate defined.</span></span> 
+4. <span data-ttu-id="fee42-109">أدخل الاسم المستعار للمستخدم المفوض، وتاريخ بدء وانتهاء فترة التفويض.</span><span class="sxs-lookup"><span data-stu-id="fee42-109">Enter the alias of the delegate user and the start and end date for the delegation period.</span></span>
 
-<span data-ttu-id="b2905-106">لإعداد مستخدم كمفوض مصروفات، انتقل إلى **إدارة المصروفات > الإعداد > عام > المفوضون** لفتح صفحة **المفوضون‏‎**.</span><span class="sxs-lookup"><span data-stu-id="b2905-106">To set up a user as an expense delegate, go to **Expense management > Setup > General > Delegates** to open the **Delegates** page.</span></span> <span data-ttu-id="b2905-107">حدد **جديد** ، ثم حدد الموظف الذي سيتم تحديد تفويض له.</span><span class="sxs-lookup"><span data-stu-id="b2905-107">Select **New** and then select the employee that will have a delegate defined.</span></span> <span data-ttu-id="b2905-108">أدخل الاسم المستعار للمستخدم المفوض، وتاريخ بدء وانتهاء فترة التفويض.</span><span class="sxs-lookup"><span data-stu-id="b2905-108">Enter the alias of the delegate user and the start and end date for the delegation period.</span></span>
+## <a name="manage-expense-delegation-for-another-employee"></a><span data-ttu-id="fee42-110">إدارة تفويض المصروفات لموظف آخر</span><span class="sxs-lookup"><span data-stu-id="fee42-110">Manage expense delegation for another employee</span></span>
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a><span data-ttu-id="b2905-109">إدارة تفويض المصروفات نيابة عن موظف آخر</span><span class="sxs-lookup"><span data-stu-id="b2905-109">Managing expense delegation on behalf of another employee</span></span>
+<span data-ttu-id="fee42-111">عندما يتم **تمكين صفحة قائمة تفويضات المصروفات** في مفتاح إدارة الميزات، تكون صفحة قائمة **المصروفات المفوضة لي** متوفرة.</span><span class="sxs-lookup"><span data-stu-id="fee42-111">When the feature management key **Enable expense delegates list page** is enabled, the **Expenses delegated to me** list page will be available.</span></span> <span data-ttu-id="fee42-112">انتقل إلى **إدارة المصروفات** > **مصروفاتي** > **المصروفات التي تم تفويضها لي**.</span><span class="sxs-lookup"><span data-stu-id="fee42-112">Go to **Expense management** > **My expenses** > **Expenses delegated to me**.</span></span>
 
-<span data-ttu-id="b2905-110">إذا تم تمكين مفتاح إدارة الميزات **تمكين صفحة قائمة مفوضي المصروفات** ، ستكون صفحة قائمة **المصروفات التي تم تفويضها لي** متوفرة عبر الانتقال إلى **إدارة المصروفات > مصروفاتي > المصروفات التي تم تفويضها لي**.</span><span class="sxs-lookup"><span data-stu-id="b2905-110">If the feature management key **Enable expense delegates list page** is enabled, the **Expenses delegated to me** list page will be available by navigating to **Expense management > My expenses > Expenses delegated to me**.</span></span>
+<span data-ttu-id="fee42-113">يمكن لمستخدم مفوض تصفية تقارير المصروفات الموجودة التي تم تفويضها له والبحث فيها بسرعة.</span><span class="sxs-lookup"><span data-stu-id="fee42-113">A delegate user can quickly filter and search on existing expense reports that have been delegated to them.</span></span> <span data-ttu-id="fee42-114">كما يمكنهم إنشاء تقرير نفقات جديد للمستخدمين الآخرين عن طريق تحديد **تقرير مصروفات جديد**.</span><span class="sxs-lookup"><span data-stu-id="fee42-114">They can also create a new expense report for other users by selecting **New expense report**.</span></span>
 
-<span data-ttu-id="b2905-111">بإمكان المستخدم المفوض تصفية تقارير المصروفات الموجودة التي تم تفويضها له والبحث فيها بسرعة.</span><span class="sxs-lookup"><span data-stu-id="b2905-111">A delegate user can quickly filter and search on existing expense reports that hae been delegated to the user.</span></span> <span data-ttu-id="b2905-112">بإمكان المستخدم أيضًا إنشاء تقرير مصروفات جديد بسرعة بالنيابة عن المستخدمين الآخرين من خلال النقر فوق **تقرير مصروفات جديد**.</span><span class="sxs-lookup"><span data-stu-id="b2905-112">The user can also quickly create a new expense report on behalf of other users by clicking **New expense report**.</span></span>
-
-<span data-ttu-id="b2905-113">بإمكان المستخدم المفوض إنشاء تقارير المصروفات وإدارتها بالنيابة عن الموظفين الآخرين من خلال الانتقال إلى **إدارة المصروفات > مصروفاتي > تقارير المصروفات** والنقر فوق الزر **فتح مصروفات مستخدم آخر**.</span><span class="sxs-lookup"><span data-stu-id="b2905-113">Delegate users can also create and manage expense reports on behalf of other employees by navigating to **Expense management > My expenses > Expense reports** and clicking the **Open other user's expenses** button.</span></span>
+<span data-ttu-id="fee42-115">يمكن للمستخدمين المفوضين أيضًا إنشاء تقارير مصروفات وإدارتها لموظفين آخرين عن طريق الذهاب إلى **إدارة المصاريف** > **المصاريف الخاصة بي** > **تقارير المصروفات** وتحديد **فتح مصاريف مستخدم آخر**.</span><span class="sxs-lookup"><span data-stu-id="fee42-115">Delegate users can also create and manage expense reports for other employees by going to **Expense management** > **My expenses** > **Expense reports** and selecting **Open other user's expenses**.</span></span>
