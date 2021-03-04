@@ -3,6 +3,7 @@ title: تمكين ميزات تطبيق Project Finder Mobile
 description: كيفية تمكين ميزات تطبيق Project Finder Mobile في Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132947"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144532"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>تمكين ميزات تطبيق Project Finder Mobile (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-بإمكان الموارد استخدام تطبيق Project Finder Mobile‬‬ على الهاتف مع [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] للبحث عن مشاريع جديدة للعمل عليها وتحديث مجموعات مهاراتها.  
+بإمكان الموارد استخدام تطبيق Project Finder Mobile‬‬ على الهاتف مع [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] للبحث عن مشاريع جديدة للعمل عليها وتحديث مجموعات المهارات.  
   
  يتوفر التطبيق لهواتف [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] وأيضًا [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-  
- إنك تحتاج إلى تعيين بضعة خيارات في إعداد المعلمات لكي تسمح وحدتك التنظيمية للمستخدمين بعرض متطلبات موارد المشروع وتحديث مهاراتها.  
+    
+ للسماح للمستخدمين بعرض متطلبات موارد المشروع وتحديث المهارات، يجب تحديد خيارات في إعداد المعلمات لوحدتك التنظيمية.
   
 > [!NOTE]
 >  يعمل تطبيق Project Finder Mobile‬‬ فقط مع [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]، وليس مع عمليات التثبيت المحلية.  
@@ -55,10 +58,10 @@ ms.locfileid: "4132947"
 ## <a name="email-notifications"></a>إعلامات البريد الإلكتروني  
  ترسل [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] رسائل البريد الإلكتروني فيما يتعلق بطلبات الموارد للمستلمين التاليين في الأوقات التالية:  
   
-|المستلم|الحدث|  
+|مستلم|حدث|  
 |---------------|-----------|  
-|مدير المشروع|-   عند تسجيل أحد الموارد للعمل على مشروع باستخدام تطبيق Project Finder Mobile.|  
-|المورد|-   عندما يلبي مورد آخر عمل المشروع الذي قام المورد بالتسجيل للعمل عليه.<br />-   عند الموافقة على طلب الموافقة على المهارات أو رفضه.<br />-   عند الموافقة على التسجيل للعمل على المشروع أو رفضه.|  
+|مدير المشروع|- قيام أحد الموارد بالاشتراك في مشروع باستخدام تطبيق Project Finder Mobile.|  
+|مورد|- تم بالفعل تنفيذ عمل المشروع الذي قام المورد بالاشتراك فيه بواسطة مورد آخر.<br />- تمت الموافقة على طلب اعتماد المهارات أو رفضه.<br />- تمت الموافقة على طلب الاشتراك في المشروع أو رفضه.|  
   
 ## <a name="privacy-notice"></a>إشعار الخصوصية  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
