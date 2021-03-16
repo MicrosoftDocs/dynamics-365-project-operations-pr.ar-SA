@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: الجديد‬
       items:
+        - name: مارس 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-mar-2021-resource-based.md
         - name: فبراير 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
           href: whats-new/whats-new-feb-2021-resource-based.md
         - name: يناير 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
@@ -318,59 +320,59 @@
       items:
         - name: نظرة عامة على المصروفات
           href: expense/expense-overview.md
-        - name: تجربة إدارة المصروفات للمشاريع
+        - name: تجربة مصروفات جديدة
           items:
-            - name: التكوين والإعداد
-              items:
-                - name: إعداد السياسات
-                  href: expense/set-up-policies.md
-                - name: إعداد عمليات سير العمل
-                  href: expense/set-up-workflows.md
-                - name: إدارة التفويض
-                  href: expense/manage-delegation.md
-                - name: تكوين محددات إدارة المصروفات
-                  href: expense/configure-expense-management-parameters.md
-                - name: إعداد تكامل بطاقة الائتمان
-                  href: expense/set-up-credit-card-integration.md
-                - name: إعداد فئات المصروفات
-                  href: expense/set-up-expense-categories.md
-            - name: التعامل مع المصروفات الشخصية في تقرير المصروفات
-              href: expense/personal-expenses-expense-report.md
-            - name: إنشاء تقارير المصروفات
-              items:
-                - name: التوزيعات في تقرير المصروفات
-                  href: expense/distributions-expense-report.md
-            - name: الموافقة على تقارير المصروفات
-              items:
-                - name: تقارير المصروفات والموافقون المتعددون
-                  href: expense/expense-reports-multiple-approvers.md
-            - name: نشر تقارير المصروفات
-              href: expense/posting-expense-reports.md
-            - name: طلب السفر
-              href: expense/travel-requisition.md
-            - name: السلفة النقدية
-              href: expense/cash-advance.md
-            - name: المصروفات اليومية
-              href: expense/per-diems.md
-            - name: الإدارة المالية
-              items:
-                - name: استرداد ضريبة القيمة المضافة
-                  href: expense/vat-recovery.md
-            - name: تجربة مصروفات جديدة
-              items:
-                - name: إعادة صياغة تقارير المصروفات
-                  href: expense/expense-reports-reimagined.md
-                - name: مطابقة الإيصال مع المصروفات باستخدام التعرف البصري على الحروف
-                  href: expense/match-receipt-expense-ocr.md
-            - name: إدارة مصروفات أجهزة المحمول
-              href: expense/expense-using-mobile.md
+            - name: إعادة صياغة تقارير المصروفات
+              href: expense/expense-reports-reimagined.md
+            - name: التقاط إيصال باستخدام OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: التكوين والإعداد
+          items:
+            - name: إعداد السياسات
+              href: expense/set-up-policies.md
+            - name: إعداد عمليات سير العمل
+              href: expense/set-up-workflows.md
+            - name: إدارة التفويض
+              href: expense/manage-delegation.md
+            - name: تكوين محددات إدارة المصروفات
+              href: expense/configure-expense-management-parameters.md
+            - name: إعداد تكامل بطاقة الائتمان
+              href: expense/set-up-credit-card-integration.md
+            - name: إعداد فئات المصروفات
+              href: expense/set-up-expense-categories.md
+        - name: المصروفات الشخصية
+          href: expense/personal-expenses-expense-report.md
+        - name: المصروفات بين الشركات الشقيقة
+          href: prod-exp/intercompany-expense.md
+        - name: إنشاء تقارير المصروفات
+          items:
+            - name: التوزيعات في تقرير المصروفات
+              href: expense/distributions-expense-report.md
+        - name: الموافقة على تقارير المصروفات
+          items:
+            - name: تقارير المصروفات والموافقون المتعددون
+              href: expense/expense-reports-multiple-approvers.md
+        - name: نشر تقارير المصروفات
+          href: expense/posting-expense-reports.md
+        - name: طلب السفر
+          href: expense/travel-requisition.md
+        - name: السلفة النقدية
+          href: expense/cash-advance.md
+        - name: المصروفات اليومية
+          href: expense/per-diems.md
+        - name: تطبيق المصروفات على الأجهزة المحمولة
+          href: expense/expense-using-mobile.md
+        - name: الإدارة المالية
+          items:
+            - name: استرداد ضريبة القيمة المضافة
+              href: expense/vat-recovery.md
     - name: الموافقات
       items:
         - name: نظرة عامة على الموافقات
           href: approvals/approvals-overview.md
         - name: ملاحظات المطورين
           items:
-            - name: ملاحظات المطور للموافقات
+            - name: ملاحظات المطورين للموافقات
               href: approvals/dev-notes-approvals.md
     - name: القيم الفعلية
       items:
@@ -456,6 +458,8 @@
           href: environment/security-model.md
     - name: الجديد‬
       items:
+        - name: الجديد في مارس 2021 - النشر الخفيف
+          href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: الجديد في فبراير 2021 - النشر الخفيف
           href: pro/whats-new/whats-new-feb-2021-lite.md
         - name: الجديد في يناير 2021 - النشر الخفيف
@@ -770,7 +774,7 @@
           href: approvals/approvals-overview.md
         - name: ملاحظات المطورين
           items:
-            - name: ملاحظات المطور للموافقات
+            - name: ملاحظات المطورين للموافقات
               href: approvals/dev-notes-approvals.md
     - name: القيم الفعلية
       items:
@@ -894,44 +898,52 @@
   items:
     - name: نظرة عامة على إدارة المصروفات
       href: prod-exp/expense-management.md
-    - name: إعادة صياغة تقارير المصروفات
-      href: prod-exp/ExpenseWorkspaceNew.md
-    - name: التخطيط لإدارة المصروفات
-      href: prod-exp/plan-expense-management.md
-    - name: معلمات إدارة المصروفات
-      href: prod-exp/Expense-Management-Parameters.md
-    - name: مساحة العمل المحمولة لإدارة المصروفات
-      href: prod-exp/expense-management-mobile-workspace.md
-    - name: إدارة عمليات سير العمل لإدارة المصروفات
-      href: prod-exp/expense-workflows.md
-    - name: سير عمل إدارة المصروفات
-      href: prod-exp/expense-workflow.md
-    - name: إدارة تفويض المصروفات
-      href: prod-exp/manage-expense-delegation.md
-    - name: معالجة إيصالات المصروفات
-      href: prod-exp/expense-receipt-processing.md
-    - name: استيراد حركات بطاقات الائتمان والمحافظة عليها
-      href: prod-exp/import-credit-card.md
-    - name: التوزيعات في تقرير المصروفات
-      href: prod-exp/expense-report-distributions.md
+    - name: تجربة مصروفات جديدة
+      items:
+        - name: إعادة صياغة تقارير المصروفات
+          href: expense/expense-reports-reimagined.md
+        - name: التقاط إيصال باستخدام OCR
+          href: expense/match-receipt-expense-ocr.md
+    - name: التكوين والإعداد
+      items:
+        - name: إعداد السياسات
+          href: expense/set-up-policies.md
+        - name: إعداد عمليات سير العمل
+          href: expense/set-up-workflows.md
+        - name: إدارة التفويض
+          href: expense/manage-delegation.md
+        - name: تكوين محددات إدارة المصروفات
+          href: expense/configure-expense-management-parameters.md
+        - name: إعداد تكامل بطاقة الائتمان
+          href: expense/set-up-credit-card-integration.md
+        - name: إعداد فئات المصروفات
+          href: expense/set-up-expense-categories.md
+    - name: المصروفات الشخصية
+      href: expense/personal-expenses-expense-report.md
     - name: المصروفات بين الشركات الشقيقة
       href: prod-exp/intercompany-expense.md
-    - name: تعريف سياسات المصروفات
-      href: prod-exp/travel-expense-policies.md
-    - name: عرض تقرير المصروفات
-      href: prod-exp/view-expense-report.md
-    - name: نشر تقرير المصروفات
-      href: prod-exp/post-expense.md
-    - name: تقارير المصروفات والموافقون المتعددون
-      href: prod-exp/expense-report-multiple-approvers.md
-    - name: استرداد ضريبة القيمة المضافة في إدارة المصروفات
-      href: prod-exp/VAT-expense-report.md
-    - name: قواعد المصروف اليومي
-      href: prod-exp/per-diem.md
-    - name: طلبات السفر
-      href: prod-exp/travel-req.md
-    - name: المصروفات الشخصية في تقرير المصروفات
-      href: prod-exp/personal-expenses.md
+    - name: إنشاء تقارير المصروفات
+      items:
+        - name: التوزيعات في تقرير المصروفات
+          href: expense/distributions-expense-report.md
+    - name: الموافقة على تقارير المصروفات
+      items:
+        - name: تقارير المصروفات والموافقون المتعددون
+          href: expense/expense-reports-multiple-approvers.md
+    - name: نشر تقارير المصروفات
+      href: expense/posting-expense-reports.md
+    - name: طلب السفر
+      href: expense/travel-requisition.md
+    - name: السلفة النقدية
+      href: expense/cash-advance.md
+    - name: المصروفات اليومية
+      href: expense/per-diems.md
+    - name: تطبيق المصروفات على الأجهزة المحمولة
+      href: expense/expense-using-mobile.md
+    - name: الإدارة المالية
+      items:
+        - name: استرداد ضريبة القيمة المضافة
+          href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -940,10 +952,16 @@
       items:
         - name: جدول إصدارات التحديثات لـ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: الجديد أو المتغير في إصدار التحديث 29، V3
+          href: psa/whats-new-ur-29.md
+        - name: الجديد أو المتغير في إصدار التحديث 28.6 الإصلاح العاجل، V3
+          href: psa/whats-new-ur-28-6.md
         - name: الجديد أو المتغير في إصدار التحديث 28.5 الإصلاح العاجل، V3
           href: psa/whats-new-ur-28-5.md
         - name: الجديد أو المتغير في إصدار التحديث 28، V3
           href: psa/whats-new-ur-28.md
+        - name: الجديد أو المتغير في إصدار التحديث 27.6 الإصلاح العاجل، V3
+          href: psa/whats-new-ur-27-6.md
         - name: الجديد أو المتغير في إصدار التحديث 27.5 الإصلاح العاجل، V3
           href: psa/whats-new-ur-27-5.md
         - name: الجديد أو المتغير في إصدار التحديث 27، V3
