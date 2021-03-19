@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401202"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479548"
 ---
 # <a name="determine-your-deployment-type"></a>تحديد نوع التوزيع
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 > [!IMPORTANT]
-> بعد شراء الترخيص، ابدأ هنا تحديد نموذج النشر الأفضل لتطبيق Dynamics 365 Project Operations باستخدام [سير مهام التثبيت الإرشادي](https://aka.ms/provisionprojectoperations).
+> بعد شراء الترخيص، ابدأ هنا لتحديد أفضل نموذج لنشر Dynamics 365 Project Operations باستخدام [سير مهام التثبيت الموجه](https://aka.ms/provisionprojectoperations).
 > بعد الانتهاء من سير مهام التثبيت الإرشادي، سيتم توجيهك إلى مدخل الإدارة الصحيح لإكمال عملية التثبيت. راجع تفاصيل النشر لإكمال التثبيت.
 
 
@@ -31,6 +31,9 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 بإمكان عملاء Finance الحاليين الذين يستخدمون وظيفة إدارة المشاريع والمحاسبة متابعة استخدامها كما هي. راجع [Project Operations لسيناريوهات المنتجات المخزنة/أوامر الإنتاج](#pma).
 
+
+## <a name="deployment-regions"></a>مناطق النشر
+لتحديد المناطق التي تدعم نشر Project Operations، راجع [تقرير التوافر الجغرافي لتطبيقي Dynamics 365 وPower Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). حدد **عرض التقرير**، ووسّع **Dynamics 365 > تطبيقات العمليات > Dynamics 365 Project Operations** لعرض المناطق المدعومة.
 
 ## <a name="deployment-types"></a>أنواع النشر
 يدعم Project Operations خيارات نشر متعددة لتتطابق مع متطلباتك. سواء كنت من عملاء Dynamics 365 الحاليين أو الجدد، بإمكان Project Operations دعم احتياجاتك.

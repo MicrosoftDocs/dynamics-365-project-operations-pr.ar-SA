@@ -3,17 +3,17 @@ title: سلوك واجهة المستخدم لإدخال الوقت
 description: يوفر هذا الموضوع معلومات حول سلوك وجهة المستخدم لإدخال الوقت.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124487"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499598"
 ---
 # <a name="time-entry-ui-behavior"></a>سلوك واجهة المستخدم لإدخال الوقت
 
@@ -21,6 +21,19 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 
 تمثل شبكة **إدخال الوقت الأسبوعي** عنصر تحكم مخصصًا يحتوي على قسمين رئيسيين، **الأبعاد** و **المدة**.
+
+## <a name="keyboard-shortcuts"></a>‎اختصارات لوحة المفاتيح
+| الإجراء         | الاختصار                  |
+|------------   |------------------------   |
+| جديدة           | Alt + Shift + n           |
+| نسخ الصف      | Alt + Shift + c           |
+| تحرير الإدخال    | Alt + Shift + e           |
+| تحرير الصف      | Alt + Shift + Ctrl + e    |
+| فتح الإدخال    | Alt + Shift + o           |
+| إرسال        | Alt + Shift + s           |
+| استدعاء        | Alt + Shift + r           |
+| حذف         | Alt + Shift + d           |
+| نسخ أسبوع     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>الأبعاد
 يعمل قسم **الأبعاد** على عرض الأبعاد التي يمكن إدخال هذا الوقت في مقابلها. الأبعاد التالية مدعومة بشكل جاهز:
