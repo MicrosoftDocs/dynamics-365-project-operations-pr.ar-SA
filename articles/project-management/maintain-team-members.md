@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131507"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286817"
 ---
 # <a name="maintain-team-members"></a>الاحتفاظ بأعضاء الفريق
 
@@ -21,7 +21,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 يمكنك إضافة مورد مسمى إلى فريق مشروعك عن طريق حجزه مباشرة إلى الفريق.
 
-1. في Dynamics 365 Project Operations، اذهب إلى **المشروعات**، وحدد لفتح المشروع الذي تريد الحجز له.
+1. في Dynamics 365 Project Operations، انتقل إلى **المشاريع**، وحدد فتح المشروع الذي تريد إجراء الحجز له.
 2. في صفحة **المشروع**، في علامة تبويب **الفريق**، حدد **جديد**. 
 3. في مربع الحوار **الإنشاء السريع لفريق المشروع**، حدد المورد القابل للحجز. سيتم ملء حقل **الدور** بالدور الافتراضي للمورد إذا كان لديه واحد معين. يمكنك تغيير الدور. 
 4. حدد تاريخي البدء والانتهاء الذي سيكون مطلوبًا للمورد، وحدد طريقة التوزيع لسعة المورد. 

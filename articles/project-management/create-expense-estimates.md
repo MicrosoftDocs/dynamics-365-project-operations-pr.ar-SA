@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131687"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287042"
 ---
 # <a name="expense-estimates"></a>تقديرات المصروفات
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-إلى جانب تعريف التقديرات المستندة إلى الموارد، يسمح Dynamics 365 Project Operations لمدراء المشاريع بتعريف المصروفات المستندة إلى المشروع لكل مشروع. يمكن ربط كل بند مصروفات بمهمة مشروع أو فئة مصروفات معينة. يتم عادةً تعريف فئات المصروفات على مستوى المؤسسة. يتم عادةً تعريف التسعير لكل فئة مصروفات في التدرج الهرمي التالي:
+بالإضافة إلى تعريف التقديرات المستندة إلى الموارد، يسمح Dynamics 365 Project Operations لمدراء المشاريع تحديد المصروفات المستندة إلى المشروع لكل مشروع. يمكن ربط كل بند مصروفات بمهمة مشروع أو فئة مصروفات معينة. يتم عادةً تعريف فئات المصروفات على مستوى المؤسسة. يتم عادةً تعريف التسعير لكل فئة مصروفات في التدرج الهرمي التالي:
 
 - المؤسسة
 - العميل
