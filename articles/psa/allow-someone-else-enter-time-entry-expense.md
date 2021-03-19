@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2f13e66915a8e05ee3d314af065c03779582d5a4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 252fff0b60d221233c881e68db176e6763cdcdc0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145522"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291558"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>السماح لشخص آخر بإجراء إدخالات الوقت أو المصروفات (Project Service)
 

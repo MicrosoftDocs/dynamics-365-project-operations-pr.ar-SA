@@ -1,6 +1,6 @@
 ---
 title: القيم الفعلية
-description: يقدم هذا الموضوع معلومات حول كيفية العمل مع القيم الفعلية في Microsoft Dynamics 365 Project Operations.
+description: يوفر هذا الموضوع معلومات حول كيفية التعامل مع القيم الفعلية في Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,20 +16,20 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126287"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291783"
 ---
-# <a name="actuals"></a>القيم الفعلية 
+# <a name="actuals"></a>العمل الفعلي 
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
 القيم الفعلية هي مقدار العمل الذي تم إكماله في مشروع. يتم إنشاؤها كنتيجة لإدخالات الوقت والمصروفات وإدخالات دفتر اليومية والفواتير.
 
-## <a name="journal-lines-and-time-submission"></a>إرسال بنود دفتر اليومية والوقت
+## <a name="journal-lines-and-time-submission"></a>إرسال أسطر دفتر اليومية والوقت
 
 لمزيد من المعلومات حول إدخال الوقت، راجع [نظرة عامة حول إدخال الوقت](../time/time-entry-overview.md).
 
@@ -70,7 +70,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 يمكنك استخدام دفاتر يومية الإدخالات لتسجيل التكلفة أو الإيرادات في فئات المواد أو الرسوم أو الوقت أو المصروفات أو الحركات الضريبية. يمكن استخدام دفاتر اليومية للأغراض التالية:
 
 - تسجيل التكلفة الفعلية للموارد والمبيعات في أحد المشاريع.
-- نقل القيم الفعلية للحركات من نظام آخر إلى Microsoft Dynamics 365 Project Operations.
+- نقل القيم الفعلية للمعاملة من نظام آخر إلى Microsoft Dynamics 365 Project Operations.
 - تسجيل التكاليف التي حدثت في نظام آخر. يمكن أن تتضمن هذه التكاليف تكاليف التدبير أو التعاقد من الباطن.
 
 > [!IMPORTANT]

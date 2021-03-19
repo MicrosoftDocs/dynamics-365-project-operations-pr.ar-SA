@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175875"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290028"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>التسجيل في اشتراك معاينة - خفيف 
 
-يشرح هذا الموضوع كيفية الاشتراك في عرض شريك المعاينة ونشر Dynamics 365 Project Operations Lite – التعامل مع الفواتير الأولية‬.
+يشرح هذا الموضوع كيفية الاشتراك في عرض شريك للإصدار الأولي وتنفيذ النشر الخفيف لتطبيق Dynamics 365 Project Operations - التعامل مع الفواتير الأولية‬.
 
 > [!NOTE]
 > ستتغير هذه العملية في الإصدارات القادمة من Project Operations.
@@ -42,7 +42,7 @@ ms.locfileid: "4175875"
 
 قبل البدء، تأكد من تسجيل الدخول إلى مستعرض باستخدام حساب عمل المستخدم في المستأجر حيث تريد معاينة Project Operations.
 
-1. استرجع كود العرض الأول، **Dynamics 365 Project Operations (CRM) - الإصدار التجريبي للمعاينة** عن طريق لصقه في عنوان URL للمستعرض.
+1. استرد رمز العرض الأول، **Dynamics 365 Project Operations (CRM) - الإصدار التجريبي للمعاينة** عن طريق لصقه في عنوان URL للمتصفح.
 
 ![استرداد العرض](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ ms.locfileid: "4175875"
 
 ![تعيين التراخيص](./media/15AssignLicenses.png)
 
-3. تأكد من تحديد تراخيص **معاينة Dynamics 365 Project Operations (CRM)** و **Office 365 Project Operations - معاينة**. 
+3. تأكد من تحديد تراخيص **الإصدار الأولي من Dynamics 365 Project Operations (CRM)** و **Office 365 Project Operations - الإصدار الأولي**. 
 4. حدد **حفظ التغييرات**.
 
 ## <a name="create-a-new-cds-environment"></a>إنشاء بيئة CDS جديدة
@@ -84,7 +84,7 @@ ms.locfileid: "4175875"
 
 ![إضافة قاعدة بيانات](./media/20CreateEnvironment1.png)
 
-4. بعد إنشاء البيئة، قم بتثبيت الحل **Microsoft Dynamics 365 Project Operations**. 
+4. بعد إنشاء البيئة، ثبّت حل **Microsoft Dynamics 365 Project Operations**. 
 
 ![تثبيت الحل](./media/21InstallSolution.png)
 
