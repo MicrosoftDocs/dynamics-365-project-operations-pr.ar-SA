@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5f88d7309a5e1171629a72e749bfc01abb64c62a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148627"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284747"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>تغييرات إدارة الموارد (Project Service Automation 3.x)
 
@@ -91,7 +91,7 @@ ms.locfileid: "5148627"
 
 **مثال**
 
-يستخدم هذا المثال تقويم مشروع حيث يكون يوم العمل من 9 صباحًا إلى 5 مساءً في المنطقة الزمنيه UTC-8.
+يستخدم هذا المثال تقويم مشروع حيث يكون يوم العمل من 9 صباحًا إلى 5 مساءً في المنطقة الزمنية UTC-8.
 
 ```json
 [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
