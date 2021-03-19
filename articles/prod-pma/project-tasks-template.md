@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7cc9ee9de576549c132e14c333a1000c22a55236
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070626"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288903"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>مزامنة مهام المشروع مباشرة من Project Service Automation إلى Finance and Operations
 
@@ -45,7 +45,7 @@ ms.locfileid: "4070626"
 
 ## <a name="template-and-task"></a>القالب والمهمة
 
-للوصول إلى القالب، في مركز إدارة Microsoft Power Apps، حدد **المشاريع** ، ثم في الركن الأيمن العلوي، حدد **مشروع جديد** لتحديد القوالب العامة.
+للوصول إلى القالب، في مركز إدارة Microsoft Power Apps، حدد **المشاريع**، ثم في الركن الأيمن العلوي، حدد **مشروع جديد** لتحديد القوالب العامة.
 
 يتم استخدام القالب والمهمة الأساسية التالية لمزامنة مهام المشروع من Project Service Automation إلى Finance:
 

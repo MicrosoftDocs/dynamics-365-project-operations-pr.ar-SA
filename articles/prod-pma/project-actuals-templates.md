@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070776"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289668"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>مزامنة القيم الفعلية للمشروع مباشرة من Project Service Automation إلى دفتر يومية تكامل المشروع للنشر في Finance and Operations
 
@@ -50,7 +50,7 @@ ms.locfileid: "4070776"
 
 ### <a name="template-and-tasks"></a>القوالب والمهام
 
-للوصول إلى القوالب المتوفرة، في مركز إدارة Microsoft Power Apps، حدد **المشاريع** ، ثم في الركن الأيمن العلوي، حدد **مشروع جديد** لتحديد القوالب العامة.
+للوصول إلى القوالب المتوفرة، في مركز إدارة Microsoft Power Apps، حدد **المشاريع**، ثم في الركن الأيمن العلوي، حدد **مشروع جديد** لتحديد القوالب العامة.
 
 يتم استخدام القالب والمهام الأساسية التالية لمزامنة القيم الفعلية للمشروع من Project Service Automation إلى Finance:
 
@@ -88,8 +88,8 @@ ms.locfileid: "4070776"
 #### <a name="contract-organizational-unit"></a>الوحدة التنظيمية للعقد
 لتحديث العمود الشرطي المدرج في القالب، انقر فوق السهم **تعيين** لفتح التعيين. حدد ارتباط **الاستعلام المتقدم والتصفية** لفتح Power Query.
 
-- إذا كنت تستخدم القالب الافتراضي لقيم المشاريع الفعلية (PSA إلى Fin and Ops) ، في Power Query ، حدد **الشرط المدرج** الأخير من قسم **الخطوات المطبقة**. في إدخال **الوظيفة** ، استبدل **USSI** باسم الكيان القانوني الذي يجب استخدامه مع التكامل. أضف الشروط الإضافية إلى إدخال **الوظيفة** عند اللزوم، وقم بتحديث شرط **آخر** من **USMF** إلى الكيان القانوني الصحيح.
-- إذا كنت تقوم بإنشاء قالب جديد ، فيجب عليك إضافة العمود لدعم الوقت والنفقات بين الشركات الشقيقة. حدد **إضافه عمود شرطي** ، وأدخل اسما للعمود، مثل **الكيان القانوني**. أدخل الشرط للعمود، حيث، إذا كان **msdyn\_contractorganizationalunitid.msdyn\_name** \<organizational unit\>، عندئذٍ \<enter the legal entity\>؛ وإلا فقيمة فارغة.
+- إذا كنت تستخدم القالب الافتراضي لقيم المشاريع الفعلية (PSA إلى Fin and Ops) ، في Power Query ، حدد **الشرط المدرج** الأخير من قسم **الخطوات المطبقة**. في إدخال **الوظيفة**، استبدل **USSI** باسم الكيان القانوني الذي يجب استخدامه مع التكامل. أضف الشروط الإضافية إلى إدخال **الوظيفة** عند اللزوم، وقم بتحديث شرط **آخر** من **USMF** إلى الكيان القانوني الصحيح.
+- إذا كنت تقوم بإنشاء قالب جديد ، فيجب عليك إضافة العمود لدعم الوقت والنفقات بين الشركات الشقيقة. حدد **إضافه عمود شرطي**، وأدخل اسما للعمود، مثل **الكيان القانوني**. أدخل الشرط للعمود، حيث، إذا كان **msdyn\_contractorganizationalunitid.msdyn\_name** \<organizational unit\>، عندئذٍ \<enter the legal entity\>؛ وإلا فقيمة فارغة.
 
 ### <a name="template-mapping-in-data-integration"></a>تعيين القالب في تكامل البيانات
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 006ebbfea42572f17663fab324a20a10321b78f0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e6b63ccb5b0f04dedb8a942e22d6e1993204dc20
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070622"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288543"
 ---
 # <a name="synchronize-resource-capacity"></a>مزامنة سعة الموارد
 
@@ -44,7 +44,7 @@ ms.locfileid: "4070622"
 
     | خيار      | ‏‏الوصف |
     |-------------|-------------|
-    | كود الفترة | حدد كود الفترة الزمنيه لدفتر الأستاذ العام بشكل اختياري لتعيين تاريخي البدء والانتهاء لعمليه المزامنة الخاصة باللفات الانتاجيه للقدرة علي الموارد. |
+    | كود الفترة | حدد كود الفترة الزمنية لدفتر الأستاذ العام بشكل اختياري لتعيين تاريخي البدء والانتهاء لعمليه المزامنة الخاصة باللفات الانتاجيه للقدرة علي الموارد. |
     | تاريخ البدء  | ادخل تاريخ البدء الخاص بعمليه المزامنة الخاصة بلفات الموارد والموردين. |
     | تاريخ الانتهاء    | ادخل تاريخ الانتهاء الخاص بعمليه المزامنة الخاصة بلفات الموارد والموردين. |
 

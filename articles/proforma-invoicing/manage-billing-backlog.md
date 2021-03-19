@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122327"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287717"
 ---
 # <a name="manage-the-billing-backlog"></a>إدارة تراكم الفوترة
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-يتضمن Dynamics 365 Project Operations طريقتي عرض لمساعدتك على العمل مع تراكم الفوترة‬ وإدارته. طريقتا العرض هما **المراحل الرئيسية للأسعار الثابتة‬** و **تراكم فوترة الوقت والمواد‬** لتحديد طريقة عرض، في منطقة **المبيعات** في Project Operations، على جزء التنقل الأيمن، حدد **الفوترة**. ارتباطات تراكم الفوترة مخزنة هناك.
+يتضمن Dynamics 365 Project Operations طريقتي عرض مخصصتين لمساعدتك في التعامل مع تراكم الفوترة وإدارته. طريقتا العرض هما **المراحل الرئيسية للأسعار الثابتة‬** و **تراكم فوترة الوقت والمواد‬** لتحديد طريقة عرض، في منطقة **المبيعات** في Project Operations، على جزء التنقل الأيمن، حدد **الفوترة**. ارتباطات تراكم الفوترة مخزنة هناك.
 
 ## <a name="fixed-price-milestones"></a>المراحل الرئيسية للأسعار الثابتة
 
