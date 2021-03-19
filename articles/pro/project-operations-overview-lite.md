@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: c1df809ea3df3f53d5fb42d632c56c47615fec3d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365376"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273947"
 ---
 # <a name="lite-deployment-overview"></a>نظرة عامة على النشر الخفيف
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
-يتميز نوع النشر الخفيف لتطبيق Dynamics 365 Project Operations بالإمكانات التالية للشركات القائمة على المشاريع:
+يتميز نوع النشر الخفيف لتطبيق Dynamics 365 Project Operations بالإمكانيات التالية للشركات القائمة على المشروع:
 
 - تخطيط المشروع باستخدام Microsoft Project للويب
 - تسعير وتكلفة متعددة الأبعاد لموارد العمالة

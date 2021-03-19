@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176730"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274487"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>حل أسعار المبيعات للتقديرات والقيم الفعلية - خفيف
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
-عند حل أسعار المبيعات على التقديرات والقيم الفعلية في Dynamics 365 Project Operations، يستخدم النظام أولاً تاريخ وعملة عرض أسعار أو عقد المشروع ذا صلة لحل قائمة أسعار المبيعات. بعد أن يتم حل قائمة أسعار المبيعات، يقوم النظام بحل معدل المبيعات أو الفوترة.
+عندما يتم حل أسعار المبيعات على القيم الفعلية والتقديرات في Dynamics 365 Project Operations، يستخدم النظام أولاً تاريخ وعملة عرض أسعار المشروع أو العقد المرتبط لحل قائمة أسعار المبيعات. بعد أن يتم حل قائمة أسعار المبيعات، يقوم النظام بحل معدل المبيعات أو الفوترة.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>حل معدلات المبيعات على بنود القيم الفعلية وتقديرات الوقت
 

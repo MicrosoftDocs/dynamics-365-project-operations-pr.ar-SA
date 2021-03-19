@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: fa0515b9d6a0023c05c37d2bcfa6a403f48927cb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401157"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279257"
 ---
 # <a name="review-proposed-resources"></a>مراجعة الموارد المقترحة
 
@@ -58,7 +58,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 وإذا ظهر سهم يشير إلى اليمين بجوار مورد فردي قابل للحجز على لوحة الجدولة، فيمكن توسيع المورد لإظهار تفاصيل العمل الذي تم حجز المورد عليه.
 
-نظرًا لأن Dynamics 365 Project Operations يستخدم محرك Universal Resource Scheduling ، إذا كان لديك Dynamics 365 Field Service مثبتًا، فإنه يمكنك عرض تفاصيل حجوزات الموارد الخاصة بالمشاريع وأوامر العمل وأي كيانات أخرى قمت بتوسيع الجدولة لها.
+نظرًا لأن Dynamics 365 Project Operations يستخدم محرك Universal Resource Scheduling، إذا كان لديك Dynamics 365 Field Service مثبتًا، فإنه يمكنك عرض تفاصيل حجوزات الموارد الخاصة بالمشاريع وأوامر العمل وأي كيانات أخرى قمت بتوسيع الجدولة إليها.
 
 لعرض مزيد من التفاصيل حول مورد واحد، انقر بزر الماوس الأيمن فوقه لفتح بطاقة المورد.
 

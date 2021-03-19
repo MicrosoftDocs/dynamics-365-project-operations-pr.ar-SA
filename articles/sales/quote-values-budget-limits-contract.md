@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180221"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277547"
 ---
 # <a name="project-quote-settings"></a>إعدادات عرض أسعار المشروع
 
@@ -22,7 +22,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 توضح هذه المقالة المعلومات التي تنطبق على عرض أسعار المشروع. ويشمل ذلك الإعدادات التي تؤثر على كافة بنود عرض الأسعار، والمعلومات عن عرض الأسعار التي تم تلخيصها عبر كافة عناصر البند لتوجيه مؤشرات الأداء الأساسية الخاصة بعرض أسعار المشروع.
 
-يسرد الجدول التالي حقول معلومات الملخص في أحد عروض أسعار المشروع الفريدة لعمليات في Dynamics 365 Project Operations أو تتضمن بعض التغييرات الهامة في السلوك عن عروض الأسعار في Dynamics 365 Sales.
+يسرد الجدول التالي حقول معلومات الملخص في عرض أسعار مشروع والتي تُعد فريدة في Dynamics 365 Project Operations أو تتضمن بعض التغييرات الهامة في السلوك من عروض أسعار Dynamics 365 Sales.
 
 | **الحقل** | **الموقع** | **الوصف** | **تأثير لاحق** |
 | --- | --- | --- | --- |

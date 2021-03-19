@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175965"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273002"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>إدارة قوائم أسعار المشروع على عروض أسعار المشروع - خفيف
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
-تم تصميم عروض أسعار المشروع لدعم عدة قوائم أسعار مبيعات بتاريخ سريان. في تطبيق Dynamics 365 Project Operations، تمت إضافة كيان مرتبط جديد يسمى **قوائم أسعار المشروعات**. يرتبط هذا الكيان بعلاقة 1-إلى-متعدد بعرض أسعار المشروع.
+تم تصميم عروض أسعار المشروع لدعم عدة قوائم أسعار مبيعات بتاريخ سريان. مع Dynamics 365 Project Operations، أضيف كيان مقترن جديد يسمى **قوائم أسعار المشروع**. يرتبط هذا الكيان بعلاقة 1-إلى-متعدد بعرض أسعار المشروع.
 
 يتم استخدام قوائم أسعار المشروعات لتسعير حركات الوقت والمصروفات في مشروع ما. وعندما يحتوي عرض أسعار واحد أو أكثر من قوائم أسعار المشروعات، يتم استخدام قوائم الأسعار هذه لتسعير تقديرات الوقت والمصروفات والقيم الفعلية للمشاريع المرتبطة بعرض الأسعار من خلال بند عرض الأسعار.
 

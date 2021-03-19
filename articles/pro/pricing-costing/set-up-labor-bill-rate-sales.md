@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 733b7c83de8137aba6c084d5f03a2a4cf076a16c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181145"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274397"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>إعداد معدلات فواتير العمالة - خفيف
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
-تشتمل كل قائمة أسعار على مجموعة من أسعار الأدوار أو معدلات العمالة التي تعتبر فعالة للسياق وسريان التاريخ المضمن على رأس قائمة الأسعار. يمكن إعداد معدلات الفواتير للوقت في Dynamics 365 Project Operations بعملة واحدة فقط، وهي العملة في رأس قائمة الأسعار.
+تشتمل كل قائمة أسعار على مجموعة من أسعار الأدوار أو معدلات العمالة التي تعتبر فعالة للسياق وسريان التاريخ المضمن على رأس قائمة الأسعار. يمكن إعداد معدلات فواتير الوقت في Dynamics 365 Project Operations بعملة واحدة فقط، وهي العملة في رأس قائمة الأسعار.
 
 1. لإعداد معدلات فواتير العمالة لقائمة أسعار المبيعات، أنشئ قائمة أسعار تستند إلى رأس قائمة الأسعار. 
 2. على علامة التبويب **أسعار الأدوار**، في الشبكة الفرعية، حدد **‎+ سعر دور جديد**. 

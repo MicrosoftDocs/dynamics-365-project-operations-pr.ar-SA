@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130922"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275567"
 ---
 # <a name="default-price-lists"></a>قوائم الأسعار الافتراضية
 
@@ -21,7 +21,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ## <a name="sales-price-lists"></a>قوائم أسعار المبيعات
 
-يحتوي كل عرض أسعار مشروع وعقد مشروع في Dynamics 365 Project Operations على قائمه أسعار مبيعات افتراضية. 
+يحتوي كل عرض أسعار مشروع وكل عقد مشروع في Dynamics 365 Project Operations على قائمة أسعار مبيعات افتراضية. 
 
 ### <a name="price-list-default-on-project-quotes"></a>يتم تعيين قائمة الأسعار إلى عروض أسعار المشروع بشكل افتراضي
 يقوم النظام بإكمال العملية التالية لتحديد قائمة الأسعار التي سيتم تعيينها إلى عرض أسعار المشروع بشكل افتراضي:

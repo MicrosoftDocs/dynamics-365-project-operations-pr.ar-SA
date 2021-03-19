@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 77c4df8c4370017b9199eec3a21cd07dd0343fd9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176954"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274082"
 ---
 # <a name="manage-the-billing-backlog---lite"></a>إدارة تراكم الفوترة - خفيف
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
-يقدم Dynamics 365 Project Operations طرق عرض مخصصة للمساعدة في إدارة تراكم الفوترة. لإدارة تراكم الفوترة، حدد الارتباطات في منطقة **المبيعات**، ضمن **الفوترة**. 
+يتضمن Dynamics 365 Project Operations طرق عرض مخصصة لإدارة تراكم الفوترة. لإدارة تراكم الفوترة، حدد الارتباطات في منطقة **المبيعات**، ضمن **الفوترة**. 
 
 تتوفر طرق العرض التالية:
 

@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8738a4743554704ef76807c81fdefcd74e668e1b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d1ef50a3aa297ef439b54d37de629414ca66c820
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124757"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279662"
 ---
 # <a name="define-skills-and-proficiencies"></a>تحديد المهارات والكفاءات
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-المهارات هي خصائص الموارد التي تمت مشاركتها بين Dynamics 365 Project Operations و Dynamics 365 Field Service، إن وُجدت. 
+المهارات هي خصائص الموارد التي تمت مشاركتها بين Dynamics 365 Project Operations وDynamics 365 Field Service، إن وُجد. 
 
 - للاحتفاظ بمستودع المهارات في عمليات المشروع، انتقل إلى **موارد** \> **مهارات الموارد**. 
 

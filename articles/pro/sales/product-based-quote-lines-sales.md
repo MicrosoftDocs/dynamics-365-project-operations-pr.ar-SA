@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f6aa428c486f149308ad078f9d7a80a0be0f0f04
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 29d82637c6c8bb5b5cde7707d181d5b3d3b235c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178172"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272552"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>نظرة عامة على بنود عرض الأسعار القائمة على المنتج - خفيف
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
-يمكنك إنشاء بنود عرض أسعار قائمة على المنتج في Dynamics 365 Project Operations. يمكن إضافة بنود عرض الأسعار القائمة على المنتج يدويًا، أو يمكنها أو تكون عبارة عن عناصر من كتالوج المنتجات.
+يمكنك إنشاء بنود عرض أسعار مستندة إلى المنتجات في Dynamics 365 Project Operations. يمكن إضافة بنود عرض الأسعار القائمة على المنتج يدويًا، أو يمكنها أو تكون عبارة عن عناصر من كتالوج المنتجات.
 
 ## <a name="product-catalog"></a>كتالوج المنتجات
 

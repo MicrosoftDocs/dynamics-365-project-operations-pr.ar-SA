@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37377367751592fc533447748b80b124cb6548ad
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1d47be6c11ced70b94b7497dfbc0c67d1a3f631b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151327"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274982"
 ---
 # <a name="manage-resources"></a>إدارة الموارد
 
@@ -31,7 +31,7 @@ ms.locfileid: "5151327"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-يشتمل Dynamics 365 Project Service Automation على لوحة معلومات مدير موارد توفر نظرة عامة مرئية على طلب المورد واستخدامه عبر المؤسسة. يمكنك استخدام المخططات الموجودة في لوحة المعلومات هذه لتمثيل البيانات التالية:
+يتضمن Dynamics 365 Project Service Automation لوحة معلومات مدير الموارد التي توفر نظرة عامة مرئية على طلب المورد واستخدامه عبر المؤسسة. يمكنك استخدام المخططات الموجودة في لوحة المعلومات هذه لتمثيل البيانات التالية:
 
 - **طلب المورد** – يعرض مخطط **طلب المورد النشط** الموارد التي تم إرسالها. يتم تجميع الموارد حسب إما الدور أو المشروع.
 - **طلب مورد غير مرسل** – يعرض مخطط **‏‫طلب موارد غير معيّنة‬** كافة متطلبات الموارد التي لم يتم إرسالها. ويساعد مديري الموارد في عرض طلب لم يتم تأكيده وقد يتم إرساله من خلال طلب مورد.

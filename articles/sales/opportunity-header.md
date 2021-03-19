@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c58c3696ae03e8a33a25a9483825a4b7cbf850be
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181211"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277682"
 ---
 # <a name="opportunity-settings"></a>إعدادات الفرصة
 
@@ -22,7 +22,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 يلتقط رأس الفرصة أو الملخص المعلومات العامة المتعلقة بالصفقة المستندة إلى المشروع والتي يتم تطبيقها على كافة البنود في فرصة مستندة إلى المشروع.
 
-الفرص المستندة إلى المشروع في Dynamics 365 Project Operations هي ملحقات الفرص في مبيعات Dynamics 365 Sales. توفر هذه الملحقات وظائف إضافية خاصة تكون للفرص المستندة إلى المشروع. ويمكن أن تتضمن هذه الملحقات حقولا وإجراءات شريط جديدة تكون متوفرة في الفرص المستندة إلى المشروع. قد تجد أن بعض الحقول والوظائف والمنطق الافتراضي المتوفر في تطبيق في المبيعات Sales غير متوفرة في Project Operations.
+تُعد الفرص القائمة على المشروع في Dynamics 365 Project Operations بمثابة ملحقات للفرص في Dynamics 365 Sales. توفر هذه الملحقات وظائف إضافية خاصة تكون للفرص المستندة إلى المشروع. ويمكن أن تتضمن هذه الملحقات حقولا وإجراءات شريط جديدة تكون متوفرة في الفرص المستندة إلى المشروع. قد تجد أن بعض الحقول والوظائف والمنطق الافتراضي المتوفر في تطبيق في المبيعات Sales غير متوفرة في Project Operations.
 
 يتضمن الجدول التالي الحقول الموجودة في فرصة مستندة إلى مشروع والتي تكون إما فريدة في Project Operations أو قد يكون هناك بعض التغييرات الهامة عن الفرص في المبيعات Sales.
 

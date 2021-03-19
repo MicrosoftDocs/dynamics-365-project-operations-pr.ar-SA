@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118457"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277817"
 ---
 # <a name="manage-project-based-opportunities"></a>إدارة فرص مستندة إلى مشروع
 
@@ -21,7 +21,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 تعمل عادةً الشركات القائمة على المشاريع على نشر عمليات التسليم لديها عبر عدة بلدان ومناطق جغرافية. بإمكان تكلفة تنفيذ المشروع وتسليمه أن تختلف استنادًا إلى المنطقة الجغرافية أو القسم الذي يدير عملية التسليم. وبإمكان هذا الأمر أن يؤثر بدوره على هوامش الصفقة. تتضمن عملية تسليم الخدمات المستندة إلى المشروع كميات كبيرة من وقت الموارد البشرية ومصروفات باهظة للسفر وتكاليف الموارد ومصروفات أخرى.
 
-تم تصميم الفرص المستندة إلى المشروع في Dynamics 365 Project Operations مع ملحقات إلى Dynamics 365 Sales. يوفر الموضوع تفاصيل حول الحقول المختلفة ومنطق الأعمال المضمن في الوظائف الإضافية المطلوبة من قِبل الشركات القائمة على المشاريع لإدارة الفرص القائمة على المشاريع.
+تم تصميم الفرص القائمة على المشروع في Dynamics 365 Project Operations مع ملحقات إلى Dynamics 365 Sales. يوفر الموضوع تفاصيل حول الحقول المختلفة ومنطق الأعمال المضمن في الوظائف الإضافية المطلوبة من قِبل الشركات القائمة على المشاريع لإدارة الفرص القائمة على المشاريع.
 
 ## <a name="view-all-project-based-opportunities"></a>عرض جميع الفرص المستندة إلى مشروع
 

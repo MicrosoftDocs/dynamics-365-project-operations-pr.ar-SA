@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181121"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277592"
 ---
 # <a name="project-contract-settings"></a>إعدادات عقود المشروع
 
@@ -21,7 +21,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 يقدم هذا الموضوع معلومات حول الحقول التي تنطبق على عقد المشروع بكامله بما في ذلك الإعدادات التي تؤثر على جميع شروط التعاقد. يتم أيضًا تضمين معلومات حول العقد الذي تم تلخيصه عبر كافة البنود تعزيز مؤشرات الأداء الأساسية (KPI) الخاصة بعقد المشروع.
 
-يسرد الجدول التالي الحقول على عقد مشروع تعتبر فريدة لتطبيق Dynamics 365 Project Operations أو تتضمن بعض التغييرات الهامة في السلوك من عروض الأسعار في Dynamics 365 Sales.
+يسرد الجدول التالي الحقول على عقد المشروع التي تُعد فريدة في Dynamics 365 Project Operations أو تتضمن بعض التغييرات الهامة في السلوك من أوامر مبيعات Dynamics 365 Sales.
 
 | الحقل | الموقع | ‏‏الوصف | تأثير لاحق |
 | --- | --- | --- | --- |

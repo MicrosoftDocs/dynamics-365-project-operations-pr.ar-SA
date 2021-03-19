@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128267"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273812"
 ---
 # <a name="confirm-a-project-contract"></a>تأكيد عقد مشروع
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-بإمكان عقد مشروع في Dynamics 365 Project Operations أن يكون نشطًا مع السبب **مؤكد** أو مغلقًا مع السبب **خاسر**. عند تأكيد عقد مشروع، يتم تحديث الحالة من **مسودة** إلى **نشط** وسبب الحالة هو **مؤكد**. لا يمكن تحرير عقد نشط أو مغلق أو إعادة فتحه. 
+بإمكان عقد المشروع في Dynamics 365 Project Operations أن يكون نشطًا مع السبب **مؤكد**، أو مغلقًا مع السبب **خاسر**. عند تأكيد عقد مشروع، يتم تحديث الحالة من **مسودة** إلى **نشط** وسبب الحالة هو **مؤكد**. لا يمكن تحرير عقد نشط أو مغلق أو إعادة فتحه. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>التأثير المالي لتأكيد عقد مشروع
 
@@ -34,7 +34,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 إذا كان عقد المشروع الذي تم إغلاقه كخاسر يشير إلى مشروع على بنوده، توضع علامة أيضًا على هذا المشروع كمغلق. يتم إلغاء حجوزات الموارد من هذا اليوم. سيتم إلغاء أي قيم فعلية للمبيعات غير المفوترة على عقد المشروع غير الموجودة على فاتورة.
 
 > [!NOTE]
-> في Dynamics 365 Project Operations، لن يؤدي إغلاق عقد مشروع كخاسر إلى التأثير في حالة الفرصة المقترنة. ستظل الفرصة مفتوحة ويجب إغلاقها يدويًا.
+> في Dynamics 365 Project Operations، لن يؤثر إغلاق عقد مشروع كخاسر على حالة الفرصة المقترنة. ستظل الفرصة مفتوحة ويجب إغلاقها يدويًا.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

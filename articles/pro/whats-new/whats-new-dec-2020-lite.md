@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bfa13ab74031eb52c128fed16a31e3a8167e8bde
-ms.sourcegitcommit: ec8ab099a03725de9f61edfdeb90fbefae54cd4e
+ms.openlocfilehash: 383fa01a7d79989aef041a8fd68749446aeba367
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "4707657"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272192"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>الجديد في ديسمبر 2020 – النشر الخفيف Project Operations – التعامل مع الفواتير الأولية
 
@@ -52,7 +52,7 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 | تخطيط المشاريع وتعقبها | 2046317 | القدرة على إعادة تسمية كيان المشروع في Project Operations |
 | تخطيط المشاريع وتعقبها | 2057171 | رسالة خطا محدثه عندما يكون حقل **تاريخ بدء المشروع** فارغًا في صفحة **المشروع**. |
 | تخطيط المشاريع وتعقبها | 2057197 | نسخه سطر التقدير مع مرجع المهمة غير مدعومة. |
-| تخطيط المشاريع وتعقبها | 2060687 | تحذير المنطقة الزمنيه يختفي الآن بعد مده معينه. |
+| تخطيط المشاريع وتعقبها | 2060687 | تحذير المنطقة الزمنية يختفي الآن بعد مده معينه. |
 | إدارة الموارد | 1832887 | يجب أن يكون معرف فئة المورد الافتراضي ثابتًا لضمان تحميل البيانات القابلة للتكرار لـ Dataverse وبيئات Finance. |
 | الوقت والمصروفات | 2034882 | الزر **جديد** يُعرض مرتين علي شريط الأوامر لإدخالات الوقت عند تثبيت Dynamics 365 Field Service. |
 | الوقت والمصروفات | 2056028 | تحديث صفحة **تحرير الوقت** لتضمين خط زمني. |

@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121292"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277502"
 ---
 # <a name="quotes---key-concepts"></a>عروض الأسعار - المفاهيم الأساسية
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-في Dynamics 365 Project Operations، هناك نوعان من عروض الأسعار و المشروع و المبيعات. يختلف نوعي عروض الأسعار بحسب الطرق التالية:
+في Dynamics 365 Project Operations، هناك نوعان من عروض الأسعار: المشروع والمبيعات. يختلف نوعي عروض الأسعار بحسب الطرق التالية:
 
 - **شبكات البنود**: في عرض أسعار المبيعات، يوجد فقط شبكة واحدة للبنود. في عرض أسعار المشروع ، توجد شبكتان للبنود. وتوجد شبكة واحدة لخطوط المشروع والأخرى لخطوط الإنتاج.
 - **التنشيط والمراجعات**: عروض أسعار المبيعات دعم التنشيط والمراجعات. هذه العمليات غير مدعومة في عرض أسعار المشروع.

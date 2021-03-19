@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 63d9fc56f47c3bb7c5477af8f3bfa1be11a09a45
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177990"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272372"
 ---
 # <a name="quotes---key-concepts---lite"></a>عروض الأسعار - المفاهيم الأساسية - خفيف
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
 
-فيما يلي المفاهيم الأساسية التي يجب أن تكون على علم بها قبل البدء في استخدام عروض أسعار المشروع في Dynamics 365 Project Operations.
+فيما يلي المفاهيم الأساسية التي يجب أن تكون على دراية بها قبل بدء استخدام عقود المشروع في Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>الوحدة المتعاقدة
 

@@ -1,6 +1,6 @@
 ---
 title: تقارير المصروفات المعاد صياغتها
-description: يقدم هذا الموضوع معلومات حول التجربة المعاد تصميمها وصياغتها لإدخال تقرير المصروفات في Microsoft Dynamics 365 Finance. تعمل التجربة الجديدة على تبسيط عملية إكمال تقارير المصروفات وتقليل الوقت المطلوب.
+description: يقدم هذا الموضوع معلومات حول التجربة المعاد تصميمها وصياغتها لإدخال تقرير المصروفات.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960231"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271967"
 ---
 # <a name="redesigned-expense-reports"></a>تقارير المصروفات المعاد صياغتها
 
@@ -41,15 +41,9 @@ ms.locfileid: "4960231"
 - لا تتم إزالة عناصر القائمة الموجودة لتقارير المصروفات (الصفحة الحالية) أو حقول تقرير المصروفات.
 - وتستمر عمليات سير العمل وأي موافقات في الانتقال إلى صفحه تقارير المصروفات الموجودة.
 
-## <a name="getting-started-video-for-new-users"></a>مقاطع فيديو الشروع في العمل للمستخدمين الجدد
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-تم تضمين فيديو [تجربة المصروفات في Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (يظهر أعلاه) في [Finance and Operations قائمة التشغيل](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة على YouTube.
-
 ## <a name="new-features"></a>الميزات الجديدة
 
-| الميزة الجديدة | ‏‏الوصف |
+| الميزة الجديدة | الوصف  |
 |---|----|
 | رؤية حقل المصروفات | تسمح لك صفحة إعداد جديدة بتحديد الحقول التي يجب تعطيلها لمؤسسة، والحقول التي يجب أن تكون مطلوبة، والحقول الموصى بها. |
 | الحقول المطلوبة | يتيح لك التكوين البسيط الجديد جعل بعض الحقول مطلوبة من دون الحاجة إلى استخدام إطار عمل السياسة. |

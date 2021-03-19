@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d21ab159294cac66ffeb8abcf0943b4babd7b360
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c08ac3b0f24dda19489bad6e667a50b67b8ce3ec
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118907"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273632"
 ---
 # <a name="costing-product-based-quote-lines"></a>حساب تكاليف بنود عروض الأسعار المستندة إلى المنتج
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 
-تحتوي بنود عرض الأسعار القائمة على المنتج في Dynamics 365 Project Operations على حقل **سعر التكلفة**. يستخدم هذا الحقل لتتبع سعر التكلفة للمنتج في بند عرض الأسعار وحسابات الربحية اللاحقة.
+تتضمن أيضًا بنود عرض الأسعار المستندة إلى المنتج في Dynamics 365 Project Operations حقل **سعر التكلفة**. يستخدم هذا الحقل لتتبع سعر التكلفة للمنتج في بند عرض الأسعار وحسابات الربحية اللاحقة.
 
 عند إنشاء بند عرض أسعار قائم على المنتج لمنتج كتالوج، يتم تحديد تكلفة بند عرض الأسعار القائم على المنتج بشكل افتراضي من حقل **التكلفة القياسية** في كتالوج المنتجات. يتم إعداد حقل "التكلفة القياسية" في كتالوج المنتجات بالعملة الأساسية للمؤسسة. يتم تحويل تكلفة الوحدة الافتراضية في بند عرض الأسعار القائم على المنتج إلى عملة المبيعات في عرض الأسعار.
 
