@@ -18,68 +18,71 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150427"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282632"
 ---
-# <a name="schedule-resources-for-a-project-project-service"></a><span data-ttu-id="99eff-103">جدولة الموارد لمشروع (Project Service)</span><span class="sxs-lookup"><span data-stu-id="99eff-103">Schedule resources for a project (Project Service)</span></span>
+# <a name="schedule-resources-for-a-project-project-service"></a><span data-ttu-id="d223b-103">جدولة الموارد لمشروع (Project Service)</span><span class="sxs-lookup"><span data-stu-id="d223b-103">Schedule resources for a project (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="99eff-104">يمكنك التحقق من توفر الموارد للحصول على نظرة عامة حول مواردك المحجوزة، أو يمكنك تصفية طريقة العرض حسب المهارات والفريق الموقع وخيارات أخرى.</span><span class="sxs-lookup"><span data-stu-id="99eff-104">You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.</span></span>  
+<span data-ttu-id="d223b-104">يمكنك التحقق من توفر الموارد للحصول على نظرة عامة حول مواردك المحجوزة، أو يمكنك تصفية طريقة العرض حسب المهارات والفريق الموقع وخيارات أخرى.</span><span class="sxs-lookup"><span data-stu-id="d223b-104">You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.</span></span>  
   
-<span data-ttu-id="99eff-105">تعرض لوحة الجدولة قائمة الموارد ومدى توافرها.</span><span class="sxs-lookup"><span data-stu-id="99eff-105">The schedule board shows list of resources and their availability.</span></span> <span data-ttu-id="99eff-106">حدد وضع طريقة عرض لإظهار التوفر حسب **الساعات** أو **اليوم** أو **الأسبوع** أو **الشهر**.</span><span class="sxs-lookup"><span data-stu-id="99eff-106">Select a view mode to show availability by **Hours**, **Day**, **Week**, or **Month**.</span></span>  
+<span data-ttu-id="d223b-105">تعرض لوحة الجدولة قائمة الموارد ومدى توافرها.</span><span class="sxs-lookup"><span data-stu-id="d223b-105">The schedule board shows list of resources and their availability.</span></span> <span data-ttu-id="d223b-106">حدد وضع طريقة عرض لإظهار التوفر حسب **الساعات** أو **اليوم** أو **الأسبوع** أو **الشهر**.</span><span class="sxs-lookup"><span data-stu-id="d223b-106">Select a view mode to show availability by **Hours**, **Day**, **Week**, or **Month**.</span></span>  
   
-<span data-ttu-id="99eff-107">قبل استخدام لوحة الجدولة، من الضروري إعدادها.</span><span class="sxs-lookup"><span data-stu-id="99eff-107">Before you use the schedule board, it’s important to set it up.</span></span> <span data-ttu-id="99eff-108">لمزيد من المعلومات، راجع [تكوين لوحة الجدولة (Field Service أو Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).</span><span class="sxs-lookup"><span data-stu-id="99eff-108">For more information, see [Configure the schedule board (Field Service or Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).</span></span>
+<span data-ttu-id="d223b-107">قبل استخدام لوحة الجدولة، من الضروري إعدادها.</span><span class="sxs-lookup"><span data-stu-id="d223b-107">Before you use the schedule board, it’s important to set it up.</span></span> <span data-ttu-id="d223b-108">لمزيد من المعلومات، راجع [تكوين لوحة الجدولة (Field Service أو Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).</span><span class="sxs-lookup"><span data-stu-id="d223b-108">For more information, see [Configure the schedule board (Field Service or Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).</span></span>
   
-<span data-ttu-id="99eff-109">إذا كنت تستخدم إصدارًا أقدم، وللاطلاع على توفر الموارد، راجع [عرض توفر الموارد](../psa/view-resource-availability.md).</span><span class="sxs-lookup"><span data-stu-id="99eff-109">If you are using an older version, for resource availability, see [View resource availability](../psa/view-resource-availability.md).</span></span>  
+<span data-ttu-id="d223b-109">إذا كنت تستخدم إصدارًا أقدم، وللاطلاع على توفر الموارد، راجع [عرض توفر الموارد](../psa/view-resource-availability.md).</span><span class="sxs-lookup"><span data-stu-id="d223b-109">If you are using an older version, for resource availability, see [View resource availability](../psa/view-resource-availability.md).</span></span>  
 
 > [!IMPORTANT]
->  <span data-ttu-id="99eff-110">لاستخدام وظيفة الحجز على لوحة الجدولة وخدمات الترميز الجغرافي والموقع، تحتاج إلى تشغيل الخرائط.</span><span class="sxs-lookup"><span data-stu-id="99eff-110">To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.</span></span>  
+>  <span data-ttu-id="d223b-110">لاستخدام وظيفة الحجز على لوحة الجدولة وخدمات الترميز الجغرافي والموقع، تحتاج إلى تشغيل الخرائط.</span><span class="sxs-lookup"><span data-stu-id="d223b-110">To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.</span></span>  
 > 
-> 1. <span data-ttu-id="99eff-111">من القائمة الرئيسية، حدد **جدولة الموارد** > **الإدارة**.</span><span class="sxs-lookup"><span data-stu-id="99eff-111">On the main menu, select **Resource Scheduling** > **Administration**.</span></span>  
-> 2. <span data-ttu-id="99eff-112">انقر فوق **معلمات الجدولة**.</span><span class="sxs-lookup"><span data-stu-id="99eff-112">Click **Scheduling parameters**.</span></span>  
-> 3. <span data-ttu-id="99eff-113">افتح سجل وقم بالتمرير لأسفل إلى قسم **Resource Scheduling Optimization**.</span><span class="sxs-lookup"><span data-stu-id="99eff-113">Open record and scroll down to the **Resource Scheduling Optimization** section.</span></span>  
-> 4. <span data-ttu-id="99eff-114">في حقل **الاتصال بالخرائط**، اختر **نعم**.</span><span class="sxs-lookup"><span data-stu-id="99eff-114">On the **Connect to Maps** field, choose **Yes**.</span></span>  
-> 5. <span data-ttu-id="99eff-115">وافق على الشروط واحفظ السجل.</span><span class="sxs-lookup"><span data-stu-id="99eff-115">Accept terms and save the record.</span></span>  
-> 6. <span data-ttu-id="99eff-116">من القائمة الرئيسية، حدد **Project Service** > **لوحة الجدولة**.</span><span class="sxs-lookup"><span data-stu-id="99eff-116">On the main menu, select **Project Service** > **Schedule board**.</span></span> <span data-ttu-id="99eff-117">من هنا، توجد عدة طرق لجدولة متطلبات الحجز يدويًا.</span><span class="sxs-lookup"><span data-stu-id="99eff-117">From here, there are several ways to manually schedule a booking requirement.</span></span> <span data-ttu-id="99eff-118">اختر الطريقة التي تناسبك.</span><span class="sxs-lookup"><span data-stu-id="99eff-118">Choose the method that works for you.</span></span>
+> 1. <span data-ttu-id="d223b-111">من القائمة الرئيسية، حدد **جدولة الموارد** > **الإدارة**.</span><span class="sxs-lookup"><span data-stu-id="d223b-111">On the main menu, select **Resource Scheduling** > **Administration**.</span></span>  
+> 2. <span data-ttu-id="d223b-112">انقر فوق **معلمات الجدولة**.</span><span class="sxs-lookup"><span data-stu-id="d223b-112">Click **Scheduling parameters**.</span></span>  
+> 3. <span data-ttu-id="d223b-113">افتح سجل وقم بالتمرير لأسفل إلى قسم **Resource Scheduling Optimization**.</span><span class="sxs-lookup"><span data-stu-id="d223b-113">Open record and scroll down to the **Resource Scheduling Optimization** section.</span></span>  
+> 4. <span data-ttu-id="d223b-114">في حقل **الاتصال بالخرائط**، اختر **نعم**.</span><span class="sxs-lookup"><span data-stu-id="d223b-114">On the **Connect to Maps** field, choose **Yes**.</span></span>  
+> 5. <span data-ttu-id="d223b-115">وافق على الشروط واحفظ السجل.</span><span class="sxs-lookup"><span data-stu-id="d223b-115">Accept terms and save the record.</span></span>  
+> 6. <span data-ttu-id="d223b-116">من القائمة الرئيسية، حدد **Project Service** > **لوحة الجدولة**.</span><span class="sxs-lookup"><span data-stu-id="d223b-116">On the main menu, select **Project Service** > **Schedule board**.</span></span> <span data-ttu-id="d223b-117">من هنا، توجد عدة طرق لجدولة متطلبات الحجز يدويًا.</span><span class="sxs-lookup"><span data-stu-id="d223b-117">From here, there are several ways to manually schedule a booking requirement.</span></span> <span data-ttu-id="d223b-118">اختر الطريقة التي تناسبك.</span><span class="sxs-lookup"><span data-stu-id="d223b-118">Choose the method that works for you.</span></span>
   
-## <a name="find-available-resources"></a><span data-ttu-id="99eff-119">بحث عن الموارد المتوفرة</span><span class="sxs-lookup"><span data-stu-id="99eff-119">Find available resources</span></span>
+## <a name="find-available-resources"></a><span data-ttu-id="d223b-119">بحث عن الموارد المتوفرة</span><span class="sxs-lookup"><span data-stu-id="d223b-119">Find available resources</span></span>
 
-1.  <span data-ttu-id="99eff-120">من قائمة **متطلبات الحجز**، انقر بزر الماوس الأيمن فوق حجز غير مجدول، واختر واحدًا مما يلي:</span><span class="sxs-lookup"><span data-stu-id="99eff-120">From the **Booking Requirement** list, right-click an unscheduled booking and choose one of the following:</span></span>  
+1.  <span data-ttu-id="d223b-120">من قائمة **متطلبات الحجز**، انقر بزر الماوس الأيمن فوق حجز غير مجدول، واختر واحدًا مما يلي:</span><span class="sxs-lookup"><span data-stu-id="d223b-120">From the **Booking Requirement** list, right-click an unscheduled booking and choose one of the following:</span></span>  
   
-- <span data-ttu-id="99eff-121">اختر **بحث عن التوافر - الموارد الحالية‬** للبحث عن مورد متوفر من القائمة على لوحة الجدولة.</span><span class="sxs-lookup"><span data-stu-id="99eff-121">Choose **Find availability - Current Resources** to find an available resource from the list on the schedule board.</span></span>  
-- <span data-ttu-id="99eff-122">اختر **‏‫بحث عن التوافر - جميع الموارد‬**، للبحث عن مورد متوفر من الموارد في النظام</span><span class="sxs-lookup"><span data-stu-id="99eff-122">Choose **Find availability - All Resources**, to find an available resource from resources in the system</span></span>  
+- <span data-ttu-id="d223b-121">اختر **بحث عن التوافر - الموارد الحالية‬** للبحث عن مورد متوفر من القائمة على لوحة الجدولة.</span><span class="sxs-lookup"><span data-stu-id="d223b-121">Choose **Find availability - Current Resources** to find an available resource from the list on the schedule board.</span></span>  
+- <span data-ttu-id="d223b-122">اختر **‏‫بحث عن التوافر - جميع الموارد‬**، للبحث عن مورد متوفر من الموارد في النظام</span><span class="sxs-lookup"><span data-stu-id="d223b-122">Choose **Find availability - All Resources**, to find an available resource from resources in the system</span></span>  
    > [!NOTE]
-   >  <span data-ttu-id="99eff-123">عند القيام بذلك، سوف تظهر عوامل التصفية الخيارات الخاصة بمتطلبات الحجز المحدد.</span><span class="sxs-lookup"><span data-stu-id="99eff-123">When you do this, the filters will show options for the selected booking requirement.</span></span>  
+   >  <span data-ttu-id="d223b-123">عند القيام بذلك، سوف تظهر عوامل التصفية الخيارات الخاصة بمتطلبات الحجز المحدد.</span><span class="sxs-lookup"><span data-stu-id="d223b-123">When you do this, the filters will show options for the selected booking requirement.</span></span>  
   
-2. <span data-ttu-id="99eff-124">عندما تشاهد الجزء الزمني المتوفر، انقر بزر الماوس الأيمن فوق الجزء الزمني على لوحة الجدولة واختر **احجز هنا**.</span><span class="sxs-lookup"><span data-stu-id="99eff-124">When you see an available slot, right-click the time slot on the schedule board and choose **Book Here**.</span></span> <span data-ttu-id="99eff-125">أو، اعمل على سحب وإفلات متطلبات الحجز في الجزء الزمني المتاح.</span><span class="sxs-lookup"><span data-stu-id="99eff-125">Or, drag and drop the booking requirement to the available time slot.</span></span>  
+2. <span data-ttu-id="d223b-124">عندما تشاهد الجزء الزمني المتوفر، انقر بزر الماوس الأيمن فوق الجزء الزمني على لوحة الجدولة واختر **احجز هنا**.</span><span class="sxs-lookup"><span data-stu-id="d223b-124">When you see an available slot, right-click the time slot on the schedule board and choose **Book Here**.</span></span> <span data-ttu-id="d223b-125">أو، اعمل على سحب وإفلات متطلبات الحجز في الجزء الزمني المتاح.</span><span class="sxs-lookup"><span data-stu-id="d223b-125">Or, drag and drop the booking requirement to the available time slot.</span></span>  
   
 
-## <a name="book-a-resource-using-the-daily-view-and-find-whos-under-booked"></a><span data-ttu-id="99eff-126">حجز مورد باستخدام طريقة العرض اليومية والبحث عن مورد غير محجوز بشكل كافٍ</span><span class="sxs-lookup"><span data-stu-id="99eff-126">Book a resource using the daily view and find who’s under-booked</span></span>
+## <a name="book-a-resource-using-the-daily-view-and-find-whos-under-booked"></a><span data-ttu-id="d223b-126">حجز مورد باستخدام طريقة العرض اليومية والبحث عن مورد غير محجوز بشكل كافٍ</span><span class="sxs-lookup"><span data-stu-id="d223b-126">Book a resource using the daily view and find who’s under-booked</span></span>
   
-1.  <span data-ttu-id="99eff-127">في لوحة الجدولة، حدد **وضع العرض** وحدد **أيام**.</span><span class="sxs-lookup"><span data-stu-id="99eff-127">On the schedule board, select **View Mode** and select **Days**.</span></span>  
+1.  <span data-ttu-id="d223b-127">في لوحة الجدولة، حدد **وضع العرض** وحدد **أيام**.</span><span class="sxs-lookup"><span data-stu-id="d223b-127">On the schedule board, select **View Mode** and select **Days**.</span></span>  
   
-    <span data-ttu-id="99eff-128">يؤدي ذلك إلى إظهار طريقة عرض الشبكة حيث يظهر عدد الساعات التي تم فيها حجز مورد في اليوم والأيام التي يكون فيها هذا المورد غير محجوز.</span><span class="sxs-lookup"><span data-stu-id="99eff-128">This shows a grid view of how many hours a resource is booked per day and which days they are free.</span></span>  
+    <span data-ttu-id="d223b-128">يؤدي ذلك إلى إظهار طريقة عرض الشبكة حيث يظهر عدد الساعات التي تم فيها حجز مورد في اليوم والأيام التي يكون فيها هذا المورد غير محجوز.</span><span class="sxs-lookup"><span data-stu-id="d223b-128">This shows a grid view of how many hours a resource is booked per day and which days they are free.</span></span>  
   
-2.  <span data-ttu-id="99eff-129">انقر فوق اسم المورد الذي تريد حجزه، ثم حدد **حجز**.</span><span class="sxs-lookup"><span data-stu-id="99eff-129">Click the name of the resource you want to book, and then select **Book**.</span></span>  
+2.  <span data-ttu-id="d223b-129">انقر فوق اسم المورد الذي تريد حجزه، ثم حدد **حجز**.</span><span class="sxs-lookup"><span data-stu-id="d223b-129">Click the name of the resource you want to book, and then select **Book**.</span></span>  
   
-3.  <span data-ttu-id="99eff-130">في مربع الحوار **حجز المورد (إنشاء)**، اختر المشروع الذي تريد حجز المورد له إلى جانب أسلوب الحجز وأوقات البدء والانتهاء.</span><span class="sxs-lookup"><span data-stu-id="99eff-130">On the **Resource booking (create)** dialog box, choose the project that you want to book the resource for along with booking method and start and end times.</span></span>  
+3.  <span data-ttu-id="d223b-130">في مربع الحوار **حجز المورد (إنشاء)**، اختر المشروع الذي تريد حجز المورد له إلى جانب أسلوب الحجز وأوقات البدء والانتهاء.</span><span class="sxs-lookup"><span data-stu-id="d223b-130">On the **Resource booking (create)** dialog box, choose the project that you want to book the resource for along with booking method and start and end times.</span></span>  
   
-4.  <span data-ttu-id="99eff-131">عند الانتهاء، حدد **حجز**.</span><span class="sxs-lookup"><span data-stu-id="99eff-131">When you’re done, select **Book**.</span></span>  
+4.  <span data-ttu-id="d223b-131">عند الانتهاء، حدد **حجز**.</span><span class="sxs-lookup"><span data-stu-id="d223b-131">When you’re done, select **Book**.</span></span>  
   
-## <a name="view-to-the-schedule-board"></a><span data-ttu-id="99eff-132">عرض لوحة الجدولة</span><span class="sxs-lookup"><span data-stu-id="99eff-132">View to the schedule board</span></span>
+## <a name="view-to-the-schedule-board"></a><span data-ttu-id="d223b-132">عرض لوحة الجدولة</span><span class="sxs-lookup"><span data-stu-id="d223b-132">View to the schedule board</span></span>
   
-1.  <span data-ttu-id="99eff-133">اسحب متطلبات حجز غير مجدول من القائمة في الأسفل.</span><span class="sxs-lookup"><span data-stu-id="99eff-133">Select an unscheduled booking requirement from the list at the bottom.</span></span>  
+1.  <span data-ttu-id="d223b-133">اسحب متطلبات حجز غير مجدول من القائمة في الأسفل.</span><span class="sxs-lookup"><span data-stu-id="d223b-133">Select an unscheduled booking requirement from the list at the bottom.</span></span>  
   
-2.  <span data-ttu-id="99eff-134">اسحب متطلبا الحجز إلى مورد/جزء زمني متوفر على لوحة الجدولة.</span><span class="sxs-lookup"><span data-stu-id="99eff-134">Drag the booking requirement to an available resource/time slot on the schedule board.</span></span>  
+2.  <span data-ttu-id="d223b-134">اسحب متطلبا الحجز إلى مورد/جزء زمني متوفر على لوحة الجدولة.</span><span class="sxs-lookup"><span data-stu-id="d223b-134">Drag the booking requirement to an available resource/time slot on the schedule board.</span></span>  
   
-3.  <span data-ttu-id="99eff-135">عند الانتهاء، حدد **حجز**.</span><span class="sxs-lookup"><span data-stu-id="99eff-135">When you're done, select **Book**.</span></span>  
+3.  <span data-ttu-id="d223b-135">عند الانتهاء، حدد **حجز**.</span><span class="sxs-lookup"><span data-stu-id="d223b-135">When you're done, select **Book**.</span></span>  
   
-### <a name="additional-resources"></a><span data-ttu-id="99eff-136">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="99eff-136">Additional resources</span></span>  
- [<span data-ttu-id="99eff-137">دليل إدارة الموارد</span><span class="sxs-lookup"><span data-stu-id="99eff-137">Resource manager guide</span></span>](../psa/resource-manager-guide.md)
+### <a name="additional-resources"></a><span data-ttu-id="d223b-136">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="d223b-136">Additional resources</span></span>  
+ [<span data-ttu-id="d223b-137">دليل إدارة الموارد</span><span class="sxs-lookup"><span data-stu-id="d223b-137">Resource manager guide</span></span>](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
