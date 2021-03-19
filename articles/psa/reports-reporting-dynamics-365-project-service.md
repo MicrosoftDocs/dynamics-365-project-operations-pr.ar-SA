@@ -18,20 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147682"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283262"
 ---
-# <a name="reporting-home-page"></a>الصفحة الرئيسية للتقارير
+# <a name="reporting-home-page"></a>الصفحة الرئيسية لإعداد التقارير
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-يتيح Microsoft Dynamics 365 Project Service Automation للمؤسسات المستندة إلى الشاريع إدارة عمليات أعمالها بكفاءة. في أي مشروع، يجب أن يقوم أعضاء الفريق بإدارة الفرصة وعرض الأسعار وتخطيط العمل وإدارة العمل وفقًا للخطة وفاتورة العمل، ثم القيام بالعمل لإكمال المشروع. تعد القدرة على الإبلاغ عن العمليات أساسية لتحديد صحة المؤسسة واتخاذ أي إجراء تصحيحي مطلوب. يقوم PSA باستخدام أساليب وتقنيات إعداد التقارير في Microsoft Dynamics 365 فيما يتعلق بجميع التقارير الخاصة به. لمزيد من المعلومات حول الخيارات الخاصة بإعداد التقارير، راجع [دليل كتابة التقارير Dynamics 365 Customer Engagement (on-premises)، الإصدار 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+يسمح Microsoft Dynamics 365 Project Service Automation للمؤسسات المستندة إلى المشاريع بإدارة عمليات أعمالها بكفاءة. في أي مشروع، يجب أن يقوم أعضاء الفريق بإدارة الفرصة وعرض الأسعار وتخطيط العمل وإدارة العمل وفقًا للخطة وفاتورة العمل، ثم القيام بالعمل لإكمال المشروع. تعد القدرة على الإبلاغ عن العمليات أساسية لتحديد صحة المؤسسة واتخاذ أي إجراء تصحيحي مطلوب. يقوم PSA باستخدام أساليب وتقنيات إعداد التقارير في Microsoft Dynamics 365 فيما يتعلق بجميع التقارير الخاصة به. لمزيد من المعلومات حول الخيارات الخاصة بإعداد التقارير، راجع [دليل كتابة التقارير Dynamics 365 Customer Engagement (on-premises)، الإصدار 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>معالج التقارير
 
@@ -43,7 +43,7 @@ ms.locfileid: "5147682"
 
 ## <a name="power-bi-insights-apps"></a>تطبيقات Power BI insights 
 
-يمنحك Microsoft Power BI وDynamics 365 معًا طريقة فعالية للعمل مع بياناتك، في شكل تطبيقات المعارف الدقيقة. للحصول على معلومات حول توفر تطبيقات المعارف الدقيقة، راجع [صفحة تطبيقات Power BI insights](https://powerbi.microsoft.com/power-bi-insights-apps/).
+يمنحك كل من Microsoft Power BI وDynamics 365 طريقة فعالة للعمل مع بياناتك، على شكل تطبيقات المعارف الدقيقة. للحصول على معلومات حول توفر تطبيقات المعارف الدقيقة، راجع [صفحة تطبيقات Power BI insights](https://powerbi.microsoft.com/power-bi-insights-apps/).
 
 
 ## <a name="additional-resources"></a>الموارد الإضافية

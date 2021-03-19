@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147637"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283217"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>العمل مع نموذج بيانات Project Service Automation
 
@@ -87,7 +87,7 @@ ms.locfileid: "5147637"
 
 ## <a name="reporting-on-resources"></a>إعداد التقارير حول الموارد
 
-تستخدم موارد المشاريع كيانات **الموارد القابلة للحجز** من Universal Resource Scheduling (URS) التي تتم مشاركتها مع تطبيقات أخرى، مثل Microsoft Dynamics 365 Field Service. فيما يلي قائمة بالكيانات التي قد يتعين عليك استخدامها عند إرسال تقرير حول موارد المشروع:
+تستخدم موارد المشروع كيانات **الموارد القابلة للحجز** من Universal Resource Scheduling (URS) المشتركة مع تطبيقات أخرى، مثل Microsoft Dynamics 365 Field Service. فيما يلي قائمة بالكيانات التي قد يتعين عليك استخدامها عند إرسال تقرير حول موارد المشروع:
 
 - **المورد القابل للحجز** – يمثل هذا الكيان المستخدم أو جهة الاتصال أو المورد العام أو الحساب أو المجموعة أو المعدات التي يتم استخدامها في فريق المشروع.
 - **خصائص الموارد القابلة للحجز** – يتضمن هذا الكيان المهارات أو الشهادات أو التعليم الخاص بالمورد. يمكن أن تحتوي الخصائص على قيم تصنيف يتم تعريفها بواسطة نموذج التصنيف.

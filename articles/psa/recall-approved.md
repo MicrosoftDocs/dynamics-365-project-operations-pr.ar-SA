@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f9bb25ac9ef7b400063c5f958311e475de6f6506
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1a199985099745b2e62b844ef748ea2031054458
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147817"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283442"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>استرجاع إدخالات الوقت أو المصروفات المعتمدة
 
@@ -45,7 +45,7 @@ ms.locfileid: "5147817"
 
     بالنسبة لإدخالات المصروفات، انتقل إلى **المشاريع**\> **عملي** \> **المصروفات**.
 
-2. بالنسبة لإدخالات الوقت، حدد كافة الإدخالات الزمنيه الخاصة بمجموعه معينة من المشروع والمهمة. أو بدلا من ذلك، في الشبكة ، حدد الخلايا الفردية للوقت في تاريخ محدد لمشروع محدد.
+2. بالنسبة لإدخالات الوقت، حدد كافة الإدخالات الزمنية الخاصة بمجموعه معينة من المشروع والمهمة. أو بدلا من ذلك، في الشبكة ، حدد الخلايا الفردية للوقت في تاريخ محدد لمشروع محدد.
 
     -أو-
 
