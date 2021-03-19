@@ -1,0 +1,56 @@
+---
+title: الجديد في مارس 2021 - Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة‬
+description: يوفر هذا الموضوع معلومات حول التحديثات الإصلاحية المتوفرة في إصدار مارس 2021 من Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة.‬
+author: sigitac
+manager: tfehr
+ms.date: 03/03/2021
+ms.topic: article
+ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 95a9251707de3699322471535aa93070ba4fb2ae
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499971"
+---
+# <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a><span data-ttu-id="31b84-103">الجديد في مارس 2021 - Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة‬</span><span class="sxs-lookup"><span data-stu-id="31b84-103">What's new March 2021 - Project Operations for resource/non-stocked based scenarios</span></span>
+
+<span data-ttu-id="31b84-104">_**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_</span><span class="sxs-lookup"><span data-stu-id="31b84-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="31b84-105">ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:</span><span class="sxs-lookup"><span data-stu-id="31b84-105">This topic applies to the following Dynamics 365 Project Operations components and versions:</span></span>
+
+- <span data-ttu-id="31b84-106">Project Operations على بيئة Dataverse الإصدار 4.8.0.91</span><span class="sxs-lookup"><span data-stu-id="31b84-106">Project Operations on Dataverse environment version 4.8.0.91</span></span> 
+- <span data-ttu-id="31b84-107">إدارة المشاريع والمحاسبة في الإصدار 10.0.16 من بيئة Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="31b84-107">Project management and accounting on Dynamics 365 Finance environment version 10.0.16</span></span> 
+
+## <a name="quality-updates"></a><span data-ttu-id="31b84-108">التحديثات الإصلاحية</span><span class="sxs-lookup"><span data-stu-id="31b84-108">Quality updates</span></span>
+
+### <a name="project-operations-on-dataverse"></a><span data-ttu-id="31b84-109">Project Operations على Dataverse</span><span class="sxs-lookup"><span data-stu-id="31b84-109">Project Operations on Dataverse</span></span>
+
+
+| <span data-ttu-id="31b84-110">**منطقة الميزات**</span><span class="sxs-lookup"><span data-stu-id="31b84-110">**Feature area**</span></span> | <span data-ttu-id="31b84-111">**رقم المرجع**</span><span class="sxs-lookup"><span data-stu-id="31b84-111">**Reference number**</span></span> | <span data-ttu-id="31b84-112">**تحديث إصلاحي**</span><span class="sxs-lookup"><span data-stu-id="31b84-112">**Quality update**</span></span> |
+| --- | --- | --- |
+| <span data-ttu-id="31b84-113">الفوترة والتسعير</span><span class="sxs-lookup"><span data-stu-id="31b84-113">Billing and pricing</span></span> | <span data-ttu-id="31b84-114">2133873 </span><span class="sxs-lookup"><span data-stu-id="31b84-114">2133873</span></span> | <span data-ttu-id="31b84-115">تم إصلاح عرض رمز عملة **سعر مبيعات الوحدة** في شبكة **تقديرات المصروفات**.</span><span class="sxs-lookup"><span data-stu-id="31b84-115">Fixed the display of **Unit Sales Price** currency symbol in the **Expense Estimates** grid.</span></span> |
+| <span data-ttu-id="31b84-116">الفوترة والتسعير</span><span class="sxs-lookup"><span data-stu-id="31b84-116">Billing and pricing</span></span> | <span data-ttu-id="31b84-117">2174616 </span><span class="sxs-lookup"><span data-stu-id="31b84-117">2174616</span></span> | <span data-ttu-id="31b84-118">عندما يفوز أحد عروض الأسعار، يُشار إلى قائمة أسعار العرض المخصصة على تفاصيل شروط التعاقد المنسوخة من عرض الأسعار.</span><span class="sxs-lookup"><span data-stu-id="31b84-118">When a quote is won, the contract custom pricelist is referenced on contract line details that are copied from the quote.</span></span> |
+| <span data-ttu-id="31b84-119">إدارة الفرص</span><span class="sxs-lookup"><span data-stu-id="31b84-119">Opportunity Management</span></span> | <span data-ttu-id="31b84-120">2167475 </span><span class="sxs-lookup"><span data-stu-id="31b84-120">2167475</span></span> | <span data-ttu-id="31b84-121">تم إصلاح مبلغ الضريبة في فاتورة التصحيح التي أنشأت إدخالاً فعليًا غير مفوتر.</span><span class="sxs-lookup"><span data-stu-id="31b84-121">Fixed tax amount in the correction invoice that originated an unbilled actual entry.</span></span> |
+| <span data-ttu-id="31b84-122">إدارة الفرص</span><span class="sxs-lookup"><span data-stu-id="31b84-122">Opportunity Management</span></span> | <span data-ttu-id="31b84-123">2176285 </span><span class="sxs-lookup"><span data-stu-id="31b84-123">2176285</span></span> | <span data-ttu-id="31b84-124">يجب عدم نسخ مبلغ الضريبة من تفاصيل بنود عقد المبيعات/عرض الأسعار إلى تفاصيل بنود عقد التكلفة/عرض الأسعار.</span><span class="sxs-lookup"><span data-stu-id="31b84-124">Tax amount must not be copied from sales contract/quote line details to cost contract/quote line details.</span></span> |
+| <span data-ttu-id="31b84-125">إدارة الفرص</span><span class="sxs-lookup"><span data-stu-id="31b84-125">Opportunity Management</span></span> | <span data-ttu-id="31b84-126">2188079 </span><span class="sxs-lookup"><span data-stu-id="31b84-126">2188079</span></span> | <span data-ttu-id="31b84-127">يجب عدم إنشاء قاعدة تقسيم الفوترة في العقود غير المستندة إلى العمل.</span><span class="sxs-lookup"><span data-stu-id="31b84-127">Split billing rule must not be created for contracts that are not work-based.</span></span> |
+| <span data-ttu-id="31b84-128">التخطيط والتعقب</span><span class="sxs-lookup"><span data-stu-id="31b84-128">Planning and Tracking</span></span> | <span data-ttu-id="31b84-129">2125274 </span><span class="sxs-lookup"><span data-stu-id="31b84-129">2125274</span></span> | <span data-ttu-id="31b84-130">تم تحديث سمة **تعيين الكتابة المزدوجة للمشروع** في **تعيين تاريخ بدء المشروع** من **msdyn\_taskearlieststart** إلى **msdyn\_actualstart**.</span><span class="sxs-lookup"><span data-stu-id="31b84-130">**Project Dual Write Map** attribute for **Project Start Date Mapping** updated from **msdyn\_taskearlieststart** to **msdyn\_actualstart**.</span></span> |
+| <span data-ttu-id="31b84-131">التخطيط والتعقب</span><span class="sxs-lookup"><span data-stu-id="31b84-131">Planning and Tracking</span></span> | <span data-ttu-id="31b84-132">2138853 </span><span class="sxs-lookup"><span data-stu-id="31b84-132">2138853</span></span> | <span data-ttu-id="31b84-133">تم تحديث وظيفة نسخ المشروع لضمان نسخ بنود تقدير المصروفات التي تشير إلى المهام إلى المشروع الوجهة.</span><span class="sxs-lookup"><span data-stu-id="31b84-133">Project copy function updated to ensure expense estimate lines that reference tasks are copied to the destination project.</span></span> |
+| <span data-ttu-id="31b84-134">التخطيط والتعقب</span><span class="sxs-lookup"><span data-stu-id="31b84-134">Planning and Tracking</span></span> | <span data-ttu-id="31b84-135">2154306 </span><span class="sxs-lookup"><span data-stu-id="31b84-135">2154306</span></span> | <span data-ttu-id="31b84-136">تم إصلاح مشاكل تتعلق بتقديرات المصروفات في Project Operations للسيناريوهات القائمة على الموارد.</span><span class="sxs-lookup"><span data-stu-id="31b84-136">Fixed issues with deleting expense estimates in Project Operations for resource-based scenarios.</span></span> |
+| <span data-ttu-id="31b84-137">التخطيط والتعقب</span><span class="sxs-lookup"><span data-stu-id="31b84-137">Planning and Tracking</span></span> | <span data-ttu-id="31b84-138">2173259 </span><span class="sxs-lookup"><span data-stu-id="31b84-138">2173259</span></span> | <span data-ttu-id="31b84-139">تم تحديث وظيفة نسخ المشروع لضمان أنها لا تعرض رسالة الخطأ **جارٍ نسخ WBS‎‬** في سيناريوهات معينة.</span><span class="sxs-lookup"><span data-stu-id="31b84-139">Project copy function updated to ensure it doesn't display **Copying WBS** error message in certain scenarios.</span></span> |
+| <span data-ttu-id="31b84-140">الوقت والمصروفات</span><span class="sxs-lookup"><span data-stu-id="31b84-140">Time and Expense</span></span> | <span data-ttu-id="31b84-141">2148910 </span><span class="sxs-lookup"><span data-stu-id="31b84-141">2148910</span></span> | <span data-ttu-id="31b84-142">تم إصلاح مشكلة عرض في صفحة **تحرير الإدخال** في شبكة **إدخال الوقت**.</span><span class="sxs-lookup"><span data-stu-id="31b84-142">Fixed display issue with the **Edit Entry** page in the **Time Entry** grid.</span></span> |
+| <span data-ttu-id="31b84-143">الوقت والمصروفات</span><span class="sxs-lookup"><span data-stu-id="31b84-143">Time and Expense</span></span> | <span data-ttu-id="31b84-144">2159798 </span><span class="sxs-lookup"><span data-stu-id="31b84-144">2159798</span></span> | <span data-ttu-id="31b84-145">تم تشديد عناصر التحكم لضمان عدم تحرير إدخالات المصروفات الموافق عليها.</span><span class="sxs-lookup"><span data-stu-id="31b84-145">Tightened controls to ensure approved expense entries can't be edited.</span></span> |
+
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a><span data-ttu-id="31b84-146">إدارة المشاريع والمحاسبة في Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="31b84-146">Project management and accounting on Dynamics 365 Finance</span></span>
+
+<span data-ttu-id="31b84-147">لمزيد من المعلومات، راجع [الجديد في يناير 2021 - Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة‬](whats-new-jan-2021-resource-based.md).</span><span class="sxs-lookup"><span data-stu-id="31b84-147">For more information, see [What's new January 2021 - Project Operations for resource/non-stocked based scenarios](whats-new-jan-2021-resource-based.md).</span></span>
+
+## <a name="regulatory-updates"></a><span data-ttu-id="31b84-148">التحديثات التنظيمية</span><span class="sxs-lookup"><span data-stu-id="31b84-148">Regulatory updates</span></span>
+
+<span data-ttu-id="31b84-149">لمزيد من المعلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates).</span><span class="sxs-lookup"><span data-stu-id="31b84-149">For information about regulatory updates for Finance and Operations apps, see [Regulatory updates](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates).</span></span> <span data-ttu-id="31b84-150">من الطرق الأخرى للتعرف على التحديثات التنظيمية تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخطط لها باستخدام أداة البحث عن المشكلة.</span><span class="sxs-lookup"><span data-stu-id="31b84-150">Another way to learn about regulatory updates is to sign in to LCS and view the planned regulatory updates using the issue search tool.</span></span> <span data-ttu-id="31b84-151">تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.</span><span class="sxs-lookup"><span data-stu-id="31b84-151">Issue search lets you search by country, type of feature, and release.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
