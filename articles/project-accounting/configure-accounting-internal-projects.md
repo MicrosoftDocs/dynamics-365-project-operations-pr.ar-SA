@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9f1cc75b12fec81d726e46f8d970dcfe030f6b29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 65d05e3a6321dc32aee55c28b3eaa4bd0bae2f86
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287582"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857962"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>تكوين المحاسبة للمشروعات الداخلية
 
@@ -28,6 +28,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 - يتم ترحيل حركات الوقت عبر الخصم من حساب **التكلفة** وإضافته إلى حساب **توزيع كشف الرواتب**.
 - يتم ترحيل حركات المصروفات عبر الخصم من حساب **التكلفة** وإضافته إلى **الحساب المقابل للمصروفات**.
+- يتم ترحيل حركات الأصناف عن طريق الخصم من حساب **التكلفة** والإضافة إلى حساب **التكلفة - الصنف**.
 
 بعد ترحيل الحركات إلى المشروع، إذا كان المشروع مقترنًا بعقد مشروع، سيقوم النظام بعكس كافة الحركات التراكمية وإنشاء حركات جديدة قابلة للفوترة. تتبع الحركات القابلة للفوترة القواعد المحاسبية المحددة في ملف تعريف إيرادات وتكلفة المشروع.
 

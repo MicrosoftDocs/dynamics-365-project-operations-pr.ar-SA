@@ -3,7 +3,7 @@ title: إعادة صياغة تقارير المصروفات
 description: يشرح هذا الموضوع التجربة المعاد تصميمها والمعاد صياغتها لإدخال تقرير المصروفات.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499700"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717679"
 ---
 # <a name="expense-reports-reimagined"></a>إعادة صياغة تقارير المصروفات
 
@@ -41,15 +41,11 @@ ms.locfileid: "5499700"
 - لا تتم إزالة عناصر القائمة الموجودة لتقارير المصروفات (الصفحة الحالية) أو حقول تقرير المصروفات.
 - وتستمر عمليات سير العمل وأي موافقات في الانتقال إلى صفحه تقارير المصروفات الموجودة.
 
-## <a name="getting-started-video-for-new-users"></a>مقاطع فيديو الشروع في العمل للمستخدمين الجدد
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-تم تضمين فيديو [تجربة المصروفات في Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (يظهر أعلاه) في [Finance and Operations قائمة التشغيل](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة على YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>الميزات الجديدة
 
-| الميزة الجديدة | ‏‏الوصف |
+| الميزة الجديدة | الوصف  |
 |---|----|
 | رؤية حقل المصروفات | تسمح لك صفحة إعداد جديدة بتحديد الحقول التي يجب تعطيلها لمؤسسة، والحقول التي يجب أن تكون مطلوبة، والحقول الموصى بها. |
 | الحقول المطلوبة | يتيح لك التكوين البسيط الجديد جعل بعض الحقول مطلوبة من دون الحاجة إلى استخدام إطار عمل السياسة. |

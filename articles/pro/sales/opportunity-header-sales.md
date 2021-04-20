@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6631e136572b958ca616d708a5e3c3c2d9f2675c
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272687"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663803"
 ---
-# <a name="opportunity-header---lite"></a>رأس الفرصة - خفيف
+# <a name="header-details-for-project-opportunities"></a>تفاصيل الرأس لفرص المشروع
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 

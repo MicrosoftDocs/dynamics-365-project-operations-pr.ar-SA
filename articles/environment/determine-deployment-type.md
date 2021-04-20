@@ -1,19 +1,19 @@
 ---
-title: تحديد نوع التوزيع
+title: تحديد نوع النشر
 description: يوفر هذا الموضوع معلومات لمساعدتك على تحديد نوع نشر Project Operations الصحيح لشركتك.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479548"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663578"
 ---
 # <a name="determine-your-deployment-type"></a>تحديد نوع التوزيع
 
@@ -44,7 +44,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 - [Project Operations لسيناريوهات الموارد/المنتجات غير المخزنة](#integrated)
 - [Project Operations لسيناريوهات المنتجات المخزنة/أوامر الإنتاج](#pma)
 
-يدعم Project Operations دعم سيناريوهات المنتجات المخزنة/أوامر الإنتاج‬ والسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬ على البيئة نفسها من خلال تكوينات على مستوى الكيان القانوني. على سبيل المثال، بإمكان شركة Contoso الاستفادة من إمكانيات المنتجات المخزنة/أمر الإنتاج في مصنعها في الولايات المتحدة (الكيان القانوني = Contoso Manufacturing United States). بإمكان شركة Contoso استخدام الإمكانيات المستندة إلى موارد/منتجات غير مخزنة‬ في مصنع Contoso Robotics Arms في المملكة المتحدة (الكيان القانوني = Contoso Robotics United Kingdom).‬
+يدعم Project Operations دعم سيناريوهات المنتجات المخزنة/أوامر الإنتاج‬ والسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬ على البيئة نفسها من خلال تكوينات على مستوى الكيان القانوني. على سبيل المثال، بإمكان شركة Contoso استخدام قدرات المنتجات المخزنة/أوامر الإنتاج في منشأة التصنيع الخاصة بها في الولايات المتحدة (الكيان القانوني = Contoso Manufacturing United States). بإمكان شركة Contoso استخدام القدرات القائمة على المنتجات غير المخزنة/الموارد في منشأة الصيانة Contoso Robotics Arms في المملكة المتحدة (الكيان القانوني = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>النشر الخفيف – التعامل مع الفواتير الأولية
 
@@ -56,7 +56,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 - إدارة الموارد الموحدة
 - تعقب الوقت
 - المصروفات الأساسية
-- الفواتير الأولية والفواتير الموجهة للعملاء 
+- مراجعة وتحرير الفواتير الأولية لمدير المشروع 
 
 #### <a name="deployment-steps"></a>خطوات التوزيع
 تحديد أفضل نموذج لنشر Project Operations باستخدام [استبيان النشر](https://aka.ms/provisionprojectoperations).
@@ -84,7 +84,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 بالنسبة لهذا النشر، راجع [التسجيل للحصول على اشتراكات في المعاينة](resource-sign-up-preview-subscription.md) و[تزويد بيئة جديدة](resource-provision-new-environment.md). 
 
 
-### <a name="project-operations-for-stockedproduction-order-scenarios"></a><a name="pma"></a>Project Operations لسيناريوهات المنتجات المخزنة/أوامر الإنتاج
+### <a name="project-operations-for-stockedproduction-order-scenarios"></a><a name="pma"></a>Project Operations لسيناريوهات المنتجات المخزونة/أوامر الإنتاج
 
 - تخطيط المشروع باستخدام WBS
 - إدارة الموارد
@@ -92,9 +92,9 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 - المصروفات الكاملة
 - OCR الإيصال
 - الفوترة الكاملة
-- التعرف على الإيرادات
+- إقرار الإيرادات
 - أوامر الإنتاج
-- دعم المواد
+- دعم المواد المخزنة مع المخزون
 
 #### <a name="deployment-steps"></a>خطوات التوزيع
 تحديد أفضل نموذج لنشر Project Operations باستخدام [استبيان النشر](https://aka.ms/provisionprojectoperations).
