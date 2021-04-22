@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: الجديد‬
       items:
+        - name: أبريل 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-apr-2021-resource-based.md
         - name: مارس 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: فبراير 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
@@ -64,7 +66,7 @@
           items:
             - name: نظرة عامة على إدارة فرص المشروع
               href: sales/manage-project-based-opportunities.md
-            - name: إعدادات الفرصة المستندة إلى مشروع
+            - name: تفاصيل الرأس للفرص المستندة إلى المشروع
               href: sales/opportunity-header.md
             - name: بنود الفرصة المستندة إلى المشروع
               href: sales/project-based-lines.md
@@ -78,23 +80,27 @@
           items:
             - name: نظرة عامة على إدارة عروض أسعار المشروع
               href: pro/sales/manage-quotes-sales.md
-            - name: مفاهيم عروض أسعار المشروع
+            - name: مفاهيم فريدة لعروض الأسعار المستندة إلى المشروع
               href: sales/quotes-key-concepts.md
-            - name: إعدادات عروض أسعار المشروع
+            - name: تفاصيل الرأس لعروض الأسعار المستندة إلى المشروع
               href: sales/quote-values-budget-limits-contract.md
-            - name: إدارة عدة عملاء على بند عرض أسعار المشروع
+            - name: إدارة عدة عملاء على عرض أسعار المشروع
               href: sales/manage-multiple-customers-quote.md
             - name: إدارة قوائم أسعار المشروع على عرض أسعار
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: بنود عرض الأسعار القائم على المشروع
               items:
                 - name: نظرة عامة على بنود عرض الأسعار القائم على المشروع
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: إدارة عدة عملاء على بنود عرض الأسعار القائم على المشروع
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: تعيين المشاريع والمهام إلى بنود عرض أسعار قائم على المشروع
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: تكوين المكونات الخاضعة للرسوم لبنود عرض أسعار قائم على المشروع
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: تكوين المكونات الخاضعة للرسوم لبند عرض أسعار المشروع
                   href: sales/configure-chargeable-quoteline.md
-                - name: إنشاء تقديرات في بند عرض أسعار
+                - name: تقدير بند عرض أسعار المشروع
                   href: sales/create-estimate-quote-line.md
                 - name: استيراد التقديرات من مشروع إلى بند عرض أسعار قائم على المشروع
                   href: sales/import-estimate-quote-line.md
@@ -108,9 +114,9 @@
           items:
             - name: نظرة عامة على إدارة عقود المشروع
               href: pro/sales/manage-contracts-sales.md
-            - name: مفاهيم عقود المشروع
+            - name: مفاهيم فريدة للعقود المستندة إلى المشروع
               href: sales/contracts-key-concepts.md
-            - name: إعدادات عقود المشروع
+            - name: تفاصيل الرأس للعقود المستندة إلى المشروع
               href: sales/project-contract-settings.md
             - name: إدارة قوائم أسعار المشروع على عقود المشروع
               href: sales/contracts-manage-project-price-lists.md
@@ -119,12 +125,14 @@
             - name: شروط التعاقد المستندة إلى المشروع
               items:
                 - name: نظرة عامة على شروط التعاقد المستندة إلى المشروع
-                  href: sales/manage-contract-values-project-based.md
+                  href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: إدارة عدة عملاء على شروط التعاقد المستندة إلى المشروع
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: تكوين المكونات الخاضعة للرسوم لشروط التعاقد المستندة إلى المشروع
-                  href: sales/configure-chargeable-contract-line.md
-                - name: تقدير شروط التعاقد المستندة إلى المشروع
+                - name: تعيين المشاريع والمهام على شروط تعاقد المشروع
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: تكوين مكونات خاضعة للرسوم لشروط تعاقد المشروع
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: تقدير شروط تعاقد المشروع
                   href: sales/create-estimate-contract-line.md
                 - name: استيراد التقديرات من مشروع إلى شروط التعاقد المستندة إلى المشروع
                   href: sales/import-estimate-project-contract-line.md
@@ -132,8 +140,6 @@
                   href: sales/invoice-schedules-contract-line.md
             - name: تأكيد عقد مشروع
               href: pro/sales/confirm-contract-sales.md
-            - name: نسخ عقد مشروع
-              href: pro/sales/copy-project-contracts-sales.md
             - name: مقدمات الأتعاب والسُلف
               items:
                 - name: إعداد السلف والعقود المستندة إلى مقدم الأتعاب
@@ -146,16 +152,16 @@
       items:
         - name: إعداد قائمة الأسعار
           items:
-            - name: إعداد قوائم الأسعار
+            - name: تعريف قائمة الأسعار
               href: pricing-costing/price-list-setup.md
-            - name: قوائم أسعار المنتجات
-              href: pricing-costing/product-price-list.md
             - name: إعداد معدلات فواتير العمالة
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: إعداد معدلات تكلفة العمالة
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: إعداد معدلات التكلفة والمبيعات للمصروفات
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: إعداد معدلات التكلفة والمبيعات للمواد
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: الإعدادات الافتراضية والتجاوزات
           items:
             - name: قوائم الأسعار الافتراضية
@@ -168,6 +174,8 @@
               href: pricing-costing/sales-price-resolution.md
             - name: نسخ قوائم الأسعار
               href: pricing-costing/copy-price-lists.md
+            - name: إلغاء تنشيط قوائم الأسعار
+              href: pricing-costing/deactivatepricelists.md
         - name: أبعاد التسعير
           items:
             - name: نظرة عامة على أبعاد التسعير
@@ -218,18 +226,24 @@
               href: project-management/create-wbs.md
             - name: إنشاء تعيينات
               href: project-management/create-assignments.md
-        - name: تقدير المشاريع
+        - name: التقديرات المالية للمشاريع
           items:
-            - name: نظرة عامة على تقدير المشاريع
+            - name: مفاهيم التقديرات المالية
               href: project-management/estimating-projects-overview.md
-            - name: تقديرات الموارد
+            - name: التقديرات المالية لوقت الموارد على المشاريع
               href: project-management/resource-estimates.md
-            - name: إنشاء تقديرات المصروفات
+            - name: التقديرات المالية للمصروفات على المشاريع
               href: project-management/create-expense-estimates.md
+            - name: التقديرات المالية للمواد على المشاريع
+              href: project-management/create-material-estimate.md
         - name: تتبع المشروع
           items:
-            - name: نظرة عامة على تتبع المشروع
+            - name: تتبع جهود المشروع
               href: project-management/project-tracking-overview.md
+            - name: تتبع تكلفة العمالة على المشاريع
+              href: project-management/project-cost-tracking.md
+            - name: تتبع إيرادات العمالة على المشاريع
+              href: project-management/project-sales-tracking.md
             - name: تحديث التقدير عند الاكتمال
               href: project-management/update-completed-estimate.md
         - name: أعضاء فريق المشروع
@@ -248,6 +262,8 @@
           items:
             - name: تطوير قوالب المشروع مع نسخ المشروع‬
               href: project-management/dev-copy-project.md
+            - name: استخدام واجهات برمجة تطبيقات (API) الجدولة (إصدار أولي للاستخدام العام)
+              href: project-management/schedule-api-preview.md
     - name: إدارة الموارد
       items:
         - name: المفاهيم الأساسية
@@ -366,6 +382,10 @@
           items:
             - name: استرداد ضريبة القيمة المضافة
               href: expense/vat-recovery.md
+    - name: استخدام المواد
+      items:
+        - name: تسجيل استخدام المواد على المشاريع ومهام المشاريع
+          href: material/material-usage-log.md
     - name: الموافقات
       items:
         - name: نظرة عامة على الموافقات
@@ -378,6 +398,8 @@
       items:
         - name: نظرة عامة على ‏‫القيم الفعلية‬
           href: actuals/actuals-overview.md
+        - name: ربط القيم الفعلية بالسجلات الأصلية
+          href: actuals/linkingactuals.md
         - name: دفاتر يومية التصحيح
           items:
             - name: إنشاء دفاتر يومية التصحيح وتأكيدها
@@ -390,19 +412,21 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: الفواتير الأولية
           items:
-            - name: إدارة تراكم فوترة المشروع
+            - name: إدارة تراكم الفوترة القائمة على المشروع
               href: proforma-invoicing/manage-billing-backlog.md
             - name: إدارة عمليات التحقق والحالات التي يجب ألا يتم تجاوزها
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: إنشاء فاتورة أولية للمشروع يدويًا
+            - name: الفواتير الأولية القائمة على المشروع
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: إدارة فاتورة أولية للمشروع
+            - name: إدارة فاتورة أولية قائمة على المشروع
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: فوترة سلفة أو مقدم الأتعاب
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: تأكيد فاتورة أولية للمشروع
+            - name: تأكيد فاتورة أولية قائمة على المشروع
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: تكوين التنفيذ التلقائي لفواتير المشروع
+            - name: إنشاء فواتير تصحيحية قائمة على المشروع
+              href: proforma-invoicing/corrective-invoices.md
+            - name: تكوين التنفيذ التلقائي لفواتير قائمة على المشروع
               href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: محاسبة المشروع
       items:
@@ -458,6 +482,8 @@
           href: environment/security-model.md
     - name: الجديد‬
       items:
+        - name: الجديد في أبريل 2021 - النشر الخفيف
+          href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: الجديد في مارس 2021 - النشر الخفيف
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: الجديد في فبراير 2021 - النشر الخفيف
@@ -486,7 +512,7 @@
           items:
             - name: نظرة عامة على فرص المشروع
               href: sales/manage-project-based-opportunities.md
-            - name: إعدادات فرص مشروع
+            - name: تفاصيل الرأس لفرص المشروع
               href: pro/sales/opportunity-header-sales.md
             - name: إدارة بنود الفرصة المستندة إلى المنتج
               href: pro/sales/product-based-lines-sales.md
@@ -502,9 +528,9 @@
           items:
             - name: نظرة عامة على عروض الأسعار المستندة إلى المشروع
               href: pro/sales/manage-quotes-sales.md
-            - name: مفاهيم عرض أسعار المشروع
+            - name: المفاهيم الفريدة لعروض أسعار المشروع
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: إعدادات عرض أسعار المشروع
+            - name: تفاصيل الرأس لعروض أسعار المشروع
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: عملاء متعددون على عروض أسعار المشروع
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -542,9 +568,9 @@
           items:
             - name: نظرة عامة على العقود المستندة إلى المشروع
               href: pro/sales/manage-contracts-sales.md
-            - name: مفاهيم عقد المشروع
+            - name: مفاهيم فريدة لعقود المشروع
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: إعدادات عقود المشروع
+            - name: تفاصيل الرأس لعقود المشروع
               href: pro/sales/project-contract-settings-sales.md
             - name: عدة عملاء على عقود المشروع
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -590,30 +616,32 @@
       items:
         - name: إعداد قائمة الأسعار
           items:
-            - name: إعداد قوائم الأسعار
+            - name: تعريف قائمة الأسعار
               href: pricing-costing/price-list-setup.md
-            - name: إعداد قائمة أسعار المبيعات
-              href: pricing-costing/sales-price-list-setup.md
-            - name: إعداد معدلات فواتير العمالة - خفيف
+            - name: إعداد قوائم أسعار المنتجات
+              href: pricing-costing/product-price-list.md
+            - name: إعداد معدلات فواتير العمالة
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: إعداد معدلات تكلفة العمالة - خفيف
+            - name: إعداد معدلات تكلفة العمالة
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: إعداد معدلات التكلفة والمبيعات لمنتجات الكتالوج - خفيف
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: إعداد معدلات التكلفة والمبيعات للمصروفات
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: إعداد معدلات التكلفة والمبيعات للمواد
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: الإعدادات الافتراضية والتجاوزات
           items:
             - name: قوائم الأسعار الافتراضية
               href: pricing-costing/default-project-sales-price-lists.md
             - name: تجاوز قوائم أسعار مبيعات المشروع
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: حل أسعار التكلفة على التقديرات والقيم الفعلية - خفيف
+            - name: حل أسعار التكلفة على التقديرات والقيم الفعلية للمشروع
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: حل أسعار المبيعات للتقديرات والقيم الفعلية - خفيف
+            - name: حل أسعار المبيعات للتقديرات والقيم الفعلية للمشروع
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: نسخ قوائم الأسعار
               href: pricing-costing/copy-price-lists.md
+            - name: إلغاء تنشيط قوائم أسعار المشروع
+              href: pricing-costing/deactivatepricelists.md
         - name: أبعاد التسعير
           items:
             - name: نظرة عامة على أبعاد التسعير
@@ -664,18 +692,24 @@
               href: project-management/create-wbs.md
             - name: إنشاء تعيينات
               href: project-management/create-assignments.md
-        - name: تقدير المشاريع
+        - name: التقديرات المالية للمشاريع
           items:
-            - name: نظرة عامة على تقدير المشاريع
+            - name: مفاهيم التقديرات المالية
               href: project-management/estimating-projects-overview.md
-            - name: تقديرات الموارد
+            - name: التقديرات المالية لوقت الموارد على المشاريع
               href: project-management/resource-estimates.md
-            - name: إنشاء تقديرات المصروفات
+            - name: التقديرات المالية للمصروفات على المشاريع
               href: project-management/create-expense-estimates.md
+            - name: التقديرات المالية للمواد على المشاريع
+              href: project-management/create-material-estimate.md
         - name: تتبع المشروع
           items:
-            - name: نظرة عامة على تتبع المشروع
+            - name: تتبع جهود المشروع
               href: project-management/project-tracking-overview.md
+            - name: تتبع تكلفة العمالة على المشاريع
+              href: project-management/project-cost-tracking.md
+            - name: تتبع إيرادات العمالة على المشاريع
+              href: project-management/project-sales-tracking.md
             - name: تحديث التقدير عند الاكتمال
               href: project-management/update-completed-estimate.md
         - name: أعضاء فريق المشروع
@@ -694,6 +728,8 @@
           items:
             - name: تطوير قوالب المشروع مع نسخ المشروع‬
               href: project-management/dev-copy-project.md
+            - name: استخدام واجهات برمجة تطبيقات (API) الجدولة (إصدار أولي للاستخدام العام)
+              href: project-management/schedule-api-preview.md
     - name: إدارة الموارد
       items:
         - name: المفاهيم الأساسية
@@ -768,6 +804,10 @@
           href: expense/expense-overview.md
         - name: إدخال المصروفات (خفيفة)
           href: expense/basic-expense.md
+    - name: استخدام المواد
+      items:
+        - name: تسجيل استخدام المواد على المشاريع ومهام المشاريع
+          href: material/material-usage-log.md
     - name: الموافقات
       items:
         - name: نظرة عامة على الموافقات
@@ -780,6 +820,8 @@
       items:
         - name: نظرة عامة على ‏‫القيم الفعلية‬
           href: actuals/actuals-overview.md
+        - name: ربط القيم الفعلية بالسجلات الأصلية
+          href: actuals/linkingactuals.md
         - name: دفاتر يومية التصحيح
           items:
             - name: إنشاء دفاتر يومية التصحيح وتأكيدها
@@ -790,7 +832,7 @@
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: إدارة عمليات التحقق والحالات التي يجب ألا يتم تجاوزها
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: إنشاء فاتورة أولية للمشروع يدويًا
+        - name: الفواتير الأولية للمشروع
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: إدارة فاتورة أولية للمشروع
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -806,6 +848,8 @@
   items:
     - name: الجديد‬
       items:
+        - name: الجديد في مارس 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: الجديد في يناير 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: الجديد في ديسمبر 2020 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
@@ -830,6 +874,8 @@
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: فوترة المشروع
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: إدارة أداء فواتير المشروع
+      href: prod-pma/project-invoice-proposal-performance.md
     - name: عقود المشروع
       href: prod-pma/project-contracts.md
     - name: إنشاء عقود متقدمة للفوترة استنادًا إلى التقدم
@@ -952,6 +998,10 @@
       items:
         - name: جدول إصدارات التحديثات لـ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: الجديد أو المتغير في إصدار التحديث 30، V3
+          href: psa/whats-new-ur-30.md
+        - name: الجديد أو المتغير في إصدار التحديث 29.5 الإصلاح العاجل، V3
+          href: psa/whats-new-ur-29-5.md
         - name: الجديد أو المتغير في إصدار التحديث 29، V3
           href: psa/whats-new-ur-29.md
         - name: الجديد أو المتغير في إصدار التحديث 28.6 الإصلاح العاجل، V3
