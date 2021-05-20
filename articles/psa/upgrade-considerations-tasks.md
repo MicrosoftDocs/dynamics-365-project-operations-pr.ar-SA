@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281732"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951328"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>اعتبارات ترقية هيكل تنظيم العمل
 
@@ -34,20 +34,20 @@ ms.locfileid: "5281732"
 ## <a name="key-entities"></a>الكيانات الرئيسية
 بالنسبة لهيكل تنظيم عمل دقيق تم تحميله بالفعل بالموارد، تكون الكيانات التالية مطلوبة:
 
-- [المشروع](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [فريق المشروع](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [مهمة المشروع](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [تعيينات الموارد](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [تبعية مهمة المشروع](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [الموارد القابلة للحجز](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [المشروع](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [فريق المشروع](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [مهمة المشروع](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [تعيينات الموارد](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [تبعية مهمة المشروع](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [الموارد القابلة للحجز](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 لتحديد هيكل تنظيم عمل تم تحميله لمورد، يجب إكمال الخطوات التالية:
 
-1. إنشاء مشروع جديد. لمزيد من المعلومات حول كيفية إنشاء مشروع جديد، راجع [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. إنشاء مهمة واحده أو أكثر. لمزيد من المعلومات حول كيفية إنشاء مهمة، راجع [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. تحديد تبعيات المهام. لمزيد من المعلومات، راجع [تبعية مهمة المشروع](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. تعيين أعضاء فريق المشروع للمشروع. لمزيد من المعلومات، راجع [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. تعيين أعضاء فريق المشروع للمهام. لمزيد من المعلومات، راجع [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. إنشاء مشروع جديد. لمزيد من المعلومات حول كيفية إنشاء مشروع جديد، راجع [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. إنشاء مهمة واحده أو أكثر. لمزيد من المعلومات حول كيفية إنشاء مهمة، راجع [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. تحديد تبعيات المهام. لمزيد من المعلومات، راجع [تبعية مهمة المشروع](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. تعيين أعضاء فريق المشروع للمشروع. لمزيد من المعلومات، راجع [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. تعيين أعضاء فريق المشروع للمهام. لمزيد من المعلومات، راجع [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>علاقات فريق المشروع
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2351d87d2953f0e661d8f5281a4fdd071edb9c05
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6343ff4dcfeae5d53eaf8eaa860afaf42559857a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5292008"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950338"
 ---
 # <a name="create-product-catalog-items-project-service"></a>إنشاء أصناف في كتالوج المنتجات (Project Service)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5292008"
 
 إذا كنت تريد تضمين بعض المنتجات، مثل تراخيص البرامج، في عروض أسعار المشروع وتقديراته، فيجب إضافة كل منتج إلى كتالوج المنتجات.  
   
- لمزيد من المعلومات حول إضافة منتجات إلى كتالوج المنتجات، راجع [إنشاء منتج (Sales)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-sales).  
+ لمزيد من المعلومات حول إضافة منتجات إلى كتالوج المنتجات، راجع [إنشاء منتج (Sales)](/dynamics365/sales-enterprise/create-product-sales).  
   
 ### <a name="see-also"></a>راجع أيضًا  
  [تكوين Project Service](../psa/configure.md)

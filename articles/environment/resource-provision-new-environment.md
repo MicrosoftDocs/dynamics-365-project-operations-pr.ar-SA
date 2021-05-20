@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276872"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950518"
 ---
 # <a name="provision-a-new-environment"></a>تزويد بيئة جديدة
 
@@ -36,7 +36,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="provision-a-project-operations-environment"></a>تزويد بيئة Project Operations
 
-1. افتح Dynamics 365 Finance جديد [في بيئة عرض توضيحي](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) أو نشر [بيئة الحماية / الإنتاج](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. افتح Dynamics 365 Finance جديد [في بيئة عرض توضيحي](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) أو نشر [بيئة الحماية / الإنتاج](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. اتبع خطوات معالج **تزويد البيئة**. 
 
 > [!IMPORTANT]

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 32b504a862f98dac4b1d9b54289476026d988c13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283262"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951463"
 ---
 # <a name="reporting-home-page"></a>الصفحة الرئيسية لإعداد التقارير
 
@@ -31,15 +31,15 @@ ms.locfileid: "5283262"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-يسمح Microsoft Dynamics 365 Project Service Automation للمؤسسات المستندة إلى المشاريع بإدارة عمليات أعمالها بكفاءة. في أي مشروع، يجب أن يقوم أعضاء الفريق بإدارة الفرصة وعرض الأسعار وتخطيط العمل وإدارة العمل وفقًا للخطة وفاتورة العمل، ثم القيام بالعمل لإكمال المشروع. تعد القدرة على الإبلاغ عن العمليات أساسية لتحديد صحة المؤسسة واتخاذ أي إجراء تصحيحي مطلوب. يقوم PSA باستخدام أساليب وتقنيات إعداد التقارير في Microsoft Dynamics 365 فيما يتعلق بجميع التقارير الخاصة به. لمزيد من المعلومات حول الخيارات الخاصة بإعداد التقارير، راجع [دليل كتابة التقارير Dynamics 365 Customer Engagement (on-premises)، الإصدار 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+يسمح Microsoft Dynamics 365 Project Service Automation للمؤسسات المستندة إلى المشاريع بإدارة عمليات أعمالها بكفاءة. في أي مشروع، يجب أن يقوم أعضاء الفريق بإدارة الفرصة وعرض الأسعار وتخطيط العمل وإدارة العمل وفقًا للخطة وفاتورة العمل، ثم القيام بالعمل لإكمال المشروع. تعد القدرة على الإبلاغ عن العمليات أساسية لتحديد صحة المؤسسة واتخاذ أي إجراء تصحيحي مطلوب. يقوم PSA باستخدام أساليب وتقنيات إعداد التقارير في Microsoft Dynamics 365 فيما يتعلق بجميع التقارير الخاصة به. لمزيد من المعلومات حول الخيارات الخاصة بإعداد التقارير، راجع [دليل كتابة التقارير Dynamics 365 Customer Engagement (on-premises)، الإصدار 9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>معالج التقارير
 
-يتيح معالج التقارير للمطورين إنشاء تقارير بسيطة. ونظرًا لأن التطبيق تم تصميمه في نظام أساسي موجود، فإن التجربة هي نفسها التي تم توثيقها في [إنشاء تقرير أو تحريره باستخدام معالج التقارير](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). ومع ذلك، ستقوم باستخدام الكيانات الخاصة بـ Project Service Automation.
+يتيح معالج التقارير للمطورين إنشاء تقارير بسيطة. ونظرًا لأن التطبيق تم تصميمه في نظام أساسي موجود، فإن التجربة هي نفسها التي تم توثيقها في [إنشاء تقرير أو تحريره باستخدام معالج التقارير](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). ومع ذلك، ستقوم باستخدام الكيانات الخاصة بـ Project Service Automation.
 
 ## <a name="custom-sql-server-reporting-services-reports"></a>تقارير خدمات التقارير المخصصة لخادم SQL
 
-إذا كانت الأعمال تتطلب تقريرًا معينًا لا يمكن إنشاؤه باستخدام "معالج التقارير"، فيمكنك إنشاء تقرير مخصص. يجب أن يكون Microsoft Visual Studio مثبتًا لديك مع Microsoft SQL Server Data Tools وReport Authoring Extensions المناسبة. لمزيد من المعلومات حول الأدوات والإصدارات، راجع [إعداد بيئة كتابة التقارير باستخدام SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools) لمزيد من المعلومات حول كيفية إنشاء تقرير مخصص، راجع [إنشاء تقرير جديد باستخدام SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
+إذا كانت الأعمال تتطلب تقريرًا معينًا لا يمكن إنشاؤه باستخدام "معالج التقارير"، فيمكنك إنشاء تقرير مخصص. يجب أن يكون Microsoft Visual Studio مثبتًا لديك مع Microsoft SQL Server Data Tools وReport Authoring Extensions المناسبة. لمزيد من المعلومات حول الأدوات والإصدارات، راجع [إعداد بيئة كتابة التقارير باستخدام SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools) لمزيد من المعلومات حول كيفية إنشاء تقرير مخصص، راجع [إنشاء تقرير جديد باستخدام SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
 
 ## <a name="power-bi-insights-apps"></a>تطبيقات Power BI insights 
 

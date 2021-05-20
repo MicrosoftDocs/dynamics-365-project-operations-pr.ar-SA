@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282272"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951373"
 ---
 # <a name="sign-in-to-project-service-automation"></a>تسجيل الدخول إلى Project Service Automation
 
@@ -39,7 +39,7 @@ ms.locfileid: "5282272"
   
 - كلمة المرور  
   
-  لقد تلقيت على الأرجح هذه المعلومات في رسالة بريد إلكتروني من المسؤول. إذا لم تتوفر لديك كافة هذه المعلومات، أو إذا كنت تواجه مشكلات تتعلق بتسجيل الدخول، فيمكنك [البحث عن المسؤول أو الشخص المختص بالدعم](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  لقد تلقيت على الأرجح هذه المعلومات في رسالة بريد إلكتروني من المسؤول. إذا لم تتوفر لديك كافة هذه المعلومات، أو إذا كنت تواجه مشكلات تتعلق بتسجيل الدخول، فيمكنك [البحث عن المسؤول أو الشخص المختص بالدعم](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>تعيين خياراتك الشخصية للسماح بالبريد الإلكتروني  
  إنك تحتاج إلى تكوين إعدادات البريد الإلكتروني للسماح للآخرين بإرسال بريد إلكتروني نيابة عنك، لتمكين [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] من إرسال إعلامات لك بالبريد الإلكتروني إذا كان يتعين عليك الموافقة على الوقت والمصروفات أو الاشتراك في المشاريع.  

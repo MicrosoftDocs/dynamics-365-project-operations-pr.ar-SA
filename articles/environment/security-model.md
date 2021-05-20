@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3f65d13809fef342be8bec682c11d95c4d9e9b19
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8acaa86dec8ebca8f9850877d345e30be3e3a919
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276782"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951193"
 ---
 # <a name="security-model"></a>نموذج الأمان
 
@@ -58,7 +58,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 لا يقوم Project Operations بإنشاء مجموعة من خلال إجراء ضمني وإنما يقوم بذلك من خلال الإجراء الصريح للمجموعات الضاغطة.
 
-يقتصر بحث أعضاء المجموعة في مربع الحوار **إدارة المجموعات** على هؤلاء الذين تم تعيينهم كجزء من مجموعة أمان البيئة. لمزيد من المعلومات، راجع [التحكم في وصول المستخدم إلى البيئات: مجموعات الأمان والتراخيص](https://docs.microsoft.com/power-platform/admin/control-user-access).
+يقتصر بحث أعضاء المجموعة في مربع الحوار **إدارة المجموعات** على هؤلاء الذين تم تعيينهم كجزء من مجموعة أمان البيئة. لمزيد من المعلومات، راجع [التحكم في وصول المستخدم إلى البيئات: مجموعات الأمان والتراخيص](/power-platform/admin/control-user-access).
 
 ![وضع المجموعة](./media/groupsmode.png)
 
@@ -70,7 +70,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 ## <a name="deployment-recommendation"></a>توصيات التوزيع
 مع تطوير نموذج تعاون مجموعة Office، ستتم إضافة الوظائف لتوفير مزيد من التحكم المفصل بمرور الوقت. سيتم تشجيع العملاء الذين يقومون بنشر Project Operations اليوم على التركيز على نموذج أمان Microsoft Dynamics 365 التقليدي.
 
-لمزيد من المعلومات، انظر [الأمان في Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+لمزيد من المعلومات، انظر [الأمان في Common Data Service](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>أمان Project Operations وMicrosoft Dynamics 365 Finance
 يشمل Project Operations الأدوار التالية:
@@ -78,7 +78,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 - مدير المشروع
 - محاسب المشروع
 
-للحصول على مزيد من المعلومات حول الأمان في Finance، راجع [الأمان المستند إلى الدور](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+للحصول على مزيد من المعلومات حول الأمان في Finance، راجع [الأمان المستند إلى الدور](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
 

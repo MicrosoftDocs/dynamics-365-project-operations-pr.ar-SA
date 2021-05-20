@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289758"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950428"
 ---
 # <a name="project-management-and-accounting-overview"></a>نظرة عامة على إدارة المشاريع والمحاسبة
 
@@ -227,7 +227,7 @@ ms.locfileid: "5289758"
 قبل إنشاء فاتورة عميل لمشروع ، يمكنك إنشاء فاتورة مبدئيه ، أو مقترح فاتورة. في مقترح فاتورة ، يمكنك تحديد حركات المشروع لتضمينها في فاتورة مشروع. وبعد ذلك يمكنك مراجعه تفاصيل الفاتورة قبل ترحيل فاتورة المشروع وإرسالها إلى العميل أو مصدر التمويل الآخر. 
 
 
-لمزيد من المعلومات حول كيفية معالجة فواتير المشروع ، راجع [فوترة المشروع](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+لمزيد من المعلومات حول كيفية معالجة فواتير المشروع ، راجع [فوترة المشروع](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>حساب التكلفة لإكمال مشروع

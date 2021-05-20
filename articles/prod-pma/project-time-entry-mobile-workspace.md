@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288858"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950158"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>مساحة عمل متنقلة لإدخال وقت المشروع
 
@@ -48,7 +48,7 @@ ms.locfileid: "5288858"
 تختلف المتطلبات الاساسيه، استنادا إلى إصدار Microsoft Dynamics365 الذي تم نشره للمؤسسة الخاصة بك.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>المتطلبات الاساسيه إذا كنت تستخدم Dynamics 365 Finance
-إذا تم نشر Finance لمؤسستك ، فيجب على مسؤول النظام نشر مساحة عمل الأجهزة الإلكترونية **إدخال الوقت للمشروع**. للحصول علي الإرشادات، راجع [نشر مساحة عمل الأجهزة الإلكترونية](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+إذا تم نشر Finance لمؤسستك ، فيجب على مسؤول النظام نشر مساحة عمل الأجهزة الإلكترونية **إدخال الوقت للمشروع**. للحصول علي الإرشادات، راجع [نشر مساحة عمل الأجهزة الإلكترونية](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 مع تحديث النظام الأساسي 3 أو إصدار أحدث
 إذا تم نشر الإصدار 1611 مع تحديث النظام الأساسي 3 أو الأحدث لمؤسستك ، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
@@ -68,17 +68,17 @@ ms.locfileid: "5288858"
 <td>مسؤول النظام</td>
 <td>قاعدة المعارف 4018050 هي تحديث X ++ أو إصلاح بيانات التعريف الذي يحتوي على مساحة عمل الأجهزة الإلكترونية <strong>إدخال الوقت للمشروع</strong>. لتنفيذ قاعدة المعارف 4018050، يجب علي المسؤول النظام اتباع الخطوات التالية.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">قم بتنزيل إصلاح بيانات التعريف من Microsoft Dynamics Lifecycle Services ‏(LCS‏)‏</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">قم بتثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">قم بإنشاء حزمه قابله للنشر</a> تحتوي على نماذج <strong>ApplicationSuite</strong> و<strong>ProjectMobile</strong>، ثم قم بتحميل الحزمة القابلة للنشر إلى LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">قم بتطبيق الحزمة القابلة للنشر</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">قم بتنزيل إصلاح بيانات التعريف من Microsoft Dynamics Lifecycle Services ‏(LCS‏)‏</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">قم بتثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">قم بإنشاء حزمه قابله للنشر</a> تحتوي على نماذج <strong>ApplicationSuite</strong> و<strong>ProjectMobile</strong>، ثم قم بتحميل الحزمة القابلة للنشر إلى LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">قم بتطبيق الحزمة القابلة للنشر</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>انشر مساحة عمل الأجهزة المحمولة <strong>إدخال الوقت للمشروع</strong>.</td>
 <td>مسؤول النظام</td>
-<td>راجع <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">نشر مساحة عمل الأجهزة المحمولة</a>.</td>
+<td>راجع <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">نشر مساحة عمل الأجهزة المحمولة</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ ms.locfileid: "5288858"
 2.  حدد **إدخال الوقت**. يتم عرض تواريخ التقويم الخاصة بالأسبوع الحالي.
 3.  بالنسبة لتاريخ محدد، حدد **الإجراءات** &gt; **إدخال جديد**.
 4.  أدخل عدد الساعات للتسجيل.
-5.  حدد المشروع الخاص بإدخال الوقت. تظهر قائمه بالمشاريع التي تم تحميلها إلى التطبيق الخاص بك للاستخدام دون اتصال. افتراضيا ، يتم تحميل العناصر 50 ، ولكن يمكن للمطور تغيير هذا الرقم. لمزيد من المعلومات، راجع [النظام الأساسي للأجهزة المحمولة](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  حدد المشروع الخاص بإدخال الوقت. تظهر قائمه بالمشاريع التي تم تحميلها إلى التطبيق الخاص بك للاستخدام دون اتصال. افتراضيا ، يتم تحميل العناصر 50 ، ولكن يمكن للمطور تغيير هذا الرقم. لمزيد من المعلومات، راجع [النظام الأساسي للأجهزة المحمولة](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  إذا لم يكن المشروع موجودا في القائمة، فحدد **بحث**. ابحث حسب الاسم ، أو بدل إلى البحث حسب اسم المشروع أو العميل.
-7.  حدد فئة‏‎. تظهر قائمه بالفئات التي تم تحميلها إلى التطبيق الخاص بك للاستخدام دون اتصال. افتراضيا ، يتم تحميل العناصر 50 ، ولكن يمكن للمطور تغيير هذا الرقم. لمزيد من المعلومات، راجع [النظام الأساسي للأجهزة المحمولة](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  حدد فئة‏‎. تظهر قائمه بالفئات التي تم تحميلها إلى التطبيق الخاص بك للاستخدام دون اتصال. افتراضيا ، يتم تحميل العناصر 50 ، ولكن يمكن للمطور تغيير هذا الرقم. لمزيد من المعلومات، راجع [النظام الأساسي للأجهزة المحمولة](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  إذا لم تكن الفئة موجودة في القائمة، فحدد **بحث**. ابحث حسب الفئة، أو قم بالتبديل للبحث حسب اسم الفئة.
-9.  حدد نشاطًا. تظهر قائمه بالأنشطة التي تم تحميلها إلى التطبيق الخاص بك للاستخدام دون اتصال. افتراضيا ، يتم تحميل العناصر 50 ، ولكن يمكن للمطور تغيير هذا الرقم. لمزيد من المعلومات، راجع [النظام الأساسي للأجهزة المحمولة](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  حدد نشاطًا. تظهر قائمه بالأنشطة التي تم تحميلها إلى التطبيق الخاص بك للاستخدام دون اتصال. افتراضيا ، يتم تحميل العناصر 50 ، ولكن يمكن للمطور تغيير هذا الرقم. لمزيد من المعلومات، راجع [النظام الأساسي للأجهزة المحمولة](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. إذا لم يكن النشاط موجودًا في القائمة، فحدد **بحث**. قم بالبحث حسب رقم النشاط، أو بدل إلى البحث حسب الغرض.
 
 11. حدد خاصية البند.

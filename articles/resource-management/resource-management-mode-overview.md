@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279437"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949933"
 ---
 # <a name="resource-management-modes-overview"></a>نظرة عامة على أوضاع إدارة الموارد
 
@@ -29,11 +29,11 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 لإدارة الموارد من خلال الوضع المركزي، راجع:
 
-- [تعيين موارد عامة قابل للحجز إلى مهمة وإنشاء متطلبات مورد](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [حجز موارد مسماة من متطلبات الموارد](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [إرسال طلب المورد](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [استيفاء طلب موارد](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [قبول مورد مشروع مقترح أو رفضه من طلب مورد](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [تعيين موارد عامة قابل للحجز إلى مهمة وإنشاء متطلبات مورد](/dynamics365/project-service/assign-generic-bookable-resource)
+- [حجز موارد مسماة من متطلبات الموارد](/dynamics365/project-service/book-named-resource)
+- [إرسال طلب المورد](/dynamics365/project-service/submit-resource-request)
+- [استيفاء طلب موارد](/dynamics365/project-service/resource-management-fulfill-requests)
+- [قبول مورد مشروع مقترح أو رفضه من طلب مورد](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>الوضع المختلط
 في المؤسسات التي تتطلب مرونة في تخصيص الموارد، يقوم الوضع المختلط بتمكين مديري المشاريع ومديري الموارد من القدرة على حجز الموارد.
@@ -43,11 +43,11 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 بالإضافة إلى عملية الوضع المركزي المدعومة، راجع الموضوعات التالية لإدارة كافة تدفقات الحجز المدعومة الأخرى في الوضع المختلط:
 
 حجز مورد مباشرة إلى مشروع:
-- [حجز موارد مسماة قابل للحجز إلى فريق مشروع وتعيين المهام](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [حجز موارد مسماة قابل للحجز إلى فريق مشروع وتعيين المهام](/dynamics365/project-service/assign-named-bookable-resource)
 
 حجز مورد ممن متطلبات الموارد:
-- [تعيين موارد عامة قابل للحجز إلى مهمة وإنشاء متطلبات مورد](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [حجز موارد مسماة من متطلبات الموارد](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [تعيين موارد عامة قابل للحجز إلى مهمة وإنشاء متطلبات مورد](/dynamics365/project-service/assign-generic-bookable-resource)
+- [حجز موارد مسماة من متطلبات الموارد](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
