@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277817"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948359"
 ---
 # <a name="manage-project-based-opportunities"></a>إدارة فرص مستندة إلى مشروع
 
@@ -64,7 +64,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 >
 > إذا بدأت الصفقة المستندة إلى المشروع مع فرصة، فستكون الأسبقية لعملية مبيعات الفرصة.
 
-يمكنك تحرير سير إجراءات عمل المنتج أو إنشاء سير إجراءات عمل خاص بك لتعقب عملية الأعمال حسب الحاجة. للحصول على مزيد من المعلومات حول سير إجراءات العمل، راجع [نظرة عامة حول عمليات سير إجراءات العمل](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+يمكنك تحرير سير إجراءات عمل المنتج أو إنشاء سير إجراءات عمل خاص بك لتعقب عملية الأعمال حسب الحاجة. للحصول على مزيد من المعلومات حول سير إجراءات العمل، راجع [نظرة عامة حول عمليات سير إجراءات العمل](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

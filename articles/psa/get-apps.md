@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 059409398d7dc3074f0ec852a8e295b2c3d5504f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cea18b38a69be518bf072cd11ee8757034c0479c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284432"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947953"
 ---
 # <a name="get-the-apps-project-service"></a>الحصول على التطبيقات (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5284432"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-إذا أردت إدخال الوقت والمصروفات على جهازك المحمول، يمكنك [الحصول على Dynamics 365 for phones and tablets‬ وتثبيته](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
+إذا أردت إدخال الوقت والمصروفات على جهازك المحمول، يمكنك [الحصول على Dynamics 365 for phones and tablets‬ وتثبيته](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
   
  يمكنك أيضًا استخدام تطبيق Project Finder Mobile على هاتفك للبحث عن مشروع جديد للعمل عليه وتقديم طلب العمل عليه. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [البحث عن المشروع التالي باستخدام تطبيق Project Finder Mobile](../psa/find-next-project-finder-mobile-app.md) 
   

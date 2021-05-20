@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8016014c0af60d1c0dfd37fdd457f279fb8059
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 7357e9a8c8c6294c0a395a80287bb7eeb5c47d85
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5664073"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948268"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>تفاصيل الرأس للفرص المستندة إلى المشروع
 
@@ -35,7 +35,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | مدير الحسابات | علامة التبويب عام | اسم مدير الحسابات لهذه الفرصة المستندة إلى المشروع. | يكون مدير الحساب مسؤولا عن إدارة العلاقات مع العميل حتى اكتمال هذا المشروع. استنادا إلى سجل المورد القابل للحجز المرتبط بمدير الحسابات، يتم استخدام وحدة التعاقد الافتراضية. |
 | الوحدة المتعاقدة | علامة التبويب عام | الوحدة التنظيمية المسؤولة عن تسليم المشروع أو المشاريع المقترنة بهذه الصفقة. | تعتبر وحدة التعاقد قسم من الشركة سيقوم بإكمال المشروع (المشروعات) بعد إغلاق الصفقة. تحتوي كل وحدة من وحدات التعاقد مع على عملة، ويتم استخدام هذه العملة للإبلاغ عن التكاليف المقدرة والفعلية التي تم تكبدها أثناء المشروع. |
 
-بالنسبة لكافة الحقول والأقسام الأخرى في علامة تبويب **الملخص** الخاصة بالفرصة، راجع [إنشاء فرص مبيعات محتملة أو تحريرها (المبيعات ومركز المبيعات)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+بالنسبة لكافة الحقول والأقسام الأخرى في علامة تبويب **الملخص** الخاصة بالفرصة، راجع [إنشاء فرص مبيعات محتملة أو تحريرها (المبيعات ومركز المبيعات)](/dynamics365/sales-enterprise/create-edit-opportunity-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

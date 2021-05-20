@@ -3,17 +3,17 @@ title: إضافة اشتراك Azure إلى مشروع LCS
 description: يوفر هذا الموضوع معلومات حول كيفية توصيل اشتراك Azure الخاص بك بمشروع LCS.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289893"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880522"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>إضافة اشتراك Azure إلى مشروع LCS
 
@@ -62,7 +62,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 3. في حقل **التكوين لاستخدام Azure Resource Manager**، حدد **نعم**.
 4. تأكد من أن مجال مستأحر AAD الخاص باشتراك Azure يطابق المجال الذي يمتلك اشتراك Azure الذي تستخدمه، وحدد **التالي**.
 5. في شاشة **إعداد Microsoft Azure**، حدد **التالي** للتأكيد. إذا تلقيت خطأ في هذه الشاشة، فقم بالرجوع إلى القسم [توفير وصول Dynamics Deployment Services إلى اشتراك Azure](#provide) في هذه الموضوع وتأكد من إتمام كافة الخطوات.
-6. قم بتنزيل شهادة إدارة Azure إلى مجلد محلي على جهاز الكمبيوتر الخاص بك ثم قم بتحميلها إلى مدخل إدارة Azure بالانتقال إلى **الإعدادات** > **إدارة الشهادات**. ستعمل هذه الشهادة على تمكين LCS من الاتصال مع Azure نيابة عنك. يمكنك تخطي هذه الخطوة إذا كان المستخدم لديه حق الوصول إلى الاشتراك.
+6. قم بتنزيل شهادة إدارة Azure إلى مجلد محلي على الكمبيوتر. اطلب من مسؤول اشتراك Azure تحميل الشهادة إلى مدخل إدارة Azure بتحديد الاشتراك ثم الذهاب إلى **الإعدادات** > **إدارة الشهادات**. تمكن هذه الشهادة LCS من الاتصال بـ Azure نيابة عنك. يمكنك تخطي هذه الخطوة إذا كان المستخدم لديه حق الوصول إلى الاشتراك.
 7. حدد **التالي**.
 8. حدد منطقه Azure التي سيتم النشر فيها وحدد مركز بيانات قريب من المكان الذي تخطط لاستخدام هذا النظام فيه.
 9.  حدد **اتصال**.

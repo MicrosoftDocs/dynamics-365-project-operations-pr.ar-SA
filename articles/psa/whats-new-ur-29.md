@@ -17,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0e1ff0db42adb8b991b26dca1585bd603b2e2276
-ms.sourcegitcommit: f57408d6637f670b920d7ce95f8ace8eb1963093
+ms.openlocfilehash: 2ac47974b9cc8386c7446136faf48724de73efce
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5664627"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948556"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a>الجديد أو المتغير في إصدار التحديث 29، الإصدار 3 من Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365. يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام. هذا الإصدار متوافق مع Dynamics 365 9.x. للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث. لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365. يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام. هذا الإصدار متوافق مع Dynamics 365 9.x. للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث. لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](/power-platform/admin/install-remove-preferred-solution).
 
 يسرد هذا الموضوع الميزات والإصلاحات الجديدة أو التي تم تغييرها في الإصدار V3 من Project Service Automation، إصدار التحديث 29. يحتوي هذا الإصدار على رقم إصدار V3.10.47.7 وهو متاح بشكل عام من خلال التحديث الذاتي في فبراير 2021.
 

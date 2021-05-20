@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283757"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948105"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>دليل مستخدم مركز موارد المشروع
 
@@ -48,7 +48,7 @@ ms.locfileid: "5283757"
 ## <a name="install-the-mobile-app"></a>تثبيت تطبيق الأجهزة المحمولة
 قبل البدء في استخدام تطبيق مركز موارد المشروع، يتعين عليك تثبيت تطبيق الأجهزة المحمولة على الجهاز الخاص بك. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [تثبيت Dynamics 365 للهواتف وأجهزة الكمبيوتر اللوحية](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [تثبيت Dynamics 365 للهواتف وأجهزة الكمبيوتر اللوحية](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>التنقل الأساسي
 1.  عندما تقوم بتسجيل الدخول إلى تطبيق الأجهزة المحمولة، سوف تشاهد صفحة MyApps التي تحتوي على قائمة بالتطبيقات التي يمكنك الوصول إليها. 
@@ -99,7 +99,7 @@ ms.locfileid: "5283757"
 5. تابع إدخال المصروفات للأسبوع. عند الانتهاء من ذلك وكل شيء يبدو صحيحًا، المس **إرسال**. سيقوم أحد المدراء باستعراض مصروفاتك والموافقة عليها.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>معلومات عامة حول كيفية استخدام التطبيق المحمول 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [دليل أساسيات المحمول](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [دليل أساسيات المحمول](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>راجع أيضًا  
  [نظرة عامة على Project Service](../psa/overview.md)   

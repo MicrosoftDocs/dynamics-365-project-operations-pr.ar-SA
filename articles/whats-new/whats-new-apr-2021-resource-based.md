@@ -3,18 +3,18 @@ title: الجديد في أبريل 2021 - Project Operations للسيناريو
 description: يوفر هذا الموضوع معلومات حول تحديثات الجودة المتوفرة في إصدار أبريل 2021 من Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867977"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935458"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في أبريل 2021 - Project Operations للسيناريوهات المستندة إلى الموارد/ المنتجات غير المخزنة
 
@@ -33,8 +33,26 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
   - تقدير وتسعير المواد غير المخزنة خلال دورة المبيعات الخاصة بالمشروع. لمزيد من المعلومات، راجع [إعداد معدلات التكلفة والمبيعات لمنتجات الكتالوج - خفيف](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - تعقب استخدام المواد غير المخزنة أثناء تسليم المشروع. لمزيد من المعلومات، راجع [تسجيل استخدام المواد على المشاريع ومهام المشاريع](../material/material-usage-log.md).
   - فوترة تكاليف مواد مستخدمة وغير مخزنة. لمزيد من المعلومات، راجع [إدارة تراكم الفوترة‬](../proforma-invoicing/manage-billing-backlog.md).
+  - للحصول على معلومات حول كيفية تكوين هذه الميزة، راجع [تكوين المواد غير المخزنة وفواتير الموردين المعلقة](../procurement/configure-materials-nonstocked.md)
 - الفوترة المستندة إلى المهمة: تمت إضافة القدرة على ربط مهام المشروع بشروط تعاقد المشروع، مما يجعلها بالتالي خاضعة لنفس لطريقة الفوترة وتكرار الفاتورة والعملاء كما في شروط التعاقد. تضمن عملية الربط هذه دقة الفواتير والمحاسبة وتقدير الإيرادات والتعرف على العمل وفقًا لهذا الإعداد في مهام المشروع.
 - تتيح واجهات برمجة التطبيقات الجديدة في Dynamics 365 Dataverse عمليات الإنشاء والتحديث والحذف مع **كيانات الجدولة**. لمزيد من المعلومات، راجع [استخدام واجهات برمجة تطبيقات الجدولة لتنفيذ عمليات مع كيانات الجدولة](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>تحديثات مخططات ‏‫الكتابة المزدوجة في Project Operations
+
+توضح القائمة التالية مخططات الكتابة المزدوجة التي تم تعديلها أو إضافتها في إصدار أبريل 2021 من Project Operations.
+
+| **خريطة الكيان** | **الإصدار المُحدث** | **التعليقات** |
+| --- | --- | --- |
+| القيم الفعلية لتكامل Project Operations (msdyn\_actuals) | 1.0.0.14  | تم تعديل المخطط لمزامنة القيم الفعلية لمشروع المواد. |
+| كيان تكامل Project Operations لتقديرات المصروفات (msdyn\_estimateslines) | 1.0.0.2  | تمت إضافة مزامنة شروط تعاقد مشروع إلى تطبيقات Finance and Operations لدعم الفوترة المستند إلى المهمة. |
+| كيان تكامل Project Operations لتقديرات الساعات (msdyn\_resourceassignments) | 1.0.0.5  | تمت إضافة مزامنة شروط تعاقد مشروع إلى تطبيقات Finance and Operations لدعم الفوترة المستند إلى المهمة. |
+| جدول تكامل Project Operations لتقديرات المواد (msdyn\_estimatelines) | 1.0.0.0  | مخطط جدول جديد لمزامنة تقديرات المواد من Dataverse إلى تطبيقات Finance and Operations. |
+| كيان تصدير فاتورة مورد المشروع لتكامل Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0  | مخطط جدول جديد لمزامنة رؤوس فاتورة المورد من Finance and Operations إلى تطبيقات Dataverse. |
+| كيان تصدير بند فاتورة مورد المشروع لتكامل Project Operations(msdyn\_projectvendorinvoicelines) | 1.0.0.0  | مخطط جدول جديد لمزامنة سطور فاتورة المورد من Finance and Operations إلى تطبيقات Dataverse. |
+
+يجب عليك دائما تشغيل أحدث إصدار من المخطط في البيئة الخاصة بك وتمكين كافة مخططات الجدول ذات الصلة عند تحديث حل Project Operations Dataverse وكذلك إصدار حل Finance and Operations. قد لا تعمل بعض الميزات والإمكانات بشكل صحيح إذا لم يتم تنشيط أحدث إصدار من المخطط. يمكن رؤية الإصدار النشط من المخطط في عمود **الإصدار** في الصفحة **الكتابة المزدوجة**. يمكنك تنشيط إصدار جديد من المخطط من خلال تحديد **إصدارات مخطط الجدول** ثم تحديد الإصدار الأخيرن وحفظ الإصدار المحدد. إذا قمت بتخصيص مخطط جدول جاهز، فأعد تطبيق التغييرات. مزيد من المعلومات، راجع [إدارة دورة حياة التطبيقات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+إذا واجهتك مشكلة عند بدء تشغيل المخطط، فاتبع الإرشادات في قسم [مشكلة أعمدة الجدول المفقود في المخططات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) من دليل استكشاف أخطاء الكتابة المزدوجة وإصلاحها.
 
 ## <a name="quality-updates"></a>التحديثات الإصلاحية
 
@@ -67,7 +85,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 | **منطقة الميزات** | **رقم المرجع** | **تحديث إصلاحي** |
 | --- | --- | --- |
-| إدارة المشاريع والمحاسبة | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | لا يعمل عكس إزالة التقديرات عند تحديد **دوري**.  |
+| إدارة المشاريع والمحاسبة | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | لا تعمل عملية استبعاد تقدير التكلفة العكسي في القسم **دوري**.  |
 | إدارة المشاريع والمحاسبة | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | تقوم ميزة **التعديل المحاسبي** بإنشاء مشكلة في حسابات دفتر الأستاذ التي تم فيها تحديد الخيار **عدم السماح بالإدخال اليدوي**. |
 | إدارة المشاريع والمحاسبة | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | تمت إضافة منطق العمل لمعالجة فواتير التصحيح بما في ذلك مبلغ مقدم الأتعاب أو مبلغ مقدم الأتعاب المطبق. |
 | إدارة المشاريع والمحاسبة | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | الأعمال تحت التنفيذ - ترحيل قيمة المبيعات في فوترة المشروع بين الشركات يختار حسابًا غير متوقع. |

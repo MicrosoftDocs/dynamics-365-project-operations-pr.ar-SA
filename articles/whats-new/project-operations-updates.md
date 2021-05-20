@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877512"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948223"
 ---
 # <a name="project-operations-updates"></a>تحديثات Project Operations
 
@@ -49,23 +49,23 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | محطة العمل   | المنطقة        | الإصدار الحالي | الإصدار التالي | متوفر بشكل عام |
 |-----------|---------------|-----------------|--------------|---------------------|
 | محطة العمل 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | الإصدار الأول |  4.9.0.221        | TBD     | 23 أبريل 21           |
+|   &nbsp;  | الإصدار الأول |  4.9.0.221        | TBD     | 30 أبريل 21           |
 | محطة العمل 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | أمريكا الجنوبية |  4.9.0.221        | TBD     | 23 أبريل 21           |
-|    &nbsp; | كندا        |  4.9.0.221        | TBD     | 23 أبريل 21           |
-|   &nbsp;  | الهند         |  4.9.0.221        | TBD     | 23 أبريل 21           |
-|   &nbsp;  | فرنسا         |  4.9.0.221        | TBD     | 23 أبريل 21           |
-|   &nbsp;  | الإمارات العربية المتحدة         |  4.9.0.221        | TBD     | 23 أبريل 21           |
-|   &nbsp;  | جنوب إفريقيا         |  4.9.0.221        | TBD     | 23 أبريل 21           |
+|   &nbsp;  | أمريكا الجنوبية |  4.9.0.221        | TBD     | 30 أبريل 21           |
+|    &nbsp; | كندا        |  4.9.0.221        | TBD     | 30 أبريل 21           |
+|   &nbsp;  | الهند         |  4.9.0.221        | TBD     | 30 أبريل 21           |
+|   &nbsp;  | فرنسا         |  4.9.0.221        | TBD     | 30 أبريل 21           |
+|   &nbsp;  | الإمارات العربية المتحدة         |  4.9.0.221        | TBD     | 30 أبريل 21           |
+|   &nbsp;  | جنوب إفريقيا         |  4.9.0.221        | TBD     | 30 أبريل 21           |
 | محطة العمل 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | اليابان         |  4.9.0.221        | TBD     | 30 أبريل 21           |
-|   &nbsp;  | آسيا/المحيط الهادئ  |  4.9.0.221        | TBD     | 30 أبريل 21           |
-|   &nbsp;  | بريطانيا العظمى |  4.9.0.221        | TBD     | 30 أبريل 21           |
-|   &nbsp;  | ‏‫أوقيانوسيا‬       |  4.9.0.221        | TBD     | 30 أبريل 21           |
+|   &nbsp;  | اليابان         |  4.9.0.221        | TBD     | 07-مايو-21           |
+|   &nbsp;  | آسيا/المحيط الهادئ  |  4.9.0.221        | TBD     | 07-مايو-21           |
+|   &nbsp;  | بريطانيا العظمى |  4.9.0.221        | TBD     | 07-مايو-21           |
+|   &nbsp;  | ‏‫أوقيانوسيا‬       |  4.9.0.221        | TBD     | 07-مايو-21           |
 | محطة العمل 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | أوروبا        |  4.8.0.92        | 4.9.0.221      | 16 أبريل 2021           |
+|   &nbsp;  | أوروبا        |  4.9.0.221        | TBD     | 14-مايو-21           |
 | محطة العمل 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | أمريكا الشمالية |  4.8.0.92        | 4.9.0.221      | 23 أبريل 21           |
+|   &nbsp;  | أمريكا الشمالية |  4.9.0.221        | TBD     | 21-مايو-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>جدول الإصدار لإدارة المشاريع والمحاسبة في بيئة تطبيقات Finance and Operations
 
@@ -73,15 +73,15 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 | الإصدار المدعوم | متوفر بشكل عام (تحديث ذاتي) |
 | --- | --- |
+| 10.0.18  | 16 أبريل 2021 |
 | 10.0.17  | 19 مارس 2021 |
 | 10.0.16  | 22 يناير 2021 |
 
 
-تخضع تواريخ الإصدار المستهدفة للتغيير. لمزيد من المعلومات، راجع [توافر تحديثات الخدمة](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
+تخضع تواريخ الإصدار المستهدفة للتغيير. لمزيد من المعلومات، راجع [توافر تحديثات الخدمة](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 | تاريخ الإصدار المستهدف | متوفر بشكل عام (تحديث ذاتي) |
 | --- | --- |
-| 10.0.18  | 16 أبريل 2021 |
 | 10.0.19  | 18 يونيو 2021 |
 | 10.0.20  | 16 يوليو 2021 |
 

@@ -3,17 +3,17 @@ title: إنشاء حركات بين الشركات الشقيقة
 description: يوفر هذا الموضوع معلومات حول كيفية إنشاء حركات بين الشركات الشقيقة.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287402"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880432"
 ---
 # <a name="create-intercompany-transactions"></a>إنشاء حركات بين الشركات الشقيقة
 
@@ -62,7 +62,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
     4. قم بتعيين العملة إلى **دولار أمريكي**.
     5. احفظ السجل.
 3. انتقل إلى **المبيعات** > **عقود المشاريع** وقم بإنشاء عقد مشروع جديد لـ Adventure Works.
-    1. قم بتعيين الشركة المالكة **USPM** ووحدة للتعاقد إلى **Contoso Robotics US**.
+    1. قم بتعيين الشركة المالكة إلى **USPM** ووحدة التعاقد إلى **Contoso Robotics US**.
     2. حدد Adventure Works باعتبارها العميل.
     3. حدد قائمه أسعار المنتجات وقم بحفظ السجل.
     4. في علامة التبويب **شروط التعاقد**، قم بإنشاء شرط تعاقد جديد. قم بتعيين اي اسم وحدد **الوقت والمواد** كطريقه للفوترة.
@@ -94,7 +94,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
     هذا البيع غير المفوتر جاهز الآن للفواتير. يمكن ترحيل فاتورة العميل Adventure Works ماليًا عند الحاجة.
 
 10. قم بتسجيل الدخول كمحاسب **GBPM**. افتح مثيل Finance الخاص بـ Project Operations، وافتح الشركة **GBPM**. 
-11. انتقل إلى **إدارة المشاريع والمحاسبة** > **دوري** > **Project Operations في Customer Engagement** > **الاستيراد من التشغيل المرحلي** وحدد لتشغيل العملية الدورية لملء دفتر يومية تكامل Project Operations.
+11. انتقل إلى **إدارة المشاريع والمحاسبة** > **دوري** > **تكامل Project Operations** > **الاستيراد من جدول مرحلي** وقم بتشغيل العملية الدورية لملء دفتر يومية تكامل Project Operations.
 12. انتقل إلى **إدارة المشاريع والمحاسبة** > **دفاتر اليومية** > **دفتر يومية تكامل Project Operations** وراجع البنود. يقوم النظام بإنشاء البنود التالية.
 
     | **نوع المعاملة** | **السعر** | **عملة المعاملة‬** | **المبلغ** |
