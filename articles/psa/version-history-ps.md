@@ -24,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bae7acf2abf174b6e59d159521ffd1f465e311a0
-ms.sourcegitcommit: 3c60ac7543cc05d93a5d4ce87a3c7854fb9a203b
+ms.openlocfilehash: 05111b51d482493a8c8a1d9c9da44d6cd95fc8d2
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "5854369"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981356"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>جدول إصدار تحديثات Project Service 3.x
 
@@ -39,36 +39,36 @@ ms.locfileid: "5854369"
 
 | الحل  | آخر إصدار |
 |-------|----|
-| Project Service Automation    | 3.10.51.61  |
+| Project Service Automation    | 3.10.52.77  |
 | الوظيفة الإضافية لسطح المكتب Project Service Automation                | 3.15           |
 
-للحصول على معلومات حول تحديثات Project Service، يمكنك مراجعة [خطط إصدار Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/). 
+للحصول على معلومات حول تحديثات Project Service، يمكنك مراجعة [خطط إصدار Dynamics 365](/dynamics365/release-plans/). 
 
 | محطة العمل  | المنطقة | الإصدار الحالي | الإصدار التالي |  التاريخ المجدول
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>محطة العمل 1</strong> | |  |  | |
-| | <i>الإصدار الأول</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 23 أبريل 2021
+| | <i>الإصدار الأول</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 28 مايو 2021
 |<strong>محطة العمل 2</strong> | |  |  | |
-| | <i>أمريكا الجنوبية</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30 أبريل 2021
-| | <i>كندا</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30 أبريل 2021
-| | <i>الهند</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30 أبريل 2021
-| | <i>فرنسا</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30 أبريل 2021
-| | <i>الإمارات العربية المتحدة</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30 أبريل 2021
-| | <i>جنوب إفريقيا</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30 أبريل 2021
-| | <i>ألمانيا</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30 أبريل 2021
-| | <i>سويسرا</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30 أبريل 2021
+| | <i>أمريكا الجنوبية</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
+| | <i>كندا</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
+| | <i>الهند</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
+| | <i>فرنسا</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
+| | <i>الإمارات العربية المتحدة</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
+| | <i>جنوب إفريقيا</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
+| | <i>ألمانيا</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
+| | <i>سويسرا</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
 |<strong>محطة العمل 3</strong> | |  |  | |
-| | <i>اليابان</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9 أبريل 2021
-| | <i>آسيا/المحيط الهادئ</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9 أبريل 2021
-| | <i>بريطانيا العظمى</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9 أبريل 2021
-| | <i>Oceana</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9 أبريل 2021
+| | <i>اليابان</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07 مايو 2021
+| | <i>آسيا/المحيط الهادئ</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07 مايو 2021
+| | <i>بريطانيا العظمى</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07 مايو 2021
+| | <i>Oceana</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07 مايو 2021
 |<strong>محطة العمل 4</strong> | |  |  | |
-| | <i>أوروبا</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 16 أبريل 2021
+| | <i>أوروبا</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 14 مايو 2021
 |<strong>محطة العمل 5</strong> | |  |  | |
-| | <i>أمريكا الشمالية</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 23 أبريل 2021
+| | <i>أمريكا الشمالية</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 21 مايو 2021
 |<strong>محطة العمل 6</strong> | |  |  | |
-| | <i>سحابة القطاع الحكومي</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 30 أبريل 2021
-| | <i>مجموعات القياس المخصصة</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 30 أبريل 2021
+| | <i>سحابة القطاع الحكومي</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 21 مايو 2021
+| | <i>مجموعات القياس المخصصة</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 28 مايو 2021
 
 >[!Note]
 > - تشير التواريخ في جميع المناطق باستثناء سحابة المجتمع الحكومية (GCC) إلى توقيت التحديث التلقائي التالي. تشير التواريخ في سحابة المجتمع الحكومية إلى توفر الإصدار؛ في الوقت الحالي، لا يوجد تحديث تلقائي لهذه المناطق.
