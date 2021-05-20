@@ -1,6 +1,6 @@
 ---
 title: إنشاء قالب ساعات عمل
-description: كيفية إنشاء قالب ساعات العمل في Project Service
+description: يصف هذا الموضوع كيفية إنشاء قالب ساعات العمل في Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285017"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981239"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="e7374-103">إنشاء قالب ساعات العمل (Project Service)</span><span class="sxs-lookup"><span data-stu-id="e7374-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="abf08-103">إنشاء قالب ساعات العمل (Project Service)</span><span class="sxs-lookup"><span data-stu-id="abf08-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="e7374-104">قبل أن تتمكن من إنشاء جداول المشروع، ستحتاج إلى إعداد تقويم مشروع يحدد عدد ساعات العمل لاحتواء كل يوم في الجدول وأية حالات إغلاق الأعمال‬.</span><span class="sxs-lookup"><span data-stu-id="e7374-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="e7374-105">يمكنك القيام بذلك باستخدام قالب ساعات العمل، الذي يحتوي على تفاصيل حول ساعات العمل في اليوم وأيام الإجازات وحالات إغلاق الأعمال الأخرى.</span><span class="sxs-lookup"><span data-stu-id="e7374-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
-  
- <span data-ttu-id="e7374-106">عندما تقوم بإنشاء مشروع، يمكنك إقران قالب عمل بتقويم المشروع لتطبيق الجدول للمشروع.</span><span class="sxs-lookup"><span data-stu-id="e7374-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
-  
- <span data-ttu-id="e7374-107">هناك طريقتان لإنشاء قالب ساعات عمل:</span><span class="sxs-lookup"><span data-stu-id="e7374-107">There are two ways you can create a work hours template:</span></span>  
-  
--   <span data-ttu-id="e7374-108">إنشاء قالب ساعات عمل استنادًا إلى تقويم المورد.</span><span class="sxs-lookup"><span data-stu-id="e7374-108">Create a work hours template based on a resource’s calendar.</span></span>  
-  
--   <span data-ttu-id="e7374-109">إنشاء قالب ساعات عمل جديد.</span><span class="sxs-lookup"><span data-stu-id="e7374-109">Create a new work hours template.</span></span>  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="e7374-110">لإنشاء قالب ساعات عمل استنادًا إلى تقويم المورد</span><span class="sxs-lookup"><span data-stu-id="e7374-110">To create a work hours template based on a resource’s calendar</span></span>  
-  
-1.  <span data-ttu-id="e7374-111">انتقل إلى **Project Service > الموارد‬‏‎**.</span><span class="sxs-lookup"><span data-stu-id="e7374-111">Go to **Project Service > Resources**.</span></span>  
-  
-2.  <span data-ttu-id="e7374-112">حدد المورد الذي تريد إسناد ساعات عملك إليه.</span><span class="sxs-lookup"><span data-stu-id="e7374-112">Select the resource you want to base your work hours on.</span></span>  
-  
-3.  <span data-ttu-id="e7374-113">انقر فوق **حفظ التقويم باسم‬**، وأدخل اسمًا لقالب ساعات العمل، ثم انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="e7374-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
-  
-4.  <span data-ttu-id="e7374-114">عند الانتهاء من تغيير الخيارات، انقر فوق **حفظ وإغلاق**.</span><span class="sxs-lookup"><span data-stu-id="e7374-114">When you’re done changing options, click **Save and Close**.</span></span>  
-  
-5.  <span data-ttu-id="e7374-115">انقر فوق الزر **حفظ** في الركن الأيمن السفلي من الشاشة.</span><span class="sxs-lookup"><span data-stu-id="e7374-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
-  
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="e7374-116">لإنشاء قالب ساعات عمل جديد</span><span class="sxs-lookup"><span data-stu-id="e7374-116">To create a new work hours template</span></span>  
-  
-1.  <span data-ttu-id="e7374-117">انتقل إلى **Project Service > قوالب ساعات العمل‬**.</span><span class="sxs-lookup"><span data-stu-id="e7374-117">Go to **Project Service > Work Hours Templates**.</span></span>  
-  
-2.  <span data-ttu-id="e7374-118">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="e7374-118">Click **New**.</span></span>  
-  
-3.  <span data-ttu-id="e7374-119">أدخل اسمًا لقالب ساعات العمل.</span><span class="sxs-lookup"><span data-stu-id="e7374-119">Enter a name for the work hours template.</span></span>  
-  
-4.  <span data-ttu-id="e7374-120">حدد موردًا لإسناد ساعات العمل إليه، ثم انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="e7374-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
-  
-### <a name="see-also"></a><span data-ttu-id="e7374-121">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="e7374-121">See Also</span></span>  
- [<span data-ttu-id="e7374-122">إعداد الموارد</span><span class="sxs-lookup"><span data-stu-id="e7374-122">Set up resources</span></span>](../psa/set-up-resources.md)
+<span data-ttu-id="abf08-104">لإنشاء مشروع وإدارته، يجب تطبيق قالب تقويم على المشروع.</span><span class="sxs-lookup"><span data-stu-id="abf08-104">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="abf08-105">يحدد قالب التقويم سمات المشروع التالية:</span><span class="sxs-lookup"><span data-stu-id="abf08-105">The calendar template defines the following project attributes:</span></span>
+
+- <span data-ttu-id="abf08-106">ساعات العمل، بما في ذلك وقت البدء والانتهاء</span><span class="sxs-lookup"><span data-stu-id="abf08-106">Working hours, including start and end time</span></span>
+- <span data-ttu-id="abf08-107">أيام العمل</span><span class="sxs-lookup"><span data-stu-id="abf08-107">Working days</span></span>
+- <span data-ttu-id="abf08-108">استثناءات التقويم مثل الأيام غير المخصصة للعمل</span><span class="sxs-lookup"><span data-stu-id="abf08-108">Calendar exceptions such as non-working days</span></span>
+
+<span data-ttu-id="abf08-109">قالب التقويم المطبق على مشروع هو نسخة من قالب التقويم المعرف في إعدادات المؤسسة.</span><span class="sxs-lookup"><span data-stu-id="abf08-109">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="abf08-110">إذا قمت بتغيير قالب التقويم، فلا يتم نشر هذه التغييرات إلى ساعات عمل المشروع.</span><span class="sxs-lookup"><span data-stu-id="abf08-110">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="abf08-111">لتغيير ساعات عمل المشروع، يجب تطبيق قالب جديد.</span><span class="sxs-lookup"><span data-stu-id="abf08-111">To change the working hours of the project, a new template must be applied.</span></span>
+
+<span data-ttu-id="abf08-112">لإنشاء قالب تقويم لمنظمتك، يوجد متطلبين أساسيين:</span><span class="sxs-lookup"><span data-stu-id="abf08-112">To create a calendar template for your organization, there are two key requirements:</span></span>
+
+- <span data-ttu-id="abf08-113">حدد ساعات العمل المطلوبة في القالب باستخدام مورد جديد أو موجود قابل للحجز.</span><span class="sxs-lookup"><span data-stu-id="abf08-113">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="abf08-114">قم بإنشاء قالب تقويم جديد وإقران القالب بالمورد القابل للحجز.</span><span class="sxs-lookup"><span data-stu-id="abf08-114">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="abf08-115">**تحديد ساعات عمل القالب**</span><span class="sxs-lookup"><span data-stu-id="abf08-115">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="abf08-116">انتقل إلى **الموارد** \> **الموارد**.</span><span class="sxs-lookup"><span data-stu-id="abf08-116">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="abf08-117">قم بإنشاء مورد جديد للمرجع في قالب التقويم، أو حدد موردًا موجودًا.</span><span class="sxs-lookup"><span data-stu-id="abf08-117">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="abf08-118">حدد علامة التبويب **ساعات العمل** للمورد واستكمل الإرشادات في [تعيين ساعات العمل للمورد](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) لتكوين قواعد التقويم.</span><span class="sxs-lookup"><span data-stu-id="abf08-118">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="abf08-119">**إنشاء قالب تكوين جديد.**</span><span class="sxs-lookup"><span data-stu-id="abf08-119">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="abf08-120">انتقل إلى **الإعدادات** \> **قالب التقويم**.</span><span class="sxs-lookup"><span data-stu-id="abf08-120">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="abf08-121">حدد **جديد**، وأدخل اسمًا ووصفًا ومورد القالب.</span><span class="sxs-lookup"><span data-stu-id="abf08-121">Select **New**, and enter a name, description, and template resource.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="abf08-122">عند الرجوع إلى مورد في قالب تقويم، يتم ربط نسخة من تقويم المورد مع قالب التقويم.</span><span class="sxs-lookup"><span data-stu-id="abf08-122">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="abf08-123">إذا تم تغيير ساعات العمل للقالب المنسوخ، فلا يتم نشر هذه التغييرات إلى قالب التقويم.</span><span class="sxs-lookup"><span data-stu-id="abf08-123">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+
+### <a name="see-also"></a><span data-ttu-id="abf08-124">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="abf08-124">See Also</span></span>  
+ [<span data-ttu-id="abf08-125">إعداد الموارد</span><span class="sxs-lookup"><span data-stu-id="abf08-125">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

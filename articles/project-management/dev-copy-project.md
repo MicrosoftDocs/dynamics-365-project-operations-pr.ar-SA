@@ -8,50 +8,50 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 27847575e2d6ec9af77d24f756b13d3aeb0efea7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc17df0c73b276048f7c4b04bd9dc6644e828dc0
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286907"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949798"
 ---
-# <a name="develop-project-templates-with-copy-project"></a><span data-ttu-id="3130e-103">تطوير قوالب المشروع مع نسخ المشروع‬</span><span class="sxs-lookup"><span data-stu-id="3130e-103">Develop project templates with Copy Project</span></span>
+# <a name="develop-project-templates-with-copy-project"></a><span data-ttu-id="a7c48-103">تطوير قوالب المشروع مع نسخ المشروع‬</span><span class="sxs-lookup"><span data-stu-id="a7c48-103">Develop project templates with Copy Project</span></span>
 
-<span data-ttu-id="3130e-104">_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_</span><span class="sxs-lookup"><span data-stu-id="3130e-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="a7c48-104">_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_</span><span class="sxs-lookup"><span data-stu-id="a7c48-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="3130e-105">يدعم Dynamics 365 Project Operations القدرة علي نسخ مشروع وإرجاع أي تعيينات إلى الموارد العامة التي تمثل الدور.</span><span class="sxs-lookup"><span data-stu-id="3130e-105">Dynamics 365 Project Operations supports the ability to copy a project and revert any assignments back to the generic resources that represent the role.</span></span> <span data-ttu-id="3130e-106">يمكن للعملاء استخدام هذه الوظيفة لبناء قوالب المشروع الأساسية.</span><span class="sxs-lookup"><span data-stu-id="3130e-106">Customers can use this functionality to build basic project templates.</span></span>
+<span data-ttu-id="a7c48-105">يدعم Dynamics 365 Project Operations القدرة علي نسخ مشروع وإرجاع أي تعيينات إلى الموارد العامة التي تمثل الدور.</span><span class="sxs-lookup"><span data-stu-id="a7c48-105">Dynamics 365 Project Operations supports the ability to copy a project and revert any assignments back to the generic resources that represent the role.</span></span> <span data-ttu-id="a7c48-106">يمكن للعملاء استخدام هذه الوظيفة لبناء قوالب المشروع الأساسية.</span><span class="sxs-lookup"><span data-stu-id="a7c48-106">Customers can use this functionality to build basic project templates.</span></span>
 
-<span data-ttu-id="3130e-107">عند تحديد **نسخ المشروع**، يتم تحديث حالة المشروع الهدف.</span><span class="sxs-lookup"><span data-stu-id="3130e-107">When you select **Copy Project**, the status of the target project is updated.</span></span> <span data-ttu-id="3130e-108">استخدم **سبب الحالة** لتحديد وقت اكتمال إجراء النسخ.</span><span class="sxs-lookup"><span data-stu-id="3130e-108">Use **Status Reason** to determine when the copy action is complete.</span></span> <span data-ttu-id="3130e-109">يؤدي أيضًا تحديد **نسخ المشروع** إلى تحديث تاريخ بدء المشروع إلى تاريخ البدء الحالي في حال عدم اكتشاف تاريخ مستهدف في كيان المشروع الهدف.</span><span class="sxs-lookup"><span data-stu-id="3130e-109">Selecting **Copy Project** also updates the start date of the project to the current start date if no target date is detected in the target project entity.</span></span>
+<span data-ttu-id="a7c48-107">عند تحديد **نسخ المشروع**، يتم تحديث حالة المشروع الهدف.</span><span class="sxs-lookup"><span data-stu-id="a7c48-107">When you select **Copy Project**, the status of the target project is updated.</span></span> <span data-ttu-id="a7c48-108">استخدم **سبب الحالة** لتحديد وقت اكتمال إجراء النسخ.</span><span class="sxs-lookup"><span data-stu-id="a7c48-108">Use **Status Reason** to determine when the copy action is complete.</span></span> <span data-ttu-id="a7c48-109">يؤدي أيضًا تحديد **نسخ المشروع** إلى تحديث تاريخ بدء المشروع إلى تاريخ البدء الحالي في حال عدم اكتشاف تاريخ مستهدف في كيان المشروع الهدف.</span><span class="sxs-lookup"><span data-stu-id="a7c48-109">Selecting **Copy Project** also updates the start date of the project to the current start date if no target date is detected in the target project entity.</span></span>
 
-## <a name="copy-project-custom-action"></a><span data-ttu-id="3130e-110">الإجراء المخصص "نسخ المشروع"</span><span class="sxs-lookup"><span data-stu-id="3130e-110">Copy Project custom action</span></span> 
+## <a name="copy-project-custom-action"></a><span data-ttu-id="a7c48-110">الإجراء المخصص "نسخ المشروع"</span><span class="sxs-lookup"><span data-stu-id="a7c48-110">Copy Project custom action</span></span> 
 
-### <a name="name"></a><span data-ttu-id="3130e-111">اسم</span><span class="sxs-lookup"><span data-stu-id="3130e-111">Name</span></span> 
+### <a name="name"></a><span data-ttu-id="a7c48-111">اسم</span><span class="sxs-lookup"><span data-stu-id="a7c48-111">Name</span></span> 
 
-<span data-ttu-id="3130e-112">**msdyn_CopyProjectV2**</span><span class="sxs-lookup"><span data-stu-id="3130e-112">**msdyn_CopyProjectV2**</span></span>
+<span data-ttu-id="a7c48-112">**msdyn_CopyProjectV2**</span><span class="sxs-lookup"><span data-stu-id="a7c48-112">**msdyn_CopyProjectV2**</span></span>
 
-### <a name="input-parameters"></a><span data-ttu-id="3130e-113">معلمات الإدخال</span><span class="sxs-lookup"><span data-stu-id="3130e-113">Input parameters</span></span>
-<span data-ttu-id="3130e-114">توجد ثلاث معلمات إدخال:</span><span class="sxs-lookup"><span data-stu-id="3130e-114">There are three input parameters:</span></span>
+### <a name="input-parameters"></a><span data-ttu-id="a7c48-113">معلمات الإدخال</span><span class="sxs-lookup"><span data-stu-id="a7c48-113">Input parameters</span></span>
+<span data-ttu-id="a7c48-114">توجد ثلاث معلمات إدخال:</span><span class="sxs-lookup"><span data-stu-id="a7c48-114">There are three input parameters:</span></span>
 
-| <span data-ttu-id="3130e-115">المعلمة‬</span><span class="sxs-lookup"><span data-stu-id="3130e-115">Parameter</span></span>          | <span data-ttu-id="3130e-116">النوع</span><span class="sxs-lookup"><span data-stu-id="3130e-116">Type</span></span>   | <span data-ttu-id="3130e-117">القيم</span><span class="sxs-lookup"><span data-stu-id="3130e-117">Values</span></span>                                                   | 
+| <span data-ttu-id="a7c48-115">المعلمة‬</span><span class="sxs-lookup"><span data-stu-id="a7c48-115">Parameter</span></span>          | <span data-ttu-id="a7c48-116">النوع</span><span class="sxs-lookup"><span data-stu-id="a7c48-116">Type</span></span>   | <span data-ttu-id="a7c48-117">القيم</span><span class="sxs-lookup"><span data-stu-id="a7c48-117">Values</span></span>                                                   | 
 |--------------------|--------|----------------------------------------------------------|
-| <span data-ttu-id="3130e-118">ProjectCopyOption</span><span class="sxs-lookup"><span data-stu-id="3130e-118">ProjectCopyOption</span></span>  | <span data-ttu-id="3130e-119">String</span><span class="sxs-lookup"><span data-stu-id="3130e-119">String</span></span> | <span data-ttu-id="3130e-120">**{"removeNamedResources":true}** أو **{"clearTeamsAndAssignments":true}**</span><span class="sxs-lookup"><span data-stu-id="3130e-120">**{"removeNamedResources":true}** or **{"clearTeamsAndAssignments":true}**</span></span> |
-| <span data-ttu-id="3130e-121">SourceProject</span><span class="sxs-lookup"><span data-stu-id="3130e-121">SourceProject</span></span>      | <span data-ttu-id="3130e-122">مرجع الكيان</span><span class="sxs-lookup"><span data-stu-id="3130e-122">Entity Reference</span></span> | <span data-ttu-id="3130e-123">Source Project</span><span class="sxs-lookup"><span data-stu-id="3130e-123">Source Project</span></span> |
-| <span data-ttu-id="3130e-124">هدف</span><span class="sxs-lookup"><span data-stu-id="3130e-124">Target</span></span>             | <span data-ttu-id="3130e-125">مرجع الكيان</span><span class="sxs-lookup"><span data-stu-id="3130e-125">Entity Reference</span></span> | <span data-ttu-id="3130e-126">المشروع الهدف</span><span class="sxs-lookup"><span data-stu-id="3130e-126">Target Project</span></span> |
+| <span data-ttu-id="a7c48-118">ProjectCopyOption</span><span class="sxs-lookup"><span data-stu-id="a7c48-118">ProjectCopyOption</span></span>  | <span data-ttu-id="a7c48-119">String</span><span class="sxs-lookup"><span data-stu-id="a7c48-119">String</span></span> | <span data-ttu-id="a7c48-120">**{"removeNamedResources":true}** أو **{"clearTeamsAndAssignments":true}**</span><span class="sxs-lookup"><span data-stu-id="a7c48-120">**{"removeNamedResources":true}** or **{"clearTeamsAndAssignments":true}**</span></span> |
+| <span data-ttu-id="a7c48-121">SourceProject</span><span class="sxs-lookup"><span data-stu-id="a7c48-121">SourceProject</span></span>      | <span data-ttu-id="a7c48-122">مرجع الكيان</span><span class="sxs-lookup"><span data-stu-id="a7c48-122">Entity Reference</span></span> | <span data-ttu-id="a7c48-123">Source Project</span><span class="sxs-lookup"><span data-stu-id="a7c48-123">Source Project</span></span> |
+| <span data-ttu-id="a7c48-124">هدف</span><span class="sxs-lookup"><span data-stu-id="a7c48-124">Target</span></span>             | <span data-ttu-id="a7c48-125">مرجع الكيان</span><span class="sxs-lookup"><span data-stu-id="a7c48-125">Entity Reference</span></span> | <span data-ttu-id="a7c48-126">المشروع الهدف</span><span class="sxs-lookup"><span data-stu-id="a7c48-126">Target Project</span></span> |
 
 
-- <span data-ttu-id="3130e-127">**{"clearTeamsAndAssignments":true}**: السلوك الافتراضي لمشروع الويب، وستتم إزالة جميع التعيينات وأعضاء الفريق.</span><span class="sxs-lookup"><span data-stu-id="3130e-127">**{"clearTeamsAndAssignments":true}**: Thee default behavior for Project for the Web, and will remove all assignments and team members.</span></span>
-- <span data-ttu-id="3130e-128">**{"removeNamedResources":true}** السلوك الافتراضي لـ Project Operations، وستُعاد التعيينات إلى الموارد العامة.</span><span class="sxs-lookup"><span data-stu-id="3130e-128">**{"removeNamedResources":true}** The default behavior for Project Operations, and will revert assignments to generic resources.</span></span>
+- <span data-ttu-id="a7c48-127">**{"clearTeamsAndAssignments":true}**: السلوك الافتراضي لمشروع الويب، وستتم إزالة جميع التعيينات وأعضاء الفريق.</span><span class="sxs-lookup"><span data-stu-id="a7c48-127">**{"clearTeamsAndAssignments":true}**: Thee default behavior for Project for the Web, and will remove all assignments and team members.</span></span>
+- <span data-ttu-id="a7c48-128">**{"removeNamedResources":true}** السلوك الافتراضي لـ Project Operations، وستُعاد التعيينات إلى الموارد العامة.</span><span class="sxs-lookup"><span data-stu-id="a7c48-128">**{"removeNamedResources":true}** The default behavior for Project Operations, and will revert assignments to generic resources.</span></span>
 
-<span data-ttu-id="3130e-129">لمزيد من الإعدادات الافتراضية حول الإجراءات، راجع [استخدام إجراءات API الويب](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span><span class="sxs-lookup"><span data-stu-id="3130e-129">For more defaults on actions, see [Use Web API actions](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span></span>
+<span data-ttu-id="a7c48-129">لمزيد من الإعدادات الافتراضية حول الإجراءات، راجع [استخدام إجراءات API الويب](/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span><span class="sxs-lookup"><span data-stu-id="a7c48-129">For more defaults on actions, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span></span>
 
-## <a name="specify-fields-to-copy"></a><span data-ttu-id="3130e-130">تحديد الحقول المراد نسخها</span><span class="sxs-lookup"><span data-stu-id="3130e-130">Specify fields to copy</span></span> 
-<span data-ttu-id="3130e-131">عند استدعاء الإجراء، يبحث **نسخ المشروع** في طريقة عرض المشروع **نسخ أعمدة المشروع** لتحديد الحقول التي يجب نسخها عند نسخ المشروع.</span><span class="sxs-lookup"><span data-stu-id="3130e-131">When the action is called, **Copy Project** will look at the project view **Copy Project Columns** to determine which fields to copy when the project is copied.</span></span>
+## <a name="specify-fields-to-copy"></a><span data-ttu-id="a7c48-130">تحديد الحقول المراد نسخها</span><span class="sxs-lookup"><span data-stu-id="a7c48-130">Specify fields to copy</span></span> 
+<span data-ttu-id="a7c48-131">عند استدعاء الإجراء، يبحث **نسخ المشروع** في طريقة عرض المشروع **نسخ أعمدة المشروع** لتحديد الحقول التي يجب نسخها عند نسخ المشروع.</span><span class="sxs-lookup"><span data-stu-id="a7c48-131">When the action is called, **Copy Project** will look at the project view **Copy Project Columns** to determine which fields to copy when the project is copied.</span></span>
 
 
-### <a name="example"></a><span data-ttu-id="3130e-132">مثال</span><span class="sxs-lookup"><span data-stu-id="3130e-132">Example</span></span>
-<span data-ttu-id="3130e-133">يوضح المثال التالي كيفية استدعاء الإجراء المخصص **CopyProject** مع مجموعة المعلمات **RemoveNamedResources**.</span><span class="sxs-lookup"><span data-stu-id="3130e-133">The following example shows how to call the **CopyProject** custom action with the **removeNamedResources** parameter set.</span></span>
+### <a name="example"></a><span data-ttu-id="a7c48-132">مثال</span><span class="sxs-lookup"><span data-stu-id="a7c48-132">Example</span></span>
+<span data-ttu-id="a7c48-133">يوضح المثال التالي كيفية استدعاء الإجراء المخصص **CopyProject** مع مجموعة المعلمات **RemoveNamedResources**.</span><span class="sxs-lookup"><span data-stu-id="a7c48-133">The following example shows how to call the **CopyProject** custom action with the **removeNamedResources** parameter set.</span></span>
 ```C#
 {
     using System;
