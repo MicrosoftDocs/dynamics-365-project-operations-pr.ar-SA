@@ -48,10 +48,12 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: تكامل إدارة المصروفات
               href: environment/resource-dual-write-expense.md
-            - name: تكامل فاتورة المورد
+            - name: تكامل فاتورة المورّد
               href: environment/resource-dual-write-vendor-invoice.md
-    - name: الجديد‬
+    - name: الجديد
       items:
+        - name: مايو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: أبريل 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: مارس 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
@@ -368,12 +370,14 @@
               href: expense/set-up-workflows.md
             - name: إدارة التفويض
               href: expense/manage-delegation.md
-            - name: تكوين محددات إدارة المصروفات
+            - name: تكوين معلمات إدارة المصروفات
               href: expense/configure-expense-management-parameters.md
             - name: إعداد تكامل بطاقة الائتمان
               href: expense/set-up-credit-card-integration.md
             - name: إعداد فئات المصروفات
               href: expense/set-up-expense-categories.md
+            - name: إعداد الأميال باستخدام مستويات معدل المسافة بالميل
+              href: expense/set-up-mileage.md
         - name: المصروفات الشخصية
           href: expense/personal-expenses-expense-report.md
         - name: المصروفات بين الشركات الشقيقة
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: الجديد‬
       items:
+        - name: الجديد في مايو 2021 - النشر الخفيف
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: الجديد في أبريل 2021 - النشر الخفيف
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: الجديد في مارس 2021 - النشر الخفيف
@@ -988,7 +994,7 @@
           href: expense/set-up-workflows.md
         - name: إدارة التفويض
           href: expense/manage-delegation.md
-        - name: تكوين محددات إدارة المصروفات
+        - name: تكوين معلمات إدارة المصروفات
           href: expense/configure-expense-management-parameters.md
         - name: إعداد تكامل بطاقة الائتمان
           href: expense/set-up-credit-card-integration.md
@@ -1028,6 +1034,8 @@
       items:
         - name: جدول إصدار التحديثات لـ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: الجديد أو المتغير في إصدار التحديث 32، V3
+          href: psa/whats-new-ur-32.md
         - name: الجديد أو المتغير في إصدار التحديث 31، V3
           href: psa/whats-new-ur-31.md
         - name: الجديد أو المتغير في إصدار التحديث 30، V3
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: تخصيص إدخال الوقت الأسبوعي
               href: psa/time-entry-extensibility-v3.md
+            - name: مجموعات الموافقة
+              href: psa/approval-set.md
     - name: الأسئلة المتداولة واستكشاف الأخطاء وإصلاحها (3.x)
       items:
         - name: لماذا يتم تعيين السعر إلى صفر بشكل افتراضي في القيم الفعلية لتكلفة المصروفات؟
