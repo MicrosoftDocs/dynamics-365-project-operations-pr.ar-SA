@@ -1,8 +1,6 @@
 ---
 title: الجديد أو المتغير في الإصدار 3.x من Project Service Automation، الموجة 1 لعام 2020
 description: يقدم هذا الموضوع معلومات حول الجديد والمتغير في الإصدار رقم 3 من Project Service Automation، الموجة 1 لعام 2020.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -18,31 +16,31 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fef9cb62e989c693c8b3d00cb15441c284f66554
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f77c881c62428e423e0dab66eb34b033628a2a1b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280157"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996820"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a><span data-ttu-id="08cf4-103">الجديد أو المتغير في الإصدار 3 من Project Service Automation، الموجة 1 لعام 2020</span><span class="sxs-lookup"><span data-stu-id="08cf4-103">What's new or changed in Project Service Automation version 3 wave 1 2020</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a><span data-ttu-id="edde2-103">الجديد أو المتغير في الإصدار 3 من Project Service Automation، الموجة 1 لعام 2020</span><span class="sxs-lookup"><span data-stu-id="edde2-103">What's new or changed in Project Service Automation version 3 wave 1 2020</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="08cf4-104">هذا الموضوع يلقي الضوء على اعتبارات الترقية عند الانتقال إلى الإصدار الأخير 3.x من Project Service Automation (PSA)، الموجة 1 لعام 2020.</span><span class="sxs-lookup"><span data-stu-id="08cf4-104">The topic highlights key upgrade considerations when moving to the latest release of Project Service Automation (PSA) version 3.x wave 1 2020.</span></span>
+<span data-ttu-id="edde2-104">هذا الموضوع يلقي الضوء على اعتبارات الترقية عند الانتقال إلى الإصدار الأخير 3.x من Project Service Automation (PSA)، الموجة 1 لعام 2020.</span><span class="sxs-lookup"><span data-stu-id="edde2-104">The topic highlights key upgrade considerations when moving to the latest release of Project Service Automation (PSA) version 3.x wave 1 2020.</span></span>
 
-## <a name="time-entry"></a><span data-ttu-id="08cf4-105">إدخال الوقت</span><span class="sxs-lookup"><span data-stu-id="08cf4-105">Time entry</span></span>
-<span data-ttu-id="08cf4-106">تم توسيع تجربة إدخال الوقت لتوفير إمكانيات لتوسيع إدخال الوقت في المزيد من سيناريوهات العملاء.</span><span class="sxs-lookup"><span data-stu-id="08cf4-106">The time entry experience has been extended to deliver capabilities for extending time entry into more customer scenarios.</span></span> <span data-ttu-id="08cf4-107">وهذا يشمل إمكانية إضافة أنواع إدخالات، التي تعزز الآن سلوكيات معنية بالاستناد إلى اسم مخطط الحقل **إعدادات إدخال الوقت** الذي يظهر على أنه **مصدر الوقت**.</span><span class="sxs-lookup"><span data-stu-id="08cf4-107">This includes the capability to add entry types, which now drive specific behavior based on the field schema name **Time Entry Settings**, displayed as **Time Source**.</span></span> <span data-ttu-id="08cf4-108">تمت إضافة حل جديد مسمى الوقت والمصروفات والحالات والموافقات (TESA) لدعم هذه الوظيفة.</span><span class="sxs-lookup"><span data-stu-id="08cf4-108">A new solution, called Time, Expense, Statusing, and Approvals (TESA) has been added to support this functionality.</span></span>
+## <a name="time-entry"></a><span data-ttu-id="edde2-105">إدخال الوقت</span><span class="sxs-lookup"><span data-stu-id="edde2-105">Time entry</span></span>
+<span data-ttu-id="edde2-106">تم توسيع تجربة إدخال الوقت لتوفير إمكانيات لتوسيع إدخال الوقت في المزيد من سيناريوهات العملاء.</span><span class="sxs-lookup"><span data-stu-id="edde2-106">The time entry experience has been extended to deliver capabilities for extending time entry into more customer scenarios.</span></span> <span data-ttu-id="edde2-107">وهذا يشمل إمكانية إضافة أنواع إدخالات، التي تعزز الآن سلوكيات معنية بالاستناد إلى اسم مخطط الحقل **إعدادات إدخال الوقت** الذي يظهر على أنه **مصدر الوقت**.</span><span class="sxs-lookup"><span data-stu-id="edde2-107">This includes the capability to add entry types, which now drive specific behavior based on the field schema name **Time Entry Settings**, displayed as **Time Source**.</span></span> <span data-ttu-id="edde2-108">تمت إضافة حل جديد مسمى الوقت والمصروفات والحالات والموافقات (TESA) لدعم هذه الوظيفة.</span><span class="sxs-lookup"><span data-stu-id="edde2-108">A new solution, called Time, Expense, Statusing, and Approvals (TESA) has been added to support this functionality.</span></span>
 
-### <a name="upgrade-consideration"></a><span data-ttu-id="08cf4-109">اعتبارات الترقية</span><span class="sxs-lookup"><span data-stu-id="08cf4-109">Upgrade consideration</span></span>
-<span data-ttu-id="08cf4-110">لدعم هذه الوظيفة، تم تحديث الأدوار الموجودة في PSA لتشمل امتيازات جديدة.</span><span class="sxs-lookup"><span data-stu-id="08cf4-110">To support this functionality, the roles within PSA have been updated to include new privileges.</span></span> <span data-ttu-id="08cf4-111">تمنح هذه الامتيازات حق الوصول للقراءة للكيان الجديد، **إعدادات إدخال الوقت**.</span><span class="sxs-lookup"><span data-stu-id="08cf4-111">These privileges grant read access to the new entity, **Time Entry Settings**.</span></span>
+### <a name="upgrade-consideration"></a><span data-ttu-id="edde2-109">اعتبارات الترقية</span><span class="sxs-lookup"><span data-stu-id="edde2-109">Upgrade consideration</span></span>
+<span data-ttu-id="edde2-110">لدعم هذه الوظيفة، تم تحديث الأدوار الموجودة في PSA لتشمل امتيازات جديدة.</span><span class="sxs-lookup"><span data-stu-id="edde2-110">To support this functionality, the roles within PSA have been updated to include new privileges.</span></span> <span data-ttu-id="edde2-111">تمنح هذه الامتيازات حق الوصول للقراءة للكيان الجديد، **إعدادات إدخال الوقت**.</span><span class="sxs-lookup"><span data-stu-id="edde2-111">These privileges grant read access to the new entity, **Time Entry Settings**.</span></span>
 
-<span data-ttu-id="08cf4-112">ينبغي منح المستخدمين الذين يحتاجون إلى تسجيل الوقت دور المستخدم **مستخدم إدخال الوقت** بالإضافة إلى الأدوار الموجودة.</span><span class="sxs-lookup"><span data-stu-id="08cf4-112">Users who require the ability to log time should be granted the user role **Time Entry User** in addition to existing roles.</span></span> <span data-ttu-id="08cf4-113">يتضمن هذا الدور الوظائف الجديدة ويضمن استمرارية عمل إدخال الوقت.</span><span class="sxs-lookup"><span data-stu-id="08cf4-113">This role includes the new functionality and ensures that time entry will continue to work.</span></span>
+<span data-ttu-id="edde2-112">ينبغي منح المستخدمين الذين يحتاجون إلى تسجيل الوقت دور المستخدم **مستخدم إدخال الوقت** بالإضافة إلى الأدوار الموجودة.</span><span class="sxs-lookup"><span data-stu-id="edde2-112">Users who require the ability to log time should be granted the user role **Time Entry User** in addition to existing roles.</span></span> <span data-ttu-id="edde2-113">يتضمن هذا الدور الوظائف الجديدة ويضمن استمرارية عمل إدخال الوقت.</span><span class="sxs-lookup"><span data-stu-id="edde2-113">This role includes the new functionality and ensures that time entry will continue to work.</span></span>
 
-<span data-ttu-id="08cf4-114">علاوةً على ذلك، إذا كانت لديك وحدات تطبيقات مخصصة تتضمن جميع نماذج كيان إدخالات الوقت، فستتم مطالبتك بإزالة **نموذج الإنشاء السريع لإدخال الوقت TESA‬‬** من الوحدة.</span><span class="sxs-lookup"><span data-stu-id="08cf4-114">Additionally, if you have any custom app modules that include all forms for the time entry entity, you will be required to remove the **TESA time Entry Quick Create Form** from the module.</span></span>
+<span data-ttu-id="edde2-114">علاوةً على ذلك، إذا كانت لديك وحدات تطبيقات مخصصة تتضمن جميع نماذج كيان إدخالات الوقت، فستتم مطالبتك بإزالة **نموذج الإنشاء السريع لإدخال الوقت TESA‬‬** من الوحدة.</span><span class="sxs-lookup"><span data-stu-id="edde2-114">Additionally, if you have any custom app modules that include all forms for the time entry entity, you will be required to remove the **TESA time Entry Quick Create Form** from the module.</span></span>
 
-### <a name="currently-extended-time-entry-changes"></a><span data-ttu-id="08cf4-115">تغييرات إدخال الوقت الممدد حاليًا</span><span class="sxs-lookup"><span data-stu-id="08cf4-115">Currently extended time entry changes</span></span>
-<span data-ttu-id="08cf4-116">لتقليل التأثير على مستخدمي إدخال الوقت الحاليين، يعتبر تغيير الدور هذا الشرط الأساسي الوحيد المطلوب لمتابعة استخدام إدخال الوقت.</span><span class="sxs-lookup"><span data-stu-id="08cf4-116">To minimize the impact to current users of time entry, this role change is the only core requirement necessary to continue utilizing time entry.</span></span> <span data-ttu-id="08cf4-117">إذا كنت قد قمت بإنشاء طرق عرض مخصصة أو تجارب إدخال وقت منفصلة، فيجب تعيين حقول **إعداد إدخال الوقت** إلى قيمه PSA الصحيحة.</span><span class="sxs-lookup"><span data-stu-id="08cf4-117">If you have created custom views or separate time entry experiences, you must set the **Time Entry Setting** fields to the correct PSA value.</span></span>
+### <a name="currently-extended-time-entry-changes"></a><span data-ttu-id="edde2-115">تغييرات إدخال الوقت الممدد حاليًا</span><span class="sxs-lookup"><span data-stu-id="edde2-115">Currently extended time entry changes</span></span>
+<span data-ttu-id="edde2-116">لتقليل التأثير على مستخدمي إدخال الوقت الحاليين، يعتبر تغيير الدور هذا الشرط الأساسي الوحيد المطلوب لمتابعة استخدام إدخال الوقت.</span><span class="sxs-lookup"><span data-stu-id="edde2-116">To minimize the impact to current users of time entry, this role change is the only core requirement necessary to continue utilizing time entry.</span></span> <span data-ttu-id="edde2-117">إذا كنت قد قمت بإنشاء طرق عرض مخصصة أو تجارب إدخال وقت منفصلة، فيجب تعيين حقول **إعداد إدخال الوقت** إلى قيمه PSA الصحيحة.</span><span class="sxs-lookup"><span data-stu-id="edde2-117">If you have created custom views or separate time entry experiences, you must set the **Time Entry Setting** fields to the correct PSA value.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
