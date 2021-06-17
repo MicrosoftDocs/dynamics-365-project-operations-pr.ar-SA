@@ -2,11 +2,9 @@
 title: تحديد تقاويم المشاريع
 description: يوفر هذا الموضوع معلومات حول كيفية تطبيق قالب تقويم على مشروع لتعقب جدول المشروع.
 author: ruhercul
-manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 0d1a2c4bd2d4022bbf79afcef79170eb482e6418
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981284"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998980"
 ---
 # <a name="define-project-calendars"></a>تحديد تقاويم المشاريع
 
@@ -48,7 +46,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 1. انتقل إلى **الموارد** \> **الموارد**.
 2. قم بإنشاء مورد جديد للمرجع في قالب التقويم، أو حدد موردًا موجودًا.
-3. حدد علامة التبويب **ساعات العمل** للمورد واستكمل الإرشادات في [تعيين ساعات العمل للمورد](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) لتكوين قواعد التقويم.
+3. حدد علامة التبويب **ساعات العمل** للمورد واستكمل الإرشادات في [تعيين ساعات العمل للمورد](/dynamics365/field-service/set-work-hours-resource.md) لتكوين قواعد التقويم.
 
 **إنشاء قالب تكوين جديد.**
 

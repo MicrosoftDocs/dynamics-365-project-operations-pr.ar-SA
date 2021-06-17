@@ -2,19 +2,17 @@
 title: تكوين مواد غير مخزنة وفواتير المورد المعلقة
 description: يوضح هذا الموضوع كيفية تمكين المواد غير المخزنة والفواتير المعلقة الخاصة بالموردين.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880615"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993895"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>تكوين مواد غير مخزنة وفواتير المورد المعلقة
 
@@ -61,11 +59,11 @@ Dynamics 365 Finance:
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>تنشيط سير العمل لإنشاء حسابات استنادا إلى كيان المورد
 
-يوفر حل Dual Write Orchestration [التكامل الرئيسي للموردين](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). وكمتطلب أساسي لهذه الميزة، يجب إنشاء بيانات المورد في كيان **الحسابات**. قم بتنشيط عملية سير عمل قالب لإنشاء موردين في جدول **الحسابات** كما هو موضح في [التبديل بين تصميمات الموردين](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+يوفر حل Dual Write Orchestration [التكامل الرئيسي للموردين](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). وكمتطلب أساسي لهذه الميزة، يجب إنشاء بيانات المورد في كيان **الحسابات**. قم بتنشيط عملية سير عمل قالب لإنشاء موردين في جدول **الحسابات** كما هو موضح في [التبديل بين تصميمات الموردين](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>تعيين المنتجات ليتم إنشاؤها كنشطة
 
-يجب تكوين المواد غير المخزنة على أنها **منتجات تم إصدارها** في Finance. يوفر حل Dual Write Orchestration ميزة جاهزة لـ [تكامل المنتجات التي تم إصدارها مع كتالوج منتجات Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). وافتراضيًا، تتم مزامنة المنتجات من Finance إلى Dataverse بحالة مسودة. لمزامنة المنتج مع حالة نشطة بحيث يمكن استخدامه مباشرة في مستندات استخدام المواد أو فواتير الموردين المعلقة، انتقل إلى **النظام** > **الإدارة** > **إدارة النظام** > **إعدادات النظام**، ومن علامة التبويب **مبيعات**، قم بتعيين **إنشاء منتجات في حالة نشطة** إلى **نعم**.
+يجب تكوين المواد غير المخزنة على أنها **منتجات تم إصدارها** في Finance. يوفر حل Dual Write Orchestration ميزة جاهزة لـ [تكامل المنتجات التي تم إصدارها مع كتالوج منتجات Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). وافتراضيًا، تتم مزامنة المنتجات من Finance إلى Dataverse بحالة مسودة. لمزامنة المنتج مع حالة نشطة بحيث يمكن استخدامه مباشرة في مستندات استخدام المواد أو فواتير الموردين المعلقة، انتقل إلى **النظام** > **الإدارة** > **إدارة النظام** > **إعدادات النظام**، ومن علامة التبويب **مبيعات**، قم بتعيين **إنشاء منتجات في حالة نشطة** إلى **نعم**.
 
 ## <a name="configure-prerequisites-in-finance"></a>تكوين المتطلبات الأساسية في Finance
 

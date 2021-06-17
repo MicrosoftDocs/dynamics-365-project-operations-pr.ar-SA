@@ -2,8 +2,6 @@
 title: إنشاء قالب ساعات عمل
 description: يصف هذا الموضوع كيفية إنشاء قالب ساعات العمل في Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 105e3cb2ef7b904e96dc21013906e0b7444e3b88
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981239"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997180"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>إنشاء قالب ساعات العمل (Project Service)
 
@@ -51,7 +49,7 @@ ms.locfileid: "5981239"
 
 1. انتقل إلى **الموارد** \> **الموارد**.
 2. قم بإنشاء مورد جديد للمرجع في قالب التقويم، أو حدد موردًا موجودًا.
-3. حدد علامة التبويب **ساعات العمل** للمورد واستكمل الإرشادات في [تعيين ساعات العمل للمورد](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) لتكوين قواعد التقويم.
+3. حدد علامة التبويب **ساعات العمل** للمورد واستكمل الإرشادات في [تعيين ساعات العمل للمورد](/dynamics365/field-service/set-work-hours-resource.md) لتكوين قواعد التقويم.
 
 **إنشاء قالب تكوين جديد.**
 

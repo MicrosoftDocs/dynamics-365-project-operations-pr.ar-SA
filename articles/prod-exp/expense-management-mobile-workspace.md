@@ -2,12 +2,8 @@
 title: مساحة العمل المحمولة لإدارة المصروفات
 description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "إدارة المصروفات‬". تسمح مساحة العمل هذه للمستخدمين بالتقاط إيصال وتحميله، مما يمكنهم من إرفاقه بتقرير مصروفات فيما بعد. باستطاعة المستخدمين أيضًا إنشاء بند مصروفات بسرعة باستخدام إيصال استلام مرفق، وإنشاء وإدارة تقارير المصروفات الخاصة بهم.
 author: suvaidya
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -17,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7eccf5cd234df6ca4fc4c83b581f6c4c22b3396f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950463"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993625"
 ---
 # <a name="expense-management-mobile-workspace"></a>مساحة العمل المحمولة لإدارة المصروفات
 
