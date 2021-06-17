@@ -2,18 +2,16 @@
 title: حل أسعار التكلفة للتقديرات والقيم الفعلية
 description: يقدم هذا الموضوع معلومات حول كيفية حل أسعار التكلفة للتقديرات والقيم الفعلية.
 author: rumant
-manager: Annbe
 ms.date: 04/09/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 13903acc22e765ddc5bc1b87428ef3565f2b0a44
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: d81b521acbfd97127cf056bd41a3249c01108374
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877296"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001365"
 ---
 # <a name="resolving-cost-prices-for-estimates-and-actuals"></a>حل أسعار التكلفة للتقديرات والقيم الفعلية
 

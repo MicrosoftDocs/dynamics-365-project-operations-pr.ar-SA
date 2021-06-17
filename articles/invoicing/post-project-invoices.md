@@ -2,18 +2,16 @@
 title: نظرة عامة على عملية الفوترة
 description: يوفر هذا الموضوع نظرة عامة على عملية الفوترة في Project Operations للسيناريوهات المستندة إلى الموارد/غير المخزنة.
 author: sigitac
-manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9dc424cf69abfccc10bf551272a14e5cefb3dff0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 13f16d42ffdc0a9a6f369c311dfd9e15ad3f7aff
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275788"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001500"
 ---
 # <a name="invoicing-process-overview"></a>نظرة عامة على عملية الفوترة
 

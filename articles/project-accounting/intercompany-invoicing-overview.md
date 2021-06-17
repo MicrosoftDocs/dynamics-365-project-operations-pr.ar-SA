@@ -2,18 +2,16 @@
 title: نظرة عامة على الفوترة بين الشركات الشقيقة
 description: يوفر هذا الموضوع معلومات وأمثلة حول الفوترة بين الشركات الشقيقة للمشاريع.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287312"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002625"
 ---
 # <a name="intercompany-invoicing-overview"></a>نظرة عامة على الفوترة بين الشركات الشقيقة
 
@@ -21,7 +19,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 قد يكون لدي مؤسستك أقسام وشركات متعددة وكيانات قانونيه أخرى تقوم بنقل المنتجات والخدمات إلى بعضها البعض للمشاريع. ويطلق علي الكيان القانوني الذي يوفر الخدمة أو المنتج *الكيان القانوني المقرض*. ويطلق علي الكيان القانوني الذي يستلم الخدمة أو المنتج *الكيان القانوني المقترض*.
 
-يوضح الرسم التوضيحي التالي سيناريو نموذجيًا حيث يتشارك كيانان قانونيان ، Contoso Robotics USA (الكيان القانوني المُقترض) و Contoso Robotics UK (الكيان القانوني المُقرض) في الموارد لتسليم مشروع للعميل ، Adventure works. بالنسبة لهذا السيناريو ، تم التعاقد مع شركة Contoso Robotics USA لتسليم العمل إلى Adventure Works.
+يوضح الشكل التوضيحي التالي سيناريو نموذجي حيث يتشارك كيانات قانونيان، Contoso Robotics الولايات المتحدة الأمريكية (the borrowing legal entity) و Contoso Robotics المملكة المتحدة (الكيان القانوني المستقل) في الموارد لتسليم مشروع إلى العميل، Adventure works. لهذا السيناريو، تم التعاقد مع شركة Contoso Robotics الولايات المتحدة الأمريكية لتسليم العمل إلى الشركة Adventure Works.
 
 ![الفوترة بين الشركات الشقيقة](./media/IntercompanyScenario.png) 
 

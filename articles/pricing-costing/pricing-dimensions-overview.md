@@ -2,19 +2,17 @@
 title: نظرة عامة على أبعاد التسعير
 description: يقدم هذا الموضوع معلومات حول أبعاد التسعير في Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275387"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004965"
 ---
 # <a name="pricing-dimensions-overview"></a>نظرة عامة على أبعاد التسعير
 
@@ -59,18 +57,18 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 **نموذج أسعار الفاتورة**
 
-| الدور        | الوحدة التنظيمية    |الوحدة      |السعر      |العملات  |
+| الدور        | الوحدة التنظيمية    |الوحدة      |السعر      |عملة  |
 | ------------|-------------|----------|----------:|----------|
-| المطور   | Contoso US  |Hour‬ | 200|دولار أمريكي     |
-| المطور   | شركة حسني بالهند |Hour‬|   112|دولار أمريكي     |
+| المطور   | Contoso US  |ساعة | 200|دولار أمريكي     |
+| المطور   | Contoso الهند |ساعة|   112|دولار أمريكي     |
 
 
 **نموذج أسعار التكاليف**
 
-| نطاق الراتب     | الوحدة التنظيمية    |الوحدة      |السعر      |العملات  |
+| نطاق الراتب     | الوحدة التنظيمية    |الوحدة      |السعر      |عملة  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Hour‬ | 145|دولار أمريكي     |
-| My company_Band2 | شركة حسني بالهند |Hour‬|   67|دولار أمريكي     |
+| My company_Band1 | Contoso US  |ساعة | 145|دولار أمريكي     |
+| My company_Band2 | Contoso الهند |ساعة|   67|دولار أمريكي     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

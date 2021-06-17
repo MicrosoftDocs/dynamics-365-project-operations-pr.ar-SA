@@ -2,18 +2,16 @@
 title: إعداد معدلات التكلفة والمبيعات للمواد
 description: يوفر هذا الموضوع معلومات حول كيفية إعداد معدلات التكلفة والمبيعات للمواد‬ المستخدمة في المشروعات.
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 05abefcec5c64632d00e2317107fe7a84ded4908
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 3deea480222af00ee49a34bd49c7c951937323f0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877771"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004740"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>إعداد معدلات التكلفة والمبيعات للمواد
 
@@ -27,6 +25,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 2. في **بنود قائمة الأسعار**، على قائمة الشبكة الفرعية، حدد **بند قائمة أسعار جديد**. 
 3. في الصفحة **إنشاء سريع**، أدخل المنتج الوحدة التي تعمل على إنشاء سعر جديد لهما.
 
-لمزيد من المعلومات حول كيفية تعريف الأسعار لعناصر الكتالوج، راجع [إعداد التسعير للمنتجات](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products) and [الدقة العشرية في العملة والتسعير](https://docs.microsoft.com/dynamics365/sales-enterprise/decimal-precision-currency-pricing).
+لمزيد من المعلومات حول كيفية تعريف الأسعار لعناصر الكتالوج، راجع [إعداد التسعير للمنتجات](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) and [الدقة العشرية في العملة والتسعير](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
