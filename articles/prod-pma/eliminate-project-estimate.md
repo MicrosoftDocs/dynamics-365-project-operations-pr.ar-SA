@@ -2,11 +2,9 @@
 title: إزالة تقدير مشروع
 description: يقدم هذا الموضوع معلومات حول إزالة تقدير المشروع بعد اكتماله.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,39 +16,39 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a4ad06bef7ed66a626c6d2ad7ef01ba5b99d1c0f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270662"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006900"
 ---
-# <a name="eliminate-a-project-estimate"></a><span data-ttu-id="468bd-103">إزالة تقدير مشروع</span><span class="sxs-lookup"><span data-stu-id="468bd-103">Eliminate a project estimate</span></span>
+# <a name="eliminate-a-project-estimate"></a><span data-ttu-id="21812-103">إزالة تقدير مشروع</span><span class="sxs-lookup"><span data-stu-id="21812-103">Eliminate a project estimate</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="468bd-104">توفر تقديرات المشروع طريقة عرض الشؤون المالية للعمل المقدر والمجدول لمشروع.</span><span class="sxs-lookup"><span data-stu-id="468bd-104">Project estimates provide the financial view for work that is estimated and scheduled for a project.</span></span> <span data-ttu-id="468bd-105">للعمل مع التقديرات الخاصة بمشروع، يجب إرفاق المشروع بمشروع تقديري.</span><span class="sxs-lookup"><span data-stu-id="468bd-105">To work with estimates for a project, you must attach the project to an estimate project.</span></span> <span data-ttu-id="468bd-106">يستند المشروع التقديري دائمًا إلى مشروع موجود، ومع ذلك بإمكان مشاريع متعددة أن تشير إلى مشروع تقديري واحد.</span><span class="sxs-lookup"><span data-stu-id="468bd-106">An estimate project is always based on an existing project, however multiple projects can refer to a single estimate project.</span></span> <span data-ttu-id="468bd-107">يمكن إرفاق مشروعات الأسعار الثابتة والاستثمارية فقط بالمشروعات التقديرية، ويجب أن تنتمي هذه المشاريع إلى مجموعة المشاريع نفسها التي ينتمي إليها المشروع التقديري.</span><span class="sxs-lookup"><span data-stu-id="468bd-107">Only fixed-price and investment projects can be attached to estimate projects, and those projects must belong to the same project group as the estimate project.</span></span>
+<span data-ttu-id="21812-104">توفر تقديرات المشروع طريقة عرض الشؤون المالية للعمل المقدر والمجدول لمشروع.</span><span class="sxs-lookup"><span data-stu-id="21812-104">Project estimates provide the financial view for work that is estimated and scheduled for a project.</span></span> <span data-ttu-id="21812-105">للعمل مع التقديرات الخاصة بمشروع، يجب إرفاق المشروع بمشروع تقديري.</span><span class="sxs-lookup"><span data-stu-id="21812-105">To work with estimates for a project, you must attach the project to an estimate project.</span></span> <span data-ttu-id="21812-106">يستند المشروع التقديري دائمًا إلى مشروع موجود، ومع ذلك بإمكان مشاريع متعددة أن تشير إلى مشروع تقديري واحد.</span><span class="sxs-lookup"><span data-stu-id="21812-106">An estimate project is always based on an existing project, however multiple projects can refer to a single estimate project.</span></span> <span data-ttu-id="21812-107">يمكن إرفاق مشروعات الأسعار الثابتة والاستثمارية فقط بالمشروعات التقديرية، ويجب أن تنتمي هذه المشاريع إلى مجموعة المشاريع نفسها التي ينتمي إليها المشروع التقديري.</span><span class="sxs-lookup"><span data-stu-id="21812-107">Only fixed-price and investment projects can be attached to estimate projects, and those projects must belong to the same project group as the estimate project.</span></span>
 
-<span data-ttu-id="468bd-108">لإزالة مشروع تقديري، يجب أن يكون مكتملاً.</span><span class="sxs-lookup"><span data-stu-id="468bd-108">To eliminate an estimate project, it must be complete.</span></span> <span data-ttu-id="468bd-109">توضح الخطوات التالية كيفية إزالة تقدير.</span><span class="sxs-lookup"><span data-stu-id="468bd-109">The following steps explain how to eliminate an estimate.</span></span>
+<span data-ttu-id="21812-108">لإزالة مشروع تقديري، يجب أن يكون مكتملاً.</span><span class="sxs-lookup"><span data-stu-id="21812-108">To eliminate an estimate project, it must be complete.</span></span> <span data-ttu-id="21812-109">توضح الخطوات التالية كيفية إزالة تقدير.</span><span class="sxs-lookup"><span data-stu-id="21812-109">The following steps explain how to eliminate an estimate.</span></span>
 
-1. <span data-ttu-id="468bd-110">انتقل إلى **إدارة المشاريع والمحاسبة** > **جميع المشاريع** وافتح المشروع.</span><span class="sxs-lookup"><span data-stu-id="468bd-110">Go to **Project management and accounting** > **All Projects** and open the project.</span></span> 
-2. <span data-ttu-id="468bd-111">على علامة التبويب **إدارة**، حدد **التقديرات**، وفي الصفحة **تقدير**، حدد **إزالة**.</span><span class="sxs-lookup"><span data-stu-id="468bd-111">On the **Manage** tab, select **Estimates**, and on the **Estimate** page select **Eliminate**.</span></span>
-3. <span data-ttu-id="468bd-112">في الصفحة **إزالة التقدير** على علامة التبويب **عام**، قم بتعيين الخيارات التالية:</span><span class="sxs-lookup"><span data-stu-id="468bd-112">On the **Eliminate estimate** page on the **General** tab, set the following options:</span></span>
+1. <span data-ttu-id="21812-110">انتقل إلى **إدارة المشاريع والمحاسبة** > **جميع المشاريع** وافتح المشروع.</span><span class="sxs-lookup"><span data-stu-id="21812-110">Go to **Project management and accounting** > **All Projects** and open the project.</span></span> 
+2. <span data-ttu-id="21812-111">على علامة التبويب **إدارة**، حدد **التقديرات**، وفي الصفحة **تقدير**، حدد **إزالة**.</span><span class="sxs-lookup"><span data-stu-id="21812-111">On the **Manage** tab, select **Estimates**, and on the **Estimate** page select **Eliminate**.</span></span>
+3. <span data-ttu-id="21812-112">في الصفحة **إزالة التقدير** على علامة التبويب **عام**، قم بتعيين الخيارات التالية:</span><span class="sxs-lookup"><span data-stu-id="21812-112">On the **Eliminate estimate** page on the **General** tab, set the following options:</span></span>
 
-   - <span data-ttu-id="468bd-113">**كود الفترة**: حدد كود الفترة لاختيار المشروعات التقديرية المناسبة.</span><span class="sxs-lookup"><span data-stu-id="468bd-113">**Period code**: Select the period code to choose the appropriate estimate projects.</span></span> 
-   - <span data-ttu-id="468bd-114">**تاريخ التقدير**: حدد تاريخ التقدير المناسب للإزالة.</span><span class="sxs-lookup"><span data-stu-id="468bd-114">**Estimate date**: Select the appropriate estimate date for elimination.</span></span>
-   - <span data-ttu-id="468bd-115">**إزالة مع تحذيرات العمل قيد التنفيذ**: قم بتمكين هذا الخيار لتقديم إعلام عندما ستتم إزالة تقدير يرتبط بعمل قيد التنفيذ (WIP).</span><span class="sxs-lookup"><span data-stu-id="468bd-115">**Eliminate with WIP warnings**: Enable this option to provide notification when an estimate that is associated with a work in progress (WIP) will be eliminated.</span></span> <span data-ttu-id="468bd-116">عند عدم تمكين هذا الخيار، لا يمكن متابعة الإزالة في حال وجود حركات غير تقديرية.</span><span class="sxs-lookup"><span data-stu-id="468bd-116">When this option is not enabled, elimination can’t continue if any non-estimated transactions exist.</span></span> 
+   - <span data-ttu-id="21812-113">**كود الفترة**: حدد كود الفترة لاختيار المشروعات التقديرية المناسبة.</span><span class="sxs-lookup"><span data-stu-id="21812-113">**Period code**: Select the period code to choose the appropriate estimate projects.</span></span> 
+   - <span data-ttu-id="21812-114">**تاريخ التقدير**: حدد تاريخ التقدير المناسب للإزالة.</span><span class="sxs-lookup"><span data-stu-id="21812-114">**Estimate date**: Select the appropriate estimate date for elimination.</span></span>
+   - <span data-ttu-id="21812-115">**إزالة مع تحذيرات العمل قيد التنفيذ**: قم بتمكين هذا الخيار لتقديم إعلام عندما ستتم إزالة تقدير يرتبط بعمل قيد التنفيذ (WIP).</span><span class="sxs-lookup"><span data-stu-id="21812-115">**Eliminate with WIP warnings**: Enable this option to provide notification when an estimate that is associated with a work in progress (WIP) will be eliminated.</span></span> <span data-ttu-id="21812-116">عند عدم تمكين هذا الخيار، لا يمكن متابعة الإزالة في حال وجود حركات غير تقديرية.</span><span class="sxs-lookup"><span data-stu-id="21812-116">When this option is not enabled, elimination can’t continue if any non-estimated transactions exist.</span></span> 
    > [!NOTE]
-   > <span data-ttu-id="468bd-117">لا يتوفر هذا الخيار الا عندما يتم تطبيق الإزالة على مشروع تقديري.</span><span class="sxs-lookup"><span data-stu-id="468bd-117">This option is available only when elimination is applied to an estimate project.</span></span> <span data-ttu-id="468bd-118">ولا يكون متوفرًا إذا كنت تستخدم عمليات الترحيل الدورية.</span><span class="sxs-lookup"><span data-stu-id="468bd-118">It is not available if you are using periodic postings.</span></span> <span data-ttu-id="468bd-119">يعمل هذا الإعداد مع الإعدادات الموجودة على علامة التبويب **تقدير** في صفحة **معلمات المشروع** في مجموعة حقول **السماح بالإزالة عند وجود حركات غير مقدرة**.</span><span class="sxs-lookup"><span data-stu-id="468bd-119">This setting works with the settings on the **Estimate** tab on the **Project parameters** page, in the **Allow elimination when non-estimated transactions exist** field group.</span></span>
-   - <span data-ttu-id="468bd-120">**تعيين المرحلة إلى منتهية**: يمكنك تمكين هذا الخيار لتعيين مرحلة المشروع التقديري إلى **منتهية** بعد تشغيل الإزالة.</span><span class="sxs-lookup"><span data-stu-id="468bd-120">**Set stage to Finished**: Enable this option to set the estimate project’s stage to **Finished** after you run the elimination.</span></span>
-   - <span data-ttu-id="468bd-121">**طباعة قائمة التقديرات**: حدد المعلومات التي سيتم تضمينها عند طباعة قائمة التقديرات‏‎.</span><span class="sxs-lookup"><span data-stu-id="468bd-121">**Print estimate list**: Select the information to be included when the estimate list is printed.</span></span>
-   - <span data-ttu-id="468bd-122">**إظهار سجل المعلومات**: يمكنك تمكين هذا الخيار لعرض سجل المعلومات.</span><span class="sxs-lookup"><span data-stu-id="468bd-122">**Show Infolog**: Enable this option to display the Infolog.</span></span>
-   - <span data-ttu-id="468bd-123">**تاريخ الترحيل**: اختر تاريخ ترحيل دفتر الأستاذ للتقدير.</span><span class="sxs-lookup"><span data-stu-id="468bd-123">**Posting date**: Choose the ledger posting date of the estimate.</span></span>
+   > <span data-ttu-id="21812-117">لا يتوفر هذا الخيار الا عندما يتم تطبيق الإزالة على مشروع تقديري.</span><span class="sxs-lookup"><span data-stu-id="21812-117">This option is available only when elimination is applied to an estimate project.</span></span> <span data-ttu-id="21812-118">ولا يكون متوفرًا إذا كنت تستخدم عمليات الترحيل الدورية.</span><span class="sxs-lookup"><span data-stu-id="21812-118">It is not available if you are using periodic postings.</span></span> <span data-ttu-id="21812-119">يعمل هذا الإعداد مع الإعدادات الموجودة على علامة التبويب **تقدير** في صفحة **معلمات المشروع** في مجموعة حقول **السماح بالإزالة عند وجود حركات غير مقدرة**.</span><span class="sxs-lookup"><span data-stu-id="21812-119">This setting works with the settings on the **Estimate** tab on the **Project parameters** page, in the **Allow elimination when non-estimated transactions exist** field group.</span></span>
+   - <span data-ttu-id="21812-120">**تعيين المرحلة إلى منتهية**: يمكنك تمكين هذا الخيار لتعيين مرحلة المشروع التقديري إلى **منتهية** بعد تشغيل الإزالة.</span><span class="sxs-lookup"><span data-stu-id="21812-120">**Set stage to Finished**: Enable this option to set the estimate project’s stage to **Finished** after you run the elimination.</span></span>
+   - <span data-ttu-id="21812-121">**طباعة قائمة التقديرات**: حدد المعلومات التي سيتم تضمينها عند طباعة قائمة التقديرات‏‎.</span><span class="sxs-lookup"><span data-stu-id="21812-121">**Print estimate list**: Select the information to be included when the estimate list is printed.</span></span>
+   - <span data-ttu-id="21812-122">**إظهار سجل المعلومات**: يمكنك تمكين هذا الخيار لعرض سجل المعلومات.</span><span class="sxs-lookup"><span data-stu-id="21812-122">**Show Infolog**: Enable this option to display the Infolog.</span></span>
+   - <span data-ttu-id="21812-123">**تاريخ الترحيل**: اختر تاريخ ترحيل دفتر الأستاذ للتقدير.</span><span class="sxs-lookup"><span data-stu-id="21812-123">**Posting date**: Choose the ledger posting date of the estimate.</span></span>
 
-4.  <span data-ttu-id="468bd-124">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="468bd-124">Select **OK**.</span></span>
-5. <span data-ttu-id="468bd-125">بعد اكتمال عملية الإزالة، يظهر المشروع التقدير المُزال مع قيمة سالبة.</span><span class="sxs-lookup"><span data-stu-id="468bd-125">After the elimination process is complete, the eliminated estimate project is displayed with a negative value.</span></span> 
+4.  <span data-ttu-id="21812-124">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="21812-124">Select **OK**.</span></span>
+5. <span data-ttu-id="21812-125">بعد اكتمال عملية الإزالة، يظهر المشروع التقدير المُزال مع قيمة سالبة.</span><span class="sxs-lookup"><span data-stu-id="21812-125">After the elimination process is complete, the eliminated estimate project is displayed with a negative value.</span></span> 
 
-<span data-ttu-id="468bd-126">إذا لم تكن تهدف إلى إزالة تقدير، فيمكنك تحديد التقدير المُزال وتحديد **عكس عملية الإزالة**.</span><span class="sxs-lookup"><span data-stu-id="468bd-126">If you did not intend to eliminate an estimate, you can select the eliminated estimate and select **Reverse elimination**.</span></span>   
+<span data-ttu-id="21812-126">إذا لم تكن تهدف إلى إزالة تقدير، فيمكنك تحديد التقدير المُزال وتحديد **عكس عملية الإزالة**.</span><span class="sxs-lookup"><span data-stu-id="21812-126">If you did not intend to eliminate an estimate, you can select the eliminated estimate and select **Reverse elimination**.</span></span>   
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
