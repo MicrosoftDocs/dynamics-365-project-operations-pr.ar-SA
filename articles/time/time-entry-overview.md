@@ -2,18 +2,16 @@
 title: نظرة عامة على الوقت
 description: يقدم هذا الموضوع معلومات حول وظيفة الوقت في Dynamics 365 Project Operations.
 author: stsporen
-manager: AnnBe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e27311f7dda1c3c713dc3ad6c0e63f395264808d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3d6bee3bbcf96002c1951733bbacc94c6fc9d888
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277097"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011085"
 ---
 # <a name="time-overview"></a>نظرة عامة على الوقت
 

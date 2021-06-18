@@ -2,9 +2,7 @@
 title: تمكين ميزات تطبيق Project Finder Mobile
 description: كيفية تمكين ميزات تطبيق Project Finder Mobile في Project Service
 author: JohnPBurrows
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e4f3bf15589181e3095400c131d322184578afa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f068c32ac957dc5921ccabc989b3b7a347585c19
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284612"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007710"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>تمكين ميزات تطبيق Project Finder Mobile (Project Service)
 

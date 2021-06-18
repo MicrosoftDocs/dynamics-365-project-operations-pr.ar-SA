@@ -2,18 +2,16 @@
 title: إدارة تراكم الفوترة
 description: يقدم هذا الموضوع معلومات حول كيفية عرض تراكم الفوترة‬ والعمل معه في Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e428b551a755220cee67d54b2e63dd7a3c2ca393
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: d7c242937cd9dd277f8d92b7a29333c1fa272e5f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866666"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011895"
 ---
 # <a name="manage-billing-backlog"></a>إدارة تراكم الفوترة
 

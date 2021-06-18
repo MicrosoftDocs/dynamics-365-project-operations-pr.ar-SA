@@ -2,12 +2,10 @@
 title: الصفحة الرئيسية لأبعاد التسعير والتكلفة
 description: يوفر هذا الموضوع نظرة عامة على أبعاد التسعير.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284117"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009240"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>الصفحة الرئيسية لأبعاد التسعير والتكلفة
 
@@ -65,18 +63,18 @@ ms.locfileid: "5284117"
 
 **نموذج أسعار الفاتورة**
 
-| الدور        | الوحدة التنظيمية    |الوحدة      |السعر      |العملات  |
+| الدور        | الوحدة التنظيمية    |الوحدة      |السعر      |عملة  |
 | ------------|-------------|----------|----------:|----------|
-| المطور   | Contoso US  |Hour‬ | 200|دولار أمريكي     |
-| المطور   | شركة حسني بالهند |Hour‬|   112|دولار أمريكي     |
+| المطور   | Contoso US  |ساعة | 200|دولار أمريكي     |
+| المطور   | Contoso الهند |ساعة|   112|دولار أمريكي     |
 
 
 **نموذج أسعار التكاليف**
 
-| نطاق الراتب     | الوحدة التنظيمية    |الوحدة      |السعر      |العملات  |
+| نطاق الراتب     | الوحدة التنظيمية    |الوحدة      |السعر      |عملة  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Hour‬ | 145|دولار أمريكي     |
-| My company_Band2 | شركة حسني بالهند |Hour‬|   67|دولار أمريكي     |
+| My company_Band1 | Contoso US  |ساعة | 145|دولار أمريكي     |
+| My company_Band2 | Contoso الهند |ساعة|   67|دولار أمريكي     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
