@@ -2,8 +2,6 @@
 title: دليل تخطيط المشاريع وتعقبها
 description: يوفر هذا الموضوع رابطًا لمعلومات حول التخطيط والتتبع في Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/04/2019
@@ -18,33 +16,33 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a5859f66536f44d7dbad05e74693200212acebd4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 23bfab9e68a89ba268847c463a8ee618f479d227
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275162"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015135"
 ---
-# <a name="project-planning-and-tracking"></a><span data-ttu-id="a6a10-103">دليل تخطيط المشاريع وتعقبها</span><span class="sxs-lookup"><span data-stu-id="a6a10-103">Project planning and tracking</span></span>
+# <a name="project-planning-and-tracking"></a><span data-ttu-id="eda21-103">دليل تخطيط المشاريع وتعقبها</span><span class="sxs-lookup"><span data-stu-id="eda21-103">Project planning and tracking</span></span>
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="a6a10-104">يساعد تطبيق Project Service مؤسسات الخدمة على تحديد الفرص وتقديم العطاءات والوصول إلى الاتفاقيات التعاقدية وإدارة الموارد وتتبع الوقت والنفقات وفواتير العملاء وتسليم المشروعات في الوقت المحدد وفي حدود الميزانية.</span><span class="sxs-lookup"><span data-stu-id="a6a10-104">The Project Service application helps service organizations identify opportunities, submit bids, reach contractual agreements, manage resources, track time and expenses, invoice customers, and deliver projects on time and within budget.</span></span> 
+<span data-ttu-id="eda21-104">يساعد تطبيق Project Service مؤسسات الخدمة على تحديد الفرص وتقديم العطاءات والوصول إلى الاتفاقيات التعاقدية وإدارة الموارد وتتبع الوقت والنفقات وفواتير العملاء وتسليم المشروعات في الوقت المحدد وفي حدود الميزانية.</span><span class="sxs-lookup"><span data-stu-id="eda21-104">The Project Service application helps service organizations identify opportunities, submit bids, reach contractual agreements, manage resources, track time and expenses, invoice customers, and deliver projects on time and within budget.</span></span> 
 
-<span data-ttu-id="a6a10-105">تمت إزالة ارتباط PDF الذي كان موجودصا مسبقا في هذا الموضوع وتم نقل المحتوى إلى الموضوعات التالية:</span><span class="sxs-lookup"><span data-stu-id="a6a10-105">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
+<span data-ttu-id="eda21-105">تمت إزالة ارتباط PDF الذي كان موجودصا مسبقا في هذا الموضوع وتم نقل المحتوى إلى الموضوعات التالية:</span><span class="sxs-lookup"><span data-stu-id="eda21-105">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
 
-- [<span data-ttu-id="a6a10-106">جداول المشاريع</span><span class="sxs-lookup"><span data-stu-id="a6a10-106">Project schedules</span></span>](../project-creating.md)
-- [<span data-ttu-id="a6a10-107">تكاليف المشروع والإيرادات</span><span class="sxs-lookup"><span data-stu-id="a6a10-107">Project costs and revenue</span></span>](../project-estimating.md)
-- [<span data-ttu-id="a6a10-108">تقديرات المبيعات والمشاريع</span><span class="sxs-lookup"><span data-stu-id="a6a10-108">Sales estimates and projects</span></span>](../project-leveraging.md)
-- [<span data-ttu-id="a6a10-109">تقدم المشروع واستهلاك التكلفة‬</span><span class="sxs-lookup"><span data-stu-id="a6a10-109">Project progress and cost consumption</span></span>](../project-tracking.md)
-- [<span data-ttu-id="a6a10-110">قوالب المشروع</span><span class="sxs-lookup"><span data-stu-id="a6a10-110">Project templates</span></span>](../project-templates.md)
-- [<span data-ttu-id="a6a10-111">مراحل المشروع</span><span class="sxs-lookup"><span data-stu-id="a6a10-111">Project stages</span></span>](../project-stages.md)
-- [<span data-ttu-id="a6a10-112">إعدادات المشروع</span><span class="sxs-lookup"><span data-stu-id="a6a10-112">Project settings</span></span>](../project-settings.md)
+- [<span data-ttu-id="eda21-106">جداول المشاريع</span><span class="sxs-lookup"><span data-stu-id="eda21-106">Project schedules</span></span>](../project-creating.md)
+- [<span data-ttu-id="eda21-107">تكاليف المشروع والإيرادات</span><span class="sxs-lookup"><span data-stu-id="eda21-107">Project costs and revenue</span></span>](../project-estimating.md)
+- [<span data-ttu-id="eda21-108">تقديرات المبيعات والمشاريع</span><span class="sxs-lookup"><span data-stu-id="eda21-108">Sales estimates and projects</span></span>](../project-leveraging.md)
+- [<span data-ttu-id="eda21-109">تقدم المشروع واستهلاك التكلفة‬</span><span class="sxs-lookup"><span data-stu-id="eda21-109">Project progress and cost consumption</span></span>](../project-tracking.md)
+- [<span data-ttu-id="eda21-110">قوالب المشروع</span><span class="sxs-lookup"><span data-stu-id="eda21-110">Project templates</span></span>](../project-templates.md)
+- [<span data-ttu-id="eda21-111">مراحل المشروع</span><span class="sxs-lookup"><span data-stu-id="eda21-111">Project stages</span></span>](../project-stages.md)
+- [<span data-ttu-id="eda21-112">إعدادات المشروع</span><span class="sxs-lookup"><span data-stu-id="eda21-112">Project settings</span></span>](../project-settings.md)
 
 > [!NOTE]
-> <span data-ttu-id="a6a10-113">ستتم إزالة هذا الموضوع في تحديث الوثائق المستقبلية.</span><span class="sxs-lookup"><span data-stu-id="a6a10-113">This topic will be removed in a future documentation update.</span></span> 
+> <span data-ttu-id="eda21-113">ستتم إزالة هذا الموضوع في تحديث الوثائق المستقبلية.</span><span class="sxs-lookup"><span data-stu-id="eda21-113">This topic will be removed in a future documentation update.</span></span> 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
