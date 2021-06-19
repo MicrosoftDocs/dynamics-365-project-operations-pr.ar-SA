@@ -2,12 +2,10 @@
 title: الفوترة في Project Service Automation
 description: يقدم هذا الموضوع معلومات حول الفوترة.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5d9fff2d3b26da73e5a236cd8607576439fc1a08
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284252"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015045"
 ---
 # <a name="invoicing-in-project-service-automation"></a>الفوترة في Project Service Automation
 
@@ -109,7 +107,7 @@ ms.locfileid: "5284252"
 
 ### <a name="correct-a-confirmed-psa-invoice"></a>تصحيح فاتورة PSA المؤكدة
 
-يمكن تحرير فواتير PSA المؤكدة (التي تم تصحيحها). عندما تقوم بتصحيح فاتورة مؤكدة، يتم إنشاء مسودة فاتورة تصحيحية جديدة. ونظرا لأن الافتراض هو أنك تريد إلغاء كافة الحركات والكميات من الفاتورة الأصلية، فان هذه الفاتورة التصحيحية تتضمن كافة الحركات من الفاتورة الاصلية، وكافة الكميات الموجودة بها هي 0 (صفر).
+يمكن تحرير فواتير PSA المؤكدة (التي تم تصحيحها). عندما تقوم بتصحيح فاتورة مؤكدة، يتم إنشاء مسودة فاتورة تصحيحية جديدة. لأن الافتراض هو أنك تريد إلغاء كافة الحركات والكميات من الفاتورة الأصلية، فان هذه الفاتورة التصحيحية تتضمن كافة الحركات من الفاتورة الاصلية، وكافة الكميات الموجودة بها هي 0 (صفر).
 
 إذا كانت أي حركات لا تتطلب التصحيح، فيمكنك إزالتها من مسودة الفاتورة التصحيحية. إذا كنت ترغب في إلغاء أو إرجاع كمية جزئيه فقط، فيمكنك تحرير حقل **الكمية** في تفاصيل البند. إذا قمت بفتح تفاصيل بند الفاتورة، فيمكنك الاطلاع على كمية الفاتورة الأصلية. يمكنك بعد ذلك تحرير كمية الفاتورة الحالية حتى تكون أقل من أو أكبر من كمية الفاتورة الأصلية.
 
