@@ -2,18 +2,16 @@
 title: إصدارات مخطط الكتابة المزدوجة في Project Operations
 description: يوفر هذا الموضوع قائمة بمخططات الكتابة المزدوجة المطلوبة لـ Dynamics 365 Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938938"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025758"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>إصدارات مخطط الكتابة المزدوجة في Project Operations
 
@@ -36,32 +34,32 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ![مزامنة خريطة دفتر الأستاذ](media/DW6.png)
 
-1. اتبع نفس الخطوات لجميع مخططات الجدول المتبقية المدرجة في الجدول السابق. لا تحدد خانة الاختيار **المزامنة الأولية** عند تشغيل هذه الخرائط.
+2. اتبع نفس الخطوات لجميع مخططات الجدول المتبقية المدرجة في الجدول السابق. لا تحدد خانة الاختيار **المزامنة الأولية** عند تشغيل هذه الخرائط.
 
 ## <a name="project-operations-dual-write-maps"></a>مخططات ‏‫الكتابة المزدوجة في Project Operations
 
-المخططات التالية مطلوبة لحل Project Operations.
+المخططات التالية مطلوبة لحل Project Operations. يتم سرد إصدارات مخطط الكتابة المزدوجة بدءًا من تحديث Project Operations في مايو 2021، إصدار 4.10.0.186.
 
 | **خريطة الكيان** | **آخر إصدار** | **المزامنة الأولية** |
 | --- | --- | --- |
 | كيان التكامل لعلاقات معاملات المشروع (msdyn\_transactionconnections) | 1.0.0.0  | غير مطلوب للتزويد. |
 | رؤوس عقود المشروع (أوامر المبيعات) | 1.0.0.1  | غير مطلوب للتزويد. |
 | بنود عقد المشروع (salesorderdetails) | 1.0.0.0  | غير مطلوب للتزويد. |
-| مصدر تمويل المشروع (msdyn_projectcontractsplitbillingrules) | 1.0.0.1  | غير مطلوب للتزويد. |
+| مصدر تمويل المشروع (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | غير مطلوب للتزويد. |
 | جدول تكامل Project Operations لتقديرات المواد (msdyn\_estimatelines) | 1.0.0.0  | غير مطلوب للتزويد. |
-| اقتراحات فواتير المشروع V2 (الفواتير) | 1.0.0.2  | غير مطلوب للتزويد. |
+| اقتراحات فواتير المشروع V2 (الفواتير) | 1.0.0.3 | غير مطلوب للتزويد. |
 | القيم الفعلية لتكامل Project Operations (msdyn_actuals) | 1.0.0.14  | غير مطلوب للتزويد. |
 | المراحل الرئيسية لشروط تعاقد التكامل مع Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4  | غير مطلوب للتزويد. |
 | كيان تكامل Project Operations لتقديرات المصروفات (msdyn_estimateslines) | 1.0.0.2  | غير مطلوب للتزويد. |
 | كيان تكامل Project Operations لتقديرات الساعات (msdyn_resourceassignments) | 1.0.0.5  | غير مطلوب للتزويد. |
-| كيان تصدير فئات مصروفات مشروع لتكامل Project Operations (msdyn_expensecategories) | 1.0.0.2  | غير مطلوب للتزويد. |
+| كيان تصدير فئات مصروفات مشروع لتكامل Project Operations (msdyn_expensecategories) | 1.0.0.1 | غير مطلوب للتزويد. |
 | كيان تصدير مصروفات مشروع لتكامل Project Operations (msdyn_expenses) | 1.0.0.2  | غير مطلوب للتزويد. |
 | كيان تصدير فاتورة مورد المشروع لتكامل Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0  | غير مطلوب للتزويد. |
-| كيان تصدير بند فاتورة مورد المشروع لتكامل Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.0  | غير مطلوب للتزويد. |
+| كيان تصدير بند فاتورة مورد المشروع لتكامل Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.1 | غير مطلوب للتزويد. |
 | أدوار موارد المشروع لجميع الشركات (bookableresourcecategories) | 1.0.0.1  | يتطلب الأمر إجراء مزامنة أولية لمخطط الجدول لمزامنة أدوار موارد مدير المشروع وعضو الفريق التي تم ملؤها في بيئة Dynamics 365 Dataverse أثناء التزويد. Dataverse هو المصدر الرئيسي للمزامنة الأولية. |
 | مهام المشروع (msdyn_projecttasks) | 1.0.0.4  | غير مطلوب للتزويد. |
 | فئات معاملات المشروع (msdyn_transactioncategories) | 1.0.0.0  | غير مطلوب للتزويد. |
-| المشروعات V2 (msdyn_projects) | 1.0.0.1  | غير مطلوب للتزويد. |
+| المشروعات V2 (msdyn_projects) | 1.0.0.2 | غير مطلوب للتزويد. |
 
 أكمل الخطوات التالية لتشغيل المخططات المدرجة.
 

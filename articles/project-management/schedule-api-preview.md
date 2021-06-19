@@ -2,18 +2,16 @@
 title: استخدام واجهات برمجة تطبيقات الجدولة لتنفيذ عمليات مع كيانات الجدولة
 description: يوفر هذا الموضوع معلومات و عينات لاستخدام واجهات برمجة تطبيقات الجدولة.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950788"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116781"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>استخدام واجهات برمجة تطبيقات الجدولة لتنفيذ عمليات مع كيانات الجدولة
 
@@ -268,7 +266,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 - بإمكان كل مستخدم أن يحصل على عشر **OperationSet** مفتوحة كحدٍ أقصى.
 - يدعم Project Operations في الوقت الحالي 500 مهمة إجمالية كحد أقصى على مشروع.
 - في الوقت الحالي، لا تتوفر حالة فشل **OperationSet** وسجلات الفشل.
-- واجهات برمجة تطبيقات الجدولة هي حاليًا في وضع الإصدار الأولي للاستخدام العام. لا تدعم Microsoft استخدام واجهات برمجة التطبيقات هذه في بيئة الإنتاج.
 - [القيود والحدود على المشروعات والمهام](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>معالجة الخطأ
