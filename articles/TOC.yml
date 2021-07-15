@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: نشر البيئات
           items:
+            - name: نشر تطبيق Project Operations Dataverse يدويًا مع دعم الكتابة المزدوجة
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: تزويد بيئة جديدة
               href: environment/resource-provision-new-environment.md
             - name: نموذج الأمان
@@ -50,8 +52,12 @@
               href: environment/resource-dual-write-expense.md
             - name: تكامل فاتورة المورّد
               href: environment/resource-dual-write-vendor-invoice.md
-    - name: الجديد
+    - name: الجديد‬
       items:
+        - name: يوليو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: يونيو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: مايو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: أبريل 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
@@ -282,7 +288,7 @@
           items:
             - name: تطوير قوالب المشروع مع نسخ المشروع‬
               href: project-management/dev-copy-project.md
-            - name: استخدام واجهات برمجة تطبيقات (API) الجدولة (إصدار أولي للاستخدام العام)
+            - name: استخدام واجهات برمجة تطبيقات (API) جدولة المشروع (إصدار أولي للاستخدام العام)
               href: project-management/schedule-api-preview.md
     - name: إدارة الموارد
       items:
@@ -436,8 +442,6 @@
       items:
         - name: نظرة عامة على عملية الفوترة
           href: invoicing/post-project-invoices.md
-        - name: إدارة اقتراحات فواتير المشروع
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: الفواتير الأولية
           items:
             - name: إدارة تراكم الفوترة القائمة على المشروع
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: تكوين التنفيذ التلقائي لفواتير قائمة على المشروع
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: إدارة اقتراحات فواتير المشروع
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: فوترة العميل
+          items:
+            - name: إدارة اقتراحات فواتير المشروع
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: محاسبة صحيحة على اقتراحات فواتير مشروع المسودة
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: الفوترة بين الشركات الشقيقة
+          items:
+            - name: نظرة عامة على الفوترة بين الشركات الشقيقة
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: تكوين الفوترة بين الشركات الشقيقة
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: إنشاء حركات بين الشركات الشقيقة
+              href: project-accounting/create-intercompany-transactions.md
+            - name: إنشاء فواتير العميل والمورّد بين الشركات الشقيقة
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: محاسبة المشروع
       items:
         - name: افتراضيات الأبعاد المالية
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: دفتر يومية التكامل في Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: الفوترة بين الشركات الشقيقة
-          items:
-            - name: نظرة عامة على الفوترة بين الشركات الشقيقة
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: تكوين الفوترة بين الشركات الشقيقة
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: إنشاء حركات بين الشركات الشقيقة
-              href: project-accounting/create-intercompany-transactions.md
-            - name: إنشاء فواتير العميل والمورّد بين الشركات الشقيقة
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: إقرار الإيرادات
       items:
         - name: نظرة عامة على إقرار الإيرادات
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: الجديد‬
       items:
+        - name: الجديد في يوليو 2021 - النشر الخفيف
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: الجديد في يونيو 2021 - النشر الخفيف
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: الجديد في مايو 2021 - النشر الخفيف
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: الجديد في أبريل 2021 - النشر الخفيف
@@ -762,7 +774,7 @@
           items:
             - name: تطوير قوالب المشروع مع نسخ المشروع‬
               href: project-management/dev-copy-project.md
-            - name: استخدام واجهات برمجة تطبيقات (API) الجدولة (إصدار أولي للاستخدام العام)
+            - name: استخدام واجهات برمجة تطبيقات (API) جدولة المشروع (إصدار أولي للاستخدام العام)
               href: project-management/schedule-api-preview.md
     - name: إدارة الموارد
       items:
@@ -882,6 +894,10 @@
   items:
     - name: الجديد‬
       items:
+        - name: الجديد في يوليو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: الجديد في مايو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: الجديد في أبريل 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: الجديد في مارس 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
@@ -1034,6 +1050,10 @@
       items:
         - name: جدول إصدار التحديثات لـ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: الجديد أو المتغير في إصدار التحديث 33، V3
+          href: psa/whats-new-ur-33.md
+        - name: الجديد أو المتغير في إصدار التحديث 32.5، V3
+          href: psa/whats-new-ur-32-5.md
         - name: الجديد أو المتغير في إصدار التحديث 32، V3
           href: psa/whats-new-ur-32.md
         - name: الجديد أو المتغير في إصدار التحديث 31، V3
