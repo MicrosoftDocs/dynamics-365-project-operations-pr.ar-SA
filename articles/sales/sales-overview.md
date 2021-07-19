@@ -6,12 +6,13 @@ ms.date: 10/29/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a03cb4949cafdf0754a89435542f616c41d65a5f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: ed9731193e83eebd35e979adffcea529a289b9c5
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996010"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368325"
 ---
 # <a name="sales-process-overview"></a>نظرة عامة على عملية المبيعات
 
@@ -21,7 +22,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 - يتم استخدام سجل العميل المتوقع لتعقب عملية المبيعات.
 - ويتم تعقب تأهيل العملاء المتوقعين كفرص مبيعات محتملة.
-- يتم الوصول إلى كافة البيانات الاصطناعية ذات الصلة لإحدى الفرص. وتتضمن هذه البيانات الاصطناعية فريق المبيعات والمساهمين والاحتمالات والتصنيف ومراحل المبيعات وعمليات الأعمال.
+- يمكن الوصول إلى جميع المنتجات ذات الصلة لإحدى الفرص. وتشمل هذه المنتجات فريق المبيعات وحملة الأسهم والاحتمالية والتصنيف ومراحل المبيعات والعمليات التجارية.
 - ويتم إنشاء عروض أسعار متعددة للفرصة.
 - يتخذ عرض الأسعار حالة **مغلق كمكسب** لإنشاء أمر مبيعات. في Project Operations، يتم تخصيص أمر المبيعات ويُطلق عليه عقد مشروع.
 

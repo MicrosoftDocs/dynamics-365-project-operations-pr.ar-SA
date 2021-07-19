@@ -2,58 +2,40 @@
 title: التسجيل في اشتراك معاينة - خفيف
 description: يقدم هذا الموضوع معلومات حول كيفية الاشتراك في Project Operations Lite – التعامل مع الفواتير الأولية‬ ونشره.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997405"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334766"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>التسجيل في اشتراك معاينة - خفيف 
 
-يشرح هذا الموضوع كيفية الاشتراك في عرض شريك للإصدار الأولي وتنفيذ النشر الخفيف لتطبيق Dynamics 365 Project Operations - التعامل مع الفواتير الأولية‬.
+يوضح هذا الموضوع كيفية الاشتراك في العرض التجريبي ونشر إصدار النشر الخفيف لـ Dynamics 365 Project Operations- التعامل مع الفواتير الأولية‬.
 
 > [!NOTE]
 > ستتغير هذه العملية في الإصدارات القادمة من Project Operations.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
-
-- ستتلقى رسالة بريد إلكتروني لدعوتك للمشاركة في المعاينة. يمكنك طلب معاينة من [موقع الويب الخاص بـ Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- يجب أن يكون لدي المستخدم الذي ينشر المعاينة حقوق المسؤول العمومي لمستأجر Azure.
-- راجع كل البنود والشروط.
-
-## <a name="subscribe"></a>الاشتراك
-
-عندما تتلقى الموافقة على [طلب معاينة](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u)، ستتلقى عرضين من Microsoft بواسطة البريد الإلكتروني. تسمح لك هذه العروض بنشر معاينة Project Operations:
-
-- Dynamics 365 Project Operations (CRM) - إصدار تجريبي للمعاينة
-- Office 365 Project Operations - إصدار تجريبي للمعاينة
+- يجب أن يكون لدي المستخدم الذي ينشر المعاينة حقوق المسؤول العمومي لمستأجر Azure. يمكنك إنشاء مستأجر أثناء عملية استرداد العرض الأول.
 
 > [!IMPORTANT]
 > شخص واحد فقط، مسؤول المستأجر، في مؤسسة تحتاج إلى تنفيذ هذه المهمة. إذا لم تكن أنت المشترك في هذا الإصدار، فانتظر حتى يتم تسجيل مؤسستك وتستلم بيانات اعتماد المستخدم الخاصة بك.
+> 
+> تستخدم الإصدارات التجريبية مرة واحدة في المستأجر. يمكنك تشغيل النسخة التجريبية مرة واحدة فقط. من المستحسن إنشاء مستأجر جديد لغرض الإصدار التجريبي.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - إصدار تجريبي للمعاينة 
+### <a name="dynamics-365-project-operations-trial"></a>الإصدار التجريبي من Dynamics 365 Project Operations 
 
 قبل البدء، تأكد من تسجيل الدخول إلى مستعرض باستخدام حساب عمل المستخدم في المستأجر حيث تريد معاينة Project Operations.
 
-1. استرد رمز العرض الأول، **Dynamics 365 Project Operations (CRM) - الإصدار التجريبي للمعاينة** عن طريق لصقه في عنوان URL للمتصفح.
-
-![استرداد العرض](./media/16RedeemFirstOfferNew.png)
-
+1. انتقل إلى [الإصدار التجريبي لـ Project Operations](https://aka.ms/try-po)من أجل استرداد رمز العرض الأول، **Dynamics 365 Project Operations**.
 2. أكد طلبك.
-![تأكيد الأمر](./media/17ConfirmOrderNew.png)
 
-سترى أنه تم استرجاع عرض التأكيد بنجاح.
-
-![تأكيد](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - إصدار تجريبي للمعاينة
-
-كرر الخطوات نفسها التي تم تنفيذها لكود العرض الأول. تأكد من إضافة كود العرض الثاني باستخدام حساب المستخدم نفسه الذي تم استخدامه مع كود العرض الأول.
+  وسترى أنه تم استرداد عرض التأكيد بنجاح.
 
 ## <a name="assign-licenses"></a>تعيين التراخيص
 
@@ -62,25 +44,20 @@ ms.locfileid: "5997405"
 
 
 1. انتقل إلى [مركز إدارة](https://portal.office.com/) لتعيين التراخيص إلى المستخدمين.
-
-![الصفحة الرئيسية لمركز الإدارة](./media/14AdminPortal.png)
-
 2. في صفحة **المستخدمين النشطين**، حدد المستخدمين الذين ترغب في تعيين ترخيص لهم.
-
-![تعيين التراخيص](./media/15AssignLicenses.png)
-
-3. تأكد من تحديد تراخيص **الإصدار الأولي من Dynamics 365 Project Operations (CRM)** و **Office 365 Project Operations - الإصدار الأولي**. 
+3. تحقق من تحديد ترخيص **Dynamics 365 Project Operations**. 
 4. حدد **حفظ التغييرات**.
 
-## <a name="create-a-new-cds-environment"></a>إنشاء بيئة CDS جديدة
+## <a name="create-a-new-dataverse-environment"></a>إنشاء بيئة Dataverse جديدة
 
-1. يمكنك تزويد بيئة نشر Project Operations CDS جديدة باتباع الإرشادات في الموضوع، [نموذج نشر CDS](lite-deployment.md). عند تحديد نوع البيئة، تأكد من استخدام **الإصدار التجريبي (مستند إلى اشتراك)**.
-![بيئة جديدة](./media/19CreateEnvironment.png)
+1. يمكنك توفير بيئة نشر Project Operations Dataverse جديدة باتباع الإرشادات في الموضوع،  [ نموذج نشر Dataverse ](lite-deployment.md). عند تحديد نوع البيئة، تأكد من استخدام **الإصدار التجريبي (مستند إلى اشتراك)**.
+
+  ![بيئة جديدة](./media/19CreateEnvironment.png)
 
 2. حدد الإعداد **تمكين تطبيقات Dynamics 365**، واترك الخيار **نشر هذه التطبيقات تلقائيًا** فارغًا.  
 3. حدد **حفظ** لإنشاء البيئة.
 
-![إضافة قاعدة بيانات](./media/20CreateEnvironment1.png)
+  ![إضافة قاعدة بيانات](./media/20CreateEnvironment1.png)
 
 4. بعد إنشاء البيئة، ثبّت حل **Microsoft Dynamics 365 Project Operations**. 
 

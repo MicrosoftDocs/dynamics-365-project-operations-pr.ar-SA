@@ -4,6 +4,7 @@ description: يوضح هذا الموضوع مكان البحث عن معلوم�
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a2e17fbdfb71eb62053236bf6c8a3d1aedf332df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8fc820d8fa0e421cdc963f391133e7311de96982
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012345"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368505"
 ---
 # <a name="upgrade-home-page"></a>الصفحة الرئيسية للترقية
 

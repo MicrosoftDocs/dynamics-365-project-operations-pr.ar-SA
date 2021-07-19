@@ -6,12 +6,13 @@ ms.date: 11/02/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9f09cb447d314cb172161ad3501a154285d9b636
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 9bd20d0bccb51e3afc0ad2d4a5409723c6fdcd92
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003795"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369945"
 ---
 # <a name="lite-deployment-overview"></a>نظرة عامة على النشر الخفيف
 
@@ -25,7 +26,7 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 - إدارة المبيعات القائمة على المشروع باستخدام قدرات Dynamics 365 Sales
 - ميزة Universal Resource Scheduling التي تتكامل مع تطبيقات أخرى مثل Dynamics 365 Field Service وDynamics 365 Customer Service
 - تقدم المشروع وتعقب الوقت
-- تعقب المصروفات الأساسية للمصروفات القائمة على المشاريع
+- تتبع المصروفات الأساسية للمصروفات المستندة إلى المشروع
 - الفواتير الأولية التي يمكن مراجعتها وإرسالها إلى نظام مالي لمعالجتها
 - قابلية التوسعة من خلال Power Platform
 

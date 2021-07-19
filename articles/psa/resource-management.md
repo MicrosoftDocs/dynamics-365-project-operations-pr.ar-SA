@@ -4,6 +4,7 @@ description: يوفر هذا الموضوع معلومات حول إمكانات
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 11/28/2018
 ms.topic: article
 ms.author: ruhercul
@@ -16,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b806b111e579609092239518ebae14b1355941e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 71e1774d097e2929a7d51d19b3cebfcacff28f0c
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008610"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369090"
 ---
 # <a name="resourcing-projects-home-page"></a>الصفحة الرئيسية لمشاريع تعيين الموارد
 
@@ -37,8 +38,8 @@ ms.locfileid: "6008610"
 - مطابقه المهارات من خلال تحديد المهارات المحددة في طلب المورد مقابل مهارات الموارد المتوفرة.
 - استبدال الموارد.
 - محاذاة تعيينات جدول المشروع وحجوزات الموارد.
-- تسوية الفروق في الحجوزات والتعيينات.
-- تغيير حجوزات الموارد كاستجابة لحالة خارج المكتب.
+- تسوية الاختلافات في الحجوزات والتعيينات.
+- تغيير حجوزات الموارد كاستجابة لحاله خارج المكتب.
 - التعاون بين مديري المشاريع ومديري الموارد.
 - عرض محفوظات استخدام الموارد مقابل هدف، بما في ذلك تصنيف لكيفية استهلاك وقت الموارد.
 - صيانة مستودع مهارات وكفاءة.

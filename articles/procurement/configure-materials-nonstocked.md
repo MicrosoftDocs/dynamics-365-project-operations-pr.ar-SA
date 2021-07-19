@@ -2,17 +2,17 @@
 title: تكوين مواد غير مخزنة وفواتير المورد المعلقة
 description: يوضح هذا الموضوع كيفية تمكين المواد غير المخزنة والفواتير المعلقة الخاصة بالموردين.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 41191384c688c3b77d08a0e7990ddf0d9a48545c
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993895"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293031"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>تكوين مواد غير مخزنة وفواتير المورد المعلقة
 
@@ -59,11 +59,11 @@ Dynamics 365 Finance:
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>تنشيط سير العمل لإنشاء حسابات استنادا إلى كيان المورد
 
-يوفر حل Dual Write Orchestration [التكامل الرئيسي للموردين](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). وكمتطلب أساسي لهذه الميزة، يجب إنشاء بيانات المورد في كيان **الحسابات**. قم بتنشيط عملية سير عمل قالب لإنشاء موردين في جدول **الحسابات** كما هو موضح في [التبديل بين تصميمات الموردين](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+يوفر حل Dual Write Orchestration [التكامل الرئيسي للموردين](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). وكمتطلب أساسي لهذه الميزة، يجب إنشاء بيانات المورد في كيان **الحسابات**. قم بتنشيط عملية سير عمل قالب لإنشاء موردين في جدول **الحسابات** كما هو موضح في [التبديل بين تصميمات الموردين](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
 
 ### <a name="set-products-to-be-created-as-active"></a>تعيين المنتجات ليتم إنشاؤها كنشطة
 
-يجب تكوين المواد غير المخزنة على أنها **منتجات تم إصدارها** في Finance. يوفر حل Dual Write Orchestration ميزة جاهزة لـ [تكامل المنتجات التي تم إصدارها مع كتالوج منتجات Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). وافتراضيًا، تتم مزامنة المنتجات من Finance إلى Dataverse بحالة مسودة. لمزامنة المنتج مع حالة نشطة بحيث يمكن استخدامه مباشرة في مستندات استخدام المواد أو فواتير الموردين المعلقة، انتقل إلى **النظام** > **الإدارة** > **إدارة النظام** > **إعدادات النظام**، ومن علامة التبويب **مبيعات**، قم بتعيين **إنشاء منتجات في حالة نشطة** إلى **نعم**.
+يجب تكوين المواد غير المخزنة على أنها **منتجات تم إصدارها** في Finance. يوفر حل Dual Write Orchestration ميزة جاهزة لـ [تكامل المنتجات التي تم إصدارها مع كتالوج منتجات Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). وافتراضيًا، تتم مزامنة المنتجات من Finance إلى Dataverse بحالة مسودة. لمزامنة المنتج مع حالة نشطة بحيث يمكن استخدامه مباشرة في مستندات استخدام المواد أو فواتير الموردين المعلقة، انتقل إلى **النظام** > **الإدارة** > **إدارة النظام** > **إعدادات النظام**، ومن علامة التبويب **مبيعات**، قم بتعيين **إنشاء منتجات في حالة نشطة** إلى **نعم**.
 
 ## <a name="configure-prerequisites-in-finance"></a>تكوين المتطلبات الأساسية في Finance
 
@@ -88,7 +88,7 @@ Dynamics 365 Finance:
 2. في حقل **نوع المنتج**، قم بتحديد **عنصر** وفي حقل **النوع الفرعي للمنتج**، قم بتحديد **المنتج**.
 3. أدخل رقم المنتج (WRITEIN) واسم المنتج (منتج مدون).
 4. حدد مجموعة طراز العنصر. تأكد من أن مجموعة طراز العناصر التي اخترتها تتضمن حقل **المنتج المخزن بسياسة المخزون** والذي تم تعيينه على **خطأ**.
-5. حدد القيم في **مجموعة العناصر **، و** مجموعة أبعاد التخزين**، وحقول **مجموعة أبعاد التعقب**. استخدم **بعد التخزين** لـ **الموقع** فقط، ولا تقوم بتعيين أية أبعاد تعقب.
+5. حدد القيم في **مجموعة العناصر **، و** مجموعة أبعاد التخزين**، وحقول **مجموعة أبعاد التعقب**. استخدم **بُعد التخزين** لـ **الموقع** فقط، وفي حقل **‬‏‫أبعاد التعقب**، قم بتحديد **بلا**.
 6. حدد القيم في **وحدة المخزون** و **وحدة الشراء** و **وحدة المبيعات**، ثم احفظ التغييرات.
 7. في علامة التبويب **الخطة**، قم بتعيين إعدادات الأمر الافتراضي، ومن علامة التبويب **المخزون**، قم بتعيين الموقع الافتراضي والمستودع.
 8. انتقل إلى **إدارة المشاريع والمحاسبة** > **الإعداد** > **معلمات إدارة المشاريع والمحاسبة** وافتح **Project Operations في Dynamics 365 Dataverse**. 

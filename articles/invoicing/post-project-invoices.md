@@ -6,12 +6,13 @@ ms.date: 01/29/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 13f16d42ffdc0a9a6f369c311dfd9e15ad3f7aff
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001500"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369000"
 ---
 # <a name="invoicing-process-overview"></a>نظرة عامة على عملية الفوترة
 
@@ -23,7 +24,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 يحدد سطر عقد المشروع أسلوب الفوترة لمعملات المشروع المقترنة. عندما يوافق مدير المشروع على معاملات الوقت والمصروفات، فإن النظام يسجل المعاملات في كيان **القيم الفعلية للمشروع** ويرسل المعلومات إلى وحدة **إدارة المشاريع والمحاسبة** في Dynamics 365 Finance. يراجع محاسب المشروع بعد ذلك ويقوم بترحيل السجلات باستخدام [دفتر يومية تكامل Project Operations](../project-accounting/project-operations-integration-journal.md). يتضمن دفتر اليومية تفاصيل المحاسبة المهمة للقيم الفعلية للمشروع، مثل الفوترة، ومجموعة ضريبة المبيعات، ومجموعة ضريبة مبيعات عناصر الفوترة، والأبعاد المالية.
 
-يمكن لمدير المشروع مراجعة معاملات المبيعات غير المفوترة باستخدام أسلوب فوترة الوقت والمواد في [تراكم فوترة الوقت والمواد](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) وفوترة السعر الثابت في [الأحداث الرئيسية للأسعار الثابتة](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). تتيح لك طرق العرض هذه تصفية المعاملات التي يلزم تضمينها في دورة الفوترة التالية وتحديدها ثم وضع علامة عليها على أنها **جاهزة للفوترة**.
+يمكن لمدير المشروع مراجعة معاملات المبيعات غير المفوترة باستخدام أسلوب فوترة الوقت والمواد في [تراكم فوترة الوقت والمواد](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) وفوترة السعر الثابت في [الأحداث الرئيسية للأسعار الثابتة](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). وتتيح طرق العرض هذه إمكانية تصفية الحركات التي يجب تضمينها في دوره الفوترة التالية وتحديدها ثم وضع علامة عليها كحركات **جاهزة للفوترة**.
 
 يمكنك [إنشاء فاتورة أولية يدويا](../proforma-invoicing/create-manual-proforma-invoice.md) أو استخدام [عملية دورية](../proforma-invoicing/configure-automated-invoice-creation.md). يمكن لمدير المشروع [تعديل مسودة فاتورة أولية](../proforma-invoicing/manage-proforma-invoice.md) حسب الحاجة ثم تأكيدها.
 

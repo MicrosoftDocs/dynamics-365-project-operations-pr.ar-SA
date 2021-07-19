@@ -6,12 +6,13 @@ ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5f962572c6ec0298d2d91d33f83e4120a498a6f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: ab9b36b71223b1bcfe48de5f9b68b6fb6a98f388
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013740"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368010"
 ---
 # <a name="revenue-recognition-overview"></a>نظرة عامة على إقرار الإيرادات
 
@@ -26,10 +27,10 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
   | نوع المعاملة | الخصم/الائتمان | المبلغ |
   | --- | --- | --- |
-  | قيمة مبيعات الأعمال تحت التنفيذ (WIP) | الخصم | 100 |
-  | قيمة مبيعات الإيرادات المستحقة | الائتمان | 100 |
+  | قيمة مبيعات الأعمال تحت التنفيذ (WIP) | مدين | 100 |
+  | قيمة مبيعات الإيرادات المستحقة | دائن‬ | 100 |
 
-- تم التعرف على الإيراد أثناء الفوترة. يستخدم النظام حساب **الإيراد المفوتر** أثناء الترحيل. يُمثل التالي مثالاً لهذا الأسلوب.  
+- يتم التعرف على الإيراد أثناء الفوترة. يستخدم النظام حساب **الإيراد المفوتر** أثناء الترحيل. يُمثل التالي مثالاً لهذا الأسلوب.  
 
   | نوع المعاملة | الخصم/الائتمان | المبلغ |
   | --- | --- | --- |

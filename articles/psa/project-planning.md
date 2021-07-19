@@ -4,6 +4,7 @@ description: يقدم هذا الموضوع معلومات حول تخطيط ا�
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -16,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d2e41925153122d16c3bccf812afa84921df5a12
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2505a831d18e882c0fd8fa9059a6fff84b0dadb1
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998350"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368820"
 ---
 # <a name="project-planning-home-page"></a>الصفحة الرئيسية لتخطيط المشروع
 
@@ -37,7 +38,7 @@ ms.locfileid: "5998350"
 
 - تخطيط المشاريع باستخدام جدول العمل والتقديرات.
 - تقدير وتتبع تكاليف المشروع والإيرادات.
-- استخدام تقديرات المشروع أثناء عملية المبيعات.
+- استخدم تقديرات المشروع أثناء عملية المبيعات.
 - التنبؤ بمتطلبات الموارد للمشاريع قيد الإعداد.
 - تسليم المشاريع بنجاح من خلال تتبع التقدم واستهلاك التكلفة.
 

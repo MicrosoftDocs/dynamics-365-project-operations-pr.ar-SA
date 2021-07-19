@@ -6,12 +6,13 @@ ms.date: 11/02/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b2a606bc587b99c16d45b19689ba90b422c3c62
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 71fd9d3ae30147c3c03202a54f74477a95838eb9
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999385"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369495"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>نظرة عامة على نشر Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج‬
 
@@ -25,7 +26,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 - إدارة المبيعات القائمة على المشروع باستخدام وحدة **المبيعات والتسويق** في تطبيقات Dynamics 365 Finance and Operations
 - تسعير المشروع وتحديد التكلفة باستخدام تكوين معدل التكلفة ومعدل الفاتورة في تطبيقات Finance and Operations
 - إدارة الموارد للمشاريع في تطبيقات Finance and Operations
-- تقدم المشروع وتعقب الوقت في تطبيقات Finance and Operations
+- تقدم المشروع وتتبع الوقت في تطبيقات Finance and Operations
 - تجارب إدارة المصروفات للمصروفات الخاصة بالمشروع وغير الخاصة بالمشروع مع التقاط الإيصال باستخدام إمكانات التعرف البصري على الحروف‬
 - الفوترة باستخدام نظام ضريبة مبيعات المؤسسات ونظام أسعار الصرف السارية التاريخ
 - مجموعات المشاريع القابلة للتكوين لمحاسبة واستحقاقات الأعمال قيد التنفيذ

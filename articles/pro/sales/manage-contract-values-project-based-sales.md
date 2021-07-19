@@ -6,21 +6,22 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8af32b0475650db9c5862ea23d185588a631ade6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 22e8ff927c5ff6c3748a35031e7703e3fcfe0dab
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003120"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369900"
 ---
 # <a name="project-based-contract-lines-overview"></a>نظرة عامة على شروط التعاقد المستندة إلى المشروع
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-تم تصميم شروط التعاقد القائمة على المشروع في Dynamics 365 Project Operations لاحتواء اتفاقيات التقديرات والفوترة لمكونات معينة من عمل المشروع على التزام معين. يتم توسيع بنية شروط التعاقد القائمة على المشروع لتقديرات المشروع وسيناريوهات الفوترة بواسطة المفاهيم التالية:
+تم تصميم شروط التعاقد القائمة على المشروع في Dynamics 365 Project Operations لاحتواء اتفاقيات التقديرات والفوترة لمكونات معينة من عمل المشروع على التزام معين. يتم تمديد البنية الخاصة بشروط التعاقد المستندة إلى المشروع لتقديرات المشاريع وسيناريوهات الفوترة ذات المفاهيم الآتية:
 
 - أسلوب الفوترة
-- تعيين المشروع والمهمة
+- تعيين المشاريع والمهام
 - فئات الحركات المضمنة
 - حد يجب عدم تجاوزه
 - إعداد الخضوع للرسوم
