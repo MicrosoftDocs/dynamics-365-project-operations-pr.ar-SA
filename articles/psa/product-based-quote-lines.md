@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998485"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008570"
 ---
 # <a name="product-based-quote-lines"></a>بنود عرض أسعار يستند إلى منتج
 
@@ -58,7 +58,7 @@ ms.locfileid: "5998485"
 
 بعد تثبيت PSA، يتم إدخال أسعار المبيعات الافتراضية في البنود المستندة إلى المنتج في عرض الأسعار. ثم يتم تعيين حقل **التسعير** إلى **تجاوز التسعير** حتى يمكنك تحرير السعر الافتراضي في بنود عرض الأسعار.
 
-> ![تعيين تجاوز التسعير](media/basic-guide-10.png)
+> ![تعيين تجاوز التسعير.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>عوامل الكمية للمنتجات
 
@@ -78,7 +78,7 @@ ms.locfileid: "5998485"
 
 يمكن تمييز الخاصيتين **عدد المستخدمين** و **عجج الأشهر** كعوامل كمية من خلال تحرير خصائص بند المنتج. 
 
-> ![وضع علامة على عدد المستخدمين وعدد الأشهر كعوامل جودة](media/basic-guide-11.png)
+> ![وضع علامة على عدد المستخدمين وعدد الأشهر كعوامل جودة.](media/basic-guide-11.png)
  
 
 

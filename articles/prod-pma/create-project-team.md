@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006180"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005780"
 ---
 # <a name="create-a-project-team"></a>إنشاء فريق مشروع
 
@@ -33,7 +33,7 @@ ms.locfileid: "6006180"
 
 يمكن لمدير المشروع تحديد دور في الصفحة ثم إذا كان هناك مورد متوفر يناسب المطلب ، فحدد لحجز مورد لملء الدور. لاحظ انه ليس من الضروري ان يتم حجز الموارد عند هذه النقطة في مرحله التخطيط. عند إنشاء WBS ، يمكنك استبدال ادوار بموارد ستافيد للمشروع. إذا تم استبدال الأدوار بالموارد الستافيده في WBS ، سيقوم اعداد المورد تلقائيا بتحديث سرد وجدوله فريق المشروع.
 
-[![سرد فريق المشروع الذي يتضمن كلا من الأدوار والموارد الفعلية](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![سرد فريق المشروع الذي يتضمن كلا من الأدوار والموارد الفعلية.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 يتمتع مدير المشروع بالعديد من الخيارات لحجز مورد لمشروع، مثل **القدرة الإنتاجية المتبقية**، و **القدرة الإنتاجية الكاملة**، و **النسبة المئوية للقدرة الإنتاجية**، و **تحديد الساعات**. يمكن إلغاء خيارات الحجز هذه في اي وقت عند تغيير تعيينات الموارد. هناك نوعان من أنواع الحجز مدعومين:
 

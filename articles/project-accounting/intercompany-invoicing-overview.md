@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369360"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005375"
 ---
 # <a name="intercompany-invoicing-overview"></a>نظرة عامة على الفوترة بين الشركات الشقيقة
 
@@ -22,7 +22,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 يوضح الشكل التوضيحي التالي سيناريو نموذجي حيث يتشارك كيانات قانونيان، Contoso Robotics الولايات المتحدة الأمريكية (the borrowing legal entity) و Contoso Robotics المملكة المتحدة (الكيان القانوني المستقل) في الموارد لتسليم مشروع إلى العميل، Adventure works. لهذا السيناريو، تم التعاقد مع شركة Contoso Robotics الولايات المتحدة الأمريكية لتسليم العمل إلى الشركة Adventure Works.
 
-![الفوترة بين الشركات الشقيقة](./media/IntercompanyScenario.png) 
+![الفوترة بين الشركات الشقيقة.](./media/IntercompanyScenario.png) 
 
 يستخدم Dynamics 365 Project Operations التدفق التالي لمعالجه الحركات بين الشركات الشقيقة:
 
@@ -35,7 +35,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 يوضح الرسم التخطيطي التالي الفواتير بين الشركات الشقيقة من حيث ارتباطها بأحداث المحاسبة والترحيلات المتوقعة إلى دفتر الأستاذ العام.
 
-![التدفق بين الشركات الشقيقة](./media/IntercompanyFlow.png)
+![التدفق بين الشركات الشقيقة.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

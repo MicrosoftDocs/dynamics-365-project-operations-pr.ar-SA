@@ -2,7 +2,7 @@
 title: جدول إصدار تحديثات Project Service 3.x
 description: يقدم هذا الموضوع معلومات حول الإصدارات المتوفرة والقادمة من Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.reviewer: kfend
 ms.prod: ''
 ms.suite: ''
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 332e1f97816145da00e1fcff9c293414578d6b29
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: ed43676954c9535cc84986bc4099cca33ada09ba18c7950ccacb0dec575d0636
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334856"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024812"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>جدول إصدار تحديثات Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "6334856"
 
 | الحل  | آخر إصدار |
 |-------|----|
-| Project Service Automation    | 3.10.54.98 |
+| Project Service Automation    | 3.10.55.38 |
 | الوظيفة الإضافية لسطح المكتب Project Service Automation                | 3.15          |
 
 للحصول على معلومات حول تحديثات Project Service، يمكنك مراجعة [خطط إصدار Dynamics 365](/dynamics365/release-plans/). 
@@ -45,28 +45,28 @@ ms.locfileid: "6334856"
 | محطة العمل  | المنطقة | الإصدار الحالي | الإصدار التالي |  التاريخ المجدول
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>محطة العمل 1</strong> | |  |  | |
-| | <i>الإصدار الأول</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | 28 يوليو 2021
+| | <i>الإصدار الأول</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 27 ‏‏أغسطس 2021
 |<strong>محطة العمل 2</strong> | |  |  | |
-| | <i>أمريكا الجنوبية</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 يوليو 2021
-| | <i>كندا</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 يوليو 2021
-| | <i>الهند</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 يوليو 2021
-| | <i>فرنسا</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 يوليو 2021
-| | <i>الإمارات العربية المتحدة</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 يوليو 2021
-| | <i>جنوب إفريقيا</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 يوليو 2021
-| | <i>ألمانيا</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 يوليو 2021
-| | <i>سويسرا</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 يوليو 2021
+| | <i>أمريكا الجنوبية</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 سبتمبر 2021
+| | <i>كندا</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 سبتمبر 2021
+| | <i>الهند</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 سبتمبر 2021
+| | <i>فرنسا</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 سبتمبر 2021
+| | <i>الإمارات العربية المتحدة</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 سبتمبر 2021
+| | <i>جنوب إفريقيا</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 سبتمبر 2021
+| | <i>ألمانيا</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 سبتمبر 2021
+| | <i>سويسرا</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 سبتمبر 2021
 |<strong>محطة العمل 3</strong> | |  |  | |
-| | <i>اليابان</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 يوليو 2021
-| | <i>آسيا/المحيط الهادئ</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 يوليو 2021
-| | <i>بريطانيا العظمى</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 يوليو 2021
-| | <i>Oceana</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 يوليو 2021
+| | <i>اليابان</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 ‏‏أغسطس 2021
+| | <i>آسيا/المحيط الهادئ</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 ‏‏أغسطس 2021
+| | <i>بريطانيا العظمى</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 ‏‏أغسطس 2021
+| | <i>Oceana</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 ‏‏أغسطس 2021
 |<strong>محطة العمل 4</strong> | |  |  | |
-| | <i>أوروبا</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 23 يوليو 2021
+| | <i>أوروبا</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 20 ‏‏أغسطس 2021
 |<strong>محطة العمل 5</strong> | |  |  | |
-| | <i>أمريكا الشمالية</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30 يوليو 2021
+| | <i>أمريكا الشمالية</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27 ‏‏أغسطس 2021
 |<strong>محطة العمل 6</strong> | |  |  | |
-| | <i>سحابة القطاع الحكومي</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30 يوليو 2021
-| | <i>مجموعات القياس المخصصة</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 06 ‏‏أغسطس 2021
+| | <i>سحابة القطاع الحكومي</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27 ‏‏أغسطس 2021
+| | <i>مجموعات القياس المخصصة</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 03 سبتمبر 2021
 
 >[!Note]
 > - تشير التواريخ في جميع المناطق باستثناء سحابة المجتمع الحكومية (GCC) إلى توقيت التحديث التلقائي التالي. تشير التواريخ في سحابة المجتمع الحكومية إلى توفر الإصدار؛ في الوقت الحالي، لا يوجد تحديث تلقائي لهذه المناطق.

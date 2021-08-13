@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008520"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006949"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>مراجعة تراكم الفوترة في المشاريع وعقود المشاريع
 
@@ -40,7 +40,7 @@ ms.locfileid: "6008520"
 
 لمراجعة تراكم الفوترة الخاص بالوقت والمواد، انتقل إلى **المبيعات**\> **الفوترة** \> **تراكم فوترة الوقت والمواد**. حدد كافة القيم الفعلية للمبيعات غير المفوترة والتي تكون جاهزة للفوترة، ثم حدد **جاهزة للفوترة**. تم تغيير حالة الفوترة لهذه القيم الفعلية إلى **جاهزة للفوترة**.
 
-![تراكم فوترة الوقت والمواد](media/TMBacklog.png)
+![تراكم فوترة الوقت والمواد.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>مراجعة تراكم فوترة المنتجات
 
@@ -48,7 +48,7 @@ ms.locfileid: "6008520"
 
 لمراجعة تراكم الفوترة للمنتجات، انتقل إلى **المبيعات** \>**فوترة**\> **تراكم فوترة المنتج**. حدد جميع بنود العقد المستندة إلى المنتج والتي تكون جاهزة للفوترة، ثم حدد **جاهزة للفوترة**. تم تغيير حالة الفوترة لهذه البنود إلى **جاهزة للفوترة**.
 
-![تراكم فوترة المنتجات](media/ProductBacklog.png)
+![تراكم فوترة المنتجات.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>مراجعة المراحل الرئيسية للفوترة في عقود السعر الثابت
 
@@ -56,7 +56,7 @@ ms.locfileid: "6008520"
 
 لمراجعة المراحل الرئيسية للفوترة، انتقل إلى **المبيعات**\> **الفوترة**\> **المبيعات**. حدد المراحل الرئيسية الجاهزة للفوترة، ثم حدد **جاهزة للفوترة**. تم تغيير حالة الفوترة لهذه المراحل الرئيسية إلى **جاهزة للفوترة**.
 
-![المراحل الرئيسية للأسعار الثابتة](media/FPBacklog.png)
+![المراحل الرئيسية للأسعار الثابتة.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

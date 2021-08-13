@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 205a4fbe41637be12970041ff309c0a8d206db513987c4f64610e842183ed781
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4069145"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004795"
 ---
 من خلال تمكين تطبيق المحمول "Project Finder mobile"، فإنك توفر للمستخدمين في المؤسسة إمكانية الرؤية في عمل المشروع والقدرة على الاشتراك للعمل. يمكن للمستخدمين أيضًا العمل مع تطبيق "أداة البحث عن المشروعات" لعرض مهاراتهم وتحديثها. يتم تمكين تطبيق المحمول "Project Finder mobile" عبر إعداد معلمات Project Service، وذلك عن طريق تعيين قيمة متطلبات المورد المرئية للموارد والسماح بتحديث المهارات بواسطة سمات الموارد على القيمة Yes (نعم). يعمل تغيير قيمة هذه السمات إلى القيمة No (لا) على تعطيل هذه الوظيفة.  
   

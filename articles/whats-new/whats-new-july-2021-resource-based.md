@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433502"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008030"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في يوليو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات غير المخزنة/الإنتاج
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433502"
 
 ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
-   -  Project Operations في إصدار بيئة Microsoft Dataverse  4.12.0.148.
+   - بيئة Project Operations على Microsoft Dataverse الإصدار 4.12.0.148 أو 4.12.0.152.
    - إدارة المشاريع والمحاسبة في إصدار بيئة Dynamics 365 Finance  10.0.20.
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
@@ -79,7 +79,7 @@ ms.locfileid: "6433502"
 | عام                        | 2296857              | تعقب التقدم للوظائف التي تعمل لمدة طويلة.                                                                                                                                                                        |
 | عام                        | 2253682              | لا ينبغي تثبيت حل الكتابة المزدوجة لـ Project Operations عندما يتم تثبيت حل الكتابة المزدوجة الأساسي‬ في بيئة بدون حل تزامن الكتابة المزدوجة.                                                |
 | عام                        | 2316420              | يفشل التوفير الأساسي لـ Project service في حالة تغيير وحدة عمل مستخدم التطبيق.                                                                                                                     |
-
+| عام                        | 2376405              | مشكلة التحديثات الثابتة التي يدفعها الناشر (يتوفر تحديث الجودة في إصدارات 4.12.0.152)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>إدارة المشاريع والمحاسبة في Dynamics 365 Finance
 
 | منطقة الميزات                      | رقم المرجع | تحديث إصلاحي                                                                                                                                                                                                                                                                                                                |

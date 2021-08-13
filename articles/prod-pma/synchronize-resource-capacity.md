@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997495"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005600"
 ---
 # <a name="synchronize-resource-capacity"></a>مزامنة سعة الموارد
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997495"
 
 تساعد عمليات مزامنة الموارد على ضمان أن المعلومات الخاصة بالتقويم والتقويم الأساسي تتدفق إلى أسفل في جدولة موارد المشروع. إذا تم تغيير التقويم ، تقوم العمليات بإجراء التحديثات المطلوبة لجدولة موارد المشروع. تساعد العمليات أيضًا في تحسين الأداء ، لأن معلومات موارد التقويم تتم مزامنتها مسبقًا. لذلك ، تحدث تحديثات معلومات جدولة الموارد بسرعة أكبر. نوصي بجدولة العمليات كدفعة بدلاً من واحدة في كل مرة. خلاف ذلك ، هناك خطر أن ينسى شخص ما التواريخ الشاملة التي تمت فيها مزامنة المعلومات آخر مرة. إذا لم يتم استخدام التواريخ الشاملة ، فقد تحدث فجوات أثناء مزامنة التاريخ.
 
-![مزامنة التقويم](./media/projectresourcing04-1024x471.jpg)
+![مزامنة التقويم.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>قم بمزامنة عمليات تجميع القدرة الإنتاجية للموارد
 
@@ -46,7 +46,7 @@ ms.locfileid: "5997495"
     | تاريخ البدء  | ادخل تاريخ البدء الخاص بعمليه المزامنة الخاصة بلفات الموارد والموردين. |
     | تاريخ الانتهاء    | ادخل تاريخ الانتهاء الخاص بعمليه المزامنة الخاصة بلفات الموارد والموردين. |
 
-[![عملية المزامنة](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![عملية المزامنة.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

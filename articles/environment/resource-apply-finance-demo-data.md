@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7d8a198b3bfd71ae08bc338d17896519b5ffd6b8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000121"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009650"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>تطبيق بيانات العرض التوضيحي على بيئة مستضافة في سحابة Finance
 
@@ -22,40 +22,40 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 1. في مشروع LCS الخاص بك، افتح صفحة **تفاصيل البيئة**. لاحظ أنه يتضمن التفاصيل اللازمة للاتصال بالبيئة باستخدام بروتوكول سطح المكتب البعيد (RDP).
 
-![تفاصيل بيئة ](./media/1EnvironmentDetails.png)
+![تفاصيل البيئة.](./media/1EnvironmentDetails.png)
 
 المجموعة الأولى من بيانات الاعتماد المميزة هي بيانات اعتماد الحسابات المحلية وتحتوي على ارتباط تشعبي إلى الاتصال سطح المكتب البعيد. تتضمن بيانات الاعتماد اسم المستخدم وكلمة المرور الخاصة بمسؤول البيئة. يتم استخدام المجموعة الثانية من بيانات الاعتماد لتسجيل الدخول إلى SQL Server في هذه البيئة.
 
 2. قم بالاتصال بالبيئة بواسطة الارتباط التشعبي في **الحسابات المحلية**، واستخدم **بيانات اعتماد الحساب المحلي** للمصادقة.
 3. انتقل إلى **خدمات معلومات الإنترنت** > **مجموعات التطبيقات** > **AOSService** وأوقف الخدمة. أنت توقف الخدمة عند هذه النقطة لكي يمكنك الاستمرار في استبدال قاعدة بيانات SQL.
 
-![إيقاف AOS](./media/2StopAOS.png)
+![إيقاف AOS.](./media/2StopAOS.png)
 
 4. انتقل إلى **الخدمات** وأوقف العنصرين التاليين:
 
 - Microsoft Dynamics 365 Unified Operations: خدمة إدارة الدفعات
 - Microsoft Dynamics 365 Unified Operations: إطار عمل تصدير واستيراد البيانات
 
-![إيقاف الخدمات](./media/3StopServices.png)
+![إيقاف الخدمات.](./media/3StopServices.png)
 
 5. افتح Microsoft SQL Server Management Studio. سجل الدخول باستخدام بيانات اعتماد SQL server واستخدم مستخدم وكلمة مرور axdbadmin من صفحة **تفاصيل البيئة** لـ LCS.
 
-![SQL Server Management Studio](./media/4SSMS.png)
+![SQL Server Management Studio.](./media/4SSMS.png)
 
 6. في مستكشف الكائنات، **قواعد البيانات** وحدد مكان **AXDB**. ستقوم باستبدال قاعدة البيانات بقاعدة البيانات الجديدة الموجودة في [مركز التنزيل](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. انسخ الملف المضغوط إلى VM الذي تتصل به عن بعد وقم باستخراج المحتويات المضغوطة.
 8. في SQL Server Management Studio، انقر بزر الماوس الأيمن فوق **AxDB**، ثم حدد **المهام** > **استعادة** > **قاعدة البيانات**.
 
-![استعادة قاعدة البيانات](./media/5RestoreDatabase.png)
+![استعادة قاعدة البيانات.](./media/5RestoreDatabase.png)
 
 9. حدد **الجهاز المصدر** وانتقل إلى الملف الذي تم استخراجه من الملف المضغوط الذي قمت بنسخه.
 
-![الأجهزة المصدر](./media/6SourceDevice.png)
+![الأجهزة المصدر.](./media/6SourceDevice.png)
 
 10. حدد **الخيارات**، ثم حدد **الكتابة فوق قاعدة البيانات الموجودة** و **إغلاق الاتصالات الموجودة بقاعدة البيانات الوجهة**. 
 11. حدد **موافق**.
 
-![استعادة الإعدادات](./media/7RestoreSetting.png)
+![استعادة الإعدادات.](./media/7RestoreSetting.png)
 
 ستتلقى تأكيدًا بأن عملية استعادة AXDB كانت ناجحة. بعد تلقي هذا التأكيد، يمكنك إغلاق SQL Services Management Studio.
 
@@ -66,17 +66,17 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 15. قم بتشغيل ملف .ext باستخدام عنوان المستخدم الخاص بك في حقل **عنوان البريد الإلكتروني**. 
 16. حدد **إرسال**.
 
-![تزويد المستخدم المسؤول](./media/8AdminUserProvisioning.png)
+![تزويد المستخدم المسؤول.](./media/8AdminUserProvisioning.png)
 
 يستغرق إكمال هذا الإجراء عدة دقائق. ينبغي أن تتلقي رسالة تأكيد بأن المستخدم المسؤول قد تم تحديثه بنجاح.
 
 17. في النهاية، قم بتشغيل موجه الأوامر كمسؤول وتنفيذ iisreset
 
-![إعادة تعيين IIS](./media/9IISReset.png)
+![إعادة تعيين IIS.](./media/9IISReset.png)
 
 18. قم بإغلاق جلسة عمل سطح المكتب البعيد واستخدم صفحة **تفاصيل بيئة** LCS لتسجيل الدخول إلى البيئة للتأكد من أنها تعمل كما هو متوقع.
 
-![Finance and Operations](./media/10FinanceAndOperations.png)
+![Finance and Operations.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

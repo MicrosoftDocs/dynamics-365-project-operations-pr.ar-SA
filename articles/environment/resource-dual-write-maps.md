@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025758"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003800"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>إصدارات مخطط الكتابة المزدوجة في Project Operations
 
@@ -32,7 +32,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 1. من قائمة المخططات، حدد المخطط **(msdyn\_ledgers)** لدفتر الأستاذ مع كافة المتطلبات وحدد خانة الاختيار **مزامنة أولية**. في حقل **أصل المزامنة الأولية**، قم بتحديد **تطبيقات Finance and Operations** لكل من مخطط دفتر أستاذ وجميع المخططات الأساسية. حدد **تشغيل**.
 
-![مزامنة خريطة دفتر الأستاذ](media/DW6.png)
+![مزامنة خريطة دفتر الأستاذ.](media/DW6.png)
 
 2. اتبع نفس الخطوات لجميع مخططات الجدول المتبقية المدرجة في الجدول السابق. لا تحدد خانة الاختيار **المزامنة الأولية** عند تشغيل هذه الخرائط.
 
@@ -65,7 +65,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 1. قم بتمكين أدوار موارد المشروع لمخطط جدول **جميع الشركات (bookableresourcecategories)** لأن هذا المخطط يتطلب المزامنة الأولية. في الحقل **أصل المزامنة الأولية**، قم بتحديد **خدمة البيانات العامة**. 
 
- ![مزامنة مخطط جدول دور الموارد](media/6ResourceInitialSync.jpg)
+ ![مزامنة مخطط جدول دور الموارد.](media/6ResourceInitialSync.jpg)
 
  انتظر حتى تصبح حالة الخريطة **قيد التشغيل** قبل الانتقال إلى الخطوة التالية.
 
