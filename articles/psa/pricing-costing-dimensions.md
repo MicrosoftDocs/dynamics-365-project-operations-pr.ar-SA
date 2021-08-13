@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368865"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998445"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>الصفحة الرئيسية لأبعاد التسعير والتكلفة
 
@@ -41,7 +41,7 @@ ms.locfileid: "6368865"
 
 يتم شحن PSA بمجموعة افتراضية من أبعاد التسعير. يمكنك عرضها عن طريق الانتقال إلى **Project Service** > **المعلمات**. في سجل المعلمات، في علامة التبويب **أبعاد التسعير المستندة إلى المبلغ**، تحقق من أن الدور، **msdyn_resourcecategory** والوحدة التنظيمية للموارد، **msdyn_organizationalunit** يشتملان على الحقلين **قابل للتطبيق على المبيعات** **قابل للتطبيق على التكلفة** معينين إلى **نعم**. سيتيح لك ذلك إمكانية إعداد السعر والتكلفة لكل مجموعة دور ووحدة تنظيمية.
 
-![لقطة شاشة لمعلمات Project Service مع تمييز "قابل للتطبيق على المبيعات"](media/PS-OOB-parameters.png)
+![لقطة شاشة لمعلمات Project Service مع تمييز "قابل للتطبيق على المبيعات".](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > إذا كنت تستخدم حقول الدور والوحدة التنظيمية الجاهزة كأبعاد تسعير قبل الإصدار 3 من PSA، فلن يكون هناك أي تغيير ملحوظ. يمكنك متابعة استخدام Project Service كالمعتاد. 

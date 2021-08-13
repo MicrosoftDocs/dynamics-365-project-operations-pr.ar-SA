@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: d66df1ffd2be2ff884561010c46cda255a2d2189
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001770"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993090"
 ---
 # <a name="set-up-expense-categories"></a>إعداد فئات المصروفات
 
@@ -42,9 +42,9 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
         - الإيرادات المفوترة
         - الإيرادات المستحقة - قيمة المبيعات
         - الأعمال قيد التنفيذ (WIP) - قيمة المبيعات
-        - الإيراد المستحق-الإنتاج
-        - الأعمال قيد التنفيذ (WIP) - الإنتاج
-        - الإيراد المستحق - الربح
+        - Accrued revenue-production
+        - WIP-production
+        - Accrued revenue-profit
         - الأعمال قيد التنفيذ (WIP) - الربح
         - الإيراد المستحق - الاشتراك
         - الأعمال قيد التنفيذ (WIP) - الاشتراك

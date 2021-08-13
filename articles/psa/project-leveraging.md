@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998395"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995160"
 ---
 # <a name="sales-estimates-and-projects"></a>تقديرات المبيعات والمشاريع
 
@@ -35,11 +35,11 @@ ms.locfileid: "5998395"
 
 عندما تقوم بإنشاء بند عرض أسعار قائم على المشروع، يمكنك إنشاء مشروع جديد أو إقران مشروع موجود في صفحة **بند عرض الأسعار**. 
 
-> ![نموذج بند عرض الأسعار](media/project-8.png)
+> ![نموذج بند عرض الأسعار.](media/project-8.png)
  
 عندما تنشئ مشروعًا جديدًا من تفاصيل سطر عرض الأسعار ، يمكنك الاستفادة من قوالب المشروع. قوالب المشروع هي مشاريع نموذجية تمثل خطط مشروع قياسية وتقديرات مالية نموذجية في المؤسسة. يمكنهم أيضًا تمثيل نسخ من خطط المشروع وتقديرات المشاريع السابقة.
 
-> ![تفاصيل بند عرض الأسعار‬](media/project-9.png)
+> ![تفاصيل بند عرض الأسعار‬.](media/project-9.png)
   
 عند إنشاء المشروع من عرض الأسعار، يتم ربط المشروع تلقائيًا ببند عرض الأسعار.
 

@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 15de5735ba6d25994a68192ebdf80aefec772d6e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998800"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994890"
 ---
 # <a name="book-to-a-project"></a>حجز لمشروع
 
@@ -29,12 +29,12 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 1. من المشروع، انتقل إلى شبكة أعضاء الفريق وحدد **جديد**.
 2. حدد اسم المنصب ودور المورد.
-3. حدد المورد القابل للحجز من البحث المتوفر.
-4. بعد تحديد المورد، قم بتعريف معلومات الحقل التالية لحجز المورد:
+3. حدد المَورد القابل للحجز من البحث المتاح.
+4. بعد تحديد المَورد، حدد معلومات الحقول الآتية لحجز المَورد:
 
     - تاريخ البدء
     - تاريخ الانتهاء
-    - أسلوب التخصيص
+    - أسلوب التوزيع
     - الساعات، إذا كانت قابلة للتطبيق
     - الموافق على المشروع
 

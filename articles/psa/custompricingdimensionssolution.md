@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012300"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995250"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>إنشاء حلول مخصصة لأبعاد التسعير
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012300"
 1. حدد **الإعدادات** > **الحلول**، ثم حدد **جديد**. 
 2. قم بتسميه الحل، **\<your organization name> أبعاد التسعير**، وأدخل المعلومات المطلوبة المتبقية، ثم حدد **حفظ**.
 
-> ![إنشاء حل مخصص لأبعاد التسعير](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![إنشاء حل مخصص لأبعاد التسعير.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>إضافة جميع الكيانات المطلوبة والمكونات ذات الصلة إلى حل أبعاد التسعير
 ستحتاج إلى إضافة كيانات Project Service التالية إلى حل التسعير الخاص بك. أكمل الخطوات الواردة في هذا الإجراء لإجراء بعض التغييرات الهامة في المخطط في حل التسعير لكي تصبح الكيانات على علم بأبعاد التسعير الجديدة.
@@ -54,9 +54,9 @@ ms.locfileid: "6012300"
 - سعر الدور 
 - إدخال الوقت 
 
-> ![إضافة الكيانات الموجودة إلى حل أبعاد التسعير](media/Existing-entities-to-PD-solution.png)
+> ![إضافة الكيانات الموجودة إلى حل أبعاد التسعير.](media/Existing-entities-to-PD-solution.png)
 
-> ![حدد مكونات الحل](media/Dimension-Components.png)
+> ![حدد مكونات الحلول.](media/Dimension-Components.png)
 
 > [!NOTE]
 > تأكد من تضمين كافة النماذج وطرق العرض لكل من الكيانات المحددة.

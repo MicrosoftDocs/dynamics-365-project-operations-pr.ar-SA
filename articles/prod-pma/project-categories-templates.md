@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 2816d363dbfe6ef2d98a584b214f72d9b30c49bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999835"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001100"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>مزامنة فئات مصروفات المشاريع بين Finance and Operations وProject Service Automation
 
@@ -56,7 +56,7 @@ ms.locfileid: "5999835"
 
 يوضح الرسم التوضيحي التالي كيفية مزامنة البيانات بين Project Service Automation وFinance.
 
-[![تدفق البيانات لتكامل Project Service Automation مع Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![تدفق البيانات لتكامل Project Service Automation مع Finance.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>مزامنة فئة مصروفات المشروع من Finance إلى Project Service Automation
 
@@ -93,7 +93,7 @@ ms.locfileid: "5999835"
 
 يُظهر الرسم التوضيحي التالي مثالاً لتعيينات مهام القالب في تكامل البيانات. يُظهر التعيين معلومات الحقل التي ستتم مزامنتها من Finance إلى Project Service Automation.
 
-[![تعيين فئة مصروفات المشروع إلى قالب Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![تعيين فئة مصروفات المشروع إلى قالب .Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>مزامنة فئة مصروفات المشروع من Project Service Automation إلى Finance
 
@@ -121,7 +121,7 @@ ms.locfileid: "5999835"
 > [!NOTE]
 > يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Project Service Automation إلى Finance.
 
-[![تعيين Project Service Automation إلى قالب Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![تعيين Project Service Automation إلى قالب .Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

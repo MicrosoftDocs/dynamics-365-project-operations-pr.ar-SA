@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6362daab7e2e01c7b7b2c2b801fe7e258b21ef16
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000960"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994800"
 ---
 # <a name="resource-management-key-concepts"></a>المفاهيم الأساسية لإدارة الموارد
 
@@ -25,8 +25,8 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 - مطابقه المهارات من خلال تحديد المهارات المحددة في طلب المورد مقابل مهارات الموارد المتوفرة.
 - استبدال الموارد.
 - محاذاة تعيينات جدول المشروع وحجوزات الموارد.
-- تسوية الفروق في الحجوزات والتعيينات.
-- تغيير حجوزات الموارد كاستجابة لحالة خارج المكتب.
+- تسوية الاختلافات في الحجوزات والتعيينات.
+- تغيير حجوزات الموارد كاستجابة لحاله خارج المكتب.
 - التعاون بين مديري المشاريع ومديري الموارد.
 - عرض محفوظات استخدام الموارد مقابل هدف، بما في ذلك تصنيف لكيفية استهلاك وقت الموارد.
 - صيانة مستودع مهارات وكفاءة.

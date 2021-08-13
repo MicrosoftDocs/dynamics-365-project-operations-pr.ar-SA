@@ -6,18 +6,18 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: dc069d7007bdc58140a33c7a2ebae7ef9d1e84ff
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003840"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997410"
 ---
 # <a name="manage-a-proforma-project-invoice"></a>إدارة فاتورة أولية للمشروع 
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
-في Dynamics 365 Project Operations، يتم إنشاء الفواتير الأولية كملحق للفواتير في Dynamics 365 Sales. ومع ذلك، هناك اختلافات كثيرة في عملية الفوترة بين Sales وProject Operations فيما يتعلق بالفوترة. على سبيل المثال، لا يمكن إنشاء فاتورة جديدة من صفحة **قائمة الفواتير** في Project Operations، ولكن يمكنك القيام بذلك في Sales. تم وضع هذه الاختلافات والملحقات في مكان لدعم عمليات فوترة المشاريع التي تختلف عن فاتورة عادية لأمر مبيعات.
+في Dynamics 365 Project Operations، يتم إنشاء الفواتير الأولية كملحق للفواتير في Dynamics 365 Sales. ومع ذلك، هناك اختلافات كثيرة في عملية الفوترة بين Sales وProject Operations فيما يتعلق بالفوترة. على سبيل المثال، لا يمكن إنشاء فاتورة جديدة من صفحة **قائمة الفواتير** في Project Operations، ولكن يمكنك القيام بذلك في Sales. وهذه الاختلافات والملحقات يتم وضعها لدعم عمليات الفوترة الخاصة بالمشاريع المختلفة عن الفاتورة النموذجية لأمر المبيعات.
 
 > [!IMPORTANT]
 > وبسبب الاختلافات، لا تستخدم الفواتير في Sales وProject Operations بطريقة تبادلية.

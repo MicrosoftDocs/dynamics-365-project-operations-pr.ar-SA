@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002760"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995790"
 ---
 # <a name="intercompany-invoicing"></a>الفوترة بين الشركات الشقيقة
 
@@ -33,7 +33,7 @@ ms.locfileid: "6002760"
 
 يوضح الرسم التوضيحي التالي سيناريو نموذجي حيث يتشارك كيانان قانونيان ، SI FR (الكيان القانوني المقترض) و SI USA (الكيان القانوني المُقرض) في الموارد لتسليم مشروع للعميل أ. بالنسبة لهذا السيناريو ، تم التعاقد مع SI FR لتسليم العمل للعميل أ. 
 
-[![مثال على الفوترة بين الشركات الشقيقة](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![مثال على الفوترة بين الشركات الشقيقة.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 الهدف هو جعل التحكم في التكلفة ، والاعتراف بالإيرادات ، والضرائب ، وسعر التحويل لمعاملات المشروع بين الشركات الشقيقة أكثر مرونة وقوة. بالإضافة إلى ذلك ، يتم توفير الإمكانات التالية:
 

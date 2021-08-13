@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008295"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002315"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>إعداد الحقول المخصصة كأبعاد تسعير 
 
@@ -41,11 +41,11 @@ ms.locfileid: "6008295"
 - تم إنشاؤه كحقل في كياني **سعر الدور** و **رفع سعر الدور**. لمزيد من المعلومات حول كيفية القيام بهذا، راجع [إضافة الحقول المخصصة إلى كيانات المعاملات وإعداد الأسعار](field-references.md).
 - تم إنشاؤه كصف في جدول **بعد التسعير**. على سبيل المثال، أضف صفوف أبعاد التسعير كما هو موضح في الرسم التالي. 
 
-![صفوف أبعاد التسعير المستندة إلى المبلغ](media/Amt-based-PD.png)
+![صفوف أبعاد التسعير المستندة إلى المبلغ.](media/Amt-based-PD.png)
 
 ولاحظ أنه تمت إضافة ساعات عمل المورد (**msdyn_resourceworkhours**) كبعد يستند مستند إلى رفع السعر وتمت إضافتها إلى الشبكة في علامة التبويب **بعد التسعير المستند إلى رفع السعر**.
 
-![صفوف أبعاد التسعير المستندة إلى رفع السعر](media/Markup-based-PD.png)
+![صفوف أبعاد التسعير المستندة إلى رفع السعر.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > يتم نشر أي تغييرات على بيانات أبعاد التسعير الموجودة في هذا الجدول الحالي أو الجديد لمنطق تسعير Project Service فقد بعد تحديث ذاكرة التخزين المؤقت. قد يستغرق وقت تحديث ذاكرة التخزين المؤقت حتى 10 دقائق. اسمح لطول المدة بمشاهدة التغييرات في منطق افتراض الأسعار الذي يجب أن ينتج عن التغييرات في بيانات بُعد التسعير.
