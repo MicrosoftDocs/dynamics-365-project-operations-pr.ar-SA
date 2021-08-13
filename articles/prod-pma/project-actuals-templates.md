@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999880"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988095"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>مزامنة القيم الفعلية للمشروع مباشرة من Project Service Automation إلى دفتر يومية تكامل المشروع للنشر في Finance and Operations
 
@@ -42,7 +42,7 @@ ms.locfileid: "5999880"
 
 يوضح الرسم التوضيحي التالي كيفية مزامنة البيانات بين Project Service Automation وFinance.
 
-[![تدفق البيانات لتكامل Project Service Automation مع Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![تدفق البيانات لتكامل Project Service Automation مع Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>القيم الفعلية للمشروع من Project Service Automation
 
@@ -93,9 +93,9 @@ ms.locfileid: "5999880"
 
 يُظهر الرسم التوضيحي التالي مثالاً لتعيينات مهام القالب في تكامل البيانات. يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Project Service Automation إلى Finance.
 
-[![تعيين القالب - القيم الفعلية](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![تعيين القالب - القيم الفعلية.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![تعيين القالب - اتصالات الحركات](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![تعيين القالب - اتصالات الحركات.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>الاستيراد من الجدول المرحلي بعد التكامل من Project Service Automation
 
@@ -135,9 +135,9 @@ ms.locfileid: "5999880"
 
 توضح الرسوم التوضيحية التالية أمثلة لتعيينات مهام القالب في تكامل البيانات. يُظهر التعيين معلومات الحقل التي ستتم مزامنتها من Finance إلى Project Service Automation.
 
-[![تعيين القالب - تحديث القيم الفعلية](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![تعيين القالب - تحديث القيم الفعلية.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![تعيين القالب - تحديث الحركة](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![تعيين القالب - تحديث الحركة.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

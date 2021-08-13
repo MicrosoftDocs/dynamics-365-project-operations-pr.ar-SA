@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000600"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986655"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>إضافة اشتراك Azure إلى مشروع LCS
 
@@ -23,35 +23,35 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 1. في مشروع LCS الخاص بك، في قسم **البيئات**، حدد **إعدادات Microsoft Azure**.
 
-![إعدادات تطبيق Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![إعدادات Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. في صفحة **إعدادات المشروع**، في علامة التبويب **موصلات Azure**، حدد **تخويل**. هذا يسمح بنشر البيئات في هذا المشروع.
 
-![موصلات Azure](./media/2AzureConnectors.png)
+![موصلات Azure.](./media/2AzureConnectors.png)
 
 3. حدد **تخويل** مرة أخرى لتوفير موافقة المسؤول.
 
-![منح موافقة المسؤول](./media/3GrantAdminConsent.png)
+![منح موافقة المسؤول.](./media/3GrantAdminConsent.png)
 
 4. اقبل طلب الأذونات.
 
-![قبول طلب الأذونات](./media/4AcceptPermissionRequest.png)
+![قبول طلب الأذونات.](./media/4AcceptPermissionRequest.png)
 
 اكتمل التخويل الآن. 
 
-![نجح التخويل](./media/5AuthorizationComplete.png)
+![نجح التخويل.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>يوفر Dynamics Deployment Services الوصول إلى اشتراك Azure
 
 1. اذهب إلى [Microsoft Azure الفوترة](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) وحدد الاشتراك الخاص بك. تحتاج Dynamics Deployment Services إلى الوصول إلى هذا الاشتراك لكي تتمكن من نشر البيئات.
 
-![تفاصيل اشتراك Azure](./media/6AzureSubscription.png)
+![تفاصيل اشتراك Azure.](./media/6AzureSubscription.png)
 
 2. حدد **الوصول للتحكم (IAM)** في جزء التنقل، ثم حدد **إضافة تعيين دور**.
 3. في شريط التمرير الموجود على الجانب الأيسر، حدد **دور المساهم**، وفي القائمة المتوفرة، ابحث عن وحدد **Dynamics Deployment Services**. 
 4. حدد **حفظ**.
 
-![الوصول إلى الاشتراك](./media/7SubscriptionAccess.png)
+![الوصول إلى الاشتراك.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>إضافة اشتراك موصل إلى مشروع LCS
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009555"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987555"
 ---
 # <a name="unit-groups-and-units"></a>مجموعات الوحدات والوحدات
 
@@ -44,7 +44,7 @@ ms.locfileid: "6009555"
 
 تظهر الصورة التالية مثال إعداد لوحدة **اليوم**، حيث يُظهر حقل **الكمية** عدد الساعات الموجودة في يوم و **الأسبوع**، حيث يظهر حقل **الكمية**  عدد الأيام في الأسبوع.
 
-> ![مجموعة الوحدات: صفحة المعلومات](media/advanced-2.png)
+> ![مجموعة الوحدات: صفحة المعلومات.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>استخدام الوحدات ومجموعات الوحدات
 

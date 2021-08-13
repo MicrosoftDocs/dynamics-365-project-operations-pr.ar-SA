@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007260"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985530"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>تثبيت عينات بيانات لتطبيق Project Service
 
@@ -86,7 +86,7 @@ ms.locfileid: "6007260"
 يجب أن تكون وظيفة شاشة التوقف على الكمبيوتر متوقفة عن التشغيل. وإلا، فقد تفقد بيانات اعتماد جلسة العمل لعملية التثبيت عندما تعمل شاشة التوقف (إلا إذا أبقيت جلسة العمل نشطة طيلة الوقت).
 
 > [!div class="mx-imgBorder"]
-> ![لقطة شاشة لإعدادات شاشة التوقف، مع إيقاف تشغيل شاشة التوقف](media/sample-data-1.png)
+> ![لقطة شاشة لإعدادات شاشة التوقف، مع إيقاف تشغيل شاشة التوقف.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>التنزيل وفك الحزمة
 
@@ -142,7 +142,7 @@ ms.locfileid: "6007260"
 3. افتح **PkgFolder** ثم ابحث عن **ImportUserMapFile.xml** وقم بفتحه. تحديث الحقول **جديدة=** إلى عناوين البريد الإلكتروني للمستخدمين المقابلين في النظام الخاص بك.
 
    > [!div class="mx-imgBorder"]
-   > ![لقطة شاشة لـ UserMapFile‎](media/sample-data-7.png)
+   > ![لقطة شاشة لـ UserMapFile‎.](media/sample-data-7.png)
 
 4. إذا كان اسم المستخدم "سبنسر لو" يمتلك مُعرف مستخدم مختلف عن **"spencerl"**، فإنك تحتاج إلى تحديث ملف إضافي. افتح **DemoDataPreImportConfig.xml**، ثم ابحث عن العلامة **userstocreateandconfigure**. قم بتحديث العلامة **\<login\>** باستخدام loginId (تحسس حالة الأحرف). 
 
@@ -172,7 +172,7 @@ ms.locfileid: "6007260"
 5. حدد **التالي** حتى يظهر مربع الحوار **إعداد بيانات العرض التوضيحي**.
 
    > [!div class="mx-imgBorder"]
-   > ![أخذ لقطة شاشة لنافذة حالة مثبت بيانات العرض التوضيحي](media/sample-data-3.png)
+   > ![أخذ لقطة شاشة لنافذة حالة مثبت بيانات العرض التوضيحي.](media/sample-data-3.png)
 
 6. قبل المتابعة، لاحظ أن تثبيت عينات البيانات قد يستغرق وقتًا يصل إلى ساعة واحدة (عادة ~ 10 دقائق). يجب أن تتأكد من إبقاء الكمبيوتر قيد التشغيل ومتصلاً بالشبكة طيلة عملية التثبيت، ومن أن جلسة العمل هي دائمًا نشطة.   
 
@@ -191,10 +191,10 @@ ms.locfileid: "6007260"
 - إذا كان التطبيق Field Service مثبتًا، فانتقل إلى **Project Service** > **الإعدادات** > **قوائم الأسعار‏‎**. تأكد من وجود أسعار التكلفة وأسعار الفاتورة. انتقل إلى **Field Service** > **الإعدادات** > **قوائم الأسعار** وتحقق من وجود أسعار التكلفة وأسعار الفاتورة بالعملة المناسبة لكل بلد/منطقة في مجموعة البيانات.
 
   > [!div class="mx-imgBorder"]
-  > ![لقطة شاشة لقوائم الأسعار النشطة](media/sample-data-4.png)
+  > ![لقطة شاشة لقوائم الأسعار النشطة.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![لقطة شاشة للوحدات التنظيمية النشطة](media/sample-data-5.png)
+  > ![لقطة شاشة للوحدات التنظيمية النشطة.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>الملاحظات التقنية
 
@@ -295,7 +295,7 @@ ms.locfileid: "6007260"
 حدد مستخدمًا (على سبيل المثال، Spencer Low) وغيّر ساعات عمل Spencer إلى عدد الساعات الذي تريد تطبيقه على العديد من المستخدمين. انتقل إلى **Universal Resource Scheduling** > **الإعدادات** > **قوالب ساعات العمل** وحرر سجل **قالب العمل الافتراضي**. في حقل **مورد القالب** ، حدد مستخدمًا لديه ساعات العمل التي تريد تطبيقها على موارد أخرى. انتقل إلى **Universal Resource Scheduling** > **الجدولة** > **الموارد** > **الموارد النشطة القابلة للحجز**. حدد الموارد التي ترغب في تغييرها، ثم حدد **تعيين التقويم**. في القائمة المنسدلة **قالب العمل**، حدد قالب **ساعات العمل الافتراضية‬** أو قالبًا آخر مع مورد القوالب الصحيح. عندما تنتقل إلى لوحة الجدولة، سترى أن الموارد قامت بتحديث ساعات العمل.
 
 > [!div class="mx-imgBorder"]
-> ![لقطة شاشة للموارد القابلة للحجز النشطة](media/sample-data-6.png)
+> ![لقطة شاشة للموارد القابلة للحجز النشطة.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

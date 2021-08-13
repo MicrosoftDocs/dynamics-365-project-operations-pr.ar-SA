@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002220"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991470"
 ---
 # <a name="security-model"></a>نموذج الأمان
 
@@ -58,7 +58,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 يقتصر بحث أعضاء المجموعة في مربع الحوار **إدارة المجموعات** على هؤلاء الذين تم تعيينهم كجزء من مجموعة أمان البيئة. لمزيد من المعلومات، راجع [التحكم في وصول المستخدم إلى البيئات: مجموعات الأمان والتراخيص](/power-platform/admin/control-user-access).
 
-![وضع المجموعة](./media/groupsmode.png)
+![وضع المجموعة.](./media/groupsmode.png)
 
 1. يتم إنشاء المشروع وامتلاكه بواسطة المستخدم الذي قام بالإنشاء.
 2. يتم تحديث مالك المشروع إلى الفريق.

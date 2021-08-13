@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997720"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988680"
 ---
 # <a name="manage-time-zones"></a>إدارة المناطق الزمنية
 
@@ -32,13 +32,13 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 - يجب على المستخدم تكوين المنطقة الزمنية للجهاز الخاصة به لمطابقة المنطقة الزمنية المحددة في **إعدادات التخصيص** الخاصة بالنظام.
  
-  ![إعدادات المنطقة الزمنية في Windows 10](media/reconcile-assignments-03.png)
+  ![إعدادات المنطقة الزمنية في Windows 10.](media/reconcile-assignments-03.png)
 
-  ![إعدادات المنطقة الزمنية في إعدادات التخصيص](media/reconcile-assignments-04.png)
+  ![إعدادات المنطقة الزمنية في إعدادات التخصيص.](media/reconcile-assignments-04.png)
  
 - يجب وجود دقيقة واحدة على الأقل من وقت المورد القابل للحجز تتداخل مع المخططات الزمنية المستخدمة لتعريف التمديد المطلوب. على سبيل المثال، الموارد التالية التي تقع ساعات العمل الخاص بها بين 9:00 ص و 7:00 م. 
 
-  ![مقارنة حدود الموارد](media/reconcile-assignments-05.png)
+  ![مقارنة حدود الموارد.](media/reconcile-assignments-05.png)
 
 يبين الجدول التالي:
 
@@ -47,25 +47,25 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 - المورد ب: يقع هذا المورد في منطقة زمنية مختلفة عن المشروع ويبدأ عند 7:00 ص في المنطقة الزمنية الخاصة به. ومع ذلك، ستبدأ الحجوزات عند الساعة 9:00 ص لأن هذا الوقت هو أقرب وقت بدء لحدود التعيين.
 - الموارد جـ و د: يتم تحديد موقع الموارد في مناطق زمنية مختلفة، على أن تكون مختلفة عن بعضها البعض وعن المشروع، ولا يتم بدء حجوزاتها قبل تاريخ البدء الخاص بها المتوفر.
 
-|الكيان  |التقويم  |
+|الكيان   |التقويم  |
 |-|-|
-|قالب تقويم مشروع   | ![تقويم المشروع](media/reconcile-assignments-06.png) |
-|المورد A  | ![تقويم المورد A](media/reconcile-assignments-06.png) |
-|المورد B  |  ![تقويم المورد B](media/reconcile-assignments-07.png) |
-|المورد C  |  ![تقويم المورد C](media/reconcile-assignments-08.png) |
-|المورد D  | ![تقويم المورد D](media/reconcile-assignments-09.png)  |
+|قالب تقويم مشروع   | ![تقويم المشروع.](media/reconcile-assignments-06.png) |
+|المورد A  | ![تقويم المورد A.](media/reconcile-assignments-06.png) |
+|المورد B  |  ![تقويم المورد B.](media/reconcile-assignments-07.png) |
+|المورد C  |  ![تقويم المورد C.](media/reconcile-assignments-08.png) |
+|المورد D  | ![تقويم المورد D.](media/reconcile-assignments-09.png)  |
  
 وعند الانتقال إلى طريقة عرض **التسوية**، يتم عرض تعيينات الموارد وغيرها من حالات نقص الحجز المرتبطة.
 
-![طريقة عرض التسوية قبل التمديد](media/reconcile-assignments-10.png)
+![طريقة عرض التسوية قبل التمديد.](media/reconcile-assignments-10.png)
 
 وبعد أن يتم استخدام وظيفة توسيع الحجز لكل مورد، يتم بنجاح توسيع الحجوزات لكل مورد لأن ساعات عمل كل مورد تتداخل مع المخططات الزمنية للنقص.
 
-![طريقة عرض التسوية بعد تمديد الحجز](media/reconcile-assignments-11.png) 
+![طريقة عرض التسوية بعد تمديد الحجز.](media/reconcile-assignments-11.png) 
 
 لاحظ أن نظرة عن كثب على تفاصيل الحجوزات توضح الاختلافات في وقت بدء الحجوزات. تبدأ الحجوزات في وقت لا يسبق البدء الخاص بالمخطط الزمني للتعيين وليس قبل وقت البدء المتوفر للمورد.
 
-![حجوزات جديدة للموارد في لوحة الجدولة](media/reconcile-assignments-12.png)
+![حجوزات جديدة للموارد في لوحة الجدولة.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

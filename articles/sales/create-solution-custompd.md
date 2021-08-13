@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010320"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992190"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>إنشاء حل لأبعاد التسعير المخصصة
 
@@ -26,7 +26,7 @@ ms.locfileid: "6010320"
 2.  قم بتسمية الحل، *أبعاد أسعار <your organization name>*.
 3. أدخل المعلومات المتبقية المطلوبة، ثم حدد **حفظ**.
 
-  ![إنشاء حل أبعاد التسعير المخصص](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![إنشاء حل أبعاد التسعير المخصص.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>إضافة جميع الكيانات المطلوبة والمكونات ذات الصلة إلى حل أبعاد التسعير
 
@@ -49,19 +49,19 @@ ms.locfileid: "6010320"
    - **سعر الدور**
    - **إدخال الوقت**
  
-   ![أضف حل بُعد التسعير المخصص للكيانات الحالية](./media/Existing-entities-to-PD-solution.png)
+   ![أضف حل بُعد التسعير المخصص للكيانات الحالية.](./media/Existing-entities-to-PD-solution.png)
  
  4. بالنسبة لكل كيان، قم بمراجعه المكونات التي تتم اضافتها والقائمة النهائية لأصول الكيانات لكل كيان. 
 
    >[!NOTE]
    > قم بتضمين كافة النماذج وطرق العرض لكل من الكيانات المحددة.
 
-  ![تمت إضافة الكيانات](./media/solution-component-selection.png)
+  ![تمت إضافة الكيانات.](./media/solution-component-selection.png)
 
 
 5.  عند المطالبة بتضمين أي كيانات تابعه للكيانات المحددة، حدد **لا، لا تقم بتضمين المكونات المطلوبة.**
 
-    ![تضمين الكيانات التابعة](./media/Do-not-include-required.png)
+    ![تضمين الكيانات التابعة.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

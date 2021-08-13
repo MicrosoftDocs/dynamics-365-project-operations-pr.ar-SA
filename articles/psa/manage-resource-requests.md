@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015000"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985125"
 ---
 # <a name="manage-resource-requests-project-service"></a>إدارة طلبات الموارد (Project Service)
 
@@ -43,7 +43,7 @@ ms.locfileid: "6015000"
   
    -   انقر فوق **تصفية** لعرض الجزء **عامل تصفية**، الذي يسمح لك بتصفية النتائج حسب الوحدة التنظيمية أو الدور أو المهارة أو سمات أخرى.  
   
-       ![شاشة طلبات الموارد في Project Service](../psa/media/project-service-resource-request-screen.png "شاشة طلبات الموارد في Project Service")  
+       ![شاشة طلبات الموارد في Project Service.](../psa/media/project-service-resource-request-screen.png "شاشة طلبات الموارد في Project Service")  
   
 3. في تقويم المورد الذي تريد حجزه، حدد الفترة الزمنية لحجز المورد، ثم انقر فوق **حجز** لحجز المورد، أو فوق **اقتراح الحجز** لاقتراح الحجز وجعل مقدم الطلب‬ يوافق عليه. عند حجز مورد، يمكنك إجراء حجز مبدئي‬ أو حجز محدد‬.  
   

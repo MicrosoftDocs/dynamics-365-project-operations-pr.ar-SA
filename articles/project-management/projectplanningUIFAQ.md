@@ -2,17 +2,17 @@
 title: استكشاف الأخطاء العمل في شبكة المهام وإصلاحها
 description: يوفر هذا الموضوع معلومات استكشاف الأخطاء وإصلاحها المطلوبة عند العمل في شبكة المهام.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213384"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989085"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>استكشاف الأخطاء العمل في شبكة المهام وإصلاحها 
 
@@ -24,7 +24,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 يتطلب Project Operations تمكين ملفات تعريف الارتباط الخاصة بطرف ثالث من أجل عرض هيكل تنظيم العمل. عند عدم تمكين ملفات تعريف الارتباط الخاصة بطرف ثالث، فبدلا من مشاهدة المهام، سترى صفحة فارغة عند تحديد علامة التبويب **مهام** في صفحة **المشروع**.
 
-![علامة تبويب فارغة عند عدم تمكين ملفات تعريف الارتباط الخاصة بطرف ثالث](media/blankschedule.png)
+![علامة تبويب فارغة عند عدم تمكين ملفات تعريف الارتباط الخاصة بطرف ثالث.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>الطرق البديلة
@@ -52,11 +52,22 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 تتطلب Project Operations أن تشير معلمة المشروع إلى نقطة نهاية PEX. تكون نقطة النهاية هذه مطلوبة للاتصال بالخدمة المستخدمة في عرض هيكل تنظيم العمل. إذا لم يتم تمكين المعلمة، ستتلقى الخطأ، "معلمة المشروع غير صالحة". 
 
 ### <a name="workaround"></a>الطرق البديلة
- ![حقل نقطة نهاية PEX في معلمة المشروع](media/projectparameter.png)
 
 1. أضف حقل **نقطة نهاية PEX** إلى صفحة **معلمات المشروع**.
-2. قم بتحديث الحقل بالقيمة التالية: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. قم بإزالة الحقل من صفحة **معلمات المشروع**.
+2. حدد نوع المنتج الذي تستخدمه. تستخدم هذه القيمة عند نقطة النهاية PEX. وعند استرداده، يتم تحديد نوع المنتج بالفعل في معرف PEX نقطة النهاية. احتفظ بهذه القيمة. 
+   
+    ![حقل نقطة نهاية PEX في معلمة المشروع.](media/pex-endpoint.png)
+
+3. قم بتحديث الحقل بالقيمة التالية: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | نوع المنتج                         | معلمة النوع |
+   |--------------------------------------|----------------|
+   | Project for the Web في المؤسسة الافتراضية   | type=0         |
+   | Project for the Web في مؤسسة CDS المسماة | type=1         |
+   | Project Operations                   | type=2         |
+   
+4. قم بإزالة الحقل من صفحة **معلمات المشروع**.
 
 ## <a name="privileges-for-project-for-the-web"></a>امتيازات المشروع بالنسبة إلى الويب
 
@@ -67,7 +78,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 1. انتقل إلى **الإعدادات > الأمان > المستخدمون > مستخدمو التطبيق**.  
 
-   ![قارئ التطبيق](media/applicationuser.jpg)
+   ![قارئ التطبيق.](media/applicationuser.jpg)
    
 2. انقر نقرًا مزدوجًا فوق سجل مستخدم التطبيق للتحقق مما يلي:
 
@@ -76,7 +87,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
  
 3. إذا كان هذا المستخدم غير موجود، فيمكنك إنشاء سجل مستخدم جديد. حدد **مستخدمين جدد**. قم بتغيير نموذج الإدخال إلى **مستخدم التطبيق**، ثم أضف **معرف التطبيق**.
 
-   ![تفاصيل مستخدم التطبيق](media/applicationuserdetails.jpg)
+   ![تفاصيل مستخدم التطبيق.](media/applicationuserdetails.jpg)
 
 4. تحقق من تعيين الترخيص الصحيح للمستخدم ومن أن الخدمة قد تم تمكينها في تفاصيل خطط الخدمة الخاصة بالترخيص.
 5. تحقق من أن المستخدم يمكنه فتح project.microsoft.com.

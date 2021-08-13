@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002228"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986475"
 ---
 # <a name="vendor-invoice-integration"></a>تكامل فاتورة المورّد
 
@@ -36,7 +36,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 يتم تسجيل دفتر الأستاذ الفرعي الضريبي ودفتر الأستاذ الفرعي للمورد والترحيلات المالية الأخرى حسب الاقتضاء في Dynamics 365 Finance عند ترحيل فاتورة المورد.
 
-![تكامل فاتورة المورّد](media/DW7VendorInvoice.png)
+![تكامل فاتورة المورّد.](media/DW7VendorInvoice.png)
 
 عند كتابة السجلات إلى كيان **فاتورة المورد** في Dataverse، تبدأ عملية الموافقة التلقائية للسجلات. إذا لزم الأمر، يمكن مراجعة حالة عملية الموافقة التلقائية في Dataverse من خلال الانتقال إلى **الإعدادات المتقدمة** > **النظام** > **مهام نظام**. بعد اكتمال الاعتماد، يقوم النظام بإنشاء سجلات فئة معاملة المواد في كيان **القيم الفعلية**.
 

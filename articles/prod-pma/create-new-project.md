@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006225"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985935"
 ---
 # <a name="create-a-new-project"></a>إنشاء مشروع جديد
 
@@ -51,7 +51,7 @@ ms.locfileid: "6006225"
 
 يمكن لمدير المشروع استخدام وظيفة موارد المشروع لإنشاء الأدوار المطلوبة للمشروع. يمكن استخدام الأدوار في حاله ما إذا كانت الموارد المؤكدة لا تزال غير معروفه عند حجز الموارد. يمكن حجز الأدوار بشكل مؤقت كموارد مخططه ، ومن ثم يمكنك متابعه مراحل تخطيط المشروع.
 
-[![مثال لدور](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![مثال لدور.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **السيناريو:** Contoso تم تعيينها لإكمال مشروع وقت ومادة يحتوي على ميثاق مشروع تمت الموافقة عليه. لا يزال مدير المشروع المبتدئ في إكمال نطاق المشروع. تقوم أداره الموارد حاليا بتعريف الموارد المحددة التي سيتم حجزها للعمل علي المشروع الجديد. وبسبب الطبيعة الهامه للمشروع ، طلب المشروع الراعي مدير المشروع الأول كاحد الأدوار. يجب ان يحصل مدير الموارد علي المورد الجديد وتعريف الدور في النظام في حال طلب مدير المشروع المبتدئ معلومات المورد اثناء تخطيط المشروع.
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1e9ca9407404274648f359be42d350137775ae55
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001050"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986520"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>تكامل بيانات التكوين والإعداد في Project Operations
 
@@ -24,7 +24,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 يتم إنشاء عقود المشروع وشروط التعاقد والمشروعات في Dataverse ومزامنتها مع تطبيقات Finance and Operations لأجل المحاسبة الإضافية. يمكن إنشاء السجلات في هذه الكيانات وحذفها فقط في Dataverse. ومع ذلك، يمكن إضافة سمات محاسبة مثل الإعدادات الافتراضية لمجموعة ضريبة المبيعات والأبعاد المالية إلى هذه السجلات في تطبيقات Finance and Operations.
 
-  ![مفاهيم تكامل عقد المشروع](./media/1ProjectContract.jpg)
+  ![مفاهيم تكامل عقد المشروع.](./media/1ProjectContract.jpg)
 
 يتم تعقب العملاء المتوقعين لنشاط المبيعات وفرص المبيعات وعروض الأسعار في Dataverse ولا يتم مزامنتها مع تطبيقات Finance and Operations نظرا لعدم وجود محاسبة لاحقة مقترنة بهذا النشاط.
 
@@ -51,7 +51,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 يتم فوترة شروط تعاقد المشروع باستخدام طريقة فوترة السعر الثابت من خلال المراحل الرئيسية للفوترة. تتم مزامنة المراحل الرئيسية للفوترة مع المعاملات التي تتم على حساب المشروع في تطبيقات Finance and Operations باستخدام مخطط الجدول **المراحل الرئيسية لشروط التعاقد في تكامل Project Operations (msdyn\_contractlinescheduleofvalues).**
 
-  ![تكامل المراحل الرئيسية للفوترة](./media/2Milestones.jpg)
+  ![تكامل المراحل الرئيسية للفوترة.](./media/2Milestones.jpg)
 
 ويمكن للمحاسب مراجعة المعاملات الحسابية وضبط سمات المحاسبة لهذه المعاملات عن طريق الذهاب إلى **إدارة المشاريع والمحاسبة** > **عقود المشروع** > **صيانة** > **المعاملات على الحساب** أو **إدارة المشاريع والمحاسبة** > **جميع المشاريع** > **صيانة** > **المعاملات على الحساب**.
 
@@ -61,13 +61,13 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 تتم مزامنة مهام المشروع مع Finance and Operations من خلال مخطط **مهام المشروع (msdyn\_projecttasks)** لأغراض مرجعية فقط. لا يتم دعم عمليات الإنشاء والتحديث والحذف من خلال تطبيقات Finance and Operations.
 
-  ![تكامل مهام المشروع](./media/3Tasks.jpg)
+  ![تكامل مهام المشروع.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>موارد المشروع
 
 تتم مزامنة **أدوار موارد المشروع** مع تطبيقات Finance and Operations باستخدام مخطط الجدول **أدوار موارد المشروع لجميع الشركات (bookableresourcecategories)** للأغراض المرجعية فقط. ونظرا لأن أدوار الموارد في Dataverse لا تكون خاصة بالشركة، يقوم النظام تلقائيًا بإنشاء سجلات أدوار موارد خاصة بالشركة المعنية في تطبيقات Finance and Operations تلقائيًا لجميع الكيانات القانونية المضمنة في نطاق تكامل الكتابة المزدوجة.
 
-![تكامل أدوار الموارد](./media/5Resources.jpg)
+![تكامل أدوار الموارد.](./media/5Resources.jpg)
 
 يتم الاحتفاظ بموارد المشروع في Project Operations في Dataverse ولا تتم مزامنتها مع تطبيقات Finance and Operations.
 
@@ -75,6 +75,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 يتم الاحتفاظ بفئات المعاملات في Dataverse وتتم مزامنتها مع تطبيقات Finance and Operations باستخدام مخطط الجدول **فئات معاملات المشروع (msdyn\_transactioncategories)**. بعد مزامنة سجل فئة المعاملة، يقوم النظام تلقائيًا بإنشاء أربعة سجلات فئات مشتركة. يتطابق كل سجل مع نوع معاملة في تطبيقات Finance and Operations ويربطها بسجل فئة المعاملة.
 
-![تكامل فئات المعاملات](./media/4TransactionCategories.jpg)
+![تكامل فئات المعاملات.](./media/4TransactionCategories.jpg)
 
 ويتطلب استخدام فئات المعاملات للتقديرات والأرقام الفعلية وجود محاسب مشروع أو مسؤول نظام لإنشاء فئات مشروع مقابلة في كل كيان قانوني. لمزيد من المعلومات، راجع [تكوين فئات المشروع](../project-accounting/configure-project-categories.md).

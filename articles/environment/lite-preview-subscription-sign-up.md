@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334766"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991515"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>التسجيل في اشتراك معاينة - خفيف 
 
@@ -52,16 +52,16 @@ ms.locfileid: "6334766"
 
 1. يمكنك توفير بيئة نشر Project Operations Dataverse جديدة باتباع الإرشادات في الموضوع،  [ نموذج نشر Dataverse ](lite-deployment.md). عند تحديد نوع البيئة، تأكد من استخدام **الإصدار التجريبي (مستند إلى اشتراك)**.
 
-  ![بيئة جديدة](./media/19CreateEnvironment.png)
+  ![بيئة جديدة.](./media/19CreateEnvironment.png)
 
 2. حدد الإعداد **تمكين تطبيقات Dynamics 365**، واترك الخيار **نشر هذه التطبيقات تلقائيًا** فارغًا.  
 3. حدد **حفظ** لإنشاء البيئة.
 
-  ![إضافة قاعدة بيانات](./media/20CreateEnvironment1.png)
+  ![إضافة قاعدة بيانات.](./media/20CreateEnvironment1.png)
 
 4. بعد إنشاء البيئة، ثبّت حل **Microsoft Dynamics 365 Project Operations**. 
 
-![تثبيت الحل](./media/21InstallSolution.png)
+![تثبيت الحل.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>تثبيت تكوين CDS وإعداد بيانات العرض التوضيحي
 

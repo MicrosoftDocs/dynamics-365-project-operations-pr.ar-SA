@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 982f64677b74f2195eacc287fc07b80c34f7acc0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e120f8c5a3d2dfaeb577652afcc1feac4cdc9e22f2f274e94bb674ea3fa52fed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015315"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988725"
 ---
 # <a name="define-skills-and-proficiencies"></a>تحديد المهارات والكفاءات
 
@@ -32,7 +32,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>استخدام نماذج الكفاءة لتصنيف الموارد
 
-يتم تصنيف مهارات الموارد بواسطة نماذج كفاءة. توجد التصنيفات الفردية في نموذج الكفاءة. 
+يتم تصنيف مهارات الموارد حسب نماذج الكفاءة. توجد التصنيفات الفردية في نموذج الكفاءة. 
 
 1. لإنشاء نموذج كفاءة، انتقل إلى **الموارد**\>**نماذج الكفاءة**، ثم حدد **جديد**.
 2. في نموذج التصنيف الجديد، حدد الحد الأدنى لقيمة التصنيف والقيمة القصوى للتصنيف والكيان الذي يتم تصنيفه.

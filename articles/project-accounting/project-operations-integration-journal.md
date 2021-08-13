@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304240"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987915"
 ---
 # <a name="integration-journal-in-project-operations"></a>دفتر يومية التكامل في Project Operations
 
@@ -19,7 +19,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 تقوم إدخالات الوقت والمصروفات بإنشاء حركات **قيم فعلية** تمثل طريقة عرض جاهزة للعمل المنجز مقابل المشروع. يوفر Dynamics 365 Project Operations للمحاسبين أداة لمراجعة الحركات وضبط سمات المحاسبة حسب الحاجة. بعد اكتمال المراجعة والتعديلات، يتم ترحيل الحركات إلى دفتر الأستاذ الفرعي ودفتر الأستاذ العام للمشروع. بإمكان المحاسب تنفيذ هذه الأنشطة باستخدام دفتر يومية **تكامل Project Operations** في **Dynamics 365 Finance** > **إدارة المشاريع والمحاسبة** > **دفاتر اليومية** >  دفتر يومية **تكامل Project Operations**.
 
-![سير مهام دفتر يومية التكامل](./media/IntegrationJournal.png)
+![سير مهام دفتر يومية التكامل.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>إنشاء سجلات في دفتر يومية التكامل في Project Operations
 

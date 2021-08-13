@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995470"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988545"
 ---
 # <a name="provision-a-new-environment"></a>تزويد بيئة جديدة
 
@@ -52,12 +52,12 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 6. حدد نوع البيئة لعملية التوزيع الخاصة بك. سيتيح لك الإصدار التجريبي الذي يستند إلى الاشتراك نشر بيئة CDS لمدة 30 يومًا. 
 
-![إعدادات النشر](./media/1DeploymentSettings.png)
+![إعدادات النشر.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > حدد **موافقة** للإقرار بشروط الخدمة ثم حدد **تم** للرجوع إلى إعدادات التوزيع.
 
-![الموافقة على التوزيع](./media/2DeploymentConsent.png)
+![الموافقة على التوزيع.](./media/2DeploymentConsent.png)
 
 7. اختياري - تطبيق بيانات تجريبية على البيئة. انتقل إلى **إعدادات متقدمة**، وحدد **تخصيص تكوين قاعدة بيانات SQL**، ثم قم بتعيين **تحديد مجموعة البيانات لقاعدة بيانات التطبيق** إلى **عرض توضيحي**.
 
@@ -67,7 +67,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 9. لتأكيد نشر البيئة بنجاح، قم بتحديد **تسجيل الدخول** سجل الدخول إلى البيئة للتأكيد.
 
-![تفاصيل بيئة ](./media/3EnvironmentDetails.png)
+![تفاصيل البيئة.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>تطبيق التحديثات على بيئة Finance
 
@@ -77,19 +77,19 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 1. في LCS، في صفحة **تفاصيل البيئة**، في قسم **التحديثات المتوفرة**، حدد **عرض التحديث**.
 
-![عرض التحديثات](./media/5ViewUpdates.png)
+![عرض التحديثات.](./media/5ViewUpdates.png)
 
 2. في صفحة **التحديثات الثنائية**، حدد **حفظ الحزمة.**
 
-![حفظ الحزمة](./media/6SavePackage.png)
+![حفظ الحزمة.](./media/6SavePackage.png)
 
 3. انقر فوق **تحديد الكل** ثم حدد **حفظ الحزمة**.
 
-![مراجعة التحديثات وحفظها](./media/7ReviewAndSaveUpdates.png)
+![مراجعة التحديثات وحفظها.](./media/7ReviewAndSaveUpdates.png)
 
 4. أدخل اسمًا ووصفًا للحزمة، ثم حدد **حفظ**. تبعًا لاتصال الإنترنت، قد تستغرق هذه العملية بعض الوقت.
 
-![تحميل الحزمة إلى مكتبة الأصول](./media/8UploadPackageToAssetsLibrary.png)
+![تحميل الحزمة إلى مكتبة الأصول.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. بعد حفظ الحزمة، حدد **تم** وقم بحفظ هذه الحزمة في مكتبة الأصول في مشروع LCS الخاص بك.
 
@@ -97,15 +97,15 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 6. لتطبيق التحديث، انتقل إلى صفحة **تفاصيل البيئة** في LCS وحدد **الصيانة** > **تطبيق التحديثات**.
 
-![صيانة البيئات](./media/9MaintainEnvironment.png)
+![صيانة البيئات.](./media/9MaintainEnvironment.png)
 
 7. في قائمة التحديثات، قم بتحديد الحزمة التي قمت بإنشائها، وقم بتحديد **تطبيق**.
 
-![تطبيق التحديثات](./media/10ApplyUpdates.png)
+![تطبيق التحديثات.](./media/10ApplyUpdates.png)
 
 ستستغرق عملية "صيانة البيئة" بعض الوقت. بعد انتهائها، ستعود البيئة إلى حالة تم نشرها.
 
-![البيئة المنشورة](./media/11EnvironmentDeployed.png)
+![البيئة المنشورة.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>إنشاء اتصال كتابة مزدوج 
 
@@ -113,41 +113,41 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 2. تحت **Common Data Service معلومات البيئة**، حدد **ربط بـ CDS للتطبيقات**.
 3. بعد اكتمال الارتباط، حدد **ربط بـ CDS للتطبيقات‏‎** مرة أخرى. ستتم إعادة توجيهك إلى الكتابة المزدوجة في Finance.
 
-![ربط بـ CDS](./media/12LinktoCDS.png)
+![ربط بـ CDS.](./media/12LinktoCDS.png)
 
 4. حدد **تطبيق الحل** للوصول إلى الكيانات التي سيتم تعيينها في التكامل.
 
-![تطبيق الحلول](./media/13ApplySolutions.png)
+![تطبيق الحلول.](./media/13ApplySolutions.png)
 
 5. حدد الحلين، **Dynamics 365 Finance and Operations خريطة كيان‬ الكتابة المزدوجة‬** و **Dynamics 365 Project Operations خرائط كيان‬ الكتابة المزدوجة‬**، ثم حدد **تطبيق**.
 
-![تأكيد الحلول](./media/14ConfirmSolutions.png)
+![تأكيد الحلول.](./media/14ConfirmSolutions.png)
 
 بعد تطبيق الحلول، يتم تطبيق كيانات الكتابة المزدوجة على البيئة.
 
-![تطبيق الحلول](./media/15ApplyingSolutions.png)
+![تطبيق الحلول.](./media/15ApplyingSolutions.png)
 
 بعد تطبيق الكيانات، يتم سرد كافة التعيينات المتوفرة في البيئة.
 
-![خرائط الكتابة المزدوجة](./media/15DWMappings.png)
+![خرائط الكتابة المزدوجة.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>تحديث كيانات البيانات بعد التحديث
 
 1. في Finance، انتقل إلى مساحة عمل **إدارة البيانات**.
 
-![مساحة عمل إدارة البيانات](./media/16DataManagement.png)
+![مساحة عمل إدارة البيانات.](./media/16DataManagement.png)
 
 2. حدد تجانب **معلمات إطار العمل**.
 
-![معلمات إطار العمل](./media/17FrameworkParameters.png)
+![معلمات إطار العمل.](./media/17FrameworkParameters.png)
 
 3. في صفحة **إعدادات الكيان**، حدد **تحديث قائمة الكيانات**.
 
-![تحديث قائمة الكيانات](./media/18RefreshEntityList.png)
+![تحديث قائمة الكيانات.](./media/18RefreshEntityList.png)
 
 سيستغرق التحديث مدة 20 دقيقة تقريبًا. وستتلقى تحذيرًا عند اكتماله.
 
-![تأكيد التحديث](./media/19RefreshConfirmation.png)
+![تأكيد التحديث.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>تحديث إعدادات الأمان على Project Operations في Dataverse
 
@@ -188,17 +188,17 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 4. لتحديث الكيان، حدد اسم الخريطة، ثم حدد **تحديث الكيانات**. 
 
 
-![تحديث الخريطة‬](./media/20RefreshMapping.png)
+![تحديث الخريطة‬.](./media/20RefreshMapping.png)
 
 5. شغّل الخريطة بعد اكتمال التحديث. قبل تمكين الخريطة التالية، تحقق من أن الخريطة الموجودة في الجدول بالحالة **تشغيل**. قد يستغرق تشغيل الخرائط بعدد كبير من المتطلبات المسبقة بعض الوقت.
 
 لتشغيل خريطة بالمتطلبات المسبقة، قم بتمكين تبديل **إظهار خرائط الكيانات المرتبطة**. إذا كان الجدول يشير إلى أن **المزامنة الأولية للمتطلبات الأساسية** بالقيمة **لا**، فتحقق من أن علامة **المزامنة الأولية** قيد **الإيقاف** في كافة خرائط المتطلبات الأساسية قبل تشغيلها.
 
-![تشغيل الخريطة](./media/21RunMap.png)
+![تشغيل الخريطة.](./media/21RunMap.png)
 
 6. تحقق من صحة كافة الخرائط ذات الصلة بالمشروع وأنها بالحالة تشغيل.
 
-![كل الخرائط قيد التشغيل](./media/22AllMapsRunning.png)
+![كل الخرائط قيد التشغيل.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>تطبيق بيانات التكوين في CDS لـ Project Operations (اختياري)

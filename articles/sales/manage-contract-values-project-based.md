@@ -6,19 +6,19 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2072692296308a08756ec3e0f381c792745dd3e2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011490"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990030"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>العمل مع شروط التعاقد القائمة على المشروع
 
-تم تصميم شروط التعاقد القائمة على المشروع في Dynamics 365 Project Operations لاحتواء اتفاقيات التقديرات والفوترة لمكونات معينة من عمل المشروع على التزام معين. يتم توسيع بنية شروط التعاقد القائمة على المشروع لتقديرات المشروع وسيناريوهات الفوترة بواسطة المفاهيم التالية:
+تم تصميم شروط التعاقد القائمة على المشروع في Dynamics 365 Project Operations لاحتواء اتفاقيات التقديرات والفوترة لمكونات معينة من عمل المشروع على التزام معين. يتم تمديد البنية الخاصة بشروط التعاقد المستندة إلى المشروع لتقديرات المشاريع وسيناريوهات الفوترة ذات المفاهيم الآتية:
 
 - أسلوب الفوترة
-- تعيين المشروع والمهمة
+- تعيين المشاريع والمهام
 - فئات الحركات المضمنة
 - حد يجب عدم تجاوزه
 - إعداد الخضوع للرسوم
