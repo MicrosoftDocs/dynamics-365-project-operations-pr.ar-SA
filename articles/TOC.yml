@@ -4,6 +4,8 @@
   items:
     - name: تحديد نوع النشر
       href: environment/determine-deployment-type.md
+    - name: الاشتراك في الإصدارات التجريبية من Project Operations
+      href: environment/admin-trials.md
     - name: تحديثات Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
@@ -52,8 +54,10 @@
               href: environment/resource-dual-write-expense.md
             - name: تكامل فاتورة المورّد
               href: environment/resource-dual-write-vendor-invoice.md
-    - name: الجديد‬
+    - name: الجديد
       items:
+        - name: أغسطس 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: يوليو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: يونيو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
@@ -418,6 +422,8 @@
       items:
         - name: نظرة عامة على الموافقات
           href: approvals/approvals-overview.md
+        - name: مجموعات الموافقة
+          href: approvals/approval-sets.md
         - name: ملاحظات المطورين
           items:
             - name: ملاحظات المطورين للموافقات
@@ -518,8 +524,12 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: نموذج الأمان
           href: environment/security-model.md
-    - name: الجديد‬
+    - name: الجديد
       items:
+        - name: الجديد في الوصول المبكر للموجة 2 من إصدار 2021 - النشر الخفيف
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: الجديد في أغسطس 2021 - النشر الخفيف
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: الجديد في يوليو 2021 - النشر الخفيف
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: الجديد في يونيو 2021 - النشر الخفيف
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: إدارة العقود الفرعية في Project Operations
       items:
-        - name: نظرة عامة على التعاقدات من الباطن
+        - name: إدارة العقود الفرعية في Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: التعاقد من الباطن في إصدار الوصول المبكر أكتوبر 2021
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: ‏‫المفاهيم الأساسية في التعاقد من الباطن
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: إدارة الموردين وقوائم أسعار المشروع
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: ‏‫المقاولون من الباطن كموارد قابلة للحجز
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: تفاصيل الرأس للعقود من الباطن
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: بنود التعاقد من الباطن للوقت
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: بنود التعاقد من الباطن للمصروفات
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: بنود التعاقد من الباطن للمنتجات
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: موارد التعاقد من الباطن
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: الأحداث الرئيسية لشروط التعاقد من الباطن
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: الوقت
       items:
         - name: نظرة عامة على الوقت
@@ -868,6 +892,8 @@
       items:
         - name: نظرة عامة على الموافقات
           href: approvals/approvals-overview.md
+        - name: مجموعات الموافقة
+          href: approvals/approval-sets.md
         - name: ملاحظات المطورين
           items:
             - name: ملاحظات المطورين للموافقات
@@ -1060,6 +1086,8 @@
       items:
         - name: جدول إصدار التحديثات لـ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: الجديد أو المتغير في إصدار التحديث 35، V3
+          href: psa/whats-new-ur-35.md
         - name: الجديد أو المتغير في إصدار التحديث 34، V3
           href: psa/whats-new-ur-34.md
         - name: الجديد أو المتغير في إصدار التحديث 33، V3
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: تخصيص إدخال الوقت الأسبوعي
               href: psa/time-entry-extensibility-v3.md
-            - name: مجموعات الموافقة
+            - name: مجموعات الموافقة في Project Service Automation
               href: psa/approval-set.md
     - name: الأسئلة المتداولة واستكشاف الأخطاء وإصلاحها (3.x)
       items:
