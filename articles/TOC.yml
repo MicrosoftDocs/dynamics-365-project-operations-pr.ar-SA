@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: الجديد
       items:
+        - name: أكتوبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: سبتمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: أغسطس 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: يوليو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
@@ -292,7 +296,7 @@
           items:
             - name: تطوير قوالب المشروع مع نسخ المشروع‬
               href: project-management/dev-copy-project.md
-            - name: استخدام واجهات برمجة تطبيقات (API) جدولة المشروع (إصدار أولي للاستخدام العام)
+            - name: استخدام واجهات API لجدولة المشروع
               href: project-management/schedule-api-preview.md
     - name: إدارة الموارد
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: شراء مواد غير مخزنة للمشاريع باستخدام فواتير المورد المعلقة
           href: procurement/pending-vendor-invoices.md
+        - name: طلب مواد غير مخزنة للمشاريع باستخدام أوامر شراء المشروع
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: الاحتفاظ بالموردين
+          items:
+            - name: نظرة عامة على الاحتفاظ بالموردين
+              href: procurement/vendor-retention-overview.md
+            - name: إعداد الاحتفاظ بالموردين
+              href: procurement/set-up-vendor-retention.md
     - name: الفوترة
       items:
         - name: نظرة عامة على عملية الفوترة
@@ -528,6 +540,10 @@
       items:
         - name: الجديد في الوصول المبكر للموجة 2 من إصدار 2021 - النشر الخفيف
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: الجديد في أكتوبر 2021 - النشر الخفيف
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: الجديد في سبتمبر 2021 - النشر الخفيف
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: الجديد في أغسطس 2021 - النشر الخفيف
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: الجديد في يوليو 2021 - النشر الخفيف
@@ -784,7 +800,7 @@
           items:
             - name: تطوير قوالب المشروع مع نسخ المشروع‬
               href: project-management/dev-copy-project.md
-            - name: استخدام واجهات برمجة تطبيقات (API) جدولة المشروع (إصدار أولي للاستخدام العام)
+            - name: استخدام واجهات API لجدولة المشروع
               href: project-management/schedule-api-preview.md
     - name: إدارة الموارد
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: بنود التعاقد من الباطن للوقت
           href: pro/subcontracting/subcontract-line-time.md
-        - name: بنود التعاقد من الباطن للمصروفات
+        - name: بنود التعاقد من الباطن لفئات المصروفات
           href: pro/subcontracting/subcontract-line-expense.md
         - name: بنود التعاقد من الباطن للمنتجات
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: جدول إصدار التحديثات لـ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: الجديد أو المتغير في إصدار التحديث 36، V3
+          href: psa/whats-new-ur-36.md
         - name: الجديد أو المتغير في إصدار التحديث 35، V3
           href: psa/whats-new-ur-35.md
         - name: الجديد أو المتغير في إصدار التحديث 34، V3
