@@ -2,16 +2,16 @@
 title: تسجيل الدخول للإصدارات التجريبية من Project Operations
 description: يقدم هذا الموضوع معلومات عن كيفية توزيع Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418441"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599197"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>تسجيل الدخول للإصدارات التجريبية من Project Operations 
 
@@ -85,15 +85,9 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
    وبعد أن يبدأ التزويد، يتم توجيهك إلى قائمة البيئة في مركز الإدارة Power Platform. أثناء عملية التزويد، تكون حالة البيئة الخاصة بك **PreparingInstance**.
  
-  بعد اكتمال عملية تزويد، تكون حالة البيئة الخاصة بك **جاهزة**.
+  عند اكتمال التوفير، تكون حالة بيئتك **جاهزة**. يشمل توفير البيئة نشر البيانات التجريبية.
  
-4.  وعند اكتمال التزويد، حدد عنوان URL Microsoft Dataverse ذا الصلة، وعناوين URL لتطبيقات Finance and Operations للتحقق من التوزيع.
-
-## <a name="demo-data-installation"></a>تثبيت بيانات العرض التوضيحي
-
-استخدم الارتباطات التالية للوصول إلى حزم بيانات العرض التوضيحي لكل من المواد غير المخزنة وسيناريوهات التوزيع الخفيف. 
-- [بيانات العرض التوضيحي للمواد غير المخزنة](resource-apply-pro-setup-config-data.md)
-- [بيانات العرض التوضيحي الخفيف](lite-apply-demo-setup-config-data.md)
+4.  حدد عنوان URL الخاص بـ Microsoft Dataverse وعناوين URL لتطبيقات Finance and Operations للتحقق من صحة النشر.
 
 ## <a name="configuring-dual-write"></a>تكوين الكتابة المزدوجة
 بالنسبة لتوزيعات المواد غير المخزنة فقط، قم بتكوين تعيينات الكتابة المزدوجة. لمزيد من المعلومات، راجع [إصدارات مخططات الكتابة المزدوجة لـ Project Operations](resource-dual-write-maps.md).
