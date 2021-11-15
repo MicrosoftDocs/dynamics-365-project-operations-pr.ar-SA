@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: تكامل فاتورة المورّد
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: إزالة تثبيت Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: الجديد
       items:
         - name: أكتوبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: استخدام واجهات API لجدولة المشروع
               href: project-management/schedule-api-preview.md
+            - name: أداء واجهة API لجدولة المشروع
+              href: project-management/project-schedule-api-performance.md
     - name: إدارة الموارد
       items:
         - name: المفاهيم الأساسية
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: استخدام واجهات API لجدولة المشروع
               href: project-management/schedule-api-preview.md
+            - name: أداء واجهة API لجدولة المشروع
+              href: project-management/project-schedule-api-performance.md
     - name: إدارة الموارد
       items:
         - name: المفاهيم الأساسية
@@ -1102,6 +1108,8 @@
       items:
         - name: جدول إصدار التحديثات لـ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: الجديد أو المتغير في إصدار التحديث 37، V3
+          href: psa/whats-new-ur-37.md
         - name: الجديد أو المتغير في إصدار التحديث 36، V3
           href: psa/whats-new-ur-36.md
         - name: الجديد أو المتغير في إصدار التحديث 35، V3
