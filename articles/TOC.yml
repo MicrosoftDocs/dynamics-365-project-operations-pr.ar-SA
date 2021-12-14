@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: الجديد
       items:
+        - name: نوفمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: أكتوبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: سبتمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: أداء واجهة API لجدولة المشروع
               href: project-management/project-schedule-api-performance.md
+            - name: سجلات جدولة المشروع
+              href: project-management/schedule-api-logs.md
     - name: إدارة الموارد
       items:
         - name: المفاهيم الأساسية
@@ -544,6 +548,8 @@
       items:
         - name: الجديد في الوصول المبكر للموجة 2 من إصدار 2021 - النشر الخفيف
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: الجديد في نوفمبر 2021 - النشر الخفيف
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: الجديد في أكتوبر 2021 - النشر الخفيف
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: الجديد في سبتمبر 2021 - النشر الخفيف
@@ -950,8 +956,12 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
   items:
-    - name: الجديد‬
+    - name: الجديد
       items:
+        - name: الجديد في أكتوبر 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: الجديد في سبتمبر 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: الجديد في يوليو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: الجديد في مايو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
@@ -1108,6 +1118,8 @@
       items:
         - name: جدول إصدار التحديثات لـ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: الجديد أو المتغير في إصدار التحديث 37.5، V3
+          href: psa/whats-new-ur-37-5.md
         - name: الجديد أو المتغير في إصدار التحديث 37، V3
           href: psa/whats-new-ur-37.md
         - name: الجديد أو المتغير في إصدار التحديث 36، V3
