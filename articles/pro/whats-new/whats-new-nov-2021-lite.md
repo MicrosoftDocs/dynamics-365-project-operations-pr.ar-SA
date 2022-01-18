@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e8560e7c7d6bae1bb2fda389a63bde1c57654bcb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: 0fd910fb1b1e4e4576afa386a600e56e6f2dd504
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827265"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942915"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>الجديد في نوفمبر 2021 - التوزيع الخفيف لـ Project Operations
 
@@ -20,7 +20,7 @@ _ينطبق على: النشر الخفيف – من الصفقة إلى الف�
 
 ينطبق هذا الموضوع على المكونات والإصدارات التالية من Microsoft Dynamics 365 Project Operations:
 
-- Project Operations في إصدار بيئة Dataverse ‏4.26.0.145 أو 4.26.0.148 أو 4.26.0.150
+- Project Operations في إصدار بيئة Dataverse ‏4.26.0.145 أو 4.26.0.150 أو 4.26.0.155
   
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 

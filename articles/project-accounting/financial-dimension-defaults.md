@@ -2,16 +2,16 @@
 title: افتراضيات الأبعاد المالية
 description: يقدم هذا الموضوع معلومات حول كيفية إعداد الإعدادات الافتراضية للأبعاد المالية.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005420"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922922"
 ---
 # <a name="financial-dimension-defaults"></a>افتراضيات الأبعاد المالية
 
@@ -60,6 +60,15 @@ Dynamics 365 Project Operations يستخدم إطار [الأبعاد المال
 4. قم بتعيين افتراضيات الأبعاد المالية. لاحظ أن الأبعاد المالية تتخلف عن حساب العميل. إذا كان المشروع مرتبطاً ببند عقد يحتوي على عملاء عقود مشاريع متعددين، فسيتم استخدام العميل الأساسي للتخلف عن الأبعاد المالية.
 
 يتم استخدام الأبعاد المالية الافتراضية للمشروع لتعيين الإعدادات الافتراضية لبند دفتر الأستاذ لحركات الوقت والمصروفات والرسوم في **دفتر يومية تكامل Project Operations** في بنود فاتورة المشروع ذات الصلة.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>تطبيق الأبعاد المالية لإدخالات وقت المشروع
+لتطبيق الأبعاد المالية لإدخالات وقت المشروع، لاحظ أن قيمة البُعد الافتراضي تستند إلى الترتيب التالي:
+
+1. مورد
+2. Project
+3. مصدر التمويل
+
+على سبيل المثال، إذا تم تحديد البُعد الافتراضي على مورد، فسيتم تطبيقه على إعداد افتراضي محدد في المشروع. بطريقة مماثلة، سيتم تطبيق بُعد المشروع الافتراضي على الإعداد الافتراضي المحدد في مصدر التمويل.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
