@@ -2,16 +2,18 @@
 title: إعداد اشتراكات معاينة Project Operations لسيناريوهات المورد/المنتجات غير المخزنة
 description: يوفر هذا الموضوع معلومات حول كيفية الاشتراك في Project Operations ونشرها للسيناريوهات المستندة إلى المورد/المنتجات غير المخزنة.
 author: sigitac
-ms.date: 07/02/2021
+manager: Annbe
+ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323400"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948424"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>إعداد اشتراكات معاينة Project Operations لسيناريوهات المورد/المنتجات غير المخزنة
 
@@ -19,30 +21,48 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يوضح هذا الموضوع كيفية الاشتراك في العرض التجريبي ونشر بيئة Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة.
+يشرح هذا الموضوع كيفية الاشتراك في المعاينة/عرض الشريك ونشر بيئة Project Operations للسيناريوهات المستندة إلى مورد/منتجات غير مخزنة.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
-- يجب أن يكون لدي المستخدم الذي ينشر المعاينة حقوق المسؤول العمومي لمستأجر Azure. يمكنك إنشاء مستأجر أثناء عملية استرداد العرض الأول. 
-- يتطلب نشر بيئة Finance وجود اشتراك Azure صالح والذي ستتم فوترته لكل بيئة. يمكنك استخدام الاشتراك الموجود في المؤسسات أو استخدام [الإصدار التجريبي من Azure](https://azure.microsoft.com/free/) لبدء العمل. سيتم توفير بيئة CDS مجانًا لفترة زمنية محددة بمدة 30 يومًا.
+
+- ستتلقى رسالة بريد إلكتروني لدعوتك للمشاركة في المعاينة. يمكنك طلب معاينة من [موقع الويب الخاص بـ Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
+- يجب أن يكون لدي المستخدم الذي ينشر المعاينة حقوق المسؤول العمومي لمستأجر Azure.
+- يتطلب نشر بيئة Finance وجود اشتراك Azure صالح والذي ستتم فوترته لكل بيئة. يمكنك استخدام الاشتراك الموجود في المؤسسات أو استخدام [الإصدار التجريبي من Azure](https://azure.microsoft.com/en-us/free/) لبدء العمل. سيتم توفير بيئة CDS مجانًا لفترة زمنية محددة بمدة 30 يومًا.
+
+## <a name="subscribe"></a>الاشتراك
+
+عند الموافقة على [طلب المعاينة](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u)، ستتلقى عرضين من Microsoft بواسطة البريد الإلكتروني. تسمح لك هذه العروض بنشر معاينة Project Operations:
+
+- Dynamics 365 Project Operations (CRM) - إصدار تجريبي للمعاينة
+- Office 365 Project Operations - إصدار تجريبي للمعاينة
+- Dynamics 365 Finance - الإصدار التجريبي للمعاينة
 
 > [!IMPORTANT]
 > شخص واحد فقط، مسؤول المستأجر، في مؤسسة تحتاج إلى تنفيذ هذه المهمة. إذا لم تكن أنت المشترك في هذا الإصدار، فانتظر حتى يتم تسجيل مؤسستك وتستلم بيانات اعتماد المستخدم الخاصة بك.
-> 
-> تستخدم الإصدارات التجريبية مرة واحدة في المستأجر. يمكنك تشغيل النسخة التجريبية مرة واحدة فقط. من المستحسن إنشاء مستأجر جديد لغرض الإصدار التجريبي.
 
-
-### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations(CE) - معاينة الإصدار التجريبي 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - إصدار تجريبي للمعاينة 
 
 قبل البدء، تأكد من تسجيل الدخول إلى مستعرض باستخدام حساب عمل المستخدم في المستأجر حيث تريد معاينة Project Operations.
 
-1. استرداد رمز العرض الأول، **Dynamics 365 Project Operations**، هنا [الإصدار التجريبي لـ Project Operations](https://aka.ms/try-po).
+1. استرد رمز العرض الأول، **Dynamics 365 Project Operations (CRM) - الإصدار التجريبي للمعاينة** عن طريق لصقه في عنوان URL للمتصفح.
+
+![استرداد العرض](./media/16RedeemFirstOfferNew.png)
+
 2. أكد طلبك.
 
-  سترى أنه تم استرجاع عرض التأكيد بنجاح.
+![تأكيد الأمر](./media/17ConfirmOrderNew.png)
+
+سترى أنه تم استرجاع عرض التأكيد بنجاح.
+
+![تأكيد](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - إصدار تجريبي للمعاينة
+
+كرر الخطوات نفسها التي تم تنفيذها لكود العرض الأول. تأكد من إضافة كود العرض الثاني باستخدام حساب المستخدم نفسه الذي تم استخدامه مع كود العرض الأول.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>إصدار تجريبي لمعاينة Dynamics 365 Finance
 
-انتقل إلى [الإصدار التجريبي من Dynamics 365 for Finance Preview](https://aka.ms/trypoche) وكرر الخطوات من القسم السابق مع العرض، قم بالتسجيل في البيئة المستضافة على السحابة.  
+كرر نفس الخطوات مع العرض الأخير من البريد الإلكتروني الترحيبي.
 
 ## <a name="assign-licenses"></a>تعيين التراخيص
 
@@ -51,9 +71,13 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 1. انتقل إلى [مركز إدارة](https://portal.office.com/) لتعيين التراخيص إلى المستخدمين.
 
+![الصفحة الرئيسية لمركز الإدارة](./media/14AdminPortal.png)
+
 2. في صفحة **المستخدمين النشطين**، حدد المستخدمين الذين ترغب في تعيين ترخيص لهم.
 
-3. تحقق من أنه تم تحديد ترخيص **Dynamics 365 Project Operations** وحدد **حفظ التغييرات**.
+![تعيين التراخيص](./media/15AssignLicenses.png)
+
+3. تحقق من تحديد ترخيص **معاينة Dynamics 365 Project Operations (CRM)** و **Office 365 Project Operations - معاينة** وحدد **حفظ التغييرات**.
 
 > [!NOTE]
 > لا يلزم تعيين مستخدم إلى عرض الإصدار التجريبي من Finance.
@@ -73,7 +97,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ## <a name="install-cds-setup-and-configuration-data"></a>تثبيت إعداد CDS وبيانات التكوين
 
 قم بتثبيت إعداد CDS وبيانات التكوين كما هو موضح في الموضوع، [إعداد بيانات التكوين وتطبيقها في Common Data Service](resource-apply-pro-setup-config-data.md).
-أكمل هذه الخطوة فقط بعد نشر بيئة العرض التوضيحي لـ Finance وسوف تكون بيانات العرض التوضيحي جاهزة.
+أكمل هذه الخطوة فقط بعد نشر بيئة العرض التوضيحي لتطبيق Finance وبعد أن تصبح بيانات العرض التوضيحي في FO جاهزة.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

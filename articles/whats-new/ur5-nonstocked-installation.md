@@ -2,17 +2,19 @@
 title: تحديث Project Operations في بيئة Finance
 description: يقدم هذا الموضوع معلومات حول كيفية تحديث Project Operations في بيئة Dynamics 365 Finance الخاصة بك.
 author: ruhercul
+manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
+ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986745"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816609"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>تحديث Project Operations في بيئة Finance
 
@@ -33,9 +35,9 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 4. تحقق من تشغيل البيئة. إذا لم يتم بدء تشغيل البيئة فابدأ تشغيلها.
 5. في قسم **الإصدار الجديد** أسفل **التحديثات المتوفرة**، قم بتحديد **عرض التحديث** لـ 10.0.15.
 
-![زر عرض التحديث.](media/view-update.png)
+![زر عرض التحديث](media/view-update.png)
 
-6. في صفحة **التحديثات الثنائية** حدد **حفظ الحزمة**.
+6. في صفحة **التحديثات الثنائية**، حدد **حفظ الحزمة**.
 7. في صفحة **المراجعة وحفظ التغييرات**، حدد **حفظ الحزمة**.
 8. في جزء **حفظ الحزمة إلى مكتبة الأصول** الذي يتم فتحه، أدخل اسم الحزمة ثم حدد **حفظ الحزمة**.
 9. وعند انتهاء LCS من حفظ الحزمة، يتم تمكين الزر **تم**. حدد **تم**. سيتحقق LCS من الحزمة. قد يستغرق التحقق دقائق قليلة أو حتى ساعة واحدة.
@@ -47,11 +49,11 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 2. من القائمة، حدد الحزمة التي قمت بحفظها قبل ذلك، ثم حدد **تطبيق**.
 3. حدد **نعم** لتأكيد أنك تريد نشر الحزمة.
 
-![مربع حوار تأكيد نشر الحزمة.](media/confirm-package-deployment.png)
+![مربع حوار تأكيد نشر الحزمة](media/confirm-package-deployment.png)
 
 4. حدد **نعم** لتأكيد أنك تريد تحديث التطبيق.
 
-![مربع حوار تأكيد تحديث التطبيق.](media/confirm-application-update.png)
+![مربع حوار تأكيد تحديث التطبيق](media/confirm-application-update.png)
 
 سيتم بدء النشر وتحديث التطبيق. 
 
@@ -84,7 +86,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 1. في بيئة Dataverse الخاصة بك، انتقل إلى **الإعدادات**، وفي مجموعة **النظام**، حدد **الأمان**.
 
-![إعدادات بيئة Dataverse.](media/Picture21.png)
+![إعدادات بيئة Dataverse](media/Picture21.png)
 
 2. حدد **أدوار الأمان**.
 3. من قائمة الأدوار، حدد **مستخدم تطبيق الكتابة المزدوجة** وحدد علامة التبويب **الكيانات المخصصة**. 
@@ -121,8 +123,5 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 6. من قائمة الخرائط، حدد خريطة **دفتر الأستاذ (msdyn_ledgers)** مع كافة المتطلبات وحدد خانة الاختيار **المزامنة الأولية**. 
 7. في حقل **أصل المزامنة الأولية‬**، قم بتحديد **تطبيقات Finance and Operations** ثم قم بتحديد **تشغيل**.
  
- ![مزامنة خريطة دفتر الأستاذ.](media/DW6.png)
+ ![مزامنة خريطة دفتر الأستاذ](media/DW6.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

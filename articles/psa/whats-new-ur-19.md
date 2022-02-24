@@ -2,6 +2,8 @@
 title: الجديد أو المتغير في الإصدار 3 من Project Service Automation، إصدار التحديث 19
 description: يسرد هذا الموضوع الميزات والإصلاحات المتوفرة في الإصدار 3 من Project Service Automation، إصدار التحديث 19.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ad61589125e42e8dceb462290f65ddc05e171bd828d26d34ebd548ca285e9aa4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8a73a6acd4ce4c9559cdf4591ede735a613f4d52
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993630"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143588"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>الإصدار 3 من Project Service Automation، إصدار التحديث 19
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365. يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام. هذا الإصدار متوافق مع Dynamics 365 9.x. للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث. لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](/power-platform/admin/install-remove-preferred-solution).
+يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365. يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام. هذا الإصدار متوافق مع Dynamics 365 9.x. للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث. لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 يسرد هذا الموضوع الميزات والإصلاحات الجديدة أو التي تم تغييرها في PSA V3، إصدار التحديث 19. لدى هذا الإصدار رقم البنية V3.10.30.41 وهو متوفر بشكل عام من خلال تحديث ذاتي في شهر مايو 2020.
 
@@ -64,6 +66,3 @@ ms.locfileid: "6993630"
 - قد يواجه العملاء انخفاضًا في مستوى الأداء عند إنشاء مشروع لأن **GetBookableResourceIdFromUser** يسترد جميع أعمدة الموارد القابلة للحجز بدلاً من المعرف الأساسي‬ فقط.
 - يفتقد الكيان **TransactionType** المكون الإضافي لتحديث التحقق المسبق من الصحة‬ لمنع المستخدمين من إدخال **الوحدات** و **مجموعات الوحدات‏‎** غير الصالحة لنوع العملية.
 - لا تعمل خطوة **الإزالة** لاستيراد إدخال الوقت.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

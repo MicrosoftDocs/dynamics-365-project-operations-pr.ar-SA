@@ -2,9 +2,11 @@
 title: مزامنة عقود المشروع و المشروعات مباشرة من Project Service Automation إلى Finance
 description: يصف هذا الموضوع القالب والمهام الأساسية المستخدمة لمزامنة عقود المشاريع والمشاريع مباشرة من Microsoft Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001055"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764803"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>مزامنة عقود المشروع و المشروعات مباشرة من Project Service Automation إلى Finance 
 
@@ -42,7 +44,7 @@ ms.locfileid: "7001055"
 
 يوضح الرسم التوضيحي التالي كيفية مزامنة البيانات بين Project Service Automation وFinance.
 
-[![تدفق البيانات لتكامل Project Service Automation مع Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![تدفق البيانات لتكامل Project Service Automation مع Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>القوالب والمهام
 
@@ -107,8 +109,8 @@ ms.locfileid: "7001055"
 ## <a name="prerequisites-and-mapping-setup"></a>إعداد المتطلبات المسبقة والتعيين
 
 - قبل أن تتم مزامنة عقود المشاريع والمشاريع ، يجب عليك مزامنة الحسابات.
-- في مجموعة الاتصال الخاصة بك ، أضف تعيين حقل مفتاح تكامل لـ **msdyn\_organizationalunits** إلى **msdyn\_name \[Name\]**. قد تحتاج أولا إلى أضافه مشروع إلى مجموعه الاتصال. لمزيد من المعلومات، راجع [دمج البيانات في Common Data Service للتطبيقات](/powerapps/administrator/data-integrator).
-- في مجموعة الاتصال الخاصة بك ، أضف تعيين حقل مفتاح تكامل لـ **msdyn\_المشاريع** إلى **msdynce\_projectnumber \[رقم المشروع\]**. قد تحتاج أولا إلى أضافه مشروع إلى مجموعه الاتصال. لمزيد من المعلومات، راجع [دمج البيانات في Common Data Service للتطبيقات](/powerapps/administrator/data-integrator).
+- في مجموعة الاتصال الخاصة بك ، أضف تعيين حقل مفتاح تكامل لـ **msdyn\_organizationalunits** إلى **msdyn\_name \[Name\]**. قد تحتاج أولا إلى أضافه مشروع إلى مجموعه الاتصال. لمزيد من المعلومات، راجع [دمج البيانات في Common Data Service للتطبيقات](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- في مجموعة الاتصال الخاصة بك ، أضف تعيين حقل مفتاح تكامل لـ **msdyn\_المشاريع** إلى **msdynce\_projectnumber \[رقم المشروع\]**. قد تحتاج أولا إلى أضافه مشروع إلى مجموعه الاتصال. لمزيد من المعلومات، راجع [دمج البيانات في Common Data Service للتطبيقات](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** لعقود المشروع والمشاريع يمكن تحديثها بقيمة مختلفة أو إزالتها من التعيين. قيمة القالب الافتراضية هي **Project Service Automation**.
 - يجب تحديث تعيين **PaymentTerms** بحيث يعكس شروط الدفع الصالحة في التمويل. يمكنك أيضا أزاله التعيين من مهمة المشروع. تعيين القيمة الافتراضية له القيم الافتراضية لبيانات العرض التوضيحي. يوضح الجدول التالي القيم الموجودة في التنفيذ التلقائي لخدمه المشروع.
 
@@ -129,7 +131,7 @@ ms.locfileid: "7001055"
 إذا كان يجب عليك استخدام Power Query ، فاتبع الإرشادات التالية:
 
 - يحتوي قالب المشاريع والعقود (PSA إلى Fin and Ops) على عامل تصفية افتراضي يتضمن أوامر مبيعات فقط من نوع **صنف العمل (msdyn\_ordertype = 192350001)**. يساعد عامل التصفية هذا على ضمان عدم إنشاء عقود المشروع لأوامر المبيعات في Finance. إذا قمت بإنشاء القالب الخاص بك ، يجب عليك إضافة عامل التصفية هذا.
-- قم بإنشاء عامل تصفية Power Query يتضمن فقط مؤسسات العقود التي يجب مزامنتها مع الكيان القانوني الخاص بتعيين اتصال التكامل. على سبيل المثال، ينبغي مزامنة عقود المشروع لديك مع الوحدة المؤسسية للعقد الخاصة بـ Contoso US مع الكيان القانوني USSI، ولكن ينبغي مزامنة عقود المشروع لديك مع الوحدة التنظيمية للعقد الخاصة بـ Contoso Global مع الكيان القانوني USMF. إذا لم تقم بإضافة عامل التصفية هذا إلى تعيين المهام الخاص بك ، فستتم مزامنة جميع عقود المشروع مع الكيان القانوني المحدد لمجموعة الاتصال ، بغض النظر عن الوحدة التنظيمية للعقد.
+- قم بإنشاء عامل تصفية Power Query يتضمن فقط مؤسسات العقود التي يجب مزامنتها مع الكيان القانوني الخاص بتعيين اتصال التكامل. على سبيل المثال ، يجب مزامنة عقود المشروع التي أبرمتها مع الوحدة التنظيمية للعقد لشركة Contoso US مع الكيان القانوني USSI ، ولكن يجب مزامنة عقود المشروع التي أبرمتها مع الوحدة التنظيمية للعقد في شركة Contoso Global مع الكيان القانوني USMF. إذا لم تقم بإضافة عامل التصفية هذا إلى تعيين المهام الخاص بك ، فستتم مزامنة جميع عقود المشروع مع الكيان القانوني المحدد لمجموعة الاتصال ، بغض النظر عن الوحدة التنظيمية للعقد.
 
 ## <a name="template-mapping-in-data-integration"></a>تعيين القالب في تكامل البيانات
 
@@ -140,17 +142,14 @@ ms.locfileid: "7001055"
 
 توضح الرسوم التوضيحية التالية أمثلة لتعيينات مهام القالب في تكامل البيانات. يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Project Service Automation إلى Finance.
 
-[![تعيين قالب عقد المشروع.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![تعيين قالب عقد المشروع](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![تعيين قالب المشروع.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![تعيين قالب المشروع](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![تعيين قالب شروط تعاقد المشروع.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![تعيين قالب شروط تعاقد المشروع](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![تعيين قالب المرحلة الرئيسية لشروط تعاقد المشروع.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![تعيين قالب المرحلة الرئيسية لشروط تعاقد المشروع](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>تعيين المراحل الرئيسية لعقود المشاريع في المشاريع والعقود (PSA 3.x إلى Dynamics) - قالب v2:
 
-[![تعيين المرحلة الرئيسية لشروط تعاقد المشروع مع قالب من الإصدار الثاني.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![تعيين المرحلة الرئيسية لشروط تعاقد المشروع مع قالب من الإصدار الثاني](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

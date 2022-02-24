@@ -2,6 +2,8 @@
 title: الجديد أو المتغير في إصدار التحديث 22، الإصدار 3 من Project Service Automation
 description: يسرد هذا الموضوع الميزات والإصلاحات المتوفرة في الإصدار 3 من Project Service Automation، إصدار التحديث 22.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6a5109b1ffedfce99fc50c035bcbe5810abcf3b71f88679b47561d69daa9f3ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db4cbb9f9daadcb1911325f8bee987d5e480e1cf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004295"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150967"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>الإصدار 3 من Project Service Automation، إصدار التحديث 22
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365. يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام. هذا الإصدار متوافق مع Dynamics 365 9.x. للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث. لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](/power-platform/admin/install-remove-preferred-solution).
+يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365. يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام. هذا الإصدار متوافق مع Dynamics 365 9.x. للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث. لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 يسرد هذا الموضوع الميزات والإصلاحات الجديدة أو التي تم تغييرها في الإصدار 3 من Project Service Automation، إصدار التحديث 22. لدى هذا الإصدار رقم البنية V 3.10.33.48 وهو متوفر بشكل عام من خلال تحديث ذاتي في شهر يونيو 2020.
 
@@ -70,6 +72,3 @@ ms.locfileid: "7004295"
 - لا يؤدي إغلاق عرض الأسعار كمكسب إلى لانتقال إلى العقد الذي تم إنشاؤه إذا كان BPF مرفقًا لعرض الأسعار في المرحلة النهائية.
 - يتم ربط **المبيعات غير المفوترة** المعكوسة بتكلفة أصلية عند استدعاء إدخال الوقت.
 - وبعد تحديد الزر **تأكيد**، لا تتغير حالة الفاتورة إلى **مؤكدة** ما لم يتم تحديث الفاتورة.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

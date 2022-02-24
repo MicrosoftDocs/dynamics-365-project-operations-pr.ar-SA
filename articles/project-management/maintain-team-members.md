@@ -2,16 +2,18 @@
 title: الاحتفاظ بأعضاء الفريق
 description: يوفر هذا الموضوع معلومات حول حجز الموارد المسماة لفرق المشروع وتعيين مهام لها.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997050"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131507"
 ---
 # <a name="maintain-team-members"></a>الاحتفاظ بأعضاء الفريق
 
@@ -19,7 +21,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 يمكنك إضافة مورد مسمى إلى فريق مشروعك عن طريق حجزه مباشرة إلى الفريق.
 
-1. في Dynamics 365 Project Operations، انتقل إلى **المشاريع**، وحدد فتح المشروع الذي تريد إجراء الحجز له.
+1. في Dynamics 365 Project Operations، اذهب إلى **المشروعات**، وحدد لفتح المشروع الذي تريد الحجز له.
 2. في صفحة **المشروع**، في علامة تبويب **الفريق**، حدد **جديد**. 
 3. في مربع الحوار **الإنشاء السريع لفريق المشروع**، حدد المورد القابل للحجز. سيتم ملء حقل **الدور** بالدور الافتراضي للمورد إذا كان لديه واحد معين. يمكنك تغيير الدور. 
 4. حدد تاريخي البدء والانتهاء الذي سيكون مطلوبًا للمورد، وحدد طريقة التوزيع لسعة المورد. 
@@ -40,6 +42,3 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 يمكنك استخدام إمكانية الحجز الموسع في علامة تبويب **التسوية** أو **لوحة الجدولة** لحجز قدرة المورد إلى المشروع.
 
 بعد حجز عضو الفريق في المشروع، يمكنك استخدام **المحافظة على الحجوزات** أو استخدام **لوحة الجدولة** مباشره لإدارة الحجوزات.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

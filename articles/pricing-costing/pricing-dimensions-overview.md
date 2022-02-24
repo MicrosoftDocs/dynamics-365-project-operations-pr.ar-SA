@@ -2,18 +2,19 @@
 title: نظرة عامة على أبعاد التسعير
 description: يقدم هذا الموضوع معلومات حول أبعاد التسعير في Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001955"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650168"
 ---
 # <a name="pricing-dimensions-overview"></a>نظرة عامة على أبعاد التسعير
 
@@ -33,7 +34,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 يتم شحن Dynamics 365 Project Operations بمجموعة افتراضية من أبعاد التسعير. يمكنك عرض أبعاد التسعير هذه عن طريق الانتقال إلى **عمليات المشروع** > **المعلمات**. في سجل المعلمات، في علامة التبويب **أبعاد التسعير المستندة إلى المبلغ**، تحقق من أن الدور، **msdyn_resourcecategory** والوحدة التنظيمية للموارد، **msdyn_organizationalunit** يشتملان على الحقلين **قابل للتطبيق على المبيعات** **قابل للتطبيق على التكلفة** معينين إلى **نعم**. مع تمكين هذه الحقول، سيتيح لك إمكانية إعداد السعر والتكلفة لكل مجموعة دور ووحدة تنظيمية.
 
-![لقطة شاشة لمعلمات Project Service مع تمييز "قابل للتطبيق على المبيعات".](media/PS-OOB-parameters.png)
+![لقطة شاشة لمعلمات Project Service مع تمييز "قابل للتطبيق على المبيعات"](media/PS-OOB-parameters.png)
 
 إذا كنت بحاجة إلى أسعار أو تكلفه للموارد الخاصة بك باستخدام سمات إضافية، فيمكنك إنشاء حقول وكيانات وأبعاد مخصصة. لمزيد من المعلومات، راجع المواضيع التالية: 
   
@@ -58,18 +59,15 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 **نموذج أسعار الفاتورة**
 
-| الدور        | الوحدة التنظيمية    |الوحدة      |السعر      |عملة  |
+| الدور        | الوحدة التنظيمية    |الوحدة      |السعر      |العملات  |
 | ------------|-------------|----------|----------:|----------|
-| المطور   | Contoso US  |ساعة | 200|دولار أمريكي     |
-| المطور   | Contoso الهند |ساعة|   112|دولار أمريكي     |
+| المطور   | Contoso US  |Hour‬ | 200|دولار أمريكي     |
+| المطور   | شركة حسني بالهند |Hour‬|   112|دولار أمريكي     |
 
 
 **نموذج أسعار التكاليف**
 
-| نطاق الراتب     | الوحدة التنظيمية    |الوحدة      |السعر      |عملة  |
+| نطاق الراتب     | الوحدة التنظيمية    |الوحدة      |السعر      |العملات  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |ساعة | 145|دولار أمريكي     |
-| My company_Band2 | Contoso الهند |ساعة|   67|دولار أمريكي     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| My company_Band1 | Contoso US  |Hour‬ | 145|دولار أمريكي     |
+| My company_Band2 | شركة حسني بالهند |Hour‬|   67|دولار أمريكي     |

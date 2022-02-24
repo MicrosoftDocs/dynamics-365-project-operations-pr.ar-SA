@@ -2,6 +2,8 @@
 title: مجموعات الوحدات والوحدات
 description: يقدم هذا الموضوع معلومات حول مجموعات الوحدات والوحدات.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987555"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145567"
 ---
 # <a name="unit-groups-and-units"></a>مجموعات الوحدات والوحدات
 
@@ -44,7 +46,7 @@ ms.locfileid: "6987555"
 
 تظهر الصورة التالية مثال إعداد لوحدة **اليوم**، حيث يُظهر حقل **الكمية** عدد الساعات الموجودة في يوم و **الأسبوع**، حيث يظهر حقل **الكمية**  عدد الأيام في الأسبوع.
 
-> ![مجموعة الوحدات: صفحة المعلومات.](media/advanced-2.png)
+> ![مجموعة الوحدات: صفحة المعلومات](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>استخدام الوحدات ومجموعات الوحدات
 
@@ -86,7 +88,7 @@ ms.locfileid: "6987555"
 
 | الدور      | مجموعة الوحدات | الوحدة | الوحدة التنظيمية | السعر   |
 |-----------|------------|------|---------------------|---------|
-| المطور | الوقت       | يوك  | Contoso المملكة المتحدة          | 800 جنية إسترليني |
+| المطور | Time       | Day  | شركة حسني البريطانية          | 800 جنية إسترليني |
 
 ### <a name="time-entry"></a>إدخال الوقت
 
@@ -110,6 +112,3 @@ ms.locfileid: "6987555"
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>هل يمكن تحرير الوحدات ومجموعات الوحدات وحذفها وإضافتها؟
 نعم. وباستثناء مجموعة واحدات  **الوقت** ووحدة **الساعة**، يمكن حذف جميع الوحدات أو تحريرها، ويمكن إضافة وحدات جديدة. في PSA ، لا يمكن حذف مجموعة وحدات **الوقت** ووحدة **الساعة**. ومع ذلك، يمكن أن يتم تحديثها بنص مترجم لحقل **الاسم**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

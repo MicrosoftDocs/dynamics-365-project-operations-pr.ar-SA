@@ -2,9 +2,11 @@
 title: تكوين إدارة المصروفات
 description: توضح هذه المقالة الاعتبارات والقرارات التي يجب اتخاذها أثناء عملية التخطيط قبل تكوين إدارة المصروفات في Microsoft Dynamics 365 Finance.
 author: KimANelson
+manager: AnnBe
 ms.date: 08/29/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eca4362b0ff5d37b131e1d96e311aa48ac20397618314936944ba66e458dbdc2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 74a8435464c8573ca831b7886f00c2695fd29827
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007445"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271337"
 ---
 # <a name="configure-expense-management"></a>تكوين إدارة المصروفات
 
@@ -125,10 +127,10 @@ ms.locfileid: "7007445"
 
     - الإيرادات المفوترة
     - الإيرادات المستحقة - قيمة المبيعات
-    - قيمة WIP-sales
-    - Accrued revenue-production
-    - WIP-production
-    - Accrued revenue-profit
+    - الأعمال قيد التنفيذ (WIP) - قيمة المبيعات
+    - الإيراد المستحق-الإنتاج
+    - الأعمال قيد التنفيذ (WIP) - الإنتاج
+    - الإيراد المستحق - الربح
     - الأعمال قيد التنفيذ (WIP) - الربح
     - الإيراد المستحق - الاشتراك
     - الأعمال قيد التنفيذ (WIP) - الاشتراك

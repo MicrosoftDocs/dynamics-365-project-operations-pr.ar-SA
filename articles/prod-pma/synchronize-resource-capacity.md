@@ -2,9 +2,11 @@
 title: مزامنة سعة الموارد
 description: يقدم هذا الموضوع معلومات حول كيفية مزامنة سعة مورد عبر التقويمات والمشروعات.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 006ebbfea42572f17663fab324a20a10321b78f0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005600"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070622"
 ---
 # <a name="synchronize-resource-capacity"></a>مزامنة سعة الموارد
 
@@ -29,7 +31,7 @@ ms.locfileid: "7005600"
 
 تساعد عمليات مزامنة الموارد على ضمان أن المعلومات الخاصة بالتقويم والتقويم الأساسي تتدفق إلى أسفل في جدولة موارد المشروع. إذا تم تغيير التقويم ، تقوم العمليات بإجراء التحديثات المطلوبة لجدولة موارد المشروع. تساعد العمليات أيضًا في تحسين الأداء ، لأن معلومات موارد التقويم تتم مزامنتها مسبقًا. لذلك ، تحدث تحديثات معلومات جدولة الموارد بسرعة أكبر. نوصي بجدولة العمليات كدفعة بدلاً من واحدة في كل مرة. خلاف ذلك ، هناك خطر أن ينسى شخص ما التواريخ الشاملة التي تمت فيها مزامنة المعلومات آخر مرة. إذا لم يتم استخدام التواريخ الشاملة ، فقد تحدث فجوات أثناء مزامنة التاريخ.
 
-![مزامنة التقويم.](./media/projectresourcing04-1024x471.jpg)
+![مزامنة التقويم](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>قم بمزامنة عمليات تجميع القدرة الإنتاجية للموارد
 
@@ -42,11 +44,8 @@ ms.locfileid: "7005600"
 
     | خيار      | ‏‏الوصف |
     |-------------|-------------|
-    | كود الفترة | حدد كود الفترة الزمنية لدفتر الأستاذ العام بشكل اختياري لتعيين تاريخي البدء والانتهاء لعمليه المزامنة الخاصة باللفات الانتاجيه للقدرة علي الموارد. |
+    | كود الفترة | حدد كود الفترة الزمنيه لدفتر الأستاذ العام بشكل اختياري لتعيين تاريخي البدء والانتهاء لعمليه المزامنة الخاصة باللفات الانتاجيه للقدرة علي الموارد. |
     | تاريخ البدء  | ادخل تاريخ البدء الخاص بعمليه المزامنة الخاصة بلفات الموارد والموردين. |
     | تاريخ الانتهاء    | ادخل تاريخ الانتهاء الخاص بعمليه المزامنة الخاصة بلفات الموارد والموردين. |
 
-[![عملية المزامنة.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![عملية المزامنة](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)

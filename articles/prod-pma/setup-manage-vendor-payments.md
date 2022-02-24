@@ -2,9 +2,11 @@
 title: إعداد واستخدام دفعات المورّد حسب شروط الدفع عند استلام الدفع
 description: يشرح هذه الموضوع كيفية إنشاء شروط الدفع عند استلام الدفع بحيث يمكنك تحرير دفعات جزئية للمورّد، استنادًا إلى دفعات العميل.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008840"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070623"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>إعداد واستخدام دفعات المورّد حسب شروط الدفع عند استلام الدفع
 
@@ -78,6 +80,3 @@ ms.locfileid: "7008840"
 2. في صفحة **فاتورة المورّد مع الدفع عند استلام الدفع**، في حقل البحث، أدخل القيم للبحث عن فاتورة المورّد التي تريد مراجعتها، ثم حدد **بحث**.
 3. على علامة التبويب السريعة **بنود فاتورة المورّد**، حدد البنود التي ترغب في تغييرها.
 4. إذا تم الوفاء بشروط **الدفع عند استلام الدفع** لبند الفاتورة، فحدد **تحرير دفع المورّد**. يتم إلغاء تحديد خيار **الدفع عند استلام الدفع**، وتتغير حالة الحقل **جاهز للدفع** إلى **نعم**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

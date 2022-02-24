@@ -2,16 +2,18 @@
 title: إعداد بيانات التكوين وتطبيقها في Common Data Service
 description: يقدم هذا الموضوع معلومات حول إعداد وتطبيق بيانات التكوين في Project Operations.
 author: sigitac
-ms.date: 05/10/2021
+manager: Annbe
+ms.date: 11/04/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7742e81316b217066f9f3b8d5c23aa64f1a7efc4
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986610"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642212"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>إعداد بيانات التكوين وتطبيقها في Common Data Service 
 
@@ -21,7 +23,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-قبل أن تبدأ في تهيئة البيانات في Common Data Service (CDS)، فإنه يجب استيفاء المتطلبات الأساسية التالية:
+قبل أن تبدأ تكوين البيانات في Common Data Service (CDS)، يجب استيفاء المتطلبات الأساسية التالية:
 
 1.  تزويد بيئة CDS وبيئة Dynamics 365 Finance لـ Project Operations.
 2.  مشاركة معلومات الكيان القانوني من Dynamics 365 Finance مع بيئة CDS. وهذا يعني أن كيان **الشركة** في CDS يتضمن سجلات الشركة التالية:
@@ -31,44 +33,37 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="install-setup-and-configuration-data"></a>تثبيت بيانات الإعداد والتكوين
 
-1. قم بتنزيل وإلغاء حظر وفك ضغط [حزمة بيانات الإعداد والتكوين](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
+1. قم بتنزيل وإلغاء حظر وفك ضغط [حزمة بيانات الإعداد والتكوين](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
 2. انتقل إلى المجلد غير المضغوط وقم بتشغيل الملف القابل للتنفيذ، *DataMigrationUtility*.
 3. في الصفحة 1 من معالج ترحيل تكوين (CMT) Common Data Service، حدد **استيراد البيانات** ثم حدد **متابعة**.
 
-![ترحيل التكوين.](./media/1ConfigurationMigration.png)
+![ترحيل التكوين](./media/1ConfigurationMigration.png)
 
 4. في الصفحة 2 من معالج CMT، حدد **Microsoft 365** على أنه **نوع النشر**.
 5. حدد خانتي الاختيار **عرض قائمة بالمؤسسات المتاحة** و **إظهار الخيارات المتقدمة**‬.
 6. حدد منطقة المستأجر، وأدخل بيانات اعتمادك، وحدد **تسجيل الدخول**.
 
-![تسجيل الدخول إلى التكوين.](./media/2ConfigurationSignin.png)
+![تسجيل الدخول إلى التكوين](./media/2ConfigurationSignin.png)
 
 7. في الصفحة 3، من قائمة المؤسسات على المستأجر، حدد المؤسسة التي ترغب في استيراد بيانات العرض التوضيحي إليها، ثم حدد **تسجيل الدخول**.
 8. في الصفحة 4، حدد الملف المضغوط *SampleSetupAndConfigData* من المجلد غير المضغوط.
 
-![اختيار الملف المضغوط.](./media/3ZipFile.png)
+![اختيار الملف المضغوط](./media/3ZipFile.png)
 
-![تحديد ملف.](./media/4SelectAFile.png)
+![تحديد ملف](./media/4SelectAFile.png)
 
 9. بعد تحديد ملف zip، حدد **استيراد البيانات**.
 
-![استيراد البيانات.](./media/5ImportData.png)
+![استيراد البيانات](./media/5ImportData.png)
 
 10. ستعمل عملية الاستيراد لمدة عشر دقائق تقريبًا حسب سرعة الشبكة. بعد اكتمال الاستيراد، قم بإنهاء معالج CMT. 
-11. راجع مؤسستك للحصول على البيانات في 26 كيان التالي:
+11. راجع مؤسستك للحصول على البيانات في 19 كيان التالي:
 
-  - عملة
-  - مخطط الحسابات
-  - التقويم المالي
-  - أنواع أسعار صرف العملة
-  - يوم السداد
-  - جدولة الدفع
-  - شروط السداد
+  - ‏‏العملة
   - الوحدة التنظيمية
-  - ‏‫جهة الاتصال‬
+  - جهة اتصال
   - مجموعة الضرائب
   - مجموعة العملاء
-  - مجموعة الموردين
   - الوحدة
   - مجموعة وحدات
   - قائمة الأسعار
@@ -84,61 +79,58 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
   - تعيين فئة المورد القابل للحجز
   - خاصية المورد القابل للحجز
 
-![اكتمال الاستيراد.](./media/6CompleteImport.png)
+![اكتمال الاستيراد](./media/6CompleteImport.png)
 
 ## <a name="update-project-operations-configurations"></a>تحديث تكوينات Project Operations
 
 1. انتقل إلى بيئة CE. يمكنك البحث عنها عن طريق فتح [مركز إدارة Power Platform](https://admin.powerplatform.microsoft.com/environments) وتحديد البيئة ثم تحديد **فتح البيئة**. 
 
-![فتح البيئة.](./media/7OpenEnvironment.png)
+![فتح البيئة](./media/7OpenEnvironment.png)
 
 2. انتقل إلى **المشروعات** > **الموارد** ثم حدد **جديد** لإنشاء مورد قابل للحجز للمستخدم الخاص بك.
 
-![الموارد القابلة للحجز.](./media/8BookableResources.png)
+![الموارد القابلة للحجز](./media/8BookableResources.png)
 
 3. في علامة التبويب **عام**، حدد المستخدم المسؤول الخاص بك. تحقق من أن المنطقة الزمنية تتطابق مع تلك التي تعيش فيها. 
 
-![مورد جديد قابل للحجز.](./media/9NewBookableResource.png)
+![مورد جديد قابل للحجز](./media/9NewBookableResource.png)
 
 4. في علامة تبويب **الجدولة**، في حقل **الشركة**، قم اختيار شركة **USPM**، ثم حدد **حفظ**. 
 
-![علامة تبويب الجدولة.](./media/10SchedulingTab.png)
+![علامة تبويب الجدولة](./media/10SchedulingTab.png)
 
 5. حدد علامة التبويب **ساعات العمل**.  
 
-![ساعات العمل.](./media/11WorkHours.png)
+![ساعات العمل](./media/11WorkHours.png)
 
 6. انقر نقرًا مزدوجًا فوق أي قيمة في التقويم وحدد **تحرير** > **كافة الأحداث في السلسلة**. 
 
-![تقويم العمل.](./media/12WorkCalendar.png)
+![تقويم العمل](./media/12WorkCalendar.png)
 
 7. قم بتغيير ساعات العمل إلى يوم عمل من ثمانية (8) ساعات وقم بتعليم عطلات نهاية الأسبوع على أنها أيام بدون عمل، وتأكد من تطابق المنطقة الزمنية مع المنطقة الخاصة بك. 
 8. حدد **حفظ وإغلاق**.
 
-![تحديث التقويم.](./media/13UpdateCalendar.png)
+![تحديث التقويم](./media/13UpdateCalendar.png)
 
 9. انتقل إلى **الإعدادات** > **قوالب التقويم** وحدد **جديد**.
  
- ![قوالب التقويم.](./media/14CalendarTemplates.png)
+ ![قوالب التقويم](./media/14CalendarTemplates.png)
  
  10. أدخل اسمًا، وحدد مورد القالب الذي قمت بإنشائه، ثم حدد **حفظ**. 
  
- ![حفظ قالب التقويم.](./media/15SaveCalendarTemplate.png)
+ ![حفظ قالب التقويم](./media/15SaveCalendarTemplate.png)
  
  11. انتقل إلى **المعلمات** وانقر نقرًا مزدوجًا فوق السجل. 
  
- ![معلمات المشروع.](./media/16ProjectParameters.png)
+ ![معلمات المشروع](./media/16ProjectParameters.png)
  
 12. قم بتحديث الحقول التالية:
 
  - **الشركة الافتراضية**: USPM
- - **الوحدة المؤسسية الافتراضية**: Contoso Robotics Global
+ - **الوحدة التنظيمية الافتراضية**: Contoso Robotics Global
  - **تكرار الفاتورة**: اليوم السابع واليوم الأخير
  - **قالب ساعة العمل**: قم بالتغيير إلى القالب الذي قمت بإنشائه.
 
 13. حدد **حفظ**. 
 
-![معلمات المشروع المحدثة.](./media/17UpdatedProjectParameters.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![معلمات المشروع المحدثة](./media/17UpdatedProjectParameters.png)

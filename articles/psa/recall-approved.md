@@ -2,6 +2,8 @@
 title: استرجاع إدخالات الوقت أو المصروفات المعتمدة
 description: يوفر هذا الموضوع معلومات حول كيفية استرجاع الوقت أو حركة المصروفات المعتمدة مسبقًا.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -15,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f9bb25ac9ef7b400063c5f958311e475de6f6506
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998310"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147817"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>استرجاع إدخالات الوقت أو المصروفات المعتمدة
 
@@ -43,7 +45,7 @@ ms.locfileid: "6998310"
 
     بالنسبة لإدخالات المصروفات، انتقل إلى **المشاريع**\> **عملي** \> **المصروفات**.
 
-2. بالنسبة لإدخالات الوقت، حدد كافة الإدخالات الزمنية الخاصة بمجموعه معينة من المشروع والمهمة. أو بدلا من ذلك، في الشبكة ، حدد الخلايا الفردية للوقت في تاريخ محدد لمشروع محدد.
+2. بالنسبة لإدخالات الوقت، حدد كافة الإدخالات الزمنيه الخاصة بمجموعه معينة من المشروع والمهمة. أو بدلا من ذلك، في الشبكة ، حدد الخلايا الفردية للوقت في تاريخ محدد لمشروع محدد.
 
     -أو-
 
@@ -98,13 +100,10 @@ ms.locfileid: "6998310"
 
 يوضح الرسم التوضيحي التالي التغييرات التي تحدث لإدخالات الوقت التي تمت الموافقة عليها عند استرجاعها.
 
-![انتقالات حالة إدخال الوقت.](media/TimeEntryStateTransitions.png)
+![انتقالات حالة إدخال الوقت](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>التغييرات على سجلات إدخال المصروفات
 
 يوضح الرسم التوضيحي التالي التغييرات التي تحدث لإدخالات المصروفات التي تمت الموافقة عليها عند استرجاعها.
 
-![انتقالات حالة إدخال المصروفات.](media/ExpenseEntryStateTransitions.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![انتقالات حالة إدخال المصروفات](media/ExpenseEntryStateTransitions.png)

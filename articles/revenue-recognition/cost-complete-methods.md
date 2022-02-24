@@ -2,16 +2,18 @@
 title: أساليب التكلفة للإكمال
 description: يقدم هذا الموضوع معلومات حول الطرق المستخدمة في حساب التكلفة لإكمال مشروع.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997950"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531340"
 ---
 # <a name="cost-to-complete-methods"></a>أساليب التكلفة للإكمال
 
@@ -28,6 +30,3 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | كتقدير سابق         | يتم استخدام نفس طرق التقدير التي تم استخدامها في الفترة السابقة هنا. تتطلب هذه الطريقة نموذج تنبؤ إذا كانت الفترة السابقة تتطلب نموذج تنبؤ.                                                                                                                                                                                                                                                                                                                           |
 | قم بتعيين التكلفة التي سيتم إكمالها إلى صفر | وعاده ما يتم استخدامه قبل أزاله المشروع التقديري ، يتطابق هذا الأسلوب مع التقديرات الاجماليه مع الحركات الفعلية المرحلة ويمسح عمود **التكلفة للإكمال**. وعند الاكتمال ، تكون النتيجة دوما 100 بالمائة. بالنسبة لكل بند تكلفه تقوم بإنشائه، يتم إلغاء تحديد خانة الاختيار **التنبؤ** ويتم نسخ إجمالي التقدير من تقدير التكلفة السابقة. يتم خصم الاستهلاك الفعلي للفترة التقديرية من التكلفة لإكمال المشروع.              |
 | من قالب التكلفة           | تكلفة إكمال الأسلوب التي تم إعدادها في قالب التكلفة المرتبط بمشروع التقدير المحدد.                                                                                                                                                                                                                                                                                                                                                                          |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

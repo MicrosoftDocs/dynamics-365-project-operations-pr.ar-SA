@@ -2,22 +2,24 @@
 title: إعداد معدلات فواتير العمالة - خفيف
 description: يقدم هذا الموضوع معلومات حول كيفية إعداد معدلات فواتير العمالة في Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007580"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181145"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>إعداد معدلات فواتير العمالة - خفيف
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
-تشتمل كل قائمة أسعار على مجموعة من أسعار الأدوار أو معدلات العمالة التي تعتبر فعالة للسياق وسريان التاريخ المضمن على رأس قائمة الأسعار. يمكن إعداد معدلات فواتير الوقت في Dynamics 365 Project Operations بعملة واحدة فقط، وهي العملة في رأس قائمة الأسعار.
+تشتمل كل قائمة أسعار على مجموعة من أسعار الأدوار أو معدلات العمالة التي تعتبر فعالة للسياق وسريان التاريخ المضمن على رأس قائمة الأسعار. يمكن إعداد معدلات الفواتير للوقت في Dynamics 365 Project Operations بعملة واحدة فقط، وهي العملة في رأس قائمة الأسعار.
 
 1. لإعداد معدلات فواتير العمالة لقائمة أسعار المبيعات، أنشئ قائمة أسعار تستند إلى رأس قائمة الأسعار. 
 2. على علامة التبويب **أسعار الأدوار**، في الشبكة الفرعية، حدد **‎+ سعر دور جديد**. 
@@ -53,6 +55,3 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
     | المطور | Fabrikam US | 150 دولارًا أمريكيًا |
 
 3. قم بإرفاق قائمة أسعار المبيعات، **معدلات الفواتير في Fabrikam US** بقائمة أسعار المشروع لعقد المشروع أو بحساب معين.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

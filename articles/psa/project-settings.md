@@ -2,6 +2,8 @@
 title: إعدادات المشروع
 description: يقدم هذا الموضوع معلومات حول إعدادات إدارة المشروع.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996915"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148132"
 ---
 # <a name="project-settings"></a>إعدادات المشروع
 
@@ -47,7 +49,7 @@ ms.locfileid: "6996915"
   - جدولة العمل ليوم واحد
   - زمن التوقف
 
-> ![إعداد الخيارات.](media/project-13.png)
+> ![إعداد الخيارات](media/project-13.png)
 
 4. حدد **جدولة أسبوعية جديدة**، ثم قم بتعيين الخيارات لجدول الموارد هذا. يمكنك تعيين جدولة أسبوعية متكررة ومحددات الساعات اليومية وعمليات إغلاق الأعمال وغير ذلك.
 5. قم بتعيين نطاق التاريخ، وحدد **حفظ**، ثم انقر فوق **إغلاق**. 
@@ -66,6 +68,3 @@ ms.locfileid: "6996915"
 ## <a name="price-lists"></a>قوائم الأسعار
 
 تتيح لك قوائم الأسعار تعيين أسعار التكلفة والمبيعات لأدوار الموارد وفئات المصروفات والمنتجات والعناصر الأخرى في المؤسسة. قبل أن تقوم بتعيين تقديرات مالية للعمل الذي يجب تسليمه للمشروع، يجب عليك إنشاء قائمة أسعار دعم وسعر مبيعات. في قسم المعلمات، يجب عليك أيضًا إعداد قائمة تكلفة وسعر مبيعات افتراضية تنطبق على جميع المشاريع التي تم إنشاؤها في المؤسسة. في صفحة **معلمات المشروع النشطة**، تأكد من أنك قمت بإعداد قائمه تكلفة وأسعار مبيعات افتراضية.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

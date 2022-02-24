@@ -2,17 +2,18 @@
 title: نظرة عامة على مساعد الجدولة
 description: يقدم هذا الموضوع معلومات حول التعامل مع مساعد الجدولة لحجز الموارد.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 309cb94ea30c525daccf032c625004c42fb408dada4b337b65d8f36d76219669
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990210"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070500"
 ---
 # <a name="schedule-assistant-overview"></a>نظرة عامة على مساعد الجدولة
 
@@ -24,7 +25,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-يعد مساعد الجدولة جزءًا من حل Universal Resource Scheduling. تم تضمين هذا الحل وتثبيته مع Dynamics 365 Project Operations وDynamics 365 Field Service وDynamics 365 Customer Service.
+يعد مساعد الجدولة جزءًا من حل Universal Resource Scheduling. يتم تضمين هذا الحل وتثبيته مع Dynamics 365 Project Operations وDynamics 365 Field Service وDynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>الموارد والمتطلبات المتطابقة
 
@@ -53,9 +54,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 -   الخصائص
 -   الأدوار
 -   الوحدات التنظيمية
--   شركة التوريد
+-   شركة تعيين الموارد‬
 -   أنواع الموارد
 -   الموارد المفضلة
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: إدارة كفاءات الموارد
 description: يوفر هذا الموضوع معلومات حول إعداد كفاءات موارد المشروع.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007400"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270617"
 ---
 # <a name="manage-resource-competencies"></a>إدارة كفاءات الموارد
 
@@ -29,7 +31,7 @@ ms.locfileid: "7007400"
 
 اختصاصات الموارد جزء أساسي في إدارة الموارد. يمكن استخدام الكفاءات كخط أساس لتحديد الموارد التي تتمتع بالتوازن الصحيح بين المهارات والتعليم والشهادات وخبرة المشروع. يجب اعداد هذه المعلومات لكل مورد وتحديثه بشكل منتظم. وبهذه الطريقة ، يمكنك تكبير الإمكانات عند مطابقه اختصاصات الموارد المحددة اثناء تعيين موارد المشروع.
 
-[![أمثله علي المهارات والشهادات والتعليم وخبره المشروع.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![أمثله علي المهارات والشهادات والتعليم وخبره المشروع](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 توضح الإجراءات التالية كيفيه اعداد بعض الاختصاصات لأحد الموارد.
 

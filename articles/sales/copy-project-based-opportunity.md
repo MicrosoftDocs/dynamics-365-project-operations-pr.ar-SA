@@ -2,16 +2,18 @@
 title: نسخ فرص مستندة إلى مشروع
 description: يوفر هذا الموضوع معلومات حول كيفية نسخ الفرص المستندة إلى المشروع في Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999705"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181587"
 ---
 # <a name="copy-project-based-opportunities"></a>نسخ فرص مستندة إلى مشروع
 
@@ -32,6 +34,3 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
     | نسخ التسعير | قيمة نعم/لا توضح ما إذا كان ينبغي نسخ التسعير الموجود في الفرصة من الفرصة المصدر. | إذا تم تحديد **نعم**، يتم نسخ قوائم الأسعار من المصدر إلى الفرصة الهدف. إذا تم تحديد **لا**، فسيُعاد تعيين قوائم الأسعار بشكل افتراضي استنادًا إلى قوائم الأسعار الأخيرة التي تم إعدادها. |
 
 3. حدد **موافق**. يقوم النظام بإنشاء نسخة من فرصه المشروع استنادًا إلى المعلمات المحددة وتفتح فرصة المشروع الجديدة.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

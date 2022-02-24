@@ -2,17 +2,19 @@
 title: شروط الفرصة المستندة إلى المنتج - خفيف
 description: يوفر هذا الموضوع معلومات حول عناصر بنود الفرصة المستندة إلى المنتج في Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 132bfa8418e255cf65c247e55cd45fbaf58d243cb34368fd07bc4ade11bb243e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4f8da5258a1dd0aa4229654c0e1e222b8cf3a21a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989670"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272597"
 ---
 # <a name="product-based-opportunity-lines---lite"></a>شروط الفرصة المستندة إلى المنتج - خفيف
 
@@ -20,7 +22,7 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 
 بنود الفرصة المستندة إلى المنتج هي عناصر البند في الفرصة. توجد عناصر السطر المميزة هذه في الفاتورة النهائية التي يتم تقديمها للعميل. ولا تتضمن الفاتورة أية خدمات إضافية أخرى. لا يتم تعقب الإنفاق والاستهلاك المرتبطين في المهام الخاصة بأي مشاريع ذات صلة.
 
-يمكن أن تكون البنود المستندة إلى المنتج هي عناصر الكتالوج أو منتجات مدونة. تتبع معظم الوظائف في البنود المستندة إلى المنتج الخاصة بالفرصة الوظائف التي يوفرها تطبيق Dynamics 365 Sales. لمزيد من المعلومات حول بنود الفرصة المستندة إلى المنتج، راجع [إضافة منتجات إلى فرصة مبيعات](/dynamics365/sales-enterprise/add-products-opportunity).
+يمكن أن تكون البنود المستندة إلى المنتج هي عناصر الكتالوج أو منتجات مدونة. تتبع معظم الوظائف في البنود المستندة إلى المنتج الخاصة بالفرصة الوظائف التي يوفرها تطبيق Dynamics 365 Sales. لمزيد من المعلومات حول بنود الفرصة المستندة إلى المنتج، راجع [إضافة منتجات إلى فرصة مبيعات](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity).
 
 **موازنة العميل** هي مفهوم خاص بسطور الفرص المستندة إلى المشروع. يتعقب حقل **موازنة العميل** المبلغ الذي يرغب العميل في دفعه مقابل العنصر.
 

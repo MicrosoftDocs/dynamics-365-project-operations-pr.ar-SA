@@ -2,9 +2,11 @@
 title: استعلام جدول نفقات المكافآت الفيدرالية
 description: يقدم هذا الموضوع معلومات حول استعلام جدول نفقات المكافآت الفيدرالية.
 author: velofog
+manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -18,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007220"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070628"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>استعلام جدول نفقات المكافآت الفيدرالية
 
@@ -60,7 +62,7 @@ ms.locfileid: "7007220"
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>إعداد المنح للإبلاغ عن استعلام جدول نفقات المكافآت الفيدرالية‬
 
 1. انتقل إلى **إدارة المشاريع والمحاسبة \> المنح \> المنح**، وحدد منحة موجودة.
-2. على علامة التبويب السريع **الإعداد**، في حقل **كتالوج المساعدة المحلية الفيدرالية**، عيّن رقم CFDA. يحدد رقم CFDA على المنحة مجموعة CFDA لإعداد التقارير.
+2. على علامة التبويب السريعة **الإعداد**، في حقل **كتالوج المساعدة المحلية الفيدرالية**، عيّن رقم CFDA. يحدد رقم CFDA على المنحة مجموعة CFDA لإعداد التقارير.
 3. على علامة التبويب السريعة **معلومات الاتصال**، أدخل معلومات المانح عن طريق اتباع الخطوات التالية:
 
     1. في الحقل **عميل المنحة**، أدخل اسم العميل المسؤول عن المنحة. بالنسبة إلى منحة موجودة، من المحتمل أن تكون هذه المعلومات مدخلة بالفعل.
@@ -77,8 +79,8 @@ ms.locfileid: "7007220"
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>استبعاد المنح من تقارير SEFA المستندة إلى نوع المنحة
 
-1. انتقل إلى **إدارة المشاريع والمحاسبة \> الإعداد \> المنح‏‎ \> أنواع المنح‏‎**.
-2. على علامة التبويب السريع **المعلومات الافتراضية**، حدد خانة الاختيار **استبعاد من جدول نفقات المكافآت الفيدرالية**.
+1. انتقل إلى **إدارة المشاريع والمحاسبة \> الإعداد \> المنح‏‎ \> أنواع المنح‏‎**.
+2. على علامة التبويب السريعة **المعلومات الافتراضية**، حدد خانة الاختيار **استبعاد من جدول نفقات المكافآت الفيدرالية**.
 3. حدد **حفظ** لتطبيق التغييرات التي أجريتها.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>تشغيل استعلام جدول نفقات المكافآت الفيدرالية
@@ -102,6 +104,3 @@ ms.locfileid: "7007220"
 - كتالوج المساعدة المحلية الفيدرالية
 - إيصالات
 - النفقات
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

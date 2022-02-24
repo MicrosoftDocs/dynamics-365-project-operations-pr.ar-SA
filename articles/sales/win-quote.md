@@ -2,22 +2,24 @@
 title: إنشاء عرض أسعار
 description: يوفر هذا الموضوع معلومات حول إقفال عروض الأسعار في Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993405"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124667"
 ---
 # <a name="close-a-quote"></a>إنشاء عرض أسعار
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
-يمكن إقفال عرض أسعار مشروع على أنه تم الفوز به أو تمت خسارته. ويمكن إغلاق مسودة عروض الأسعار لأن وظائف التنشيط والمراجعة غير مدعومة على عروض الأسعار في Microsoft Dynamics 365 Project Operations.
+يمكن إقفال عرض أسعار مشروع على أنه تم الفوز به أو تمت خسارته. نظرًا لأنه يتم دعم عمليتي التنشيط والمراجعة في عروض الأسعار في Microsoft Dynamics 365 Project Operations، يمكنك إغلاق مسودة عرض الأسعار.
 
 ## <a name="close-a-quote-as-won"></a>إقفال عرض أسعار على أنه تم الفوز به
 
@@ -41,6 +43,3 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 > [!NOTE]
 > في Project Operations، لن يؤثر إغلاق عرض الأسعار على الفوز أو الخسارة في حالة الفرصة، والتي ستظل مفتوحة إلى أن يتم إغلاقها يدويًا.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: دفتر يومية التكامل في Project Operations
 description: يقدم هذا الموضوع معلومات حول العمل مع دفتر يومية التكامل في Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987915"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948313"
 ---
 # <a name="integration-journal-in-project-operations"></a>دفتر يومية التكامل في Project Operations
 
@@ -19,14 +21,14 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 تقوم إدخالات الوقت والمصروفات بإنشاء حركات **قيم فعلية** تمثل طريقة عرض جاهزة للعمل المنجز مقابل المشروع. يوفر Dynamics 365 Project Operations للمحاسبين أداة لمراجعة الحركات وضبط سمات المحاسبة حسب الحاجة. بعد اكتمال المراجعة والتعديلات، يتم ترحيل الحركات إلى دفتر الأستاذ الفرعي ودفتر الأستاذ العام للمشروع. بإمكان المحاسب تنفيذ هذه الأنشطة باستخدام دفتر يومية **تكامل Project Operations** في **Dynamics 365 Finance** > **إدارة المشاريع والمحاسبة** > **دفاتر اليومية** >  دفتر يومية **تكامل Project Operations**.
 
-![سير مهام دفتر يومية التكامل.](./media/IntegrationJournal.png)
+![سير مهام دفتر يومية التكامل](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>إنشاء سجلات في دفتر يومية التكامل في Project Operations
 
 يتم إنشاء السجلات في دفتر يومية تكامل Project Operations باستخدام عملية دورية، **الاستيراد من جدول التجهيز**. يمكنك تشغيل هذه العملية من خلال الانتقال إلى **Dynamics 365 Finance** > **إدارة المشاريع والمحاسبة** > **دوري** > **تكامل Project Operations** > **استيراد من جدول التجهيز**. يمكنك تشغيل العملية بشكل تفاعلي أو تكوين العملية بحيث تعمل في الخلفية حسب الحاجة.
 
-عند تشغيل العملية الدورية، يتم العثور على أي قيم فعلية لم تتم إضافتها بعد إلى دفتر يومية تكامل Project Operations. يتم إنشاء سطر دفتر اليومية لكل حركة فعلية.
-يقوم النظام بتجميع أسطر دفتر اليومية في دفاتر يومية منفصلة استنادًا إلى القيمة المحددة في حقل **وحدة الفترة على دفتر يومية تكامل Project Operations** (**Finance** > **إدارة المشاريع والمحاسبة** > **الإعداد** > **معلمات إدارة المشاريع والمحاسبة**، علامة التبويب **Project Operations على Dynamics 365 Customer Engagement**). تتضمن القيم المحتملة لهذا الحقل ما يأتي:
+عند تشغيل العملية الدورية، يتم العثور على أي قيم فعلية لم تتم إضافتها بعد إلى دفتر يومية تكامل Project Operations. يتم إنشاء بند دفتر يومية لكل حركة قيمة فعلية.
+يقوم النظام بتجميع أسطر دفتر اليومية في دفاتر يومية منفصلة استنادًا إلى القيمة المحددة في حقل **وحدة الفترة على دفتر يومية تكامل Project Operations** (**Finance** > **إدارة المشاريع والمحاسبة** > **الإعداد** > **معلمات إدارة المشاريع والمحاسبة**، علامة التبويب **Project Operations على Dynamics 365 Customer Engagement**). تتضمن القيم المحتملة لهذا الحقل:
 
   - **الأيام**: يتم تجميع القيم الفعلية حسب تاريخ الحركة. يتم إنشاء دفتر يومية منفصل لكل يوم.
   - **الأشهر**: يتم تجميع القيم الفعلية حسب شهر التقويم. يتم إنشاء دفتر يومية منفصل لكل شهر.

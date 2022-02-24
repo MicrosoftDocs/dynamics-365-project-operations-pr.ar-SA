@@ -1,24 +1,25 @@
 ---
 title: نظرة عامة على الوقت
-description: يقدم هذا الموضوع معلومات حول وظيفة الوقت في Dynamics 365 Project Operations.
+description: يوفر هذا الموضوع معلومات حول وظائف الوقت في Dynamics 365 Project operations.
 author: stsporen
+manager: AnnBe
 ms.date: 10/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.custom: intro-internal
-ms.openlocfilehash: 23697d7fedbf3edfef5099f615056162d2f8d6ce094884e20229123c17006311
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 291ca3cc6d995a9722fe3cd29ded95fb606888c6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999480"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124532"
 ---
 # <a name="time-overview"></a>نظرة عامة على الوقت
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-إدخال الوقت هو عملية تسجيل الوقت الفعلي الذي يستهلكه المورد. تسمح إدخالات الوقت في Dynamics 365 Project Operations بحساب أسعار التكلفة والمبيعات بينما يتقدم تنفيذ المهام. تساعد هذه الإدخالات مدير المشروع في الاحتفاظ بأهم المشروعات والمهام. تخطر إدخالات الوقت أيضًا مديري الموارد بأي عطلة محتملة أو حالات غياب والتي تظهر على لوحة الجدولة بصفتها **خارج**. وتسمح هذه الإخطارات لمديري الموارد بالتخطيط لهذه الأحداث.
+إدخال الوقت هو عملية تسجيل الوقت الفعلي الذي يستهلكه المورد. وتتيح إدخالات الوقت في Dynamics 365 Project Operations السماح باحتساب أسعار المبيعات والتكلفة حسب التقدم في المهام. تساعد هذه الإدخالات مدير المشروع في الاحتفاظ بأهم المشروعات والمهام. تخطر إدخالات الوقت أيضًا مديري الموارد بأي عطلة محتملة أو حالات غياب والتي تظهر على لوحة الجدولة بصفتها **خارج**. وتسمح هذه الإخطارات لمديري الموارد بالتخطيط لهذه الأحداث.
 
 عند تسجيل الوقت في Project Operations، يمكن تعقب المستخدمين مقابل أي مستوى في المشروع. هذا يشمل مستوى المهمة أو الملخص أو المشروع.
 
@@ -26,6 +27,3 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 للحصول على معلومات حول كيفية إنشاء إدخال أو إرساله أو استدعائه، والأدوات أخرى للمساعدة في استكمال التقرير، انظر [سلوك مستخدم إدخال الوقت](ui-behavior-time.md).
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

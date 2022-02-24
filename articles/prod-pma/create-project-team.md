@@ -2,9 +2,11 @@
 title: إنشاء فريق مشروع
 description: يقدم هذا الموضوع معلومات عن كيفية إنشاء فرق المشروع وإدارتها.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005780"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270842"
 ---
 # <a name="create-a-project-team"></a>إنشاء فريق مشروع
 
@@ -33,7 +35,7 @@ ms.locfileid: "7005780"
 
 يمكن لمدير المشروع تحديد دور في الصفحة ثم إذا كان هناك مورد متوفر يناسب المطلب ، فحدد لحجز مورد لملء الدور. لاحظ انه ليس من الضروري ان يتم حجز الموارد عند هذه النقطة في مرحله التخطيط. عند إنشاء WBS ، يمكنك استبدال ادوار بموارد ستافيد للمشروع. إذا تم استبدال الأدوار بالموارد الستافيده في WBS ، سيقوم اعداد المورد تلقائيا بتحديث سرد وجدوله فريق المشروع.
 
-[![سرد فريق المشروع الذي يتضمن كلا من الأدوار والموارد الفعلية.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![سرد فريق المشروع الذي يتضمن كلا من الأدوار والموارد الفعلية](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 يتمتع مدير المشروع بالعديد من الخيارات لحجز مورد لمشروع، مثل **القدرة الإنتاجية المتبقية**، و **القدرة الإنتاجية الكاملة**، و **النسبة المئوية للقدرة الإنتاجية**، و **تحديد الساعات**. يمكن إلغاء خيارات الحجز هذه في اي وقت عند تغيير تعيينات الموارد. هناك نوعان من أنواع الحجز مدعومين:
 

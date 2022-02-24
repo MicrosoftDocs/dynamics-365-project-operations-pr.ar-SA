@@ -2,17 +2,19 @@
 title: ربط القيم الفعلية بالسجلات الأصلية
 description: يشرح هذا الموضوع كيفية ربط القيم الفعلية بالسجلات الأصلية مثل إدخال الوقت أو إدخال المصروفات أو سجلات استخدام المواد.
 author: rumant
+manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991740"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852573"
 ---
 # <a name="link-actuals-to-original-records"></a>ربط القيم الفعلية بالسجلات الأصلية
 
@@ -77,7 +79,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 يوضح المثال التالي المعالجة النموذجية لإدخالات الوقت في دورة حياة مشروع Project Operations.
 
-> ![معالجة وإدخالات الوقت في دورة حياة خدمه Project Service.](media/basic-guide-17.png)
+> ![معالجة وإدخالات الوقت في دورة حياة خدمه Project Service](media/basic-guide-17.png)
  
 1. يؤدي إرسال إدخال الوقت إلى إنشاء سطرين من أسطر دفتر اليومية: أحدهما للتكلفة والأخر للمبيعات غير المفوترة.
 2. تتسبب الموافقة النهائية على إدخال الوقت في إنشاء قيمتين فعليتين: قيمة فعلية للتكلفة وأخرى للمبيعات غير المفوترة.

@@ -2,16 +2,18 @@
 title: إدارة عدة عملاء على بنود عرض أسعار قائم على المنتج
 description: يقدم هذا الموضوع معلومات عن كيفية إدارة عدة عملاء على بنود عرض أسعار قائم على المنتج.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992010"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118547"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>إدارة عدة عملاء على بنود عرض أسعار قائم على المنتج
 
@@ -42,6 +44,3 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 يمكنك تحرير النسب المئوية لتقسيم الفوترة بشكل مباشر. عندما لا يساوي إجمالي النسب المئوية لتقسيم الفوترة 100%، يحدث خطأ. بعد تحرير النسب المئوية لتقسيم الفوترة، قم بتحديث صفحة بند عرض الأسعار لإزالة الخطأ.
 
 استخدم إجراء التوزيع المتساوي على الشبكة الفرعية لعملاء بند عرض الأسعار لتخصيص تقسيم الفوترة على كافة عملاء بنود عرض الأسعار. عند وجود معامل تقريب، سيُضاف إلى عميل التقريب. توضع دائمًا علامة عميل التقريب على أحد عملاء بنود عرض الأسعار، مما يعني أن علامة التقريب لسجل عميل بند عرض الأسعار معينة إلى **نعم**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

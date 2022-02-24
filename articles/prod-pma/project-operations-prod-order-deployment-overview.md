@@ -2,17 +2,18 @@
 title: نظرة عامة على نشر Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج‬
 description: يقدم هذا الموضوع معلومات حول نوع النشر، Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج‬‬.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7bad4de10a508f0c1aa2cc6bb0c41081f81fb259
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009065"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365373"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>نظرة عامة على نشر Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج‬
 
@@ -26,7 +27,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 - إدارة المبيعات القائمة على المشروع باستخدام وحدة **المبيعات والتسويق** في تطبيقات Dynamics 365 Finance and Operations
 - تسعير المشروع وتحديد التكلفة باستخدام تكوين معدل التكلفة ومعدل الفاتورة في تطبيقات Finance and Operations
 - إدارة الموارد للمشاريع في تطبيقات Finance and Operations
-- تقدم المشروع وتتبع الوقت في تطبيقات Finance and Operations
+- تقدم المشروع وتعقب الوقت في تطبيقات Finance and Operations
 - تجارب إدارة المصروفات للمصروفات الخاصة بالمشروع وغير الخاصة بالمشروع مع التقاط الإيصال باستخدام إمكانات التعرف البصري على الحروف‬
 - الفوترة باستخدام نظام ضريبة مبيعات المؤسسات ونظام أسعار الصرف السارية التاريخ
 - مجموعات المشاريع القابلة للتكوين لمحاسبة واستحقاقات الأعمال قيد التنفيذ
@@ -42,6 +43,3 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 - محرك ضريبة مبيعات المؤسسات ونظام أسعار الصرف لإنشاء الفواتير الموجهة للعميل للمشاريع.
 - نظام محاسبة المشاريع والتعرف على الإيرادات يتوافق مع معايير التقارير المالية الدولية (IFRS).
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

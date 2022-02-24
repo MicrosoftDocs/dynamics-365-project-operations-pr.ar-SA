@@ -2,10 +2,12 @@
 title: استخدام فئة الحركة كبعد تسعير
 description: يقدم هذا الموضوع معلومات حول استخدام فئة حركة كبُعد تسعير.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988821"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150742"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>استخدام فئة الحركة كبعد تسعير
 
@@ -51,6 +53,3 @@ ms.locfileid: "6988821"
 2. في صفحة **المعلمات**، في علامة التبويب **أبعاد التسعير القائمة على المبلغ**، لاحظ أن الشبكة الموجودة في علامة التبويب تعرض السجلات في كيان **أبعاد التسعير**.
 3. أضف **فئة الحركة** إلى هذه القائمة، وقم بتعيين حقلي **قابل للتطبيق على التكلفة** و **قابل للتطبيق على المبيعات** إلى **نعم**.
 4. في حقل **نوع البعد**، حدد **مستند إلى المبلغ**، ثم حدد أولوية **فئة الحركة** المرتبطة بالتكلفة والمبيعات.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

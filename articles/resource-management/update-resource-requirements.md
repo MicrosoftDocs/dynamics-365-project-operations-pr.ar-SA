@@ -2,16 +2,18 @@
 title: تحرير متطلبات مورد
 description: يوفر هذا الموضوع معلومات حول كيفية تحديث معلومات متطلبات الموارد.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999750"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128762"
 ---
 # <a name="edit-a-resource-requirement"></a>تحرير متطلبات مورد
 
@@ -30,10 +32,8 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 - الأدوار
 - تفضيلات الموارد
 - الوحدة التنظيمية المفضلة
-- شركة التوريد
+- شركة تعيين الموارد‬
 
-## <a name="edit-resource-assignment-contours"></a>تحرير مخططات تعيين الموارد
+## <a name="edit-resource-assignment-contours"></a>تحرير الإحاطات لتعيين المورد
 
 بالإضافة إلى تحرير تفاصيل متطلبات الموارد، يمكن لمدير المشروع تحديث الإحاطات الفردية لمتطلب المورد باستخدام وظيفة **تحديد النمط**. عند اختيار **تحديد النمط**، يتم فتح صفحة ويمكنك عرض الإحاطات على النطاق الزمني باليوم أو الأسبوع أو الشهر. ويمكن ضبط كل إحاطة لوقت البدء ووقت الانتهاء وإجمالي الجهد في فترة معينة.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

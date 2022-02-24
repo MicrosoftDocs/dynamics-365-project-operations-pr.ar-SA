@@ -2,16 +2,18 @@
 title: إدارة عدة عملاء على عقود المشروع
 description: يوفر هذا الموضوع معلومات حول كيفية إدارة عدة عملاء في عقد مشروع.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992055"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643134"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>إدارة عدة عملاء على عقود المشروع
 
@@ -45,6 +47,3 @@ ms.locfileid: "6992055"
 يمكنك تحرير النسب المئوية لتقسيم الفواتير عن طريق التحرير في الشبكة. عندما لا يكون مجموع النسب المئوية لتقسيم الفوترة 100 بالمئة، يحدث خطأ. بعد تحرير النسبة المئوية لتقسيم الفوترة، قم بتحديث صفحة **عقد المشروع** لإزالة الخطأ.
 
 يمكنك أيضًا تحديد **توزيع متساو** في الشبكة الفرعية لعملاء عقد المشروع. يتم تخصيص تقسيم الفواتير بالتساوي لجميع العملاء في عقد المشروع. وفي حال وجود أي معامل تقريب، ستتم إضافة المعامل إلى عميل التقريب. يقوم أحد عملاء العقد دائمًا بتعيين علامة **التقريب** إلى **نعم**. هذا العميل هو العميل التقريبي. عادةً ما يكون عميل التقريب هو أيضًا العميل الأساسي للعقد، ولكن هذا غير مطلوب.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

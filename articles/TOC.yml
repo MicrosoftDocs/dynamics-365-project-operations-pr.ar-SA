@@ -4,15 +4,9 @@
   items:
     - name: تحديد نوع النشر
       href: environment/determine-deployment-type.md
-    - name: الاشتراك في الإصدارات التجريبية من Project Operations
-      href: environment/admin-trials.md
     - name: تحديثات Project Operations
       href: whats-new/project-operations-updates.md
-    - name: الميزات التي تمت إزالتها أو إهمالها
-      items:
-        - name: الميزات التي تمت إزالتها أو إهمالها في Project Operations
-          href: whats-new/removed-depreciated-features-project.md
-- name: Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة
+- name: Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
   items:
     - name: الشروع في العمل
       items:
@@ -34,8 +28,6 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: نشر البيئات
           items:
-            - name: نشر تطبيق Project Operations Dataverse يدويًا مع دعم الكتابة المزدوجة
-              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: تزويد بيئة جديدة
               href: environment/resource-provision-new-environment.md
             - name: نموذج الأمان
@@ -56,28 +48,10 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: تكامل إدارة المصروفات
               href: environment/resource-dual-write-expense.md
-            - name: تكامل فاتورة المورّد
+            - name: تكامل فاتورة المورد
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: إزالة تثبيت Dynamics 365 Project Operations
-          href: environment/uninstall-project-operations.md
-    - name: الجديد
+    - name: الجديد‬
       items:
-        - name: ديسمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: نوفمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: أكتوبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: سبتمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: أغسطس 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: يوليو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: يونيو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: مايو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-may-2021-resource-based.md
         - name: أبريل 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: مارس 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
@@ -306,12 +280,8 @@
           items:
             - name: تطوير قوالب المشروع مع نسخ المشروع‬
               href: project-management/dev-copy-project.md
-            - name: استخدام واجهات API لجدولة المشروع
+            - name: استخدام واجهات برمجة تطبيقات (API) الجدولة (إصدار أولي للاستخدام العام)
               href: project-management/schedule-api-preview.md
-            - name: أداء واجهة API لجدولة المشروع
-              href: project-management/project-schedule-api-performance.md
-            - name: سجلات جدولة المشروع
-              href: project-management/schedule-api-logs.md
     - name: إدارة الموارد
       items:
         - name: المفاهيم الأساسية
@@ -398,16 +368,12 @@
               href: expense/set-up-workflows.md
             - name: إدارة التفويض
               href: expense/manage-delegation.md
-            - name: تكوين معلمات إدارة المصروفات
+            - name: تكوين محددات إدارة المصروفات
               href: expense/configure-expense-management-parameters.md
             - name: إعداد تكامل بطاقة الائتمان
               href: expense/set-up-credit-card-integration.md
             - name: إعداد فئات المصروفات
               href: expense/set-up-expense-categories.md
-            - name: إعداد الأميال باستخدام مستويات معدل المسافة بالميل
-              href: expense/set-up-mileage.md
-        - name: تصنيف المصروفات
-          href: prod-exp/expense-itemization.md
         - name: المصروفات الشخصية
           href: expense/personal-expenses-expense-report.md
         - name: المصروفات بين الشركات الشقيقة
@@ -442,8 +408,6 @@
       items:
         - name: نظرة عامة على الموافقات
           href: approvals/approvals-overview.md
-        - name: مجموعات الموافقة
-          href: approvals/approval-sets.md
         - name: ملاحظات المطورين
           items:
             - name: ملاحظات المطورين للموافقات
@@ -464,18 +428,12 @@
           href: procurement/configure-materials-nonstocked.md
         - name: شراء مواد غير مخزنة للمشاريع باستخدام فواتير المورد المعلقة
           href: procurement/pending-vendor-invoices.md
-        - name: طلب مواد غير مخزنة للمشاريع باستخدام أوامر شراء المشروع
-          href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: الاحتفاظ بالموردين
-          items:
-            - name: نظرة عامة على الاحتفاظ بالموردين
-              href: procurement/vendor-retention-overview.md
-            - name: إعداد الاحتفاظ بالموردين
-              href: procurement/set-up-vendor-retention.md
     - name: الفوترة
       items:
         - name: نظرة عامة على عملية الفوترة
           href: invoicing/post-project-invoices.md
+        - name: إدارة اقتراحات فواتير المشروع
+          href: invoicing/format-update-project-invoice-proposals.md
         - name: الفواتير الأولية
           items:
             - name: إدارة تراكم الفوترة القائمة على المشروع
@@ -494,22 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: تكوين التنفيذ التلقائي لفواتير قائمة على المشروع
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: فوترة العميل
-          items:
-            - name: إدارة اقتراحات فواتير المشروع
-              href: invoicing/format-update-project-invoice-proposals.md
-            - name: محاسبة صحيحة على اقتراحات فواتير مشروع المسودة
-              href: invoicing/correct-project-invoice-proposals.md
-        - name: الفوترة بين الشركات الشقيقة
-          items:
-            - name: نظرة عامة على الفوترة بين الشركات الشقيقة
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: تكوين الفوترة بين الشركات الشقيقة
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: إنشاء حركات بين الشركات الشقيقة
-              href: project-accounting/create-intercompany-transactions.md
-            - name: إنشاء فواتير العميل والمورّد بين الشركات الشقيقة
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+        - name: إدارة اقتراحات فواتير المشروع
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: محاسبة المشروع
       items:
         - name: افتراضيات الأبعاد المالية
@@ -522,6 +466,16 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: دفتر يومية التكامل في Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: الفوترة بين الشركات الشقيقة
+          items:
+            - name: نظرة عامة على الفوترة بين الشركات الشقيقة
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: تكوين الفوترة بين الشركات الشقيقة
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: إنشاء حركات بين الشركات الشقيقة
+              href: project-accounting/create-intercompany-transactions.md
+            - name: إنشاء فواتير العميل والمورّد بين الشركات الشقيقة
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: إقرار الإيرادات
       items:
         - name: نظرة عامة على إقرار الإيرادات
@@ -538,12 +492,6 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: إدارة تقديرات الإيرادات
           href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: استكشاف الأخطاء وإصلاحها
-      items:
-        - name: عملية مبيعات المشروع
-          items:
-            - name: خطأ عدم تطابق العملة عند إنشاء مشروع أو عقد أو عرض أسعار أو مورد قابل للحجز
-              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: النشر الخفيف – التعامل مع الفواتير الأولية
   items:
     - name: الشروع في العمل
@@ -558,26 +506,8 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: نموذج الأمان
           href: environment/security-model.md
-    - name: الجديد
+    - name: الجديد‬
       items:
-        - name: الجديد في الوصول المبكر للموجة 2 من إصدار 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: الجديد في ديسمبر 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: الجديد في نوفمبر 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: الجديد في أكتوبر 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: الجديد في سبتمبر 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: الجديد في أغسطس 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: الجديد في يوليو 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: الجديد في يونيو 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: الجديد في مايو 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: الجديد في أبريل 2021 - النشر الخفيف
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: الجديد في مارس 2021 - النشر الخفيف
@@ -826,10 +756,8 @@
           items:
             - name: تطوير قوالب المشروع مع نسخ المشروع‬
               href: project-management/dev-copy-project.md
-            - name: استخدام واجهات API لجدولة المشروع
+            - name: استخدام واجهات برمجة تطبيقات (API) الجدولة (إصدار أولي للاستخدام العام)
               href: project-management/schedule-api-preview.md
-            - name: أداء واجهة API لجدولة المشروع
-              href: project-management/project-schedule-api-performance.md
     - name: إدارة الموارد
       items:
         - name: المفاهيم الأساسية
@@ -886,44 +814,6 @@
           items:
             - name: نظرة عامة على استخدام الموارد
               href: resource-management/resource-utilization-overview.md
-    - name: إدارة العقود الفرعية في Project Operations
-      items:
-        - name: إدارة العقود الفرعية في Project Operations
-          href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: التعاقد من الباطن في إصدار الوصول المبكر أكتوبر 2021
-          href: pro/subcontracting/Subcontracting_EA_scope.md
-        - name: ‏‫المفاهيم الأساسية في التعاقد من الباطن
-          href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: إدارة الموردين وقوائم أسعار المشروع
-          href: pro/subcontracting/vendors-purchase-price-lists.md
-        - name: ‏‫المقاولون من الباطن كموارد قابلة للحجز
-          href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: تفاصيل الرأس للعقود من الباطن
-          href: pro/subcontracting/subcontract-header-details.md
-        - name: بنود التعاقد من الباطن للوقت
-          href: pro/subcontracting/subcontract-line-time.md
-        - name: بنود التعاقد من الباطن لفئات المصروفات
-          href: pro/subcontracting/subcontract-line-expense.md
-        - name: بنود التعاقد من الباطن للمنتجات
-          href: pro/subcontracting/subcontract-line-products.md
-        - name: موارد التعاقد من الباطن
-          href: pro/subcontracting/subcontract-line-resources.md
-        - name: الأحداث الرئيسية لشروط التعاقد من الباطن
-          href: pro/subcontracting/subcontract-line-milestones.md
-        - name: التعاقد من الباطن مع أعضاء فريق المشروع
-          href: pro/subcontracting/subcontracting-project-team-members.md
-        - name: خيارات التعاقد من الباطن مع أعضاء فريق المشروع
-          href: pro/subcontracting/subcon-options.md
-        - name: تقدير تكلفة تعيينات الموارد المتعاقد عليها من الباطن
-          href: pro/subcontracting/costing-subcon-ra.md
-        - name: تكوين لوحة الجدولة لإظهار العمال المتعاقدين والقدرة الإنتاجية المتعاقد عليها من الباطن
-          href: pro/subcontracting/configure-sb-subcon.md
-        - name: التوظيف في المشروع بالعمال المتعاقدين والقدرة الإنتاجية المتعاقد عليها من الباطن
-          href: pro/subcontracting/staffing-cw.md
-        - name: تسجيل الوقت والمصروفات واستخدام المواد للمكونات المتعاقد عليها من الباطن
-          href: pro/subcontracting/recording-subcon-actuals.md
-        - name: انتقالات الحالة في عقد من الباطن
-          href: pro/subcontracting/subcon-states.md
     - name: الوقت
       items:
         - name: نظرة عامة على الوقت
@@ -950,8 +840,6 @@
       items:
         - name: نظرة عامة على الموافقات
           href: approvals/approvals-overview.md
-        - name: مجموعات الموافقة
-          href: approvals/approval-sets.md
         - name: ملاحظات المطورين
           items:
             - name: ملاحظات المطورين للموافقات
@@ -986,16 +874,8 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
   items:
-    - name: الجديد
+    - name: الجديد‬
       items:
-        - name: الجديد في أكتوبر 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: الجديد في سبتمبر 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: الجديد في يوليو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: الجديد في مايو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: الجديد في أبريل 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: الجديد في مارس 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
@@ -1108,7 +988,7 @@
           href: expense/set-up-workflows.md
         - name: إدارة التفويض
           href: expense/manage-delegation.md
-        - name: تكوين معلمات إدارة المصروفات
+        - name: تكوين محددات إدارة المصروفات
           href: expense/configure-expense-management-parameters.md
         - name: إعداد تكامل بطاقة الائتمان
           href: expense/set-up-credit-card-integration.md
@@ -1148,24 +1028,6 @@
       items:
         - name: جدول إصدار التحديثات لـ Project Service 3.x
           href: psa/version-history-ps.md
-        - name: الجديد أو المتغير في إصدار التحديث 38، V3
-          href: psa/whats-new-ur-38.md
-        - name: الجديد أو المتغير في إصدار التحديث 37.5، V3
-          href: psa/whats-new-ur-37-5.md
-        - name: الجديد أو المتغير في إصدار التحديث 37، V3
-          href: psa/whats-new-ur-37.md
-        - name: الجديد أو المتغير في إصدار التحديث 36، V3
-          href: psa/whats-new-ur-36.md
-        - name: الجديد أو المتغير في إصدار التحديث 35، V3
-          href: psa/whats-new-ur-35.md
-        - name: الجديد أو المتغير في إصدار التحديث 34، V3
-          href: psa/whats-new-ur-34.md
-        - name: الجديد أو المتغير في إصدار التحديث 33، V3
-          href: psa/whats-new-ur-33.md
-        - name: الجديد أو المتغير في إصدار التحديث 32.5، V3
-          href: psa/whats-new-ur-32-5.md
-        - name: الجديد أو المتغير في إصدار التحديث 32، V3
-          href: psa/whats-new-ur-32.md
         - name: الجديد أو المتغير في إصدار التحديث 31، V3
           href: psa/whats-new-ur-31.md
         - name: الجديد أو المتغير في إصدار التحديث 30، V3
@@ -1236,8 +1098,6 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: دليل إعداد التقارير
           href: psa/implementation-guides/reporting-guide.md
-    - name: الترقية من Project Service Automation إلى Project Operations - خفيف
-      href: psa/upgrade-project-operations-non-stocked.md
     - name: ترقية Project Service Automation (إصدار التطبيق 3.x)
       items:
         - name: ترقية Project Service Automation‏
@@ -1406,8 +1266,6 @@
               href: psa/time-entry-calendar.md
             - name: تخصيص إدخال الوقت الأسبوعي
               href: psa/time-entry-extensibility-v3.md
-            - name: مجموعات الموافقة في Project Service Automation
-              href: psa/approval-set.md
     - name: الأسئلة المتداولة واستكشاف الأخطاء وإصلاحها (3.x)
       items:
         - name: لماذا يتم تعيين السعر إلى صفر بشكل افتراضي في القيم الفعلية لتكلفة المصروفات؟

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987600"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992950"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>إنشاء حجز مشروع من لوحة الجدولة
 
@@ -43,7 +43,7 @@ ms.locfileid: "6987600"
 
 1.  على لوحة الجدولة، سيظهر هذا المورد في علامة تبويب **المتطلبات المفتوحة**. وقد تحتاج إلى استخدام عوامل تصفية الأعمدة على الشبكة إذا كان لديك الكثير من المتطلبات مفتوحة. 
 
-    ![افتح علامة تبويب المتطلبات على لوحة الجدولة.](media/FAQ-Project-Booking-Schedule-Board-1.png "لقطة شاشة لجدول الحجوزات والتعيينات")
+    ![افتح علامة تبويب المتطلبات على لوحة الجدولة](media/FAQ-Project-Booking-Schedule-Board-1.png "لقطة شاشة لجدول الحجوزات والتعيينات")
 
 2. حدد المتطلبات. سوف تظهر علامة التبويب **بحث عن التوافر‬** في الجزء العلوي من الصف المحدد.
  
@@ -53,7 +53,7 @@ ms.locfileid: "6987600"
 
     يؤدي تحديد **حجز** إلى حجز‏‎ المورد في فريق المشروع.
 
-![لوحة إنشاء حجز مورد.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![لوحة إنشاء حجز مورد](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>الحجز من المتطلبات الأساسية
@@ -62,7 +62,7 @@ ms.locfileid: "6987600"
 
 1. لحجز مورد مع المتطلبات الأساسية، على لوحة الجدولة، حدد علامة تبويب **المشروع**. قد تحتاج إلى استخدام عوامل تصفية الأعمدة على عمود **المشروع** إذا كان لديك العديد من المشاريع.
 
-   ![عوامل تصفية العمود على لوحة الجدولة.](media/FAQ-Project-Booking-Schedule-Board-2.png "لقطة شاشة لجدول الحجوزات والتعيينات")
+   ![عوامل تصفية العمود على لوحة الجدولة](media/FAQ-Project-Booking-Schedule-Board-2.png "لقطة شاشة لجدول الحجوزات والتعيينات")
 
 2. حدد فقط المتطلبات التي لها اسم المشروع ومدتها صفر (0).
 

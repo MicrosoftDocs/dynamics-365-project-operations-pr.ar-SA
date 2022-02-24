@@ -2,6 +2,8 @@
 title: ما الجديد أو المتغير في إصدار التحديث 26 من Project Service Automation، الإصدار 3
 description: يسرد هذا الموضوع الميزات والإصلاحات المتوفرة في إصدار التحديث 26، الإصدار V3 من Project Service Automation.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa526e97a366c01dae2547d79d0eda2fb204e07d0f6383b991165b9eecd836e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14fcccf5804e5da0926dbc69bdfa040229a7f068
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004250"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143542"
 ---
 # <a name="project-service-automation-update-release-26-v3"></a>إصدار التحديث 26 من Project Service Automation، الإصدار 3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365. يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام. هذا الإصدار متوافق مع Dynamics 365 9.x. للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث. لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](/power-platform/admin/install-remove-preferred-solution).
+يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365. يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام. هذا الإصدار متوافق مع Dynamics 365 9.x. للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث. لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 يسرد هذا الموضوع الميزات والإصلاحات الجديدة أو المتغيرة لإصدار التحديث 26 من Project Service Automation، الإصدار 3‬ يحتوي هذا الإصدار على رقم إصدار V3.10.44.59 وهو متاح بشكل عام من خلال التحديث الذاتي في ديسمبر 2020.
 
@@ -72,6 +74,3 @@ ms.locfileid: "7004250"
 - عند اختيار بند قائم على المشروع في عرض أسعار أو عقد، فإن الزر **اقتراح** يجب أن يكون مرئيًا فقط عند تحديد خط مستند إلى منتج مرتبط بمنتج موجود.
 - قم بتقسم امتياز **Create_Product** من امتياز **Create_ProjectContract**.
 - يؤدي حذف بند فاتورة إلى فشل مرجع فارغ في **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

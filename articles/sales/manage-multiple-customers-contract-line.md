@@ -2,16 +2,18 @@
 title: إدارة عدة عملاء على شروط التعاقد القائمة على المشروع
 description: يقدم هذا الموضوع معلومات حول العمل مع شروط التعاقد والعقود التي تحتوي على عدة عملاء.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992100"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181886"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>إدارة عدة عملاء على شروط التعاقد القائمة على المشروع
 
@@ -42,6 +44,3 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 يمكن تحرير النسب المئوية لتقسيم الفوترة في الشبكة. عندما لا يكون مجموع النسب المئوية لتقسيم الفوترة 100 بالمئة، يحدث خطأ. بعد تحرير النسب المئوية لتقسيم الفوترة، قم بتحديث الصفحة لإزالة الخطأ.
 
 يمكنك أيضًا محاولة تحديد **توزيع متساو** في الشبكة الفرعية لعميل شرط التعاقد. يقوم هذا الإجراء بتخصيص تقسيمات الفوترة بشكل متساوٍ على جميع عملاء شرط التعاقد. وفي حال وجود أي معامل تقريب، ستتم إضافته إلى عميل التقريب. توضع دائمًا علامة عميل **التقريب** على عميل شرط التعاقد مع تعيين علامة **التقريب** إلى **نعم**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

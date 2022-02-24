@@ -2,6 +2,8 @@
 title: مراجعة تراكم الفوترة في المشاريع وعقود المشاريع
 description: يقدم هذا الموضوع معلومات حول كيفية مراجعة الوقت والمصروفات وتراكم المنتجات وكيفية وضع علامة جاهز للفوترة عليها.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006949"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150472"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>مراجعة تراكم الفوترة في المشاريع وعقود المشاريع
 
@@ -40,7 +42,7 @@ ms.locfileid: "7006949"
 
 لمراجعة تراكم الفوترة الخاص بالوقت والمواد، انتقل إلى **المبيعات**\> **الفوترة** \> **تراكم فوترة الوقت والمواد**. حدد كافة القيم الفعلية للمبيعات غير المفوترة والتي تكون جاهزة للفوترة، ثم حدد **جاهزة للفوترة**. تم تغيير حالة الفوترة لهذه القيم الفعلية إلى **جاهزة للفوترة**.
 
-![تراكم فوترة الوقت والمواد.](media/TMBacklog.png)
+![تراكم فوترة الوقت والمواد](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>مراجعة تراكم فوترة المنتجات
 
@@ -48,7 +50,7 @@ ms.locfileid: "7006949"
 
 لمراجعة تراكم الفوترة للمنتجات، انتقل إلى **المبيعات** \>**فوترة**\> **تراكم فوترة المنتج**. حدد جميع بنود العقد المستندة إلى المنتج والتي تكون جاهزة للفوترة، ثم حدد **جاهزة للفوترة**. تم تغيير حالة الفوترة لهذه البنود إلى **جاهزة للفوترة**.
 
-![تراكم فوترة المنتجات.](media/ProductBacklog.png)
+![تراكم فوترة المنتجات](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>مراجعة المراحل الرئيسية للفوترة في عقود السعر الثابت
 
@@ -56,7 +58,4 @@ ms.locfileid: "7006949"
 
 لمراجعة المراحل الرئيسية للفوترة، انتقل إلى **المبيعات**\> **الفوترة**\> **المبيعات**. حدد المراحل الرئيسية الجاهزة للفوترة، ثم حدد **جاهزة للفوترة**. تم تغيير حالة الفوترة لهذه المراحل الرئيسية إلى **جاهزة للفوترة**.
 
-![المراحل الرئيسية للأسعار الثابتة.](media/FPBacklog.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![المراحل الرئيسية للأسعار الثابتة](media/FPBacklog.png)

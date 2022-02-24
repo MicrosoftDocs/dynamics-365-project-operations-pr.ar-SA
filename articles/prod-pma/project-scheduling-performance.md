@@ -2,9 +2,11 @@
 title: أداء جدولة موارد المشروع
 description: يقدم هذا الموضوع معلومات حول كيفية تحسين أداء جدولة الموارد لعدد كبير من المشروعات.
 author: Yowelle
+manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007265"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070627"
 ---
 # <a name="project-resource-scheduling-performance"></a>أداء جدولة موارد المشروع
 
@@ -67,6 +69,3 @@ ms.locfileid: "7007265"
 
 > [!NOTE]
 > سيؤدي هذا إلى توزيع البيانات العامة في الجدول **‎ResRollup** عبر جميع الشركات في بيئتك، بحيث تحتاج إلى تشغيل الوظيفة الدُفعية في كيان قانوني واحد فقط. هذه الوظيفة الدُفعية مطلوبة لجميع طرق عرض **توفر الموارد**. إذا لم يتم تشغيل هذه الوظيفة الدُفعية، فسيتم إنشاء بيانات **ResRollup** على الفور، مما قد يستغرق بعض الوقت.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,10 @@
 title: جدول إصدار تحديثات Project Service 3.x
 description: يقدم هذا الموضوع معلومات حول الإصدارات المتوفرة والقادمة من Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 10/04/2021
+ms.date: 12/07/2020
 ms.reviewer: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -14,6 +15,7 @@ author: kfend
 ms.assetid: ''
 caps.latest.revision: 42
 ms.author: rumant
+manager: annbe
 search.audienceType:
 - admin
 - customizer
@@ -22,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a82622a30804c0c4228ebd37b89c94580cfc89e9
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.openlocfilehash: 05111b51d482493a8c8a1d9c9da44d6cd95fc8d2
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940918"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981356"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>جدول إصدار تحديثات Project Service 3.x
 
@@ -37,38 +39,36 @@ ms.locfileid: "7940918"
 
 | الحل  | آخر إصدار |
 |-------|----|
-| Project Service Automation    | 3.10.59.117 |
-| الوظيفة الإضافية لسطح المكتب Project Service Automation                | 3.60          |
+| Project Service Automation    | 3.10.52.77  |
+| الوظيفة الإضافية لسطح المكتب Project Service Automation                | 3.15           |
 
 للحصول على معلومات حول تحديثات Project Service، يمكنك مراجعة [خطط إصدار Dynamics 365](/dynamics365/release-plans/). 
 
 | محطة العمل  | المنطقة | الإصدار الحالي | الإصدار التالي |  التاريخ المجدول
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>محطة العمل 1</strong> | |  |  | |
-| | <i>الإصدار الأول</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 14 يناير 2022
+| | <i>الإصدار الأول</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 28 مايو 2021
 |<strong>محطة العمل 2</strong> | |  |  | |
-| | <i>أمريكا الجنوبية</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 يناير 2022
-| | <i>كندا</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 يناير 2022
-| | <i>الهند</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 يناير 2022
-| | <i>فرنسا</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 يناير 2022
-| | <i>جنوب إفريقيا</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 يناير 2022
-| | <i>ألمانيا</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 يناير 2022
-| | <i>سويسرا</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 يناير 2022
+| | <i>أمريكا الجنوبية</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
+| | <i>كندا</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
+| | <i>الهند</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
+| | <i>فرنسا</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
+| | <i>الإمارات العربية المتحدة</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
+| | <i>جنوب إفريقيا</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
+| | <i>ألمانيا</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
+| | <i>سويسرا</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 4 يونيو 2021
 |<strong>محطة العمل 3</strong> | |  |  | |
-| | <i>اليابان</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 يناير 2022
-| | <i>آسيا/المحيط الهادئ</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 يناير 2022
-| | <i>بريطانيا العظمى</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 يناير 2022
-| | <i>Oceana</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 يناير 2022
-| | <i>الإمارات العربية المتحدة</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 يناير 2022
+| | <i>اليابان</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07 مايو 2021
+| | <i>آسيا/المحيط الهادئ</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07 مايو 2021
+| | <i>بريطانيا العظمى</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07 مايو 2021
+| | <i>Oceana</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07 مايو 2021
 |<strong>محطة العمل 4</strong> | |  |  | |
-| | <i>‏‏أوروبا</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 07 يناير 2022
+| | <i>أوروبا</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 14 مايو 2021
 |<strong>محطة العمل 5</strong> | |  |  | |
-| | <i>أمريكا الشمالية</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14 يناير 2022
+| | <i>أمريكا الشمالية</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 21 مايو 2021
 |<strong>محطة العمل 6</strong> | |  |  | |
-| | <i>سحابة القطاع الحكومي</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14 يناير 2022
-| | <i>مجموعات القياس المخصصة</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 21 يناير 2022
-
-
+| | <i>سحابة القطاع الحكومي</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 21 مايو 2021
+| | <i>مجموعات القياس المخصصة</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 28 مايو 2021
 
 >[!Note]
 > - تشير التواريخ في جميع المناطق باستثناء سحابة المجتمع الحكومية (GCC) إلى توقيت التحديث التلقائي التالي. تشير التواريخ في سحابة المجتمع الحكومية إلى توفر الإصدار؛ في الوقت الحالي، لا يوجد تحديث تلقائي لهذه المناطق.

@@ -1,6 +1,8 @@
 ---
 title: اعتبارات ترقية هيكل تنظيم العمل
 description: يقدم هذا الموضوع معلومات حول ترقية هيكل تنظيم العمل من الإصدار 2.x حتى الإصدار 3.x من Project Service Automation.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992325"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149527"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>اعتبارات ترقية هيكل تنظيم العمل
 
@@ -32,20 +34,20 @@ ms.locfileid: "6992325"
 ## <a name="key-entities"></a>الكيانات الرئيسية
 بالنسبة لهيكل تنظيم عمل دقيق تم تحميله بالفعل بالموارد، تكون الكيانات التالية مطلوبة:
 
-- [المشروع](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [فريق المشروع](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [مهمة المشروع](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [تعيينات الموارد](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [تبعية مهمة المشروع](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [الموارد القابلة للحجز](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [المشروع](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [فريق المشروع](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [مهمة المشروع](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [تعيينات الموارد](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [تبعية مهمة المشروع](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [الموارد القابلة للحجز](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 لتحديد هيكل تنظيم عمل تم تحميله لمورد، يجب إكمال الخطوات التالية:
 
-1. إنشاء مشروع جديد. لمزيد من المعلومات حول كيفية إنشاء مشروع جديد، راجع [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. إنشاء مهمة واحده أو أكثر. لمزيد من المعلومات حول كيفية إنشاء مهمة، راجع [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. تحديد تبعيات المهام. لمزيد من المعلومات، راجع [تبعية مهمة المشروع](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. تعيين أعضاء فريق المشروع للمشروع. لمزيد من المعلومات، راجع [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. تعيين أعضاء فريق المشروع للمهام. لمزيد من المعلومات، راجع [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. إنشاء مشروع جديد. لمزيد من المعلومات حول كيفية إنشاء مشروع جديد، راجع [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. إنشاء مهمة واحده أو أكثر. لمزيد من المعلومات حول كيفية إنشاء مهمة، راجع [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. تحديد تبعيات المهام. لمزيد من المعلومات، راجع [تبعية مهمة المشروع](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. تعيين أعضاء فريق المشروع للمشروع. لمزيد من المعلومات، راجع [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. تعيين أعضاء فريق المشروع للمهام. لمزيد من المعلومات، راجع [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>علاقات فريق المشروع
 
@@ -94,6 +96,3 @@ ms.locfileid: "6992325"
 
 - يجب أن تكون كافة تبعيات مهام المشروع مرتبطة بنفس المشروع.
 - لا يمكن أن يكون لمهمة نفس التبعية مشار إليها أكثر من مرة.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

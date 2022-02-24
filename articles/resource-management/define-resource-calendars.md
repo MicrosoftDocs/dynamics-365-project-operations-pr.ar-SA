@@ -2,16 +2,18 @@
 title: تحديد تقاويم الموارد
 description: يقدم هذا الموضوع معلومات حول كيفية تحديد تقويمات ساعات العمل للموارد في Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990300"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123902"
 ---
 # <a name="define-resource-calendars"></a>تحديد تقاويم الموارد
 
@@ -41,6 +43,3 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 2. من طريقة عرض الشبكة، حدد عددًا من **الموارد القابلة للحجز** يصل إلى 25 لتحديثها.
 3. حدد **تعيين التقويم**، وسيظهر مربع حوار مع قائمة من قوالب ساعات العمل المتاحة.
 4. حدد القالب الذي تريد استخدامه، ثم حدد **تطبيق**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

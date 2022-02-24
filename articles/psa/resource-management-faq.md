@@ -2,6 +2,8 @@
 title: الأسئلة المتداولة حول إدارة الموارد
 description: يقدم هذا الموضوع إجابات على الأسئلة المتداولة حول إدارة الموارد.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002360"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144352"
 ---
 # <a name="resource-management-faq"></a>الأسئلة المتداولة حول إدارة الموارد
 
@@ -52,6 +54,3 @@ ms.locfileid: "7002360"
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>ما الفرق بين التعيين والحجز؟
 
 التعيينات هي تعيين الموارد إلى مهام المشروع في جدول المشروع. قد تكون الموارد إما موارد حقيقية أو عامة. الحجوزات هي تخصيص الموارد الثابت أو المبدئي لمشروع. تستهلك الحجوزات الثابتة سعة المورد. وبشكل مثالي، بالنسبة للموارد الحقيقية، يجب أن تتفق الحجوزات والتعيينات، لأنها لا تختلف. ومع ذلك، لا يفرض PSA هذا الاتفاق. تعرض طريقة عرض التسوية أماكن مدير مشروع لا تتفق فيها الحجوزات والتعيينات الخاصة بالمورد.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

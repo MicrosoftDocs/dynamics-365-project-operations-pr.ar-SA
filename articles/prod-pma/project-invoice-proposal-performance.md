@@ -2,9 +2,11 @@
 title: أداء اقتراحات فواتير المشروع
 description: يوفر هذا الموضوع معلومات حول تحسينات الأداء لاقتراحات فواتير المشروع.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005690"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920286"
 ---
 # <a name="project-invoice-proposal-performance"></a>أداء اقتراحات فواتير المشروع
 
@@ -44,6 +46,4 @@ ms.locfileid: "7005690"
 3.  قم بتحديث المستعرض.
 
 > [!NOTE]
-> لا يمكن تطبيق أداء مقترح الفاتورة عند تمكين قواعد الفوترة.
-> 
-> أثناء عملية الدُفعات لإنشاء مقترحات الفواتير، سيقوم عدد المهام الفرعية بتقسيم المهام إلى أقصى عدد بناءً على عدد العقود ذات الحركات القابلة للفوترة، بغض النظر عما أدخلته. على سبيل المثال ، إذا أدخلت **3** لعدد المهام الفرعية لإنشاء مقترح الفاتورة دفعة واحدة، وكان هناك عقدين فقط مع حركات قابلة للفوترة، فسيتم إنشاء مهمتين فرعيتين فقط.
+> لا يمكن تطبيق أداء اقتراحات الفواتير عند تمكين قواعد الفوترة أو عند تشغيل العمليات الدفعية.

@@ -2,17 +2,18 @@
 title: أعضاء فريق المشروع
 description: يوفر هذا الموضوع معلومات حول كيفية العمل مع معلومات عضو فريق المشروع والسمات والجدولة.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 034b39b93b7c5cb640e7dd8281e0d224d69d8adaf3eedbdff288a96e7fb9920b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993990"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127412"
 ---
 # <a name="project-team-members"></a>أعضاء فريق المشروع
 
@@ -59,6 +60,3 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 - **جديد**: بالإضافة إلى إضافة الموارد مباشرة من الجدول، يمكن لمديري المشروع إضافة أعضاء فريق عامة أو مسماة جديدة للفريق من شبكه أعضاء الفريق.
 - **حذف**: من خلال تحديد واحد أو أكثر من أعضاء الفريق، يمكن لمدير المشروع حذف الموارد التي لم تعد تشارك في المشروع. سيؤدي حذف عضو فريق إلى حذف كافة تعيينات الموارد المقترنة وإلغاء كافة الحجوزات الموجودة.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: نقل موازنات المشروع في نهاية السنة المالية
 description: توفر هذه المقالة معلومات حول كيفية نقل مبالغ الموازنة المتبقية إلى سنوات مستقبليه وإنشاء تفاصيل سجل الموازنة.
 author: Yowelle
+manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007355"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070777"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>نقل موازنات المشروع في نهاية السنة المالية
 
@@ -96,6 +98,3 @@ ms.locfileid: "7007355"
 5. بالنسبة لكل مشروع تريد معالجته، حدد الخيار الموجود في بداية السطر للمشروع. 
 6. حدد **معالجة** لنقل مبالغ الموازنة المتبقية للمشاريع المحددة إلى السنة المالية المحددة.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

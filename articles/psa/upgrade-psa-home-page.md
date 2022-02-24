@@ -1,10 +1,11 @@
 ---
 title: الصفحة الرئيسية للترقية
 description: يوضح هذا الموضوع مكان البحث عن معلومات هامة حول الميزات الجديدة والمتغيرة في Dynamics 365 Project Service Automation، وعملية الترقية إلى الإصدار الأحدث.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -18,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006725"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150067"
 ---
 # <a name="upgrade-home-page"></a>الصفحة الرئيسية للترقية
 
@@ -64,6 +65,3 @@ ms.locfileid: "7006725"
 
 > [!NOTE]
 > للحصول على أفضل تجربه عند استخدام الإصدارات القديمة من تطبيقي Field Service وPSA، انتقل إلى صفحة **إعدادات النظام** وبالنسبة للحقل، حقل **استخدام الواجهة الموحدة الجديدة فقط (موصى به)**، حدد **لا** نظرًا لأن هذه الإصدارات لم يتم تصميمها ليتم تحميلها بشكل صحيح في UCI. بعد أن تقوم بإيقاف تشغيل UCI، يمكنك فتح وتشغيل هذه الإصدارات من Field Service وPSA باستخدام عميل الويب القديم. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

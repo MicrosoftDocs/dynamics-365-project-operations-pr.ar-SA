@@ -2,9 +2,11 @@
 title: أوامر مبيعات المشروع لمشاريع الوقت والمواد
 description: توضح هذه الموضوع كيفيه إنشاء أوامر مبيعات تستند إلى المشروع لمشاريع الوقت والمواد.
 author: Yowelle
+manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992820"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070629"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>أوامر مبيعات المشروع لمشاريع الوقت والمواد
 
@@ -39,6 +41,3 @@ ms.locfileid: "6992820"
 - انتقل إلى المشروع نفسه. في جزء الإجراء، حدد **إدارة > مهام العناصر > أمر المبيعات**. ستتحول معلومات المشروع بشكل افتراضي إلى أمر المبيعات من المشروع. إذا كان لعقد المشروع أكثر من مصدر تمويل ، ستحتاج إلى تحديد مصدر التمويل لتعيين العميل لأمر المبيعات. إذا كان هناك مصدر تمويل واحد فقط للمشروع ، فسيتم تعيين العميل تلقائيًا.
 - انتقل إلى صفحة **قوائم أمر المبيعات** وقم بإنشاء أمر توريد جديد. ستحتاج إلى تحديد المشروع لأمر المبيعات. بعد تحديد المشروع ، سيتم تعيين العميل من مصدر التمويل أو ستحتاج إلى تحديد مصدر التمويل إذا كان عقد المشروع يحتوي على مصادر تمويل متعددة.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

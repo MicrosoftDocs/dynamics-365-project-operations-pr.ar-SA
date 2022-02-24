@@ -2,9 +2,11 @@
 title: إنشاء حقول وكيانات مخصصة كأبعاد تسعير
 description: يوفر هذا الموضوع معلومات حول كيفية إنشاء مجموعات الخيارات أو الكيانات المخصصة.
 author: rumant
+manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003620"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642797"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>إنشاء حقول وكيانات مخصصة كأبعاد تسعير
 
@@ -44,7 +46,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 3. حدد **جديد** لإنشاء كيان جديد يسمي **العنوان القياسي**. 
 4. أدخل المعلومات المتبقية المطلوبة، ثم حدد **حفظ**.
 
-> ![تعريف كيان العنوان القياسي.](media/Standard-Title-entity-definition.png)
+> ![تعريف كيان العنوان القياسي](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>الأبعاد المستندة إلى مجموعة الخيارات 
 يمكنك إنشاء بعدين يستندان إلى مجموعة خيارات. 
@@ -54,11 +56,11 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 يوفر الرسم التالي طريقة عرض بعد **موقع عمل الموارد**. 
 
-> ![بعد التسعير المعتمد على مجموعة الخيارات يسمى موقع عمل المورد.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![بعد التسعير المعتمد على مجموعة الخيارات يسمى موقع عمل المورد](media/Option-set-PD-called-Resource-Work-Location.png)
 
 يوفر الرسم التالي طريقة عرض بعد **ساعات عمل الموارد**. 
 
-> ![بعد التسعير المعتمد على مجموعة الخيارات يسمى ساعات عمل المورد.](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![بعد التسعير المعتمد على مجموعة الخيارات يسمى ساعات عمل المورد](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. انتقل إلى **إعدادات** > **حلول**، وانقر نقرًا مزدوجًا فوق  **\<your organization name> أبعاد التسعير**. 
 2. في مستكشف الحلول، في جزء التنقل الأيسر، حدد **مجموعات الخيارات**. 
@@ -74,7 +76,4 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 4. أغلق الصفحة. 
 5. كرر الخطوات 1-3 لإنشاء عنوان قياسي آخر لـ "مهندس الأنظمة المتمرس".
 
-> ![نموذج بيانات لكيان العنوان القياسي.](media/ST-data.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![نموذج بيانات لكيان العنوان القياسي](media/ST-data.png)

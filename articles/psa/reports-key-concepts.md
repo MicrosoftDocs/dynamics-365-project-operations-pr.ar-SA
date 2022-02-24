@@ -2,6 +2,8 @@
 title: 'المفاهيم الأساسية:'
 description: يوفر هذا الموضوع معلومات حول المفاهيم الأساسية لإدارة الموارد في Project Service Automation.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995070"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147727"
 ---
 # <a name="key-concepts"></a>المفاهيم الأساسية:
 
@@ -46,6 +48,3 @@ ms.locfileid: "6995070"
 | المحيط                    | المهمة أو المتطلب أو ساعات التعيين كما تم تقسيمها إلى توزيع يومي. على سبيل المثال، يمكن تقسيم مهمة مدتها خمسة أيام، أي 40 ساعة إلى ثماني ساعات في اليوم خلال خمسه أيام. |
 | طريقة عرض التسوية        | طريقه عرض توضح الحجوزات والتعيينات لكل عضو في فريق المشروع. تتيح طريقة العرض هذه لمدير المشروع البحث عن أي عدم تطابق بين الحجوزات والتعيينات، واتخاذ إجراء تصحيحي في حالة حدوث عدم تطابق. |
 | ساعات العمل                 | كيان يُستخدم لتحديد سعة الموارد والساعات التي تعمل بالإضافة إلى ساعات العمل والتي ليست للعمل. يُشار إلى هذا الكيان أيضًا بتقويم المورد. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

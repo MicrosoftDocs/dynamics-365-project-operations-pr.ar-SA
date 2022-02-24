@@ -2,10 +2,12 @@
 title: استخدام مورد قابل للحجز كبُعد تسعير
 description: يقدم هذا الموضوع معلومات حول استخدام مورد قابل للحجز كبُعد تسعير.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988950"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144982"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>استخدام مورد قابل للحجز كبُعد تسعير
 
@@ -62,18 +64,15 @@ ms.locfileid: "6988950"
 1. للقيام بذلك، انقر نقرا مزدوجا فوق الصف في شبكة **أبعاد التسعير** لفتح صفحة البُعد لـ **msdyn_bookableresource**.
 2. في صفحة البُعد، في علامة التبويب **ذات الصلة**، انقر فوق **أسماء حقول أبعاد التسعير**.
 
- ![علامة تبويب أسماء حقول أبعاد التسعير.](media/PD-fieldname.png)
+ ![علامة تبويب أسماء حقول أبعاد التسعير](media/PD-fieldname.png)
 
 4. في طريقة العرض المقترنة التي يتم فتحها، انقر فوق **إضافة اسم حقل بُعد تسعير جديد**.
 
- ![إضافة أسماء حقول أبعاد تسعير جديدة.](media/Add-NewPD-fieldname.png)
+ ![إضافة أسماء حقول أبعاد تسعير جديدة](media/Add-NewPD-fieldname.png)
 
 
 وهذا يفتح صفحة **اسم حقل بُعد تسعير جديد** لـ **msdyn_bookableresource**. 
 
 5. أضف **msdyn_projectteam** إلى حقل **الاسم المنطقي للكيان** و **msdyn_bookableresourceid** إلى حقل **اسم الحقل**. احفظ السجل.
 
- ![نموذج اسم حقل بعد التسعير الجديد.](media/PD-fieldname-Added.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![نموذج اسم حقل بعد التسعير الجديد](media/PD-fieldname-Added.png)

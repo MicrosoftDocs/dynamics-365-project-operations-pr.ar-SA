@@ -2,16 +2,18 @@
 title: إدارة عدة عملاء على عقود المشروع - خفيف
 description: يقدم هذا الموضوع معلومات حول إدارة عدة عملاء على عقود المشروع.
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001730"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181301"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>إدارة عدة عملاء على عقود المشروع - خفيف
 
@@ -50,6 +52,3 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 يمكن تحرير النسب المئوية لتقسيم الفوترة باستخدام تجربة التحرير في الشبكة. عندما لا يكون مجموع النسب المئوية لتقسيم الفوترة 100 بالمئة، ستتلقى رسالة خطأ. بعد تحرير النسب المئوية لتقسيم الفوترة، قم بتحديث الصفحة لتجاهل الخطأ.
 
 يمكنك أيضًا تحديد **توزيع متساو** على الشبكة الفرعية **عملاء العقد** لتوزيع تقسيمات الفوترة بالتساوي على كافة عملاء العقد. وفي حال وجود أي معامل تقريب، ستتم إضافته إلى عميل التقريب. أحد عملاء العقد يتم تمييزه دائمًا كعميل **تقريب**، مما يعني أن سجل عميل العقد لديه علامة تقريب معينة إلى **نعم**. هذا العميل هو عادةً العميل الأساسي للعقد، ولكن يمكن تغييره أيضًا.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

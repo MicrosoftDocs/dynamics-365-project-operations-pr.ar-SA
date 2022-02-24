@@ -2,9 +2,11 @@
 title: إعداد الأدوار على قوالب هيكل تنظيم العمل
 description: يقدم هذا الموضوع معلومات حول إعداد معلومات الدور في قوالب هيكل تنظيم العمل.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008885"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070624"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>إعداد الأدوار على قوالب هيكل تنظيم العمل
 
@@ -89,7 +91,7 @@ ms.locfileid: "7008885"
 
 4. قم بتعيين التواريخ والجهد (بالساعات)، كما هو موضح في الرسم التوضيحي التالي.
 
-    [![تعيين التواريخ والمجهود.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![تعيين التواريخ والمجهود](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. حدد سطر مهمة **التهيئة**، ثم في حقل **الدور**، وحدد **مدير المشروع الأول**.
 6. حدد **نشر**.
@@ -105,6 +107,3 @@ ms.locfileid: "7008885"
     > لا تتلقى تحذيرًا بأن المورد المحدد هو الآن 2 ، لأن عدد الموارد يظل 1.
 
 14. في صفحة **هيكل تنظيم العمل**، تحقق من صحة تعيين المورد في WBS، ثم حدد **حفظ**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

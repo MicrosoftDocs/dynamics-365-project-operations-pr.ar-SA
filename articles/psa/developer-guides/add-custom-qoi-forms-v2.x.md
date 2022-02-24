@@ -2,10 +2,12 @@
 title: إضافة نماذج كيانات مخصصة جديدة (Project Service Automation 2.x)
 description: يقدم هذا الموضوع معلومات حول كيفية إضافة نماذج كيانات مخصصة للفرص أو عروض الأسعار أو أوامر الشراء أو الفواتير في Dynamics 365 Project Service Automation 2.x.
 author: makk
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
+ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995205"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144577"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>إضافة نماذج كيانات مخصصة جديدة (Project Service Automation 2.x)
 
@@ -57,7 +59,7 @@ ms.locfileid: "6995205"
     - قم بتصدير نموذج **معلومات المشروع** كجزء من حل غير مدار، ثم ابحث عن القيمة **formId** في الملف customization.xml الخاص بالحل الذي تم تصديره.
     - افتح نموذج **معلومات المشروع** في محرر النماذج، ثم ابحث عن المعرف الفريد العمومي (GUID) بجوار المعلمة **fromId** في URL، كما هو موضح في الشكل التوضيحي التالي.
 
-    ![قيمة formId للنموذج الجديدفي URL.](media/how-to-add-custom-forms-in-v2.0.png)
+    ![قيمة formId للنموذج الجديدفي URL](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. قم بإنشاء تعيين **msdyn\_ordertype** للقيمة **formId** من خلال تحرير مورد الويب msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. قم بإزالة التعليمات البرمجية من المورد واستبدله بالتعليمات البرمجية التالية.
 
@@ -94,6 +96,3 @@ ms.locfileid: "6995205"
     ```
 
 6. احفظ التخصيصات وانشرها.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

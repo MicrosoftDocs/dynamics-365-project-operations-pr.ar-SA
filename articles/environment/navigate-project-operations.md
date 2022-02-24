@@ -2,16 +2,18 @@
 title: التنقل في Project Operations
 description: يقدم هذا الموضوع معلومات حول كيفية الوصول إلى Project Operations من Lifecycle Services.
 author: sigitac
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994575"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642032"
 ---
 # <a name="navigate-project-operations"></a>التنقل في Project Operations
 
@@ -28,14 +30,11 @@ Dynamics 365 Project Operations للسيناريوهات المستندة إلى
 
 استخدم اسم البيئة في القسم، **اسم بيئة Common Data Service** للانتقال إلى Project Operations على بيئة CDS. 
 
-  ![اسم بيئة Common Data Service.](./media/environment-name.PNG)
+  ![اسم بيئة Common Data Service](./media/environment-name.PNG)
 
 حدد **تسجيل** > **تسجيل الدخول إلى البيئة** للانتقال إلى الوحدة **إدارة المشاريع والمحاسبة** في Finance.  
 
-   ![تسجيل الدخول إلى Finance.](./media/environment-login.PNG)
+   ![تسجيل الدخول إلى Finance](./media/environment-login.PNG)
 
 > [!NOTE]
 > يمكنك الوصول إلى Project Operations في Common Data Service وفي الوحدة النمطية **إدارة المشاريع والمحاسبة** مباشرةً باستخدام عناوين URL الخاصة بها. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: نموذج الأمان
 description: يقدم هذا الموضوع معلومات حول نموذج الأمان في Dynamics 365 Project Operations.
 author: stsporen
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991470"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642887"
 ---
 # <a name="security-model"></a>نموذج الأمان
 
@@ -56,9 +58,9 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 لا يقوم Project Operations بإنشاء مجموعة من خلال إجراء ضمني وإنما يقوم بذلك من خلال الإجراء الصريح للمجموعات الضاغطة.
 
-يقتصر بحث أعضاء المجموعة في مربع الحوار **إدارة المجموعات** على هؤلاء الذين تم تعيينهم كجزء من مجموعة أمان البيئة. لمزيد من المعلومات، راجع [التحكم في وصول المستخدم إلى البيئات: مجموعات الأمان والتراخيص](/power-platform/admin/control-user-access).
+يقتصر بحث أعضاء المجموعة في مربع الحوار **إدارة المجموعات** على هؤلاء الذين تم تعيينهم كجزء من مجموعة أمان البيئة. لمزيد من المعلومات، راجع [التحكم في وصول المستخدم إلى البيئات: مجموعات الأمان والتراخيص](https://docs.microsoft.com/power-platform/admin/control-user-access).
 
-![وضع المجموعة.](./media/groupsmode.png)
+![وضع المجموعة](./media/groupsmode.png)
 
 1. يتم إنشاء المشروع وامتلاكه بواسطة المستخدم الذي قام بالإنشاء.
 2. يتم تحديث مالك المشروع إلى الفريق.
@@ -68,7 +70,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 ## <a name="deployment-recommendation"></a>توصيات التوزيع
 مع تطوير نموذج تعاون مجموعة Office، ستتم إضافة الوظائف لتوفير مزيد من التحكم المفصل بمرور الوقت. سيتم تشجيع العملاء الذين يقومون بنشر Project Operations اليوم على التركيز على نموذج أمان Microsoft Dynamics 365 التقليدي.
 
-لمزيد من المعلومات، انظر [الأمان في Common Data Service](/power-platform/admin/wp-security).
+لمزيد من المعلومات، انظر [الأمان في Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>أمان Project Operations وMicrosoft Dynamics 365 Finance
 يشمل Project Operations الأدوار التالية:
@@ -76,9 +78,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 - مدير المشروع
 - محاسب المشروع
 
-للحصول على مزيد من المعلومات حول الأمان في Finance، راجع [الأمان المستند إلى الدور](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+للحصول على مزيد من المعلومات حول الأمان في Finance، راجع [الأمان المستند إلى الدور](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,10 @@
 title: الصفحة الرئيسية لإدارة الموارد
 description: يوفر هذا الموضوع معلومات حول كيفية إدارة الموارد.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 03/28/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a55b0f7c8190fd88017851a8e7c9b44cefacb483cd563f6f94110a7421de5d1d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47d8fcc8b648921df43b9c03999ed27d85823a98
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998175"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147547"
 ---
 # <a name="resource-management-home-page"></a>الصفحة الرئيسية لإدارة الموارد
 
@@ -40,6 +41,3 @@ ms.locfileid: "6998175"
 - [متطلبات الحجز المبدئي](resource-management-softbook-requirements.md)
 - [نماذج المهارات والكفاءة](resource-management-skills-proficiency.md)
 - [الأسئلة المتداولة حول إدارة الموارد](resource-management-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
