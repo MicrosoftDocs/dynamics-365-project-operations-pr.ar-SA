@@ -2,18 +2,16 @@
 title: إنشاء عروض أسعار المشروع من الفرص
 description: يقدم هذا الموضوع معلومات حول إنشاء عرض أسعار المشروع من فرصة.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d678fce7a6b52522500a77daecc46353ff17fbf2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118097"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009780"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>إنشاء عروض أسعار المشروع من الفرص
 
@@ -56,3 +54,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
    عند نقل الفرصة إلى هذه المرحلة، يمكنك تحديد عرض الأسعار هذا من قائمة عروض الأسعار المقترنة بهذه الفرصة. يشير تحديد عرض الأسعار هذا إلى أنك تنتقل إلى المرحلة التالية معه.
 
    ستظل كافة عروض الأسعار الأخرى المقترنة بالفرصة متوفرة ونشطة إلى أن يتم الفوز بإحداها. يمكنك نقل عملية المبيعات مره أخرى إلى المرحلة السابقة **تأهيل**، واختيار عرض أسعار آخر للانتقال معه إلى المرحلة التالية.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

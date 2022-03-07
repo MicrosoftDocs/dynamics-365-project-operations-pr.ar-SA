@@ -2,8 +2,6 @@
 title: الجديد أو المتغير في إصدار التحديث 15، الإصدار 3 من Project Service Automation
 description: يقدم هذا الموضوع معلومات حول الجديد في إصدار التحديث 15، الإصدار 3 من Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ec6746c0d3a1a03ee56440c73d044df844046f8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d052dd670ac31fae57a71cb71682da86a237b3487482a9548f3fb9e52516c407
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143947"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004430"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>الإصدار 3 من Project Service Automation، إصدار التحديث 15
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-يسرنا الإعلان عن آخر تحديث لتطبيق Dynamics 365 Project Service Automation (PSA). يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام. هذا الإصدار متوافق مع Dynamics 365 9.x. للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث. لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+يسرنا الإعلان عن آخر تحديث لتطبيق Dynamics 365 Project Service Automation (PSA). يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام. هذا الإصدار متوافق مع Dynamics 365 9.x. للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث. لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](/power-platform/admin/install-remove-preferred-solution).
 
 يسرد هذا الموضوع الميزات والإصلاحات الجديدة أو التي تم تغييرها في PSA V3، إصدار التحديث 15. يتضمن هذا الإصدار رقم البنية V3.10.5.28 وهو متوفر بشكل عام من خلال تحديث ذاتي في يناير 2020.
 
@@ -63,3 +61,6 @@ ms.locfileid: "5143947"
   - إصلاح: لم تعد تظهر رسالة الخطأ في **البحث عن المشروع‬** في النموذج **بند عرض الأسعار‬** عند وجود أكثر من 1000 مشروع.
   - إصلاح: تعرض الآن شبكة **التقديرات** لتقديرات العملات وتقديرات المصروفات رمز العملة الصحيح.
   - إصلاح: بعد قيام مؤسسة بتحديث PSA من إصدار التحديث 14 إلى إصدار التحديث 15، يتوقف ظهور علامة التبويب **الجدول** كفارغة على نموذج **المشروع**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

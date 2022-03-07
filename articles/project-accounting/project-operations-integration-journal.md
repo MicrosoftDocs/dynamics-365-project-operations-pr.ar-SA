@@ -2,18 +2,16 @@
 title: دفتر يومية التكامل في Project Operations
 description: يقدم هذا الموضوع معلومات حول العمل مع دفتر يومية التكامل في Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948313"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304240"
 ---
 # <a name="integration-journal-in-project-operations"></a>دفتر يومية التكامل في Project Operations
 
@@ -27,8 +25,8 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 يتم إنشاء السجلات في دفتر يومية تكامل Project Operations باستخدام عملية دورية، **الاستيراد من جدول التجهيز**. يمكنك تشغيل هذه العملية من خلال الانتقال إلى **Dynamics 365 Finance** > **إدارة المشاريع والمحاسبة** > **دوري** > **تكامل Project Operations** > **استيراد من جدول التجهيز**. يمكنك تشغيل العملية بشكل تفاعلي أو تكوين العملية بحيث تعمل في الخلفية حسب الحاجة.
 
-عند تشغيل العملية الدورية، يتم العثور على أي قيم فعلية لم تتم إضافتها بعد إلى دفتر يومية تكامل Project Operations. يتم إنشاء بند دفتر يومية لكل حركة قيمة فعلية.
-يقوم النظام بتجميع أسطر دفتر اليومية في دفاتر يومية منفصلة استنادًا إلى القيمة المحددة في حقل **وحدة الفترة على دفتر يومية تكامل Project Operations** (**Finance** > **إدارة المشاريع والمحاسبة** > **الإعداد** > **معلمات إدارة المشاريع والمحاسبة**، علامة التبويب **Project Operations على Dynamics 365 Customer Engagement**). تتضمن القيم المحتملة لهذا الحقل:
+عند تشغيل العملية الدورية، يتم العثور على أي قيم فعلية لم تتم إضافتها بعد إلى دفتر يومية تكامل Project Operations. يتم إنشاء سطر دفتر اليومية لكل حركة فعلية.
+يقوم النظام بتجميع أسطر دفتر اليومية في دفاتر يومية منفصلة استنادًا إلى القيمة المحددة في حقل **وحدة الفترة على دفتر يومية تكامل Project Operations** (**Finance** > **إدارة المشاريع والمحاسبة** > **الإعداد** > **معلمات إدارة المشاريع والمحاسبة**، علامة التبويب **Project Operations على Dynamics 365 Customer Engagement**). تتضمن القيم المحتملة لهذا الحقل ما يأتي:
 
   - **الأيام**: يتم تجميع القيم الفعلية حسب تاريخ الحركة. يتم إنشاء دفتر يومية منفصل لكل يوم.
   - **الأشهر**: يتم تجميع القيم الفعلية حسب شهر التقويم. يتم إنشاء دفتر يومية منفصل لكل شهر.

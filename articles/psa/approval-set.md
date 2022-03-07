@@ -1,5 +1,5 @@
 ---
-title: مجموعات الموافقة في Project Service Automation
+title: مجموعات الموافقة
 description: يوفر موضوع هذا الموضوع معلومات حول مجموعة الموافقات والطلبات والمجموعة الفرعية لهذه العمليات.
 author: stsporen
 manager: tfehr
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 9a7a9efbd8615f4923c6795a16c9cf98a40362b6
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: e57944b3031ff8b6da163125bb6668875ae77bd06f23a5b8c4ef06f396210e4f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323535"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995475"
 ---
-# <a name="approval-sets-in-project-service-automation"></a>مجموعات الموافقة في Project Service Automation
+# <a name="approval-sets"></a>مجموعات الموافقة
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

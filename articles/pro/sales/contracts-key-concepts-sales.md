@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75c4b90e47c0b90ed3fea8dce1533057aa6137b9
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 55d1310de4338e50a1fc7d0af8cd83e63856db61
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663758"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273767"
 ---
-# <a name="concepts-unique-to-project-contracts"></a>مفاهيم فريدة لعقود المشروع
+# <a name="project-contracts---key-concepts---lite"></a>عقود المشروع - المفاهيم الأساسية - خفيف
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 

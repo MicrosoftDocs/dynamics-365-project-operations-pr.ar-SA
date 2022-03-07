@@ -2,18 +2,16 @@
 title: إعداد بيانات التكوين وتطبيقها في Common Data Service
 description: يقدم هذا الموضوع معلومات حول إعداد وتطبيق بيانات التكوين في Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7742e81316b217066f9f3b8d5c23aa64f1a7efc4
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642212"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001275"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>إعداد بيانات التكوين وتطبيقها في Common Data Service 
 
@@ -23,7 +21,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-قبل أن تبدأ تكوين البيانات في Common Data Service (CDS)، يجب استيفاء المتطلبات الأساسية التالية:
+قبل أن تبدأ في تهيئة البيانات في Common Data Service (CDS)، فإنه يجب استيفاء المتطلبات الأساسية التالية:
 
 1.  تزويد بيئة CDS وبيئة Dynamics 365 Finance لـ Project Operations.
 2.  مشاركة معلومات الكيان القانوني من Dynamics 365 Finance مع بيئة CDS. وهذا يعني أن كيان **الشركة** في CDS يتضمن سجلات الشركة التالية:
@@ -33,7 +31,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="install-setup-and-configuration-data"></a>تثبيت بيانات الإعداد والتكوين
 
-1. قم بتنزيل وإلغاء حظر وفك ضغط [حزمة بيانات الإعداد والتكوين](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. قم بتنزيل وإلغاء حظر وفك ضغط [حزمة بيانات الإعداد والتكوين](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. انتقل إلى المجلد غير المضغوط وقم بتشغيل الملف القابل للتنفيذ، *DataMigrationUtility*.
 3. في الصفحة 1 من معالج ترحيل تكوين (CMT) Common Data Service، حدد **استيراد البيانات** ثم حدد **متابعة**.
 
@@ -57,13 +55,20 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ![استيراد البيانات](./media/5ImportData.png)
 
 10. ستعمل عملية الاستيراد لمدة عشر دقائق تقريبًا حسب سرعة الشبكة. بعد اكتمال الاستيراد، قم بإنهاء معالج CMT. 
-11. راجع مؤسستك للحصول على البيانات في 19 كيان التالي:
+11. راجع مؤسستك للحصول على البيانات في 26 كيان التالي:
 
-  - ‏‏العملة
+  - عملة
+  - مخطط الحسابات
+  - التقويم المالي
+  - أنواع أسعار صرف العملة
+  - يوم السداد
+  - جدولة الدفع
+  - شروط السداد
   - الوحدة التنظيمية
-  - جهة اتصال
+  - ‏‫جهة الاتصال‬
   - مجموعة الضرائب
   - مجموعة العملاء
+  - مجموعة الموردين
   - الوحدة
   - مجموعة وحدات
   - قائمة الأسعار
@@ -127,10 +132,13 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 12. قم بتحديث الحقول التالية:
 
  - **الشركة الافتراضية**: USPM
- - **الوحدة التنظيمية الافتراضية**: Contoso Robotics Global
+ - **الوحدة المؤسسية الافتراضية**: Contoso Robotics Global
  - **تكرار الفاتورة**: اليوم السابع واليوم الأخير
  - **قالب ساعة العمل**: قم بالتغيير إلى القالب الذي قمت بإنشائه.
 
 13. حدد **حفظ**. 
 
 ![معلمات المشروع المحدثة](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: استخدام لوحة الجدولة لحجز موارد المشروع
 description: يوفر هذا الموضوع معلومات حول كيفية حجز الموارد.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144397"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998220"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>استخدام لوحة الجدولة لحجز موارد المشروع
 
@@ -36,20 +34,23 @@ ms.locfileid: "5144397"
 1. في حالة طي جزء **متطلبات الحجز** أسفل الصفحة، حدد عنصر تحكم الموسع لتوسيعه.
 2. في جزء **متطلبات الحجز**، من علامة التبويب **المشروع**، حدد المطلب المراد حجزه.
 
-    ![تحديد المتطلب من علامة التبويب المشروع](media/Resource-Management-image73.png)
+    ![تحديد المتطلب من علامة التبويب المشروع.](media/Resource-Management-image73.png)
 
 3. حدد **البحث عن التوافر** لتصفية الموارد القابلة للحجز وعرض الموارد المتوفرة. 
 4. حدد موردًا واحدًا أو أكثر من لوحة الجدولة. 
 5. في الجزء **إنشاء حجز مورد** على الجانب الأيمن من الصفحة، أدخل معلومات الحجز، ثم حدد **حجز وإنهاء**.
 
-    ![إنشاء جزء حجز المورد للمورد القابل للحجز المحدد](media/Resource-Management-image74.png)
+    ![إنشاء جزء حجز المورد للمورد القابل للحجز المحدد.](media/Resource-Management-image74.png)
 
 6. أثناء تحديد المتطلب في الجزء **إنشاء حجز المورد**، حدد خلية واحدة أو أكثر من المورد لإنشاء الحجز.
 
-    ![تحديد عدة خلايا لمورد](media/Resource-Management-image75.png)
+    ![تحديد عدة خلايا لمورد.](media/Resource-Management-image75.png)
 
 7. حدد **حجز**.
 
 يتم استيفاء المتطلب باستخدام المورد المحدد. في الجزء **متطلبات الحجز**، لاحظ أنه تم تحديث المتطلبات، ويتم عرض المورد كما تم حجزه في المشروع.
 
-![حجز المورد في المشروع](media/Resource-Management-image76.png)
+![حجز المورد في المشروع.](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

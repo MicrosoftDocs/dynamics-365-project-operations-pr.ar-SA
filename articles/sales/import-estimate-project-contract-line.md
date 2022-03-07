@@ -2,24 +2,22 @@
 title: استيراد تقدير إلى شروط التعاقد المستندة إلى المشروع
 description: يقدم هذا الموضوع معلومات عن كيفية استيراد تقديرات من مشروع إلى شرط تعاقد.
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: ea513ca8126eadbf563f3c6cb3e966f81703ae805d12881f865cdc1dd77e191d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4070879"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990075"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>استيراد تقدير إلى شروط التعاقد المستندة إلى المشروع
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
-في Dynamics 365 Project Operations، يمكنك استيراد التقديرات من مشروع إلى شرط تعاقد يستند إلى المشروع.
+في Dynamics 365 Project Operations، يمكنك استيراد التقديرات من مشروع إلى شروط التعاقد المستندة إلى المشروع.
 
 1. تأكد من تعبئة حقل **المشروع** على شرط التعاقد المستند إلى المشروع.
 2. على علامة التبويب **تفاصيل شروط التعاقد**، على الشبكة الفرعية، حدد **استيراد من تقديرات المشروع**. عندئذ تفتح صفحة مربع حوار يتضمن خيارات التلخيص. خيارات التلخيص المتوفرة هي **فئة الحركة** و **الفئة** و **الدور** و **مهمة المشروع**. بالاستناد إلى تحديدات التلخيص، يتم نسخ التقدير من المشروع لكل فئات الحركات والمهام المضمنة على شرط التعاقد هذا. 
@@ -59,3 +57,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | المهمة A | النقل الجوي | 10/1/2020 | 4 | 400 | 1600 |
 | المهمة B | فندق | 10/1/2020 | 4 | 200 | 800 |
 | المهمة C | فندق | 11/1/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

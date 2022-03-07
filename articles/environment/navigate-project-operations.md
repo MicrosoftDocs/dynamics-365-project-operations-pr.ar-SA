@@ -8,20 +8,18 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 92a9c4e62165f3e26ccb03c7af61f483c6744cc5
+ms.sourcegitcommit: 627d42e2a318dfc9564a4b803ada157682d4a0db
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642032"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4174249"
 ---
 # <a name="navigate-project-operations"></a>التنقل في Project Operations
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-Dynamics 365 Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬ من مكونين: 
+يتكون Dynamics 365 Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬ من مكونين: 
 
  - **Project Operations على بيئة Common Data Service (CDS)**: يغطي هذا المكون الإمكانات والعملية من الفرصة إلى الفوترة الأولية. 
  - **إدارة المشاريع والمحاسبة على بيئة Dynamics 365 Finance**: يغطي هذا المكن قدرات إدارة المصروفات ومحاسبة المشاريع والتعرف على الإيرادات. 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b1ce6c2b644319f2d822010a34c57c591f82edc9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181796"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278132"
 ---
 # <a name="copy-project-based-quotes"></a>نسخ عروض الأسعار المستندة إلى المشروع
 
@@ -45,3 +45,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 > - مرجع المشروع في بنود عرض الأسعار القائمة على المشروع - معلومات موازنة العميل
 >
 >لأن هذه المعلومات تتعلق بكل عرض أسعار تحديدًا، لن يتم نسخ هذه الحقول والسجلات. يتم نسخ بنود عرض الأسعار للمشاريع والمنتجات، والتقديرات على تفاصيل بنود عرض الأسعار والقيم التي يجب عدم تجاوزها على مستوى عرض الأسعار. تعتمد القيم الافتراضية لسعر ومعدل التكلفة على خيار **نسخ التسعير** المحدد في صفحة مربع حوار **نسخ المعلمات**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

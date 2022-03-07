@@ -2,19 +2,17 @@
 title: الجديد في ديسمبر 2020 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
 description: يوفر هذا الموضوع معلومات حول التحديثات الإصلاحية المتوفرة في إصدار ديسمبر 2020 من Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج‬.
 author: Yowelle
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727915"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008795"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>الجديد أو المتغير في Project Operations، ديسمبر 2020 للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
 
@@ -141,4 +139,7 @@ _ينطبق على: Project Operations للسيناريوهات المستندة
 
 ## <a name="regulatory-updates"></a>التحديثات التنظيمية
 
-لمزيد من المعلومات حول التحديثات التنظيمية لـ Dynamics 365 Finance، راجع [التحديثات التنظيمية](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). من الطرق الأخرى للتعرف على التحديثات التنظيمية تسجيل الدخول إلى Lifecycle Services (LCS) وعرض التحديثات التنظيمية المخطط لها باستخدام أداة البحث عن المشكلة. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+لمزيد من المعلومات حول التحديثات التنظيمية لـ Dynamics 365 Finance، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). من الطرق الأخرى للتعرف على التحديثات التنظيمية تسجيل الدخول إلى Lifecycle Services (LCS) وعرض التحديثات التنظيمية المخطط لها باستخدام أداة البحث عن المشكلة. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

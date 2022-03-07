@@ -2,8 +2,6 @@
 title: الجديد أو المتغير في إصدار التحديث 28، الإصدار V3 من Project Service Automation
 description: يسرد هذا الموضوع الميزات والإصلاحات المتوفرة في إصدار التحديث 28، الإصدار V3 من Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/26/2021
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2d5e8c629f8108ed039948ca70842c9d8afebfa6
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: fed18ba292943f53965ee518afb5cbb13427ca60f32451edb49f67e6f10d24fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948630"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994935"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-28-v3"></a>الجديد أو المتغير في إصدار التحديث 28، الإصدار V3 من Project Service Automation
 

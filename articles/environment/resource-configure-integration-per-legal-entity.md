@@ -2,24 +2,22 @@
 title: تكوين تكامل Project Operations لكل كيان قانوني
 description: يقدم هذا الموضوع معلومات حول إعداد التكامل حسب الكيان القانوني في Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122867"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999390"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>تكوين تكامل Project Operations لكل كيان قانوني 
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
-يرشدك هذا الموضوع عبر الخطوات المطلوبة لتكوين Dynamics 365 Project Operations لكل كيان قانوني.
+ينقلك هذا الموضع عبر الخطوات المطلوبة لتكوين Dynamics 365 Project Operations لكل كيان قانوني.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>تمكين مفاتيح الميزات في Dynamics 365 Finance
 
@@ -51,3 +49,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
   - **الإعدادات الافتراضية لنوع الفوترة**: يستخدم Project Operations مجموعة ثابتة من الإعدادات الافتراضية لنوع الفوترة التي يجب تعيها إلى خصائص البنود في Finance. أنشئ سجلاً لكل نوع فوترة: **غير محدد** و **خاضع للرسوم** و **غير خاضع للرسوم** و **تكميلي‬** و **غير متوفر**.
   - **الإعدادات الافتراضية لفئة المشروع**: حدد الإعدادات الافتراضية لفئة المشروع التي يجب استخدامها لكل نوع حركة. سيتم استخدام هذه الإعدادات الافتراضية في **دفتر يومية تكامل Project Operations** وفي التقديرات التي لم يتم فيها تحديد فئة مشروع للقيمة الفعلية للمشروع.
   - **التنبؤات**: حدد نموذج التنبؤ الذي سيتم استخدامه لتقديرات الوقت والمصروفات.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

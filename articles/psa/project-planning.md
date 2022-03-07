@@ -2,10 +2,9 @@
 title: الصفحة الرئيسية لتخطيط المشروع
 description: يقدم هذا الموضوع معلومات حول تخطيط المشروع.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 17745ffacbfdcf50b44b0c3f04ecacab8905d15be9ef675a72ae47a858cb9abe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148222"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990570"
 ---
 # <a name="project-planning-home-page"></a>الصفحة الرئيسية لتخطيط المشروع
 
@@ -39,7 +38,7 @@ ms.locfileid: "5148222"
 
 - تخطيط المشاريع باستخدام جدول العمل والتقديرات.
 - تقدير وتتبع تكاليف المشروع والإيرادات.
-- استخدام تقديرات المشروع أثناء عملية المبيعات.
+- استخدم تقديرات المشروع أثناء عملية المبيعات.
 - التنبؤ بمتطلبات الموارد للمشاريع قيد الإعداد.
 - تسليم المشاريع بنجاح من خلال تتبع التقدم واستهلاك التكلفة.
 
@@ -52,3 +51,6 @@ ms.locfileid: "5148222"
 - [قوالب المشروع](project-templates.md)
 - [مراحل المشروع](project-stages.md)
 - [إعدادات المشروع](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

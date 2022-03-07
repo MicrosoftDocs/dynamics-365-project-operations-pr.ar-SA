@@ -2,18 +2,16 @@
 title: تحرير الحجوزات
 description: يوفر هذا الموضوع معلومات حول كيفية تحديث الحجوزات وإجراء تغييرات عليها.
 author: ruhercul
-manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841294"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008300"
 ---
 # <a name="edit-bookings"></a>تحرير الحجوزات
 
@@ -33,3 +31,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 ## <a name="schedule-board"></a>لوحة الجدولة
 
 من **لوحة الجدولة**، ستجد أن لدى مدير الموارد مجموعة متنوعة من طرق العرض لجميع الحجوزات في أنحاء المؤسسة. من طريقة العرض هذه، يمكن لمدير الموارد توسيع أو تقصير أو نقل الحجوزات الموجودة بشكل مشابه للإمكانيات المقدمة في **الاحتفاظ بالحجوزات**. يمكن لمدير الموارد أيضًا استبدال الموارد الموجودة المخصصة لحجز معين بالنقر بالزر الأيمن فوق الحجز، وتحديد **Substitute Resource**. كما يمكن لمديري الموارد تحرير مخطط الحجوزات الحالية عن طريق النقر بالزر الأيمن فوق الحجز وتحديد **تحرير**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

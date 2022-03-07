@@ -2,16 +2,16 @@
 title: تسجيل الدخول للإصدارات التجريبية من Project Operations
 description: يقدم هذا الموضوع معلومات عن كيفية توزيع Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901601"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599197"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>تسجيل الدخول للإصدارات التجريبية من Project Operations 
 
@@ -90,8 +90,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 4.  حدد عنوان URL الخاص بـ Microsoft Dataverse وعناوين URL لتطبيقات Finance and Operations للتحقق من صحة النشر.
 
 ## <a name="configuring-dual-write"></a>تكوين الكتابة المزدوجة
-- لتكوين أدوار الأمان للكتابة المزدوجة، راجع [تحديث إعدادات الأمان في Project Operations في Dataverse](resource-provision-new-environment.md).
-- لتكوين خرائط الكتابة المزدوجة، راجع [تشغيل خرائط الكتابة المزدوجة في Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+بالنسبة لتوزيعات المواد غير المخزنة فقط، قم بتكوين تعيينات الكتابة المزدوجة. لمزيد من المعلومات، راجع [إصدارات مخططات الكتابة المزدوجة لـ Project Operations](resource-dual-write-maps.md).
 
 ## <a name="assign-licenses"></a>تعيين التراخيص
 

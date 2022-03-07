@@ -2,10 +2,9 @@
 title: الصفحة الرئيسية لمشاريع تعيين الموارد
 description: يوفر هذا الموضوع معلومات حول إمكانات إدارة الموارد في Project Service Automation (‏PSA‏) لـ Dynamics 365.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 11/28/2018
 ms.topic: article
 ms.author: ruhercul
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6d62baf0d5a535d118df507edaba3059d44fd4d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b0ea56a7b41f5bb7d458b780f4e2611063e1b4a0ae2a6eb2acfa9cfef8c1cff0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147401"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984720"
 ---
 # <a name="resourcing-projects-home-page"></a>الصفحة الرئيسية لمشاريع تعيين الموارد
 
@@ -39,8 +38,8 @@ ms.locfileid: "5147401"
 - مطابقه المهارات من خلال تحديد المهارات المحددة في طلب المورد مقابل مهارات الموارد المتوفرة.
 - استبدال الموارد.
 - محاذاة تعيينات جدول المشروع وحجوزات الموارد.
-- تسوية الفروق في الحجوزات والتعيينات.
-- تغيير حجوزات الموارد كاستجابة لحالة خارج المكتب.
+- تسوية الاختلافات في الحجوزات والتعيينات.
+- تغيير حجوزات الموارد كاستجابة لحاله خارج المكتب.
 - التعاون بين مديري المشاريع ومديري الموارد.
 - عرض محفوظات استخدام الموارد مقابل هدف، بما في ذلك تصنيف لكيفية استهلاك وقت الموارد.
 - صيانة مستودع مهارات وكفاءة.
@@ -53,3 +52,6 @@ ms.locfileid: "5147401"
 - [حجز موارد مسماة من متطلبات الموارد](book-named-resource.md)
 - [إرسال طلب مورد](submit-resource-request.md)
 - [قبول مورد مشروع مقترح أو رفضه من طلب مورد](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

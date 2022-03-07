@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270977"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070698"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>تنفيذ الحقول المخصصة لتطبيق الأجهزة المحمولة لـ Microsoft Dynamics 365 Project Timesheet على iOS وAndroid
 
@@ -429,6 +429,3 @@ final class TSTimesheetDetails_Extension
 1. يحاول التطبيق وضع الفئة الافتراضية من مورد المشروع. يتم تعيين هذه الفئة الافتراضية في أسلوبي **getCurrentUserResource** و **getDelegatedResourcesForCurrentUser** في فئة **TSTimesheetSettingsService**.
 2. إذا لم يتم توفير الفئة الافتراضية على مستوى موارد المشروع ، فسيحاول التطبيق سحبها من نشاط المشروع. تم تعيين هذه الفئة الافتراضية في أسلوب **getActivitiesForProject** في فئة **TSTimesheetProjectService**.
 3. إذا لم يتم توفير الفئة الافتراضية على مستوى نشاط المشروع ، فإن الفئة الافتراضية المأخوذة من معلمات المشروع. تم تعيين هذه الفئة الافتراضية في أسلوب **getProjectDetailsbyRule** في فئة **TSTimesheetProjectService**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

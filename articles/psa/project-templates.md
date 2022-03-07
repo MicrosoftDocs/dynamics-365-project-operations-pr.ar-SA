@@ -2,8 +2,6 @@
 title: قوالب المشروع
 description: يقدم هذا الموضوع معلومات حول كيفية استخدام قوالب المشروع لإعداد المشروع السريع.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148042"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002495"
 ---
 # <a name="project-templates"></a>قوالب المشروع 
 
@@ -49,7 +47,7 @@ ms.locfileid: "5148042"
 
 - عند إنشاء مشروع من عرض أسعار، يمكنك تحديد قالب مشروع في مربع الحوار **إنشاء سريع: مشروع**.
 
-> ![مربع الحوار إنشاء سريع: مشروع](media/project-11.png)
+> ![مربع الحوار إنشاء سريع: مشروع.](media/project-11.png)
 
 - عندما تقوم بإنشاء مشروع عن طريق تحديد **مشروع جديد**، تظهر صفحة **المشروع** قبل أن يتم حفظ السجل. في الحقل **اختيار قالب**، حدد أحد قوالب المشروع المعرفة مسبقًا في المؤسسة.
 - استخدم **إنشاء مشروع من قالب** في صفحة **كيان القالب**.
@@ -69,3 +67,6 @@ ms.locfileid: "5148042"
 ### <a name="copying-a-project-team"></a>نسخ فريق مشروع
 
 عندما يتم نسخ فريق مشروع من قالب مشروع إلى مشروع ، يتم نسخ الموارد العامة ، إلى جانب المهارات والكفاءات المحددة في القالب. يتم أيضًا الاحتفاظ بتعيينات الموارد العامة كما كانت في قالب المشروع. الموارد المسماة غير مدعومة في قوالب المشروع.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

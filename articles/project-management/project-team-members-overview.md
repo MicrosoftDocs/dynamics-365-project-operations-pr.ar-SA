@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3526c5e2c968bdaa4d957592aed8d1b21c64b799
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127412"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286637"
 ---
 # <a name="project-team-members"></a>أعضاء فريق المشروع
 
@@ -60,3 +60,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 - **جديد**: بالإضافة إلى إضافة الموارد مباشرة من الجدول، يمكن لمديري المشروع إضافة أعضاء فريق عامة أو مسماة جديدة للفريق من شبكه أعضاء الفريق.
 - **حذف**: من خلال تحديد واحد أو أكثر من أعضاء الفريق، يمكن لمدير المشروع حذف الموارد التي لم تعد تشارك في المشروع. سيؤدي حذف عضو فريق إلى حذف كافة تعيينات الموارد المقترنة وإلغاء كافة الحجوزات الموجودة.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

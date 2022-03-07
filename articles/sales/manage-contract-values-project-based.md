@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b856e280ac56c1cedd7d4966aca7e7f234bc520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181670"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278087"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>العمل مع شروط التعاقد القائمة على المشروع
 
@@ -57,3 +57,6 @@ ms.locfileid: "4181670"
 | C1       | CL2           | P1      | Yes           | ‏‏نعم             | Yes          | صالح           | يتم تضمين الوقت والرسوم في المشروع P1 على CL1. يتم تضمين المصروفات في المشروع P1 على CL2. </br>   لا يوجد تداخل بين ما تم تضمينه في كل شرط تعاقد، وبالتالي هو صالح.  |
 | C1       | CL1           | P1      | ‏‏نعم          | ‏‏نعم             | ‏‏نعم         | غير صالح       | انتهاك القاعدة. يتم تضمين الوقت والمصروفات والرسوم في المشروع P1 على بنود عقدين.                                                                                               |
 | CL2      | CL2           | P1      | ‏‏نعم          | ‏‏نعم             | ‏‏نعم         | غير صالح       | انتهاك القاعدة. يتم تضمين الوقت والمصروفات والرسوم في المشروع P1 على بنود عقدين.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

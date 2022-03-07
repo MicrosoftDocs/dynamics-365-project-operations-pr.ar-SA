@@ -2,11 +2,9 @@
 title: إعداد قائمة أسعار المبيعات
 description: يوفر هذا الموضوع معلومات حول قوائم أسعار المبيعات لتسعير المشروع.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 952d518fb58b5be46c4b1cf4ed57b2494fdfdad85e7fe6fb0d622367bc071b5f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176235"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997590"
 ---
 # <a name="set-up-a-sales-price-list"></a>إعداد قائمة أسعار المبيعات
 
@@ -59,3 +57,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 عند إدخال قائمة أسعار مشروع بشكل افتراضي، يتحقق النظام من أن العملة تطابق عملة العميل، وأن قوائم الأسعار الافتراضية التي التي إدخالها لها سياق **المبيعات**.
 
 يمكنك ربط قوائم أسعار مشروع متعددة باستخدام كيانات مبيعات العميل والفرصة وعرض الأسعار وعقد المشروع. تدعم هذه الإمكانية الأسعار الافتراضية المحددة بتاريخ لعقد المشروع الذي يعمل بفترة طويلة، حيث يمكنك طلب أكثر من قائمة أسعار واحدة لحساب التحديثات الخاصة بالأسعار التي تحدث بسبب التضخم. ومع ذلك، إذا كانت قوائم الأسعار التي قمت بربطها بالعميل أو الفرصة أو عرض الأسعار أو كيان عقد المشروع بها تراكب بشأن تاريخ السريان، فقد تكون الأسعار الافتراضية غير صحيحة. بالتالي، يتعين عليك التأكد من أن قوائم أسعار المشروع ذات تاريخ سريان متراكب غير مقترنة بهذه الكيانات.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: دليل تخطيط المشاريع وتعقبها
 description: يوفر هذا الموضوع رابطًا لمعلومات حول التخطيط والتتبع في Project Service Automation.
 author: kfend
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/04/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 363483d7a63ce028b3378e021a210b4c8d8e4623
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0dfd05f7f22d0f339bd2437bbd47009e92ebb72a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149077"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070745"
 ---
 # <a name="project-planning-and-tracking"></a>دليل تخطيط المشاريع وتعقبها
-
-[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 

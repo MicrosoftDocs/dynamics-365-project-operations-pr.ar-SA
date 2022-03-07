@@ -1,8 +1,6 @@
 ---
 title: قبول مورد مشروع مقترح أو رفضه
 description: يقدم هذا الموضوع معلومات حول كيفيm اعتماد مورد مشروع مقترح أو رفضه.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ae129284d0d053b78c39907a78a0cfda60ea43c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e5c0e53c7fbde92c0f0b445847d2499532626637cf66fa1bb556eccc1e6079ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146152"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992505"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>قبول مورد مشروع مقترح أو رفضه
 
@@ -35,13 +33,16 @@ ms.locfileid: "5146152"
 
 عندما يقترح مدير مورد موردا مسمي لتعبئة طلب مورد عام لمشروع، سيتم تحديث حقل **حالة الطلب** لعضو الفريق العام إلى **يحتاج للمراجعة**. سيتم إرسال الطلب إلى مدير المشروع للقبول أو الرفض.
 
-![عضو فريق عام مع اقتراح](media/RM-how-to-19.png)
+![عضو فريق عام مع اقتراح.](media/RM-how-to-19.png)
 
 تعرض الشبكة في علامة التبويب **الموارد المقترحة** في صفحة **عضو فريق المشروع** الحجوزات الحالية للمورد المقترح. وبعد قبول العرض، يتم تحديث الشبكة لعكس ذلك الحجز. 
 
 لقبول المورد المقترح وحجز ذلك المورد لفريقك، انقر فوق **قبول الاقتراحات**.  
 لرفض الاقتراح، انقر فوق **رفض المورد**.
 
-![قبول اقتراح مورد](media/RM-how-to-20.png) 
+![قبول اقتراح مورد.](media/RM-how-to-20.png) 
 
 وبشكل مشابه لتلبية طلب مورد عام مع مورد مسمى، سيتم استبدال المورد العام وسيتم تحديث المهام المعينة باستخدام عضو الفريق المسمى.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

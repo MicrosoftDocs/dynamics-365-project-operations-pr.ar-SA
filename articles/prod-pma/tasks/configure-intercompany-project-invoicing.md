@@ -2,11 +2,9 @@
 title: تكوين فواتير المشاريع بين الشركات الشقيقة
 description: يوضح هذا الموضوع كيفية إعداد فواتير المشروع بين شركتين في مؤسستك.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cb53cb63ee11082146455ec9f13790501dc3d1d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfb804945d15476fad29ce93d3f21adfbf2d950ace7b58f30911b36e494ff0c1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070703"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989399"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>تكوين فواتير المشاريع بين الشركات الشقيقة
 
@@ -41,7 +39,7 @@ ms.locfileid: "4070703"
 9. أغلق الصفحات للعودة إلى الصفحة الرئيسية.
 10. في جزء التنقل، انتقل إلى **الوحدات > إدارة المشاريع ومحاسبتها > إعداد > معلمات المشاريع ومحاسبتها**.
 11. حدد علامة التبويب **بين الشركات الشقيقة**.
-12. حرك شريط التمرير إلى **نعم** لتمكين جدولة الموارد والجداول الزمنيه بين الشركات الشقيقة.
+12. حرك شريط التمرير إلى **نعم** لتمكين جدولة الموارد والجداول الزمنية بين الشركات الشقيقة.
 13. في القائمة، ضع علامة على الصف المحدد.
 14. حدد **جديد**.
 15. في حقل **استعارة الكيان القانوني**، أدخل قيمة أو حددها.
@@ -64,3 +62,6 @@ ms.locfileid: "4070703"
 32. في حقل **الأسعار**، حدد رقمًا.
 33. حدد **حفظ**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: إعداد عمليات سير العمل لإدارة المصروفات
 description: يمكنك إعداد عملية سير عمل يتم استخدامها لمراجعة مستندات المصروفات والنفقات والموافقة عليها.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 883e871b434c910747e45904cc9dc0c46bb4e2df788f503b848ad41984884edd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127682"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997725"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>إعداد عمليات سير العمل لإدارة المصروفات
 
@@ -48,3 +46,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 |       <strong>طلب السفر</strong>       |          قم بإنشاء عمليات سير العمل الموافقة لطلبات السفر.           |
 |      <strong>طلب السلفة النقدية</strong>      |         إنشاء عمليات سير عمل الموافقة لطلبات السلفة النقدية.          |
 |        <strong>استرداد ضريبة القيمة المضافة</strong>        | قم بإنشاء عمليات سير عمل الموافقة لاسترداد ضريبة القيمة المضافة (VAT).  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

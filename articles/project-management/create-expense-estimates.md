@@ -2,23 +2,21 @@
 title: التقديرات المالية للمصروفات على المشروعات
 description: يوفر هذا الموضوع معلومات حول تحديد المصروفات المستندة إلى المشروع أو تقييمها.
 author: rumant
-manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: f4d42724af61aa241671e8dacacbe2be5a7d531f55c2025a89ff777ac41e9b67
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701765"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987825"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>التقديرات المالية للمصروفات على المشروعات
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-يسمح Dynamics 365 Project Operations لمدراء المشاريع بتحديد المصروفات القائمة على المشروع لكل مشروع أو مهمة. ويمكن ربط كل بند مصروفات بمهمة مشروع معينة. يتم تصنيف المصروفات في فئات مصروفات مختلفة، يتم تعريفها على المستوى المؤسسي. يتم تعريف التسعير والتكلفة لكل فئة مصروفات في قائمة الأسعار. 
+يسمح Dynamics 365 Project Operations لمدراء المشاريع بتحديد المصروفات القائمة على المشروع لكل مشروع أو مهمة. ويمكن ربط كل بند مصروفات بمهمة مشروع معينة. يتم تصنيف المصروفات في فئات مصروفات مختلفة، يتم تعريفها على المستوى المؤسسي. يتم تحديد التسعير والتكلفة لكل فئة مصروفات في قائمة الأسعار. 
 
 أكمل الخطوات التالية لعرض مصروفات المشروع أو إضافتها أو حذفها.
 

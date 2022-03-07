@@ -13,17 +13,19 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: suvaidya
+ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c014b0593a87ce50f09175b77d9cf498a65391e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f74f6906cc1137b9645a830360a546432dc5207f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271247"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070791"
 ---
 # <a name="set-up-expense-policies"></a>إعداد سياسات المصروفات
+
+[!include [banner](../includes/banner.md)]
 
 يمكنك تحديد النُهج التي يجب على العاملين اتباعها عند إدخال تقارير المصروفات وطلبات السفر وتقديمها.         
 يمكن أن يساعدك تنفيذ نُهج المصروفات في إدارة المصروفات بشكل فعال.         
@@ -51,6 +53,3 @@ ms.locfileid: "5271247"
 ## <a name="when-to-evaluate-policies"></a>متى يتم تقييم النهج
 
 في معلمات إدارة المصروفات، يوجد خيار يسمح لك بتقييم سياسات إدارة المصروفات عند حفظ بند أو عند إرسال تقرير مصروفات. إذا اخترت التقييم عند حفظ بند، فهذا سيضمن حصول المستخدمين على رؤية مسبقة لما يحتاجونه لإكمال تقرير مصروفاتهم بهم مرة واحدة. أو، يمكنك تأخير تقييم السياسة وتوفير الوقت إذا حدثت عملية التحقق من الصحة في النهاية، أثناء الإرسال إلى سير العمل.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: تكوين فئات المشروعات
 description: يقدم هذا الموضوع معلومات حول إعدادات فئات المشروع.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131912"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995155"
 ---
 # <a name="configure-project-categories"></a>تكوين فئات المشروعات
 
@@ -29,7 +27,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="transaction-categories"></a>فئات الحركات
 
-تمثل فئات الحركات التجميع الأساسي لحركات المشروع وهي لا تتعلق بنوع الشركة أو الحركة. على سبيل المثال، تستخدم شركة Contoso Robotics فئات التصميم والسفر والتثبيت وحركة الخدمة لتجميع حركات المشروع.
+تمثل فئات الحركات التجميع الأساسي لحركات المشروع وهي لا تتعلق بنوع الشركة أو الحركة. على سبيل المثال، تستخدم شركة Contoso Roboticsفئات التصميم والسفر والتثبيت وحركة الخدمة.
 
 يتم تحديد فئات الحركات في الوحدة النمطية Project Operations. 
 1. انتقل إلى **الإعدادات** \> **فئات الحركات** لفتح النموذج. 
@@ -53,3 +51,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 تُستخدم مجموعات الفئات لمشاركة الخصائص، بشكل أساسي ملفات تعريف الترحيل، بين فئات المشروع ذات الصلة. يجب أن يكون هناك مجموعة فئات واحدة على الأقل لكل نوع حركة ويتم تعيين مجموعة لكلف فئة مشروع.
 
 يتم تحديد مواصفات الترحيل في Project Operations بواسطة قواعد ملفات تعريف إيرادات وتكلفة المشروع وفئات المشاريع ومجموعات الفئات. يمكنك إعداد مجموعات الفئات من خلال الانتقال إلى **إدارة المشاريع والمحاسبة** \> **الإعداد** \> **الفئات** \> **مجموعات الفئات**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

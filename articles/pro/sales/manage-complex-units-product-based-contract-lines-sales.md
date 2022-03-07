@@ -2,18 +2,16 @@
 title: إدارة الوحدات المعقدة لشروط التعاقد المستندة إلى المنتج - خفيف
 description: يوفر هذا الموضوع معلومات حول دعم المنتجات المستندة إلى الاشتراك.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177360"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003350"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>إدارة الوحدات المعقدة لشروط التعاقد المستندة إلى المنتج - خفيف
 
@@ -46,3 +44,6 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 7. كرر الخطوات 2-6 لكل الخصائص التي ستشكل معًا الكمية الخاصة بشرط التعاقد القائم على المنتج.
 
 مع إعداد عوامل الكمية، وعندما يقوم المستخدم بإنشاء شرط تعاقد لهذا المنتج، تكون كمية شرط التعاقد مؤمنة. ثم يتم احتساب الكمية كمنتج لقيم الخاصية لشرط التعاقد.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

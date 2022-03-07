@@ -2,8 +2,6 @@
 title: إلغاء إدخالات الوقت والمصروفات المعتمدة مسبقا
 description: يقدم هذا الموضوع معلومات حول كيفية إلغاء وقت المشروع المعتمد وحركة المصروفات.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150562"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987420"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>إلغاء إدخالات الوقت أو المصروفات المعتمدة مسبقا
 
@@ -62,3 +60,6 @@ ms.locfileid: "5150562"
 بعد ذلك، يتم إنشاء إدخالات إلغاء في جدول القيم الفعلية. لإنشاء إدخالات إلغاء، ينسخ النظام قيم الحقول من القيم الفعلية الأصلية. والقيم الوحيدة التي لا يتم نسخها هي قيم الكمية. يتم إلغاء هذه القيم بدلا من ذلك. يتم إنشاء القيم الفعلية المعكوسة لكل من القيم الفعلية لـ **التكلفة** و **المبيعات غير المفوترة**. يتم تعيين حقل **حاله التسوية** للقيم الفعلية الملغاة إلى **غير قابلة للتسوية**، ويتم تعيين حالة الفوترة إلى **تم الإلغاء**.
 
 بعد إجراء هذه التغييرات، فإن المبلغ الذي تم تسجيله كمصروف في المشروع وكتراكم إيراد في المشروع لن يتم حسبانه ضمن المبالغ التي تمثلها هذه القيم الفعلية.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

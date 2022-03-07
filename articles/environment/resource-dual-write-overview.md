@@ -7,13 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ce4f7bf8185e6f3f942df14d30d7b8d0a3e4444a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007895"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998665"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>نظرة عامة حول تكامل ‏‫الكتابة المزدوجة في Project Operations
 
@@ -23,7 +22,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 يوضح الشكل التوضيحي التالي كيفية مزامنة البيانات كجزء من هذا التكامل بين Dataverse وFinance.
 
-![نظرة عامة حول تدفقات بيانات Project Operations.](./media/ProjectOperationsFlows.jpg)
+![نظرة عامة حول تدفقات بيانات Project Operations](./media/ProjectOperationsFlows.jpg)
 
 توفر Project Operations في Dataverse واجهة مستخدم حديثة وقابلة للتوسع بسهولة بدون تعليمات برمجية/بتعمليات برمجية طفيفة باستخدام إمكانات Power Platform. ويمكن لمديري المشروع ومديري الموارد وأعضاء فريق المشروع وموظفي المكتب الأمامي الآخرين، تنفيذ أنشطتهم في Project Operations على Dataverse.
 

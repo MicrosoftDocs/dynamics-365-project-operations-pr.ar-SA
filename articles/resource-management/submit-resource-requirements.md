@@ -2,18 +2,16 @@
 title: إرسال طلب المورد
 description: يمكنك إرسال متطلب مورد تم إنشاؤه كطلب مورد. ثم يتم إرسال الطلب إلى مدير مورد لاستيفائه.
 author: ruhercul
-manager: Annbe
 ms.date: 10/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 18f43acc64ed72b1543a2d7d91a2648e7e185fc4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: dedde7778cc726d3f06aefc0243edfe130e6d0b58773e0bb8e87cfcb13f1cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128807"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994710"
 ---
 # <a name="submit-a-resource-request"></a>إرسال طلب المورد
 
@@ -21,9 +19,12 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 يمكنك إرسال متطلب مورد تم إنشاؤه كطلب مورد. ثم يتم إرسال الطلب إلى مدير مورد لاستيفائه.
 
-1. في Dynamics 365 Project Operations، في صفحة **المشاريع**، حدد علامة التبويب **الفريق** لعرض قائمة بالموارد القابلة للحجز. 
+1. في Dynamics 365 Project Operations، في صفحة **المشاريع**، حدد علامة التبويب **فريق** لعرض قائمة بالموارد القابلة للحجز. 
 2. حدد المورد العام الذي يحتوي على متطلب مورد من القائمة، ثم انقر فوق **إرسال طلب**.
 
 ستتغير حالة طلب عضو الفريق العام إلى **تم الإرسال**.
 
-بعد استيفاء الطلب، سيتم استبدال المورد العام بمورد مسمى إذا كان مدير الموارد يفي بالطلب من خلال حجز مورد مسمي. بخلاف ذلك، إذا اقترح مدير الموارد موردًا مسمى، سيظل المورد العام في الفريق وستتغير حالة الطلب إلى **في حاجة إلى المراجعة**.
+بعد استيفاء الطلب، يتم استبدال المَورد العام بمَورد مسمى إذا كانت إدارة الموارد تستوفي الطلب من خلال حجز مَورد مسمى. بخلاف ذلك، إذا اقترح مدير الموارد موردًا مسمى، سيظل المورد العام في الفريق وستتغير حالة الطلب إلى **في حاجة إلى المراجعة**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

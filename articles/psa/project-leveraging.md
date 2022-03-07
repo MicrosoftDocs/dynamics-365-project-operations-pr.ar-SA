@@ -2,8 +2,6 @@
 title: تقديرات المبيعات والمشاريع
 description: يوفر هذا الموضوع معلومات حول كيفية الاستفادة من الجدولة والتقديرات في عملية المبيعات.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148357"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995160"
 ---
 # <a name="sales-estimates-and-projects"></a>تقديرات المبيعات والمشاريع
 
@@ -37,11 +35,11 @@ ms.locfileid: "5148357"
 
 عندما تقوم بإنشاء بند عرض أسعار قائم على المشروع، يمكنك إنشاء مشروع جديد أو إقران مشروع موجود في صفحة **بند عرض الأسعار**. 
 
-> ![نموذج بند عرض الأسعار](media/project-8.png)
+> ![نموذج بند عرض الأسعار.](media/project-8.png)
  
 عندما تنشئ مشروعًا جديدًا من تفاصيل سطر عرض الأسعار ، يمكنك الاستفادة من قوالب المشروع. قوالب المشروع هي مشاريع نموذجية تمثل خطط مشروع قياسية وتقديرات مالية نموذجية في المؤسسة. يمكنهم أيضًا تمثيل نسخ من خطط المشروع وتقديرات المشاريع السابقة.
 
-> ![تفاصيل بند عرض الأسعار‬](media/project-9.png)
+> ![تفاصيل بند عرض الأسعار‬.](media/project-9.png)
   
 عند إنشاء المشروع من عرض الأسعار، يتم ربط المشروع تلقائيًا ببند عرض الأسعار.
 
@@ -54,3 +52,6 @@ ms.locfileid: "5148357"
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>استيراد التقديرات من مشروع إلى عرض أسعار
 
 بعد تحديد تقديرات المشروع ، يمكنك استيرادها في بند عرض الأسعار. في صفحة **تفاصيل بند عرض الأسعار**، حدد **استيراد من التقديرات** على الشريط لتلخيص تقديرات المشروع حسب نوع الحركة أو الدور أو مستوى المهمة.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,19 +2,17 @@
 title: تجاوز قوائم أسعار مبيعات المشروع
 description: يقدم هذا الموضوع معلومات حول إنشاء قوائم أسعار مبيعات مخصصة.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672215"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009560"
 ---
 # <a name="override-project-sales-price-lists"></a>تجاوز قوائم أسعار مبيعات المشروع
 
@@ -52,3 +50,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 في عقد المشروع، يتم تعيين تسعير المشروع دائمًا بشكل افتراضي كقائمة أسعار مخصص مع اسم العقد وطابع تاريخ ووقت الإنشاء تم الحاقه بالاسم. هذا صواب سواء تم إنشاء العقد عند فوز عرض الأسعار أو تم إنشاء العقد من البداية. إذا لزم الأمر، يمكنك إزالة هذا الاقتران بقائمة الأسعار المخصصة وإقران قائمة أسعار قياسية بعقد المشروع بدلاً من ذلك.
 
 عند إقران قائمة أسعار قياسية بقوائم أسعار المشروع في عرض الأسعار أو العقد، ستؤثر أي تغييرات يتم إدخالها على الأسعار في قائمة الأسعار على جميع عروض الأسعار والعقود التي تستخدم قائمة الأسعار.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

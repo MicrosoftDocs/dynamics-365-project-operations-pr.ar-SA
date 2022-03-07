@@ -1,12 +1,10 @@
 ---
 title: الوحدات ومجموعات الوحدات
-description: يقدم هذا الموضوع معلومات عن كيفية إنشاء الوحدات ومجموعات الوحدات في Dynamics 365 Project Operations.
+description: يوفر هذا الموضوع معلومات حول كيفية إنشاء الوحدات ومجموعات الوحدات في Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a0aec1cc32ebdea9d2dbc7cc891f82da07e044f5c5655e008068f72dd198587
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131012"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999525"
 ---
 # <a name="units-and-unit-groups"></a>الوحدات ومجموعات الوحدات
 
@@ -46,3 +44,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 3. في حقل **الكمية** أدخل الكمية التي ستحتويها الوحدة. على سبيل المثال، إذا كان الصندوق يحتوي على قطعتين، أدخل "2." 
 4. في حقل **‏‫الوحدة الأساسية‬** حدد وحدة أساسية لإنشاء اقل وحده قياس للوحدة. على سبيل المثال، يمكنك تحديد "قطعة".
 5. حدد **حفظ**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: تكوين المكونات القابلة للتحصيل لبند عرض أسعار قائم على المشروع
 description: يوفر هذا الموضوع معلومات حول المكونات المضمنة والمحمولة وغير القابلة للرسوم على بنود عرض الأسعار المستندة إلى المشروع.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642527"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003980"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>تكوين المكونات القابلة للتحصيل لبند عرض أسعار قائم على المشروع
 
@@ -53,3 +51,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | Yes | ‏‏نعم | لا يمكن تعيينه | غير خاضعة للرسوم | الفوترة على قيمة الوقت الفعلية: غير متوفرة </br>نوع الفوترة على القيمة الفعلية للمصروفات: غير خاضع للرسوم |
 | ‏‏نعم | Yes | خاضع للرسوم | لا يمكن تعيينه | الفوترة على قيمة الوقت الفعلية: خاضعة للرسوم </br>نوع الفوترة على القيمة الفعلية للمصروفات: غير متوفر |
 | ‏‏نعم | Yes | غير خاضعة للرسوم | لا يمكن تعيينه | الفوترة على قيمة الوقت الفعلية: غير خاضعة للرسوم </br> نوع الفوترة على القيمة الفعلية للمصروفات: غير متوفر |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

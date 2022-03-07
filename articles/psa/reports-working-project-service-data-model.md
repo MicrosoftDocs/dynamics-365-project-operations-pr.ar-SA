@@ -2,8 +2,6 @@
 title: العمل مع نموذج بيانات Project Service Automation
 description: يقدم هذا الموضوع معلومات حول كيفية العمل مع نموذج البيانات.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147637"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008790"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>العمل مع نموذج بيانات Project Service Automation
 
@@ -87,7 +85,7 @@ ms.locfileid: "5147637"
 
 ## <a name="reporting-on-resources"></a>إعداد التقارير حول الموارد
 
-تستخدم موارد المشاريع كيانات **الموارد القابلة للحجز** من Universal Resource Scheduling (URS) التي تتم مشاركتها مع تطبيقات أخرى، مثل Microsoft Dynamics 365 Field Service. فيما يلي قائمة بالكيانات التي قد يتعين عليك استخدامها عند إرسال تقرير حول موارد المشروع:
+تستخدم موارد المشروع كيانات **الموارد القابلة للحجز** من Universal Resource Scheduling (URS) المشتركة مع تطبيقات أخرى، مثل Microsoft Dynamics 365 Field Service. فيما يلي قائمة بالكيانات التي قد يتعين عليك استخدامها عند إرسال تقرير حول موارد المشروع:
 
 - **المورد القابل للحجز** – يمثل هذا الكيان المستخدم أو جهة الاتصال أو المورد العام أو الحساب أو المجموعة أو المعدات التي يتم استخدامها في فريق المشروع.
 - **خصائص الموارد القابلة للحجز** – يتضمن هذا الكيان المهارات أو الشهادات أو التعليم الخاص بالمورد. يمكن أن تحتوي الخصائص على قيم تصنيف يتم تعريفها بواسطة نموذج التصنيف.
@@ -123,3 +121,6 @@ ms.locfileid: "5147637"
 ويقوم كيان **أصل الحركة** بتسجيل أصل السجل **الفعلي**، ويقوم كيان **اتصال الحركة** بتسجيل السجلات المرتبطة للسجل **الفعلي**. بالإضافة إلى ذلك، يحتوي السجل **الفعلي** على مراجع للمشروع وعقد المشروع (الأمر) والمورد القابل للحجز والعميل.
 
 ![رسم بياني يوضح اتصال المعاملات والأصل والعلاقات الفعلية](media/PS-Reporting-image6.png "رسم بياني يوضح اتصال المعاملات والأصل والعلاقات الفعلية")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

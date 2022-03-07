@@ -2,18 +2,16 @@
 title: إنشاء هيكل تنظيم العمل
 description: يوضح هذا الموضوع كيفية إنشاء هيكل تنظيم عمل (WBS) يشمل التحكم الأساسي في واجهة الجدولة الجديدة.
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841295"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998715"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>إنشاء هيكل تنظيم العمل (WBS)
 
@@ -93,6 +91,8 @@ ms.locfileid: "4841295"
 | الاسم  | اسم المهمة. |
 | البطاقة/رقم البطاقة | معرف المهمة في هيكل تنظيم العمل. |
 
+بصفتك المسؤول، يمكنك تعريف حقول مخصصة على كيان المهمة. ومع ذلك، لا يمكن عرض الحقول على شبكة الجدول. لرؤية الحقول المخصصة، أضفها إلى صفحة تفاصيل **مهمة المشروع**.
+
 ## <a name="staffing-attributes"></a>سمات التوظيف
 
 يتم الوصول إلى سمات التوظيف من خلال حقل **الموارد** في الجدول. يمكنك إما البحث عن مورد موجود، أو تحديد **إنشاء**، وفي جزء **الإنشاء السريع**، أضف عضو فريق مشروع كمورد جديد.
@@ -116,3 +116,6 @@ ms.locfileid: "4841295"
 ## <a name="accessibility-and-keyboard-shortcuts"></a>اختصارات لوحة المفاتيح وذوي الاحتياجات الخاصة
 
 إن شبكة **الجدولة** يمكن الوصول اليها بالكامل ويمكن استخدامها مع قارئات الشاشة مثل المسرد أو JAWS أو NVDA. يمكنك التنقل خلال منطقه الشبكة باستخدام مفاتيح الأسهم (كما في Microsoft Excel)، يمكنك استخدام المفتاح Tab للتقدم من خلال عناصر الواجهة التفاعلية، ويمكنك استخدام مفتاح السهم لأسفل، أو مفتاح Enter، أو Spacebar لتحديد وفتح القوائم المنسدلة.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

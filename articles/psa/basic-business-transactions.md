@@ -2,8 +2,6 @@
 title: حركات الأعمال
 description: يقدم هذا الموضوع معلومات حول حركات الأعمال.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149887"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987510"
 ---
 # <a name="business-transactions"></a>حركات الأعمال
 
@@ -90,9 +88,9 @@ ms.locfileid: "5149887"
 
 يوضح المثال التالي المعالجة النموذجية لإدخالات الوقت في دورة حياة مشروع PSA.
 
-> ![معالجة وإدخالات الوقت في دورة حياة خدمه Project Service](media/basic-guide-17.png)
+> ![معالجة وإدخالات الوقت في دورة حياة خدمه Project Service.](media/basic-guide-17.png)
  
-1. يتسبب إرسال إدخال وقت في إنشاء سطرين من بنود دفتر اليومية: أحدهما للتكلفة والأخر للمبيعات غير المفوترة.
+1. يتسبب إرسال إدخال وقت في إنشاء سطرين من أسطر دفتر اليومية: أحدهما للتكلفة والأخر للمبيعات غير المفوترة.
 2. تتسبب الموافقة النهائية على إدخال وقت في إنشاء قيمتين فعليتين: أحدهما للتكلفة والأخرى للمبيعات غير المفوترة.
 3. وعندما يقوم المستخدم بإنشاء فاتورة مشروع، يتم إنشاء حركة بند الفاتورة باستخدام بيانات من القيمة الفعلية للمبيعات غير المفوترة. 
 4. عند تأكيد الفاتورة، يتم إنشاء قيمتين فعليتين جديدتين: إلغاء المبيعات غير المفوترة وقمية فعلية للمبيعات المفوترة.
@@ -149,3 +147,6 @@ ms.locfileid: "5149887"
 | تصحيح فاتورة المسودة       | المعرف الفريد العمومي لحركة بند الفاتورة | استبدال          | msdyn_invoicelinetransaction | المعرف الفريد العمومي للمبيعات المفوترة            | أصلي           | msdyn_actual       |
 | تأكيد تصحيح فاتورة     | المعرف الفريد العمومي لإلغاء مبيعات مفوترة    | إلغاء          | msdyn_actual                 | المعرف الفريد العمومي للمبيعات المفوترة            | أصلي           | msdyn_actual       |
 | المعرف الفريد العمومي لقيمة فعلية لمبيعات غير المفوترة جديدة | استبدال                     | msdyn_actual       | المعرف الفريد العمومي للمبيعات المفوترة            | أصلي                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

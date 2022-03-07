@@ -2,11 +2,9 @@
 title: مزامنة فئات مصروفات المشاريع بين Finance and Operations وProject Service Automation
 description: يصف هذا الموضوع القوالب والمهام الأساسية المستخدمة لمزامنة فئات مصروفات المشروع بين Microsoft Dynamics 365 Finance وDynamics 365 Project Service Automation.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070783"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001100"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>مزامنة فئات مصروفات المشاريع بين Finance and Operations وProject Service Automation
 
@@ -58,7 +56,7 @@ ms.locfileid: "4070783"
 
 يوضح الرسم التوضيحي التالي كيفية مزامنة البيانات بين Project Service Automation وFinance.
 
-[![تدفق البيانات لتكامل Project Service Automation مع Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![تدفق البيانات لتكامل Project Service Automation مع Finance.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>مزامنة فئة مصروفات المشروع من Finance إلى Project Service Automation
 
@@ -95,7 +93,7 @@ ms.locfileid: "4070783"
 
 يُظهر الرسم التوضيحي التالي مثالاً لتعيينات مهام القالب في تكامل البيانات. يُظهر التعيين معلومات الحقل التي ستتم مزامنتها من Finance إلى Project Service Automation.
 
-[![تعيين فئة مصروفات المشروع إلى قالب Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![تعيين فئة مصروفات المشروع إلى قالب .Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>مزامنة فئة مصروفات المشروع من Project Service Automation إلى Finance
 
@@ -123,4 +121,7 @@ ms.locfileid: "4070783"
 > [!NOTE]
 > يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Project Service Automation إلى Finance.
 
-[![تعيين Project Service Automation إلى قالب Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![تعيين Project Service Automation إلى قالب .Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

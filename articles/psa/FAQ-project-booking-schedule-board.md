@@ -2,6 +2,8 @@
 title: إنشاء حجز مشروع من لوحة الجدولة
 description: يقدم هذا الموضوع معلومات حول كيفية إنشاء حجز مشروع من لوحة الجدولة.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992950"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122282"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>إنشاء حجز مشروع من لوحة الجدولة
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 يمكنك حجز مورد للعمل على مشروع مباشرة على علامة التبويب **فريق المشروع** للمشروع أو عن طريق إنشاء متطلبات المورد من تعيين عضو فريق عام ثم تنفيذ المتطلبات الناشئة بواسطة أحد أعضاء فريق مشروع.
 
@@ -89,6 +89,3 @@ ms.locfileid: "5992950"
 
 4. الآن وبعد أن تم حجز المورد، يجب تعيين المهام إليه يدويًا.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: البحث عن المشروع التالي باستخدام تطبيق Project Finder Mobile
 description: كيفية البحث عن المشروع التالي باستخدام تطبيق Project Finder Mobile لـ Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149257"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990750"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>البحث عن المشروع التالي باستخدام تطبيق Project Finder Mobile‏ (Project Service)
 
@@ -40,12 +38,15 @@ ms.locfileid: "5149257"
   
  اضغط على السهم إلى يسار المشروع الذي يثير اهتمامك للاطلاع على مزيد من التفاصيل والتسجيل للعمل عليه.  
   
- ![قائمة بالمشاريع المطابقة للمهارات في تطبيق الأجهزة المحمولة "أداة البحث عن مشروعات"](../psa/media/project-service-project-finder-list.png "قائمة بالمشاريع المطابقة للمهارات في تطبيق الأجهزة المحمولة &quot;أداة البحث عن مشروعات&quot;")  
+ ![قائمة بالمشاريع المطابقة للمهارات في تطبيق Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "قائمة بالمشاريع المطابقة للمهارات في تطبيق الأجهزة المحمولة &quot;أداة البحث عن مشروعات&quot;")  
   
 ## <a name="update-your-skills"></a>تحديث مهاراتك  
  اضغط على زر ملف التعريف في الجزء السفلي الأيسر من الشاشة لتحديث مستويات المهارات والكفاءات.  
   
- ![زر "ملف التعريف" في تطبيق الأجهزة المحمولة "أداة البحث عن مشروعات"‬](../psa/media/project-service-project-finder-profile.png "زر &quot;ملف التعريف&quot; في تطبيق الأجهزة المحمولة &quot;أداة البحث عن مشروعات&quot;‬")  
+ ![زر "ملف التعريف" في تطبيق Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "زر &quot;ملف التعريف&quot; في تطبيق الأجهزة المحمولة &quot;أداة البحث عن مشروعات&quot;‬")  
   
 ### <a name="see-also"></a>راجع أيضًا  
  [دليل الوقت والمصروفات والتعاون](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

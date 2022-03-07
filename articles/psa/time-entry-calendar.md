@@ -3,7 +3,7 @@ title: تقويم إدخال الوقت
 description: يقدم هذا الموضوع معلومات حول كيفية استخدام تقويم إدخال الوقت.
 author: rumant
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94e580955b83b9f2eaf6c0487cc9fe8a30f51ce0
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: afc31609c51f48db61ce359c18707b5a92211082
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150157"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070734"
 ---
 # <a name="time-entry-calendar"></a>تقويم إدخال الوقت
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

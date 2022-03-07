@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 2003f6f06912b0c47eb942aae17e509b00e19487
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147502"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282992"
 ---
 # <a name="propose-project-resources"></a>اقتراح موارد المشاريع
 
@@ -113,3 +113,6 @@ ms.locfileid: "5147502"
 لعرض مزيد من التفاصيل حول مورد واحد، انقر بزر الماوس الأيمن فوقه لفتح بطاقة المورد.
 
 ![بطاقة المورد](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

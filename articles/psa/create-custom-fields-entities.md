@@ -2,12 +2,10 @@
 title: إنشاء حقول وكيانات مخصصة
 description: يوضح هذا الموضوع كيفية إنشاء مجموعات الخيارات والكيانات في الحل الخاص بك في نظام Power Apps الأساسي.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144847"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992415"
 ---
 # <a name="create-custom-fields-and-entities"></a>إنشاء حقول وكيانات مخصصة 
 
@@ -45,7 +43,7 @@ ms.locfileid: "5144847"
 2. في مستكشف الحلول، في جزء التنقل الأيسر، حدد **الكيانات**.
 3. انقر فوق **جديد** لإنشاء كيان جديد يسمي **العنوان القياسي**. أدخل المعلومات المتبقية المطلوبة، ثم انقر فوق **حفظ**.
 
-> ![تعريف كيان العنوان القياسي](media/Standard-Title-entity-definition.png)
+> ![تعريف كيان العنوان القياسي.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>الأبعاد المستندة إلى مجموعة الخيارات 
@@ -56,9 +54,9 @@ ms.locfileid: "5144847"
 2. في مستكشف الحلول، في جزء التنقل الأيسر، حدد **مجموعات الخيارات**. 
 3. انقر فوق **جديد** لإنشاء مجموعة خيارات جديدة، وادخل المعلومات المطلوبة المتبقية، ثم انقر فوق **حفظ**.
 
-> ![بعد التسعير المعتمد على مجموعة الخيارات يسمى موقع عمل المورد ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![بعد التسعير المعتمد على مجموعة الخيارات يسمى موقع عمل المورد.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![بعد التسعير المعتمد على مجموعة الخيارات يسمى ساعات عمل المورد ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![بعد التسعير المعتمد على مجموعة الخيارات يسمى ساعات عمل المورد.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>إنشاء بيانات للأبعاد المستندة إلى الكيانات
@@ -70,6 +68,9 @@ ms.locfileid: "5144847"
 3. أغلق النموذج. 
 4. كرر الخطوات 1-3 لإنشاء عنوان قياسي آخر لـ "مهندس الأنظمة المتمرس".
 
-> ![نموذج بيانات لكيان العنوان القياسي ](media/ST-data.png)
+> ![نموذج بيانات لكيان العنوان القياسي.](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

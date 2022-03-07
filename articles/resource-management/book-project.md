@@ -2,18 +2,16 @@
 title: حجز لمشروع
 description: يوفر هذا الموضوع معلومات حول كيفية حجز موارد لمشروع.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131057"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994890"
 ---
 # <a name="book-to-a-project"></a>حجز لمشروع
 
@@ -31,12 +29,12 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 1. من المشروع، انتقل إلى شبكة أعضاء الفريق وحدد **جديد**.
 2. حدد اسم المنصب ودور المورد.
-3. حدد المورد القابل للحجز من البحث المتوفر.
-4. بعد تحديد المورد، قم بتعريف معلومات الحقل التالية لحجز المورد:
+3. حدد المَورد القابل للحجز من البحث المتاح.
+4. بعد تحديد المَورد، حدد معلومات الحقول الآتية لحجز المَورد:
 
     - تاريخ البدء
     - تاريخ الانتهاء
-    - أسلوب التخصيص
+    - أسلوب التوزيع
     - الساعات، إذا كانت قابلة للتطبيق
     - الموافق على المشروع
 
@@ -66,3 +64,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 > [!NOTE]
 > لا ينشئ هذا الأسلوب أي حجوزات للمورد. بدلاً من ذلك، يضيف المورد إلى الفريق. بعد إضافة عضو الفريق إلى المشروع، بإمكان مدير المشروع المحافظة على الحجوزات أو توسيعها لإضافة الحجوزات المطلوبة إلى المورد.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,19 +2,17 @@
 title: الجديد أو المتغير في Project Operations، يناير 2021 للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
 description: يوفر هذا الموضوع معلومات حول التحديثات الإصلاحية المتوفرة في إصدار يناير 2021 من Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج‬.
 author: andchoi
-manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: ce1c83e1e238d7919c38d2babea622ca59de86d3
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958632"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992730"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>الجديد أو المتغير في Project Operations، يناير 2021 للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
 
@@ -144,4 +142,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | السفر والمصروفات                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | في Project Operations، لا يمكن إنشاء الوقت مع المهام المشتركة بين الشركات في Dataverse أو الموافقة عليه.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>التحديثات التنظيمية
-لمزيد من المعلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+لمزيد من المعلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

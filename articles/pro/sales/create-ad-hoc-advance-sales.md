@@ -2,18 +2,16 @@
 title: إنشاء سُلفة مؤقتة في عقد
 description: يقدم هذا الموضوع معلومات حول إنشاء سُلفة على عقد عند الحاجة.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4595910"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999120"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>إنشاء سُلفة مؤقتة في عقد
 
@@ -39,3 +37,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
     | **حالة الفاتورة** | هذا إعداد خيار يشير إلى ما إذا تمت إضافة هذه السلفة إلى مسودة فاتورة لهذا العميل. فيما يلي القيم المحتملة:</br>- **غير جاهز للفوترة**</br>- **جاهز للفوترة** | عند وضع علامة على سلفة أو دفعة مسبقة على أنها **جاهزة للفوترة**، تتم إضافتها كوقت البند على مسودة الفاتورة. يمكن استخدام السلفة المفوتره بالكامل فقط لإجراء التسوية في مقابل تكاليف المشروع لفتره الفاتورة القادمة. |
 
 4. حدد **حفظ وإغلاق** في مربع حوار الإنشاء السريع لتسجيل السلفة أو الدفعة المسبقة.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

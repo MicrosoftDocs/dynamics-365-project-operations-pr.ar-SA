@@ -2,18 +2,16 @@
 title: نسخ قوائم الأسعار
 description: يوفر هذا الموضوع معلومات حول كيفية نسخ قوائم الأسعار في Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 9e4f4eeda019f2af11a0d7a4469c41ee450eb03b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181481"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001410"
 ---
 # <a name="copy-price-lists"></a>نسخ قوائم الأسعار
 
@@ -43,3 +41,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 1. في علامات التبويب **الدور** و **الفئة** و **عنصر قائمة الأسعار** في قائمة أسعار، حدد **تحديث الأسعار** لرفع جميع الأسعار في الشبكة الفرعية. 
 2. في صفحة مربع الحوار التي تفتح، أدخل الزيادة. يمكنك أيضًا إدخال نسبة زيادة سالبة لخفض الأسعار بنسبة معينة. 
 3. حدد **موافق** في صفحة مربع الحوار ثم تحقق من أن الأسعار في الشبكة الفرعية تعكس التغييرات التي أجريتها.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

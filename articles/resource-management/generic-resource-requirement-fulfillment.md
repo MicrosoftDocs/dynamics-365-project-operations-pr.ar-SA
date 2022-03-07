@@ -2,18 +2,16 @@
 title: استيفاء متطلبات الموارد العامة
 description: يوفر هذا الموضوع معلومات حول كيفية حجز الموارد المسماة لمتطلبات مورد عام.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130290"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008255"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>استيفاء متطلبات الموارد العامة
 
@@ -39,3 +37,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 الفرق الرئيسي في هذا السيناريو هو أن يظل المورد العام في الفريق المعين للمهمة، ولا يتم تعيين أعضاء فريق المورد المسمى كجزء من الموضع. يمكن لمدير المشروع تعيين العمل بالشكل المناسب للموارد المسماة. يمكن أن يساعد عرض **التسوية** مدير المشروع في تقسيم الحجوزات عبر موارد متعددة إلى تعيينات مهام. لا يتم ذلك تلقائيًا لأنه في أي سيناريو أكثر تعقيدًا من المثال البسيط أعلاه، مثل عندما يكون لديك مجموعة من المهام التي تشكل المطلب أو القصد من كيفية تعيين مدير المشروع، يجب أن يفترضه النظام. نظرًا لأن النظام لا يستطيع فهم القصد، فمن المحتمل أن تكون الافتراضات مختلفة عما هو مقصود وستحدث نتيجة غير صحيحة أو غير متوقعة. والناتج الذي يمكن التنبؤ به هو أن يبقي المورد العام معينا حتى يقوم مدير المشروع بإنشاء تعيينات عن قصد بمساعدة طريقة عرض **التسوية**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

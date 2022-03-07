@@ -2,18 +2,16 @@
 title: قوائم الأسعار الافتراضية
 description: يوفر هذا الموضوع معلومات حول قوائم أسعار المبيعات وقوائم أسعار التكلفة الافتراضية في Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130922"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989850"
 ---
 # <a name="default-price-lists"></a>قوائم الأسعار الافتراضية
 
@@ -21,7 +19,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ## <a name="sales-price-lists"></a>قوائم أسعار المبيعات
 
-يحتوي كل عرض أسعار مشروع وعقد مشروع في Dynamics 365 Project Operations على قائمه أسعار مبيعات افتراضية. 
+يحتوي كل عرض أسعار مشروع وكل عقد مشروع في Dynamics 365 Project Operations على قائمة أسعار مبيعات افتراضية. 
 
 ### <a name="price-list-default-on-project-quotes"></a>يتم تعيين قائمة الأسعار إلى عروض أسعار المشروع بشكل افتراضي
 يقوم النظام بإكمال العملية التالية لتحديد قائمة الأسعار التي سيتم تعيينها إلى عرض أسعار المشروع بشكل افتراضي:
@@ -57,3 +55,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 5. وبعد ذلك، ينظر النظام إلى تاريخ سريان قوائم الأسعار الذي يتطابق مع تاريخ بند التقدير أو القيمة الفعلية الواردة. 
 6. في حال وجود قوائم أسعار متعددة تسري في التاريخ على التقدير أو القيمة الفعلية، يتم تحديد قائمة الأسعار التي تم إنشاؤها مؤخرًا.
 7. في حال عدم وجود قوائم أسعار تكلفة مرفقة بمعلمات المشروع تتطابق مع العملة وتاريخ السريان، سيقوم النظام بتعيين معدل التكلفة إلى الصفر (0) بشكل افتراضي على بند التقدير أو القيمة الفعلية الواردة.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

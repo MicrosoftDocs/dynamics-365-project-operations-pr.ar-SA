@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: aa3d692a46165b01eafbd7619578cead8dd912d6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 554ad63bc44cbe5a1fe91eb47fedbb74bbedd4b6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127457"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070771"
 ---
 # <a name="project-stages"></a>مراحل المشروع
 
@@ -53,7 +53,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ## <a name="deliver"></a>تسليم
 
-عند اكتمال خطة المشروع، وتكون مستعدًا لبدء المشروع، يتعين على مدير المشروع تحديث مرحلة المشروع إلى **التسليم** لإظهار أن المشروع قد بدأ.
+عند اكتمال خطة المشروع، وتكون مستعدًا لبدء المشروع، يتعين علي مدير المشروع تحديث مرحلة المشروع إلى **التسليم** لإظهار أن المشروع قد بدأ.
 
 ## <a name="complete"></a>‏‫مكتمل‬ 
 

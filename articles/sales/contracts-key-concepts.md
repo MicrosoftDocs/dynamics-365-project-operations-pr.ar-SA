@@ -8,20 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0e0280cb94e6f0186f59024c233e8fcb9e86abf
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663674"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175515"
 ---
-# <a name="concepts-unique-to-project-based-contracts"></a>مفاهيم فريدة للعقود المستندة إلى المشروع
+# <a name="project-contracts---key-concepts"></a>عقود المشروع - المفاهيم الأساسية
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-يوفر هذا الموضوع المفاهيم الأساسية التي يجب أن تكون على دراية بها قبل البدء في استخدام عقود المشروع في Dynamics 365 Project Operations:
+يوفر هذا الموضوع المفاهيم الأساسية التي يجب أن تكون على علم بها قبل بدء استخدام عقود المشروع في Dynamics 365 Project Operations.
 
 ## <a name="owning-company"></a>الشركة المالكة
 
@@ -88,6 +86,3 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ## <a name="changes-from-dynamics-365-sales-orders"></a>التغييرات عن أوامر Dynamics 365 Sales
 
 يتم إنشاء العقود في Project Operations استنادًا إلى الأوامر في Dynamics 365 Sales. ومع ذلك، هناك بعض الاختلافات والانحرافات الهامة في الوظائف. تتميز العقود بوجود نموذج وعناصر واجهة مستخدم وقواعد أعمال ومنطق أعمال خاص بها في المكونات الإضافية، والبرامج النصية على جانب العميل التي تميزها عن الأوامر. ولهذه الأسباب، يجب عدم استخدام أمر مبيعات وعقد مشروع في Project Operations بطريقة متبادلة.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

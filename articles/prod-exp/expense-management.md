@@ -2,9 +2,11 @@
 title: نظرة عامة على إدارة المصروفات
 description: يقدم هذا الموضوع معلومات عامة حول إدارة المصروفات وارتباطات إلى موارد إضافية. يمكنك استخدام إدارة المصروفات لإنشاء سير عمل متكامل حيث يمكنك تخزين معلومات طريقة الدفع واستيراد حركات بطاقات الائتمان وتعقب الأموال التي ينفقها الموظفون عندما يتكبدون مصروفات تتعلق بعملك.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fe9f763e18507fa232cb830f8e0b6852374b65b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7066a021390e3403c4312a7cfe8488a989b9aaa3
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993535"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070804"
 ---
 # <a name="expense-management-overview"></a>نظرة عامة على إدارة المصروفات
 
@@ -35,7 +37,7 @@ ms.locfileid: "5993535"
 
 ### <a name="whats-new-and-in-development"></a>ما الميزات الجديدة وقيد التطوير
 
-للاطلاع على الميزات الجديدة التي تم التخطيط لإطلاقها راجع [خطط إصدار Microsoft Dynamics 365](/dynamics365/release-plans/).
+للاطلاع على الميزات الجديدة التي تم التخطيط لإطلاقها راجع [خطط إصدار Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158).
 
 #### <a name="expense-report-entry"></a>إدخال تقرير المصروفات
 
@@ -56,6 +58,3 @@ ms.locfileid: "5993535"
 ### <a name="videos"></a>مقاطع الفيديو
 
 راجع مقاطع الفيديو المتوفرة الآن على [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

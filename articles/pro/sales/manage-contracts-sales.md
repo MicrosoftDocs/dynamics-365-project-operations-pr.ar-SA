@@ -2,18 +2,16 @@
 title: إدارة عقود المشروع
 description: يقدم هذا الموضوع معلومات حول عرض العقود القائمة على المشروع.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5e2f182f66bd1f4fe57d19e4bf82525ac8b84c29
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177315"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003074"
 ---
 # <a name="manage-project-contracts"></a>إدارة عقود المشروع
 
@@ -33,3 +31,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 2. حدد **مبدّل طريقة العرض** (سهم القائمة المنسدلة الموجود بجوار اسم طريقة العرض) لتحديد طرق عرض أخرى مصفاة. يمكنك إنشاء طرق عرض خاصة بك باستخدام معايير التصفية المخصصة.
 
 يمكن إنشاء العقود أو حذفها من صفحة القائمة هذه أو صفحات التفاصيل.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

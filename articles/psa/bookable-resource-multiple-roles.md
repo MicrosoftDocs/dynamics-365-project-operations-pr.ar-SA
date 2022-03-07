@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0f779cf7e247157d6cae2ae7c4c5644201cb7714
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145027"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290973"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>تقدير مبيعات المشروع وتكاليفه عندما يملأ مورد قابل للحجز عدة أدوار لمشروع 
 
@@ -74,3 +74,6 @@ ms.locfileid: "5145027"
 عند الانتقال إلى شبكة **التقديرات**، ستلاحظ وجود تسعير مختلف لكلي التعيينين للمورد نفسه.
 يتم تسعير تعيين المورد على المهمة A باستخدام قيمة سمة **دور** **المستشار الرئيسي**. يتم تسعير تعيين المورد نفسه على المهمة B باستخدام قيمة سمة **دور** **فني الشبكة**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

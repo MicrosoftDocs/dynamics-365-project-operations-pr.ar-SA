@@ -2,8 +2,6 @@
 title: إعداد نماذج الكفاءة
 description: كيفية إعداد نماذج الكفاءة في Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 954fba6a9e52935ae11b52520109fa44301d45c1
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8b5f5c2115f368f3a872bc435c55580b1fbf97f1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146737"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008250"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>إعداد نماذج الكفاءة (Project Service)
 
@@ -53,3 +51,6 @@ ms.locfileid: "5146737"
   
 ### <a name="see-also"></a>راجع أيضًا  
  [إعداد الموارد](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

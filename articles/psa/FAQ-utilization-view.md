@@ -2,6 +2,8 @@
 title: عرض استخدام الموارد الخاضع للرسوم
 description: يوفر هذا الموضوع معلومات حول طريقة عرض استخدام الموارد.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992818"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122147"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>عرض استخدام الموارد الخاضع للرسوم
-
-[!include [banner](../includes/psa-now-project-operations.md)]
  
 توضح طريقه عرض **الاستخدام** الموجودة في صفحة **استخدام مورد Project Service** الاستخدام الخاضع للرسوم لكل مورد قابل للحجز. ولأن طريقة العرض تستند إلى لوحة الجدولة، فسوف تعثر على العديد من الوظائف نفسها هناك.
 
@@ -99,6 +99,3 @@ ms.locfileid: "5992818"
   - تم تعيين الدور في شروط التعاقد الخاصة بالمشروع والتي تدعم المشروع إلى غير خاضع للرسوم.
   - ‏‏ليس لدى المشروع شروط تعاقد مقترنة به.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

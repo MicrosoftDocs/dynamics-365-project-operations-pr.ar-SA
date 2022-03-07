@@ -2,12 +2,10 @@
 title: تغييرات الكيانات وعناصر التحكم وواجهة المستخدم (Project Service Automation 3.x)
 description: يوضح هذا الموضوع التغييرات التي تم اجراؤها علي الحل لـ Microsoft Dynamics Project Service Automation 3.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/15/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48062eda1f524dd3ca0d5feccf11fd5577521275
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e3d6f515cec51cb30f83ff22a14ecb125dc81214
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148717"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007935"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>تغييرات الكيانات وعناصر التحكم وواجهة المستخدم (Project Service Automation 3.x)
 
@@ -84,3 +82,6 @@ SalesOrderDetail (سطر الأمر) | msdyn_quotelineid | msdyn_quoteline
 > للحصول على قائمة كاملة بالموارد المهمة، راجع [موارد الويب المهملة في Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

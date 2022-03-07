@@ -1,5 +1,5 @@
 ---
-title: إعداد جدولة مقدم الأتعاب
+title: إعداد جدول مقدمات الأتعاب - خفيف
 description: يقدم هذا الموضوع معلومات حول كيفية إعداد جدول مقدمات الأتعاب في Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d90781407f11c93b9fb9e0cd2446e102e216b8db
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272237"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181256"
 ---
-# <a name="set-up-a-retainer-schedule"></a>إعداد جدولة مقدم الأتعاب
+# <a name="set-up-a-retainer-schedule---lite"></a>إعداد جدول مقدمات الأتعاب - خفيف
 
-_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
+_**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
 يتم إعداد جداول مقدمات الأتعاب في صفحة **عقد المشروع** في Dynamics 365 Project Operations.
 
@@ -32,6 +32,3 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 | عدد المحتفظات التي سيتم إنشاؤها | عندما تقوم بإدخال عدد مقدمات الأتعاب لإنشائها، يستخدم النظام تاريخ البدء والتكرار لإنشاء العدد في هذا الحقل. | عندما يتم تحديث هذا الحقل يدويًا، يتجاهل النظام القيمة الموجودة في حقل **انتهاء جدل مقدمات الأتعاب** وينشئ بدلاً من ذلك العدد المعين من مقدمات الأتعاب والسُلف. |
 | معدل تكرار الفاتورة | تكرار قيام التطبيق بإنشاء مقدمات الأتعاب والسُلف. | تؤثر هذه القيمة بشكل مباشر على عدد مقدمات الأتعاب والسُلف وتواريخ الإنشاء. |
 | ‏‫المبلغ الإجمالي | ويعتبر المبلغ الإجمالي المبلغ الذي يتم تقسيمه في دفعات مقدمات الأتعاب والسُلف الفردية التي سيتم إنشاؤها. | لا يوجد تأثير لاحق لهذا الحقل. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: إدارة المناطق الزمنية
 description: عند إنشاء مشروع، فإن المنطقة الزمنية الخاصة به تستند إلى المنطقة الزمنية المحددة في قالب ساعة العمل الذي يتم تطبيقه.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119807"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997720"
 ---
 # <a name="manage-time-zones"></a>إدارة المناطق الزمنية
 
@@ -68,3 +66,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 لاحظ أن نظرة عن كثب على تفاصيل الحجوزات توضح الاختلافات في وقت بدء الحجوزات. تبدأ الحجوزات في وقت لا يسبق البدء الخاص بالمخطط الزمني للتعيين وليس قبل وقت البدء المتوفر للمورد.
 
 ![حجوزات جديدة للموارد في لوحة الجدولة](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

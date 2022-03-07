@@ -2,19 +2,17 @@
 title: شروط التعاقد المستندة إلى تكلفة المنتج - خفيف
 description: يقدم هذا الموضوع معلومات حول الإنشاء
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a81c972f36179621f0547c24fc53d294485f638c
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 55f74b016b55945433083e11902003cea99f1aa463264cdd95b0aad389592e20
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764443"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997320"
 ---
 # <a name="cost-product-based-contract-lines---lite"></a>شروط التعاقد المستندة إلى تكلفة المنتج - خفيف
 
@@ -30,3 +28,6 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 يؤدي وجود تكلفة الوحدة على شرط التعاقد المستند إلى المشروع إلى السماح بتكاليف مختلفة للمنتج تتعلق بكل عملية بيع للوحدة. هناك سيناريوهات معينة حيث قد يتم خصم تكلفة المنتج للعميل من قِبل المورّد، على الرغم من أن هذا الأمر قد لا يكون ضروريًا في كل الأوقات. فكر في السيناريو التالي:
 
 تقوم شركة Fabrikam Robotics بتثبيت أذرع آلية في بنود تجميع شركة Adatum Corporation. وتوفر شركة Fabrikam خدمات التثبيت غير أن أذرع الروبوت مشتراة من Trey Research. إذا فتحت عملية تثبيت الأذرع الآلية في Adatum Corporation مجال صناعة جديدًا لشركة Trey Research، فقد تمنح خصمًا خاصًا لهذه الصفقة لشركة Fabrikam. في هذه الحالة، تقوم شركة Fabrikam بإنشاء بند عقد يستند إلى المنتج لأذرع الروبوت. يتم إدخال تكلفة لكل وحدة لهذا العقد. تختلف التكلفة عن تكلفة أذرع الروبوت المشتراة من Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

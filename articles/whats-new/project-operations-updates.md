@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 07ba97377841b1a2d8f96b60a926dc7499e345f1
+ms.sourcegitcommit: 7e39fc1d50681850175428c909755204b08f0a77
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948223"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556562"
 ---
 # <a name="project-operations-updates"></a>تحديثات Project Operations
 
@@ -30,17 +30,15 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 - تغطي إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance قدرات إدارة المصروفات ومحاسبة المشاريع والتعرف على الإيرادات. يتم استخدام بيئة تطبيقات Finance and Operations في Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬ وProject Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج.
 
 ## <a name="project-operations-release-notes"></a>ملاحظات حول إصدار Project Operations
-- ملاحظات إصدار Project Operations الأخيرة لسيناريو [الموارد/المنتجات غير المخزنة‬‬‏‫](whats-new-apr-2021-resource-based.md).
-- ملاحظات إصدار Project Operations الأخيرة لسيناريو [النشر الخفيف‬‬‬‏‫](../pro/whats-new/whats-new-apr-2021-lite.md).
-- ملاحظات إصدار Project Operations الأخيرة لسيناريو [المنتجات المخزنة/الإنتاج‬‬‬‏‫](../prod-pma/whats-new/whats-new-mar-2021-stocked.md).
+- ملاحظات إصدار Project Operations الأخيرة لسيناريو [الموارد/المنتجات غير المخزنة‬‬‏‫](whats-new-mar-2021-resource-based.md).
+- ملاحظات إصدار Project Operations الأخيرة لسيناريو [النشر الخفيف‬‬‬‏‫](../pro/whats-new/whats-new-mar-2021-lite.md).
+- ملاحظات إصدار Project Operations الأخيرة لسيناريو [المنتجات المخزنة/الإنتاج‬‬‬‏‫](../prod-pma/whats-new/whats-new-jan-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>الإصدار الأخير من Project Operations
 
-| Project Operations في بيئة Dataverse | إدارة المشاريع والمحاسبة في بيئات تطبيقات Finance and Operations | 
+| Project Operations في بيئة Dataverse | إدارة المشاريع والمحاسبة في بيئات تطبيقات Finance and Operations |
 | --- | --- |
-| 4.9.0.221  | 10.0.17  |
-
-بالنسبة لسيناريوهات الموارد/المنتجات غير المخزنة في Project Operations، من المستحسن استخدام Dual Write Orchestration، الإصدار 2.2.2.50 أو أعلى.
+| 4.8.0.91  | 10.0.16  |
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>جدول إصدار Project Operations في بيئة Dataverse
 
@@ -49,23 +47,23 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | محطة العمل   | المنطقة        | الإصدار الحالي | الإصدار التالي | متوفر بشكل عام |
 |-----------|---------------|-----------------|--------------|---------------------|
 | محطة العمل 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | الإصدار الأول |  4.9.0.221        | TBD     | 30 أبريل 21           |
+|   &nbsp;  | الإصدار الأول |  4.8.0.91        | TBD     | 2 أبريل 2021           |
 | محطة العمل 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | أمريكا الجنوبية |  4.9.0.221        | TBD     | 30 أبريل 21           |
-|    &nbsp; | كندا        |  4.9.0.221        | TBD     | 30 أبريل 21           |
-|   &nbsp;  | الهند         |  4.9.0.221        | TBD     | 30 أبريل 21           |
-|   &nbsp;  | فرنسا         |  4.9.0.221        | TBD     | 30 أبريل 21           |
-|   &nbsp;  | الإمارات العربية المتحدة         |  4.9.0.221        | TBD     | 30 أبريل 21           |
-|   &nbsp;  | جنوب إفريقيا         |  4.9.0.221        | TBD     | 30 أبريل 21           |
+|   &nbsp;  | أمريكا الجنوبية |  4.8.0.91        | TBD     | 2 أبريل 2021           |
+|    &nbsp; | كندا        |  4.8.0.91        | TBD     | 2 أبريل 2021           |
+|   &nbsp;  | الهند         |  4.8.0.91        | TBD     | 2 أبريل 2021           |
+|   &nbsp;  | فرنسا         |  4.8.0.91        | TBD     | 2 أبريل 2021           |
+|   &nbsp;  | الإمارات العربية المتحدة         |  4.8.0.91        | TBD     | 2 أبريل 2021           |
+|   &nbsp;  | جنوب إفريقيا         |  4.8.0.91        | TBD     | 2 أبريل 2021           |
 | محطة العمل 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | اليابان         |  4.9.0.221        | TBD     | 07-مايو-21           |
-|   &nbsp;  | آسيا/المحيط الهادئ  |  4.9.0.221        | TBD     | 07-مايو-21           |
-|   &nbsp;  | بريطانيا العظمى |  4.9.0.221        | TBD     | 07-مايو-21           |
-|   &nbsp;  | ‏‫أوقيانوسيا‬       |  4.9.0.221        | TBD     | 07-مايو-21           |
+|   &nbsp;  | اليابان         |  4.8.0.91        | TBD     | 9 أبريل 2021           |
+|   &nbsp;  | آسيا/المحيط الهادئ  |  4.8.0.91        | TBD     | 9 أبريل 2021           |
+|   &nbsp;  | بريطانيا العظمى |  4.8.0.91        | TBD     | 9 أبريل 2021           |
+|   &nbsp;  | ‏‫أوقيانوسيا‬       |  4.8.0.91        | TBD     | 9 أبريل 2021           |
 | محطة العمل 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | أوروبا        |  4.9.0.221        | TBD     | 14-مايو-21           |
+|   &nbsp;  | أوروبا        |  4.8.0.91        | TBD     | 16 أبريل 2021           |
 | محطة العمل 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | أمريكا الشمالية |  4.9.0.221        | TBD     | 21-مايو-21           |
+|   &nbsp;  | أمريكا الشمالية |  4.7.0.96        | 4.8.0.91      | 12 مارس 2021           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>جدول الإصدار لإدارة المشاريع والمحاسبة في بيئة تطبيقات Finance and Operations
 
@@ -73,17 +71,16 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 | الإصدار المدعوم | متوفر بشكل عام (تحديث ذاتي) |
 | --- | --- |
-| 10.0.18  | 16 أبريل 2021 |
-| 10.0.17  | 19 مارس 2021 |
 | 10.0.16  | 22 يناير 2021 |
+| 10.0.15  | 4 ديسمبر 2020 |
 
 
-تخضع تواريخ الإصدار المستهدفة للتغيير. لمزيد من المعلومات، راجع [توافر تحديثات الخدمة](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
+تخضع تواريخ الإصدار المستهدفة للتغيير. لمزيد من المعلومات، راجع [توافر تحديثات الخدمة](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
 
 | تاريخ الإصدار المستهدف | متوفر بشكل عام (تحديث ذاتي) |
 | --- | --- |
-| 10.0.19  | 18 يونيو 2021 |
-| 10.0.20  | 16 يوليو 2021 |
+| 10.0.17  | 19 مارس 2021 |
+| 10.0.18  | 16 أبريل 2021 |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

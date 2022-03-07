@@ -2,11 +2,9 @@
 title: التقاط إيصال باستخدام OCR
 description: يوفر هذا الموضوع معلومات حول معالجة التعرف البصري على الأحرف (OCR) للإيصالات.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499835"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798024"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>التقاط إيصال باستخدام OCR
 
@@ -87,7 +85,18 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 **أين تتوفر هذه الميزة وأين تتم معالجتها؟**
 
-يتم دعمه حاليًا في الولايات المتحدة.
+توفر هذه الميزة في مناطق مختلفة مدرج في الجدول التالي. إذا لم تكن المنطقة مدعومة في الوقت الحالي، فقم بإرسال طلب لتحديد أولوية توفر خدمة OCR في منطقتك. 
+
+| المنطقة | مدعوم                         |
+|--------|-----------------------------------|
+| الولايات المتحدة    | نعم                                |
+| CAN    | نعم                                |
+| المملكة المتحدة     | نعم                                |
+| أستراليا    | نعم                                |
+|  EU     | جزئيًا. الإيصالات الإنجليزية فقط. |
+| آسيا   | لا                                 |
+| اليابان  | لا                                 |
+| إفريقيا | لا                                 |
 
 **إلى أين تذهب إيصالاتي؟**
 
