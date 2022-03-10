@@ -2,8 +2,6 @@
 title: حجوزات الموارد وكيف ترتبط بتعيينات المهام
 description: يقدم هذا الموضوع معلومات حول كيفية إدارة الموارد المسماة وحجوزات الموارد وتعيينات المهام وكيف ترتبط ببعضها البعض.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,15 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c4b976b49bd643bc7a774a86b1ba89bd76d7c916
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 94deab811a304026dd663a88e869013a3b88fb29674b35fa0b40fa68f8c5ea62
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124982"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003050"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>حجوزات الموارد وكيف ترتبط بتعيينات المهام
 
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 يوجد طريقتان يمكن من خلالهما حجز الموارد المسماة إلى فريق مشروع وتعيين مهام المشروع:
 
@@ -67,3 +66,6 @@ ms.locfileid: "4124982"
 > [!NOTE]
 > إذا قمت بنقل مهمة عينت لها الحدود بنفسك، فلن تتم المحافظة على هذه الحدود. يُعاد إنشاء الحدود وفقًا لتقويم المشروع لمراعاة التغييرات في ساعات العمل وأيام العطل. يحدث هذا بموجب التصميم لأن النظام لا يعلم الهدف من الحدود الأصلية ويتعذر عليه تحديد إن كان يجب الاحتفاظ بهذه الحدود في فترة زمنية جديدة. نظرًا لعدم ارتباط الحجوزات والتعيينات، تحتفظ الحجوزات بحدود الحجز الأصلية. وفي هذه الحالة، سوف تحتاج إلى إلغاء حدود التعيينات الجديدة وإعادة حجزها.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

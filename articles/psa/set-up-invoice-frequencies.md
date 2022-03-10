@@ -2,8 +2,6 @@
 title: إعداد تكرارات الفاتورة‬
 description: كيفية إعداد تكرارات الفاتورة في Project Service
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 07c784222855c26a5715e4f3a69342ac79383b5d67c1095e880a4eb6102e6375
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070860"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984541"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>إعداد تكرارات الفاتورة (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -49,3 +49,6 @@ ms.locfileid: "4070860"
   
 ### <a name="see-also"></a>راجع أيضًا  
  [تكوين Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

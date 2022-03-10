@@ -2,18 +2,16 @@
 title: تقدير مبيعات المشروع وتكاليفه عندما يملأ مورد قابل للحجز عدة أدوار في المشروع
 description: يشرح هذا الموضوع كيفية استخدام أبعاد التسعير لدعم تقديرات التسعير والتكلفة لمورد يقوم بتعبئة أدوار متعددة في مشروع.
 author: rumant
-manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531343"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990120"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>تقدير مبيعات المشروع وتكاليفه عندما يملأ مورد قابل للحجز عدة أدوار في المشروع 
 
@@ -106,3 +104,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ### <a name="estimates-grid"></a>شبكة التقديرات 
 
 في شبكة **التقديرات**، يتم تسعير كلٍّ من التعيينات لنفس المورد بشكل مختلف. يتم تسعير تعيين المورد في **المهمة أ** باستخدام قيمة سمة **الدور** الخاصة بـ **العميل المتوقع الاستشاري**. يتم تسعير تعيين المورد نفسه في **المهمة ب** باستخدام قيمة سمة **الدور** الخاصة بـ **فني الشبكة**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

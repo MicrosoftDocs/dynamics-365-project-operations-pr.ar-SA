@@ -2,8 +2,6 @@
 title: عرض أعضاء فريق المشروع وإدارة الحجوزات
 description: كيفية عرض أعضاء فريق المشروع وإدارة الحجوزات في Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f9607614b0b5cbc5a2d65abe5b72f40c6099d83c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 02146a54fc69203bbfdbbe1493ee3414094d6183a770646cfefd908ea34e8f8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127730"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004520"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>عرض أعضاء فريق المشروع وإدارة الحجوزات (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -55,3 +55,6 @@ ms.locfileid: "4127730"
   
 ### <a name="see-also"></a>راجع أيضًا  
  [دليل مدير المشروع](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

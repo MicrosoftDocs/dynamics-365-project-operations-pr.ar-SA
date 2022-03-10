@@ -2,18 +2,16 @@
 title: نشر Project Operations - خفيف
 description: يقدم هذا الموضوع معلومات حول كيفية تثبيت نشر Project Operations Lite – التعامل مع الفواتير الأولية‬.
 author: stsporen
-manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 14912c612bbf04e232ce712e52330c7bb43eab9f3f8ffa9223a2d2f9ce95eb72
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290073"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991560"
 ---
 # <a name="deploy-project-operations---lite"></a>نشر Project Operations - خفيف
 
@@ -34,14 +32,14 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>تثبيت Project Operations في بيئة CDS جديدة
 
-1. بصفتك [المسؤول العمومي أو مسؤول Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) ولديك ترخيص، أنشئ بيئة CDS جديدة في [مركز إدارة PowerPlatform](https://admin.powerplatform.com). تأكد من تمكين **قاعدة بيانات CDS** و **تطبيقات Dynamics 365**. للحصول على مزيد من المعلومات، راجع [إنشاء البيئات وإدارتها في مركز إدارة Power Platform](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. بصفتك [المسؤول العمومي أو مسؤول Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) ولديك ترخيص، أنشئ بيئة CDS جديدة في [مركز إدارة PowerPlatform](https://admin.powerplatform.com). تأكد من تمكين **قاعدة بيانات CDS** و **تطبيقات Dynamics 365**. للحصول على مزيد من المعلومات، راجع [إنشاء البيئات وإدارتها في مركز إدارة Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. حدد **Microsoft Dynamics 365 Project Operations** من قائمة نشر تطبيقات Dynamics 365.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>تثبيت Project Operations في بيئة CDS موجودة
 
-1. بصفتك [المسؤول العمومي أو مسؤول Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) ولديك ترخيص Project Operations، حدد موقع البيئة في [مركز إدارة PowerPlatform](https://admin.powerplatform.com) حيث تريد تثبيت Project Operations.
-2. قم بتثبيت **Microsoft Dynamics 365 Project Operations** من قائمة نشر تطبيقات Dynamics 365. لمزيد من المعلومات، راجع [إدارة تطبيقات Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
+1. بصفتك [المسؤول العمومي أو مسؤول Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) ولديك ترخيص Project Operations، حدد موقع البيئة في [مركز إدارة PowerPlatform](https://admin.powerplatform.com) حيث تريد تثبيت Project Operations.
+2. قم بتثبيت **Microsoft Dynamics 365 Project Operations** من قائمة نشر تطبيقات Dynamics 365. لمزيد من المعلومات، راجع [إدارة تطبيقات Dynamics 365](/power-platform/admin/manage-apps).
 
 
 

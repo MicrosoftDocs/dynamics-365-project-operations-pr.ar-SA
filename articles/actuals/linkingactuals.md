@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9fc49211f3c2c79e18f6dd18e9a687091793cad0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996730"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991740"
 ---
 # <a name="link-actuals-to-original-records"></a>ربط القيم الفعلية بالسجلات الأصلية
 
@@ -77,7 +77,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 يوضح المثال التالي المعالجة النموذجية لإدخالات الوقت في دورة حياة مشروع Project Operations.
 
-> ![معالجة وإدخالات الوقت في دورة حياة خدمه Project Service](media/basic-guide-17.png)
+> ![معالجة وإدخالات الوقت في دورة حياة خدمه Project Service.](media/basic-guide-17.png)
  
 1. يؤدي إرسال إدخال الوقت إلى إنشاء سطرين من أسطر دفتر اليومية: أحدهما للتكلفة والأخر للمبيعات غير المفوترة.
 2. تتسبب الموافقة النهائية على إدخال الوقت في إنشاء قيمتين فعليتين: قيمة فعلية للتكلفة وأخرى للمبيعات غير المفوترة.

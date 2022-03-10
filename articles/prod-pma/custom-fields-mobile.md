@@ -2,11 +2,9 @@
 title: تنفيذ الحقول المخصصة لتطبيق الأجهزة المحمولة لـ Microsoft Dynamics 365 Project Timesheet على iOS وAndroid
 description: يقدم هذا الموضوع الأنماط الشائعة لاستخدام الملحقات لتنفيذ الحقول المخصصة.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070698"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005735"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>تنفيذ الحقول المخصصة لتطبيق الأجهزة المحمولة لـ Microsoft Dynamics 365 Project Timesheet على iOS وAndroid
 
@@ -53,7 +51,7 @@ ms.locfileid: "4070698"
 
 | قيمة الأنواع | كتابة              | ملاحظات |
 |-------------|-------------------|-------|
-| 1           | السلسلة (والتعداد) | يظهر الحقل كحقل نص. |
+| 0           | السلسلة (والتعداد) | يظهر الحقل كحقل نص. |
 | 1           | Integer           | يتم عرض القيمة كرقم بدون منازل عشرية. |
 | 2           | حقيقي              | يتم عرض القيمة كرقم بمنازل عشرية.<p>لإظهار القيمة الفعلية كعملة في التطبيق، استخدم خاصية **fieldExtenededType**. يمكنك استخدام خاصية **numberOfDecimals** لتعيين عدد المنازل العشرية المعروضة.</p> |
 | 3           | التاريخ              | يتم تحديد تنسيقات التاريخ بواسطة إعداد **التاريخ والأوقات وتنسيق الأرقام** الخاص بالمستخدم والذي تم تحديده ضمن **تفضيلات اللغة والبلد/المنطقة** في **خيارات المستخدم**. |
@@ -155,13 +153,13 @@ ms.locfileid: "4070698"
 
 فيما يلي لقطه شاشه من تطبيق الجوال لإنشاء إدخال لجدول زمني. يعرض الحقول الجاهزة وحقلًا مخصصًا في قسم "إدخال الوقت" المسمى "سلسلة الاختبار" مع تعيين قيمة تعداد "الخيار الثاني" بالفعل.
 
-![الحقل المخصص لسلسله الاختبار في التطبيق](media/timesheet-entry.jpg)
+![الحقل المخصص لسلسله الاختبار في التطبيق.](media/timesheet-entry.jpg)
 
 
 
 يوجد أدناه لقطة شاشة من تطبيق الجوال للمستخدم الذي يختار أحد خيارات التعداد المتاحة للحقل المخصص "اختبار السلسلة".  ويكون الخياران هما "الخيار الأول" و "الخيار الثاني" الظاهرين كازرار خيارات. الخيار الثاني محدد حاليا.
 
-![أزرار الخيارات (الأزرار التبادلية) الخاصة بالحقل المخصص لسلسله الاختبار](media/enum-option.jpg)
+![أزرار الخيارات (الأزرار التبادلية) الخاصة بالحقل المخصص لسلسله الاختبار.](media/enum-option.jpg)
 
 
 
@@ -173,7 +171,7 @@ ms.locfileid: "4070698"
 
 فيما يلي لقطه شاشة من Visual Studio لشجرة كائنات التطبيق. يعرض امتدادًا لجدول TSTimesheetLine مع إضافة حقل TestLineString كحقل مخصص.
 
-![سلسلة السطر](media/b6756b4a3fc5298093327a088a7710fd.png)
+![سلسلة السطر.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>استخدم سلسلة الأوامر في طريقة buildCustomFieldList لفئة TSTimesheetSettings لإظهار حقل في قسم إدخال الجدول الزمني
 
@@ -319,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 يوجد أدناه لقطة شاشة من تطبيق الهاتف المحمول لمستخدم يعرض الجدول الزمني. تم تحديد زر "مزيد من المعلومات" في الزاوية العلوية اليمنى لإظهار خيار "عرض المزيد من التفاصيل".  
 
-![أمر عرض المزيد من التفاصيل](media/show-more.png)
+![أمر عرض المزيد من التفاصيل.](media/show-more.png)
 
 يوجد أدناه لقطة شاشة من تطبيق الجوال تعرض قسم "المزيد" في الجدول الزمني. تمت إضافة حقل مخصص يسمى "معدل استخدام الجدول الزمني هذا (حقل مخصص محسوب)" إلى قسم رأس الجدول الزمني. تم تعيين قيمة للقراءة فقط "0.667" في الحقل المخصص.
 
-![قسم المزيد](media/more-section.jpg)
+![قسم المزيد.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>توسيع جدول TSTimesheetTable بحيث يحتوي على حقل مخصص
 
@@ -416,7 +414,7 @@ final class TSTimesheetDetails_Extension
 
 من معلمات المشروع ، يمكنك جعل الحقول الجاهزة للقراءة فقط أو مخفية في تطبيق الهاتف المحمول. قم بتعيين الخيارات في قسم **الجداول الزمنية** في علامة التبويب **الجدول الزمني** في صفحة **معلمات المحاسبة وإدارة المشاريع**.
 
-![معلمات المشاريع](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![معلمات المشروع.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>تغيير الانشطه المتاحة للتحديد عبر الملحقات
 
@@ -429,3 +427,6 @@ final class TSTimesheetDetails_Extension
 1. يحاول التطبيق وضع الفئة الافتراضية من مورد المشروع. يتم تعيين هذه الفئة الافتراضية في أسلوبي **getCurrentUserResource** و **getDelegatedResourcesForCurrentUser** في فئة **TSTimesheetSettingsService**.
 2. إذا لم يتم توفير الفئة الافتراضية على مستوى موارد المشروع ، فسيحاول التطبيق سحبها من نشاط المشروع. تم تعيين هذه الفئة الافتراضية في أسلوب **getActivitiesForProject** في فئة **TSTimesheetProjectService**.
 3. إذا لم يتم توفير الفئة الافتراضية على مستوى نشاط المشروع ، فإن الفئة الافتراضية المأخوذة من معلمات المشروع. تم تعيين هذه الفئة الافتراضية في أسلوب **getProjectDetailsbyRule** في فئة **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

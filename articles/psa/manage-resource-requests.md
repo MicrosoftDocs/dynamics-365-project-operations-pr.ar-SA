@@ -2,8 +2,6 @@
 title: إدارة طلبات الموارد
 description: كيفية إدارة طلبات الموارد في Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149842"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985125"
 ---
 # <a name="manage-resource-requests-project-service"></a>إدارة طلبات الموارد (Project Service)
 
@@ -45,9 +43,12 @@ ms.locfileid: "5149842"
   
    -   انقر فوق **تصفية** لعرض الجزء **عامل تصفية**، الذي يسمح لك بتصفية النتائج حسب الوحدة التنظيمية أو الدور أو المهارة أو سمات أخرى.  
   
-       ![شاشة طلبات الموارد في Project Service](../psa/media/project-service-resource-request-screen.png "شاشة طلبات الموارد في Project Service")  
+       ![شاشة طلبات الموارد في Project Service.](../psa/media/project-service-resource-request-screen.png "شاشة طلبات الموارد في Project Service")  
   
 3. في تقويم المورد الذي تريد حجزه، حدد الفترة الزمنية لحجز المورد، ثم انقر فوق **حجز** لحجز المورد، أو فوق **اقتراح الحجز** لاقتراح الحجز وجعل مقدم الطلب‬ يوافق عليه. عند حجز مورد، يمكنك إجراء حجز مبدئي‬ أو حجز محدد‬.  
   
 ### <a name="see-also"></a>راجع أيضًا  
  [دليل إدارة الموارد](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

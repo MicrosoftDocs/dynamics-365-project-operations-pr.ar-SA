@@ -2,8 +2,6 @@
 title: مستندات تقنية لـ Project Service Automation
 description: مجموعة من المستندات التقنية لتطبيق Project Service
 author: kfend
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c035b835ab4a29b2bf13365556d0b43b244b9936
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8940313d122ac8c47488b08a28b38b6744bf33cdfaf1b904ba184bd9956c369
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070587"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004160"
 ---
 # <a name="white-papers-for-project-service"></a>مستندات تقنية لتطبيق Project Service
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 تم تصميم هذه المستندات التقنية لتوفير معلومات معمقة حول [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] project service automation.
 
@@ -43,3 +43,6 @@ ms.locfileid: "4070587"
 
 ### <a name="see-also"></a>راجع أيضًا
  [نظرة عامة على Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

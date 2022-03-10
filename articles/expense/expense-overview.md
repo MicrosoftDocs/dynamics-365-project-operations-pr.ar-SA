@@ -2,25 +2,25 @@
 title: نظرة عامة على المصروفات
 description: يوفر هذا الموضوع معلومات حول وظيفة المصروفات في Project Operations.
 author: stsporen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
+ms.prod: ''
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: 7ba4d090e15bffa687d69d3d8e5733d2519668e2879249e1d6dc6aba26f7fbf6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122796"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988455"
 ---
 # <a name="expense-home-page"></a>الصفحة الرئيسية للمصروفات
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 
-يدعم Dynamics 365 Project Operations القدرة على معالجة المصروفات. تحدث معالجة المصروفات مع أو بدون مشاريع باستخدام سير عمل قابل للتخصيص للسياسات وفئات الحركات وعمليات الموافقة.
+يدعم Dynamics 365 Project Operations إمكانية معالجة المصاريف. تحدث معالجة المصروفات مع أو بدون مشاريع باستخدام سير عمل قابل للتخصيص للسياسات وفئات الحركات وعمليات الموافقة.
 
 في Project Operations، هناك نموذجا نشر مدعومان للمصروفات: 
 
@@ -28,11 +28,11 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 - **أساسي**: يتوفر النشر الأساسي لـ **Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة** و **النشر الخفيف – التعامل مع الفواتير الأولية**.
 
 ## <a name="full"></a>كامل 
-يوفر النشر الكامل للمصروفات فرضًا كاملاً للسياسة يتضمن القدرة على إنشاء سياسات، مثل:
+يوفر نشر المصروفات الكاملة تطبيق سياسة تامة تشمل القدرة على إنشاء سياسات، مثل:
 
   - حدود فئة المصروفات
   - السفر
-  - مصروف يومي
+  - المصروف اليومي
   - استيراد بطاقات الائتمان
   - التعرف البصري على الأحرف في الإيصالات
 
@@ -43,3 +43,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ## <a name="determine-your-expense-deployment"></a>تحديد نشر المصروفات
 لتحديد ما إذا كنت تقوم بتشغيل نشر إدارة المصروفات الأساسية، تأكد من أن عنوان URL ينتهي بـ **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,25 +2,23 @@
 title: حساب تكاليف بنود عروض الأسعار المستندة إلى المنتج
 description: يقدم هذا الموضوع معلومات حول تطبيق سعر تكلفة على بند عرض أسعار قائم على المنتج.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d21ab159294cac66ffeb8abcf0943b4babd7b360
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d9c03fa1a8f43cc110565efbafd7f5aba69f65f96bec7f15f2bd492123f639c7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118907"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001865"
 ---
 # <a name="costing-product-based-quote-lines"></a>حساب تكاليف بنود عروض الأسعار المستندة إلى المنتج
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 
-تحتوي بنود عرض الأسعار القائمة على المنتج في Dynamics 365 Project Operations على حقل **سعر التكلفة**. يستخدم هذا الحقل لتتبع سعر التكلفة للمنتج في بند عرض الأسعار وحسابات الربحية اللاحقة.
+تتضمن أيضًا بنود عرض الأسعار المستندة إلى المنتج في Dynamics 365 Project Operations حقل **سعر التكلفة**. يستخدم هذا الحقل لتتبع سعر التكلفة للمنتج في بند عرض الأسعار وحسابات الربحية اللاحقة.
 
 عند إنشاء بند عرض أسعار قائم على المنتج لمنتج كتالوج، يتم تحديد تكلفة بند عرض الأسعار القائم على المنتج بشكل افتراضي من حقل **التكلفة القياسية** في كتالوج المنتجات. يتم إعداد حقل "التكلفة القياسية" في كتالوج المنتجات بالعملة الأساسية للمؤسسة. يتم تحويل تكلفة الوحدة الافتراضية في بند عرض الأسعار القائم على المنتج إلى عملة المبيعات في عرض الأسعار.
 
@@ -33,3 +31,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 تقوم شركة Fabrikam Robotics بتثبيت أذرع آلية في بنود تجميع شركة A Datum Corporation'. توفر شركة Fabrikam خدمات التثبيت ولكن يتم شراء الأذرع الآلية من Trey robotics. إذا فتحت عملية تثبيت الأذرع الآلية في A Datum Corporation مجال صناعة جديدًا للأذرع الآلية في شركة Trey، فقد تمنح Trey شركة Fabrikam خصمًا خاصًا لهذه الصفقة.
 
 وفي هذه الحالة، ستقوم شركة Fabrikam بإنشاء خط عرض أسعار قائم على المنتج للأذرع الآلية وستدخل سعر وحدة خاصًا لعرض الأسعار هذا. تختلف هذه التكلفة عن التكلفة القياسية للأذرع الآلية لشركة Trey.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

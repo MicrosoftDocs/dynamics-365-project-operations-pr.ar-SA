@@ -2,18 +2,17 @@
 title: نظرة عامة على الفوترة بين الشركات الشقيقة
 description: يوفر هذا الموضوع معلومات وأمثلة حول الفوترة بين الشركات الشقيقة للمشاريع.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.custom: intro-internal
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595411"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005375"
 ---
 # <a name="intercompany-invoicing-overview"></a>نظرة عامة على الفوترة بين الشركات الشقيقة
 
@@ -21,9 +20,9 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 قد يكون لدي مؤسستك أقسام وشركات متعددة وكيانات قانونيه أخرى تقوم بنقل المنتجات والخدمات إلى بعضها البعض للمشاريع. ويطلق علي الكيان القانوني الذي يوفر الخدمة أو المنتج *الكيان القانوني المقرض*. ويطلق علي الكيان القانوني الذي يستلم الخدمة أو المنتج *الكيان القانوني المقترض*.
 
-يوضح الرسم التوضيحي التالي سيناريو نموذجيًا حيث يتشارك كيانان قانونيان ، Contoso Robotics USA (الكيان القانوني المُقترض) و Contoso Robotics UK (الكيان القانوني المُقرض) في الموارد لتسليم مشروع للعميل ، Adventure works. بالنسبة لهذا السيناريو ، تم التعاقد مع شركة Contoso Robotics USA لتسليم العمل إلى Adventure Works.
+يوضح الشكل التوضيحي التالي سيناريو نموذجي حيث يتشارك كيانات قانونيان، Contoso Robotics الولايات المتحدة الأمريكية (the borrowing legal entity) و Contoso Robotics المملكة المتحدة (الكيان القانوني المستقل) في الموارد لتسليم مشروع إلى العميل، Adventure works. لهذا السيناريو، تم التعاقد مع شركة Contoso Robotics الولايات المتحدة الأمريكية لتسليم العمل إلى الشركة Adventure Works.
 
-![الفوترة بين الشركات الشقيقة](./media/IntercompanyScenario.png) 
+![الفوترة بين الشركات الشقيقة.](./media/IntercompanyScenario.png) 
 
 يستخدم Dynamics 365 Project Operations التدفق التالي لمعالجه الحركات بين الشركات الشقيقة:
 
@@ -36,10 +35,13 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 يوضح الرسم التخطيطي التالي الفواتير بين الشركات الشقيقة من حيث ارتباطها بأحداث المحاسبة والترحيلات المتوقعة إلى دفتر الأستاذ العام.
 
-![التدفق بين الشركات الشقيقة](./media/IntercompanyFlow.png)
+![التدفق بين الشركات الشقيقة.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 - [تكوين الفوترة بين الشركات الشقيقة](configure-intercompany-invoicing.md)
 - [تسجيل حركات بين الشركات الشقيقة](create-intercompany-transactions.md)
 - [إنشاء فواتير العميل والمورّد بين الشركات الشقيقة](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

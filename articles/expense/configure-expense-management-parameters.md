@@ -2,18 +2,16 @@
 title: تكوين معلمات إدارة المصروفات
 description: يصف هذه الموضوع المعلمات التي تتحكم في السلوك العام في إدارة المصروفات.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8ecbd0abc16d0a29eea47d6bd1653a204a83de4c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070526"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007760"
 ---
 # <a name="configure-expense-management-parameters"></a>تكوين معلمات إدارة المصروفات
 
@@ -83,3 +81,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | عرض شهادة تصديق مكافحة الفساد   | حدد هذا الخيار لإظهار نص مكافحة الفساد عند إنشاء تقرير مصروفات. ويمكن بعد ذلك تمكين فئات مصروفات خاصة التي ستتطلب تحديد شهادة تصديق مكافحة الفساد في تقرير المصروفات. على سبيل المثال، قد تتطلب فئة هدايا مرتبطة بمصروفات مسؤولين رسميين حكوميين أن يؤكد الموظف أن المصروفات تستوفي سياسة الشركة المرتبطة بالمسؤولين الرسميين الحكوميين. |
 | رسالة مكافحة الفساد للمرسل | أدخل النص الذي يجب عرضه للموظف الذي يقوم بإنشاء تقرير مصروفات. لإدخال نص خاص بلغة محددة سيتم عرضه، استنادًا إلى لغة المستخدم، حدد **ترجمات**. |
 | رسالة مكافحة الفساد للمعتمد  | أدخل النص الذي يجب عرضه للمعتمد عند إنشاء تقرير مصروفات. لإدخال نص خاص بلغة محددة سيتم عرضه، استنادًا إلى لغة المستخدم، حدد **ترجمات**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

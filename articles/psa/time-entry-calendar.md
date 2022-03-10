@@ -2,8 +2,6 @@
 title: تقويم إدخال الوقت
 description: يقدم هذا الموضوع معلومات حول كيفية استخدام تقويم إدخال الوقت.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afc31609c51f48db61ce359c18707b5a92211082
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 699cfd1d89d90ace092ffe44abb242ab91464d5d8a813ee7964e923abe245d21
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070734"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996735"
 ---
 # <a name="time-entry-calendar"></a>تقويم إدخال الوقت
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -40,3 +40,6 @@ ms.locfileid: "4070734"
 ## <a name="extensibility"></a>إمكانية التوسعة
 
 في صفحة **إدخالات الوقت** التي تحتوي على شبكة إدخال الوقت، يمكنك إضافة حقول مخصصة وإعداد حقول البحث وإنشاء طرق عرض مخصصة. يمكنك أيضًا إعداد منطق عمل مخصص يستند إلى القيم التي تم تحديدها أو إدخالها في حقول مخصصة.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

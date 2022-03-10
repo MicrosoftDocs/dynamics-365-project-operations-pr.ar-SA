@@ -8,7 +8,11 @@
       href: environment/admin-trials.md
     - name: تحديثات Project Operations
       href: whats-new/project-operations-updates.md
-- name: Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+    - name: الميزات التي تمت إزالتها أو إهمالها
+      items:
+        - name: الميزات التي تمت إزالتها أو إهمالها في Project Operations
+          href: whats-new/removed-depreciated-features-project.md
+- name: Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة
   items:
     - name: الشروع في العمل
       items:
@@ -58,6 +62,10 @@
           href: environment/uninstall-project-operations.md
     - name: الجديد
       items:
+        - name: ديسمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-dec-2021-resource-based.md
+        - name: نوفمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: أكتوبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: سبتمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
@@ -302,6 +310,8 @@
               href: project-management/schedule-api-preview.md
             - name: أداء واجهة API لجدولة المشروع
               href: project-management/project-schedule-api-performance.md
+            - name: سجلات جدولة المشروع
+              href: project-management/schedule-api-logs.md
     - name: إدارة الموارد
       items:
         - name: المفاهيم الأساسية
@@ -396,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: إعداد الأميال باستخدام مستويات معدل المسافة بالميل
               href: expense/set-up-mileage.md
+        - name: تصنيف المصروفات
+          href: prod-exp/expense-itemization.md
         - name: المصروفات الشخصية
           href: expense/personal-expenses-expense-report.md
         - name: المصروفات بين الشركات الشقيقة
@@ -526,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: إدارة تقديرات الإيرادات
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: استكشاف الأخطاء وإصلاحها
+      items:
+        - name: عملية مبيعات المشروع
+          items:
+            - name: خطأ عدم تطابق العملة عند إنشاء مشروع أو عقد أو عرض أسعار أو مورد قابل للحجز
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: النشر الخفيف – التعامل مع الفواتير الأولية
   items:
     - name: الشروع في العمل
@@ -544,6 +562,10 @@
       items:
         - name: الجديد في الوصول المبكر للموجة 2 من إصدار 2021 - النشر الخفيف
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: الجديد في ديسمبر 2021 - النشر الخفيف
+          href: pro/whats-new/whats-new-dec-2021-lite.md
+        - name: الجديد في نوفمبر 2021 - النشر الخفيف
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: الجديد في أكتوبر 2021 - النشر الخفيف
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: الجديد في سبتمبر 2021 - النشر الخفيف
@@ -888,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: الأحداث الرئيسية لشروط التعاقد من الباطن
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: التعاقد من الباطن مع أعضاء فريق المشروع
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: خيارات التعاقد من الباطن مع أعضاء فريق المشروع
+          href: pro/subcontracting/subcon-options.md
+        - name: تقدير تكلفة تعيينات الموارد المتعاقد عليها من الباطن
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: تكوين لوحة الجدولة لإظهار العمال المتعاقدين والقدرة الإنتاجية المتعاقد عليها من الباطن
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: التوظيف في المشروع بالعمال المتعاقدين والقدرة الإنتاجية المتعاقد عليها من الباطن
+          href: pro/subcontracting/staffing-cw.md
+        - name: تسجيل الوقت والمصروفات واستخدام المواد للمكونات المتعاقد عليها من الباطن
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: انتقالات الحالة في عقد من الباطن
+          href: pro/subcontracting/subcon-states.md
     - name: الوقت
       items:
         - name: نظرة عامة على الوقت
@@ -950,8 +986,12 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
   items:
-    - name: الجديد‬
+    - name: الجديد
       items:
+        - name: الجديد في أكتوبر 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: الجديد في سبتمبر 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: الجديد في يوليو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: الجديد في مايو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
@@ -1108,6 +1148,10 @@
       items:
         - name: جدول إصدار التحديثات لـ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: الجديد أو المتغير في إصدار التحديث 38، V3
+          href: psa/whats-new-ur-38.md
+        - name: الجديد أو المتغير في إصدار التحديث 37.5، V3
+          href: psa/whats-new-ur-37-5.md
         - name: الجديد أو المتغير في إصدار التحديث 37، V3
           href: psa/whats-new-ur-37.md
         - name: الجديد أو المتغير في إصدار التحديث 36، V3
@@ -1192,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: دليل إعداد التقارير
           href: psa/implementation-guides/reporting-guide.md
+    - name: الترقية من Project Service Automation إلى Project Operations - خفيف
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: ترقية Project Service Automation (إصدار التطبيق 3.x)
       items:
         - name: ترقية Project Service Automation‏

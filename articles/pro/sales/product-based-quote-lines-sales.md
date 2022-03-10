@@ -2,24 +2,23 @@
 title: نظرة عامة على بنود عرض الأسعار القائمة على المنتج - خفيف
 description: يقدم هذا الموضوع معلومات حول العمل مع بنود عرض الأسعار القائمة على المنتج.
 author: rumant
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f6aa428c486f149308ad078f9d7a80a0be0f0f04
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.custom: intro-internal
+ms.openlocfilehash: 871597b38d72d2b670c375d2a1711a6022e3446ba3955a3d2a233a6486d85f5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178172"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003305"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>نظرة عامة على بنود عرض الأسعار القائمة على المنتج - خفيف
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
-يمكنك إنشاء بنود عرض أسعار قائمة على المنتج في Dynamics 365 Project Operations. يمكن إضافة بنود عرض الأسعار القائمة على المنتج يدويًا، أو يمكنها أو تكون عبارة عن عناصر من كتالوج المنتجات.
+يمكنك إنشاء بنود عرض أسعار مستندة إلى المنتجات في Dynamics 365 Project Operations. يمكن إضافة بنود عرض الأسعار القائمة على المنتج يدويًا، أو يمكنها أو تكون عبارة عن عناصر من كتالوج المنتجات.
 
 ## <a name="product-catalog"></a>كتالوج المنتجات
 
@@ -46,3 +45,6 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 إذا حددت **تجاوز التسعير**، فلن يتم تعيين السعر الافتراضي. بدلاً من ذلك، يجب عليك إدخال سعر للمنتج في بند عرض الأسعار. إذا قمت بتحديد **استخدام الافتراضي**، سيتم استخدام سعر المبيعات الافتراضي ويتم تامين الحقل للتحرير.
 
 بيتم إدخال أسعار المبيعات الافتراضية في البنود المستندة إلى المنتج في عرض الأسعار. ثم يتم تعيين حقل **التسعير** إلى **تجاوز التسعير** حتى يمكنك تحرير السعر الافتراضي في بنود عرض الأسعار. هذا تجاوز خاص في Project Operations لسلوك للبنود القائمة على المنتج في Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

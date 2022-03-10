@@ -2,24 +2,23 @@
 title: نظرة عامة على استخدام الموارد
 description: يوفر هذا الموضوع معلومات حول استخدام الموارد في Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4d66b5fc642ef53adf1169ce891a7a5fa26b07d6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279302"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002045"
 ---
 # <a name="resource-utilization-overview"></a>نظرة عامة على استخدام الموارد
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-يمكن للموارد أن تشتمل على الاستخدام القابل للفوترة للهدف. ويتم تحديد هذا الاستخدام الهدف كسمة في دور افتراضي لأحد الموارد أو يتم تعيينه في سجل فردي لمورد قابل للحجز. وتعتمد عمليات احتساب الاستخدام على الساعات الفعلية التي قامت الموارد بالإبلاغ عنها من خلال استخدام إدخالات الوقت المعتمدة.
+يمكن للموارد أن تشتمل على الاستخدام القابل للفوترة للهدف. ويتم تحديد هذا الاستخدام الهدف كسمة في دور افتراضي لأحد الموارد أو يتم تعيينه في سجل فردي لمورد قابل للحجز. وتعتمد العمليات الحسابية للاستخدام على الساعات الفعلية التي قامت الموارد بالإعلام عنها باستخدام قيود الوقت المعتمدة.
 
 تُستخدم الصيغ التالية لحساب الاستخدام:
 

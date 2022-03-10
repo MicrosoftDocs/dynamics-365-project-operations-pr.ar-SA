@@ -2,8 +2,6 @@
 title: كيف يمكنني إجراء "حجز مبدئي" للموارد في إصدار التطبيق 2.x؟
 description: توضح هذه المقالة كيفية إجراء حجز مبدئي لأعضاء فريق المشروع باستخدام Project Service.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bd13c448f4ce16fb93843df54f26cdd9bb884f4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d7eb9e3baea3c3f696845905a2522940d14bba8a8d42917f8fe1b90c7c443747
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146467"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993900"
 ---
 # <a name="how-do-i-soft-book-resources-in-the-web-app-project-service-app-v2x"></a>كيف يمكنني إجراء "حجز مبدئي" للموارد في تطبيق ويب (الإصدار v2.x من تطبيق Project Service)؟
 
@@ -87,3 +85,6 @@ ms.locfileid: "5146467"
 2. عندما تفتح لوحة الجدولة، قم بتوسيع المورد لعرض حجوزاته. سوف تشاهد الحجز وعليه علامة حجز "مبدئي".
 3. انقر بزر الماوس الأيمن فوق الحجز، وضمن "تغيير الحالة"، حدد "حجز محدد" ثم "محدد". أصبحت حالة الحجز الآن "محدد".
 4. بعد إغلاق لوحة الجدولة، سترى أن ساعات المورد قد تغيرت من "مبدئي" إلى "محدد" على شبكة أعضاء الفريق. يمكنك الآن تعيين المورد لتنفيذ المهام (شريطة وجود توافق بين ساعات الحجز المحدد وساعات المجهود في المهمة المطلوب تعيينها). لاحظ أنك إذا تابعت خطوات التنفيذ للمورد العام في البند 3 أعلاه، فإن عضو الفريق العام سيُزال من الفريق عندما تقوم بتغيير حالة المورد القابل للحجز من "مبدئي" إلى "محدد".
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

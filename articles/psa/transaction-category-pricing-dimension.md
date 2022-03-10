@@ -2,12 +2,10 @@
 title: استخدام فئة الحركة كبعد تسعير
 description: يقدم هذا الموضوع معلومات حول استخدام فئة حركة كبُعد تسعير.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ce878665384b75fc44bba2d413217857e0ee467c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281867"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988821"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>استخدام فئة الحركة كبعد تسعير
 

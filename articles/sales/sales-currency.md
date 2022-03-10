@@ -2,11 +2,9 @@
 title: ‏‏العملة
 description: يقدم هذا الموضوع معلومات حول كيفية إضافة أنواع العملات وإزالتها في عمليات المشروع.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642257"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999570"
 ---
 # <a name="currency"></a>‏‏العملة
 
@@ -71,3 +69,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 > [!IMPORTANT]
 >  لا يمكن حذف العملات المستخدمة بواسطة سجلات أخرى، يمكن إلغاء تنشيطها فقط. لا يؤدي إلغاء تنشيط سجلات العملة إلى إزالة معلومات العملة المخزنة في السجلات الموجودة، مثل الفرص أو الأوامر. ومع ذلك، لن تكون قادرًا على تحديد العملة غير النشطة للمعاملات الجديدة.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

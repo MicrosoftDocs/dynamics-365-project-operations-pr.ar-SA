@@ -2,8 +2,6 @@
 title: عرض استخدام الموارد الخاضع للرسوم
 description: يوفر هذا الموضوع معلومات حول طريقة عرض استخدام الموارد.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,18 +16,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122147"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007130"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>عرض استخدام الموارد الخاضع للرسوم
+
+[!include [banner](../includes/psa-now-project-operations.md)]
  
 توضح طريقه عرض **الاستخدام** الموجودة في صفحة **استخدام مورد Project Service** الاستخدام الخاضع للرسوم لكل مورد قابل للحجز. ولأن طريقة العرض تستند إلى لوحة الجدولة، فسوف تعثر على العديد من الوظائف نفسها هناك.
 
-> ![لقطة شاشة لطريقة عرض الاستخدام](media/FAQ-utilization-1.png)
+> ![لقطة شاشة لطريقة عرض الاستخدام.](media/FAQ-utilization-1.png)
  
 
 يعمل حساب الاستخدام الخاضع للرسوم يعمل كما يلي:
@@ -48,7 +48,7 @@ ms.locfileid: "4122147"
 2. حدد أحد الوارد لفتح السجل. 
 3. من علامة التبويب **Project Service**، يمكنك أيضًا تعيين الاستخدام المستهدف للمورد.
 
-> ![لقطة شاشة لاستخدام علامة التبويب Project Service لتعيين الاستخدام المستهدف](media/FAQ-utilization-2.png)
+> ![لقطة شاشة لاستخدام علامة التبويب Project Service لتعيين الاستخدام المستهدف.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>تعيين الاستخدام المستهدف لدور
 
@@ -56,7 +56,7 @@ ms.locfileid: "4122147"
 2. حدد أحد الأدوار وافتح السجل. 
 3. عيّن الاستخدام المستهدف للدور.
 
-> ![لقطة شاشة لاستخدام أدوار الموارد لتعيين الاستخدام المستهدف](media/FAQ-utilization-3.png)
+> ![لقطة شاشة لاستخدام أدوار الموارد لتعيين الاستخدام المستهدف.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>حساب الاستخدام الخاضع للرسوم لمورد
 
@@ -99,3 +99,6 @@ ms.locfileid: "4122147"
   - تم تعيين الدور في شروط التعاقد الخاصة بالمشروع والتي تدعم المشروع إلى غير خاضع للرسوم.
   - ‏‏ليس لدى المشروع شروط تعاقد مقترنة به.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

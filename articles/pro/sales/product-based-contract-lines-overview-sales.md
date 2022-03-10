@@ -2,24 +2,23 @@
 title: نظرة عامة على شروط التعاقد المستندة إلى المنتج - خفيف
 description: يقدم هذا الموضوع معلومات حول شروط التعاقد المستندة إلى المنتج.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.custom: intro-internal
+ms.openlocfilehash: 79b4f6355afb7472f843eda06bf33a3fe732274d6f2566bd23000aa11cbfdce1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177855"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007535"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>نظرة عامة على شروط التعاقد المستندة إلى المنتج - خفيف
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
-يمكنك إنشاء شروط تعاقد تستند إلى منتج في Dynamics 365 Project Operations. بإمكان شروط التعاقد المستندة إلى المنتج أن تكون بنودًا يتم إنشاؤها يدويًا أو يمكنها أن تكون عناصر من كتالوج المنتجات.
+يمكنك إنشاء شروط تعاقد مستندة إلى المنتجات في Dynamics 365 Project Operations. بإمكان شروط التعاقد المستندة إلى المنتج أن تكون بنودًا يتم إنشاؤها يدويًا أو يمكنها أن تكون عناصر من كتالوج المنتجات.
 
 ## <a name="product-catalog"></a>كتالوج المنتجات
 
@@ -46,3 +45,6 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 إذا قمت بتعيين حقل **التسعير** إلى **تجاوز التسعير**، فلا يتم تعيين السعر الافتراضي. أدخل سعرًا للمنتج على شرط التعاقد. إذا قمت بتعيين الحقل إلى **استخدام الافتراضي**، سيتم استخدام سعر المبيعات الافتراضي ولا يمكن تحرير الحقل.
 
 بعد تثبيت Project Operations، يتم إدخال أسعار المبيعات الافتراضية في البنود المستندة إلى المنتج على العقد. ثم يتم تعيين حقل **التسعير** إلى **تجاوز التسعير** حتى يمكنك تحرير السعر الافتراضي في شروط التعاقد. هذا تجاوز خاص بـ Project Operations لسلوك البنود القائمة على المنتج في Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

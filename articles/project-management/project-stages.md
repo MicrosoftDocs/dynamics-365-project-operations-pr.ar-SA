@@ -2,11 +2,9 @@
 title: مراحل المشروع
 description: يقدم هذا الموضوع معلومات حول مراحل المشروع المتوفرة في Microsoft Dynamics Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 554ad63bc44cbe5a1fe91eb47fedbb74bbedd4b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ea8b74813e8a51930a03571eab0d962e14f66a8fd6cb978d3435570a01ce5c5d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070771"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003035"
 ---
 # <a name="project-stages"></a>مراحل المشروع
 
@@ -53,7 +51,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ## <a name="deliver"></a>تسليم
 
-عند اكتمال خطة المشروع، وتكون مستعدًا لبدء المشروع، يتعين علي مدير المشروع تحديث مرحلة المشروع إلى **التسليم** لإظهار أن المشروع قد بدأ.
+عند اكتمال خطة المشروع، وتكون مستعدًا لبدء المشروع، يتعين على مدير المشروع تحديث مرحلة المشروع إلى **التسليم** لإظهار أن المشروع قد بدأ.
 
 ## <a name="complete"></a>‏‫مكتمل‬ 
 
@@ -63,3 +61,6 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 عندما يتم تسجيل جميع الحركات الخاصة بالمشروع، يمكن لمدير المشروع تحديث المرحلة إلى **الإغلاق**. وعند هذه النقطة، لا يمكن تسجيل أي حركات، ويتم تعيين المشروع للقراءة فقط.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

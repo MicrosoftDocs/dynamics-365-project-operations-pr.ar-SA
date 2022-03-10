@@ -2,18 +2,16 @@
 title: المصروفات اليومية
 description: يقدم هذا الموضوع معلومات حول قواعد المصروفات اليومية المستخدمة في إدارة المصروفات.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 7d1c4ac7781cb711e2cc0d09606d422b4dd554f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070518"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986385"
 ---
 # <a name="per-diems"></a>المصروفات اليومية
 
@@ -31,3 +29,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
     
 ## <a name="submit-expenses-using-per-diem"></a>إرسال المصروفات باستخدام المصروف اليومي
 لإرسال المصروفات باستخدام المصروفات اليومية، استخدم فئة المصروفات **اليومية** عند إنشاء تقرير مصروفات. أدخل **المصروف اليومي من تاريخ** و **المصروف اليومي إلى تاريخ** و **موقع المصروفات اليومية**. سيتم حساب المبلغ على أساس معدلات المصروفات اليومية الخاصة بالموقع المحدد وسيتم حساب تخفيض الوجبة على أساس مستويات معدلات المصروفات اليومية.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

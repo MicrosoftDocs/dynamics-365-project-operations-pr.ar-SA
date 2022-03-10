@@ -2,8 +2,6 @@
 title: إدارة المشاريع والحجوزات في تقويم Office 365 الخاص بك
 description: كيفية إدارة المشاريع والحجوزات في تقويم Office 365 الخاص بك
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144442"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985215"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>إدارة المشاريع والحجوزات في تقويمك في (Project Service)
 
@@ -52,7 +50,7 @@ ms.locfileid: "5144442"
   
 - يجب أن تتوفر لديك بيانات اعتماد مسؤول النظام أو المسؤول العمومي في [!INCLUDE[pn_office_365](../includes/pn-office-365.md)].  
   
-- سيحتاج المسؤول إلى تكوين ملف تعريف خادم البريد الإلكتروني وسيحتاج كل مستخدم إلى تكوين علبة البريد الخاصة به. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [إعداد معالجة البريد الإلكتروني من خلال المزامنة من جانب الخادم](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- سيحتاج المسؤول إلى تكوين ملف تعريف خادم البريد الإلكتروني وسيحتاج كل مستخدم إلى تكوين علبة البريد الخاصة به. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [إعداد معالجة البريد الإلكتروني من خلال المزامنة من جانب الخادم](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>تشغيل المزامنة لمؤسسة (مهمة المسؤول)  
   
@@ -91,3 +89,6 @@ ms.locfileid: "5144442"
   
 ### <a name="see-also"></a>راجع أيضًا  
  [دليل الوقت والمصروفات والتعاون](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

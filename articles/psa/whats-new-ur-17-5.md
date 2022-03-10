@@ -2,8 +2,6 @@
 title: الجديد أو المتغير في إصدار التحديث 17.5، الإصلاح العاجل، الإصدار 3 من Project Service Automation
 description: يسرد هذا الموضوع الميزات والإصلاحات المتوفرة في الإصدار 3 من Project Service Automation، إصدار التحديث 17.5.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b3d58cb4a2f8fea1495d143dd985ad17a5cc4130
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: df589cf9edc51e33ff33f486ba238d4f542297436d4bdaa80bd8af59b65e7481
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949258"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006635"
 ---
 # <a name="project-service-automation-update-release-175-v3"></a>الإصدار 3 من Project Service Automation، إصدار التحديث 17.5
 

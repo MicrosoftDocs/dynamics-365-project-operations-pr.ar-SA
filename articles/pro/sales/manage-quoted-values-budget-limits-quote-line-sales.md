@@ -1,23 +1,22 @@
 ---
-title: نظرة عامة على بنود عرض الأسعار القائم على المشروع - خفيف
-description: يقدم هذا الموضوع معلومات حول استخدام بنود عروض الأسعار المستندة إلى المشروع لعمل المشروع. (احترافي)
+title: نظرة عامة على بنود عرض الأسعار القائم على المشروع
+description: يقدم هذا الموضوع معلومات حول استخدام بنود عروض الأسعار المستندة إلى المشروع لعمل المشروع.
 author: rumant
-manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.custom: intro-internal
+ms.openlocfilehash: 2f2d38c7fb3bc3ec26cf64525ef8275adecafd7fc48e97d6daef595d341c045d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181076"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001550"
 ---
-# <a name="project-based-quote-lines-overview---lite"></a>نظرة عامة على بنود عرض الأسعار القائم على المشروع - خفيف
+# <a name="project-based-quote-lines-overview"></a>نظرة عامة على بنود عرض الأسعار القائم على المشروع 
 
-_**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
+_**ينطبق على:** نشر خفيف - التعامل مع الفواتير الأولية‬، Project Operations لسيناريوهات الموارد/المنتجات غير المخزنة_
 
 تم تصميم بنود عرض الأسعار المستندة إلى المشروع للمساعدة في تقدير عمل المشروع بأحد المشاركات. يتم توسيع بنية سطر عرض الأسعار المستند إلى المشروع لتقديرات المشروع بالمفاهيم التالية:
 
@@ -33,18 +32,19 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 
 | **الحقل** | **الوصف** | **تأثير لاحق** |
 | --- | --- | --- |
-| اسم | اسم بند عرض الأسعار الذي ينبغي أن يساعدك في تحديد المكون المنفصل لعرض الأسعار الذي يتم تقديره. | يتم نسخه إلى بند عقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عندما يتم ربح عرض الأسعار. |
-| أسلوب الفوترة | في عرض الأسعار الذي تم إنشاؤه من أحدي الفرص، يتم نسخ هذه القيمة من الحقل المقابل في بند الفرصة. يتضمن هذا الحقل اثنين من نماذج التعاقد الرئيسية المدعومة من Dynamics 365 Project Operations:</br>- سعر ثابت</br>- الوقت والمادة.| يتم نسخ قيمة الحقل هذه إلى بند عقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عندما يتم ربح عرض الأسعار. |
-| Project | استخدم هذا الحقل الاختياري لتحديد المشروع الذي سيتم استخدامه لتسليم العمل في هذه المشاركة. عندما يتم تعيين مشروع إلى بند عرض الأسعار، فإنه يساعد في إعداد المهام الخاضعة للرسوم وكذلك يساعد في إحضار التقديرات المستندة إلى المشروع لبند عرض الأسعار كتفاصيل بند عرض الأسعار. عند عدم تعيين مشروع لبند عرض أسعار يستند إلى مشروع، يتعين إنشاء التقدير يدويًا عن طريق إنشاء كل تفاصيل بند عرض الأسعار. | يتم نسخ قيمة الحقل هذه إلى بند عقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عندما يتم ربح عرض الأسعار.|
-| المهام المضمنة | يشير إلى ما إذا كان يتم استخدام بند عرض الأسعار لكافة مهام المشروع أو بعضها للمشروع المحدد. يحتوي هذا الحقل على القيم الممكنة التالية:</br>- كل مهام المشروع</br>- مهام المشروع المحددة فقط</br>القيمة الفارغة في هذا الحقل تكافئ خيار **كافة مهام المشروع**. | عند اختيار **مهام المشروع المحددة فقط**، عندئذ في صفحة المشروع، تسمح علامة التبويب **إعداد فوترة المهمة** لك بتحديد مهام معينة لإقرانها ببند عرض الأسعار هذا. يتم نسخ قيمة الحقل هذه إلى بند عقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عندما يتم ربح عرض الأسعار. |
-| تضمين الوقت | تشير علامة **نعم**/**لا** إلى ما إذا كان حركات الوقت أو تكاليف العمالة في المشروع المحدد مضمنة في التقدير لبند عرض الأسعار هذا أم لا. تشير علامة **لا** إلى أن حركات الوقت أو تكلفة العمالة لن يتم تضمينها في التقدير لبند عرض الأسعار هذا. تشير علامة **نعم** إلى أن حركات الوقت أو تكلفة العمالة سيتم تضمينها في التقدير لبند عرض الأسعار هذا. | يتم نسخ قيمة الحقل هذه إلى بند عقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عندما يتم ربح عرض الأسعار. |
-| يتضمن المصروفات | تشير علامة **نعم**/**لا** إلى ما إذا كانت تكاليف المصروفات في المشروع المحدد سيتم تضمينها في التقدير لبند عرض الأسعار هذا أم لا. تشير علامة **لا** إلى أن تكلفة المصروفات لن يتم تضمينها في التقدير لبند عرض الأسعار هذا. تشير علامة **نعم** إلى أن تكلفة المصروفات سيتم تضمينها في التقدير لبند عرض الأسعار هذا. | يتم نسخ قيمة الحقل هذه إلى بند عقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عندما يتم ربح عرض الأسعار. |
-| تضمين الرسوم | تشير علامة **نعم**/**لا** إلى ما إذا كانت الرسوم في المشروع المحدد سيتم تضمينها في التقدير لبند عرض الأسعار هذا أم لا. تشير علامة **لا** إلى أن الرسوم لن يتم تضمينها في التقدير لبند عرض الأسعار هذا. تشير علامة **نعم** إلى أن الرسوم سيتم تضمينها في التقدير لبند عرض الأسعار هذا. | يتم نسخ قيمة الحقل هذه إلى بند عقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عندما يتم ربح عرض الأسعار. |
-| المبلغ المعروض | هذا هو المبلغ الذي سيتم وضعه في التسعير للعميل لكل العمل المتوقع في بند عرض الأسعار المستند إلى المشروع هذا. في عرض الأسعار الذي تم إنشاؤه من أحدي الفرص، يتم نسخ هذه القيمة من الحقل **ميزانية العميل** في بند الفرصة. عندما يحتوي بند عرض الأسعار المستند إلى المشروع على تفاصيل البند، يكون هذا الحقل مؤمنًا للتحرير ويتم تلخيصه من المبلغ الموجود في تفاصيل بند عرض الأسعار. | يتم نسخ قيمة الحقل هذه إلى بند عقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عندما يتم ربح عرض الأسعار. |
-| الضريبة المقدرة | هذا حقل قابل للتحرير لكي يقوم المستخدم بإضافة مبلغ الضريبة المقدرة في بند عرض الأسعار. عندما يحتوي بند عرض الأسعار المستند إلى المشروع على تفاصيل البند، يكون هذا الحقل مؤمنًا للتحرير ويتم تلخيصه من مبلغ الضريبة الموجود في تفاصيل بند عرض الأسعار. | يتم نسخ قيمة الحقل هذه إلى بند عقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عندما يتم ربح عرض الأسعار. |
-| ‏‫المبلغ المعروض‬ بعد الضريبة | هذا الحقل هو مبلغ بند عرض الأسعار بعد الضريبة وهو للقراءة فقط. يتم حساب المبلغ الموجود في هذا الحقل *كمبلغ معروض + الضريبة*. | يتم نسخ قيمة الحقل هذه إلى بند عقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عندما يتم ربح عرض الأسعار. |
-| حد ما يجب ألا يتم تجاوزه | ويكون هذا الحقل قابلا للتحرير ويكون متاحا فقط في بنود عروض الأسعار المستندة إلى المشروع والتي لها أسلوب فوترة **الوقت والمادة**. | يتم نسخ قيمة الحقل هذه إلى بند عقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عندما يتم ربح عرض الأسعار. |
-| موازنة العميل | يكون هذا الحقل قابلا للتحرير ويتم نسخه من الحقل المقابل في بند الفرصة إذا تم إنشاء عرض الأسعار من إحدى الفرص. | يتم نسخ قيمة الحقل هذه إلى بند عقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عندما يتم ربح عرض الأسعار. |
+| الاسم  | اسم بند عرض الأسعار الذي يساعدك في تحديد المكون المنفصل لعرض الأسعار الجاري تقديره. | يتم نسخه إلى بند عقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عندما يتم ربح عرض الأسعار. |
+| أسلوب الفوترة | في عرض الأسعار الذي تم إنشاؤه من أحدي الفرص، يتم نسخ هذه القيمة من الحقل المقابل في بند الفرصة. يتضمن هذا الحقل نموذجين أساسيين للتعاقد يدعمهما Dynamics 365 Project Operations:</br>- سعر ثابت</br>- الوقت والمادة.| يتم نسخ هذه القيمة إلى شرط تعاقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عند فوز عرض الأسعار. |
+| Project | استخدم هذا الحقل الاختياري لتحديد المشروع الذي سيتم استخدامه لتسليم العمل في هذه المشاركة. عندما يتم تعيين مشروع إلى بند عرض الأسعار، فإنه يساعد في إعداد المهام الخاضعة للرسوم وكذلك يساعد في إحضار التقديرات المستندة إلى المشروع لبند عرض الأسعار كتفاصيل بند عرض الأسعار. عند عدم تعيين مشروع لبند عرض أسعار يستند إلى مشروع، يتعين إنشاء التقدير يدويًا عن طريق إنشاء كل تفاصيل بند عرض الأسعار. | يتم نسخ هذه القيمة إلى شرط تعاقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عند فوز عرض الأسعار.|
+| المهام المضمنة | يشير إلى ما إذا كان يتم استخدام بند عرض الأسعار لكافة مهام المشروع أو بعضها للمشروع المحدد. يحتوي هذا الحقل على القيم الممكنة التالية:</br>- كل مهام المشروع</br>- مهام المشروع المحددة فقط</br>القيمة الفارغة في هذا الحقل تكافئ خيار **كافة مهام المشروع**. | عند تحديد الخيار **مهام المشروع المحددة فقط‬** على صفحة المشروع، تسمح لك علامة التبويب **إعداد فوترة المهام** تحديد مهام معينة لربطها ببند عرض الأسعار هذا. يتم نسخ هذه القيمة إلى شرط تعاقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عند فوز عرض الأسعار. |
+| تضمين الوقت | تشير القيمة **نعم**/**لا** إلى ما إذا كان سيتم تضمين حركات الوقت أو تكاليف العمالة على المشروع المحدد في التقدير على بند عرض الأسعار هذا. تشير علامة **لا** إلى أن حركات الوقت أو تكلفة العمالة لن يتم تضمينها في التقدير لبند عرض الأسعار هذا. تشير علامة **نعم** إلى أن حركات الوقت أو تكلفة العمالة سيتم تضمينها في التقدير لبند عرض الأسعار هذا. | يتم نسخ هذه القيمة إلى شرط تعاقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عند فوز عرض الأسعار. |
+| يتضمن المصروفات | تشير القيمة **نعم**/**لا** إلى ما إذا كان سيتم تضمين تكاليف المصروفات على المشروع المحدد في التقدير على بند عرض الأسعار هذا. تشير علامة **لا** إلى أن تكلفة المصروفات لن يتم تضمينها في التقدير لبند عرض الأسعار هذا. تشير علامة **نعم** إلى أن تكلفة المصروفات سيتم تضمينها في التقدير لبند عرض الأسعار هذا. | يتم نسخ هذه القيمة إلى شرط تعاقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عند فوز عرض الأسعار. |
+| تضمين المواد | تشير القيمة **نعم**/**لا** إلى ما إذا كان سيتم تضمين تكاليف المواد على المشروع المحدد في التقدير على بند عرض الأسعار هذا. تشير القيمة **نعم** إلى أنه لن يتم تضمين تكاليف المواد في التقدير على بند عرض الأسعار هذا. تشير القيمة **نعم** إلى أنه سيتم تضمين تكاليف المواد في التقدير على بند عرض الأسعار هذا. | يتم نسخ هذه القيمة إلى شرط تعاقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عند فوز عرض الأسعار. |
+| تضمين الرسوم | تشير القيمة **نعم**/**لا** إلى ما إذا كان سيتم تضمين الرسوم على المشروع المحدد في التقدير على بند عرض الأسعار هذا. تشير القيمة **لا** إلى أنه لن يتم تضمين الرسوم في التقدير لبند عرض الأسعار هذا. تشير القيمة **نعم** إلى أنه سيتم تضمين الرسوم في التقدير لبند عرض الأسعار هذا. | يتم نسخ هذه القيمة إلى شرط تعاقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عند فوز عرض الأسعار. |
+| المبلغ المعروض | هذا هو المبلغ الذي سيتم إدراجه في عرض الأسعار للعميل لكل العمل المتوقع في شرط التعاقد القائم على هذا المشروع. في عرض الأسعار الذي تم إنشاؤه من أحدي الفرص، يتم نسخ هذه القيمة من الحقل **ميزانية العميل** في بند الفرصة. عندما يحتوي بند عرض الأسعار المستند إلى المشروع على تفاصيل البند، يكون هذا الحقل مؤمنًا للتحرير ويتم تلخيصه من المبلغ الموجود في تفاصيل بند عرض الأسعار. | يتم نسخ هذه القيمة إلى شرط تعاقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عند فوز عرض الأسعار. |
+| الضريبة المقدرة | هذا حقل قابل للتحرير لكي يقوم المستخدم بإضافة مبلغ الضريبة المقدرة في بند عرض الأسعار. عندما يحتوي بند عرض الأسعار المستند إلى المشروع على تفاصيل البند، يكون هذا الحقل مؤمنًا للتحرير ويتم تلخيصه من مبلغ الضريبة الموجود في تفاصيل بند عرض الأسعار. | يتم نسخ هذه القيمة إلى شرط تعاقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عند فوز عرض الأسعار. |
+| ‏‫المبلغ المعروض‬ بعد الضريبة | هذا الحقل هو مبلغ بند عرض الأسعار بعد الضريبة وهو للقراءة فقط. يتم حساب المبلغ الموجود في هذا الحقل *كمبلغ معروض + الضريبة*. | يتم نسخ هذه القيمة إلى شرط تعاقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عند فوز عرض الأسعار. |
+| حد ما يجب ألا يتم تجاوزه | ويكون هذا الحقل قابلا للتحرير ويكون متاحا فقط في بنود عروض الأسعار المستندة إلى المشروع والتي لها أسلوب فوترة **الوقت والمادة**. | يتم نسخ هذه القيمة إلى شرط تعاقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عند فوز عرض الأسعار. |
+| موازنة العميل | يكون هذا الحقل قابلا للتحرير ويتم نسخه من الحقل المقابل في بند الفرصة إذا تم إنشاء عرض الأسعار من إحدى الفرص. | يتم نسخ هذه القيمة إلى شرط تعاقد المشروع الذي تم إنشاؤه من بند عرض الأسعار هذا عند فوز عرض الأسعار. |
 
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>قواعد التحقق من الصحة للحقول في علامة التبويب عام لبنود عرض الأسعار المستندة إلى المشروع
@@ -62,42 +62,47 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     <strong>الفرصة</strong>
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     <strong>اقتباس</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     <strong>بند عرض الأسعار</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     <strong>Project</strong>
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     <strong>المهام المضمنة</strong>
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     <strong>تضمين الوقت</strong>
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     <strong>يتضمن المصروفات</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+                    <strong>تضمين المواد</strong>
+                </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
                     <strong>تضمين</strong>
                 </p>
@@ -105,709 +110,770 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
                     <strong>رسوم</strong>
                 </p>
             </td>
-            <td width="54" valign="top">
+            <td width="49" valign="top">
                 <p>
                     <strong>صالح/غير صالح</strong>
                 </p>
             </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
                 <p>
                     <strong>سبب</strong>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 ربع السنة الأول </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 فارغ </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+نعم  </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 غير صالح </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-انتهاك القاعدة #2. يتم تضمين الوقت والمصروفات والرسوم في المشروع P1 في بنود عرض الأسعار QL1 و QL2.
-                </p>
+انتهاك القاعدة #2. يتم تضمين الوقت والمصروفات والرسوم في المشروع P1 في بنود عرض الأسعار QL1 وQL2. </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 ربع السنة الأول </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 فارغ </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+نعم  </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 ربع السنة الأول </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 فارغ </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-Yes </p>
+لا  </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+نعم  </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 غير صالح </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-انتهاك القاعدة #2. يتم تضمين الوقت والرسوم في المشروع P1 في بنود عرض الأسعار QL1 و QL2.
-                </p>
+انتهاك القاعدة #2. يتم تضمين الوقت والمواد والرسوم في المشروع P1 في بنود عرض الأسعار QL1 وQL2. </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 ربع السنة الأول </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 فارغ </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+نعم  </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 ربع السنة الأول </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 فارغ </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-Yes </p>
+لا  </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+نعم  </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 صالح </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
-                  <p>
-يتم تضمين الوقت والرسوم على المشروع P1 في QL1.
-يتم تضمين المصروفات في المشروع P1 في QL2.
-لا يكون هناك تداخل في ما يتم تضمينه في كل بند عرض الأسعار ويكون صالحًا.
+            <td width="200" rowspan="2" valign="top">
+                <p>
+يتم تضمين الوقت والمواد والرسوم في المشروع P1 على QL1 <br>
+يتم تضمين المصروفات في المشروع P1 في QL2. <br>
+لا يوجد تداخل في ما يتم تضمينه في كل بند عرض أسعار وهو بالتالي صالح.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 ربع السنة الأول </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 فارغ </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-Yes </p>
+لا  </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-Yes </p>
+لا  </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+لا  </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 ربع السنة الأول </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 المهام المحددة فقط </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+نعم  </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 غير صالح </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-انتهاك القاعدة #2 السابقة </p>
+انتهاك القاعدة رقم 2 </p>
                 <p>
-يتضمن Q1 الوقت والمصروفات والرسوم على مجموعة فرعية من المهام في مشروع P1.
-                </p>
+يتضمن Q1 الوقت والمواد والمصروفات والرسوم في مجموعة فرعية من المهام في المشروع P1 </p>
                 <p>
-يتضمن QL2 الوقت والمصروفات والرسوم للمشروع P1 بالكامل ويتداخل مع ما تم تضمينه في Q1.
+يتضمن QL2 الوقت والمصروفات والرسوم لمشروع P1 بكامله وبالتالي يتداخل مع ما يتضمنه Q1.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 ربع السنة الأول </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 فارغ </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+نعم  </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 ربع السنة الأول </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 المهام المحددة فقط </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+نعم  </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 صالح </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-لكل قاعدة #3 أعلاه، </p>
+حسب القاعدة 3 </p>
                 <p>
-يتضمن Q1 الوقت والمصروفات والرسوم على مجموعة فرعية من المهام في مشروع P1.
+يتضمن Q1 الوقت والمواد والمصروفات والرسوم في مجموعة فرعية من المهام في المشروع P1.
                 </p>
                 <p>
-يتضمن QL2 الوقت والمصروفات والرسوم لمجموعة فرعية من المهام في مشروع P1.
+يتضمن QL2 الوقت والمواد والمصروفات والرسوم في مجموعة فرعية من المهام في المشروع P1.
                 </p>
                 <p>
-يتعلق التحقق الإضافي الوحيد بمجموعة المهام الفرعية في QL1 والتي تختلف عن مجموعة المهام الفرعية في QL2. وهذا يضمن عدم وجود تداخلات. يتم ذلك بواسطة النظام عند اقتران المهام.
+التحقق الإضافي الوحيد هو حول المجموعة الفرعية من المهام على QL1 التي تختلف عن المجموعة الفرعية للمهام في QL2 لضمان عدم وجود تداخل. يتم ذلك بواسطة النظام عند اقتران المهام.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 ربع السنة الأول </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 المهام المحددة فقط </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+نعم  </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 ربع السنة الأول </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 كافة مهام المشروع أو فارغة </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
+                <p>
+نعم  </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 صالح </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-بناء على القاعد #5، فإن Q1 و Q2 يمثلان عرضا أسعار في نفس الفرصة، لذا يمكنهم التقدير لنفس المكونات الخاصة بأحد المشروعات.
+بحسب القاعدة 5، Q1 وQ2 عبارة عن عرضي أسعار في نفس الفرصة، وبالتالي يقدران المكونات نفسها لمشروع
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 ربع السنة الثاني </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 كافة مهام المشروع أو فارغة </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
+                <p>
+نعم  </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 ربع السنة الأول </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 كافة مهام المشروع أو فارغة </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
                 <p>
-صالح </p>
+نعم  </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-بناء على القاعد #4، فإن Q1 و Q2 يمثلان عرضا أسعار لفرص مختلفة، لذا لا يمكنهم التقدير لنفس المكونات الخاصة بنفس المشروع.
+غير صالح </p>
+            </td>
+            <td width="200" rowspan="2" valign="top">
+                <p>
+بحسب القاعدة 4، Q1 وQ2 عبارة عن عرضي أسعار في فرص مختلفة، وبالتالي لا يمكنهما تقدير المكونات نفسها للمشروع نفسه.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O2 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 ربع السنة الأول </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 كافة مهام المشروع أو فارغة </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
-‏‏نعم </p>
+نعم  </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
                 <p>
-غير صالح </p>
+نعم  </p>
             </td>
         </tr>
     </tbody>
 </table>
 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

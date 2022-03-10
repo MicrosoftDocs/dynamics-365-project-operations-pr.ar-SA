@@ -2,12 +2,10 @@
 title: تقدير مبيعات المشروع وتكاليفه عندما يملأ مورد قابل للحجز عدة أدوار لمشروع
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام أبعاد التسعير لدعم التسعير والتكلفة لمورد يشغل أدوارًا متعددة في مشروع.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0f779cf7e247157d6cae2ae7c4c5644201cb7714
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290973"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987465"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>تقدير مبيعات المشروع وتكاليفه عندما يملأ مورد قابل للحجز عدة أدوار لمشروع 
 

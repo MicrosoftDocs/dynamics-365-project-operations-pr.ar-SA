@@ -2,8 +2,6 @@
 title: إنشاء حجز مشروع من لوحة الجدولة
 description: يقدم هذا الموضوع معلومات حول كيفية إنشاء حجز مشروع من لوحة الجدولة.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122282"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987600"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>إنشاء حجز مشروع من لوحة الجدولة
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 يمكنك حجز مورد للعمل على مشروع مباشرة على علامة التبويب **فريق المشروع** للمشروع أو عن طريق إنشاء متطلبات المورد من تعيين عضو فريق عام ثم تنفيذ المتطلبات الناشئة بواسطة أحد أعضاء فريق مشروع.
 
@@ -43,7 +43,7 @@ ms.locfileid: "4122282"
 
 1.  على لوحة الجدولة، سيظهر هذا المورد في علامة تبويب **المتطلبات المفتوحة**. وقد تحتاج إلى استخدام عوامل تصفية الأعمدة على الشبكة إذا كان لديك الكثير من المتطلبات مفتوحة. 
 
-    ![افتح علامة تبويب المتطلبات على لوحة الجدولة](media/FAQ-Project-Booking-Schedule-Board-1.png "لقطة شاشة لجدول الحجوزات والتعيينات")
+    ![افتح علامة تبويب المتطلبات على لوحة الجدولة.](media/FAQ-Project-Booking-Schedule-Board-1.png "لقطة شاشة لجدول الحجوزات والتعيينات")
 
 2. حدد المتطلبات. سوف تظهر علامة التبويب **بحث عن التوافر‬** في الجزء العلوي من الصف المحدد.
  
@@ -53,7 +53,7 @@ ms.locfileid: "4122282"
 
     يؤدي تحديد **حجز** إلى حجز‏‎ المورد في فريق المشروع.
 
-![لوحة إنشاء حجز مورد](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![لوحة إنشاء حجز مورد.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>الحجز من المتطلبات الأساسية
@@ -62,7 +62,7 @@ ms.locfileid: "4122282"
 
 1. لحجز مورد مع المتطلبات الأساسية، على لوحة الجدولة، حدد علامة تبويب **المشروع**. قد تحتاج إلى استخدام عوامل تصفية الأعمدة على عمود **المشروع** إذا كان لديك العديد من المشاريع.
 
-   ![عوامل تصفية العمود على لوحة الجدولة](media/FAQ-Project-Booking-Schedule-Board-2.png "لقطة شاشة لجدول الحجوزات والتعيينات")
+   ![عوامل تصفية العمود على لوحة الجدولة.](media/FAQ-Project-Booking-Schedule-Board-2.png "لقطة شاشة لجدول الحجوزات والتعيينات")
 
 2. حدد فقط المتطلبات التي لها اسم المشروع ومدتها صفر (0).
 
@@ -89,3 +89,6 @@ ms.locfileid: "4122282"
 
 4. الآن وبعد أن تم حجز المورد، يجب تعيين المهام إليه يدويًا.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

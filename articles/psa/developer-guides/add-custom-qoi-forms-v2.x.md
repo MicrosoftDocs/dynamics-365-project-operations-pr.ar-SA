@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007980"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995205"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>إضافة نماذج كيانات مخصصة جديدة (Project Service Automation 2.x)
 
@@ -57,7 +57,7 @@ ms.locfileid: "6007980"
     - قم بتصدير نموذج **معلومات المشروع** كجزء من حل غير مدار، ثم ابحث عن القيمة **formId** في الملف customization.xml الخاص بالحل الذي تم تصديره.
     - افتح نموذج **معلومات المشروع** في محرر النماذج، ثم ابحث عن المعرف الفريد العمومي (GUID) بجوار المعلمة **fromId** في URL، كما هو موضح في الشكل التوضيحي التالي.
 
-    ![قيمة formId للنموذج الجديدفي URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![قيمة formId للنموذج الجديدفي URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. قم بإنشاء تعيين **msdyn\_ordertype** للقيمة **formId** من خلال تحرير مورد الويب msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. قم بإزالة التعليمات البرمجية من المورد واستبدله بالتعليمات البرمجية التالية.
 

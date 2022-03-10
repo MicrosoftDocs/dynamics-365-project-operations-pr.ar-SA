@@ -2,18 +2,16 @@
 title: ملاحظات المطور للموافقات
 description: يقدم هذا الموضوع معلومات مطور إضافية حول العمل مع الموافقات.
 author: stsporen
-manager: Annbe
 ms.date: 11/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d58c776b0341c08b0292e1b459a7d7ebac550bcc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cfa4928eda286bee298a2c33f4e9c25b576f495795fc2deda33b393e372465b1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290253"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991650"
 ---
 # <a name="developer-notes-for-approvals"></a>ملاحظات المطور للموافقات
 

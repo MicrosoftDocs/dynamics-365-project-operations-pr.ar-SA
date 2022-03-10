@@ -2,8 +2,6 @@
 title: جداول المشاريع
 description: يقدم هذا الموضوع معلومات عن كيفية إنشاء جدول.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123198"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998400"
 ---
 # <a name="project-schedules"></a>جداول المشاريع 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -94,7 +94,7 @@ ms.locfileid: "4123198"
 
 يصف اسم المهمة العمل الذي يجب إكماله. في PSA ، تصف السمات المرتبطة بالمهمة جدول المهمة ومتطلبات التوظيف الخاصة بها.
 
-> ![سمات المهمة](media/project-2.png)
+> ![سمات المهمة.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>سمات الجدولة
 
@@ -147,3 +147,6 @@ ms.locfileid: "4123198"
 ### <a name="manual-scheduling"></a>الجدولة اليدوية
 
 إذا كانت قواعد الجدولة التلقائية لا تفي بمتطلباتك، فيمكنك تعيين وضع المهمة للهمهة المُراد **جدولتها يدويًا**. يؤدي هذا الإعداد إلى توقف محرك الجدولة عن حساب القيم لسمات جدولة أخرى. وبغض النظر عن وضع المهمة، إذا قمت بتعيين المهام السابقة على المهام، فسيؤثر دائمًا على تاريخ البدء للمهمة التابعة.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

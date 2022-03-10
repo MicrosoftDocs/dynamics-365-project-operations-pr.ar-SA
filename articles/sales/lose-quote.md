@@ -2,18 +2,16 @@
 title: نسخ عروض الأسعار المستندة إلى المشروع
 description: يوفر هذا الموضوع معلومات حول كيفية نسخ عروض الأسعار المستندة إلى المشروع في Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b1ce6c2b644319f2d822010a34c57c591f82edc9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278132"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992145"
 ---
 # <a name="copy-project-based-quotes"></a>نسخ عروض الأسعار المستندة إلى المشروع
 

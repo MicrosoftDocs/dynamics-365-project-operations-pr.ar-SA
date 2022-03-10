@@ -2,8 +2,6 @@
 title: توفير تقديرات العمل لمشروع أثناء عملية المبيعات
 description: كيفية توفير تقديرات العمل لمشروع أثناء عملية المبيعات (Project Service)
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bd83b6872d437f1d074d6ea2336c751bdfdd9e6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: acb1e5f598e3e057be78a70bc4f5c66c510053a08f4efb0a1595cf4853171662
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120572"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002450"
 ---
 # <a name="provide-work-estimates-for-a-project-during-the-sales-process-project-service"></a>توفير تقديرات العمل لمشروع أثناء عملية المبيعات (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -52,3 +52,6 @@ ms.locfileid: "4120572"
   
 ### <a name="see-also"></a>راجع أيضًا  
  [دليل مدير المشروع](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

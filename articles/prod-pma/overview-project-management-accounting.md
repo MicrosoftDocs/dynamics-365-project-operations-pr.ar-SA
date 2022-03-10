@@ -2,28 +2,26 @@
 title: نظرة عامة على إدارة المشاريع والمحاسبة
 description: يمكن استخدام وظيفة المحاسبة وأداره المشروع في العديد من الصناعات لتوفير خدمه أو إنتاج منتج أو تحقيق نتيجة.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289758"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007490"
 ---
 # <a name="project-management-and-accounting-overview"></a>نظرة عامة على إدارة المشاريع والمحاسبة
 
@@ -36,14 +34,14 @@ ms.locfileid: "5289758"
 ## <a name="projects-across-industries"></a>المشروعات عبر الصناعات
 يمكن استخدام وظيفة المحاسبة وأداره المشروع في العديد من الصناعات ، كما هو مبين في التوضيح التالي.
 
-[![المشروعات عبر الصناعات](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![المشروعات عبر الصناعات.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 في مركز الاتصال ، يمكن استخدام البطاقة لوصف مجموعه الإجراءات المطلوبة لحل المكالمة. تشير الشركات الاستشارية ، مثل الاداره أو المؤسسات الاستشارية الفنية أو وكالات الإعلانات ، إلى أنشطتها كمشروعات. في التسويق ، تمثل الحملة مجموعه من العمل التي يجب تسليمها. في التصنيع القائم علي المشروع ، يرتبط أمر الإنتاج بالعمل المختلف الذي يجب القيام به لإنتاج بعض البضائع المنتهية. ويتم استخدام اي اسم لهم ، وتتضمن هذه المشاريع الموارد والجداول والتكاليف ، كما يمكن ان تساعد وظيفة أداره المشروع والمحاسبة علي التخطيط والتنفيذ والتحليل الخاص بهذه المشاريع.
 
 ## <a name="project-phases"></a>مراحل المشروع
 علي الرغم من ان سير العملية التالي هو المقصود بالمشروعات الخارجية أو المشروع الذي تم إكماله لواحد أو أكثر من العملاء ، تنطبق الوظيفة أيضا علي المشروعات الداخلية والتكلفة فقط. 
 
-![3 مراحل للمشروع](./media/3-stages-of-a-project.png) 
+![3 مراحل للمشروع.](./media/3-stages-of-a-project.png) 
 
 كما هو موضح في التوضيح السابق ، يمكن تقسيم أداره المشروع والمحاسبة إلى ثلاث مراحل:
 
@@ -52,7 +50,7 @@ ms.locfileid: "5289758"
 3.  تحليل
 
 ## <a name="initiate-the-project"></a>بدء المشروع
-تحدث العديد من العمليات الاساسيه اثناء تهيئه المشروع. يمكنك استخدام عرض أسعار مشروع لتوصيل العمالة المقدرة والمصروفات والمواد بالعميل. يمكنك تسجيل شروط الفوترة والحدود والاتفاقيات في عقد مشروع. يمكنك استخدام هيكل تنظيم العمل (WBS) لتخطيط العمل وتقييمه. يمكنك اعداد التنبؤات والموازنات لإرشاد تنفيذ المشروع. يوضح الرسم التوضيحي التالي بنيه مشروع.[![بنيه المشروع](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+تحدث العديد من العمليات الاساسيه اثناء تهيئه المشروع. يمكنك استخدام عرض أسعار مشروع لتوصيل العمالة المقدرة والمصروفات والمواد بالعميل. يمكنك تسجيل شروط الفوترة والحدود والاتفاقيات في عقد مشروع. يمكنك استخدام هيكل تنظيم العمل (WBS) لتخطيط العمل وتقييمه. يمكنك اعداد التنبؤات والموازنات لإرشاد تنفيذ المشروع. يوضح الرسم التوضيحي التالي بنيه مشروع.[![بنيه المشروع.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>إنشاء عروض أسعار مشروع
 
@@ -227,7 +225,7 @@ ms.locfileid: "5289758"
 قبل إنشاء فاتورة عميل لمشروع ، يمكنك إنشاء فاتورة مبدئيه ، أو مقترح فاتورة. في مقترح فاتورة ، يمكنك تحديد حركات المشروع لتضمينها في فاتورة مشروع. وبعد ذلك يمكنك مراجعه تفاصيل الفاتورة قبل ترحيل فاتورة المشروع وإرسالها إلى العميل أو مصدر التمويل الآخر. 
 
 
-لمزيد من المعلومات حول كيفية معالجة فواتير المشروع ، راجع [فوترة المشروع](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+لمزيد من المعلومات حول كيفية معالجة فواتير المشروع ، راجع [فوترة المشروع](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>حساب التكلفة لإكمال مشروع
