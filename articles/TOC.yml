@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: الجديد
       items:
+        - name: مايو 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: أبريل 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: مارس 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: فبراير 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: ديسمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: نوفمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
@@ -96,12 +104,14 @@
           href: sales/sales-overview.md
         - name: الإعداد
           items:
-            - name: المنتجات
+            - name: المنتجات‏‏
               href: sales/sales-products.md
             - name: الوحدات ومجموعات الوحدات
               href: sales/sales-units-unit-groups.md
-            - name: العملة
+            - name: عملة
               href: sales/sales-currency.md
+            - name: الوحدات التنظيمية
+              href: sales/OrgUnits.md
         - name: إدارة العملاء المتوقعين للمشروع
           href: sales/manage-leads.md
         - name: إدارة فرص المشروع
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: تتبع إيرادات العمالة على المشاريع
               href: project-management/project-sales-tracking.md
-            - name: تحديث التقدير عند الاكتمال
-              href: project-management/update-completed-estimate.md
         - name: أعضاء فريق المشروع
           items:
             - name: نظرة عامة على أعضاء فريق المشروع
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: استخدام واجهات API لجدولة المشروع
               href: project-management/schedule-api-preview.md
+            - name: استخدام واجهات API لجدولة المشروع مع Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: أداء واجهة API لجدولة المشروع
               href: project-management/project-schedule-api-performance.md
             - name: سجلات جدولة المشروع
@@ -427,12 +437,12 @@
         - name: السلفة النقدية
           href: expense/cash-advance.md
         - name: المصروفات اليومية
-          href: expense/per-diems.md
+          href: expense/per-diem-expenses.md
         - name: تطبيق المصروفات على الأجهزة المحمولة
           href: expense/expense-using-mobile.md
         - name: الإدارة المالية
           items:
-            - name: استرداد ضريبة القيمة المضافة
+            - name: استرداد ضريبة القيمة المضافة (VAT)
               href: expense/vat-recovery.md
     - name: استخدام المواد
       items:
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: مجموعات الموافقة
           href: approvals/approval-sets.md
+        - name: إلغاء الموافقة على الإدخالات التي تمت الموافقة عليها مسبقًا
+          href: approvals/cancelapproval.md
+        - name: استدعاء الكيانات التي تمت الموافقة عليها مسبقًا
+          href: approvals/recall-cancel.md
         - name: ملاحظات المطورين
           items:
             - name: ملاحظات المطورين للموافقات
               href: approvals/dev-notes-approvals.md
     - name: القيم الفعلية
       items:
+        - name: عمليات الأعمال في Project Operations
+          href: actuals/businesstransactions.md
         - name: نظرة عامة على ‏‫القيم الفعلية‬
           href: actuals/actuals-overview.md
-        - name: ربط القيم الفعلية بالسجلات الأصلية
+        - name: أصول الحركات - ربط القيم الفعلية بالمصدر
           href: actuals/linkingactuals.md
-        - name: دفاتر يومية التصحيح
+        - name: اتصالات الحركات - ربط القيم الفعلية لأنواع الحركات المختلفة
+          href: actuals/connectingactuals.md
+        - name: دفاتر اليومية
           items:
+            - name: إنشاء دفاتر يومية الإدخال وتأكيدها
+              href: actuals/create-confirm-entry-journals.md
             - name: إنشاء دفاتر يومية التصحيح وتأكيدها
               href: actuals/create-confirm-correction-journals.md
-    - name: المشتريات
+    - name: التدبير
       items:
         - name: تكوين المواد غير المخزنة وفواتير المورد المعلقة
           href: procurement/configure-materials-nonstocked.md
-        - name: شراء مواد غير مخزنة للمشاريع باستخدام فواتير المورد المعلقة
+        - name: تكوين فئات التدبير للمشاريع
+          href: procurement/configure-procurement-categories.md
+        - name: تدبير السلع والخدمات للمشاريع باستخدام فواتير الموردين المعلقة
           href: procurement/pending-vendor-invoices.md
-        - name: طلب مواد غير مخزنة للمشاريع باستخدام أوامر شراء المشروع
+        - name: طلب سلع وخدمات للمشاريع باستخدام أوامر شراء المشروع
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: الاحتفاظ بالموردين
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: إدارة تقديرات الإيرادات
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: تكوين متقدم
+      items:
+        - name: ترحيل مراحل الفوترة المفوترة بالكامل أثناء التكوين المرحلي
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: ترقية
+      items:
+        - name: اعتبارات الترقية للموافقات الحديثة
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: تطبيقات Project Operations
+      items:
+        - name: تطبيق عضو فريق Project Operations
+          href: team-member/project-operations-team-member.md
     - name: استكشاف الأخطاء وإصلاحها
       items:
         - name: عملية مبيعات المشروع
@@ -562,6 +596,14 @@
       items:
         - name: الجديد في الوصول المبكر للموجة 2 من إصدار 2021 - النشر الخفيف
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: الجديد في مايو 2022 - النشر الخفيف
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: الجديد في أبريل 2022 - النشر الخفيف
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: الجديد في مارس 2022 - النشر الخفيف
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: الجديد في فبراير 2022 - النشر الخفيف
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: الجديد في ديسمبر 2021 - النشر الخفيف
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: الجديد في نوفمبر 2021 - النشر الخفيف
@@ -596,12 +638,14 @@
           href: sales/sales-overview.md
         - name: الإعداد
           items:
-            - name: المنتجات
+            - name: المنتجات‏‏
               href: sales/sales-products.md
             - name: الوحدات ومجموعات الوحدات
               href: sales/sales-units-unit-groups.md
-            - name: العملة
+            - name: عملة
               href: sales/sales-currency.md
+            - name: الوحدات التنظيمية
+              href: sales/OrgUnits.md
         - name: إدارة العملاء المتوقعين للمشروع
           href: pro/sales/managing-leads-sales.md
         - name: إدارة فرص المشروع
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: تتبع إيرادات العمالة على المشاريع
               href: project-management/project-sales-tracking.md
-            - name: تحديث التقدير عند الاكتمال
-              href: project-management/update-completed-estimate.md
         - name: أعضاء فريق المشروع
           items:
             - name: نظرة عامة على أعضاء فريق المشروع
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: استخدام واجهات API لجدولة المشروع
               href: project-management/schedule-api-preview.md
+            - name: استخدام واجهات API لجدولة المشروع مع Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: أداء واجهة API لجدولة المشروع
               href: project-management/project-schedule-api-performance.md
     - name: إدارة الموارد
@@ -886,12 +930,10 @@
           items:
             - name: نظرة عامة على استخدام الموارد
               href: resource-management/resource-utilization-overview.md
-    - name: إدارة العقود الفرعية في Project Operations
+    - name: إدارة التعاقد من الباطن‬
       items:
         - name: إدارة العقود الفرعية في Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: التعاقد من الباطن في إصدار الوصول المبكر أكتوبر 2021
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: ‏‫المفاهيم الأساسية في التعاقد من الباطن
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: إدارة الموردين وقوائم أسعار المشروع
@@ -924,6 +966,28 @@
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: انتقالات الحالة في عقد من الباطن
           href: pro/subcontracting/subcon-states.md
+    - name: فواتير مورّد المشروع‬
+      items:
+        - name: فوترة المورد - المفهوم والإنشاء
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: تفاصيل العنوان لفواتير المورد
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: بنود فاتورة المورّد للوقت
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: بنود فاتورة المورّد للمنتجات
+          href: pro/subcontracting/vi-line-material.md
+        - name: بنود فاتورة المورّد للمراحل الرئيسية
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: بنود فاتورة المورد لفئات المصروفات
+          href: pro/subcontracting/vi-line-expense.md
+        - name: التحقق من فواتير المورد بالقيم الفعلية التي تمت الموافقة عليها
+          href: pro/subcontracting/VI-Verification.md
+        - name: إلغاء فاتورة مورد مشروع
+          href: pro/subcontracting/cancel-vi.md
+        - name: تأكيد فاتورة مورد مشروع
+          href: pro/subcontracting/confirm-vi.md
+        - name: انتقالات الحالة في فاتورة مورد
+          href: pro/subcontracting/vi-state-model.md
     - name: الوقت
       items:
         - name: نظرة عامة على الوقت
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: مجموعات الموافقة
           href: approvals/approval-sets.md
+        - name: إلغاء الموافقة على الإدخالات التي تمت الموافقة عليها مسبقًا
+          href: approvals/cancelapproval.md
+        - name: استدعاء الكيانات التي تمت الموافقة عليها مسبقًا
+          href: approvals/recall-cancel.md
         - name: ملاحظات المطورين
           items:
             - name: ملاحظات المطورين للموافقات
               href: approvals/dev-notes-approvals.md
     - name: القيم الفعلية
       items:
+        - name: عمليات الأعمال في Project Operations
+          href: actuals/businesstransactions.md
         - name: نظرة عامة على ‏‫القيم الفعلية‬
           href: actuals/actuals-overview.md
-        - name: ربط القيم الفعلية بالسجلات الأصلية
+        - name: أصول الحركات - ربط القيم الفعلية بالمصدر
           href: actuals/linkingactuals.md
-        - name: دفاتر يومية التصحيح
+        - name: اتصالات الحركات - ربط القيم الفعلية لأنواع الحركات المختلفة
+          href: actuals/connectingactuals.md
+        - name: دفاتر اليومية
           items:
+            - name: إنشاء دفاتر يومية الإدخال وتأكيدها
+              href: actuals/create-confirm-entry-journals.md
             - name: إنشاء دفاتر يومية التصحيح وتأكيدها
               href: actuals/create-confirm-correction-journals.md
     - name: الفواتير الأولية
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: تكوين التنفيذ التلقائي لفواتير المشروع
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: ترقية
+      items:
+        - name: اعتبارات الترقية للموافقات الحديثة
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: تطبيقات Project Operations
+      items:
+        - name: تطبيق عضو فريق Project Operations
+          href: team-member/project-operations-team-member.md
 - name: Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
   items:
     - name: الجديد
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: نظرة عامة على إدارة المشاريع والمحاسبة
       href: prod-pma/overview-project-management-accounting.md
-    - name: الفوترة بين الشركات الشقيقة
-      href: prod-pma/intercompany-invoicing.md
-    - name: تكوين فوترة المشاريع بين الشركات الشقيقة
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: تكوين التكاليف القياسية للعمالة والمصروفات
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: إنشاء شروط احتجاز دفع المورّد وتطبيقها
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: اعداد دفعات المورّد التي تُدفع عند استلام الدعم واستخدامها
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: تراكم تكلفة المشروع على إيصالات الشراء
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: فوترة المشروع
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: إدارة أداء فواتير المشروع
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: عقود المشروع
-      href: prod-pma/project-contracts.md
-    - name: إنشاء عقود متقدمة للفوترة استنادًا إلى التقدم
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: تنبؤات المشروع وموازناته
-      href: prod-pma/project-forecasts-budgets.md
-    - name: إنشاء نماذج تنبؤ لموازنات المشروع
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: تحويل موازنات المشروع في نهاية السنة المالية
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: أوامر مبيعات المشروع
-      href: prod-pma/project-sales-orders.md
-    - name: أوامر الشراء لمشروع
-      href: prod-pma/project-purchase-orders.md
-    - name: عروض أسعار المشروع
-      href: prod-pma/project-quotations.md
-    - name: تأكيد عرض أسعار المشروع وتحديثه وإرساله
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: تحويل عرض أسعار إلى مشروع
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: تعيين موارد المشروع
+    - name: عملية مبيعات المشروع
+      items:
+        - name: عروض أسعار المشروع
+          href: prod-pma/project-quotations.md
+        - name: تأكيد عرض أسعار المشروع وتحديثه وإرساله
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: تحويل عرض أسعار إلى مشروع
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: عقود المشروع
+          href: prod-pma/project-contracts.md
+        - name: مُنح المشروع
+          href: prod-pma/project-grants.md
+    - name: التسعير والتكلفة
+      items:
+        - name: تكوين التكاليف القياسية للعمالة والمصروفات
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: إدارة المشروع
+      items:
+        - name: نظرة عامة على هياكل تنظيم العمل
+          href: prod-pma/work-breakdown-structures.md
+        - name: تكامل Microsoft Project Client
+          href: prod-pma/project-integration.md
+        - name: نظرة عامة على تطبيقات الأجهزة المحمولة في Project
+          href: prod-pma/project-mobile-application-overview.md
+        - name: مساحة عمل المحمول لإدخال وقت المشروع
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: تطبيق Project Timesheet للأجهزة المحمولة
+          href: prod-pma/project-timesheet.md
+        - name: الجداول الزمنية للمشروع على جهاز محمول
+          href: prod-pma/mobile-timesheets.md
+        - name: تنفيذ الحقول المخصصة لتطبيق Project Timesheet للأجهزة المحمولة
+          href: prod-pma/custom-fields-mobile.md
+    - name: إدارة الموارد
       items:
         - name: نظرة عامة على تعيين موارد المشروع
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: استيفاء المورد للموارد المخططة
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: استلام أصناف في أمر الشراء من متطلبات الأصناف
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: هياكل تنظيم العمل
+    - name: موازنات المشروع وتنبؤاته
       items:
-        - name: نظرة عامة على هياكل تنظيم العمل
-          href: prod-pma/work-breakdown-structures.md
-        - name: تكامل Microsoft Project Client
-          href: prod-pma/project-integration.md
-        - name: نظرة عامة على تطبيقات الأجهزة المحمولة في Project
-          href: prod-pma/project-mobile-application-overview.md
-        - name: مساحة عمل المحمول لإدخال وقت المشروع
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: تطبيق الأجهزة المحمولة للجدول الزمني ‬للمشروع
-          href: prod-pma/project-timesheet.md
-        - name: الجداول الزمنية للمشروع على جهاز محمول
-          href: prod-pma/mobile-timesheets.md
-        - name: تنفيذ الحقول المخصصة لتطبيق الأجهزة المحمولة للجدول الزمني ‬للمشروع‬
-          href: prod-pma/custom-fields-mobile.md
-    - name: مُنح المشروع
-      href: prod-pma/project-grants.md
-    - name: إزالة تقدير مشروع
-      href: prod-pma/eliminate-project-estimate.md
+        - name: تنبؤات المشروع وموازناته
+          href: prod-pma/project-forecasts-budgets.md
+        - name: إنشاء نماذج تنبؤ لموازنات المشروع
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: تحويل موازنات المشروع في نهاية السنة المالية
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: الوقت
+      items:
+        - name: الأبعاد المالية الافتراضية لإدخالات وقت المشروع
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: المصروفات
+      items:
+        - name: نظرة عامة على المصروفات
+          href: expense/expense-overview.md
+        - name: تجربة مصروفات جديدة
+          items:
+            - name: إعادة صياغة تقارير المصروفات
+              href: expense/expense-reports-reimagined.md
+            - name: التقاط إيصال باستخدام OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: التكوين والإعداد
+          items:
+            - name: إعداد السياسات
+              href: expense/set-up-policies.md
+            - name: إعداد عمليات سير العمل
+              href: expense/set-up-workflows.md
+            - name: إدارة التفويض
+              href: expense/manage-delegation.md
+            - name: تكوين معلمات إدارة المصروفات
+              href: expense/configure-expense-management-parameters.md
+            - name: إعداد تكامل بطاقة الائتمان
+              href: expense/set-up-credit-card-integration.md
+            - name: إعداد فئات المصروفات
+              href: expense/set-up-expense-categories.md
+            - name: إعداد الأميال باستخدام مستويات معدل المسافة بالميل
+              href: expense/set-up-mileage.md
+        - name: تصنيف المصروفات
+          href: prod-exp/expense-itemization.md
+        - name: المصروفات الشخصية
+          href: expense/personal-expenses-expense-report.md
+        - name: المصروفات بين الشركات الشقيقة
+          href: prod-exp/intercompany-expense.md
+        - name: إنشاء تقارير المصروفات
+          items:
+            - name: التوزيعات في تقرير المصروفات
+              href: expense/distributions-expense-report.md
+        - name: الموافقة على تقارير المصروفات
+          items:
+            - name: تقارير المصروفات والموافقون المتعددون
+              href: expense/expense-reports-multiple-approvers.md
+        - name: نشر تقارير المصروفات
+          href: expense/posting-expense-reports.md
+        - name: طلب السفر
+          href: expense/travel-requisition.md
+        - name: السلفة النقدية
+          href: expense/cash-advance.md
+        - name: المصروفات اليومية
+          href: expense/per-diem-expenses.md
+        - name: تطبيق المصروفات على الأجهزة المحمولة
+          href: expense/expense-using-mobile.md
+        - name: الإدارة المالية
+          items:
+            - name: استرداد ضريبة القيمة المضافة (VAT)
+              href: expense/vat-recovery.md
+    - name: التدبير
+      items:
+        - name: أوامر الشراء لمشروع
+          href: prod-pma/project-purchase-orders.md
+        - name: تراكم تكلفة المشروع على إيصالات الشراء
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: استلام أصناف في أمر الشراء من متطلبات الأصناف
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: اعداد دفعات المورّد التي تُدفع عند استلام الدعم واستخدامها
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: إنشاء شروط احتجاز دفع المورّد وتطبيقها
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: فوترة المشروع
+      items:
+        - name: فوترة المشروع
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: إدارة أداء فواتير المشروع
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: إنشاء عقود متقدمة للفوترة استنادًا إلى التقدم
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: أوامر مبيعات المشروع
+          href: prod-pma/project-sales-orders.md
+        - name: متطلبات البند لعقود المشروع مع مصادر تمويل متعددة
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: الفوترة بين الشركات الشقيقة
+      items:
+        - name: الفوترة بين الشركات الشقيقة
+          href: prod-pma/intercompany-invoicing.md
+        - name: تكوين فوترة المشاريع بين الشركات الشقيقة
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: إقرار الإيرادات
+      items:
+        - name: إزالة تقدير مشروع
+          href: prod-pma/eliminate-project-estimate.md
 - name: إدارة المصروفات
   items:
     - name: نظرة عامة على إدارة المصروفات
@@ -1138,7 +1294,7 @@
       href: expense/expense-using-mobile.md
     - name: الإدارة المالية
       items:
-        - name: استرداد ضريبة القيمة المضافة
+        - name: استرداد ضريبة القيمة المضافة (VAT)
           href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
@@ -1148,6 +1304,16 @@
       items:
         - name: جدول إصدار التحديثات لـ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: الجديد أو المتغير في إصدار التحديث 43، V3
+          href: psa/whats-new-ur43.md
+        - name: الجديد أو المتغير في إصدار التحديث 42، V3
+          href: psa/whats-new-ur-42.md
+        - name: الجديد أو المتغير في إصدار التحديث 41، V3
+          href: psa/whats-new-ur-41.md
+        - name: الجديد أو المتغير في إصدار التحديث 40، V3
+          href: psa/whats-new-ur-40.md
+        - name: الجديد أو المتغير في إصدار التحديث 39، V3
+          href: psa/whats-new-ur-39.md
         - name: الجديد أو المتغير في إصدار التحديث 38، V3
           href: psa/whats-new-ur-38.md
         - name: الجديد أو المتغير في إصدار التحديث 37.5، V3
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: الترقية من Project Service Automation إلى Project Operations - خفيف
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: تغييرات الميزة من Project Service Automation إلى Project Operations
+      href: psa/psa-project-operations-changes.md
     - name: ترقية Project Service Automation (إصدار التطبيق 3.x)
       items:
         - name: ترقية Project Service Automation‏
