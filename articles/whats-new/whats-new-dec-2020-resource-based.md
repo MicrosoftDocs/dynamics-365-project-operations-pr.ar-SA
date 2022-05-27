@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984855"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579842"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في ديسمبر 2020 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬
 
@@ -21,7 +21,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
 - Project Operations على بيئة Dataverse الإصدار 4.5.0.134
-- إدارة المشاريع والمحاسبة في الإصدار 10.0.15 من بيئة Dynamics 365 Finance
+- إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، الإصدار 10.0.15
 
 لمزيد من المعلومات حول كيفية التحديث إلى هذا الإصدار، راجع [تحديث Project Operations في بيئة Finance الخاصة بك](ur5-nonstocked-installation.md).
 
@@ -61,7 +61,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | تخطيط المشاريع وتعقبها | 2057197          | نسخه سطر التقدير مع مرجع المهمة غير مدعومة                                                                                                     |
 | تخطيط المشاريع وتعقبها | 2060687          | تحذير المنطقة الزمنية يختفي الآن بعد مده معينه                                                                                                      |
 | إدارة الموارد           | 1832887          | يجب أن يكون معرف فئة المورد الافتراضي ثابتًا لضمان تحميل البيانات القابلة للتكرار لـ Dataverse وبيئات Finance                                                 |
-| الوقت والمصروفات              | 2081793          | يجب تعيين **اسم فئة المصروفات** إلى حقل **وصف فئة المصروفات** في تطبيقات Finance and Operations                                                  |
+| الوقت والمصروفات              | 2081793          | يجب تعيين **اسم فئة المصروفات** إلى حقل **وصف فئة المصروفات** في تطبيقات التمويل والعمليات                                                  |
 | الوقت والمصروفات              | 2034882          | الزر **جديد** يُعرض مرتين علي شريط الأوامر لإدخالات الوقت عند تثبيت Dynamics 365 Field Service                                          |
 | الوقت والمصروفات              | 2056028          | تحديث صفحة **تحرير الوقت** لتضمين خط زمني                                                                                                              |
 | الوقت والمصروفات              | 1983747          | مخطط الإدخال الزمني عرض بيانات اضافيه                                                                                                                   |
@@ -106,7 +106,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | السفر والمصروفات                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | سير عمل الترحيل التلقائي لتقرير المصروفات مكتمل لكن لم يتم ترحيل الفاتورة                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>التحديثات التنظيمية
-لمزيد من المعلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+للحصول على معلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

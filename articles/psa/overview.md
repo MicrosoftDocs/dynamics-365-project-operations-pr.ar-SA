@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 9/23/2019
-ms.topic: article
+ms.topic: overview
 ms.author: ruhercul
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 4479f8b1d7cce5d3008ffa285c66da2669532576
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000245"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580164"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>ما المقصود بـ Dynamics 365 Project Service Automation؟
 
@@ -42,14 +43,6 @@ ms.locfileid: "7000245"
 - ...والمزيد
 
 بالإضافة إلى ذلك، لمساعدتك في مراقبة تكاليف عملك المستند إلى المشروع وللتحكم في هذه التكاليف، يقوم المستشارون الفرديون بإدخال وتعقب وقت المشروع ومصروفاته بسهولة إما من جهاز محمول أو باستخدام مستعرض ويب.
-
-## <a name="whats-new-in-psa"></a>الجديد في PSA
-يسر الفريق للإعلان عن آخر التحديثات لدينا! من التحسينات في واجهة المستخدم وإصلاح الأخطاء وإضافة ميزات وقدرات جديدة مهمة. أنت طلبت ونحن استجبنا.
-
-يمكنك إلقاء نظرة على [ملاحظات إصدار 19 أكتوبر](/dynamics365-release-plan/2019wave2/index) للاطلاع على آخر التحسينات والإضافات.
-
-### <a name="in-development"></a>قيد التطوير
-للاطلاع على الأشياء التي خططنا لها في المستقبل القريب، انتقل إلى [Dynamics 365: الخطة 1 من موجة إصدار 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>الحصول على المساعدة لاستخدام الإصدار 3.x من تطبيق PSA
 هل تبحث عن موارد للمساعدة في تخطيط التنفيذ الذي تقوم به؟ راجع هذه الدلائل القابلة للتنزيل.
@@ -80,10 +73,6 @@ ms.locfileid: "7000245"
  [المستندات التقنية (إصدار التطبيق 2.x أو 1.x)](../psa/white-papers.md)
 
  [ملاحظات للمطورين (إصدار التطبيق 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## <a name="watch-a-2-minute-overview-video"></a>شاهد فيديو يعرض نظرة عامة لمدة دقيقتين
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 

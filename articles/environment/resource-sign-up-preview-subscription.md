@@ -4,20 +4,20 @@ description: يوفر هذا الموضوع معلومات حول كيفية ا�
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323400"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575794"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>إعداد اشتراكات معاينة Project Operations لسيناريوهات المورد/المنتجات غير المخزنة
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 يوضح هذا الموضوع كيفية الاشتراك في العرض التجريبي ونشر بيئة Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة.
 
@@ -40,7 +40,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
   سترى أنه تم استرجاع عرض التأكيد بنجاح.
 
-### <a name="dynamics-365-finance-preview-trial"></a>إصدار تجريبي لمعاينة Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>إصدار معاينة Dynamics 365 Finance
 
 انتقل إلى [الإصدار التجريبي من Dynamics 365 for Finance Preview](https://aka.ms/trypoche) وكرر الخطوات من القسم السابق مع العرض، قم بالتسجيل في البيئة المستضافة على السحابة.  
 
@@ -49,7 +49,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 > [!IMPORTANT]
 > ستحتاج إلى حق وصول إداري إلى مدخل Microsoft 365 الخاص بمؤسستك لإكمال الخطوات التالية.
 
-1. انتقل إلى [مركز إدارة](https://portal.office.com/) لتعيين التراخيص إلى المستخدمين.
+1. انتقل إلى مركز مسؤول [Microsoft 365 ](https://portal.office.com/) لتعيين التراخيص إلى مستخدميك.
 
 2. في صفحة **المستخدمين النشطين**، حدد المستخدمين الذين ترغب في تعيين ترخيص لهم.
 

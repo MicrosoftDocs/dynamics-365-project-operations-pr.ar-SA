@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c4869f3ab06ec80d620ec51bb4f0429412cd4d00
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943007"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579796"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في ديسمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬
 
@@ -20,8 +20,8 @@ ms.locfileid: "7943007"
 
 ينطبق هذا الموضوع على المكونات والإصدارات التالية من Microsoft Dynamics 365 Project Operations:
 
-- Project Operations في بيئة Dataverse الإصدار 4.27.0.195، و4.27.0.242
-- إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، إصدار 10.0.23
+- Project Operations في بيئة Dataverse الإصدار 4.27.0.195، 4.27.0.242، 4.27.0.244
+- إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، الإصدار 10.0.23
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
@@ -48,7 +48,7 @@ ms.locfileid: "7943007"
 | الوقت والمصروفات | 2468188 | تم إصلاح مشكلة تجاوز نص السجل الحد الأقصى للطول في السمة **notetext** الخاصة بكيان **التعليق التوضيحي**. |
 | الفوترة والتسعير | 2488698 | رسالة خطأ محدثة تحدث عندما يفتقد إعداد البيئة سجلات كيان دفتر الأستاذ التي يتم ملؤها من "التمويل". |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>إدارة المشاريع والمحاسبة في Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>إدارة المشاريع والمحاسبة على Dynamics 365 Finance
 
 | **منطقة الميزات** | **رقم المرجع** | **تحديث إصلاحي** |
 | --- | --- | --- |

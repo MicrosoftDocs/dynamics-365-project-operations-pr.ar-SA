@@ -4,14 +4,14 @@ description: يوفر هذا الموضوع معلومات حول كيفية ن�
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3ca48125d90ee50c5621780be19bd4ceb2130d2d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999705"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8577772"
 ---
 # <a name="copy-project-based-opportunities"></a>نسخ فرص مستندة إلى مشروع
 

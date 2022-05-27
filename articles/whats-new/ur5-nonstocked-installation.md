@@ -1,25 +1,25 @@
 ---
 title: تحديث Project Operations في بيئة Finance
-description: يقدم هذا الموضوع معلومات حول كيفية تحديث Project Operations في بيئة Dynamics 365 Finance الخاصة بك.
+description: يوفر هذا الموضوع معلومات حول كيفية تحديث Project Operations في بيئة Dynamics 365 Finance الخاصة بك.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986745"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579903"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>تحديث Project Operations في بيئة Finance
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
 
-يقدم هذا الموضوع معلومات حول كيفية تحديث Dynamics 365 Project Operations في بيئة Dynamics 365 Finance الخاصة بك. هناك ثلاثة إجراءات مطلوبة لتحديث Project Operations إلى التحديث 5 (UR5):
+يوفر هذا الموضوع معلومات حول كيفية تحديث Dynamics 365 Project Operations في بيئة Dynamics 365 Finance الخاصة بك. هناك ثلاثة إجراءات مطلوبة لتحديث Project Operations إلى التحديث 5 (UR5):
 
 - [استيراد الحزمة إلى مشروع المعاينة الخاص بك](#import)
 - [تطبيق التحديث](#apply)
@@ -119,7 +119,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 4. في صفحة **إصدار خريطة الجدول**، قم بتطبيق إصدار جديد من الخريطة على كل كيان من الكيانات الثلاثة.
 5. في صفحة **الكتابة المزدوجة**، حدد تشغيل لإعادة تشغيل الخرائط.
 6. من قائمة الخرائط، حدد خريطة **دفتر الأستاذ (msdyn_ledgers)** مع كافة المتطلبات وحدد خانة الاختيار **المزامنة الأولية**. 
-7. في حقل **أصل المزامنة الأولية‬**، قم بتحديد **تطبيقات Finance and Operations** ثم قم بتحديد **تشغيل**.
+7. في الحقل **أصل المزامنة الأولية**، قم بتحديد **تطبيقات التمويل والعمليات** ثم قم بتحديد **تشغيل**.
  
  ![مزامنة خريطة دفتر الأستاذ.](media/DW6.png)
  
