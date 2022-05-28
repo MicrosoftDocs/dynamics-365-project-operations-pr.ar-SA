@@ -4,26 +4,26 @@ description: يوفر هذا الموضوع معلومات حول المفاهي
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986925"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582924"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>مفاهيم فريدة للعقود المستندة إلى المشروع
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 يوفر هذا الموضوع المفاهيم الأساسية التي يجب أن تكون على دراية بها قبل البدء في استخدام عقود المشروع في Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>الشركة المالكة
 
-تساوي الشركة المالكة مفهوم الكيان القانوني من الوحدة النمطية **إدارة المشاريع والمحاسبة** في Project Operations من Dynamics 365 Finance. تمثل الشركة المالكة الكيان القانوني الذي سيقوم بحساب التكلفة والإيرادات التي تتراكم من صفقة.
+تعد الشركة المالكة هي الكيان القانوني من الوحدة النمطية **إدارة المشاريع ومحاسبتها** لـ Project Operations من Dynamics 365 Finance. تمثل الشركة المالكة الكيان القانوني الذي سيقوم بحساب التكلفة والإيرادات التي تتراكم من صفقة.
 
 ## <a name="contracting-unit"></a>الوحدة المتعاقدة
 

@@ -3,16 +3,15 @@ title: نظرة عامة على نشر Project Operations للسيناريوها
 description: يقدم هذا الموضوع معلومات حول نوع النشر، Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج‬‬.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de9a83949a838f8ca90771022339c6da17f6dde1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009065"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582464"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>نظرة عامة على نشر Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج‬
 
@@ -23,21 +22,21 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 - تخطيط المشروع باستخدام [هياكل تنظيم العمل](work-breakdown-structures.md)
 - توريد واستهلاك المخزون المخزّن للمشاريع
-- إدارة المبيعات القائمة على المشروع باستخدام وحدة **المبيعات والتسويق** في تطبيقات Dynamics 365 Finance and Operations
-- تسعير المشروع وتحديد التكلفة باستخدام تكوين معدل التكلفة ومعدل الفاتورة في تطبيقات Finance and Operations
+- إدارة المبيعات القائمة على المشروع باستخدام الوحدة النمطية **المبيعات والتسويق** في تطبيقات Dynamics 365 Finance and Operations
+- تسعير المشروع وتحديد تكاليفه باستخدام تكوينات معدل التكلفة ومعدل الفاتورة في تطبيقات Finance and Operations
 - إدارة الموارد للمشاريع في تطبيقات Finance and Operations
-- تقدم المشروع وتتبع الوقت في تطبيقات Finance and Operations
+- تقدم المشروع وتعقب الوقت في تطبيقات Finance and Operations
 - تجارب إدارة المصروفات للمصروفات الخاصة بالمشروع وغير الخاصة بالمشروع مع التقاط الإيصال باستخدام إمكانات التعرف البصري على الحروف‬
 - الفوترة باستخدام نظام ضريبة مبيعات المؤسسات ونظام أسعار الصرف السارية التاريخ
 - مجموعات المشاريع القابلة للتكوين لمحاسبة واستحقاقات الأعمال قيد التنفيذ
 - التعرف على إيرادات المشروع
 
-يوفر نوع النشر ملحقًا للوظائف التي يوفرها Dynamics 365 Finance وتطبيقات Dynamics 365 Supply Chain Management.
+كما يوفر نوع التوزيع هذا ملحقًا بالوظيفة التي يتم توفيرها بواسطة تطبيقات Dynamics 365 Finance وDynamics 365 Supply Chain Management.
 
 حدد نوع النشر هذا لاستخدام Dynamics 365 Project Operations لدورة حياه المشروع الكاملة، بما في ذلك المتطلبات الأساسية التالية:
 
 - نظام شامل لإدارة المشاريع يدير الأصناف المسجلة في المخزون وتكلفة أمر وظيفة/إنتاج للمشاريع الداخلية والمفوترة للجداول والماليات.
-- يتوفر لدى المؤسسة Dynamics 365 Finance أو Dynamics 365 Supply Chain وستقوم تطبيقات التصنيع والحركات القائمة على المشاريع المتكامل بتسهيل الوصول إلى البيانات واحتياجات إعداد التقارير.
+- لدى المؤسسة بالفعل تطبيقات Dynamics 365 Finance أو Dynamics 365 Supply Chain والتصنيع وسيؤدي دمج الحركات القائمة على المشروع إلى تبسيط الوصول إلى البيانات واحتياجات إعداد التقارير
 - نظام لإدارة المصروفات يعمل بشكل كامل يتضمن تحسينات السياسة وتعويضات تعقب المصروفات الخاصة بالمشروع وغير الخاصة بالمشروع.
 - محرك ضريبة مبيعات المؤسسات ونظام أسعار الصرف لإنشاء الفواتير الموجهة للعميل للمشاريع.
 - نظام محاسبة المشاريع والتعرف على الإيرادات يتوافق مع معايير التقارير المالية الدولية (IFRS).

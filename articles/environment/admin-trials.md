@@ -2,22 +2,22 @@
 title: تسجيل الدخول للإصدارات التجريبية من Project Operations
 description: يقدم هذا الموضوع معلومات عن كيفية توزيع Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901601"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584258"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>تسجيل الدخول للإصدارات التجريبية من Project Operations 
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬، نشر خفيف - التعامل مع الفواتير الأولية‬، وProject Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 يوضح هذا الموضوع كيفية الاشتراك في عرض شريك المعاينة وتوزيع بيئة Dynamics 365 Project Operations.
 
@@ -36,7 +36,6 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | استخدام العرض                    | مرة واحدة لكل مستأجر                          |
 | مدة العرض               | 30 يومًا من أيام التقويم                             |
 | عمليات الاسترداد لكل مستأجر       | 1                                             |
-| عدد المستخدمين              | 25                                           |
 | ملحق                    | ملحق واحد، 30 يومًا من أيام التقويم               |
 | عدد البيئات التجريبية | 3                                             |
 
@@ -87,7 +86,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
  
   عند اكتمال التوفير، تكون حالة بيئتك **جاهزة**. يشمل توفير البيئة نشر البيانات التجريبية.
  
-4.  حدد عنوان URL الخاص بـ Microsoft Dataverse وعناوين URL لتطبيقات Finance and Operations للتحقق من صحة النشر.
+4.  حدد عنوان URL الخاص بـ Microsoft Dataverse وعناوين URL لتطبيقات التمويل والعمليات للتحقق من صحة التوزيع.
 
 ## <a name="configuring-dual-write"></a>تكوين الكتابة المزدوجة
 - لتكوين أدوار الأمان للكتابة المزدوجة، راجع [تحديث إعدادات الأمان في Project Operations في Dataverse](resource-provision-new-environment.md).
@@ -97,7 +96,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ستحتاج إلى حق وصول إداري إلى مدخل Microsoft 365 الخاص بمؤسستك لإكمال الخطوات التالية.
 
-1. انتقل إلى [مركز إدارة Microsoft 365](https://portal.office.com/) لتعيين التراخيص للمستخدمين لديك.
+1. انتقل إلى مركز مسؤول [Microsoft 365 ](https://portal.office.com/) لتعيين التراخيص إلى مستخدميك.
 
    ![الصفحة الرئيسية لمركز الإدارة](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="frequently-asked-questions"></a>الأسئلة الشائعة
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>ماذا لو كنت بحاجة إلى ALM أو ELM لبيئة تطبيقات Finance and Operations الخاصة بي؟
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>ماذا لو كنت بحاجة إلى ALM أو ELM لبيئة تطبيقات التمويل والعمليات الخاصة بي؟
 
 - بالنسبة للشركاء الذين يحتاجون لإمكانيات إدارة دورة حياة بيئة كاملة، راجع [طلب ترخيص آلية تحديد الوصول للشريك](https://experience.dynamics.com/requestlicense) لمراجعة عرض الشريك الجديد. 
 - بالنسبة للشركاء الذين يريدون الحصول على مزيد من المعلومات حول حقوق الاستخدام الداخلي، راجع [مزايا البرنامج والسحابة لحقوق الاستخدام الداخلي (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +124,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>هل يمكنني مد الإصدار التجريبي لما بعد 30 يومًا؟
 لمد الإصدار التجريبي، أكمل الخطوات التالية.
 
-1. في **مركز إدارة Microsoft 365**، انتقل إلى **الفوترة** > **منتجاتك**.
+1. في مركز إدارة **Microsoft 365**، انتقل إلى **الفوترة‏‎** > **منتجاتك**.
 2. حدد **Dynamics 365 Project Operations (CE) - معاينة الإصدار التجريبي**.
 3. ضمن **تاريخ انتهاء الصلاحية**، حدد **تمديد تاريخ**.
 

@@ -4,14 +4,14 @@ description: يقدم هذا الموضوع معلومات حول إنشاء ج�
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dc0cf92ed7af0353baa0f93fc7fb69e02905f805eb04a7b4c7bc99cfe59da62a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: edacae144f5c4879d3cfdf9585281858d7312589
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006050"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581958"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>إنشاء جداول فواتير على شروط التعاقد القائمة على المشروع - خفيف
 

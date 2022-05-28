@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986565"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585776"
 ---
 # <a name="expense-management-integration"></a>تكامل إدارة المصروفات
 
@@ -22,15 +22,15 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="expense-categories"></a>فئات المصروفات
 
-في توزيع المصروفات الكاملة، يتم إنشاء فئات المصروفات وصيانتها في تطبيقات Finance and Operations. لإنشاء فئة مصروفات جديدة، أكمل الخطوات التالية:
+في توزيع المصروفات الكامل، يتم إنشاء فئات المصروفات وصيانتها في تطبيقات Finance and Operations. لإنشاء فئة مصروفات جديدة، أكمل الخطوات التالية:
 
-1. في Microsoft Dataverse، قم بإنشاء فئة **المعاملة**. سيؤدي تكامل الكتابة المزدوجة إلى مزامنة فئة المعاملة هذه مع تطبيقات Finance and Operations. لمزيد من المعلومات، راجع [تكوين فئات المشروع](/dynamics365/project-operations/project-accounting/configure-project-categories)[وتكامل بيانات التكوين والإعداد في Project Operations](resource-dual-write-setup-integration.md). ونتيجة لهذا التكامل، ينشئ النظام أربعة سجلات فئات مشتركة في تطبيقات Finance and Operations.
+1. في Microsoft Dataverse، قم بإنشاء فئة **المعاملة**. سيعمل تكامل الكتابة المزدوجة على مزامنة فئة المعاملة هذه مع تطبيقات Finance and Operations. لمزيد من المعلومات، راجع [تكوين فئات المشروع](/dynamics365/project-operations/project-accounting/configure-project-categories)[وتكامل بيانات التكوين والإعداد في Project Operations](resource-dual-write-setup-integration.md). نتيجة لهذا التكامل، يُنشئ النظام أربعة سجلات فئة مشتركة في تطبيقات Finance and Operations.
 2. في Finance، انتقل إلى **إدارة المصروفات** > **الإعداد** > **الفئات المشتركة** وحدد فئة مشتركة مع فئة حركة **المصروفات** قم بتعيين المعلمة **يمكن استخدامه في المصروفات** إلى **صواب** وحدد نوع المصروفات المطلوب استخدامها.
 3. باستخدام سجل الفئات المشترك هذا، أنشئ فئة مصروفات جديدة من خلال الانتقال إلى **إدارة المصروفات** > **الإعداد** > **فئات المصروفات** وتحديد **جديد**. عند حفظ السجل، فإن الكتابة المزدوجة تستخدم مخطط الجدول، **كيان تصدير فئات مصروفات المشروع لتكامل Project Operations (msdyn\_expensecategories)** لمزامنة هذا السجل إلى Dataverse.
 
   ![تكامل فئات المصروفات.](./media/DW6ExpenseCategories.png)
 
-فئات المصروفات في تطبيقات Finance and Operations هي فئات خاصة بالشركة أو الكيان القانوني. يوجد سجلات منفصلة ومطابقة خاصة بالكيان القانوني في Dataverse. عندما يقوم مدير المشروع بتقدير المصروفات، لا يمكنه تحديد فئات المصروفات التي تم إنشاؤها لمشروع تملكه شركة مختلفة عن الشركة المالكة للمشروع الذي يعمل عليه. 
+فئات المصروفات في تطبيقات Finance and Operations خاصة بالشركة أو بكيان قانوني. يوجد سجلات منفصلة ومطابقة خاصة بالكيان القانوني في Dataverse. عندما يقوم مدير المشروع بتقدير المصروفات، لا يمكنه تحديد فئات المصروفات التي تم إنشاؤها لمشروع تملكه شركة مختلفة عن الشركة المالكة للمشروع الذي يعمل عليه. 
 
 ## <a name="expense-reports"></a>تقارير المصروفات
 

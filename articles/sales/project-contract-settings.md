@@ -4,14 +4,14 @@ description: يقدم هذا الموضوع معلومات حول الحقول �
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f34d6c6b92f164cc95405147356c34bb03eb127284aba7a92712b8eec42d792f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996285"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580932"
 ---
 # <a name="header-details-for-project-based-contracts"></a>تفاصيل الرأس للعقود المستندة إلى المشروع
 

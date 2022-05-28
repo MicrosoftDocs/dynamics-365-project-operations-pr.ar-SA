@@ -4,14 +4,14 @@ description: يوفر هذا الموضوع معلومات لمساعدتك عل
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994620"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584120"
 ---
 # <a name="determine-your-deployment-type"></a>تحديد نوع التوزيع
 
@@ -25,7 +25,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>عملاء Dynamics الحاليون الذين يستخدمون Dynamics 365 Project Service Automation
 يتضمن Project Operations القدرات التي تم شحنها مع Project Service Automation. سيتم إصدار مسار ترقية لهؤلاء العملاء في الموجة 1 من إصدار 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>عملاء Dynamics 365 Finance الحاليون الذين يستخدمون إدارة المشاريع والمحاسبة 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>العملاء الحاليون لـ Dynamics 365 Finance باستخدام إدارة المشروع والمحاسبة 
 
 بإمكان عملاء Finance الحاليين الذين يستخدمون وظيفة إدارة المشاريع والمحاسبة متابعة استخدامها كما هي. راجع [Project Operations لسيناريوهات المنتجات المخزنة/أوامر الإنتاج](#pma).
 
@@ -42,7 +42,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 - [Project Operations لسيناريوهات الموارد/المنتجات غير المخزنة](#integrated)
 - [Project Operations لسيناريوهات المنتجات المخزنة/أوامر الإنتاج](#pma)
 
-يدعم Project Operations دعم سيناريوهات المنتجات المخزنة/أوامر الإنتاج‬ والسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬ على البيئة نفسها من خلال تكوينات على مستوى الكيان القانوني. على سبيل المثال، بإمكان شركة Contoso استخدام قدرات المنتجات المخزنة/أوامر الإنتاج في منشأة التصنيع الخاصة بها في الولايات المتحدة (الكيان القانوني = Contoso Manufacturing United States). بإمكان شركة Contoso استخدام القدرات القائمة على المنتجات غير المخزنة/الموارد في منشأة الصيانة Contoso Robotics Arms في المملكة المتحدة (الكيان القانوني = Contoso Robotics United Kingdom).
+يدعم Project Operations دعم سيناريوهات المنتجات المخزنة/أوامر الإنتاج‬ والسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬ على البيئة نفسها من خلال تكوينات على مستوى الكيان القانوني. على سبيل المثال، بإمكان شركة Contoso الاستفادة من إمكانيات المنتجات المخزنة/أمر الإنتاج في مصنعها في الولايات المتحدة (الكيان القانوني = Contoso Manufacturing United States). بإمكان شركة Contoso استخدام الإمكانيات المستندة إلى موارد/منتجات غير مخزنة‬ في مصنع Contoso Robotics Arms في المملكة المتحدة (الكيان القانوني = Contoso Robotics United Kingdom).‬
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>النشر الخفيف – التعامل مع الفواتير الأولية
 
