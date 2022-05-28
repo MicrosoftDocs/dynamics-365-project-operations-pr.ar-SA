@@ -4,14 +4,14 @@ description: يوفر هذا الموضوع معلومات حول كيفية ح�
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e4be4c8087005ae66a54d40ac88017df591c56eca64f04b00cf34b0e5a8a09ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aab5c11a7dc23331c935403a4f96ec7197ec1572
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998670"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592538"
 ---
 # <a name="financial-estimates-for-resource-time-on-projects"></a>التقديرات المالية لوقت الموارد على المشروعات
 

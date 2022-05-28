@@ -4,14 +4,14 @@ description: يوضح هذا الموضوع كيفية نشر تطبيق Project
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986430"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591204"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>نشر تطبيق Project Operations Dataverse يدويًا مع دعم الكتابة المزدوجة
 
@@ -37,7 +37,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 3. حدد نوع البيئة. إذا قمت بالاشتراك في العرض التجريبي، فحدد **"تجريبي" (مستند إلى الاشتراك)**.
 4. تأكيد منطقة النشر.
 5. تمكين خيار **إنشاء قاعدة بيانات لهذه البيئة**. 
-6. تأكد من اللغة، ثم تأكد من تطابق العملة مع العملة الخاصة بتطبيقات Finance and Operations الخاصة بك.
+6. قم بتأكيد اللغة، ثم قم بتأكيد تطابق العملة مع العملة الخاصة بتطبيقات Finance and Operations الخاصة بك.
 7. تمكين الخيار **تطبيقات Dynamics 365** وتأكد من تعيين الحقل **النشر التلقائي لهذه التطبيقات** على **بلا**.
 8. قم بإضافة مجموعة أمان، إذا كانت مجموعة الأمان مطلوبة.
 9. حدد **حفظ** لإنشاء البيئة.
@@ -62,4 +62,4 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="link-your-environments"></a><a name="link"></a>ربط بيئاتك
 
-بعد نشر بيئة Dataverse، يمكنك إعداد الارتباط في تطبيقات Finance and Operations الخاصة بك. اتبع الخطوات المتبعة في [استخدام معالج الكتابة المزدوجة لربط بيئاتك](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+بعد توزيع بيئة Dataverse، يمكنك إعداد الارتباط في تطبيقات Finance and Operations. اتبع الخطوات المتبعة في [استخدام معالج الكتابة المزدوجة لربط بيئاتك](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

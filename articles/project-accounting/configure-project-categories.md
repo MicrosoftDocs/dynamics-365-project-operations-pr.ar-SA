@@ -4,14 +4,14 @@ description: يقدم هذا الموضوع معلومات حول إعدادات
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997095"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591526"
 ---
 # <a name="configure-project-categories"></a>تكوين فئات المشروعات
 
@@ -27,7 +27,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="transaction-categories"></a>فئات الحركات
 
-تمثل فئات الحركات التجميع الأساسي لحركات المشروع وهي لا تتعلق بنوع الشركة أو الحركة. على سبيل المثال، تستخدم شركة Contoso Roboticsفئات التصميم والسفر والتثبيت وحركة الخدمة.
+تمثل فئات الحركات التجميع الأساسي لحركات المشروع وهي لا تتعلق بنوع الشركة أو الحركة. على سبيل المثال، تستخدم شركة Contoso Robotics فئات التصميم والسفر والتثبيت وحركة الخدمة لتجميع حركات المشروع.
 
 يتم تحديد فئات الحركات في الوحدة النمطية Project Operations. 
 1. انتقل إلى **الإعدادات** \> **فئات الحركات** لفتح النموذج. 

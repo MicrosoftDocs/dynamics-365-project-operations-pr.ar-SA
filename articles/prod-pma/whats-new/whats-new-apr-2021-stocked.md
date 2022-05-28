@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005555"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589594"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>الجديد أو المتغير في Project Operations، أبريل 2021 للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
 
@@ -20,7 +20,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
-- إدارة المشاريع والمحاسبة في الإصدار 10.0.18 من بيئة Dynamics 365 Finance
+- إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، الإصدار 10.0.18
  
 ### <a name="quality-updates"></a>التحديثات الإصلاحية
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | السفر والمصروفات                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | عندما تكون فئة مصروفات فئة غير خاصة بمشروع، لا يتم نسخ البُعد المالي المحدد في صفحة **المصروفات** إلى تقرير المصروفات.                                          |
 
 ### <a name="regulatory-updates"></a>التحديثات التنظيمية
-لمزيد من المعلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+للحصول على معلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

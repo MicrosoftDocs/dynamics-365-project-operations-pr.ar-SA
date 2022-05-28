@@ -2,16 +2,16 @@
 title: استخدام واجهات برمجة التطبيقات لجدولة المشروع لتنفيذ عمليات مع كيانات الجدولة
 description: يوفر هذا الموضوع معلومات ونماذج لاستخدام واجهات برمجة التطبيقات لجدولة المشروع.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 01/13/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487669"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592032"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>استخدام واجهات برمجة التطبيقات لجدولة المشروع لتنفيذ عمليات مع كيانات الجدولة
 
@@ -42,7 +42,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 وفيما يلي قائمة بواجهات برمجة التطبيقات لجدولة المشروع.
 
-- **msdyn_CreateProjectV1**: يمكن استخدام واجهة برمجة التطبيقات هذه لإنشاء مشروع. يتم إنشاء مستودع المشروع والمشروع الافتراضي في الحال.
+- **msdyn_CreateProjectV1**: يمكن استخدام واجهة برمجة التطبيقات هذه لإنشاء مشروع. يتم إنشاء المشروع والحاوية الافتراضية للمشروع على الفور.
 - **msdyn_CreateTeamMemberV1**: يمكن استخدام واجهة برمجة التطبيقات هذه لإنشاء عضو فريق مشروع. يتم إنشاء سجل عضو الفريق على الفور.
 - **msdyn_CreateOperationSetV1**: يمكن استخدام واجهة برمجة التطبيقات هذه لجدولة طلبات متعددة يجب تنفيذها ضمن حركة.
 - **msdyn_PSSCreateV1**: يمكن استخدام واجهة برمجة التطبيقات هذه لإنشاء كيان. يمكن أن يكون الكيان أيًا من كيانات جدولة المشروع التي تدعم عملية الإنشاء.
@@ -56,14 +56,14 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ## <a name="supported-operations"></a>العمليات المدعومة
 
-| كيان الجدولة | ‏إنشاء | تحديث | حذف  | اعتبارات هامة |
+| كيان الجدولة | ‏إنشاء | ‏‏تحديث | حذف  | اعتبارات هامة |
 | --- | --- | --- | --- | --- |
-مهمة المشروع | نعم  | نعم  | نعم  | ‏‫بلا |
-| تبعية مهمة المشروع | نعم  | نعم  | | لا يتم تحديث سجلات تبعية مهمة المشروع. بدلاً من ذلك، يمكن حذف سجل قديم ويمكن إنشاء سجل جديد. |
-| تعيين الموارد | نعم  | نعم  | | العمليات مع الحقول التالية غير مدعومة: **BookableResourceID** و **Effort** و **EffortCompleted** و **EffortRemaining** ة **PlannedWork**. لا يتم تحديث سجلات تعيين الموارد. بدلاً من ذلك، يمكن حذف السجل القديم ويمكن إنشاء سجل جديد. |
-| مستودع المشروع | ‏‫غير متوفر‬ | ‏‫غير متوفر‬ | ‏‫غير متوفر‬ | يتم إنشاء المستودع الافتراضي باستخدام واجهة برمجة التطبيقات **CreateProjectV1**. |
+مهمة المشروع | نعم  | نعم  | نعم  | يمكن تحرير حقول **Progress** و **EffortCompleted** و **EffortRemaining** في Project for the Web، ولكن لا يمكن تحريرها في Project Operations.  |
+| تبعية مهمة المشروع | نعم  |  | نعم  | لا يتم تحديث سجلات تبعية مهمة المشروع. بدلاً من ذلك، يمكن حذف سجل قديم، ويمكن إنشاء سجل جديد. |
+| تعيين الموارد | نعم  | نعم  | | العمليات مع الحقول التالية غير مدعومة: **BookableResourceID** و **Effort** و **EffortCompleted** و **EffortRemaining** ة **PlannedWork**. لا يتم تحديث سجلات تعيين الموارد. بدلاً من ذلك، يمكن حذف السجل القديم، ويمكن إنشاء سجل جديد. |
+| مستودع المشروع | نعم  | نعم  | نعم  | يتم إنشاء الحاوية الافتراضية باستخدام واجهة برمجة تطبيقات **CreateProjectV1**. تمت إضافة دعم إنشاء حاويات المشروع وحذفها في تحديث الإصدار 16. |
 | عضو فريق المشروع | نعم  | نعم  | نعم  | بالنسبة لعملية الإنشاء، استخدم واجهة برمجة التطبيقات **CreateTeamMemberV1**. |
-| Project | نعم  | نعم  | ‏‫غير متوفر‬ | العمليات مع الحقول التالية غير مدعومة: **StateCode** و **BulkGenerationStatus** و **GlobalRevisionToken** و **CalendarID** و **Effort** و **EffortCompleted** و **EffortRemaining** و **Progress** و **Finish** و **TaskEarliestStart** و **Duration**. |
+| Project | نعم  | نعم  |  | العمليات مع الحقول التالية غير مدعومة: **StateCode** و **BulkGenerationStatus** و **GlobalRevisionToken** و **CalendarID** و **Effort** و **EffortCompleted** و **EffortRemaining** و **Progress** و **Finish** و **TaskEarliestStart** و **Duration**. |
 
 يمكن استدعاء واجهات برمجة التطبيقات مع كائنات الكيانات التي تتضمن حقولاً مخصصة.
 
@@ -71,196 +71,207 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ## <a name="restricted-fields"></a>الحقول المقيدة
 
-يُعرف الجداول التالي الحقول المقيدة من **الإنشاء** و **التحرير.**
+يُعرف الجداول التالي الحقول المقيدة من **الإنشاء** و **التحرير**.
 
 ### <a name="project-task"></a>مهمة المشروع
 
-| **الاسم المنطقي**                       | **يمكن الإنشاء** | **يمكنه التحرير**     |
+| الاسم المنطقي                           | يمكن الإنشاء     | يمكنه التحرير         |
 |----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | ‏‏لا             | ‏‏لا               |
-| msdyn_actualcost_base                  | ‏‏لا             | ‏‏لا               |
-| msdyn_actualend                        | ‏‏لا             | ‏‏لا               |
-| msdyn_actualsales                      | ‏‏لا             | ‏‏لا               |
-| msdyn_actualsales_base                 | ‏‏لا             | ‏‏لا               |
-| msdyn_actualstart                      | ‏‏لا             | ‏‏لا               |
-| msdyn_costatcompleteestimate           | ‏‏لا             | ‏‏لا               |
-| msdyn_costatcompleteestimate_base      | ‏‏لا             | ‏‏لا               |
-| msdyn_costconsumptionpercentage        | ‏‏لا             | ‏‏لا               |
-| msdyn_effortcompleted                  | ‏‏لا             | ‏‏لا               |
-| msdyn_effortestimateatcomplete         | ‏‏لا             | ‏‏لا               |
-| msdyn_iscritical                       | ‏‏لا             | ‏‏لا               |
-| msdyn_iscriticalname                   | ‏‏لا             | ‏‏لا               |
-| msdyn_ismanual                         | ‏‏لا             | ‏‏لا               |
-| msdyn_ismanualname                     | ‏‏لا             | ‏‏لا               |
-| msdyn_ismilestone                      | ‏‏لا             | ‏‏لا               |
-| msdyn_ismilestonename                  | ‏‏لا             | ‏‏لا               |
-| msdyn_LinkStatus                       | ‏‏لا             | ‏‏لا               |
-| msdyn_linkstatusname                   | ‏‏لا             | ‏‏لا               |
-| msdyn_msprojectclientid                | ‏‏لا             | ‏‏لا               |
-| msdyn_plannedcost                      | ‏‏لا             | ‏‏لا               |
-| msdyn_plannedcost_base                 | ‏‏لا             | ‏‏لا               |
-| msdyn_plannedsales                     | ‏‏لا             | ‏‏لا               |
-| msdyn_plannedsales_base                | ‏‏لا             | ‏‏لا               |
-| msdyn_pluginprocessingdata             | ‏‏لا             | ‏‏لا               |
-| msdyn_progress                         | ‏‏لا             | لا (نعم لـ P4W) |
-| msdyn_remainingcost                    | ‏‏لا             | ‏‏لا               |
-| msdyn_remainingcost_base               | ‏‏لا             | ‏‏لا               |
-| msdyn_remainingsales                   | ‏‏لا             | ‏‏لا               |
-| msdyn_remainingsales_base              | ‏‏لا             | ‏‏لا               |
-| msdyn_requestedhours                   | ‏‏لا             | ‏‏لا               |
-| msdyn_resourcecategory                 | ‏‏لا             | ‏‏لا               |
-| msdyn_resourcecategoryname             | ‏‏لا             | ‏‏لا               |
-| msdyn_resourceorganizationalunitid     | ‏‏لا             | ‏‏لا               |
-| msdyn_resourceorganizationalunitidname | ‏‏لا             | ‏‏لا               |
-| msdyn_salesconsumptionpercentage       | ‏‏لا             | ‏‏لا               |
-| msdyn_salesestimateatcomplete          | ‏‏لا             | ‏‏لا               |
-| msdyn_salesestimateatcomplete_base     | ‏‏لا             | ‏‏لا               |
-| msdyn_salesvariance                    | ‏‏لا             | ‏‏لا               |
-| msdyn_salesvariance_base               | ‏‏لا             | ‏‏لا               |
-| msdyn_scheduleddurationminutes         | ‏‏لا             | ‏‏لا               |
-| msdyn_scheduledend                     | ‏‏لا             | ‏‏لا               |
-| msdyn_scheduledstart                   | ‏‏لا             | ‏‏لا               |
-| msdyn_schedulevariance                 | ‏‏لا             | ‏‏لا               |
-| msdyn_skipupdateestimateline           | ‏‏لا             | ‏‏لا               |
-| msdyn_skipupdateestimatelinename       | ‏‏لا             | ‏‏لا               |
-| msdyn_summary                          | ‏‏لا             | ‏‏لا               |
-| msdyn_varianceofcost                   | ‏‏لا             | ‏‏لا               |
-| msdyn_varianceofcost_base              | ‏‏لا             | ‏‏لا               |
+| msdyn_actualcost                       | لا              | لا                |
+| msdyn_actualcost_base                  | لا              | لا                |
+| msdyn_actualend                        | لا              | لا                |
+| msdyn_actualsales                      | لا              | لا                |
+| msdyn_actualsales_base                 | لا              | لا                |
+| msdyn_actualstart                      | لا              | لا                |
+| msdyn_costatcompleteestimate           | لا              | لا                |
+| msdyn_costatcompleteestimate_base      | لا              | لا                |
+| msdyn_costconsumptionpercentage        | لا              | لا                |
+| msdyn_effortcompleted                  | لا (نعم للمشروع)             | لا (نعم للمشروع)               |
+| msdyn_effortremaining                  | لا (نعم للمشروع)              | لا (نعم للمشروع)                |
+| msdyn_effortestimateatcomplete         | لا              | لا                |
+| msdyn_iscritical                       | لا              | لا                |
+| msdyn_iscriticalname                   | لا              | لا                |
+| msdyn_ismanual                         | لا              | لا                |
+| msdyn_ismanualname                     | لا              | لا                |
+| msdyn_ismilestone                      | لا              | لا                |
+| msdyn_ismilestonename                  | لا              | لا                |
+| msdyn_LinkStatus                       | لا              | لا                |
+| msdyn_linkstatusname                   | لا              | لا                |
+| msdyn_msprojectclientid                | لا              | لا                |
+| msdyn_plannedcost                      | لا              | لا                |
+| msdyn_plannedcost_base                 | لا              | لا                |
+| msdyn_plannedsales                     | لا              | لا                |
+| msdyn_plannedsales_base                | لا              | لا                |
+| msdyn_pluginprocessingdata             | لا              | لا                |
+| msdyn_progress                         | لا (نعم للمشروع)             | لا (نعم للمشروع) |
+| msdyn_remainingcost                    | لا              | لا                |
+| msdyn_remainingcost_base               | لا              | لا                |
+| msdyn_remainingsales                   | لا              | لا                |
+| msdyn_remainingsales_base              | لا              | لا                |
+| msdyn_requestedhours                   | لا              | لا                |
+| msdyn_resourcecategory                 | لا              | لا                |
+| msdyn_resourcecategoryname             | لا              | لا                |
+| msdyn_resourceorganizationalunitid     | لا              | لا                |
+| msdyn_resourceorganizationalunitidname | لا              | لا                |
+| msdyn_salesconsumptionpercentage       | لا              | لا                |
+| msdyn_salesestimateatcomplete          | لا              | لا                |
+| msdyn_salesestimateatcomplete_base     | لا              | لا                |
+| msdyn_salesvariance                    | لا              | لا                |
+| msdyn_salesvariance_base               | لا              | لا                |
+| msdyn_scheduleddurationminutes         | لا              | لا                |
+| msdyn_scheduledend                     | لا              | لا                |
+| msdyn_scheduledstart                   | لا              | لا                |
+| msdyn_schedulevariance                 | لا              | لا                |
+| msdyn_skipupdateestimateline           | لا              | لا                |
+| msdyn_skipupdateestimatelinename       | لا              | لا                |
+| msdyn_summary                          | لا              | لا                |
+| msdyn_varianceofcost                   | لا              | لا                |
+| msdyn_varianceofcost_base              | لا              | لا                |
 
 ### <a name="project-task-dependency"></a>تبعية مهمة المشروع
 
-| **الاسم المنطقي**              | **يمكن الإنشاء** | **يمكنه التحرير** |
+| الاسم المنطقي                  | يمكن الإنشاء     | يمكنه التحرير     |
 |-------------------------------|----------------|--------------|
-| msdyn_linktype                | ‏‏لا             | ‏‏لا           |
-| msdyn_linktypename            | ‏‏لا             | ‏‏لا           |
-| msdyn_predecessortask         | نعم            | ‏‏لا           |
-| msdyn_predecessortaskname     | نعم            | ‏‏لا           |
-| msdyn_project                 | نعم            | ‏‏لا           |
-| msdyn_projectname             | نعم            | ‏‏لا           |
-| msdyn_projecttaskdependencyid | نعم            | ‏‏لا           |
-| msdyn_successortask           | نعم            | ‏‏لا           |
-| msdyn_successortaskname       | نعم            | ‏‏لا           |
+| msdyn_linktype                | لا              | لا            |
+| msdyn_linktypename            | لا              | لا            |
+| msdyn_predecessortask         | نعم             | لا            |
+| msdyn_predecessortaskname     | نعم             | لا            |
+| msdyn_project                 | نعم             | لا            |
+| msdyn_projectname             | نعم             | لا            |
+| msdyn_projecttaskdependencyid | نعم             | لا            |
+| msdyn_successortask           | نعم             | لا            |
+| msdyn_successortaskname       | نعم             | لا            |
 
 ### <a name="resource-assignment"></a>تعيين الموارد
 
-| **الاسم المنطقي**             | **يمكن الإنشاء** | **يمكنه التحرير** |
+| الاسم المنطقي                 | يمكن الإنشاء     | يمكنه التحرير     |
 |------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | نعم            | ‏‏لا           |
-| msdyn_bookableresourceidname | نعم            | ‏‏لا           |
-| msdyn_bookingstatusid        | ‏‏لا             | ‏‏لا           |
-| msdyn_bookingstatusidname    | ‏‏لا             | ‏‏لا           |
-| msdyn_committype             | ‏‏لا             | ‏‏لا           |
-| msdyn_committypename         | ‏‏لا             | ‏‏لا           |
-| msdyn_effort                 | ‏‏لا             | ‏‏لا           |
-| msdyn_effortcompleted        | ‏‏لا             | ‏‏لا           |
-| msdyn_effortremaining        | ‏‏لا             | ‏‏لا           |
-| msdyn_finish                 | ‏‏لا             | ‏‏لا           |
-| msdyn_plannedcost            | ‏‏لا             | ‏‏لا           |
-| msdyn_plannedcost_base       | ‏‏لا             | ‏‏لا           |
-| msdyn_plannedcostcontour     | ‏‏لا             | ‏‏لا           |
-| msdyn_plannedsales           | ‏‏لا             | ‏‏لا           |
-| msdyn_plannedsales_base      | ‏‏لا             | ‏‏لا           |
-| msdyn_plannedsalescontour    | ‏‏لا             | ‏‏لا           |
-| msdyn_plannedwork            | ‏‏لا             | ‏‏لا           |
-| msdyn_projectid              | نعم            | ‏‏لا           |
-| msdyn_projectidname          | ‏‏لا             | ‏‏لا           |
-| msdyn_projectteamid          | ‏‏لا             | ‏‏لا           |
-| msdyn_projectteamidname      | ‏‏لا             | ‏‏لا           |
-| msdyn_start                  | ‏‏لا             | ‏‏لا           |
-| msdyn_taskid                 | ‏‏لا             | ‏‏لا           |
-| msdyn_taskidname             | ‏‏لا             | ‏‏لا           |
-| msdyn_userresourceid         | ‏‏لا             | ‏‏لا           |
+| msdyn_bookableresourceid     | نعم             | لا            |
+| msdyn_bookableresourceidname | نعم             | لا            |
+| msdyn_bookingstatusid        | لا              | لا            |
+| msdyn_bookingstatusidname    | لا              | لا            |
+| msdyn_committype             | لا              | لا            |
+| msdyn_committypename         | لا              | لا            |
+| msdyn_effort                 | لا              | لا            |
+| msdyn_effortcompleted        | لا              | لا            |
+| msdyn_effortremaining        | لا              | لا            |
+| msdyn_finish                 | لا              | لا            |
+| msdyn_plannedcost            | لا              | لا            |
+| msdyn_plannedcost_base       | لا              | لا            |
+| msdyn_plannedcostcontour     | لا              | لا            |
+| msdyn_plannedsales           | لا              | لا            |
+| msdyn_plannedsales_base      | لا              | لا            |
+| msdyn_plannedsalescontour    | لا              | لا            |
+| msdyn_plannedwork            | لا              | لا            |
+| msdyn_projectid              | نعم             | لا            |
+| msdyn_projectidname          | لا              | لا            |
+| msdyn_projectteamid          | لا              | لا            |
+| msdyn_projectteamidname      | لا              | لا            |
+| msdyn_start                  | لا              | لا            |
+| msdyn_taskid                 | لا              | لا            |
+| msdyn_taskidname             | لا              | لا            |
+| msdyn_userresourceid         | لا              | لا            |
 
 ### <a name="project-team-member"></a>عضو فريق المشروع
 
-| **الاسم المنطقي**                                 | **يمكن الإنشاء** | **يمكنه التحرير** |
+| الاسم المنطقي                                     | يمكن الإنشاء     | يمكنه التحرير     |
 |--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | ‏‏لا             | ‏‏لا           |
-| msdyn_creategenericteammemberwithrequirementname | ‏‏لا             | ‏‏لا           |
-| msdyn_deletestatus                               | ‏‏لا             | ‏‏لا           |
-| msdyn_deletestatusname                           | ‏‏لا             | ‏‏لا           |
-| msdyn_effort                                     | ‏‏لا             | ‏‏لا           |
-| msdyn_effortcompleted                            | ‏‏لا             | ‏‏لا           |
-| msdyn_effortremaining                            | ‏‏لا             | ‏‏لا           |
-| msdyn_finish                                     | ‏‏لا             | ‏‏لا           |
-| msdyn_hardbookedhours                            | ‏‏لا             | ‏‏لا           |
-| msdyn_hours                                      | ‏‏لا             | ‏‏لا           |
-| msdyn_markedfordeletiontimer                     | ‏‏لا             | ‏‏لا           |
-| msdyn_markedfordeletiontimestamp                 | ‏‏لا             | ‏‏لا           |
-| msdyn_msprojectclientid                          | ‏‏لا             | ‏‏لا           |
-| msdyn_percentage                                 | ‏‏لا             | ‏‏لا           |
-| msdyn_requiredhours                              | ‏‏لا             | ‏‏لا           |
-| msdyn_softbookedhours                            | ‏‏لا             | ‏‏لا           |
-| msdyn_start                                      | ‏‏لا             | ‏‏لا           |
+| msdyn_calendarid                                 | لا              | لا            |
+| msdyn_creategenericteammemberwithrequirementname | لا              | لا            |
+| msdyn_deletestatus                               | لا              | لا            |
+| msdyn_deletestatusname                           | لا              | لا            |
+| msdyn_effort                                     | لا              | لا            |
+| msdyn_effortcompleted                            | لا              | لا            |
+| msdyn_effortremaining                            | لا              | لا            |
+| msdyn_finish                                     | لا              | لا            |
+| msdyn_hardbookedhours                            | لا              | لا            |
+| msdyn_hours                                      | لا              | لا            |
+| msdyn_markedfordeletiontimer                     | لا              | لا            |
+| msdyn_markedfordeletiontimestamp                 | لا              | لا            |
+| msdyn_msprojectclientid                          | لا              | لا            |
+| msdyn_percentage                                 | لا              | لا            |
+| msdyn_requiredhours                              | لا              | لا            |
+| msdyn_softbookedhours                            | لا              | لا            |
+| msdyn_start                                      | لا              | لا            |
 
 ### <a name="project"></a>Project
 
-| **الاسم المنطقي**                       | **يمكن الإنشاء** | **يمكنه التحرير** |
+| الاسم المنطقي                           | يمكن الإنشاء     | يمكنه التحرير     |
 |----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | ‏‏لا             | ‏‏لا           |
-| msdyn_actualexpensecost_base           | ‏‏لا             | ‏‏لا           |
-| msdyn_actuallaborcost                  | ‏‏لا             | ‏‏لا           |
-| msdyn_actuallaborcost_base             | ‏‏لا             | ‏‏لا           |
-| msdyn_actualsales                      | ‏‏لا             | ‏‏لا           |
-| msdyn_actualsales_base                 | ‏‏لا             | ‏‏لا           |
-| msdyn_contractlineproject              | نعم            | ‏‏لا           |
-| msdyn_contractorganizationalunitid     | نعم            | ‏‏لا           |
-| msdyn_contractorganizationalunitidname | نعم            | ‏‏لا           |
-| msdyn_costconsumption                  | ‏‏لا             | ‏‏لا           |
-| msdyn_costestimateatcomplete           | ‏‏لا             | ‏‏لا           |
-| msdyn_costestimateatcomplete_base      | ‏‏لا             | ‏‏لا           |
-| msdyn_costvariance                     | ‏‏لا             | ‏‏لا           |
-| msdyn_costvariance_base                | ‏‏لا             | ‏‏لا           |
-| msdyn_duration                         | ‏‏لا             | ‏‏لا           |
-| msdyn_effort                           | ‏‏لا             | ‏‏لا           |
-| msdyn_effortcompleted                  | ‏‏لا             | ‏‏لا           |
-| msdyn_effortestimateatcompleteeac      | ‏‏لا             | ‏‏لا           |
-| msdyn_effortremaining                  | ‏‏لا             | ‏‏لا           |
-| msdyn_finish                           | نعم            | نعم          |
-| msdyn_globalrevisiontoken              | ‏‏لا             | ‏‏لا           |
-| msdyn_islinkedtomsprojectclient        | ‏‏لا             | ‏‏لا           |
-| msdyn_islinkedtomsprojectclientname    | ‏‏لا             | ‏‏لا           |
-| msdyn_linkeddocumenturl                | ‏‏لا             | ‏‏لا           |
-| msdyn_msprojectdocument                | ‏‏لا             | ‏‏لا           |
-| msdyn_msprojectdocumentname            | ‏‏لا             | ‏‏لا           |
-| msdyn_plannedexpensecost               | ‏‏لا             | ‏‏لا           |
-| msdyn_plannedexpensecost_base          | ‏‏لا             | ‏‏لا           |
-| msdyn_plannedlaborcost                 | ‏‏لا             | ‏‏لا           |
-| msdyn_plannedlaborcost_base            | ‏‏لا             | ‏‏لا           |
-| msdyn_plannedsales                     | ‏‏لا             | ‏‏لا           |
-| msdyn_plannedsales_base                | ‏‏لا             | ‏‏لا           |
-| msdyn_progress                         | ‏‏لا             | ‏‏لا           |
-| msdyn_remainingcost                    | ‏‏لا             | ‏‏لا           |
-| msdyn_remainingcost_base               | ‏‏لا             | ‏‏لا           |
-| msdyn_remainingsales                   | ‏‏لا             | ‏‏لا           |
-| msdyn_remainingsales_base              | ‏‏لا             | ‏‏لا           |
-| msdyn_replaylogheader                  | ‏‏لا             | ‏‏لا           |
-| msdyn_salesconsumption                 | ‏‏لا             | ‏‏لا           |
-| msdyn_salesestimateatcompleteeac       | ‏‏لا             | ‏‏لا           |
-| msdyn_salesestimateatcompleteeac_base  | ‏‏لا             | ‏‏لا           |
-| msdyn_salesvariance                    | ‏‏لا             | ‏‏لا           |
-| msdyn_salesvariance_base               | ‏‏لا             | ‏‏لا           |
-| msdyn_scheduleperformance              | ‏‏لا             | ‏‏لا           |
-| msdyn_scheduleperformancename          | ‏‏لا             | ‏‏لا           |
-| msdyn_schedulevariance                 | ‏‏لا             | ‏‏لا           |
-| msdyn_taskearlieststart                | ‏‏لا             | ‏‏لا           |
-| msdyn_teamsize                         | ‏‏لا             | ‏‏لا           |
-| msdyn_teamsize_date                    | ‏‏لا             | ‏‏لا           |
-| msdyn_teamsize_state                   | ‏‏لا             | ‏‏لا           |
-| msdyn_totalactualcost                  | ‏‏لا             | ‏‏لا           |
-| msdyn_totalactualcost_base             | ‏‏لا             | ‏‏لا           |
-| msdyn_totalplannedcost                 | ‏‏لا             | ‏‏لا           |
-| msdyn_totalplannedcost_base            | ‏‏لا             | ‏‏لا           |
+| msdyn_actualexpensecost                | لا              | لا            |
+| msdyn_actualexpensecost_base           | لا              | لا            |
+| msdyn_actuallaborcost                  | لا              | لا            |
+| msdyn_actuallaborcost_base             | لا              | لا            |
+| msdyn_actualsales                      | لا              | لا            |
+| msdyn_actualsales_base                 | لا              | لا            |
+| msdyn_contractlineproject              | نعم             | لا            |
+| msdyn_contractorganizationalunitid     | نعم             | لا            |
+| msdyn_contractorganizationalunitidname | نعم             | لا            |
+| msdyn_costconsumption                  | لا              | لا            |
+| msdyn_costestimateatcomplete           | لا              | لا            |
+| msdyn_costestimateatcomplete_base      | لا              | لا            |
+| msdyn_costvariance                     | لا              | لا            |
+| msdyn_costvariance_base                | لا              | لا            |
+| msdyn_duration                         | لا              | لا            |
+| msdyn_effort                           | لا              | لا            |
+| msdyn_effortcompleted                  | لا              | لا            |
+| msdyn_effortestimateatcompleteeac      | لا              | لا            |
+| msdyn_effortremaining                  | لا              | لا            |
+| msdyn_finish                           | نعم             | نعم           |
+| msdyn_globalrevisiontoken              | لا              | لا            |
+| msdyn_islinkedtomsprojectclient        | لا              | لا            |
+| msdyn_islinkedtomsprojectclientname    | لا              | لا            |
+| msdyn_linkeddocumenturl                | لا              | لا            |
+| msdyn_msprojectdocument                | لا              | لا            |
+| msdyn_msprojectdocumentname            | لا              | لا            |
+| msdyn_plannedexpensecost               | لا              | لا            |
+| msdyn_plannedexpensecost_base          | لا              | لا            |
+| msdyn_plannedlaborcost                 | لا              | لا            |
+| msdyn_plannedlaborcost_base            | لا              | لا            |
+| msdyn_plannedsales                     | لا              | لا            |
+| msdyn_plannedsales_base                | لا              | لا            |
+| msdyn_progress                         | لا              | لا            |
+| msdyn_remainingcost                    | لا              | لا            |
+| msdyn_remainingcost_base               | لا              | لا            |
+| msdyn_remainingsales                   | لا              | لا            |
+| msdyn_remainingsales_base              | لا              | لا            |
+| msdyn_replaylogheader                  | لا              | لا            |
+| msdyn_salesconsumption                 | لا              | لا            |
+| msdyn_salesestimateatcompleteeac       | لا              | لا            |
+| msdyn_salesestimateatcompleteeac_base  | لا              | لا            |
+| msdyn_salesvariance                    | لا              | لا            |
+| msdyn_salesvariance_base               | لا              | لا            |
+| msdyn_scheduleperformance              | لا              | لا            |
+| msdyn_scheduleperformancename          | لا              | لا            |
+| msdyn_schedulevariance                 | لا              | لا            |
+| msdyn_taskearlieststart                | لا              | لا            |
+| msdyn_teamsize                         | لا              | لا            |
+| msdyn_teamsize_date                    | لا              | لا            |
+| msdyn_teamsize_state                   | لا              | لا            |
+| msdyn_totalactualcost                  | لا              | لا            |
+| msdyn_totalactualcost_base             | لا              | لا            |
+| msdyn_totalplannedcost                 | لا              | لا            |
+| msdyn_totalplannedcost_base            | لا              | لا            |
 
+### <a name="project-bucket"></a>مستودع المشروع
+
+| الاسم المنطقي          | يمكن الإنشاء      | يمكنه التحرير     |
+|-----------------------|-----------------|--------------|
+| msdyn_displayorder    | نعم              | لا            |
+| msdyn_name            | نعم              | نعم           |
+| msdyn_project         | نعم              | لا            |
+| msdyn_projectbucketid | نعم              | لا            |
 
 ## <a name="limitations-and-known-issues"></a>القيود والمشاكل المعروفة
 فيما يلي قائمة بالقيود والمشاكل المعروفة:
 
-- لا يمكن استخدام واجهات برمجة تطبيقات جدولة المشروع إلا بواسطة **المستخدمين الذين لديهم ترخيص Microsoft Project.** لا يمكن استخدامها بواسطة:
+- لا يمكن استخدام واجهات برمجة تطبيقات جدولة المشروع إلا بواسطة **المستخدمين الذين لديهم ترخيص Microsoft Project**. لا يمكن استخدامها بواسطة:
+
     - مستخدمي التطبيق
     - مستخدمي النظام
     - مستخدمي التكامل
     - المستخدمين الآخرين الذين ليس لديهم الترخيص المطلوب
+
 - تتضمن كل **OperationSet** مئة عملية كحدٍ أقصى.
 - بإمكان كل مستخدم أن يحصل على عشر **OperationSet** مفتوحة كحدٍ أقصى.
 - يدعم Project Operations في الوقت الحالي 500 مهمة إجمالية كحد أقصى على مشروع.
@@ -269,8 +280,8 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ## <a name="error-handling"></a>معالجة الخطأ
 
-   - لمراجعة الأخطاء التي تم إنشاؤها من مجموعات العمليات، انتقل إلى **الإعدادات** \> **تكامل الجدول** \> **مجموعات العمليات**.
-   - لمراجعة الأخطاء التي تم إنشاؤها من خدمة جدولة المشروع، انتقل إلى **إعدادات** \> **‏‫تكامل الجدولة** \> **سجلات أخطاء PSS**.
+- لمراجعة الأخطاء التي تم إنشاؤها من مجموعات العمليات، انتقل إلى **الإعدادات** \> **تكامل الجدول** \> **مجموعات العمليات**.
+- لمراجعة الأخطاء التي تم إنشاؤها من خدمة جدولة المشروع، انتقل إلى **إعدادات** \> **‏‫تكامل الجدولة** \> **سجلات أخطاء PSS**.
 
 ## <a name="sample-scenario"></a>سيناريو نموذجي
 
@@ -492,7 +503,6 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
-    task["msdyn_progress"] = 0.34m;
     task["msdyn_start"] = DateTime.Now.AddDays(1);
     task["msdyn_projectbucket"] = GetBucket(projectReference).ToEntityReference();
     task["msdyn_LinkStatus"] = new OptionSetValue(192350000);
@@ -524,9 +534,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_taskid"] = task.ToEntityReference();
     assignment["msdyn_projectid"] = project.ToEntityReference();
     assignment["msdyn_name"] = name;
-    assignment["msdyn_start"] = DateTime.Now;
-    assignment["msdyn_finish"] = DateTime.Now;
-
+   
     return assignment;
 }
 

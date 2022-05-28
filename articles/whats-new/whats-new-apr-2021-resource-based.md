@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008120"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589042"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في أبريل 2021 - Project Operations للسيناريوهات المستندة إلى الموارد/ المنتجات غير المخزنة
 
@@ -21,7 +21,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
 - Project Operations على بيئة Dataverse الإصدار 4.9.0.221
-- إدارة المشاريع والمحاسبة في الإصدار 10.0.17 من بيئة Dynamics 365 Finance
+- إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، الإصدار 10.0.17
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
@@ -42,13 +42,13 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | **خريطة الكيان** | **الإصدار المُحدث** | **التعليقات** |
 | --- | --- | --- |
 | القيم الفعلية لتكامل Project Operations (msdyn\_actuals) | 1.0.0.14  | تم تعديل المخطط لمزامنة القيم الفعلية لمشروع المواد. |
-| كيان تكامل Project Operations لتقديرات المصروفات (msdyn\_estimateslines) | 1.0.0.2  | تمت إضافة مزامنة شروط تعاقد مشروع إلى تطبيقات Finance and Operations لدعم الفوترة المستند إلى المهمة. |
-| كيان تكامل Project Operations لتقديرات الساعات (msdyn\_resourceassignments) | 1.0.0.5  | تمت إضافة مزامنة شروط تعاقد مشروع إلى تطبيقات Finance and Operations لدعم الفوترة المستند إلى المهمة. |
-| جدول تكامل Project Operations لتقديرات المواد (msdyn\_estimatelines) | 1.0.0.0  | مخطط جدول جديد لمزامنة تقديرات المواد من Dataverse إلى تطبيقات Finance and Operations. |
-| كيان تصدير فاتورة مورد المشروع لتكامل Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0  | مخطط جدول جديد لمزامنة رؤوس فاتورة المورد من Finance and Operations إلى تطبيقات Dataverse. |
-| كيان تصدير بند فاتورة مورد المشروع لتكامل Project Operations(msdyn\_projectvendorinvoicelines) | 1.0.0.0  | مخطط جدول جديد لمزامنة سطور فاتورة المورد من Finance and Operations إلى تطبيقات Dataverse. |
+| كيان تكامل Project Operations لتقديرات المصروفات (msdyn\_estimateslines) | 1.0.0.2 | تمت إضافة مزامنة سطر عقد المشروع لتطبيقات Finance and Operations لدعم الفواتير المستندة إلى المهام. |
+| كيان تكامل Project Operations لتقديرات الساعات (msdyn\_resourceassignments) | 1.0.0.5  | تمت إضافة مزامنة سطر عقد المشروع لتطبيقات Finance and Operations لدعم الفواتير المستندة إلى المهام. |
+| جدول تكامل Project Operations لتقديرات المواد (msdyn\_estimatelines) | 1.0.0.0  | خريطة جدول جديدة لمزامنة تقديرات المواد من Dataverse إلى تطبيقات Finance and Operations. |
+| كيان تصدير فاتورة مورد المشروع لتكامل Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0  | مخطط جدول جديد لمزامنة رؤوس فواتير البائع من تطبيقات Finance and Operations إلى Dataverse. |
+| كيان تصدير بند فاتورة مورد المشروع لتكامل Project Operations(msdyn\_projectvendorinvoicelines) | 1.0.0.0  | مخطط جدول جديد لمزامنة سطور فواتير البائع من تطبيقات Finance and Operations إلى Dataverse. |
 
-يجب عليك دائما تشغيل أحدث إصدار من المخطط في البيئة الخاصة بك وتمكين كافة مخططات الجدول ذات الصلة عند تحديث حل Project Operations Dataverse وكذلك إصدار حل Finance and Operations. قد لا تعمل بعض الميزات والإمكانات بشكل صحيح إذا لم يتم تنشيط أحدث إصدار من المخطط. يمكن رؤية الإصدار النشط من المخطط في عمود **الإصدار** في الصفحة **الكتابة المزدوجة**. يمكنك تنشيط إصدار جديد من المخطط من خلال تحديد **إصدارات مخطط الجدول** ثم تحديد الإصدار الأخيرن وحفظ الإصدار المحدد. إذا قمت بتخصيص مخطط جدول جاهز، فأعد تطبيق التغييرات. مزيد من المعلومات، راجع [إدارة دورة حياة التطبيقات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+يجب عليك دائمًا تشغيل أحدث إصدار من الخريطة في بيئتك، وتمكين جميع خرائط الجدول ذات الصلة أثناء تحديث حل Project Operations Dataverse وإصدار حل Finance and Operations. قد لا تعمل بعض الميزات والإمكانات بشكل صحيح إذا لم يتم تنشيط أحدث إصدار من المخطط. يمكن رؤية الإصدار النشط من المخطط في عمود **الإصدار** في الصفحة **الكتابة المزدوجة**. يمكنك تنشيط إصدار جديد من المخطط من خلال تحديد **إصدارات مخطط الجدول** ثم تحديد الإصدار الأخيرن وحفظ الإصدار المحدد. إذا قمت بتخصيص مخطط جدول جاهز، فأعد تطبيق التغييرات. مزيد من المعلومات، راجع [إدارة دورة حياة التطبيقات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 إذا واجهتك مشكلة عند بدء تشغيل المخطط، فاتبع الإرشادات في قسم [مشكلة أعمدة الجدول المفقود في المخططات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) من دليل استكشاف أخطاء الكتابة المزدوجة وإصلاحها.
 
@@ -83,7 +83,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 | **منطقة الميزات** | **رقم المرجع** | **تحديث إصلاحي** |
 | --- | --- | --- |
-| إدارة المشاريع والمحاسبة | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | لا تعمل عملية استبعاد تقدير التكلفة العكسي في القسم **دوري**.  |
+| إدارة المشروعات ومحاسبتها | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | لا تعمل عملية استبعاد تقدير التكلفة العكسي في القسم **دوري**.  |
 | إدارة المشاريع والمحاسبة | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | تقوم ميزة **التعديل المحاسبي** بإنشاء مشكلة في حسابات دفتر الأستاذ التي تم فيها تحديد الخيار **عدم السماح بالإدخال اليدوي**. |
 | إدارة المشاريع والمحاسبة | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | تمت إضافة منطق العمل لمعالجة فواتير التصحيح بما في ذلك مبلغ مقدم الأتعاب أو مبلغ مقدم الأتعاب المطبق. |
 | إدارة المشاريع والمحاسبة | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | الأعمال تحت التنفيذ - ترحيل قيمة المبيعات في فوترة المشروع بين الشركات يختار حسابًا غير متوقع. |

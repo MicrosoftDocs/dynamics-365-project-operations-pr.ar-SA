@@ -4,14 +4,14 @@ description: يوفر هذا الموضوع معلومات حول كيفية إ�
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992055"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591296"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>إدارة عدة عملاء على عقود المشروع
 

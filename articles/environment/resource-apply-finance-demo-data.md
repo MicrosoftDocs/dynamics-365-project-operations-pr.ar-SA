@@ -1,24 +1,24 @@
 ---
 title: تطبيق بيانات العرض التوضيحي على بيئة مستضافة في سحابة Finance
-description: يوضح هذا الموضوع كيفية تطبيق البيانات التجريبية من Project Operations إلى بيئة Dynamics 365 Finance المستضافة على السحابة.
+description: يشرح هذا الموضوع كيفية تطبيق بيانات العرض التوضيحي من Project Operations على بيئة Dynamics 365 Finance المستضافة على السحابة.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009650"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588950"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>تطبيق بيانات العرض التوضيحي على بيئة مستضافة في سحابة Finance
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
 > [!IMPORTANT]
-> ينطبق هذا الموضوع فقط على Microsoft Dynamics 365 Finance الإصدار 10.0.13 ويمكن تنفيذه فقط على بيئة مستضافة على السحابة. أكمل الخطوات الواردة في هذا الموضوع **قبل** تطبيق تحديثات الجودة على البيئة.
+> هذا الموضوع قابل للتطبيق فقط على الإصدار 10.0.13 من Microsoft Dynamics 365 Finance ويمكن إجراؤه فقط على بيئة مستضافة على السحابة. أكمل الخطوات الواردة في هذا الموضوع **قبل** تطبيق تحديثات الجودة على البيئة.
 
 1. في مشروع LCS الخاص بك، افتح صفحة **تفاصيل البيئة**. لاحظ أنه يتضمن التفاصيل اللازمة للاتصال بالبيئة باستخدام بروتوكول سطح المكتب البعيد (RDP).
 

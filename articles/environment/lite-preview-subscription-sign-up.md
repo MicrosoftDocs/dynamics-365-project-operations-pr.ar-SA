@@ -4,14 +4,14 @@ description: يقدم هذا الموضوع معلومات حول كيفية ا�
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991515"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587984"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>التسجيل في اشتراك معاينة - خفيف 
 
@@ -43,7 +43,7 @@ ms.locfileid: "6991515"
 > ستحتاج إلى حق وصول إداري إلى مدخل Microsoft 365 الخاص بمؤسستك لإكمال الخطوات التالية.
 
 
-1. انتقل إلى [مركز إدارة](https://portal.office.com/) لتعيين التراخيص إلى المستخدمين.
+1. انتقل إلى مركز مسؤول [Microsoft 365 ](https://portal.office.com/) لتعيين التراخيص إلى مستخدميك.
 2. في صفحة **المستخدمين النشطين**، حدد المستخدمين الذين ترغب في تعيين ترخيص لهم.
 3. تحقق من تحديد ترخيص **Dynamics 365 Project Operations**. 
 4. حدد **حفظ التغييرات**.

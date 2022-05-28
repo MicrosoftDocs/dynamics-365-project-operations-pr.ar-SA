@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986790"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588996"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في فبراير 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬
 
@@ -21,7 +21,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
 - Project Operations في بيئة Dataverse 4.7.0.95
-- إدارة المشاريع والمحاسبة في الإصدار 10.0.16 من بيئة Dynamics 365 Finance 
+- إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، الإصدار 10.0.16 
 
 ## <a name="quality-updates"></a>التحديثات الإصلاحية
 
@@ -46,12 +46,12 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>إدارة المشاريع والمحاسبة في Dynamics 365 Finance 
 
-لمزيد من المعلومات حول إدارة المشاريع والمحاسبة في Dynamics 365 Finance، راجع [الجديد في يناير 2021 - Project Operations للسيناريوهات التي تستند إلى الموارد/المنتجات غير المخزنة](whats-new-jan-2021-resource-based.md).
+لمزيد من المعلومات حول إدارة المشاريع والمحاسبة في Dynamics 365 Finance، راجع [ما الجديد في يناير 2021 - Project Operations للسيناريوهات المستندة إلى الموارد / غير المخزنة](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>التحديثات التنظيمية
 
-لمزيد من المعلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). من الطرق الأخرى للتعرف على التحديثات التنظيمية تسجيل الدخول إلى Lifecycle Services (LCS) وعرض التحديثات التنظيمية المخطط لها باستخدام أداة البحث عن المشكلة. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+للحصول على معلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). من الطرق الأخرى للتعرف على التحديثات التنظيمية تسجيل الدخول إلى Lifecycle Services (LCS) وعرض التحديثات التنظيمية المخطط لها باستخدام أداة البحث عن المشكلة. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
