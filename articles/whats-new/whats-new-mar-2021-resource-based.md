@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b11a57ae152be154fd6a7d330c8520f3b295ce3ef5cc7051ac9b343e3bcdbe12
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006320"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599438"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في مارس 2021 - Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة‬
 
@@ -21,7 +21,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
 - Project Operations على بيئة Dataverse الإصدار 4.8.0.91 
-- إدارة المشاريع والمحاسبة في الإصدار 10.0.16 من بيئة Dynamics 365 Finance 
+- إدارة المشاريع والمحاسبة على بيئة Dynamics 365 Finance، الإصدار 10.0.16 
 
 ## <a name="quality-updates"></a>التحديثات الإصلاحية
 
@@ -42,13 +42,13 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | الوقت والمصروفات | 2148910  | تم إصلاح مشكلة عرض في صفحة **تحرير الإدخال** في شبكة **إدخال الوقت**. |
 | الوقت والمصروفات | 2159798  | تم تشديد عناصر التحكم لضمان عدم تحرير إدخالات المصروفات الموافق عليها. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>إدارة المشاريع والمحاسبة في Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>إدارة المشاريع والمحاسبة على Dynamics 365 Finance
 
 لمزيد من المعلومات، راجع [الجديد في يناير 2021 - Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة‬](whats-new-jan-2021-resource-based.md).
 
 ## <a name="regulatory-updates"></a>التحديثات التنظيمية
 
-لمزيد من المعلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). من الطرق الأخرى للتعرف على التحديثات التنظيمية تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخطط لها باستخدام أداة البحث عن المشكلة. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+للحصول على معلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). من الطرق الأخرى للتعرف على التحديثات التنظيمية تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخطط لها باستخدام أداة البحث عن المشكلة. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008075"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599530"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في يناير 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬
 
@@ -22,7 +22,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
   - Project Operations على بيئة Dataverse الإصدار 4.6.0.154
-  - إدارة المشاريع والمحاسبة في الإصدار 10.0.16 من بيئة Dynamics 365 Finance
+  - إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، الإصدار 10.0.16
 
 ## <a name="quality-updates"></a>التحديثات الإصلاحية
 
@@ -86,7 +86,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="regulatory-updates"></a>التحديثات التنظيمية
 
-لمزيد من المعلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+للحصول على معلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

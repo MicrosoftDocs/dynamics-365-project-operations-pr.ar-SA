@@ -4,14 +4,14 @@ description: يوفر هذا الموضوع معلومات حول دعم الم�
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 214593c5b3fbfc5194031af3d3bef59d01750099
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003350"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593964"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>إدارة الوحدات المعقدة لشروط التعاقد المستندة إلى المنتج - خفيف
 

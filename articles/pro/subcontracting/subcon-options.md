@@ -4,14 +4,14 @@ description: يشرح هذا الموضوع خيارات التعاقد من ا�
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 4db283db728b50ccf76eafabfd643313620bbce2
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: aacd2f97d3120a854c78fe87e512fad1c43b9651
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903324"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600174"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>خيارات التعاقد من الباطن مع أعضاء فريق المشروع
 

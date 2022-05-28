@@ -4,14 +4,14 @@ description: يوفر هذا الموضوع معلومات حول كيفية ت�
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e0ca43eb6005948f440fca16e98a6d05db3493c82e518441bb50f9413da91ead
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f5dab041bab1268235ed542f06d1b4b4cd240305
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989805"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599300"
 ---
 # <a name="confirm-a-project-contract"></a>تأكيد عقد مشروع
 

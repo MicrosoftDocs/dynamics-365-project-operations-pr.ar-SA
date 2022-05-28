@@ -4,14 +4,14 @@ description: يقدم هذا الموضوع معلومات حول تطبيق س�
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: d9c03fa1a8f43cc110565efbafd7f5aba69f65f96bec7f15f2bd492123f639c7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33cfd42a61b368dc2d2d7f18bfaccf3a221a38fe
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001865"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598288"
 ---
 # <a name="costing-product-based-quote-lines"></a>حساب تكاليف بنود عروض الأسعار المستندة إلى المنتج
 

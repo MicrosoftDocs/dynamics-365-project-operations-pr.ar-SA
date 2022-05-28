@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753276"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598472"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>ما الجديد في أكتوبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753276"
 ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
    -  Project Operations في إصدار بيئة Microsoft Dataverse ‏4.25.0.91
-   - إدارة المشاريع والمحاسبة في الإصدار 10.0.21 من بيئة Dynamics 365 Finance
+   - إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، الإصدار 10.0.21
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
@@ -49,7 +49,7 @@ ms.locfileid: "7753276"
 | الفوترة والتسعير | 2338357 | يجب أن تختلف العملة الموجودة في سجل استخدام المواد عن عملة المشروع عند تحديد المشروع. |
 | الوقت والمصروفات | 2414777 | يجب أن يكون إلغاء الموافقة عندما يكون لإدخال المصروفات أو الوقت أكثر من موافقة على مشروع مقترن. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>إدارة المشاريع والمحاسبة في Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>إدارة المشاريع والمحاسبة على Dynamics 365 Finance
 
 | منطقة الميزات | رقم المرجع | تحديث إصلاحي |
 | --- | --- | --- |

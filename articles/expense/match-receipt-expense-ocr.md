@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798024"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596264"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>التقاط إيصال باستخدام OCR
 
@@ -52,7 +52,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ## <a name="installation"></a>التثبيت
 
-لاستخدام إمكانيات المصروفات المتقدمة هذه، قم بتثبيت الوظيفة الإضافية لخدمة إدارة المصروفات لـ Microsoft Dynamics 365 Finance، وقم بتشغيل الميزات الموجودة في المثيل الخاص بك. يمكنك الوصول إلى الوظيفة الإضافية من مشروعك الخاص في Microsoft Dynamics Lifecycle Services (LCS).
+لاستخدام قدرات المصروفات المتقدمة هذه، ثبت الوظيفة الإضافية خدمة إدارة المصروفات لـ Microsoft Dynamics 365 Finance، ثم شغَّل الميزات الموجودة في المثيل لديك. يمكنك الوصول إلى الوظيفة الإضافية من مشروعك الخاص في Microsoft Dynamics Lifecycle Services (LCS).
 
 1. قم بتسجيل الدخول إلى LCS، وافتح البيئة المطلوبة.
 2. انتقل إلى **التفاصيل الكاملة**.

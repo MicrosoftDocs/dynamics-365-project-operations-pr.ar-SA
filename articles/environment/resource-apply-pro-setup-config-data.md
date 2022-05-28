@@ -4,27 +4,27 @@ description: يقدم هذا الموضوع معلومات حول إعداد و�
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986610"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594700"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>إعداد بيانات التكوين وتطبيقها في Common Data Service 
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
 قبل أن تبدأ في تهيئة البيانات في Common Data Service (CDS)، فإنه يجب استيفاء المتطلبات الأساسية التالية:
 
-1.  تزويد بيئة CDS وبيئة Dynamics 365 Finance لـ Project Operations.
-2.  مشاركة معلومات الكيان القانوني من Dynamics 365 Finance مع بيئة CDS. وهذا يعني أن كيان **الشركة** في CDS يتضمن سجلات الشركة التالية:
+1.  توفير بيئة CDS وبيئة Dynamics 365 Finance لـ Project Operations.
+2.  يتم مشاركة معلومات الكيان القانوني من Dynamics 365 Finance مع بيئة CDS. وهذا يعني أن كيان **الشركة** في CDS يتضمن سجلات الشركة التالية:
   - THPM
   - USPM
   - GBPM
@@ -132,7 +132,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 12. قم بتحديث الحقول التالية:
 
  - **الشركة الافتراضية**: USPM
- - **الوحدة المؤسسية الافتراضية**: Contoso Robotics Global
+ - **الوحدة التنظيمية الافتراضية**: Contoso Robotics Global
  - **تكرار الفاتورة**: اليوم السابع واليوم الأخير
  - **قالب ساعة العمل**: قم بالتغيير إلى القالب الذي قمت بإنشائه.
 

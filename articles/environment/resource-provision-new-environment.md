@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928645"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594792"
 ---
 # <a name="provision-a-new-environment"></a>تزويد بيئة جديدة
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 يوفر هذا الموضوع معلومات حول كيفية توفير بيئة Dynamics 365 Project Operations جديدة للسيناريوهات القائمة على الموارد/غير المخزنة.
 
@@ -34,7 +34,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="provision-a-project-operations-environment"></a>تزويد بيئة Project Operations
 
-1. افتح Dynamics 365 Finance جديد [في بيئة عرض توضيحي](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) أو نشر [بيئة الحماية / الإنتاج](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. افتح Dynamics 365 Finance جديد [بيئة العرض](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) أو توزيع [بيئة اختبار معزولة / الإنتاج](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. اتبع خطوات معالج **تزويد البيئة**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
     ![تطبيق الحلول.](./media/13ApplySolutions.png)
 
-5. حدد الحلين، **Dynamics 365 Finance and Operations خريطة كيان‬ الكتابة المزدوجة‬** و **Dynamics 365 Project Operations خرائط كيان‬ الكتابة المزدوجة‬**، ثم حدد **تطبيق**.
+5. حدد كلا الحلين، **مخطط كيان الكتابة المزدوجة لـ Dynamics 365 Finance and Operations** و **Dynamics 365 Project Operations خرائط كيان الكتابة المزدوجة**، ثم حدد **تطبيق**.
 
     ![تأكيد الحلول.](./media/14ConfirmSolutions.png)
 
