@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989535"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683890"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>مساحة عمل متنقلة لإدخال وقت المشروع
 
@@ -45,7 +44,7 @@ ms.locfileid: "6989535"
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 تختلف المتطلبات الاساسيه، استنادا إلى إصدار Microsoft Dynamics365 الذي تم نشره للمؤسسة الخاصة بك.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>المتطلبات الاساسيه إذا كنت تستخدم Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>المتطلبات الأساسية إذا كنت تستخدم Dynamics 365 Finance
 إذا تم نشر Finance لمؤسستك ، فيجب على مسؤول النظام نشر مساحة عمل الأجهزة الإلكترونية **إدخال الوقت للمشروع**. للحصول علي الإرشادات، راجع [نشر مساحة عمل الأجهزة الإلكترونية](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 مع تحديث النظام الأساسي 3 أو إصدار أحدث
@@ -83,7 +82,7 @@ ms.locfileid: "6989535"
 
 ## <a name="download-and-install-the-mobile-app"></a>تنزيل تطبيق الأجهزة المحمولة وتثبيته
 
-تنزيل تطبيق الأجهزة المحمولة Finance and Operations وتثبيته:
+تنزيل وتثبيت تطبيق Finance and Operations للأجهزة المحمولة:
 
 -   [لهواتف Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [لأجهزة iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

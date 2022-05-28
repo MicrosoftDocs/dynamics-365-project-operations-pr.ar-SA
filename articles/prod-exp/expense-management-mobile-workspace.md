@@ -5,20 +5,19 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001460"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682786"
 ---
 # <a name="expense-management-mobile-workspace"></a>مساحة العمل المحمولة لإدارة المصروفات
 
@@ -35,7 +34,7 @@ ms.locfileid: "7001460"
 
 بشكل أكثر تحديدًا، تسمح مساحة العمل المحمولة **دليل الشركة** للمستخدمين بتنفيذ هذه المهام:
 
-- التقط صورة للإيصال، وقم بتحميله إلى Dynamics 365 Finance. يمكنك عندئذٍ إرفاق هذه الصورة بتقرير مصروفات فيما بعد.
+- التقط صورة للإيصال، ثم قم بتحميلها إلى Dynamics 365 Finance. يمكنك عندئذٍ إرفاق هذه الصورة بتقرير مصروفات فيما بعد.
 - تحميل ملف كإيصال تم التقاطه. يمكنك عندئذٍ إرفاق هذه الملف بتقرير مصروفات فيما بعد.
 - إنشاء بند مصروفات جديد باستخدام إيصال مرفق. يمكنك عندئذٍ إضافة البند إلى تقرير مصروفات فيما بعد، وإرساله للموافقة عليه والحصول على التعويض.
 
@@ -53,7 +52,7 @@ ms.locfileid: "7001460"
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 تختلف المتطلبات الأساسية، استنادًا إلى الإصدار الذي تم نشره لمؤسستك.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>المتطلبات الاساسيه إذا كنت تستخدم Dynamics 365 Finance 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>المتطلبات الأساسية إذا كنت تستخدم Dynamics 365 Finance 
 إذا تم نشر Finance لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **إدارة المصروفات**‬. للحصول على الإرشادات، راجع [نشر مساحات العمل المحمولة](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 مع Platform update 3 أو إصدار لاحق

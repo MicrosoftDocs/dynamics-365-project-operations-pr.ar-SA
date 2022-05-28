@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991155"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723706"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>الجديد أو المتغير في Project Operations، مارس 2021 للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
 
@@ -20,7 +20,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
-- إدارة المشاريع والمحاسبة في الإصدار 10.0.17 من بيئة Dynamics 365 Finance
+- إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، الإصدار 10.0.17
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 تم تضمين الميزات التالية في هذا الإصدار:
@@ -121,7 +121,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | إدارة المشاريع والمحاسبة | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | تم إهمال أسلوب فئة هيكل تنظيم العمل القديم **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder**.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>التحديثات التنظيمية
-لمزيد من المعلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates.md). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+للحصول على معلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

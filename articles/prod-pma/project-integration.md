@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988005"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684948"
 ---
 # <a name="microsoft-project-client-integration"></a>تكامل Microsoft Project Client
 
 [!include [banner](../includes/banner.md)]
 
-يمكن أن يكون تخطيط جدول المشروع والحفاظ عليه أمرًا معقدًا ، لذلك يحتاج مديرو المشاريع إلى استخدام الأدوات التي تساعدهم في إدارة هذه المهمة. يوفر التكامل مع Microsoft Project Client الدعم لفتح وإدارة هيكل تقسيم عمل المشروع. يمكن لمدير المشروع نشر أي تغييرات مرة أخرى إلى هيكل تنظيم عمل مشروع Dynamics 365 Finance.
+يمكن أن يكون تخطيط جدول المشروع والحفاظ عليه أمرًا معقدًا ، لذلك يحتاج مديرو المشاريع إلى استخدام الأدوات التي تساعدهم في إدارة هذه المهمة. يوفر التكامل مع Microsoft Project Client الدعم لفتح وإدارة هيكل تقسيم عمل المشروع. يستطيع مدير المشروع نشر أي تغييرات مرة أخرى إلى هيكل تنظيم عمل مشروع Dynamics 365 Finance.
 
 > [!NOTE]
 > إذا كنت تستخدم تحديث يوليو (الإصدار 10.0.4)، فيجب عليك تثبيت قاعدة المعارف 4054797 و4055884.
@@ -40,7 +39,7 @@ ms.locfileid: "6988005"
 •   انقر **فتح**، ثم انقر فوق **تشغيل** عند المطالبة.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>فتح وتحرير مسودة هيكل تنظيم العمل الحالي في Microsoft Project Client
-إذا كان مشروع في Dynamics 365 Finance يشتمل على هيكل تنظيم عمل تم إنشاؤه بالفعل، يمكن فتح هيكل تنظيم العمل في تطبيق Microsoft Project Client إذا كان هيكل تنظيم العمل في حالة مسودة. للفتح من صفحة **المشروع**، انقر فوق **فتح في Microsoft Project** علامة التبويب **خطة**. يمكن أيضًا فتح هذه الصفحة من تطبيق Microsoft Project Client عن طريق النقر فوق **فتح** في علامة التبويب **Microsoft Dynamics 365**. حدد **الكيان القانوني** و **المشروع** من القائمة.
+إذا تم إنشاء هيكل تنظيم عمل لمشروع Dynamics 365 Finance بالفعل، يمكن فتح هيكل تنظيم العمل في تطبيق Microsoft Project Client إذا كان هيكل تنظيم العمل بحالة مسودة. للفتح من صفحة **المشروع**، انقر فوق **فتح في Microsoft Project** علامة التبويب **خطة**. يمكن أيضًا فتح هذه الصفحة من تطبيق Microsoft Project Client عن طريق النقر فوق **فتح** في علامة التبويب **Microsoft Dynamics 365**. حدد **الكيان القانوني** و **المشروع** من القائمة.
 
 > [!NOTE]
 > إذا كنت تستخدم Internet Explorer كمستعرض، فستحتاج إلى النقر فوق **حفظ** للفتح يدويًا من الموقع الذي يتم تنزيل الملف إليه. أو انقر فوق **حفظ وفتح** لفتح الملف في Microsoft Project Client. لا تقم بإعادة تسميه اسم الملف عند الحفظ.

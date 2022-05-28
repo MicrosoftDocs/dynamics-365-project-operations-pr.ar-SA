@@ -1,32 +1,31 @@
 ---
-title: مزامنة القيم الفعلية للمشروع مباشرة من Project Service Automation إلى دفتر يومية تكامل المشروع للنشر في Finance and Operations
-description: يصف هذا الموضوع القوالب والمهام الأساسية المستخدمة لمزامنة القيم الفعلية للمشروع مباشرة من Microsoft Dynamics 365 Project Service Automation إلى Finance and Operations.
+title: مزامنة القيم الفعلية لمشروع مباشرةً من Project Service Automation إلى دفتر يومية تكامل المشروع للترحيل في Finance and Operations
+description: يصف هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة قيم المشروع الفعلية مباشرة من Microsoft Dynamics 365 Project Service Automation إلى Finance and Operations.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988095"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683522"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>مزامنة القيم الفعلية للمشروع مباشرة من Project Service Automation إلى دفتر يومية تكامل المشروع للنشر في Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>مزامنة القيم الفعلية لمشروع مباشرةً من Project Service Automation إلى دفتر يومية تكامل المشروع للترحيل في Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-يصف هذا الموضوع القوالب والمهام الأساسية المستخدمة لمزامنة القيم الفعلية للمشروع مباشرة من Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
+يصف هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة مهام المشاريع مباشرة من Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
 
 يقوم القالب بمزامنة الحركات من Project Service Automation إلى جدول مرحلي في Finance. بعد اكتمال المزامنة، **يجب** عليك استيراد البيانات من جدول التجهيز المرحلي إلى دفتر يومية التكامل.
 
@@ -42,7 +41,7 @@ ms.locfileid: "6988095"
 
 يوضح الرسم التوضيحي التالي كيفية مزامنة البيانات بين Project Service Automation وFinance.
 
-[![تدفق البيانات لتكامل Project Service Automation مع Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![تدفق البيانات الخاصة بـ Project Service Automation مع Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>القيم الفعلية للمشروع من Project Service Automation
 
@@ -75,7 +74,7 @@ ms.locfileid: "6988095"
 
 ### <a name="power-query"></a>Power Query
 
-في قالب القيم الفعلية للمشروع ، يجب عليك استخدام Microsoft Power Query لـ Excel لإكمال هذه المهام:
+في قالب القيم الفعلية للمشروع، يجب عليك استخدام Microsoft Power Query لـ Excel لإكمال هذه المهام:
 
 - قم بتحويل نوع الحركة في Project Service Automation إلى نوع الحركة الصحيح في Finance. تم تحديد هذا التحويل بالفعل في قالب القيم الفعلية للمشروع (PSA إلى Fin and Ops).
 - قم بتحويل نوع الفوترة في Project Service Automation إلى نوع الفوترة الصحيح في Finance. تم تحديد هذا التحويل بالفعل في قالب القيم الفعلية للمشروع (PSA إلى Fin and Ops). يتم بعد ذلك تعيين نوع الفوترة إلى خاصية الخط ، بناءً على التكوين الموجود في صفحة **معلمات تكامل Project Service Automation**.
@@ -84,9 +83,9 @@ ms.locfileid: "6988095"
 - إذا لم تتم مزامنة الوقت بين الشركات الشقيقة أو القيم الفعلية للمصروفات بين الشركات الشقيقة إلى Finance ، يجب عليك حذف آخر عمود شرطي تم إدراجه من القالب الخاص بك. وإلا ، فقد يحدث خطأ في التكامل ، أو قد يتم استيراد حركات فعلية غير صحيحة إلى Finance.
 
 #### <a name="contract-organizational-unit"></a>الوحدة التنظيمية للعقد
-لتحديث العمود الشرطي المدرج في القالب، انقر فوق السهم **تعيين** لفتح التعيين. حدد ارتباط **الاستعلام المتقدم والتصفية** لفتح Power Query.
+لتحديث العمود الشرطي المدرج في القالب، انقر فوق السهم **تعيين** لفتح التعيين. حدد رابط **الاستعلام والتصفية المتقدمة** لفتح Power Query.
 
-- إذا كنت تستخدم القالب الافتراضي لقيم المشاريع الفعلية (PSA إلى Fin and Ops) ، في Power Query ، حدد **الشرط المدرج** الأخير من قسم **الخطوات المطبقة**. في إدخال **الوظيفة**، استبدل **USSI** باسم الكيان القانوني الذي يجب استخدامه مع التكامل. أضف الشروط الإضافية إلى إدخال **الوظيفة** عند اللزوم، وقم بتحديث شرط **آخر** من **USMF** إلى الكيان القانوني الصحيح.
+- إذا كنت تستخدم قالب القيم الفعلية للمشروع الافتراضي (PSA إلى Fin and Ops)، في Power Query، حدد **الشرط المُدرج** من قسم **الخطوات المُطبقة**. في إدخال **الوظيفة**، استبدل **USSI** باسم الكيان القانوني الذي يجب استخدامه مع التكامل. أضف الشروط الإضافية إلى إدخال **الوظيفة** عند اللزوم، وقم بتحديث شرط **آخر** من **USMF** إلى الكيان القانوني الصحيح.
 - إذا كنت تقوم بإنشاء قالب جديد ، فيجب عليك إضافة العمود لدعم الوقت والنفقات بين الشركات الشقيقة. حدد **إضافه عمود شرطي**، وأدخل اسما للعمود، مثل **الكيان القانوني**. أدخل الشرط للعمود، حيث، إذا كان **msdyn\_contractorganizationalunitid.msdyn\_name** \<organizational unit\>، عندئذٍ \<enter the legal entity\>؛ وإلا فقيمة فارغة.
 
 ### <a name="template-mapping-in-data-integration"></a>تعيين القالب في تكامل البيانات
@@ -126,7 +125,7 @@ ms.locfileid: "6988095"
 
 ### <a name="power-query"></a>Power Query
 
-في قالب تحديث القيم الفعلية للمشروع ، يجب استخدام Power Query لإكمال هذه المهام:
+في قالب تحديث القيم الفعلية للمشروع، يجب عليك استخدام Power Query لإكمال هذه المهام:
 
 - قم بتحويل نوع الحركة في Finance إلى نوع الحركة الصحيح في Project Service Automation. تم تحديد هذا التحويل بالفعل في قالب تحديث القيم الفعلية للمشروع (Fin Ops إلى PSA).
 - قم بتحويل نوع الفوترة في Finance إلى نوع الفوترة الصحيح في Project Service Automation. تم تحديد هذا التحويل بالفعل في قالب تحديث القيم الفعلية للمشروع (Fin Ops إلى PSA).

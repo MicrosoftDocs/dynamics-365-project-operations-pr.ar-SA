@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008030"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600864"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في يوليو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات غير المخزنة/الإنتاج
 
@@ -21,7 +21,7 @@ ms.locfileid: "7008030"
 ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
    - بيئة Project Operations على Microsoft Dataverse الإصدار 4.12.0.148 أو 4.12.0.152.
-   - إدارة المشاريع والمحاسبة في إصدار بيئة Dynamics 365 Finance  10.0.20.
+   - إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، إصدار 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
@@ -80,7 +80,7 @@ ms.locfileid: "7008030"
 | عام                        | 2253682              | لا ينبغي تثبيت حل الكتابة المزدوجة لـ Project Operations عندما يتم تثبيت حل الكتابة المزدوجة الأساسي‬ في بيئة بدون حل تزامن الكتابة المزدوجة.                                                |
 | عام                        | 2316420              | يفشل التوفير الأساسي لـ Project service في حالة تغيير وحدة عمل مستخدم التطبيق.                                                                                                                     |
 | عام                        | 2376405              | مشكلة التحديثات الثابتة التي يدفعها الناشر (يتوفر تحديث الجودة في إصدارات 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>إدارة المشاريع والمحاسبة في Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>إدارة المشاريع والمحاسبة على Dynamics 365 Finance
 
 | منطقة الميزات                      | رقم المرجع | تحديث إصلاحي                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

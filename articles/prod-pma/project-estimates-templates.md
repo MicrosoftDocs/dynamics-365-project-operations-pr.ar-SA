@@ -1,32 +1,31 @@
 ---
-title: مزامنة تقديرات المشاريع مباشرة من Project Service Automation إلى Finance and Operations
-description: يصف هذا الموضوع القوالب والمهام الأساسية المستخدمة لمزامنة تقديرات ساعات المشروع وتقديرات نفقات المشروع مباشرةً من Microsoft Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
+title: مزامنة تقديرات المشروع مباشرةً من Project Service Automation إلى Finance and Operations
+description: يصف هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة تقديرات عدد ساعات المشروع وتقديرات مصروفات المشروع مباشرة من Microsoft Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988185"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684577"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>مزامنة تقديرات المشاريع مباشرة من Project Service Automation إلى Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>مزامنة تقديرات المشروع مباشرةً من Project Service Automation إلى Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-يصف هذا الموضوع القوالب والمهام الأساسية المستخدمة لمزامنة تقديرات ساعات المشروع وتقديرات نفقات المشروع مباشرةً من Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
+يصف هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة تقديرات عدد ساعات المشروع وتقديرات مصروفات المشروع مباشرة من Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
 
 > [!NOTE]
 > - يتوفر تكامل مهام المشروع ، وفئات حركات المصروفات ، وتقديرات الساعة ، وتقديرات المصروفات ، وتأمين الوظائف في الإصدار 8.0.
@@ -70,7 +69,7 @@ ms.locfileid: "6988185"
 
 ### <a name="power-query"></a>Power Query
 
-في قالب تقديرات الساعات للمشروع ، يجب استخدام Microsoft Power Query ل Excel لإكمال هذه المهام:
+في قالب تقديرات ساعات المشروع، يجب عليك استخدام Microsoft Power Query لـ Excel لإكمال هذه المهام:
 
 - قم بتعيين معرف نموذج التنبؤ الافتراضي الذي سيتم استخدامه عندما يقوم التكامل بإنشاء تنبؤات جديده بالساعات.
 - يقوم بتصفية إيه سجلات خاصه بالموارد في المهمة التي ستؤدي إلى التكامل في التنبؤ بالساعات.
@@ -81,7 +80,7 @@ ms.locfileid: "6988185"
 لتحديث معرف نموذج التنبؤ الافتراضي في القالب ، انقر فوق سهم **التعيين** لفتح التعيين. ثم حدد ارتباط **الاستعلام المتقدم والتصفية**.
 
 - إذا كنت تستخدم قالب تقديرات ساعات المشروع الافتراضية (PSA إلى Fin and Ops)، فحدد **الشرط المدرج** في قائمة **الخطوات المطبقة**. في إدخال **الوظيفة**، استبدل **O\_التنبؤ** باسم معرف نموذج التنبؤ الذي يجب استخدامه مع التكامل. يحتوي القالب الافتراضي علي معرف نموذج تنبؤ من بيانات العرض التوضيحي.
-- إذا كنت تقوم بإنشاء قالب جديد ، فيجب عليك أضافه هذا العمود. في Power Query، حدد **إضافه عمود شرطي**، وادخل اسما للعمود الجديد، مثل **معرف النموذج**. أدخل الشرط للعمود، حيث، إذا لم تكن مهمة المشروع فارغة، عندئذٍ \<enter the forecast model ID\>؛ وإلا فقيمة فارغة.
+- إذا كنت تقوم بإنشاء قالب جديد ، فيجب عليك أضافه هذا العمود. في Power Query، حدد **إضافة عمود شرطي**، وأدخل اسمًا للعمود الجديد، مثل **ModelID**. أدخل الشرط للعمود، حيث، إذا لم تكن مهمة المشروع فارغة، عندئذٍ \<enter the forecast model ID\>؛ وإلا فقيمة فارغة.
 
 #### <a name="filter-out-resource-specific-records"></a>تصفيه السجلات الخاصة بالمورد
 
@@ -126,7 +125,7 @@ ms.locfileid: "6988185"
 
 ### <a name="power-query"></a>Power Query
 
-في قالب تقديرات مصروفات المشروع ، يجب عليك استخدام Power Query لإكمال المهام التالية:
+يجب عليك استخدام Power Query في قالب تقديرات مصروفات المشروع لإكمال المهام التالية:
 
 - تصفيه لتضمين سجلات سطور التقدير للمصروفات فقط.
 - قم بتعيين معرف نموذج التنبؤ الافتراضي الذي سيتم استخدامه عندما يقوم التكامل بإنشاء تنبؤات جديده بالساعات.
@@ -141,8 +140,8 @@ ms.locfileid: "6988185"
 
 لتحديث معرف نموذج التنبؤ الافتراضي في القالب، فحدد **تقديرات المصروفات**، ثم انقر فوق سهم **التعيين** لفتح التعيين. حدد ارتباط **الاستعلام المتقدم والتصفية**.
 
-- إذا كنت تستخدم القالب الافتراضي لتقديرات مصروفات المشروع (PSA إلى Fin and Ops) ، في Power Query ، حدد **الشرط المدرج** الأول من قسم **الخطوات المطبقة**. في إدخال **الوظيفة**، استبدل **O\_التنبؤ** باسم معرف نموذج التنبؤ الذي يجب استخدامه مع التكامل. يحتوي القالب الافتراضي علي معرف نموذج تنبؤ من بيانات العرض التوضيحي.
-- إذا كنت تقوم بإنشاء قالب جديد ، فيجب عليك أضافه هذا العمود. في Power Query، حدد **إضافه عمود شرطي**، وادخل اسما للعمود الجديد، مثل **معرف النموذج**. أدخل الشرط للعمود، حيث، إذا لم يكن معرف بند التقدير فارغًا، عندئذٍ \<enter the forecast model ID\>؛ وإلا فقيمة فارغة.
+- إذا كنت تستخدم قالب تقديرات مصروفات المشروع الافتراضي (PSA إلى Fin and Ops)، في Power Query، حدد **الشرط المُدرج** الأول من قسم **الخطوات المُطبقة**. في إدخال **الوظيفة**، استبدل **O\_التنبؤ** باسم معرف نموذج التنبؤ الذي يجب استخدامه مع التكامل. يحتوي القالب الافتراضي علي معرف نموذج تنبؤ من بيانات العرض التوضيحي.
+- إذا كنت تقوم بإنشاء قالب جديد ، فيجب عليك أضافه هذا العمود. في Power Query، حدد **إضافة عمود شرطي**، وأدخل اسمًا للعمود الجديد، مثل **ModelID**. أدخل الشرط للعمود، حيث، إذا لم يكن معرف بند التقدير فارغًا، عندئذٍ \<enter the forecast model ID\>؛ وإلا فقيمة فارغة.
 
 #### <a name="transform-the-billing-types"></a>تحويل أنواع الفواتير
 

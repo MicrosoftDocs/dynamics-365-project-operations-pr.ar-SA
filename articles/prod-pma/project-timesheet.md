@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997185"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683111"
 ---
 # <a name="project-timesheet-mobile-application"></a>تطبيق الأجهزة المحمولة الخاص بجدول زمني المشروع
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997185"
 
 ## <a name="overview"></a>Overview
 
-يتيح تطبيق الأجهزة المحمولة لـ Microsoft Dynamics 365 Project Timesheet للمستخدمين إرسال الجداول الزمنية والموافقة عليها للمشاريع على أجهزتهم المحمولة (iPhone أو Android). يبرز تطبيق الأجهزة المحمولة هذا وظائف الجدول الزمني الموجودة في منطقة إدارة المشروع والمحاسبة في Dynamics 365 Finance، مما يعمل على تحسين إنتاجية المستخدم وكفاءته ، بالإضافة إلى تمكين الدخول في الوقت المناسب والموافقة على الجداول الزمنية للمشروع.
+يتيح تطبيق الأجهزة المحمولة لـ Microsoft Dynamics 365 Project Timesheet للمستخدمين إرسال الجداول الزمنية والموافقة عليها للمشاريع على أجهزتهم المحمولة (iPhone أو Android). يوفر تطبيق المحمول هذا وظائف الجدول الزمني الموجودة في منطقة "إدارة المشاريع ومحاسبتها‬" في Dynamics 365 Finance، مما يؤدي إلى تحسين إنتاجية المستخدم وكفاءته، بالإضافة إلى تمكين إدخال الجداول الزمنية للمشروع‬‬ والموافقة عليها في الوقت المناسب.
 
 ## <a name="download-and-install-the-mobile-app"></a>تنزيل تطبيق الأجهزة المحمولة وتثبيته
 

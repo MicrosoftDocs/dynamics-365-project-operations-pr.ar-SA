@@ -1,32 +1,31 @@
 ---
 title: معلمات تكامل Project Service Automation
-description: توضح هذه الموضوع كيفيه تكوين كيفيه إدخال البيانات الافتراضية عند تكامل Microsoft Dynamics 365 for Project Service Automationمع Microsoft Dynamics 365 Finance.
+description: يشرح هذا الموضوع كيفية تكوين طريقة إدخال البيانات الافتراضية عند تمكين تكامل Microsoft Dynamics 365 for Project Service Automation مع Microsoft Dynamics 365 Finance.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 70dcf44c0948bfb8f17c51e052b6c76e029d35fd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005825"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683660"
 ---
 # <a name="project-service-automation-integration-parameters"></a>معلمات تكامل Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-في الصفحة **معلمات تكامل Project Service Automation**، يمكنك تكوين كيفيه إدخال البيانات عند دمج Dynamics 365 Project Service Automation مع Dynamics 365 Finance. لكي تتم مزامنة المشاريع بنجاح من Project Service Automation إلى Finance ، يجب عليك إعداد الحقول التالية.
+في صفحة **معلمات تكامل Project Service Automation‬**، يمكنك تكوين كيفية إدخال البيانات الافتراضية عند تمكين تكامل Dynamics 365 Project Service Automation مع Dynamics 365 Finance. لكي تتم مزامنة المشاريع بنجاح من Project Service Automation إلى Finance ، يجب عليك إعداد الحقول التالية.
 
 لفتح الصفحة **معلمات تكامل Project Service Automation**، انتقل إلى **إدارة المشاريع والمحاسبة**\>**إعداد**\>**معلمات تكامل Dynamics 365 for Project Service Automation**. 
 

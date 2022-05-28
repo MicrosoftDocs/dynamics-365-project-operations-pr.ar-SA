@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679193"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600772"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في يونيو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات غير المخزنة/الإنتاج
 
@@ -21,7 +21,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
 - بيئة Project Operations على Dynamics 365 Dataverse الإصدار 4.11.0.156 أو 4.11.0.164.
-- إدارة المشروع والمحاسبة في بيئات تطبيقات Finance and Operations الإصدار 10.0.19.
+- إدارة المشاريع والمحاسبة في بيئات تطبيقات Finance and Operations الإصدار 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
@@ -38,7 +38,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 للحصول على القائمة والإصدارات الحالية لخرائط الكتابة المزدوجة في Project Operations، راجع [إصدارات خرائط الكتابة المزدوجة لـ Project Operations](../environment/resource-dual-write-maps.md).
 
-قم دائمًا بتشغيل أحدث إصدار من المخطط في البيئة الخاصة بك وتمكين كافة مخططات الجدول ذات الصلة عند تحديث حل Project Operations Dataverse وكذلك إصدار حل Finance and Operations. قد لا تعمل بعض الميزات والإمكانات بشكل صحيح إذا لم يتم تنشيط أحدث إصدار من المخطط. يمكنك رؤية الإصدار النشط من الخريطة في صفحة **الكتابة المزدوجة** في العمود **الإصدار**. تنشيط إصدار جديد من الخريطة عن طريق تحديد **إصدارات خريطة الجدول**، وتحديد أحدث إصدار، ثم حفظ الإصدار المحدد. إذا قمت بتخصيص مخطط جدول جاهز، فأعد تطبيق التغييرات. مزيد من المعلومات، راجع [إدارة دورة حياة التطبيقات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+قم دائمًا بتشغيل أحدث إصدار من الخريطة في بيئتك، وتمكين جميع خرائط الجدول ذات الصلة أثناء تحديث حل Project Operations Dataverse وإصدار حل تطبيقات التمويل والعمليات. قد لا تعمل بعض الميزات والإمكانات بشكل صحيح إذا لم يتم تنشيط أحدث إصدار من المخطط. يمكنك رؤية الإصدار النشط من الخريطة في صفحة **الكتابة المزدوجة** في العمود **الإصدار**. تنشيط إصدار جديد من الخريطة عن طريق تحديد **إصدارات خريطة الجدول**، وتحديد أحدث إصدار، ثم حفظ الإصدار المحدد. إذا قمت بتخصيص مخطط جدول جاهز، فأعد تطبيق التغييرات. مزيد من المعلومات، راجع [إدارة دورة حياة التطبيقات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 إذا واجهتك مشكلة عند بدء تشغيل الخريطة، اتبع التعليمات الموجودة في القسم [مشكلة أعمدة الجدول المفقودة على الخرائط](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) في دليل استكشاف الأخطاء وإصلاحها للكتابة المزدوجة.
 
@@ -62,7 +62,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | الوقت والمصروفات | 2194431 | يجب أن تلتزم شبكة **إدخال الوقت** بداية الأسبوع كما هو محدد في **إعدادات النظام**. |
 | الوقت والمصروفات | 2277311 | بعد حذف القيمة في خلية في شبكة **إدخال الوقت**، يظل المؤشر في الشبكة. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>إدارة المشاريع والمحاسبة في Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>إدارة المشاريع والمحاسبة على Dynamics 365 Finance
 
 | منطقة الميزات | رقم المرجع | تحديث إصلاحي |
 | --- | --- | --- |

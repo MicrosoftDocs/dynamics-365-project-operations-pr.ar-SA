@@ -1,32 +1,31 @@
 ---
-title: مزامنة فئات مصروفات المشاريع بين Finance and Operations وProject Service Automation
-description: يصف هذا الموضوع القوالب والمهام الأساسية المستخدمة لمزامنة فئات مصروفات المشروع بين Microsoft Dynamics 365 Finance وDynamics 365 Project Service Automation.
+title: مزامنة فئات مصروفات المشروع بين Finance and Operations وProject Service Automation
+description: يصف هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة فئات مصروفات المشروع بين Microsoft Dynamics 365 وDynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001100"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685454"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>مزامنة فئات مصروفات المشاريع بين Finance and Operations وProject Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>مزامنة فئات مصروفات المشروع بين Finance and Operations وProject Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-يصف هذا الموضوع القوالب والمهام الأساسية المستخدمة لمزامنة فئات مصروفات المشروع بين Dynamics 365 Finance وDynamics 365 Project Service Automation.
+يصف هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة فئات مصروفات المشروع بين Dynamics 365 Finance وDynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - يتوفر تكامل مهام المشروع ، وفئات حركات المصروفات ، وتقديرات الساعة ، وتقديرات المصروفات ، وتأمين الوظائف في الإصدار 8.0.
@@ -81,10 +80,10 @@ ms.locfileid: "7001100"
 
 ### <a name="power-query"></a>Power Query
 
-عندما تقوم بالمزامنة مع Project Service Automation ، يجب عليك استخدام Microsoft Power Query لـ Excel لتعيين نوع الفوترة في فئة الحركة. يوفر قالب فئات حركات مصروفات المشروع (Fin and Ops إلى PSA) عمودًا افتراضيًا وتعيينًا. إذا قمت بإنشاء القالب الخاص بك ، فيجب إضافة عمود شرطي في Power Query. اتبع الخطوات التالية.
+عند المزامنة إلى Project Service Automation، يجب عليك استخدام Microsoft Power Query لـ Excel لتعيين نوع الفوترة في فئة الحركة. يوفر قالب فئات حركات مصروفات المشروع (Fin and Ops إلى PSA) عمودًا افتراضيًا وتعيينًا. إذا قمت بإنشاء القالب الخاص بك، يجب عليك إضافة العمود الشرطي في Power Query. اتبع الخطوات التالية.
 
 1. انقر فوق السهم لفتح تعيين مهمة فئات مصروفات المشروع في قالب فئات حركات مصروفات المشروع (Fin and Ops إلى PSA).
-2. انقر فوق ارتباط **الاستعلام المتقدم والتصفية** لفتح Power Query.
+2. انقر فوق الارتباط **الاستعلام المتقدم والتصفية** لفتح Power Query.
 2. حدد **إضافة العمود الشرطي**.
 3. أدخل اسمًا للعمود الجديد، مثل **نوع الفوترة**.
 4. أدخل الشرط التالي: **إذا كانت CATEGORYID لا تساوي قيمة خالية ، فسيكون 19235001 ، وإلا فسيكون فارغًا**.

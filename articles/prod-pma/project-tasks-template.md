@@ -1,32 +1,31 @@
 ---
-title: مزامنة مهام المشروع مباشرة من Project Service Automation إلى Finance and Operations
-description: يصف هذا الموضوع القالب والمهمة الأساسية المستخدمة لمزامنة مهام المشروع مباشرة من Microsoft Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
+title: مزامنة مهام المشروع مباشرةً من Project Service Automation إلى Finance and Operations
+description: يصف هذا الموضوع القالب والمهام الأساسية التي يتم استخدامها لمزامنة مهام المشاريع مباشرة من Microsoft Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992775"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683134"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>مزامنة مهام المشروع مباشرة من Project Service Automation إلى Finance and Operations
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>مزامنة مهام المشروع مباشرةً من Project Service Automation إلى Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-يصف هذا الموضوع القالب والمهمة الأساسية المستخدمة لمزامنة مهام المشروع مباشرة من Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
+يصف هذا الموضوع القالب والمهام الأساسية التي يتم استخدامها لمزامنة مهام المشاريع مباشرة من Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
 
 > [!NOTE]
 > - يتوفر تكامل مهام المشروع ، وفئات حركات المصروفات ، وتقديرات الساعة ، وتقديرات المصروفات ، وتأمين الوظائف في الإصدار 8.0.
@@ -68,11 +67,11 @@ ms.locfileid: "6992775"
 
 ## <a name="power-query"></a>Power Query
 
-يجب استخدام Microsoft Power Query لـ Excel لتصفية البيانات إذا تم استيفاء هذا الشرط:
+يجب عليك استخدام Microsoft Power Query لـ Excel لتصفية البيانات في حالة تحقق الشرط التالي:
 
 - لديك سجلات خاصة بالمورد في مهمة مشروع.
 
-إذا كان يجب عليك استخدام Power Query، فاتبع هذا التوجيه:
+إذا كنت مضطرًا إلى استخدام Power Query، فاتبع هذه الإرشادات:
 
 - يحتوي قالب مهام المشروع (PSA إلى Fin and Ops) على عامل تصفية افتراضي يستبعد السجلات الخاصة بالموارد من مهمة المشروع عن طريق تعيين عامل التصفية على **IsLineTask** إلى **False**. إذا قمت بإنشاء القالب الخاص بك ، يجب عليك إضافة عامل التصفية هذا.
 

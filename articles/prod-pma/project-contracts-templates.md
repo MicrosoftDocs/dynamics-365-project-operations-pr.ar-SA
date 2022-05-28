@@ -1,34 +1,33 @@
 ---
 title: مزامنة عقود المشروع و المشروعات مباشرة من Project Service Automation إلى Finance
-description: يصف هذا الموضوع القالب والمهام الأساسية المستخدمة لمزامنة عقود المشاريع والمشاريع مباشرة من Microsoft Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
+description: يصف هذا الموضوع القالب والمهام الأساسية التي يتم استخدامها لمزامنة مهام المشاريع وعقود المشاريع مباشرة من Microsoft Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001055"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684626"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>مزامنة عقود المشروع و المشروعات مباشرة من Project Service Automation إلى Finance 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يصف هذا الموضوع القالب والمهام الأساسية المستخدمة لمزامنة عقود المشاريع والمشاريع مباشرة من Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
+
+يصف هذا الموضوع القالب والمهام الأساسية التي يتم استخدامها لمزامنة مهام المشاريع وعقود المشاريع مباشرة من Dynamics 365 Project Service Automation إلى Dynamics 365 Finance.
 
 > [!NOTE] 
 > إذا كنت تستخدم الإصدار 7.3.0 من Enterprise ، فيجب عليك تثبيت قاعدة المعارف 4074835.
@@ -112,7 +111,7 @@ ms.locfileid: "7001055"
 - **SourceDataID** لعقود المشروع والمشاريع يمكن تحديثها بقيمة مختلفة أو إزالتها من التعيين. قيمة القالب الافتراضية هي **Project Service Automation**.
 - يجب تحديث تعيين **PaymentTerms** بحيث يعكس شروط الدفع الصالحة في التمويل. يمكنك أيضا أزاله التعيين من مهمة المشروع. تعيين القيمة الافتراضية له القيم الافتراضية لبيانات العرض التوضيحي. يوضح الجدول التالي القيم الموجودة في التنفيذ التلقائي لخدمه المشروع.
 
-    | قيمة | الوصف    |
+    | القيمة‬ | الوصف    |
     |-------|---------------|
     | 1      | صافي 30        |
     | 2      | 2% 10، صافي 30 |
@@ -121,15 +120,15 @@ ms.locfileid: "7001055"
 
 ## <a name="power-query"></a>Power Query
 
-استخدم Microsoft Power Query for Excel لتصفية البيانات في حالة توفر الشروط التالية:
+استخدام Microsoft Power Query لـ Excel لتصفية البيانات في حالة تحققت الشروط التالية:
 
 - يكون لديك أوامر مبيعات في Dynamics 365 Sales.
 - لديك وحدات تنظيمية متعددة في Project Service Automation ، وسيتم تعيين هذه الوحدات التنظيمية إلى كيانات قانونية متعددة في Finance.
 
-إذا كان يجب عليك استخدام Power Query ، فاتبع الإرشادات التالية:
+إذا كنت مضطرًا إلى استخدام Power Query، اتبع هذه الإرشادات:
 
 - يحتوي قالب المشاريع والعقود (PSA إلى Fin and Ops) على عامل تصفية افتراضي يتضمن أوامر مبيعات فقط من نوع **صنف العمل (msdyn\_ordertype = 192350001)**. يساعد عامل التصفية هذا على ضمان عدم إنشاء عقود المشروع لأوامر المبيعات في Finance. إذا قمت بإنشاء القالب الخاص بك ، يجب عليك إضافة عامل التصفية هذا.
-- قم بإنشاء عامل تصفية Power Query يتضمن فقط مؤسسات العقود التي يجب مزامنتها مع الكيان القانوني الخاص بتعيين اتصال التكامل. على سبيل المثال، ينبغي مزامنة عقود المشروع لديك مع الوحدة المؤسسية للعقد الخاصة بـ Contoso US مع الكيان القانوني USSI، ولكن ينبغي مزامنة عقود المشروع لديك مع الوحدة التنظيمية للعقد الخاصة بـ Contoso Global مع الكيان القانوني USMF. إذا لم تقم بإضافة عامل التصفية هذا إلى تعيين المهام الخاص بك ، فستتم مزامنة جميع عقود المشروع مع الكيان القانوني المحدد لمجموعة الاتصال ، بغض النظر عن الوحدة التنظيمية للعقد.
+- قم بإنشاء عامل تصفية Power Query الذي يتضمن فقط مؤسسات العقود التي ينبغي مزامنتها مع الكيان القانوني لمجموعة اتصال التكامل. على سبيل المثال ، يجب مزامنة عقود المشروع التي أبرمتها مع الوحدة التنظيمية للعقد لشركة Contoso US مع الكيان القانوني USSI ، ولكن يجب مزامنة عقود المشروع التي أبرمتها مع الوحدة التنظيمية للعقد في شركة Contoso Global مع الكيان القانوني USMF. إذا لم تقم بإضافة عامل التصفية هذا إلى تعيين المهام الخاص بك ، فستتم مزامنة جميع عقود المشروع مع الكيان القانوني المحدد لمجموعة الاتصال ، بغض النظر عن الوحدة التنظيمية للعقد.
 
 ## <a name="template-mapping-in-data-integration"></a>تعيين القالب في تكامل البيانات
 

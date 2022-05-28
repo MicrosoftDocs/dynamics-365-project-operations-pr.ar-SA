@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994665"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723752"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في مايو 2021 - Project Operations للسيناريوهات المستندة إلى الموارد/ المنتجات غير المخزنة
 
@@ -21,7 +21,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
 - Project Operations على بيئة Dynamics 365 Dataverse الإصدار 4.10.0.186
-- إدارة المشروع والمحاسبة في بيئات تطبيقات Finance and Operations الإصدار 10.0.18
+- إدارة المشاريع والمحاسبة في بيئات تطبيقات Finance and Operations الإصدار 10.0.18
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
@@ -41,9 +41,9 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | كيان تصدير بند فاتورة مورد المشروع لتكامل Project Operations(msdyn\_projectvendorinvoicelines) | 1.0.0.1 | التحديثات الإصلاحية |
 | المشروعات V2 (msdyn\_projects) | 1.0.0.2 | التحديثات الإصلاحية |
 
-قم دائمًا بتشغيل أحدث إصدار من المخطط في البيئة الخاصة بك وتمكين كافة مخططات الجدول ذات الصلة عند تحديث حل Project Operations Dataverse وكذلك إصدار حل Finance and Operations. قد لا تعمل بعض الميزات والإمكانات بشكل صحيح إذا لم يتم تنشيط أحدث إصدار من المخطط. يمكن رؤية الإصدار النشط من المخطط في عمود  **الإصدار**  في الصفحة  **الكتابة المزدوجة**. لتنشيط إصدار جديد من المخطط، حدد **إصدارات مخطط الجدول** ثم حدد الإصدار الأخير ثم احفظ الإصدار المحدد. إذا قمت بتخصيص مخطط جدول جاهز، فأعد تطبيق التغييرات. مزيد من المعلومات، راجع [إدارة دورة حياة التطبيقات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md).
+قم دائمًا بتشغيل أحدث إصدار من الخريطة في بيئتك، وتمكين جميع خرائط الجدول ذات الصلة أثناء تحديث حل Project Operations Dataverse وإصدار حل تطبيقات التمويل والعمليات. قد لا تعمل بعض الميزات والإمكانات بشكل صحيح إذا لم يتم تنشيط أحدث إصدار من المخطط. يمكن رؤية الإصدار النشط من المخطط في عمود  **الإصدار**  في الصفحة  **الكتابة المزدوجة**. لتنشيط إصدار جديد من المخطط، حدد **إصدارات مخطط الجدول** ثم حدد الإصدار الأخير ثم احفظ الإصدار المحدد. إذا قمت بتخصيص مخطط جدول جاهز، فأعد تطبيق التغييرات. مزيد من المعلومات، راجع [إدارة دورة حياة التطبيقات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-إذا واجهتك مشكلة عند بدء تشغيل المخطط، فاتبع الإرشادات في قسم [مشكلة أعمدة الجدول المفقود في المخططات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) من دليل استكشاف أخطاء الكتابة المزدوجة وإصلاحها.
+إذا واجهتك مشكلة عند بدء تشغيل المخطط، فاتبع الإرشادات في قسم [مشكلة أعمدة الجدول المفقود في المخططات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) من دليل استكشاف أخطاء الكتابة المزدوجة وإصلاحها.
 
 ## <a name="quality-updates"></a>التحديثات الإصلاحية
 
@@ -71,7 +71,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 | منطقة الميزات | رقم المرجع | تحديث إصلاحي |
 | --- | --- | --- |
-| إدارة المشاريع والمحاسبة | [545878](https://fix.lcs.dynamics.com/Issue/Details/?bugId=545878) | السيناريوهات المعتمدة على الموارد في Project Operations، يتعذر تحويل عرض أسعار إلى فائز بسبب خطأ في التكامل. |
+| إدارة المشروعات ومحاسبتها | [545878](https://fix.lcs.dynamics.com/Issue/Details/?bugId=545878) | السيناريوهات المعتمدة على الموارد في Project Operations، يتعذر تحويل عرض أسعار إلى فائز بسبب خطأ في التكامل. |
 | إدارة المشاريع والمحاسبة | [546604](https://fix.lcs.dynamics.com/Issue/Details/?bugId=546604) | Project Operations، يحدث خطأ عندما تحاول إقران شرط تعاقد بمعرف مشروع بسبب التحقق من شروط التعاقد المتراكبة وأنواع الحركات. |
 | إدارة المشاريع والمحاسبة | [547440](https://fix.lcs.dynamics.com/Issue/Details/?bugId=547440) | يعمل **ProjCDSProjectContractEntity** على تعيين عنوان فاتورة مصدر التمويل من عميل مختلف. |
 | السفر والمصروفات | [480451](https://fix.lcs.dynamics.com/Issue/Details/?bugId=480451) | يمكن أن يحدث خطأ في الترحيل متعلق بإعداد المسافة المقطوعة بالميل. |
