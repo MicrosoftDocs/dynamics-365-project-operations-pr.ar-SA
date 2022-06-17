@@ -1,23 +1,23 @@
 ---
 title: تكوين تكامل Project Operations لكل كيان قانوني
-description: يقدم هذا الموضوع معلومات حول إعداد التكامل حسب الكيان القانوني في Project Operations.
+description: يوفر هذا المقال معلومات حول إعداد التكامل حسب الكيان القانوني في Project Operations.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585822"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914616"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>تكوين تكامل Project Operations لكل كيان قانوني 
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
-ينقلك هذا الموضع عبر الخطوات المطلوبة لتكوين Dynamics 365 Project Operations لكل كيان قانوني.
+ينقلك هذا المقال عبر الخطوات المطلوبة لتكوين Dynamics 365 Project Operations لكل كيان قانوني.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>تمكين مفاتيح الميزة في Dynamics 365 Finance
 

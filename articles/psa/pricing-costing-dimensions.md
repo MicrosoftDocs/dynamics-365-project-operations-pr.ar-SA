@@ -1,6 +1,6 @@
 ---
 title: الصفحة الرئيسية لأبعاد التسعير والتكلفة
-description: يوفر هذا الموضوع نظرة عامة على أبعاد التسعير.
+description: يوفر هذا المقال نظرة عامة على أبعاد التسعير.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593596"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925426"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>الصفحة الرئيسية لأبعاد التسعير والتكلفة
 
@@ -47,7 +47,7 @@ ms.locfileid: "8593596"
 > [!IMPORTANT]
 > إذا كنت تستخدم حقول الدور والوحدة التنظيمية الجاهزة كأبعاد تسعير قبل الإصدار 3 من PSA، فلن يكون هناك أي تغيير ملحوظ. يمكنك متابعة استخدام Project Service كالمعتاد. 
 
-إذا كنت بحاجة إلى أسعار أو تكلفه للموارد الخاصة بك باستخدام سمات إضافية، فيمكنك إنشاء حقول وكيانات وأبعاد مخصصة. لمزيد من المعلومات، راجع الموضوعات التالية، ومع ذلك لاحظ أنه يجب عليك إكمال الإجراءات بالترتيب المذكور أدناه:
+إذا كنت بحاجة إلى أسعار أو تكلفه للموارد الخاصة بك باستخدام سمات إضافية، فيمكنك إنشاء حقول وكيانات وأبعاد مخصصة. لمزيد من المعلومات، راجع المقالات التالية، ومع ذلك لاحظ أنه يجب عليك إكمال الإجراءات بالترتيب المذكور أدناه:
 
 - [إنشاء حقول وكيانات مخصصة](create-custom-fields-entities.md)
 - [إضافة حقول مخصصة إلى إعداد الأسعار وكيانات المعاملات](field-references.md)

@@ -1,23 +1,23 @@
 ---
 title: متطلبات العناصر المتعلقة بعقود المشروع مع مصادر تمويل متعددة
-description: يوفر هذا الموضوع معلومات حول كيفية تكوين متطلبات العنصر واستخدامها مع مصادر تمويل متعددة.
+description: يوفر هذا المقال معلومات حول كيفية تكوين متطلبات العنصر واستخدامها مع مصادر تمويل متعددة.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728100"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931176"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>متطلبات العناصر المتعلقة بعقود المشروع مع مصادر تمويل متعددة
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج_
 
-قد تتطلب بعض الاتفاقيات التعاقدية لعمليات التسليم المستندة إلى المشروع مصادر تمويل متعددة. يشرح هذا الموضوع كيفية تحديد مصادر التمويل المطلوبة وتكوينها عند الحاجة إلى مصادر متعددة لمشروع أو عقد مشروع.
+قد تتطلب بعض الاتفاقيات التعاقدية لعمليات التسليم المستندة إلى المشروع مصادر تمويل متعددة. يشرح هذا المقال كيفية تحديد مصادر التمويل المطلوبة وتكوينها عند الحاجة إلى مصادر متعددة لمشروع أو عقد مشروع.
 
 ## <a name="terminology"></a>المصطلحات
 

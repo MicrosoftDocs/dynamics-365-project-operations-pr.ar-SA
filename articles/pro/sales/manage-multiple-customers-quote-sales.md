@@ -1,17 +1,17 @@
 ---
 title: إدارة عدة عملاء على عروض أسعار المشروع - خفيف
-description: يقدم هذا الموضوع معلومات حول العمل على عروض أسعار مع عدة عملاء سيمولون المشروع. (Sales)
+description: يوفر هذا المقال معلومات حول العمل على عروض أسعار تتضمن تتضمن العديد من العملاء الذين سيمولون المشروع. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 867d34f955ba53c74e9c31349b7f67d84ba10da4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 337619e8d8081cdebd73f9336fa9fa99885a0ab2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921056"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>إدارة عدة عملاء على عروض أسعار المشروع - خفيف
 

@@ -1,6 +1,6 @@
 ---
 title: استخدام مورد قابل للحجز كبُعد تسعير
-description: يقدم هذا الموضوع معلومات حول استخدام مورد قابل للحجز كبُعد تسعير.
+description: يقدم هذا المقال معلومات حول استخدام مورد قابل للحجز كبُعد تسعير.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576392"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916088"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>استخدام مورد قابل للحجز كبُعد تسعير
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-يقدم هذا الموضوع معلومات حول استخدام مورد قابل للحجز كبُعد تسعير. قبل البدء، إذا لم تكن قد قمت بالفعل بإنشاء حل لبعد التسعير، فستحتاج إلى إنشاء حل جديد. إذا كان لديك بالفعل حل لأبعاد التسعير، فيمكنك القيام بالتغييرات الخاصة بك في ذلك الحل. إذا لم تكن قد قمت بإنشاء حل أبعاد تسعير جديد للمؤسسة الخاصة بك، فأكمل الإجراءات في موضوع [إنشاء الحقول والكيانات المخصصة](create-custom-fields-entities.md).
+يقدم هذا المقال معلومات حول استخدام مورد قابل للحجز كبُعد تسعير. قبل البدء، إذا لم تكن قد قمت بالفعل بإنشاء حل لبعد التسعير، فستحتاج إلى إنشاء حل جديد. إذا كان لديك بالفعل حل لأبعاد التسعير، فيمكنك القيام بالتغييرات الخاصة بك في ذلك الحل. إذا لم تكن قد قمت بإنشاء حل أبعاد تسعير جديد لمؤسستك، فأكمل الإجراءات في المقال [إنشاء الحقول والكيانات المخصصة](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>إضافة مورد قابل للحجز إلى النماذج وطرق العرض
 لجعل الحقول مرئية في واجهه المستخدم في حل بُعد التسعير، ستحتاج إلى التنقل عبر كافة نماذج وطرق عرض كيانات Project Service الرئيسية وإضافة هذه الحقول إلى النماذج وطرق عرض هذه الكيانات.

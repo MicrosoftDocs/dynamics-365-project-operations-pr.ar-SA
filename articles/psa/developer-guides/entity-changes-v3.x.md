@@ -1,6 +1,6 @@
 ---
 title: تغييرات الكيانات وعناصر التحكم وواجهة المستخدم (Project Service Automation 3.x)
-description: يوضح هذا الموضوع التغييرات التي تم اجراؤها علي الحل لـ Microsoft Dynamics Project Service Automation 3.x.
+description: يشرح هذا المقال تغيير الحل لـ Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597552"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926852"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>تغييرات الكيانات وعناصر التحكم وواجهة المستخدم (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-مع الإصار الجديد من Microsoft Dynamics Project Service Automation (PSA) 3.x، تم إجراء من التغييرات على الكيانات، وعناصر التحكم، وطرق العرض، وواجهة المستخدم. يوفر هذا الموضوع معلومات حول هذه التغيرات المهمة:
+مع الإصار الجديد من Microsoft Dynamics Project Service Automation (PSA) 3.x، تم إجراء من التغييرات على الكيانات، وعناصر التحكم، وطرق العرض، وواجهة المستخدم. يوفر هذا المقال معلومات حول هذه التغييرات المهمة:
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>علاقات الأصل-التابع لمستند المبيعات ،وسطر مستند المبيعات، والكيانات التفصيلية لسطر مستندات المبيعات
 في إصدارات Dynamics 365 Project Service Automation (PSA) التي تم إصدارها قبل الإصدار 3.0، كان يتم تطبيق بعض العلاقات بين مستندات المبيعات وسطور مستندات المبيعات والكيانات التفصيلية لسطور مستندات المبيعات من خلال حقول السلسلة التي قد تحتفظ بتمثيل سلسلة للمعرف الفريد العمومي للكيان المرتبط. ويرجع السبب في ذلك إلى تقييدات النظام الأساسي التي تتطلب تعليمة برمجية مهمة على الخادم وعلى جوانب العميل بالحل لكي تعمل هذه العلاقات بشكل مماثل لكيان Dynamics CRM النموذجي ولجعل حقول السلسلة تعمل كحقول البحث.

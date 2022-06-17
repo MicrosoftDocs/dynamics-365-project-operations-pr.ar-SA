@@ -1,6 +1,6 @@
 ---
 title: تحديث سمات المكونات الإضافية لتشمل أبعاد التسعير الجديدة
-description: يقدم هذا الموضوع معلومات حول تحديث سمات الوظيفة الإضافيه لأبعاد التسعير.
+description: يقدم هذا المقال معلومات حول تحديث سمات الوظيفة الإضافية لأبعاد التسعير.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913190"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>تحديث سمات المكونات الإضافية لتشمل أبعاد التسعير الجديدة
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> إذا لم تكن تستخدم ميزات التعاقد وعروض الأسعار في Project Service Automation (PSA)، يمكنك تخطي هذه الموضوع.
+> إذا لم تكن تستخدم ميزات التعاقد وعروض الأسعار في Project Service Automation (PSA)، يمكنك تخطي هذه المقال.
 
-يفترض هذا الموضوع أنك أكملت الإجراءات الموجودة في المواضيع، و[إنشاء الحقول والكيانات المخصصة](create-custom-fields-entities.md)، و[إضافة حقول مخصصة إلى إعداد الأسعار وكيانات المعاملات](field-references.md)، و[إعداد الحقول المخصصة كأبعاد تسعير](set-up-pricing-dimensions.md). إذا لم تقم بإكمال هذه الإجراءات، فقم بالرجوع إلى الحالة السابقة وإكمالها ثم عد إلى هذا الموضوع.
+يفترض هذا المقال أنك أكملت الإجراءات الموجودة في المقالات، [إنشاء الحقول والكيانات المخصصة](create-custom-fields-entities.md)، و[إضافة حقول مخصصة إلى إعداد الأسعار وكيانات المعاملات](field-references.md)، و[إعداد الحقول المخصصة كأبعاد تسعير](set-up-pricing-dimensions.md). إذا لم تقم بإكمال هذه الإجراءات، فعد إلى الحالة السابقة وأكملها، ثم عد إلى هذا المقال.
 
 عند إنشاء تفصيل بند عرض الأسعار في صفحة **بند عرض الأسعار** لبند عرض أسعار المشروع، يقوم النظام بإنشاء بندين للتقدير في الخلفية -- بند لجانب التكلفة للتقدير والآخر لجانب المبيعات. هذا هو نفس الشيء بالنسبة لبنود عقد المشروع.
 

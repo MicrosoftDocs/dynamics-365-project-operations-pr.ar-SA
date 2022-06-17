@@ -1,17 +1,17 @@
 ---
 title: نظرة عامة على بنود عرض أسعار المشروع
-description: يوفر هذا الموضوع معلومات حول استخدام بنود عرض أسعار المشروع لعمل المشروع.
+description: يوفر هذا المقال معلومات حول استخدام بنود عرض أسعار المشروع لعمل المشروع.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 07ee2e6a7823b25eacb1c7ad6180f8af571348bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c74b14e4ccfc1e47c0a1df62980ab7a3d619617d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920136"
 ---
 # <a name="project-quote-lines-overview"></a>نظرة عامة على بنود عرض أسعار المشروع
 

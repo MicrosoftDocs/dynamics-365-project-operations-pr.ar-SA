@@ -1,25 +1,25 @@
 ---
 title: الجديد في مارس 2021 - النشر الخفيف لـ Project Operations
-description: يوفر هذا الموضوع معلومات حول التحديثات الإصلاحية المتوفرة في إصدار مارس 2021 من النشر الخفيف لـ Project Operations.
+description: يوفر هذا المقال معلومات حول التحديثات الإصلاحية المتوفرة في إصدار مارس 2021 من النشر الخفيف لـ Project Operations.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd9c3b5fc4eb30aaf385ba67a8d54875048e40cd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8ab045af503e9944fbc013b4e75ce45446786912
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913880"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>الجديد في مارس 2021 - النشر الخفيف لـ Project Operations
 
 _ينطبق على: النشر الخفيف – من الصفقة إلى الفوترة الأولية_
 
 
-ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
+ينطبق هذا المقال على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
 - Project Operations على بيئة Dataverse الإصدار 4.8.0.91 
 

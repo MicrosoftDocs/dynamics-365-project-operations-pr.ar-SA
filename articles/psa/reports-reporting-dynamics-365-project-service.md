@@ -1,6 +1,6 @@
 ---
-title: الصفحة الرئيسية للتقارير
-description: يقدم هذا الموضوع معلومات حول التقارير في Dynamics 365 Project Service Automation.
+title: الصفحة الرئيسية لإعداد التقارير
+description: يقدم هذا الموضوع معلومات حول إعداد التقارير في Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921654"
 ---
 # <a name="reporting-home-page"></a>الصفحة الرئيسية لإعداد التقارير
 
@@ -47,7 +47,7 @@ ms.locfileid: "8595942"
 
 
 ## <a name="additional-resources"></a>الموارد الإضافية
-لمزيد من المعلومات حول إعداد التقارير في PSA، راجع المواضيع التالية:
+لمزيد من المعلومات حول إعداد التقارير في PSA، راجع المقالات التالية:
 
 - [العمل مع نموذج بيانات Project Service](reports-working-project-service-data-model.md)
 - [لوحات المعلومات](reports-dashboards.md)

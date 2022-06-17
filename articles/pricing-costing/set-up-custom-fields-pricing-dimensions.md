@@ -1,6 +1,6 @@
 ---
 title: 'إعداد الحقول المخصصة كأبعاد تسعير '
-description: يقدم هذا الموضوع معلومات حول إعداد أبعاد التسعير باستخدام الحقول المخصصة.
+description: يقدم هذا المقال معلومات حول كيفية إعداد أبعاد التسعير باستخدام حقول مخصصة.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599392"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917560"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>إعداد الحقول المخصصة كأبعاد تسعير 
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-قبل البدء، يفترض هذا الموضوع أنك أكملت الإجراءات الموجودة في المواضيع، [إنشاء الحقول والكيانات المخصصة](create-custom-fields-entities-pricing-dimensions.md)و [إضافة حقول مخصصة إلى إعداد الأسعار وكيانات المعاملات](add-custom-fields-price-setup-transactional-entities.md). إذا لم تقم بإكمال هذه الإجراءات، فقم بالرجوع إلى الحالة السابقة وإكمالها ثم عد إلى هذا الموضوع. 
+قبل البدء، يفترض هذا المقال أنك أكملت الإجراءات الموجودة في المقالات، [إنشاء الحقول والكيانات المخصصة](create-custom-fields-entities-pricing-dimensions.md) و[إضافة حقول مخصصة مطلوبة إلى إعداد الأسعار وكيانات المعاملات](add-custom-fields-price-setup-transactional-entities.md). إذا لم تقم بإكمال هذه الإجراءات، فعد إلى الحالة السابقة وأكملها، ثم عد إلى هذا المقال. 
 
-يقدم هذا الموضوع معلومات حول إعداد أبعاد التسعير المخصصة. في صفحة **المعلمات** تعرض علامة التبويب **أبعاد التسعير القائمة على المبلغ** السجلات في كيانات أبعاد التسعير. وبشكل افتراضي، يوجد صفين في الشبكة على علامة التبويب هذه:
+يقدم هذا المقال معلومات حول إعداد أبعاد التسعير المخصصة. في صفحة **المعلمات** تعرض علامة التبويب **أبعاد التسعير القائمة على المبلغ** السجلات في كيانات أبعاد التسعير. وبشكل افتراضي، يوجد صفين في الشبكة على علامة التبويب هذه:
 
 - **msdyn_resourcecategory** (الدور)
 - **msdyn_OrganizationalUnit** (الوحدة التنظيمية)

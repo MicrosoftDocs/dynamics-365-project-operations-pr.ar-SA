@@ -1,17 +1,17 @@
 ---
 title: أوضاع الجدولة
-description: يقدم هذا الموضوع معلومات أوضاع الجدولة.
+description: يقدم هذا المقال معلومات حول أوضاع الجدولة.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588398"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923632"
 ---
 # <a name="scheduling-modes"></a>أوضاع الجدولة
 
@@ -38,7 +38,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 | مهمة الجهد الثابت    | يتم إعادة حساب المدة. | يتم إعادة حساب الوحدات.    | يتم إعادة حساب المدة. |
 | مهمة المدة الثابتة  | يتم إعادة حساب الجهد.   | يتم إعادة حساب الجهد.    | يتم إعادة حساب الوحدات.   |
 
-لمزيد من المعلومات حول تأثيرات وضع معين، راجع [تغيير نوع المهمة لجدولة أكثر دقة](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). في موضوع، يتم استخدام مصطلح **العمل** بدلا من **الجهد**.
+لمزيد من المعلومات حول تأثيرات وضع معين، راجع [تغيير نوع المهمة لجدولة أكثر دقة](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). في المقا، يستخدم المصطلح **العمل** بدلاً من **المجهود**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>تغيير وضع الجدولة للمؤسسة
 

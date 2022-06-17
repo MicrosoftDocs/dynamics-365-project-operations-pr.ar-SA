@@ -1,17 +1,17 @@
 ---
 title: استخدام فئة الحركة كبُعد تسعير
-description: يوفر هذا الموضوع معلومات حول كيفية استخدام حقل فئة المعاملة كبعد تسعير.
+description: يقدم هذا المقال معلومات حول استخدام حقل فئة الحركة كبُعد تسعير.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911678"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>استخدام فئة الحركة كبُعد تسعير
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591112"
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 
-يوضح هذا الموضوع كيفية استخدام حقل **فئة الحركة** كبعد تسعير. 
+يشرح هذا المقال كيفية استخدام حقل **فئة الحركة** كبُعد تسعير. 
 
-## <a name="prerequisites"></a>المتطلبات الأساسية
-قبل إكمال الإجراءات الموجودة في هذا الموضوع ، يجب ان يكون لديك حل بعد تسعير جديد لمؤسسك. إذا لم تكن قد قمت بإنشاء واحد بالفعل ، راجع [إنشاء حقول وكيانات مخصصه كابعاد للأسعار](create-custom-fields-entities-pricing-dimensions.md).
+## <a name="prerequisites"></a>المتطلبات
+قبل أن تكمل الإجراءات في هذا المقال، يجب أن يكون لديك حل بُعد تسعير جديد لمؤسستك. إذا لم تكن قد قمت بإنشاء واحد بالفعل ، راجع [إنشاء حقول وكيانات مخصصه كابعاد للأسعار](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>إضافة حقل فئة حركة إلى النماذج وطرق العرض
 لجعل حقل **فئة الحركة** مرئيا في حل بعد التسعير ، فانك تحتاج إلى أضافه الحقل إلى كافة النماذج وطرق العرض ككيان.

@@ -1,6 +1,6 @@
 ---
 title: عروض الأسعار والتسعير والصفحة الرئيسية للفوترة
-description: يقدم هذا الموضوع معلومات حول عروض الأسعار والتسعير والفوترة.
+description: يقدم هذا المقال معلومات حول عروض الأسعار والتسعير والفوترة.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581084"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926714"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>عروض الأسعار والتسعير والصفحة الرئيسية للفوترة
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581084"
 
 عروض الأسعار والتسعير والفوترة هي ميزات يتم استخدامها بواسطة كلٍّ من المؤسسات الصغيرة والكبيرة. ومن خلال فهم كيفية عمل هذه الميزات في التطبيق، يمكن للمؤسسات تخصيص التكوينات بسهوله أكبر.
 
-توفر الموضوعات التالية مزيدًا من المعلومات حول وظيفة عروض الأسعار والتسعير والفوترة في PSA:
+توفر المقالات التالية مزيدًا من المعلومات حول وظيفة عروض الأسعار والتسعير والفوترة في PSA:
 
 - [عملية المبيعات](basic-sales-process.md)
 - [بنود عرض الأسعار](basic-quote-lines.md)

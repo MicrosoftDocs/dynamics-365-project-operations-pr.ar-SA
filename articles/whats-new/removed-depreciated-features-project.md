@@ -1,24 +1,24 @@
 ---
 title: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Project Operations
-description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Project Operations.
+description: يصف هذا المقال الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601554"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921470"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Project Operations
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬، نشر خفيف - التعامل مع الفواتير الأولية‬، وProject Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج_
 
-يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Project Operations.
+يصف هذا المقال الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Project Operations.
 
 - لم تعد الميزة *المزالة* متوفرة في المنتج.
 - لا توجد الميزة *المهملة* في تطوير نشط ويمكن إزالتها في تحديث مستقبلي.

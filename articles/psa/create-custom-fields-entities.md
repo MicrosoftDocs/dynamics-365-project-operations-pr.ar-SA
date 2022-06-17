@@ -1,6 +1,6 @@
 ---
 title: إنشاء حقول وكيانات مخصصة
-description: يوضح هذا الموضوع كيفية إنشاء مجموعات الخيارات والكيانات في الحل الخاص بك في نظام Power Apps الأساسي.
+description: يوضح هذا المقال كيفية إنشاء مجموعات الخيارات والكيانات في حلك الخاص في النظام الأساسي Power Apps.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574368"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926898"
 ---
 # <a name="create-custom-fields-and-entities"></a>إنشاء حقول وكيانات مخصصة 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 أكمل الخطوات التالية في أي وقت تريد فيه إنشاء مجموعة خيارات مخصصة أو كيان مخصص على نظام Power Apps الأساسي.  
-ينبغي إكمال الإجراءات الواردة في هذا الموضوع باستخدام واجهة ويب Project Service Automation (PSA).
+ينبغي إكمال الإجراءات الواردة في هذا المقال باستخدام واجهة ويب Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > ومن المستحسن أن تقوم بإجراء كافة تغييرات أبعاد التسعير المخصصة في حل منفصل. يوفر هذه الممارسة الجيدة المهمة المرونة في المستقبل لتحديث التغييرات أو إزالتها حسب الحاجة، والتي تساعد في إعادة استخدام عملك، وتسهل نقل هذه التغييرات إلى مثيل آخر. بعد إجراء كافة التغييرات المطلوبة، قم بتصدير هذا الحل **كحل مُدار** واستيراده إلى المثيلات الأخرى لإعادة استخدام إعداد التسعير الخاص بك.

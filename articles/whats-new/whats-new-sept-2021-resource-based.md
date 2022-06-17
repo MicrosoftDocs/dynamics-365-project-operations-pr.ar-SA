@@ -1,24 +1,24 @@
 ---
 title: ما الجديد سبتمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-description: يوفر هذا الموضوع معلومات حول تحديثات الجودة المتوفرة في إصدار سبتمبر 2021 من Project Operations للسيناريوهات المستندة إلى الموارد/غير المخزنة.
+description: يوفر هذا المقال معلومات حول التحديثات الإصلاحية المتوفرة في إصدار سبتمبر 2021 من Project Operations للسيناريوهات المستندة إلى الموارد/غير المخزنة.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c7f764b3e8ee3775167ee57b4f034e383899aea3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582878"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923356"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>ما الجديد سبتمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
 
 *ينطبق على: Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة‬*
 
-ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
+ينطبق هذا المقال على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
    -  Project Operations في إصدار بيئة Microsoft Dataverse  4.14.0.99.
    - إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، إصدار 10.0.20.

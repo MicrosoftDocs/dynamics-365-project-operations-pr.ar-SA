@@ -1,17 +1,17 @@
 ---
 title: نظرة عامة على أوضاع إدارة الموارد
-description: يوفر هذا الموضوع معلومات حول وظيفة إدارة الموارد في Dynamics 365 Project Operations.
+description: يوفر هذا المقال معلومات حول وظيفة إدارة الموارد في Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928416"
 ---
 # <a name="resource-management-modes-overview"></a>نظرة عامة على أوضاع إدارة الموارد
 
@@ -38,7 +38,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ![الوضع مختلط.](./media/resource-management-hybrid.png)
 
-بالإضافة إلى عملية الوضع المركزي المدعومة، راجع الموضوعات التالية لإدارة كافة تدفقات الحجز المدعومة الأخرى في الوضع المختلط:
+بالإضافة إلى عملية الوضع المركزي المدعوم، راجع المقالات التالية لإدارة كافة عمليات سير عمل الحجوزات المدعومة الأخرى في الوضع المختلط:
 
 حجز مورد مباشرة إلى مشروع:
 - [حجز موارد مسماة قابل للحجز إلى فريق مشروع وتعيين المهام](/dynamics365/project-service/assign-named-bookable-resource)

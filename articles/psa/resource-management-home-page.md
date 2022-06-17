@@ -1,6 +1,6 @@
 ---
 title: الصفحة الرئيسية لإدارة الموارد
-description: يوفر هذا الموضوع معلومات حول كيفية إدارة الموارد.
+description: يوفر هذا المقال معلومات حول كيفية إدارة الموارد.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913236"
 ---
 # <a name="resource-management-home-page"></a>الصفحة الرئيسية لإدارة الموارد
 
@@ -31,7 +31,7 @@ ms.locfileid: "8578738"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-وتعتبر الموارد الأصل الأكثر أهميةً في المؤسسة التي تستند إلى الخدمة. تساعد إمكانية العثور على الموارد الصحيحة وحجزها عندما تحتاج إليها والمحافظة على استخدامها المؤسسة على الوفاء بأهداف العائد وأهداف رضا العميل. تركز المواضيع التالية على إمكانات إدارة الموارد في Dynamics 365 Project Service Automation:
+وتعتبر الموارد الأصل الأكثر أهميةً في المؤسسة التي تستند إلى الخدمة. تساعد إمكانية العثور على الموارد الصحيحة وحجزها عندما تحتاج إليها والمحافظة على استخدامها المؤسسة على الوفاء بأهداف العائد وأهداف رضا العميل. تركز المقالات التالية على إمكانات إدارة الموارد في Dynamics 365 Project Service Automation:
 
 - [إدارة الموارد](manage-resources.md)
 - [المفاهيم الأساسية:](reports-key-concepts.md)

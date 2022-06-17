@@ -1,24 +1,24 @@
 ---
 title: الجديد أو المتغير في Project Operations، يناير 2021 للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-description: يوفر هذا الموضوع معلومات حول التحديثات الإصلاحية المتوفرة في إصدار يناير 2021 من Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج‬.
+description: يوفر هذا المقال معلومات حول التحديثات الإصلاحية الجودة المتوفرة في إصدار يناير 2021 من Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج.
 author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84a49994267d0c070769090f9fce9c6a969c98be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592630"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923908"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>الجديد أو المتغير في Project Operations، يناير 2021 للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج_
 
-ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
+ينطبق هذا المقال على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
 - إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، الإصدار 10.0.16
 

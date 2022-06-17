@@ -1,25 +1,25 @@
 ---
 title: استكشاف الأخطاء العمل في شبكة المهام وإصلاحها
-description: يوفر هذا الموضوع معلومات استكشاف الأخطاء وإصلاحها المطلوبة عند العمل في شبكة المهام.
+description: يقدم هذا المقال معلومات حول استكشاف الأخطاء وإصلاحها التي تكون مطلوبة عند العمل في شبكة المهام.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911028"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>استكشاف الأخطاء العمل في شبكة المهام وإصلاحها 
 
 
 _**تنطبق على:** ‏Project Operations للسيناريوهات المستندة إلى الموارد/غير المخزنة، النشر الخفيف - التعامل مع الفواتير الأولية، Project for the web_
 
-شبكة المهام المستضافة بواسطة Dynamics 365 Project Operations هي iframe مستضاف داخل Microsoft Dataverse. نتيجة لهذا الاستخدام، يجب استيفاء متطلبات محددة لضمان عمل المصادقة والترخيص بشكل صحيح. يوضح هذا الموضوع المشكلات الشائعة التي يمكن أن تؤثر على القدرة على عرض الشبكة أو إدارة المهام في هيكل تنظيم العمل (WBS).
+شبكة المهام المستضافة بواسطة Dynamics 365 Project Operations هي iframe مستضاف داخل Microsoft Dataverse. نتيجة لهذا الاستخدام، يجب استيفاء متطلبات محددة لضمان عمل المصادقة والترخيص بشكل صحيح. يوضح هذا المقال المشكلات الشائعة التي يمكن أن تؤثر على القدرة على عرض الشبكة أو إدارة المهام في هيكل تنظيم العمل (WBS).
 
 تتضمن المشكلات الشائعة:
 

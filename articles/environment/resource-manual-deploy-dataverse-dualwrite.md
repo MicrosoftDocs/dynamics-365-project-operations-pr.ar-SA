@@ -1,25 +1,25 @@
 ---
 title: نشر تطبيق Project Operations Dataverse يدويًا مع دعم الكتابة المزدوجة
-description: يوضح هذا الموضوع كيفية نشر تطبيق Project Operations Dataverse يدويًا بحيث يدعم الكتابة المزدوجة.
+description: يشرح هذا المقال كيفية إجراء نشر يدوي لتطبيق Project Operations Dataverse بحيث يدعم الكتابة المزدوجة.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591204"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911994"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>نشر تطبيق Project Operations Dataverse يدويًا مع دعم الكتابة المزدوجة
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
-يوضح هذا الموضوع كيفية نشر Microsoft Dynamics 365 Project Operations يدويًا في Microsoft Dataverse بحيث يدعم الكتابة المزدوجة. تكتشف Project Operations تكوين البيئة وتضيف دعمًا إضافيًا للكتابة المزدوجة إذا تم استيفاء المتطلبات الأساسية.
+يشرح هذا المقال كيفية إجراء نشر يدوي لتطبيق Microsoft Dynamics 365 Project Operations في Microsoft Dataverse بحيث يدعم الكتابة المزدوجة. تكتشف Project Operations تكوين البيئة وتضيف دعمًا إضافيًا للكتابة المزدوجة إذا تم استيفاء المتطلبات الأساسية.
 
-أثناء النشر من خلال Microsoft Dynamics Lifecycle Services (LCS)، إذا اتبعت الإرشادات الواردة في هذا الموضوع، فيمكنك تخطي نشر تكامل Microsoft Power Platform (المعروف سابقًا باسم بيئة Common Data Service).
+أثناء النشر عبر Microsoft Dynamics Lifecycle Services ‏(LCS)، إذا اتبعت الإرشادات الواردة في هذا المقال، فيمكن تخطي نشر تكامل Microsoft Power Platform (كان يُعرف سابقًا باسم بيئة Common Data Service).
 
 عملية نشر Project Operations في Dataverse بحيث تدعم الكتابة المزدوجة‬ ويكون لها أربع خطوات رئيسية:
 

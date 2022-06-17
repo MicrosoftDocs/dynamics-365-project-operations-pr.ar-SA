@@ -1,6 +1,6 @@
 ---
 title: الصفحة الرئيسية لتخطيط المشروع
-description: يقدم هذا الموضوع معلومات حول تخطيط المشروع.
+description: يقدم هذا المقال معلومات حول تخطيط المشروع.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919032"
 ---
 # <a name="project-planning-home-page"></a>الصفحة الرئيسية لتخطيط المشروع
 
@@ -43,7 +43,7 @@ ms.locfileid: "8588123"
 - التنبؤ بمتطلبات الموارد للمشاريع قيد الإعداد.
 - تسليم المشاريع بنجاح من خلال تتبع التقدم واستهلاك التكلفة.
 
-توفر المواضيع التالية معلومات من شأنها أن تساعد مديري المشاريع على تقدير العمل ، وتقدير تكاليف المشروع ، ومتطلبات الموارد المتوقعة باستخدام الأدوات المدعومة في PSA:
+توفر المقالات التالية معلومات من شأنها أن تساعد مديري المشاريع على تقدير العمل ، وتقدير تكاليف المشروع ، ومتطلبات الموارد المتوقعة باستخدام الأدوات المدعومة في PSA:
 
 - [إنشاء جدولة](project-creating.md)
 - [تقدير تكلفة المشروع وإيراداته](project-estimating.md)

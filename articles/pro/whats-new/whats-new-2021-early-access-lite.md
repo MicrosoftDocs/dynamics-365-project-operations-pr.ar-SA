@@ -1,24 +1,24 @@
 ---
 title: الجديد في الوصول المبكر للموجة 2 من إصدار 2021 - التوزيع الخفيف لـ Project Operations
-description: يوفر هذا الموضوع معلومات حول الميزات المتوفرة في الوصول المبكر للموجة 2 في إصدار 2021 من التوزيع الخفيف لـ Project Operations.
+description: يوفر هذا المقال معلومات حول الميزات المتوفرة في إصدار الوصول المبكر للموجة 2 لعام 2021 من النشر الخفيف لـ Project Operations.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723660"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924092"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>الجديد في الوصول المبكر للموجة 2 من إصدار 2021 - التوزيع الخفيف لـ Project Operations
 
 _ينطبق على: النشر الخفيف – من الصفقة إلى الفوترة الأولية_
 
-ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
+ينطبق هذا المقال على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
   - Project Operations على بيئة Dataverse الإصدار 4.23.0.4
 

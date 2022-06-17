@@ -1,24 +1,24 @@
 ---
 title: الجديد في أغسطس 2021 - التوزيع الخفيف لـ Project Operations
-description: يوفر هذا الموضوع معلومات حول تحديثات الجودة المتوفرة في إصدار أغسطس 2021 من التوزيع الخفيف لـ Project Operations.
+description: يوفر هذا المقال معلومات حول التحديثات الإصلاحية المتوفرة في إصدار أغسطس 2021 من النشر الخفيف لـ Project Operations.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3cb6f92bfb28dc64f0f689e0070b0506644c2320
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84318a26d97355fe56794e1d1532576cde4af661
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586420"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922022"
 ---
 # <a name="whats-new-august-2021---project-operations-lite-deployment"></a>الجديد في أغسطس 2021 - التوزيع الخفيف لـ Project Operations
 
 _ينطبق على: النشر الخفيف – من الصفقة إلى الفوترة الأولية_
 
-ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
+ينطبق هذا المقال على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
   - Project Operations على بيئة Dataverse الإصدار 4.13.0.152
 

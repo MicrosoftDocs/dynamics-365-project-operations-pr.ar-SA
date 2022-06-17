@@ -1,6 +1,6 @@
 ---
 title: الترقية من Project Service Automation إلى Project Operations
-description: يوفر هذا الموضوع نظرة عامة على عملية الترقية من Microsoft Dynamics 365 Project Service Automation إلى Dynamics 365 Project Operations.
+description: يوفر هذا المقال نظرة عامة على عملية الترقية من Microsoft Dynamics 365 Project Service Automation إلى Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626705"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912960"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>الترقية من Project Service Automation إلى Project Operations
 
-نحن متحمسون للإعلان عن أول ثلاث مراحل للترقية من Microsoft Dynamics 365 Project Service Automation إلى Dynamics 365 Project Operations. يقدم هذا الموضوع نظرة عامة موجهة للعملاء الذين يبدأون بهذه الرحلة الشيقة. وستتضمن الموضوعات المستقبلية اعتبارات المطورين وتفاصيل حول تحسينات الميزات. إنه لن تقدم إرشادات لمساعدتك في التحضير للترقية إلى Project Operations فحسب، بل تشرح أيضًا ما يمكن توقعه بعد الترقية.
+نحن متحمسون للإعلان عن أول ثلاث مراحل للترقية من Microsoft Dynamics 365 Project Service Automation إلى Dynamics 365 Project Operations. يقدم هذا المقال نظرة عامة موجهة للعملاء الذين يبدأون بهذه الرحلة الشيقة. وستتضمن المقالات المستقبلية اعتبارات المطورين وتفاصيل حول تحسينات الميزات. إنه لن تقدم إرشادات لمساعدتك في التحضير للترقية إلى Project Operations فحسب، بل تشرح أيضًا ما يمكن توقعه بعد الترقية.
 
 سيتم تقسيم برنامج تسليم الترقية إلى ثلاث مراحل.
 
@@ -90,7 +90,7 @@ ms.locfileid: "8626705"
     > [!NOTE]
     > وقد تستغرق عملية التحديث عدة ساعات، بحسب كمية البيانات الموجودة في البيئة. يتعين على الفريق الأساسي الذي يدير عملية الترقية التخطيط وفقًا لذلك وتشغيل الترقية خارج ساعات العمل. في بعض الحالات، إذا كان حجم البيانات كبيرًا، فيجب تشغيل الترقية خلال عطلة نهاية الأسبوع. يجب أن يعتمد قرار الجدولة على نتائج الاختبار في بيئات أدنى.
 
-3. ترقية الحلول المخصصة على النحو المناسب. في هذه المرحلة، انشر أية تغييرات قمت بها في تخصيصاتك في القسم [اختبار التخصيصات وإعادة بنائها‬](#testing-and-refactoring-customizations) التابع لهذا الموضوع.
+3. ترقية الحلول المخصصة على النحو المناسب. في هذه المرحلة، انشر أية تغييرات قمت بها في تخصيصاتك في القسم [اختبار التخصيصات وإعادة بنائها‬](#testing-and-refactoring-customizations) التابع لهذا المقال.
 4. انتقل إلى **الإعدادات** \> **الحلول**، وحدد إزالة تثبيت الحل **مكونات Project Operations المهملة**.
 
     هذا الحل عبارة عن حل مؤقت يحتفظ بنموذج البيانات والمكونات الموجودة أثناء عملية الترقية. ومن خلال إزالة هذا الحل، تُزال كافة الحقول والمكونات التي لم تعد مستخدمة. وبهذه الطريقة، يمكنك المساعدة في تبسيط الواجهة وجعل التكامل والتوسع أسهل.
@@ -126,7 +126,6 @@ ms.locfileid: "8626705"
 | Project Service Automation                             | نشر Project Operations - خفيف                        | مدعوم               |
 | إدارة المشاريع والمحاسبة على Dynamics 365 Finance | نشر Project Operations - خفيف                        | غير مدعوم حاليًا |
 | إدارة المشاريع والمحاسبة في Finance              | Project Operations لسيناريوهات الموارد/المنتجات غير المخزنة     | غير مدعوم حاليًا |
-| إدارة المشاريع والمحاسبة في Finance              | Project Operations لسيناريوهات المنتجات المخزنة/أوامر الإنتاج | غير مدعوم حاليًا |
 | Project Service Automation 3.x                         | Project Operations لسيناريوهات الموارد/المنتجات غير المخزنة     | غير مدعوم حاليًا |
 | Project for the Web (بيئة مخصصة)            | نشر Project Operations - خفيف                        | غير مدعوم حاليًا |
 

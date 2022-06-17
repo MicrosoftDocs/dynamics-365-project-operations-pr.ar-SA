@@ -1,17 +1,17 @@
 ---
 title: فواتير تصحيحية قائمة على المشروع
-description: يوفر هذا الموضوع معلومات حول كيفية إنشاء الفواتير التصحيحية القائمة على المشروع وتأكيدها في Project Operations.
+description: يوفر هذا المقال معلومات حول كيفية إنشاء فواتير تصحيحية قائمة على المشروع‬ وتأكيدها في Project Operations.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 71bf10518c22ce2ad6aa43b710c68d0d46f93e77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: eecaf3dedeab5ff72d12808eb3144f9161313009
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931084"
 ---
 # <a name="corrective-project-based-invoices"></a>فواتير تصحيحية قائمة على المشروع
 

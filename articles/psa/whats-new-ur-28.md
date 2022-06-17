@@ -1,6 +1,6 @@
 ---
 title: الجديد أو المتغير في إصدار التحديث 28، الإصدار V3 من Project Service Automation
-description: يسرد هذا الموضوع الميزات والإصلاحات المتوفرة في إصدار التحديث 28، الإصدار V3 من Project Service Automation.
+description: يسرد هذا المقال الميزات والإصلاحات المتوفرة في إصدار التحديث 28، الإصدار 3 من Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/26/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: b3afeaf131c8bab25e1ed3a9eb3b41cb3059f711
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 56a87bce55c560e541e20709b10d38b9512ffcee
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586788"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930578"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-28-v3"></a>الجديد أو المتغير في إصدار التحديث 28، الإصدار V3 من Project Service Automation
 
@@ -29,7 +29,7 @@ ms.locfileid: "8586788"
 
 يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365. يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام. هذا الإصدار متوافق مع Dynamics 365 9.x. للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث. لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](/power-platform/admin/install-remove-preferred-solution).
 
-يسرد هذا الموضوع الميزات والإصلاحات الجديدة أو المتغير ة في إصدار التحديث 28، الإصدار V3 من Project Service Automation. يتضمن هذا الإصدار رقم البنية V3.10.46.32 وهو يتوفر بشكل عام عبر تحديث ذاتي في يناير 2021.
+يسرد هذا المقال الميزات والإصلاحات الجديدة أو المتغيرة في إصدار التحديث 28، الإصدار 3 من Project Service Automation.‬ يتضمن هذا الإصدار رقم بنية V3.10.46.32 وهو متوفر بشكل عام من خلال تحديث ذاتي في يناير 2021.
 
 ## <a name="update-release-28"></a>إصدار التحديث 28
 

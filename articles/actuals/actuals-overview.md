@@ -1,6 +1,6 @@
 ---
-title: القيم الفعلية
-description: يوفر هذا الموضوع معلومات حول كيفية التعامل مع القيم الفعلية في Microsoft Dynamics 365 Project Operations.
+title: العمل الفعلي
+description: يوفر هذا المقال معلومات حول كيفية العمل مع القيم الفعلية في Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924782"
 ---
 # <a name="actuals"></a>العمل الفعلي
 
@@ -33,7 +33,7 @@ _**ينطبق على:** ‏‫Project Operations للسيناريوهات الم
 
 تسجل Project Operations المعاملات المالية التي تحدث أثناء دورة حياة مشاركة المشروع كحسابات فعلية. يختلف إنشاء القيم الفعلية في أحداث مختلفة في دورة الحياة، اعتمادًا على ما إذا كان ارتباط المشروع يستخدم نموذج فوترة الوقت والمواد أو نموذج فوترة السعر الثابت، وما إذا كان في مرحلة ما قبل البيع أو مشروع داخلي.
 
-توضح الموضوعات التالية التأثير على جدول "القيم الفعلية" في أحداث مختلفة باختلافات مختلفة:
+توضح المقالات التالية التأثير على جدول "القيم الفعلية" في أحداث مختلفة باختلافات مختلفة:
 
 - [تأثير القيم الفعلية في الوقت وفي مشاركة المواد](ActualsonTM.md)
 - [التأثير الفعلي في ارتباط ثابت السعر](ActualonFP.md)

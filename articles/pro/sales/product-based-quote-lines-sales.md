@@ -1,17 +1,17 @@
 ---
 title: نظرة عامة على بنود عرض الأسعار القائمة على المنتج - خفيف
-description: يقدم هذا الموضوع معلومات حول العمل مع بنود عرض الأسعار القائمة على المنتج.
+description: يوفر هذا المقال معلومات حول العمل مع بنود عرض أسعار قائم على المشروع.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6d86bf3ed81dbb69912d0694909aa5448a958666
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: db0700e789202a8fdd0ef3b49959421ac54fb9ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574920"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914294"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>نظرة عامة على بنود عرض الأسعار القائمة على المنتج - خفيف
 

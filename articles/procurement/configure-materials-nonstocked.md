@@ -1,18 +1,18 @@
 ---
 title: تكوين مواد غير مخزنة وفواتير المورد المعلقة
-description: يوضح هذا الموضوع كيفية تمكين المواد غير المخزنة والفواتير المعلقة الخاصة بالموردين.
+description: يشرح هذا المقال كيفية تمكين المواد غير المخزنة والفواتير المعلقة الخاصة بالموردين.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913742"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>تكوين مواد غير مخزنة وفواتير المورد المعلقة
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>بتشغيل مخططات الكتابة المزدوجة لتكامل المواد غير المخزنة فواتير الموردين
 
-يوفر هذا القسم معلومات حول مخططات معينة مطلوبة للمواد غير المخزنة وفواتير الموردين. تحقق من أن المخططات الأساسية المدرجة في موضوع [تزويد بيئة جديدة](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps)يتم تشغيلها في البيئة الخاصة بك.
+يوفر هذا القسم معلومات حول مخططات معينة مطلوبة للمواد غير المخزنة وفواتير الموردين. تحقق من تشغيل الخرائط الأساسية المدرجة في المقال [تزويد بيئة جديدة](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) في بيئتك.
 
 1. اذهب إلى Lifecycle Services (LCS)، وانتقل إلى مشروع LCS الخاص بك، وانتقل إلى صفحة **تفاصيل البيئة**.
 2. في قسم **معلومات بيئة Common Data Service**، قم بتحديد **ارتباط إلى CDS للتطبيقات**. بعد تحديد الارتباط، ستتم إعادة توجيهك إلى قائمة الكيانات الموجودة في التعيينات.

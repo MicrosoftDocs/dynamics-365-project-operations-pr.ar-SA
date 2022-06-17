@@ -1,18 +1,18 @@
 ---
 title: شراء مواد غير مخزنة أو فئات المشتريات باستخدام فاتورة البائع المعلقة
-description: يوضح هذا الموضوع كيفية تسجيل فواتير الموردين المعلقة.
+description: يشرح هذا المقال كيفية تسجيل فواتير الموردين المعلقة.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612641"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921976"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>شراء مواد غير مخزنة أو فئات المشتريات باستخدام فاتورة البائع المعلقة
 
@@ -23,7 +23,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 على سبيل المثال، تقوم شركة Contoso Robotics US بتنفيذ مشروع تجديد المعدات وتحتاج إلى تراخيص البرامج. ويتم شراء هذه التراخيص من مورد خارجي.  باستخدام Dynamics 365 Finance ، يقوم كاتب حسابات المدفوعات بتسجيل مستند فاتورة المورد المعلقة ويعزو تكاليف الترخيص مباشرة إلى مشروع تجديد المعدات. 
 
 > [!IMPORTANT]
-> قبل استخدام الوظيفة الموضحة في هذا الموضوع، راجع التكوينات المطلوبة وطبقها. لمزيد من المعلومات، راجع [تمكين المواد غير المخزنة وفواتير البائع المعلقة](configure-materials-nonstocked.md) و[استخدم فئات التدبير مع أوامر شراء المشروع وفواتير المورد المعلقة](configure-procurement-categories.md)
+> قبل استخدام الوظيفة الموضحة في هذا المقال، راجع التكوينات المطلوبة وطبقها. لمزيد من المعلومات، راجع [تمكين المواد غير المخزنة وفواتير البائع المعلقة](configure-materials-nonstocked.md) و[استخدم فئات التدبير مع أوامر شراء المشروع وفواتير المورد المعلقة](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>ترحيل فاتورة مورد معلقة متعلقة بالمشروع 
 

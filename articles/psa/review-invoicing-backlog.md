@@ -1,6 +1,6 @@
 ---
 title: مراجعة تراكم الفوترة في المشاريع وعقود المشاريع
-description: يقدم هذا الموضوع معلومات حول كيفية مراجعة الوقت والمصروفات وتراكم المنتجات وكيفية وضع علامة جاهز للفوترة عليها.
+description: يقدم هذا المقال معلومات حول كيفية مراجعة الوقت والمصروفات وتراكم المنتجات وكيفية وضع علامة جاهز للفوترة عليها.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600542"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928876"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>مراجعة تراكم الفوترة في المشاريع وعقود المشاريع
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600542"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-عندما تكون إحدى الحركات جاهزة لكي يتم إنشاء فاتورة لها ومعالجتها، فيجب وضع علامة **جاهزة للفوترة** عليها. يوضح هذا الموضوع أنواع الحركات التي يمكن إنشاؤها.
+عندما تكون إحدى الحركات جاهزة لكي يتم إنشاء فاتورة لها ومعالجتها، فيجب وضع علامة **جاهزة للفوترة** عليها. يوضح هذا المقال أنواع الحركات التي يمكن إنشاؤها.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>مراجعة تراكم فوترة المواد والوقت
 

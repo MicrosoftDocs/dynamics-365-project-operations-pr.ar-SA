@@ -1,24 +1,24 @@
 ---
 title: الجديد في ديسمبر 2020 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-description: يوفر هذا الموضوع معلومات حول التحديثات الإصلاحية المتوفرة في إصدار ديسمبر 2020 من Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج‬.
+description: يوفر هذا المقال معلومات حول التحديثات الإصلاحية المتوفرة في إصدار ديسمبر 2020 من Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج‬.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911350"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>الجديد أو المتغير في Project Operations، ديسمبر 2020 للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
 
 _ينطبق على: Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج_
 
-ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
+ينطبق هذا المقال على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
   - إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، الإصدار 10.0.15
 

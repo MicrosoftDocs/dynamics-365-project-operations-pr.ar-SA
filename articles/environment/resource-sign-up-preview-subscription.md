@@ -1,17 +1,17 @@
 ---
 title: إعداد اشتراكات معاينة Project Operations لسيناريوهات المورد/المنتجات غير المخزنة
-description: يوفر هذا الموضوع معلومات حول كيفية الاشتراك في Project Operations ونشرها للسيناريوهات المستندة إلى المورد/المنتجات غير المخزنة.
+description: يوفر هذا المقال معلومات حول كيفية الاشتراك في Project Operations ونشره للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة‬.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920090"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>إعداد اشتراكات معاينة Project Operations لسيناريوهات المورد/المنتجات غير المخزنة
 
@@ -19,7 +19,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 
 
-يوضح هذا الموضوع كيفية الاشتراك في العرض التجريبي ونشر بيئة Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة.
+يشرح هذا المقال حول كيفية الاشتراك في الإصدار التجريبي ونشر بيئة Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة‬.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 - يجب أن يكون لدي المستخدم الذي ينشر المعاينة حقوق المسؤول العمومي لمستأجر Azure. يمكنك إنشاء مستأجر أثناء عملية استرداد العرض الأول. 
@@ -60,19 +60,19 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="start-a-new-project-in-lcs"></a>بدء مشروع جديد في LCS
 
-قم بإنشاء مشروع LCS جديد كما هو موضح في موضوع، [بدء مشروع جديد في LCS](create-lcs-project.md)
+إنشاء مشروع LCS جديد كما هو موضح في المقال، [بدء مشروع جديد في LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>إضافة اشتراك Azure إلى مشروع LCS
 
-لإكمال هذه المهمة، اتبع الخطوات الواردة في الموضوع، [إضافة اشتراك Azure إلى مشروع LCS](resource-add-azure-subscription-lcs-project.md).
+لإكمال هذه المهمة، اتبع الخطوات في المقال، [إضافة اشتراك Azure إلى مشروع LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>نشر بيئة عرض توضيحي من Finance مع Project Operations لسيناريوهات المورد/المنتجات غير المخزنة
 
-اتبع الإرشادات الموضحة في موضوع، [توفير بيئة جديدة](resource-provision-new-environment.md) لإكمال النشر. استخدم نوع نشر [بيئة العرض التوضيحي](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) للمعاينة. 
+اتبع الإرشادات الواردة في المقال، [تزويد بيئة جديدة](resource-provision-new-environment.md) لإكمال النشر. استخدم نوع نشر [بيئة العرض التوضيحي](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) للمعاينة. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>تثبيت إعداد CDS وبيانات التكوين
 
-قم بتثبيت إعداد CDS وبيانات التكوين كما هو موضح في الموضوع، [إعداد بيانات التكوين وتطبيقها في Common Data Service](resource-apply-pro-setup-config-data.md).
+قم بتثبيت بيانات إعداد وتكوين CDS كما هو موضح في المقال، [إعداد بيانات التكوين وتطبيقها في Common Data Service](resource-apply-pro-setup-config-data.md).
 أكمل هذه الخطوة فقط بعد نشر بيئة العرض التوضيحي لـ Finance وسوف تكون بيانات العرض التوضيحي جاهزة.
 
 

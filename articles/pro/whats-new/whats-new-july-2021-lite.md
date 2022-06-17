@@ -1,24 +1,24 @@
 ---
 title: الجديد في يوليو 2021 - النشر الخفيف لـ Project Operations
-description: يوفر هذا الموضوع معلومات حول تحديثات الجودة المتوفرة في إصدار يوليو 2021 من النشر الخفيف لـ Project Operations.
+description: يوفر هذا المقال معلومات حول التحديثات الإصلاحية المتوفرة في إصدار يوليو 2021 من النشر الخفيف لـ Project Operations.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 475ceea3a6c6db9fe63e3950eaca5d9074faa766
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7964f38c1bc7a8e0440e2e922ff153fd9bede131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913972"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>الجديد في يوليو 2021 - النشر الخفيف لـ Project Operations
 
 _ينطبق على: النشر الخفيف – من الصفقة إلى الفوترة الأولية_
 
-ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
+ينطبق هذا المقال على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
   - بيئة Project Operations على Dataverse الإصدار 4.12.0.148 أو 4.12.0.152.
 

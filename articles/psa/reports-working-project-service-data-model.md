@@ -1,6 +1,6 @@
 ---
 title: العمل مع نموذج بيانات Project Service Automation
-description: يقدم هذا الموضوع معلومات حول كيفية العمل مع نموذج البيانات.
+description: يقدم هذا المقال معلومات حول كيفية العمل مع نموذج البيانات.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e0849e5b2ab144814fe5310b11a758475ef56ef5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67932eea78048c09f5f836d1330f412466622c6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926668"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>العمل مع نموذج بيانات Project Service Automation
 
@@ -31,7 +31,7 @@ ms.locfileid: "8587524"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-يوسع Dynamics 365 Project Service Automation كيانات التطبيقات الأخرى ويقدم الكيانات الخاصة بها في نموذج بيانات Common Data Service. يوضح هذا الموضوع بعض الكيانات التي ستواجهها في سيناريوهات إعداد التقارير النموذجية الخاصة بـ PSA.
+يوسع Dynamics 365 Project Service Automation كيانات التطبيقات الأخرى ويقدم الكيانات الخاصة بها في نموذج بيانات Common Data Service. يصف هذا المقال بعض الكيانات التي ستواجهها في سيناريوهات إعداد التقارير النموذجية الخاصة بـ PSA.
 
 ## <a name="reporting-on-opportunities"></a>إعداد التقارير حول الفرص
 

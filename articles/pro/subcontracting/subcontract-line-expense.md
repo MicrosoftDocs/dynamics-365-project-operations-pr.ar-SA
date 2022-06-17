@@ -1,17 +1,17 @@
 ---
 title: شروط التعاقد من الباطن لفئات المصروفات
-description: يوضح هذا الموضوع كيفية تسجيل شروط التعاقد من الباطن للمصروفات واستخدام الحقول لتسجيل شراء الوقت من الموردين.
+description: يشرح هذا المقال كيفية تسجيل بنود العقد من الباطن للمصروفات واستخدام الحقول المختلفة لتسجيل شراء الوقت المورّدين.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 9eba8b70aeb98389515ee679e4bfb1426736ee2c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0b02a8aa0fce7bcb52374c0755d4bb85db16dad3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591664"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921010"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>شروط التعاقد من الباطن لفئات المصروفات
 

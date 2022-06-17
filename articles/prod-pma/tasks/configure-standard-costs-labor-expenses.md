@@ -1,6 +1,6 @@
 ---
 title: تكوين التكاليف القياسية للعمالة والمصروفات
-description: يشرح هذا الموضوع كيفية إعداد التكاليف القياسية للعمالة والمصاريف لمشروع.
+description: يشرح هذا المقال كيفية إعداد التكاليف القياسية للعمالة والمصروفات لمشروع.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd74da69986a73e933f8cfedce40158555c2ac60
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a51eee8d2eb960b6f24b6511dab7b7a27303dddb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919492"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>تكوين التكاليف القياسية للعمالة والمصروفات
 
 [!include [banner](../../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إعداد التكاليف القياسية للعمالة والمصاريف لمشروع. تستخدم هذه المهمة مجموعة بيانات USSI.
+يشرح هذا المقال كيفية إعداد التكاليف القياسية للعمالة والمصروفات لمشروع. تستخدم هذه المهمة مجموعة بيانات USSI.
 
 1. في جزء التنقل، انتقل إلى **الوحدات > إدارة المشاريع ومحاسبتها > إعداد > الأسعار > سعر النقل (بالساعة)**.
 2. حدد **جديد**.

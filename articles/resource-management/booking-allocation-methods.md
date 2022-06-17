@@ -1,6 +1,6 @@
 ---
 title: أساليب توزيع الحجوزات
-description: يقدم هذا الموضوع معلومات حول كيفية عمل أساليب توزيع الحجوزات في عمليات المشروع.
+description: يوفر هذا المقال معلومات حول كيفية عمل أساليب توزيع الحجوزات في Project Operations.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583016"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912684"
 ---
 # <a name="booking-allocation-methods"></a>أساليب توزيع الحجوزات
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-سواء كنت تعمل على إضافة عضو فريق مباشرة في علامة تبويب **الفريق**، أو حجز مورد لأحد المشاريع أو المتطلبات من لوحة الجدولة، يمكنك استخدام بعض الأساليب المختلفة لتوزيع الحجز. يوضح هذا الموضوع كيفية عمل كل أسلوب، والأساليب التي قد تؤدي إلى إجراء حجز زائد للموارد.
+سواء كنت تعمل على إضافة عضو فريق مباشرة في علامة تبويب **الفريق**، أو حجز مورد لأحد المشاريع أو المتطلبات من لوحة الجدولة، يمكنك استخدام بعض الأساليب المختلفة لتوزيع الحجز. يوضح هذا المقال كيفية عمل كل أسلوب، والأساليب التي قد تؤدي إلى إجراء حجز زائد للموارد.
 
 ## <a name="booking-allocation-methods"></a>أساليب توزيع الحجوزات
 

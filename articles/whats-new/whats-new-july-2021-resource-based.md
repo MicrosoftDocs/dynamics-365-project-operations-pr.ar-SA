@@ -1,24 +1,24 @@
 ---
 title: الجديد في يوليو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات غير المخزنة/الإنتاج
-description: يوفر هذا الموضوع معلومات حول تحديثات الجودة المتوفرة في إصدار يوليو 2021 من Project Operations للسيناريوهات المستندة إلى المنتجات غير المخزنة/الموارد.
+description: يوفر هذا المقال معلومات حول التحديثات الإصلاحية المتوفرة في إصدار يوليو 2021 من Project Operations للسيناريوهات المستندة إلى الموارد/غير المخزنة.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c004a6adc265f8f02fc557700d9b88a174c221c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931682"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في يوليو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات غير المخزنة/الإنتاج
 
 *ينطبق على: Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة‬*
 
-ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
+ينطبق هذا المقال على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
    - بيئة Project Operations على Microsoft Dataverse الإصدار 4.12.0.148 أو 4.12.0.152.
    - إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، إصدار 10.0.20.

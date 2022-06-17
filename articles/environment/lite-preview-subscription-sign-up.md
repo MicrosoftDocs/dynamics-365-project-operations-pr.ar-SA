@@ -1,21 +1,21 @@
 ---
 title: التسجيل في اشتراك معاينة - خفيف
-description: يقدم هذا الموضوع معلومات حول كيفية الاشتراك في Project Operations Lite – التعامل مع الفواتير الأولية‬ ونشره.
+description: يوفر هذا المقال معلومات حول كيفية الاشتراك في النشر الخفيف لـ Project Operations ونشره – التعامل مع الفواتير الأولية‬
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921240"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>التسجيل في اشتراك معاينة - خفيف 
 
-يوضح هذا الموضوع كيفية الاشتراك في العرض التجريبي ونشر إصدار النشر الخفيف لـ Dynamics 365 Project Operations- التعامل مع الفواتير الأولية‬.
+يشرح هذا المقال حول كيفية الاشتراك في العرض التجريبي ونشر النشر الخفيف لـ Dynamics 365 Project Operations – التعامل مع الفواتير الأولية‬
 
 > [!NOTE]
 > ستتغير هذه العملية في الإصدارات القادمة من Project Operations.
@@ -50,7 +50,7 @@ ms.locfileid: "8587984"
 
 ## <a name="create-a-new-dataverse-environment"></a>إنشاء بيئة Dataverse جديدة
 
-1. يمكنك توفير بيئة نشر Project Operations Dataverse جديدة باتباع الإرشادات في الموضوع،  [ نموذج نشر Dataverse ](lite-deployment.md). عند تحديد نوع البيئة، تأكد من استخدام **الإصدار التجريبي (مستند إلى اشتراك)**.
+1. قم بتزويد بيئة نشر جديدة Project Operations Dataverse باتباع الإرشادات في المقال، [ نموذج نشر Dataverse](lite-deployment.md). عند تحديد نوع البيئة، تأكد من استخدام **الإصدار التجريبي (مستند إلى اشتراك)**.
 
   ![بيئة جديدة.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ ms.locfileid: "8587984"
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>تثبيت تكوين CDS وإعداد بيانات العرض التوضيحي
 
-قم بتثبيت تكوين CDS وإعداد بيانات العرض التوضيحية باتباع الإرشادات الواردة في الموضوع، [تطبيق إعداد بيانات العرض التوضيحي وبيانات التكوين‬](lite-apply-demo-setup-config-data.md).
+قم بتثبيت تكوين CDS وبإعداد بيانات تجريبية من خلال اتباع الإرشادات الواردة في المقالة [، تطبيق اعداد العرض التوضيحي وبيانات التكوين‬](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

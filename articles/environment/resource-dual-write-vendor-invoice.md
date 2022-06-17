@@ -1,18 +1,18 @@
 ---
 title: تكامل فاتورة المورّد
-description: يوفر هذا الموضوع معلومات حول تكامل فواتير الموردين في Project Operations.
+description: يوفر هذا المقال معلومات حول تكامل فواتير المورّد في Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591159"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912040"
 ---
 # <a name="vendor-invoice-integration"></a>تكامل فاتورة المورّد
 
@@ -21,7 +21,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 يمكن تسجيل عملية الشراء المرتبطة بالمشروع في Dynamics 365 Project Operations من خلال الانتقال إلى **الحسابات الدائنة** > **الفواتير** > **فواتير المورد المعلقة** واستخدام مستند فاتورة المورد المعلقة. لمزيد من المعلومات، راجع [شراء مواد غير مخزنة باستخدام فاتورة مورد معلقة](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> قبل استخدام الوظيفة الموضحة في هذا الموضوع، راجع التكوينات المطلوبة وطبقها. لمزيد من المعلومات، راجع [تمكين مواد غير مخزنة وفواتير المورد المعلقة](../procurement/configure-materials-nonstocked.md).
+> قبل استخدام الوظيفة الموضحة في هذا المقال، راجع التكوينات المطلوبة وطبقها. لمزيد من المعلومات، راجع [تمكين مواد غير مخزنة وفواتير المورد المعلقة](../procurement/configure-materials-nonstocked.md).
 
 في Project Operations، يتم ترحيل فواتير المورد المتعلقة بالمشروع باستخدام قواعد الترحيل الخاصة:
 

@@ -1,17 +1,17 @@
 ---
 title: إعداد قوائم الأسعار
-description: يوفر هذا الموضوع معلومات حول كيفية إعداد قوائم أسعار المبيعات والتكلفة.
+description: يوفر هذا المقال معلومات حول كيفية إعداد قوائم أسعار التكلف وقوائم أسعار المبيعات.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 77809f63230530e2e6553b76e56d37249b060ab9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6d96f4a5a8d97e86bbd00413e21f69255a48c5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584718"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917652"
 ---
 # <a name="set-up-price-lists"></a>إعداد قوائم الأسعار
 

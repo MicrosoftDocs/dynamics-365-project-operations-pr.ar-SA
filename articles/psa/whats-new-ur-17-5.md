@@ -1,6 +1,6 @@
 ---
 title: الجديد أو المتغير في إصدار التحديث 17.5، الإصلاح العاجل، الإصدار 3 من Project Service Automation
-description: يسرد هذا الموضوع الميزات والإصلاحات المتوفرة في الإصدار 3 من Project Service Automation، إصدار التحديث 17.5.
+description: يسرد هذا المقال الميزات والإصلاحات المتوفرة في إصدار التحديث 17.5، الإصدار 3 من Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 6d4dc77263b7ce8cb2bfa0a7e61d1b55a849b624
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f008d8da11b7fecb308a00350a78298b83991d87
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577312"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926438"
 ---
 # <a name="project-service-automation-update-release-175-v3"></a>الإصدار 3 من Project Service Automation، إصدار التحديث 17.5
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577312"
 
 يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365. يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام.  هذا الإصدار متوافق مع Dynamics 365 9.x. للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث. لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](/power-platform/admin/install-remove-preferred-solution).
 
-يسرد هذا الموضوع الميزات والإصلاحات الجديدة أو التي تم تغييرها للإصدار 3، إصدار التحديث 17.5. يتضمن هذا الإصدار رقم البنية V3.10.7.32 وهو متوفر بشكل عام من خلال تحديث ذاتي في مارس 2020.
+يسرد هذا المقال الميزات والإصلاحات الجديدة أو المتغيرة في إصدار التحديث 17.5، الإصدار 3. يتضمن هذا الإصدار رقم البنية V3.10.7.32 وهو متوفر بشكل عام من خلال تحديث ذاتي في مارس 2020.
 
 
 ## <a name="update-release-175"></a>إصدار التحديث 17.5

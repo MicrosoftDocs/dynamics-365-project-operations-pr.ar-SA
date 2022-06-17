@@ -1,26 +1,26 @@
 ---
 title: استخدام مورد قابل للحجز كبُعد تسعير
-description: يقدم هذا الموضوع معلومات حول كيفية استخدام مورد قابل للحجز كبُعد تسعير.
+description: يقدم هذا المقال معلومات حول كيفية استخدام مورد قابل للحجز كبُعد تسعير.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598611"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914800"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>استخدام مورد قابل للحجز كبُعد تسعير
 
  _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_ 
 
-يقدم هذا الموضوع معلومات حول كيفية استخدام مورد قابل للحجز كبُعد تسعير. إذا تم إعداد إستراتيجية التسعير بحيث يجب أن يكون لكل مورد قابل للحجز سعر محدد أو معدل تكلفة محدد، استخدم مورداً قابلاً للحجز كبعد تسعير.
+يقدم هذا المقال معلومات حول كيفية استخدام مورد قابل للحجز كبُعد تسعير. إذا تم إعداد إستراتيجية التسعير بحيث يجب أن يكون لكل مورد قابل للحجز سعر محدد أو معدل تكلفة محدد، استخدم مورداً قابلاً للحجز كبعد تسعير.
 
-## <a name="prerequisites"></a>المتطلبات الأساسية
-قبل إكمال الإجراءات الموجودة في هذا الموضوع ، يجب ان يكون لديك حل بعد تسعير جديد لمؤسسك. إذا لم تكن قد قمت بإنشاء واحد بالفعل ، راجع [إنشاء حقول وكيانات مخصصة](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+## <a name="prerequisites"></a>المتطلبات
+قبل أن تكمل الإجراءات في هذا المقال، يجب أن يكون لديك حل بُعد تسعير جديد لمؤسستك. إذا لم تكن قد قمت بإنشاء واحد بالفعل ، راجع [إنشاء حقول وكيانات مخصصة](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>إضافة حقل المورد القابل للحجز إلى النماذج وطرق العرض
 لجعل حقل **المورد القابل للحجز** مرئيا في حل بعد التسعير ، فانك تحتاج إلى أضافه الحقل إلى كافة النماذج وطرق العرض ككيان.

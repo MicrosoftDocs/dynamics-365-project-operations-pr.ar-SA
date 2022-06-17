@@ -1,24 +1,24 @@
 ---
 title: الجديد في نوفمبر 2021 - التوزيع الخفيف لـ Project Operations
-description: يوفر هذا الموضوع معلومات حول تحديثات الجودة المتوفرة في إصدار نوفمبر 2021 من التوزيع الخفيف لـ Project Operations.
+description: يوفر هذا المقال معلومات حول التحديثات الإصلاحية المتوفرة في إصدار نوفمبر 2021 من النشر الخفيف لـ Project Operations.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3f3a19cddd1b91fc76c852153526fb7197a9f92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 947e7f6183ddeef3ab9a88d140331956bbcf23bd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587754"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913788"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>الجديد في نوفمبر 2021 - التوزيع الخفيف لـ Project Operations
 
 _ينطبق على: النشر الخفيف – من الصفقة إلى الفوترة الأولية_
 
-ينطبق هذا الموضوع على المكونات والإصدارات التالية من Microsoft Dynamics 365 Project Operations:
+ينطبق هذا المقال على المكونات والإصدارات التالية من Microsoft Dynamics 365 Project Operations:
 
 - Project Operations في إصدار بيئة Dataverse ‏4.26.0.145 أو 4.26.0.150 أو 4.26.0.155
   

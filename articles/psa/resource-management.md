@@ -1,6 +1,6 @@
 ---
 title: الصفحة الرئيسية لمشاريع تعيين الموارد
-description: يوفر هذا الموضوع معلومات حول إمكانات إدارة الموارد في Project Service Automation (‏PSA‏) لـ Dynamics 365.
+description: يوفر هذا المقال معلومات حول إمكانات إدارة الموارد في Project Service Automation (‏PSA‏) لـ Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599806"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925242"
 ---
 # <a name="resourcing-projects-home-page"></a>الصفحة الرئيسية لمشاريع تعيين الموارد
 
@@ -46,7 +46,7 @@ ms.locfileid: "8599806"
 - صيانة مستودع مهارات وكفاءة.
 
 
-يمكنك توظيف المشروع الخاص بك مع فريق من الموارد العامة أو المسماة في PSA. يمكنك استخدام العديد من الطرق لإضافة أعضاء الفريق وتعيينهم ولإدارة الحجوزات والتعيينات الخاصة بهم. للحصول على مزيد من المعلومات، راجع المواضيع التالية:
+يمكنك توظيف المشروع الخاص بك مع فريق من الموارد العامة أو المسماة في PSA. يمكنك استخدام العديد من الطرق لإضافة أعضاء الفريق وتعيينهم ولإدارة الحجوزات والتعيينات الخاصة بهم. للحصول على مزيد من المعلومات، راجع المقالات التالية:
 
 - [حجز الموارد القابلة للحجز المسماة لفريق مشروع وتعيين المهام له](assign-named-bookable-resource.md)
 - [تعيين موارد عامة قابل للحجز إلى مهمة وإنشاء متطلبات مورد](assign-generic-bookable-resource.md)

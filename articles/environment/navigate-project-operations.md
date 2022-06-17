@@ -1,17 +1,17 @@
 ---
 title: التنقل في Project Operations
-description: يقدم هذا الموضوع معلومات حول كيفية الوصول إلى Project Operations من Lifecycle Services.
+description: يوفر هذا المقال معلومات حول كيفية الوصول إلى Project Operations من Lifecycle Services.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d8573b65373fe88c5b0617be585e2d3c77f1ca6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931636"
 ---
 # <a name="navigate-project-operations"></a>التنقل في Project Operations
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations للسيناريوهات المستندة إلى
  - **Project Operations على بيئة Common Data Service (CDS)**: يغطي هذا المكون الإمكانات والعملية من الفرصة إلى الفوترة الأولية. 
  - **إدارة المشروع والمحاسبة في بيئة Dynamics 365 Finance**: تغطي هذه الإمكانات إدارة النفقات ومحاسبة المشروع وإقرار الإيرادات. 
 
-بعد تزويد Project Operations كما هو موضح في هذا الموضوع، توفر صفحه **تفاصيل البيئة** في Lifecycle Services‏ (LCS) وصولاً سهلاً إلى كل واحد من مكوني Project Operations.  
+بعد تزويد Project Operations كما ورد في هذا المقل، توفر صفحة **تفاصيل البيئة** في Lifecycle Services (LCS) الوصول السهل إلى مكوني Project Operations.  
 
 استخدم اسم البيئة في القسم، **اسم بيئة Common Data Service** للانتقال إلى Project Operations على بيئة CDS. 
 

@@ -1,17 +1,17 @@
 ---
-title: تكوين المكونات الخاضعة للرسوم الخاصة ببند عرض أسعار
-description: يقدم هذا الموضوع معلومات حول إعداد المكونات الخاضعة وغير الخاضعة للرسوم في بند عرض أسعار مستند إلى مشروع.
+title: تكوين المكونات الخاضعة للرسوم لبند عرض الأسعار
+description: يوفر هذا المقال معلومات حول إعداد المكونات الخاضعة للرسوم‬ وغير الخاضعة للرسوم‬ في بند عرض أسعار قائم على المشروع.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3c9bd23f4e78e3ea5ae8f74ff1a4829a11f91929
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d4829055f429546c7911a05a765bc28ae085afa1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930026"
 ---
 # <a name="configure-the-chargeable-components-of-a-quote-line"></a>تكوين المكونات الخاضعة للرسوم لبند عرض الأسعار 
 

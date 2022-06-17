@@ -1,6 +1,6 @@
 ---
 title: استخدام فئة الحركة كبعد تسعير
-description: يقدم هذا الموضوع معلومات حول استخدام فئة حركة كبُعد تسعير.
+description: يقدم هذا المقال معلومات حول استخدام فئة حركة كبُعد تسعير.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593320"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915720"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>استخدام فئة الحركة كبعد تسعير
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-يوضح هذا الموضوع كيفية استخدام فئة حركة كبُعد تسعير. قبل البدء، إذا لم تكن قد قمت بالفعل بإنشاء حل لبعد التسعير، فستحتاج إلى إنشاء حل جديد. إذا كان لديك بالفعل حل لأبعاد التسعير، فيمكنك القيام بالتغييرات الخاصة بك في ذلك الحل. إذا لم تكن قد قمت بإنشاء حل أبعاد تسعير جديد للمؤسسة الخاصة بك، فأكمل الإجراءات في موضوع [إنشاء الحقول والكيانات المخصصة](create-custom-fields-entities.md).
+يوضح هذا المقال كيفية استخدام فئة حركة كبُعد تسعير. قبل البدء، إذا لم تكن قد قمت بالفعل بإنشاء حل لبعد التسعير، فستحتاج إلى إنشاء حل جديد. إذا كان لديك بالفعل حل لأبعاد التسعير، فيمكنك القيام بالتغييرات الخاصة بك في ذلك الحل. إذا لم تكن قد قمت بإنشاء حل أبعاد تسعير جديد لمؤسستك، فأكمل الإجراءات في المقال [إنشاء الحقول والكيانات المخصصة](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>إضافة فئة حركة إلى النماذج وطرق العرض
 لجعل حركة الفئة مرئية في واجهه المستخدم في حل بُعد التسعير، ستحتاج إلى التنقل عبر كافة نماذج وطرق عرض كيانات Project Service الرئيسية وإضافة هذه الحقول إلى النماذج وطرق عرض هذه الكيانات.

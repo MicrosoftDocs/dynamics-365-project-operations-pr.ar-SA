@@ -1,25 +1,25 @@
 ---
 title: الجديد في يناير 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬
-description: يوفر هذا الموضوع معلومات حول التحديثات الإصلاحية المتوفرة في إصدار يناير 2021 من Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة.‬
+description: يوفر هذا المقال معلومات حول التحديثات الإصلاحية المتوفرة في إصدار يناير 2021 من Project Operations للسيناريوهات المستندة إلى الموارد/غير المخزنة.
 author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cd20ba47a45593e7694234b4f58aecd79b1c3736
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910623"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في يناير 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
 
-ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
+ينطبق هذا المقال على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
   - Project Operations على بيئة Dataverse الإصدار 4.6.0.154
   - إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، الإصدار 10.0.16

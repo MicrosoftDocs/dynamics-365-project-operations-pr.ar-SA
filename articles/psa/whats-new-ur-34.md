@@ -1,6 +1,6 @@
 ---
 title: الجديد أو المتغير في تحديث Project Service Automation الإصدار 34, V3
-description: يسرد هذا الموضوع الميزات والإصلاحات المتوفرة في تحديث Project Service Automation، الإصدار 34, V3.
+description: يسرد هذا المقال الميزات والإصلاحات المتوفرة في إصدار التحديث 34، الإصدار 3 من Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 08/05/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7a4feaeebf8fa2ef3447dc6dfc3d0903266f3b2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e47a5442f285952c165a2d30e337a362a6b065dd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928646"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-34-v3"></a>الجديد أو المتغير في تحديث Project Service Automation الإصدار 34, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588674"
 
 يسرنا أن نعلن عن آخر تحديث للتطبيق Microsoft Dynamics 365 Project Service Automation. يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام. وهو متوافق مع Dynamics 365 9.x. لتحديث هذا الإصدار، قم بزيارة صفحة حل Dynamics 365 online في مركز إدارة، ثم قم بتثبيت التحديث. لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](/power-platform/admin/install-remove-preferred-solution).
 
-يسرد هذا الموضوع الميزات والإصلاحات الجديدة أو التي تم تغييرها في Project Service Automation V3، تحديث الإصدار 34. يحتوي هذا الإصدار على رقم إصدار V3.10.55.38 وهو متاح بشكل عام من خلال التحديث الذاتي في يوليو 2021.
+يسرد هذا المقال الميزات والإصلاحات الجديدة أو المتغيرة في إصدار التحديث 34، الإصدار 3 من Project Service Automation. يحتوي هذا الإصدار على رقم إصدار V3.10.55.38 وهو متاح بشكل عام من خلال التحديث الذاتي في يوليو 2021.
 
 ## <a name="update-release-34"></a>إصدار التحديث 34
 

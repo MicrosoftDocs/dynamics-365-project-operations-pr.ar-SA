@@ -1,6 +1,6 @@
 ---
 title: الجديد أو المتغير في إصدار التحديث 31، للإصدار 3 من Project Service Automation
-description: يسرد هذا الموضوع الميزات والإصلاحات المتوفرة في إصدار التحديث 31، الإصدار 3 من Project Service Automation‬.
+description: يسرد هذا المقال الميزات والإصلاحات المتوفرة في إصدار التحديث 31، الإصدار 3 من Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/26/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 70a8bd381c27c9a3dd3b33c582e5616fad280e95
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d62b12a5363637e46b29c2e9edf4e1f17da729f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586742"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925012"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-31-v3"></a>الجديد أو المتغير في إصدار التحديث 31، للإصدار 3 من Project Service Automation
 
@@ -29,7 +29,7 @@ ms.locfileid: "8586742"
 
 يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365. يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام. هذا الإصدار متوافق مع Dynamics 365 9.x. للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث. لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](/power-platform/admin/install-remove-preferred-solution).
 
-يسرد هذا الموضوع الميزات والإصلاحات الجديدة أو التي تم تغييرها في في إصدار التحديث 31، الإصدار 3 من Project Service Automation‬. لدى هذا الإصدار رقم البنية V3.10.52.77 وهو متوفر بشكل عام من خلال تحديث ذاتي في شهر مايو 2021.
+يسرد هذا المقال الميزات والإصلاحات الجديدة أو المتغيرة في إصدار التحديث 31، الإصدار 3 من Project Service Automation. لدى هذا الإصدار رقم البنية V3.10.52.77 وهو متوفر بشكل عام من خلال تحديث ذاتي في شهر مايو 2021.
 
 ## <a name="update-release-31"></a>إصدار التحديث 31
 

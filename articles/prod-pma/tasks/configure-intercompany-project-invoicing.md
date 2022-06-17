@@ -1,6 +1,6 @@
 ---
 title: تكوين فواتير المشاريع بين الشركات الشقيقة
-description: يوضح هذا الموضوع كيفية إعداد فواتير المشروع بين شركتين في مؤسستك.
+description: يوضح هذا المقال كيفية إعداد فوترة المشروع بين شركتين في مؤسستك.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916594"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>تكوين فواتير المشاريع بين الشركات الشقيقة
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إعداد فواتير المشروع بين شركتين في مؤسستك. تستخدم هذه المهمة مجموعة بيانات USSI.
+يوضح هذا المقال كيفية إعداد فوترة المشروع بين شركتين في مؤسستك. تستخدم هذه المهمة مجموعة بيانات USSI.
 
 1. في جزء التنقل، انتقل إلى **الوحدات > الحسابات الدائنة > الموردون > جميع الموردين**.
 2. في قائمة **جميع الموردين**، ابحث عن السجل المطلوب وحدده.

@@ -1,24 +1,24 @@
 ---
 title: إعداد الاحتفاظ بالموردين
-description: يصف هذا الموضوع كيفية إعداد الاحتفاظ بالموردين.
+description: يصف هذا المقال كيفية إعداد الاحتفاظ بالموردين.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f30e8829d8d5d99c81fce730cb93cd7ce31913fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583688"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929750"
 ---
 # <a name="set-up-vendor-retention"></a>إعداد الاحتفاظ بالموردين
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
-يقدم هذا الموضوع معلومات حول كيفية إعداد الاحتفاظ بالموردين.
+يقدم هذا المقال معلومات حول كيفية إعداد الاحتفاظ بالموردين.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>إعداد حساب الاحتفاظ بالموردين في دفتر الأستاذ العام
 

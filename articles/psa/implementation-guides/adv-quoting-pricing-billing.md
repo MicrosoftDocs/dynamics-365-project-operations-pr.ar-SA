@@ -1,6 +1,6 @@
 ---
 title: عروض الأسعار والتسعير والفوترة المتقدمة
-description: يقدم هذا الموضوع معلومات حول عروض الأسعار والفوترة والتسعير في Project Service Automation.
+description: يقدم هذا المقال معلومات حول عروض الأسعار والفوترة والتسعير في Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921792"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>الدليل المتقدم لتقديم عروض الأسعار والتسعير والفوترة
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579336"
 
 تساعد إمكانية العثور على الموارد الصحيحة في الوقت المناسب وحجز هذه الموارد في المشاريع والاحتفاظ باستخدام الموارد الشركات للوفاء بأهداف العائد وأهداف رضا العميل. 
 
-تمت إزالة ارتباط PDF الذي كان موجودصا مسبقا في هذا الموضوع وتم نقل المحتوى إلى الموضوعات التالية:
+تمت إزالة ارتباط PDF الذي كان موجودًا في السابق في هذا المقال وتم نقل المحتوى إلى المقالات التالية:
 
 - [عروض الأسعار والتسعير والفوترة المتقدمة](../quote-bill-price.md)
 - [عمليات المبيعات](../basic-sales-process.md)
@@ -50,7 +50,7 @@ ms.locfileid: "8579336"
 - [تسجيل القيم الفعلية](../advanced-actuals.md)
 
 > [!NOTE]
-> ستتم إزالة هذا الموضوع في تحديث الوثائق المستقبلية. 
+> ستتم إزالة هذا المقال في تحديث الوثائق المستقبلية. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

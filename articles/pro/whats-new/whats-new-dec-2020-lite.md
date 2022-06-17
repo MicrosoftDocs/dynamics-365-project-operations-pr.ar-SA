@@ -1,24 +1,24 @@
 ---
 title: الجديد في ديسمبر 2020 – النشر الخفيف Project Operations – التعامل مع الفواتير الأولية
-description: يوفر هذا الموضوع معلومات حول التحديثات الإصلاحية المتوفرة في إصدار ديسمبر 2020 من النشر الخفيف Project Operations – التعامل مع الفواتير الأولية‬.
+description: يوفر هذا المقال معلومات حول التحديثات الإصلاحية المتوفرة في إصدار ديسمبر 2020 من ‏‫نشر Project Operations الخفيف – التعامل مع الفواتير الأولية‬.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924046"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>الجديد في ديسمبر 2020 – النشر الخفيف Project Operations – التعامل مع الفواتير الأولية
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
-ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
+ينطبق هذا المقال على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
   - Project Operations على بيئة Dataverse الإصدار 4.5.0.134 
 

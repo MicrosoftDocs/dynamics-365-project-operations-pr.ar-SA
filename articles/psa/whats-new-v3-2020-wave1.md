@@ -1,6 +1,6 @@
 ---
 title: الجديد أو المتغير في الإصدار 3.x من Project Service Automation، الموجة 1 لعام 2020
-description: يقدم هذا الموضوع معلومات حول الجديد والمتغير في الإصدار رقم 3 من Project Service Automation، الموجة 1 لعام 2020.
+description: يقدم هذا المقال معلومات حول الجديد والمتغير في الموجة 1 لعام 2020 للإصدار 3 من Project Service Automation.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928600"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>الجديد أو المتغير في الإصدار 3 من Project Service Automation، الموجة 1 لعام 2020
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-هذا الموضوع يلقي الضوء على اعتبارات الترقية عند الانتقال إلى الإصدار الأخير 3.x من Project Service Automation (PSA)، الموجة 1 لعام 2020.
+يسلط هذا المقال الضوء على اعتبارات الترقية الأساسية عند الانتقال إلى الإصدار الأخير من الموجة 1 لعام 2020 للإصدار 3.x من Project Service Automation (PSA).
 
 ## <a name="time-entry"></a>إدخال الوقت
 تم توسيع تجربة إدخال الوقت لتوفير إمكانيات لتوسيع إدخال الوقت في المزيد من سيناريوهات العملاء. وهذا يشمل إمكانية إضافة أنواع إدخالات، التي تعزز الآن سلوكيات معنية بالاستناد إلى اسم مخطط الحقل **إعدادات إدخال الوقت** الذي يظهر على أنه **مصدر الوقت**. تمت إضافة حل جديد مسمى الوقت والمصروفات والحالات والموافقات (TESA) لدعم هذه الوظيفة.

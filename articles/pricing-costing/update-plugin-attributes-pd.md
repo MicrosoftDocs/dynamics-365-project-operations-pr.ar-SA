@@ -1,33 +1,33 @@
 ---
 title: تحديث سمات المكونات الإضافية لتشمل أبعاد التسعير الجديدة
-description: يقدم هذا الموضوع معلومات حول كيفية تحديث سمات الوظيفة الإضافيه لأبعاد التسعير.
+description: يقدم هذا المقال معلومات حول كيفية تحديث سمات الوظيفة الإضافية لأبعاد التسعير.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919998"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>تحديث سمات المكونات الإضافية لتشمل أبعاد التسعير الجديدة
 
-يقدم هذا الموضوع معلومات حول كيفية تحديث سمات الوظيفة الإضافيه لأبعاد التسعير.
+يقدم هذا المقال معلومات حول كيفية تحديث سمات الوظيفة الإضافية لأبعاد التسعير.
 
 > [!NOTE]
-> لا ينطبق موضوع هذا إلا على عرض الأسعار وميزات العقد الموجودة في Dynamics 365 Project Operations.
+> ينطبق هذا المقال فقط على ميزات عرض الأسعار والعقد في Dynamics 365 Project Operations.
 
-## <a name="prerequisites"></a>المتطلبات الأساسية
-قبل إكمال الخطوات الواردة في هذه الموضوع ، يجب ان تكمل الإجراءات الموجودة في الموضوعات التالية:
+## <a name="prerequisites"></a>المتطلبات
+قبل إكمال الخطوات في هذا المقال، يجب أن تكون قد أكملت الإجراءات في المقالات التالية:
 
   - [إنشاء حقول وكيانات مخصصة](create-custom-fields-entities-pricing-dimensions.md) 
   - [إضافة حقول مخصصة إلى إعداد الأسعار وكيانات الحركات ](add-custom-fields-price-setup-transactional-entities.md)
   - [إعداد الحقول المخصصة كأبعاد تسعير](set-up-custom-fields-pricing-dimensions.md). 
   
-إذا لم تكن قد أكملت هذه الإجراءات، فأكملها ثم عد إلى هذا الموضوع.
+إذا لم تقم بإكمال هذه الإجراءات، فعليك إكمالها ثم العودة إلى هذا المقال.
 
 ## <a name="register-a-plug-in"></a>تسجيل مكون إضافي
 عندما يتم إنشاء تفصيل بند عرض الأسعار في صفحة **بند عرض الأسعار** لبند عرض أسعار المشروع، يقوم النظام بإنشاء بندين للتقدير. ويعتبر بند واحد هو الخاص بجانب التكلفة للتقدير ويكون البند الآخر خاصا بالنسبة لمبيعات الجانب. هذا هو نفس الشيء بالنسبة لبنود عقد المشروع.

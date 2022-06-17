@@ -1,24 +1,24 @@
 ---
 title: تحرير الحجوزات
-description: يوفر هذا الموضوع معلومات حول كيفية تحديث الحجوزات وإجراء تغييرات عليها.
+description: توفر هذا المقال معلومات حول كيفية تحديث الحجوزات وإجراء تغييرات عليها.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915214"
 ---
 # <a name="edit-bookings"></a>تحرير الحجوزات
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 
-عندما تحدث تغييرات في مشروع تتطلب منك تحديث الحجوزات الحالية، فهناك العديد من الطرق التي يمكن من خلالها إجراء التغييرات. يوضح هذا الموضوع كيفية تحديث الحجوزات وإجراء تغييرات عليها.
+عندما تحدث تغييرات في مشروع تتطلب منك تحديث الحجوزات الحالية، فهناك العديد من الطرق التي يمكن من خلالها إجراء التغييرات. يوضح هذا المقال كيفية تحديث الحجوزات وإجراء تغييرات عليها.
 
 ## <a name="resource-reconciliation"></a>تسوية الموارد
 

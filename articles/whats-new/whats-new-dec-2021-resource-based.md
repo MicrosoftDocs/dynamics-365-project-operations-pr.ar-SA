@@ -1,24 +1,24 @@
 ---
 title: الجديد في ديسمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬
-description: يوفر هذا الموضوع معلومات حول تحديثات الجودة المتوفرة في إصدار ديسمبر 2021 من Project Operations للسيناريوهات المستندة إلى موارد/غير مخزنة.
+description: يوفر هذا المقال معلومات حول التحديثات الإصلاحية المتوفرة في إصدار ديسمبر 2021 من Project Operations للسيناريوهات المستندة إلى موارد/ منتجات غير مخزنة.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 79ae9f49a4291d162a8a9bb6eb9a22d615773f6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910844"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في ديسمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬
 
 *ينطبق على: Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة‬*
 
-ينطبق هذا الموضوع على المكونات والإصدارات التالية من Microsoft Dynamics 365 Project Operations:
+ينطبق هذا المقال على المكونات والإصدارات التالية من Microsoft Dynamics 365 Project Operations:
 
 - Project Operations في بيئة Dataverse الإصدار 4.27.0.195، 4.27.0.242، 4.27.0.244
 - إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، الإصدار 10.0.23

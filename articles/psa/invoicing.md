@@ -1,6 +1,6 @@
 ---
 title: الفوترة في Project Service Automation
-description: يقدم هذا الموضوع معلومات حول الفوترة.
+description: يقدم هذا المقال معلومات حول الفوترة.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579290"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926806"
 ---
 # <a name="invoicing-in-project-service-automation"></a>الفوترة في Project Service Automation
 
@@ -94,7 +94,7 @@ ms.locfileid: "8579290"
 تعد وظيفة معالجة الدفعة لإنشاء الفواتير وظيفة متكررة. إذا تم تشغيل هذه المعالجة الدفعية عده مرات، سيتم إنشاء مثيلات متعددة للوظيفة وتتسبب في حدوث أخطاء. بالتالي، يجب عليك بدء عملية المعالجة الدفعية مرة واحدة فقط، وينبغي إعادة تشغيلها في حالة توقفها عن العمل فقط.
 
 > [!NOTE]
-> يتم تشغيل فواتير الدفعات في Project Service Automation فقط لبنود عقود المشروع التي تم تكوينها بواسطة جداول الفواتير. يجب أن يحتوي بند العقد مع طريقة فوترة بسعر ثابت على مراحل مكوّنة. سيحتاج بند عقد المشروع مع طريقة فوترة الوقت والمواد إلى إعداد جدول فاتورة يستند إلى التاريخ. يتم توفير معلومات حول إعداد تكرارات الفواتير في سياق مشروع يستند إلى بند عرض أسعار، في الموضوع، [عروض الأسعار وبنود عروض الأسعار](basic-quote-lines.md#invoice-schedule). ينطبق الأمر نفسه على بند العقد المستند إلى المشروع.      
+> يتم تشغيل فواتير الدفعات في Project Service Automation فقط لبنود عقود المشروع التي تم تكوينها بواسطة جداول الفواتير. يجب أن يحتوي بند العقد مع طريقة فوترة بسعر ثابت على مراحل مكوّنة. سيحتاج بند عقد المشروع مع طريقة فوترة الوقت والمواد إلى إعداد جدول فاتورة يستند إلى التاريخ. يتم توفير معلومات حول تكرار الفوترة في سياق مشروع يستند إلى بند عرض أسعار في المقال، [عروض الأسعار وبنود عروض الأسعار](basic-quote-lines.md#invoice-schedule). ينطبق الأمر نفسه على بند العقد المستند إلى المشروع.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>تحرير مسودة فاتورة PSA
 

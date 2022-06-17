@@ -1,18 +1,18 @@
 ---
 title: نظرة عامة على أبعاد التسعير
-description: يقدم هذا الموضوع معلومات حول أبعاد التسعير في Dynamics 365 Project Operations.
+description: يقدم هذا المقال معلومات حول أبعاد التسعير في Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579199"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918020"
 ---
 # <a name="pricing-dimensions-overview"></a>نظرة عامة على أبعاد التسعير
 
@@ -34,7 +34,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 ![لقطة شاشة لمعلمات Project Service مع تمييز "قابل للتطبيق على المبيعات".](media/PS-OOB-parameters.png)
 
-إذا كنت بحاجة إلى أسعار أو تكلفه للموارد الخاصة بك باستخدام سمات إضافية، فيمكنك إنشاء حقول وكيانات وأبعاد مخصصة. لمزيد من المعلومات، راجع المواضيع التالية: 
+إذا كنت بحاجة إلى أسعار أو تكلفه للموارد الخاصة بك باستخدام سمات إضافية، فيمكنك إنشاء حقول وكيانات وأبعاد مخصصة. لمزيد من المعلومات، راجع المقالات التالية. 
   
   > [!NOTE]
   > يجب إكمال الإجراءات بالترتيب الذي تم سردها به.

@@ -1,17 +1,17 @@
 ---
 title: استدعاء الكيانات التي تمت الموافقة عليها مسبقًا
-description: يشرح هذا الموضوع كيف يمكن لعضو فريق المشروع أن يطلب استرجاع الوقت والمصروفات وسجلات استخدام المواد التي تم إرسالها مسبقًا والمعتمدة، وكيف يمكن لمدير المشروع الموافقة على طلبات الاستدعاء أو رفضها.
+description: يشرح هذا المقال كيف يمكن لعضو فريق المشروع أن يطلب استرجاع الوقت والمصروفات وسجلات استخدام المواد التي تم إرسالها مسبقًا والمعتمدة، وكيف يمكن لمدير المشروع الموافقة على طلبات الاستدعاء أو رفضها.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 18796e803ff73806aaa60b453048ee3160406b40
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 54fc7ac2301a4423ebf70b0b67ad489580c347b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586558"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930348"
 ---
 # <a name="recall-previously-approved-entries"></a>استدعاء الكيانات التي تمت الموافقة عليها مسبقًا
 

@@ -1,23 +1,23 @@
 ---
 title: تتبع جهود المشروع
-description: يقدم هذا الموضوع معلومات حول كيفية تتبع جهود المشروع وتقدم العمل.
+description: يقدم هذا المقال معلومات حول كيفية تعقب جهود المشروع وتقدم العمل.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593780"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929244"
 ---
 # <a name="project-effort-tracking"></a>تتبع جهود المشروع
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
-تختلف الحاجة إلى تعقب التقدم مقابل جدول حسب الصناعة. تجري بعض الصناعات التتبع بمستوى تدريجي، بينما تجري صناعات أخرى التتبع بمستوى أعلى. يوضح هذا الموضوع كيفية الجدولة من أجل تلبية متطلبات مؤسستك.
+تختلف الحاجة إلى تعقب التقدم مقابل جدول حسب الصناعة. تجري بعض الصناعات التتبع بمستوى تدريجي، بينما تجري صناعات أخرى التتبع بمستوى أعلى. يوضح هذا المقال كيفية الجدولة من أجل تلبية متطلبات مؤسستك.
 
 ## <a name="effort-tracking-view"></a>طريقة عرض تعقب الجهود
 

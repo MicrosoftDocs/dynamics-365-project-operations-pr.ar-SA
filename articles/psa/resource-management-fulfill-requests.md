@@ -1,6 +1,6 @@
 ---
 title: الوفاء بمتطلبات الموارد
-description: يوفر هذا الموضوع معلومات حول كيفية الوفاء بمتطلبات الموارد.
+description: يوفر هذا المقال معلومات حول كيفية الوفاء بمتطلبات الموارد.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: a4bd3bb9cca9a2859af22913942520528c064955
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9f9e44cca2b5443649022d3c0143bb08f28fef5d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913282"
 ---
 # <a name="fulfilling-resource-requests"></a>الوفاء بطلبات الموارد
 

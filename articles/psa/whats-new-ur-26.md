@@ -1,6 +1,6 @@
 ---
 title: ما الجديد أو المتغير في إصدار التحديث 26 من Project Service Automation، الإصدار 3
-description: يسرد هذا الموضوع الميزات والإصلاحات المتوفرة في إصدار التحديث 26، الإصدار V3 من Project Service Automation.
+description: يسرد هذا المقال الميزات والإصلاحات المتوفرة في إصدار التحديث 26، الإصدار 3 من Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cebfcd6425f11b74ce6331a093d8d3db3da356a0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 11f722c1f31c0e8aa08192cc955aabbe97018225
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928784"
 ---
 # <a name="project-service-automation-update-release-26-v3"></a>إصدار التحديث 26 من Project Service Automation، الإصدار 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577266"
 
 يسرنا الإعلان عن التحديث الأخير لتطبيق Project Service Automation لـ Dynamics 365. يتضمن هذا الإصدار بعض التحسينات الهامة من ناحية الجودة والأداء وقابلية الاستخدام. هذا الإصدار متوافق مع Dynamics 365 9.x. للتحديث إلى هذا الإصدار، قم بزيارة مركز إدارة Dynamics 365 online، ثم انتقل إلى صفحة الحلول لتثبيت التحديث. لمزيد من المعلومات، راجع [تثبيت حل مفضل أو تحديثه أو إزالته](/power-platform/admin/install-remove-preferred-solution).
 
-يسرد هذا الموضوع الميزات والإصلاحات الجديدة أو المتغيرة لإصدار التحديث 26 من Project Service Automation، الإصدار 3‬ يحتوي هذا الإصدار على رقم إصدار V3.10.44.59 وهو متاح بشكل عام من خلال التحديث الذاتي في ديسمبر 2020.
+يسرد هذا المقال الميزات والإصلاحات الجديدة أو المتغيرة في إصدار التحديث 26، الإصدار 3 من Project Service Automation. يحتوي هذا الإصدار على رقم إصدار V3.10.44.59 وهو متاح بشكل عام من خلال التحديث الذاتي في ديسمبر 2020.
 
 ## <a name="update-release-26"></a>إصدار التحديث 26
 

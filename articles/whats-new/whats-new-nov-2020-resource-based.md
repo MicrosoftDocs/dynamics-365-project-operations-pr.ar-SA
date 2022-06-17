@@ -1,23 +1,23 @@
 ---
 title: الجديد في نوفمبر 2020 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬
-description: يوفر هذا الموضوع معلومات حول التحديثات الإصلاحية المتوفرة في إصدار نوفمبر 2020 من Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة.‬
+description: يوفر هذا المقال معلومات حول التحديثات الإصلاحية المتوفرة في إصدار نوفمبر 2020 من Project Operations للسيناريوهات المستندة إلى الموارد/غير المخزنة.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600358"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923402"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في نوفمبر 2020 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
-ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
+ينطبق هذا المقال على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
 - Project Operations على بيئة CDS الإصدار 4.4.0.70
 - إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، الإصدار 10.0.14

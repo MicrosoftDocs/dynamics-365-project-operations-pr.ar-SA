@@ -1,17 +1,17 @@
 ---
 title: إنشاء سُلفة مؤقتة في عقد
-description: يقدم هذا الموضوع معلومات حول إنشاء سُلفة على عقد عند الحاجة.
+description: يوفر هذا المقال معلومات عن إنشاء سلفة على عقد حسب الحاجة.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee97710a9f0229cef3ff9dbfda6a2f108726df20
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3e450a17990c6fc783ddffdb05e1ab5b9429a3c1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594010"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922160"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>إنشاء سُلفة مؤقتة في عقد
 

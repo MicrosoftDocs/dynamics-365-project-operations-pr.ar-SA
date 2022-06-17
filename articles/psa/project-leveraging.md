@@ -1,6 +1,6 @@
 ---
 title: تقديرات المبيعات والمشاريع
-description: يوفر هذا الموضوع معلومات حول كيفية الاستفادة من الجدولة والتقديرات في عملية المبيعات.
+description: يوفر هذا المقال معلومات حول كيفية الاستفادة من الجدولة والتقديرات في عملية المبيعات.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 35cf804a7442d3033db32f5a5224737d1752e549
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 957c2337cce3b3bf65a0bfef7c1aee6a730971fc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596356"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925380"
 ---
 # <a name="sales-estimates-and-projects"></a>تقديرات المبيعات والمشاريع
 

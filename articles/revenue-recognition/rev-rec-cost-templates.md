@@ -1,24 +1,24 @@
 ---
 title: إعداد قوالب التكلفة
-description: يوفر هذا الموضوع معلومات حول كيفية إنشاء قوالب التكلفة واستخدامها في Project Operations.
+description: يوفر هذا المقال معلومات حول كيفية إنشاء قوالب التكلفة واستخدامها في Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594194"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918388"
 ---
 # <a name="set-up-cost-templates"></a>إعداد قوالب التكلفة
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
 
-يوفر هذا الموضوع معلومات حول كيفية إنشاء قوالب التكلفة واستخدامها في Project Operations. يحدد قالب التكلفة ما يلي:
+يوفر هذا المقال معلومات حول كيفية إنشاء قوالب التكلفة واستخدامها في Project Operations. يحدد قالب التكلفة ما يلي:
 
 - يتم تضمين فئات المشروع الخاصة بالتنبؤ والحركات الفعلية في نسبه من حساب اكتمال المشروع. عندئذ يتم استخدام قيمه النسبة المئوية للاكتمال لحساب كميه الإيرادات المعروفة.
 - ما إذا كان يمكن تعديل النسبة المئوية للإنجاز في حاله حسابه تلقائيا.

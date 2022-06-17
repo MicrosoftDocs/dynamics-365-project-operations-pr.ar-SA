@@ -1,24 +1,24 @@
 ---
 title: ما الجديد في سبتمبر 2021 - نشر Project Operations الخفيف
-description: يوفر هذا الموضوع معلومات حول تحديثات الجودة المتوفرة في إصدار سبتمبر 2021 من Project Operations الخفيف.
+description: يوفر هذا المقال معلومات حول التحديثات الإصلاحية المتوفرة في إصدار سبتمبر 2021 من النشر الخفيف لـ Project Operations.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f84d19df59e9f726d6ee456ff6064ad24529b577
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 275b2630588497f867e7ba886c458fa738778187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582556"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931268"
 ---
 # <a name="whats-new-september-2021---project-operations-lite-deployment"></a>ما الجديد في سبتمبر 2021 - نشر Project Operations الخفيف
 
 _ينطبق على: النشر الخفيف – من الصفقة إلى الفوترة الأولية_
 
-ينطبق هذه الموضوع على مكونات وإصدارات Dynamics 365 Project Operations التالية:
+ينطبق هذا المقال على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
   - Project Operations على بيئة Microsoft Dataverse الإصدار 4.14.0.99
 

@@ -1,6 +1,6 @@
 ---
 title: الوحدات ومجموعات الوحدات
-description: يوفر هذا الموضوع معلومات حول كيفية إنشاء الوحدات ومجموعات الوحدات في Dynamics 365 Project Operations.
+description: يقدم هذا المقال معلومات حول كيفية إنشاء الوحدات ومجموعات الوحدات في Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578416"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921424"
 ---
 # <a name="units-and-unit-groups"></a>الوحدات ومجموعات الوحدات
 
@@ -28,7 +28,7 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 
 الوحدات هي الكميات أو القياسات التي تقوم ببيع المنتجات أو الخدمات فيها. على سبيل المثال، إذا كنت تبيع لوازم الحدائق، قد تبيع البذور في وحدات من الحزم والصناديق والبالتات. وتعد مجموعة الوحدات مجموعة من هذه الوحدات المختلفة.
 
-لإكمال الخطوات الواردة في هذا الموضوع، تأكد من أنه قد تم تعيينك إلى مسؤول النظام أو لدور مدير Sales Professional أو أن لديك الأذونات المكافئة.
+لإكمال الخطوات في هذا المقال، تأكد من أنه قد تم تعيين دور المسؤول النظام أو مدير أخصائي المبيعات‬ لك أو لديك أذونات مكافئة.
 
 ## <a name="create-a-unit-group"></a>إنشاء مجموعة وحدة
 
