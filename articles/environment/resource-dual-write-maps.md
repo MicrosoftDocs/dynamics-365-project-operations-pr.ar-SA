@@ -1,17 +1,17 @@
 ---
 title: إصدارات مخطط الكتابة المزدوجة في Project Operations
-description: يوفر هذا الموضوع قائمة بمخططات الكتابة المزدوجة المطلوبة لـ Dynamics 365 Project Operations.
+description: يوفر هذا المقال قائمة بخرائط الكتابة المزدوجة المطلوبة لـ Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612734"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959376"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>إصدارات مخطط الكتابة المزدوجة في Project Operations
 
@@ -54,7 +54,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | كيان تكامل Project Operations لتقديرات الساعات (msdyn_resourceassignments) | 1.0.0.5  | غير مطلوب للتزويد. ||
 | كيان تصدير فئات مصروفات مشروع لتكامل Project Operations (msdyn_expensecategories) | 1.0.0.1 | غير مطلوب للتزويد. ||
 | كيان تصدير مصروفات مشروع لتكامل Project Operations (msdyn_expenses) | 1.0.0.3 | غير مطلوب للتزويد. ||
-| كيان تصدير فاتورة مورد المشروع لتكامل Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0  | غير مطلوب للتزويد. ||
+| كيان تصدير فاتورة مورد المشروع لتكامل Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | غير مطلوب للتزويد. |10.0.26 أو إصدار أحدث|
 | كيان تصدير بند فاتورة مورد المشروع لتكامل Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | غير مطلوب للتزويد. | 10.0.26 أو إصدار أحدث |
 | أدوار موارد المشروع لجميع الشركات (bookableresourcecategories) | 1.0.0.1  | يتطلب الأمر إجراء مزامنة أولية لمخطط الجدول لمزامنة أدوار موارد مدير المشروع وعضو الفريق التي تم ملؤها في بيئة Dynamics 365 Dataverse أثناء التزويد. Dataverse هو المصدر الرئيسي للمزامنة الأولية. ||
 | مهام المشروع (msdyn_projecttasks) | 1.0.0.4  | غير مطلوب للتزويد. ||

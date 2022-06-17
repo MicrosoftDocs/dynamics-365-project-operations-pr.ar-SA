@@ -1,6 +1,6 @@
 ---
 title: دليل تخطيط المشاريع وتعقبها
-description: يوفر هذا الموضوع رابطًا لمعلومات حول التخطيط والتتبع في Project Service Automation.
+description: يوفر هذا المقال ارتباطًا إلى معلومات حول التخطيط والتعقب في Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589870"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933246"
 ---
 # <a name="project-planning-and-tracking"></a>دليل تخطيط المشاريع وتعقبها
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589870"
 
 يساعد تطبيق Project Service مؤسسات الخدمة على تحديد الفرص وتقديم العطاءات والوصول إلى الاتفاقيات التعاقدية وإدارة الموارد وتتبع الوقت والنفقات وفواتير العملاء وتسليم المشروعات في الوقت المحدد وفي حدود الميزانية. 
 
-تمت إزالة ارتباط PDF الذي كان موجودصا مسبقا في هذا الموضوع وتم نقل المحتوى إلى الموضوعات التالية:
+تمت إزالة ارتباط PDF الذي كان موجودًا في السابق في هذا المقال وتم نقل المحتوى إلى المقالات التالية:
 
 - [جداول المشاريع](../project-creating.md)
 - [تكاليف المشروع والإيرادات](../project-estimating.md)
@@ -43,7 +43,7 @@ ms.locfileid: "8589870"
 - [إعدادات المشروع](../project-settings.md)
 
 > [!NOTE]
-> ستتم إزالة هذا الموضوع في تحديث الوثائق المستقبلية. 
+> ستتم إزالة هذا المقال في تحديث الوثائق المستقبلية. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

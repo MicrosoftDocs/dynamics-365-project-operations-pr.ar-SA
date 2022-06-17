@@ -1,6 +1,6 @@
 ---
-title: ال‏‏منتجات
-description: يقدم هذا الموضوع معلومات حول كتالوج المنتجات الذي يمكنك استخدامه لتوفير معلومات للعملاء حول المنتجات والأسعار التي تقدمها مؤسستك.
+title: المنتجات
+description: يوفر هذا المقال معلومات حول كتالوج المنتجات الذي يمكنك استخدامه لتوفير معلومات للعملاء حول المنتجات والأسعار التي تقدمها مؤسستك.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5c57b2596e1d480ff59591618f073ceb8f70a289
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d45a705c48df84a8f5b3f60121fbcc25e225e6e5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574078"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933062"
 ---
 # <a name="products"></a>ال‏‏منتجات
 

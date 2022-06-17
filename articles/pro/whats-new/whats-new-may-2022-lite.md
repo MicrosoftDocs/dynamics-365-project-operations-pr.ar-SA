@@ -1,24 +1,24 @@
 ---
 title: ما الجديد مايو 2022 -Project Project Operations - النشر الخفيف
-description: يوفر هذا الموضوع معلومات حول تحديثات الجودة المتوفرة في إصدار مايو 2022 من النشر الخفيف لـ Microsoft Dynamics 365 Project Operations.
+description: يوفر هذا الموضوع معلومات حول التحديثات الإصلاحية الجودة المتوفرة في إصدار مايو 2022 من النشر الخفيف لـ Microsoft Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a2684d51e643d37c90d2c03ee7a0c2a6ead18682
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: dd7f03068473ee09608945876047710fa44e914a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8709948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934120"
 ---
 # <a name="whats-new-may-2022---project-operations-lite-deployment"></a>ما الجديد مايو 2022 -Project Project Operations - النشر الخفيف
 
 _**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
-ينطبق هذا الموضوع على المكونات والإصدارات التالية من Microsoft Dynamics 365 Project Operations:
+ينطبق هذا المقال على المكونات والإصدارات التالية من Microsoft Dynamics 365 Project Operations:
 
 - Project Operations في بيئة Dataverse الإصدار 4.42.0.70
 

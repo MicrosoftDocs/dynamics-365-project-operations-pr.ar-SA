@@ -1,24 +1,24 @@
 ---
 title: الجديد في فبراير 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬
-description: يوفر هذا الموضوع معلومات حول تحديثات الجودة المتوفرة في إصدار فبراير 2022 من Project Operations للسيناريوهات المستندة إلى موارد/غير مخزنة.
+description: يوفر هذا المقال معلومات حول التحديثات الإصلاحية المتوفرة في إصدار فبراير 2022 من Project Operations للسيناريوهات المستندة إلى موارد/غير مخزنة.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932970"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في فبراير 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬
 
 *ينطبق على: Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة‬*
 
-ينطبق هذا الموضوع على المكونات والإصدارات التالية من Microsoft Dynamics 365 Project Operations:
+ينطبق هذا المقال على المكونات والإصدارات التالية من Microsoft Dynamics 365 Project Operations:
 
 - Project Operations في بيئة Dataverse الإصدار 4.28.0.120
 - إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، الإصدار 10.0.24
@@ -76,11 +76,11 @@ ms.locfileid: "8600818"
 
 ## <a name="removed-and-deprecated-features"></a>الميزات التي تمت إزالتها وإهمالها
 
-يصف موضوع [الميزات التي تمت إزالتها أو إهمالها في Project Operations‬](removed-depreciated-features-project.md) المزايا التي تمت إزالتها أو إهمالها لـ Dynamics 365 Project Operations.
+يصف المقال [الميزات التي تمت إزالتها أو إهمالها في Project Operations‬](removed-depreciated-features-project.md) المزايا التي تمت إزالتها أو إهمالها لـ Dynamics 365 Project Operations.
 
 - لم تعد الميزة المزالة متوفرة في المنتج.
 - لا توجد ميزة المهملة في التطوير النشط وقد يتم إزالتها في تحديثات مستقبلية.
 
-سيظهر إعلان الإهمال في موضوع [الميزات التي تمت إزالتها أو إهمالها في Project Operations‬‬‏‫](removed-depreciated-features-project.md) قبل إزالة أي ميزة من المنتج بـ 12 شهرًا.
+سيظهر إعلان الإهمال في المقال [الميزات التي تمت إزالتها أو إهمالها في Project Operations‬‬‏‫](removed-depreciated-features-project.md) قبل إزالة أي ميزة من المنتج بـ 12 شهرًا.
 
 بالنسبة للتغييرات الفاصلة التي تؤثر فقط على وقت التحويل البرمجي، ولكنها متوافقة ثنائيًا مع بيئة الاختبار المعزولة وبيئات الإنتاج، فسيكون وقت الإهلاك أقل من 12 شهرًا. بشكل عام، هذه التغييرات هي تحديثات وظيفية يجب إجراؤها للمحول البرمجي.

@@ -1,17 +1,17 @@
 ---
 title: تسجيل الدخول للإصدارات التجريبية من Project Operations
-description: يقدم هذا الموضوع معلومات عن كيفية توزيع Dynamics 365 Project Operations.
+description: يقدم هذا المقال المعلومات عن كيفية نشر إصدار تجريبي من Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584258"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959380"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>تسجيل الدخول للإصدارات التجريبية من Project Operations 
 
@@ -19,9 +19,9 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 
 
-يوضح هذا الموضوع كيفية الاشتراك في عرض شريك المعاينة وتوزيع بيئة Dynamics 365 Project Operations.
+يشرح هذا المقال كيفية الاشتراك في عرض شريك الإصدار الأولي ونشر بيئة Dynamics 365 Project Operations.
 
-باستخدام الإصدار التجريبي الجديد لـ Project Operations، يمكنك توزيع أي من سيناريوهات التوزيع الثلاثة المدعومة تلقائيًا من خلال إكمال استبيان يُوصي بأفضل أسلوب توزيع. يقدم هذا الموضوع معلومات حول كيفية:
+باستخدام الإصدار التجريبي الجديد لـ Project Operations، يمكنك توزيع أي من سيناريوهات التوزيع الثلاثة المدعومة تلقائيًا من خلال إكمال استبيان يُوصي بأفضل أسلوب توزيع. يوفر هذا المقال معلومات عن كيفية:
 
 - استرداد عرض الإصدار التجريبي الخاص بك.
 - البدء التزويد.
@@ -89,7 +89,8 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 4.  حدد عنوان URL الخاص بـ Microsoft Dataverse وعناوين URL لتطبيقات التمويل والعمليات للتحقق من صحة التوزيع.
 
 ## <a name="configuring-dual-write"></a>تكوين الكتابة المزدوجة
-- لتكوين أدوار الأمان للكتابة المزدوجة، راجع [تحديث إعدادات الأمان في Project Operations في Dataverse](resource-provision-new-environment.md).
+- لتكوين أدوار الأمان للكتابة المزدوجة، راجع [تحديث إعدادات الأمان في Project Operations في Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- للوصول إلى تكوين الكتابة المزدوجة، انتقل إلى مثيل التمويل والعمليات، ثم انتقل إلى **إدارة البيانات** > **الكتابة المزدوجة**.
 - لتكوين خرائط الكتابة المزدوجة، راجع [تشغيل خرائط الكتابة المزدوجة في Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>تعيين التراخيص

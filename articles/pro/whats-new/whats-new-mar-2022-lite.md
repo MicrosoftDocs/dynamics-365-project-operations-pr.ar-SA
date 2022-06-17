@@ -1,24 +1,24 @@
 ---
 title: الجديد في مارس 2022 - النشر الخفيف لـ Project Operations
-description: يوفر هذا الموضوع معلومات حول تحديثات الجودة المتوفرة في إصدار مارس 2022 من النشر الخفيف لـ Project Operations.
+description: يوفر هذا الموضوع معلومات حول التحديثات الإصلاحية المتوفرة في إصدار مارس 2022 من النشر الخفيف لـ Project Operations.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583734"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934212"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>الجديد في مارس 2022 - النشر الخفيف لـ Project Operations
 
 _ينطبق على: النشر الخفيف – من الصفقة إلى الفوترة الأولية_
 
-ينطبق هذا الموضوع على المكونات والإصدارات التالية من Microsoft Dynamics 365 Project Operations:
+ينطبق هذا المقال على المكونات والإصدارات التالية من Microsoft Dynamics 365 Project Operations:
 
 - Project Operations في بيئة Dataverse الإصدار 4.30.0.99
 
@@ -51,9 +51,9 @@ _ينطبق على: النشر الخفيف – من الصفقة إلى الف�
 
 ## <a name="removed-and-deprecated-features"></a>الميزات التي تمت إزالتها وإهمالها
 
-يصف موضوع [الميزات التي تمت إزالتها أو إهمالها في Project Operations‬](../../whats-new/removed-depreciated-features-project.md) المزايا التي تمت إزالتها أو إهمالها لـ Dynamics 365 Project Operations.
+يصف المقال [الميزات التي تمت إزالتها أو إهمالها في Project Operations‬](../../whats-new/removed-depreciated-features-project.md) المزايا التي تمت إزالتها أو إهمالها لـ Dynamics 365 Project Operations.
 
 - لم تعد الميزة المزالة متوفرة في المنتج.
 - لا توجد ميزة المهملة في التطوير النشط وقد يتم إزالتها في تحديثات مستقبلية.
 
-سيظهر إعلان الإهمال في موضوع [الميزات التي تمت إزالتها أو إهمالها في Project Operations‬‬‏‫](../../whats-new/removed-depreciated-features-project.md) قبل إزالة أي ميزة من المنتج بـ 12 شهرًا.
+سيظهر إعلان الإهمال في المقال [الميزات التي تمت إزالتها أو إهمالها في Project Operations‬‬‏‫](../../whats-new/removed-depreciated-features-project.md) قبل إزالة أي ميزة من المنتج بـ 12 شهرًا.

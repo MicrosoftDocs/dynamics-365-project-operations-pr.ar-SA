@@ -1,6 +1,6 @@
 ---
 title: الصفحة الرئيسية لعينة البيانات
-description: يوفر هذا الموضوع معلومات حول نماذج البيانات المتوفرة لـ Dynamics 365 Project operations.
+description: يوفر هذا المقال معلومات حول عينة البيانات المتوفرة في Dynamics 365 Project operations.
 author: rumant
 ms.date: 06/22/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a6b3bf1eb3256ed1fdc1a043eaabc96c6a7860b3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c48be66622fba247a0947afae6dd1d0c335ead31
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589778"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931820"
 ---
 # <a name="sample-data-home-page"></a>الصفحة الرئيسية لعينة البيانات
 
