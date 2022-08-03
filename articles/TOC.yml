@@ -60,44 +60,50 @@
               href: environment/resource-dual-write-vendor-invoice.md
         - name: إزالة تثبيت Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
-    - name: الجديد
+    - name: ما الجديد
       items:
-        - name: مايو 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-may-2022-resource-based.md
-        - name: أبريل 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-apr-2022-resource-based.md
-        - name: مارس 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-mar-2022-resource-based.md
-        - name: فبراير 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-feb-2022-resource-based.md
-        - name: ديسمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: نوفمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: أكتوبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: سبتمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: أغسطس 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: يوليو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: يونيو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: مايو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-may-2021-resource-based.md
-        - name: أبريل 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: مارس 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-mar-2021-resource-based.md
-        - name: فبراير 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-feb-2021-resource-based.md
-        - name: يناير 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-jan-2021-resource-based.md
-        - name: ديسمبر 2020 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: نوفمبر 2020 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-nov-2020-resource-based.md
+        - name: يوليو 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: أرشيف
+          items:
+            - name: يونيو 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-june-2022-resource-based.md
+            - name: مايو 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-may-2022-resource-based.md
+            - name: أبريل 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-apr-2022-resource-based.md
+            - name: مارس 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-mar-2022-resource-based.md
+            - name: فبراير 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-feb-2022-resource-based.md
+            - name: ديسمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-dec-2021-resource-based.md
+            - name: نوفمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-nov-2021-resource-based.md
+            - name: أكتوبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-oct-2021-resource-based.md
+            - name: سبتمبر 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-sept-2021-resource-based.md
+            - name: أغسطس 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-august-2021-resource-based.md
+            - name: يوليو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-july-2021-resource-based.md
+            - name: يونيو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-june-2021-resource-based.md
+            - name: مايو 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-may-2021-resource-based.md
+            - name: أبريل 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-apr-2021-resource-based.md
+            - name: مارس 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-mar-2021-resource-based.md
+            - name: فبراير 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-feb-2021-resource-based.md
+            - name: يناير 2021 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-jan-2021-resource-based.md
+            - name: ديسمبر 2020 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-dec-2020-resource-based.md
+            - name: نوفمبر 2020 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-nov-2020-resource-based.md
     - name: عملية مبيعات المشروع
       items:
         - name: نظرة عامة على عملية مبيعات المشروع
@@ -468,6 +474,14 @@
           href: actuals/businesstransactions.md
         - name: نظرة عامة على ‏‫القيم الفعلية‬
           href: actuals/actuals-overview.md
+        - name: تأثير القيم الفعلية في الوقت وفي مشاركة المواد
+          href: actuals/ActualsonTM.md
+        - name: التأثير الفعلي في ارتباط ثابت السعر
+          href: actuals/ActualonFP.md
+        - name: تأثير القيم الفعلية خلال مرحلة ما قبل البيع للمشاركة
+          href: actuals/ActualonPreSales.md
+        - name: تأثير القيم الفعلية لمشروع داخلي
+          href: actuals/ActualonInternal.md
         - name: أصول الحركات - ربط القيم الفعلية بالمصدر
           href: actuals/linkingactuals.md
         - name: اتصالات الحركات - ربط القيم الفعلية لأنواع الحركات المختلفة
@@ -513,9 +527,11 @@
             - name: تأكيد فاتورة أولية قائمة على المشروع
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: إنشاء فواتير تصحيحية قائمة على المشروع
-              href: proforma-invoicing/corrective-invoices.md
+              href: pro/proforma-invoicing/corrective-invoices-sales.md
             - name: تكوين التنفيذ التلقائي لفواتير قائمة على المشروع
               href: proforma-invoicing/configure-automated-invoice-creation.md
+            - name: فواتير تصحيحية قائمة على المشروع
+              href: proforma-invoicing/corrective-invoices.md
         - name: فوترة العميل
           items:
             - name: إدارة اقتراحات فواتير المشروع
@@ -592,46 +608,52 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: نموذج الأمان
           href: environment/security-model.md
-    - name: الجديد
+    - name: ما الجديد
       items:
-        - name: الجديد في الوصول المبكر للموجة 2 من إصدار 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: الجديد في مايو 2022 - النشر الخفيف
-          href: pro/whats-new/whats-new-may-2022-lite.md
-        - name: الجديد في أبريل 2022 - النشر الخفيف
-          href: pro/whats-new/whats-new-apr-2022-lite.md
-        - name: الجديد في مارس 2022 - النشر الخفيف
-          href: pro/whats-new/whats-new-mar-2022-lite.md
-        - name: الجديد في فبراير 2022 - النشر الخفيف
-          href: pro/whats-new/whats-new-feb-2022-lite.md
-        - name: الجديد في ديسمبر 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: الجديد في نوفمبر 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: الجديد في أكتوبر 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: الجديد في سبتمبر 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: الجديد في أغسطس 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: الجديد في يوليو 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: الجديد في يونيو 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: الجديد في مايو 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: الجديد في أبريل 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: الجديد في مارس 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: الجديد في فبراير 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: الجديد في يناير 2021 - النشر الخفيف
-          href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: الجديد في ديسمبر 2020 - النشر الخفيف
-          href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: الجديد في نوفمبر 2020 - النشر الخفيف
-          href: pro/whats-new/whats-new-nov-2020-lite.md
+        - name: الجديد في يوليو 2022 - النشر الخفيف
+          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: أرشيف
+          items:
+            - name: الجديد في يونيو 2022 - النشر الخفيف
+              href: pro/whats-new/whats-new-june-2022-lite.md
+            - name: الجديد في الوصول المبكر للموجة 2 من إصدار 2021 - النشر الخفيف
+              href: pro/whats-new/whats-new-2021-early-access-lite.md
+            - name: الجديد في مايو 2022 - النشر الخفيف
+              href: pro/whats-new/whats-new-may-2022-lite.md
+            - name: الجديد في أبريل 2022 - النشر الخفيف
+              href: pro/whats-new/whats-new-apr-2022-lite.md
+            - name: الجديد في مارس 2022 - النشر الخفيف
+              href: pro/whats-new/whats-new-mar-2022-lite.md
+            - name: الجديد في فبراير 2022 - النشر الخفيف
+              href: pro/whats-new/whats-new-feb-2022-lite.md
+            - name: الجديد في ديسمبر 2021 - النشر الخفيف
+              href: pro/whats-new/whats-new-dec-2021-lite.md
+            - name: الجديد في نوفمبر 2021 - النشر الخفيف
+              href: pro/whats-new/whats-new-nov-2021-lite.md
+            - name: الجديد في أكتوبر 2021 - النشر الخفيف
+              href: pro/whats-new/whats-new-oct-2021-lite.md
+            - name: الجديد في سبتمبر 2021 - النشر الخفيف
+              href: pro/whats-new/whats-new-sept-2021-lite.md
+            - name: الجديد في أغسطس 2021 - النشر الخفيف
+              href: pro/whats-new/whats-new-august-2021-lite.md
+            - name: الجديد في يوليو 2021 - النشر الخفيف
+              href: pro/whats-new/whats-new-july-2021-lite.md
+            - name: الجديد في يونيو 2021 - النشر الخفيف
+              href: pro/whats-new/whats-new-june-2021-lite.md
+            - name: الجديد في مايو 2021 - النشر الخفيف
+              href: pro/whats-new/whats-new-may-2021-lite.md
+            - name: الجديد في أبريل 2021 - النشر الخفيف
+              href: pro/whats-new/whats-new-apr-2021-lite.md
+            - name: الجديد في مارس 2021 - النشر الخفيف
+              href: pro/whats-new/whats-new-mar-2021-lite.md
+            - name: الجديد في فبراير 2021 - النشر الخفيف
+              href: pro/whats-new/whats-new-feb-2021-lite.md
+            - name: الجديد في يناير 2021 - النشر الخفيف
+              href: pro/whats-new/whats-new-jan-2021-lite.md
+            - name: الجديد في ديسمبر 2020 - النشر الخفيف
+              href: pro/whats-new/whats-new-dec-2020-lite.md
+            - name: الجديد في نوفمبر 2020 - النشر الخفيف
+              href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: عملية مبيعات المشروع
       items:
         - name: نظرة عامة على عملية مبيعات المشروع
@@ -1068,26 +1090,54 @@
           href: team-member/project-operations-team-member.md
 - name: Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
   items:
-    - name: الجديد
+    - name: الشروع في العمل
       items:
-        - name: الجديد في أكتوبر 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: الجديد في سبتمبر 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: الجديد في يوليو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: الجديد في مايو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: الجديد في أبريل 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: الجديد في مارس 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: الجديد في يناير 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: الجديد في ديسمبر 2020 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: الجديد في نوفمبر 2020 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+        - name: تكوين تكامل البيانات
+          items:
+            - name: نظرة عامة على Project Service Automation
+              href: prod-pma/PSA-integration.md
+            - name: معلمات تكامل Project Service Automation
+              href: prod-pma/PSA-parameters.md
+            - name: مزامنة عقود المشروع و المشروعات مباشرة من Project Service Automation إلى Finance
+              href: prod-pma/project-contracts-templates.md
+            - name: مزامنة القيم الفعلية لمشروع مباشرةً من Project Service Automation إلى دفتر يومية تكامل المشروع للترحيل في التمويل والعمليات
+              href: prod-pma/project-actuals-templates.md
+            - name: مزامنة تقديرات المشروع مباشرة من Project Service Automation إلى Finance and Operations
+              href: prod-pma/project-estimates-templates.md
+            - name: مزامنة فئات مصروفات المشروع بين Finance and Operations وProject Service Automation
+              href: prod-pma/project-categories-templates.md
+            - name: مزامنة مهام المشروع مباشرة من Project Service Automation إلى Finance and Operations
+              href: prod-pma/project-tasks-template.md
+        - name: نشر البيئات
+          items:
+            - name: تحديث Project Operations في بيئة Finance
+              href: whats-new/ur5-nonstocked-installation.md
+    - name: ما الجديد
+      items:
+        - name: الجديد في يوليو 2022 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: أرشيف
+          items:
+            - name: الجديد في يونيو 2022 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+              href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
+            - name: الجديد في أكتوبر 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+              href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+            - name: الجديد في سبتمبر 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+              href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+            - name: الجديد في يوليو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+              href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+            - name: الجديد في مايو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+              href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+            - name: الجديد في أبريل 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+              href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+            - name: الجديد في مارس 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+              href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+            - name: الجديد في يناير 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+              href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+            - name: الجديد في ديسمبر 2020 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+              href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+            - name: الجديد في نوفمبر 2020 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+              href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: نظرة عامة على نشر Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج‬
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: نظرة عامة على إدارة المشاريع والمحاسبة
@@ -1122,6 +1172,8 @@
           href: prod-pma/project-timesheet.md
         - name: الجداول الزمنية للمشروع على جهاز محمول
           href: prod-pma/mobile-timesheets.md
+        - name: إعادة تسمية مرحلة مشروع أو تعديلها
+          href: prod-pma/tasks/rename-project.md
         - name: تنفيذ الحقول المخصصة لتطبيق Project Timesheet للأجهزة المحمولة
           href: prod-pma/custom-fields-mobile.md
     - name: إدارة الموارد
@@ -1150,6 +1202,8 @@
       items:
         - name: تنبؤات المشروع وموازناته
           href: prod-pma/project-forecasts-budgets.md
+        - name: تخصيص ميزانيه مشروع أو مراجعه موازنة عبر الفترات
+          href: prod-pma/tasks/allocate-project.md
         - name: إنشاء نماذج تنبؤ لموازنات المشروع
           href: prod-pma/create-forecast-models-project-budgets.md
         - name: تحويل موازنات المشروع في نهاية السنة المالية
@@ -1246,6 +1300,10 @@
       items:
         - name: إزالة تقدير مشروع
           href: prod-pma/eliminate-project-estimate.md
+    - name: القطاع العام
+      items:
+        - name: استعلام جدول نفقات المكافآت الفيدرالية
+          href: prod-pma/project-sefa-inquiry.md
 - name: إدارة المصروفات
   items:
     - name: نظرة عامة على إدارة المصروفات
@@ -1264,6 +1322,8 @@
           href: expense/set-up-workflows.md
         - name: إدارة التفويض
           href: expense/manage-delegation.md
+        - name: تكوين إدارة المصروفات
+          href: prod-exp/plan-expense-management.md
         - name: تكوين معلمات إدارة المصروفات
           href: expense/configure-expense-management-parameters.md
         - name: إعداد تكامل بطاقة الائتمان
@@ -1278,10 +1338,14 @@
       items:
         - name: التوزيعات في تقرير المصروفات
           href: expense/distributions-expense-report.md
+        - name: استيراد حركات بطاقات الائتمان والمحافظة عليها
+          href: prod-exp/import-credit-card.md
     - name: الموافقة على تقارير المصروفات
       items:
         - name: تقارير المصروفات والموافقون المتعددون
           href: expense/expense-reports-multiple-approvers.md
+        - name: إدارة تفويض المصروفات
+          href: prod-exp/manage-expense-delegation.md
     - name: نشر تقارير المصروفات
       href: expense/posting-expense-reports.md
     - name: طلب السفر
@@ -1296,14 +1360,18 @@
       items:
         - name: استرداد ضريبة القيمة المضافة (VAT)
           href: expense/vat-recovery.md
+        - name: عرض تقرير مصروفات من دفتر الأستاذ العام أو التدبير والتوريد
+          href: prod-exp/view-expense-report.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: الجديد‬
+    - name: ما الجديد
       items:
         - name: جدول إصدار التحديثات لـ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: الجديد أو المتغير في إصدار التحديث 44، V3
+          href: psa/whats-new-ur-44.md
         - name: الجديد أو المتغير في إصدار التحديث 43، V3
           href: psa/whats-new-ur43.md
         - name: الجديد أو المتغير في إصدار التحديث 42، V3
@@ -1361,6 +1429,8 @@
         - name: الجديد أو المتغير في إصدار التحديث 23، V3
           href: psa/whats-new-ur-23.md
         - name: الجديد أو المتغير في إصدار التحديث 22، V3
+          href: psa/whats-new-ur-22.md
+        - name: الجديد أو المتغير في إصدار التحديث 21، V3
           href: psa/whats-new-ur-21.md
         - name: الجديد أو المتغير في إصدار التحديث 20، V3
           href: psa/whats-new-ur-20.md
