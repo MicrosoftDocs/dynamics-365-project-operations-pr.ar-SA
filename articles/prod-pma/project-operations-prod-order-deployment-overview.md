@@ -6,12 +6,12 @@ ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 379fdc7de161e3795100ee932fefed88811ba84e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922758"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028778"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>نظرة عامة على نشر Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج‬
 
@@ -22,10 +22,10 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 - تخطيط المشروع باستخدام [هياكل تنظيم العمل](work-breakdown-structures.md)
 - توريد واستهلاك المخزون المخزّن للمشاريع
-- إدارة المبيعات القائمة على المشروع باستخدام الوحدة النمطية **المبيعات والتسويق** في تطبيقات Dynamics 365 Finance and Operations
-- تسعير المشروع وتحديد تكاليفه باستخدام تكوينات معدل التكلفة ومعدل الفاتورة في تطبيقات Finance and Operations
-- إدارة الموارد للمشاريع في تطبيقات Finance and Operations
-- تقدم المشروع وتعقب الوقت في تطبيقات Finance and Operations
+- إدارة المبيعات القائمة على المشروع باستخدام الوحدة النمطية **المبيعات والتسويق** لتطبيقات التمويل والعمليات في Dynamics 365‬
+- تسعير المشروع وتحديد تكاليفه باستخدام تكوينات سعر التكلفة وسعر الفاتورة في تطبيقات التمويل والعمليات
+- إدارة الموارد للمشاريع في تطبيقات التمويل والعمليات
+- تقدم المشروع وتعقب الوقت في تطبيقات التمويل والعمليات
 - تجارب إدارة المصروفات للمصروفات الخاصة بالمشروع وغير الخاصة بالمشروع مع التقاط الإيصال باستخدام إمكانات التعرف البصري على الحروف‬
 - الفوترة باستخدام نظام ضريبة مبيعات المؤسسات ونظام أسعار الصرف السارية التاريخ
 - مجموعات المشاريع القابلة للتكوين لمحاسبة واستحقاقات الأعمال قيد التنفيذ

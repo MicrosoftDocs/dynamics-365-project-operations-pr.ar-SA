@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fbdcb01117c39f879f80319b01d278c91a56e8f6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e93b4eaad98267f163bad4aff3e4fdcc661e2ab0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932924"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028172"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في مارس 2021 - Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة‬
 
@@ -48,7 +48,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="regulatory-updates"></a>التحديثات التنظيمية
 
-للحصول على معلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). من الطرق الأخرى للتعرف على التحديثات التنظيمية تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخطط لها باستخدام أداة البحث عن المشكلة. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+للحصول على معلومات عن التحديثات التنظيمية لتطبيقات التمويل والعمليات، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). من الطرق الأخرى للتعرف على التحديثات التنظيمية تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخطط لها باستخدام أداة البحث عن المشكلة. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

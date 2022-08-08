@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959380"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029284"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>تسجيل الدخول للإصدارات التجريبية من Project Operations 
 
@@ -86,11 +86,11 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
  
   عند اكتمال التوفير، تكون حالة بيئتك **جاهزة**. يشمل توفير البيئة نشر البيانات التجريبية.
  
-4.  حدد عنوان URL الخاص بـ Microsoft Dataverse وعناوين URL لتطبيقات التمويل والعمليات للتحقق من صحة التوزيع.
+4.  حدد عنوان URL الخاص بـ Microsoft Dataverse وعناوين URL الخاصة بتطبيقات التمويل والعمليات للتحقق من صحة النشر.
 
 ## <a name="configuring-dual-write"></a>تكوين الكتابة المزدوجة
 - لتكوين أدوار الأمان للكتابة المزدوجة، راجع [تحديث إعدادات الأمان في Project Operations في Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- للوصول إلى تكوين الكتابة المزدوجة، انتقل إلى مثيل التمويل والعمليات، ثم انتقل إلى **إدارة البيانات** > **الكتابة المزدوجة**.
+- للوصول إلى تكوين الكتابة المزدوجة، قم بالانتقال إلى مثيل التمويل والعمليات، ثم انتقل إلى **إدارة البيانات** > **الكتابة المزدوجة**.
 - لتكوين خرائط الكتابة المزدوجة، راجع [تشغيل خرائط الكتابة المزدوجة في Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>تعيين التراخيص
@@ -115,9 +115,9 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 - [Dynamics 365 Project Operations](/learn/modules/examine-dynamics-365-project-operations/)
 - [تحديد نوع النشر](determine-deployment-type.md)
 
-## <a name="frequently-asked-questions"></a>الأسئلة الشائعة
+## <a name="frequently-asked-questions"></a>الأسئلة المتداولة
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>ماذا لو كنت بحاجة إلى ALM أو ELM لبيئة تطبيقات التمويل والعمليات الخاصة بي؟
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>ماذا لو احتجت إلى ALM أو ELM لبيئة تطبيقات التمويل والعمليات الخاصة بي؟
 
 - بالنسبة للشركاء الذين يحتاجون لإمكانيات إدارة دورة حياة بيئة كاملة، راجع [طلب ترخيص آلية تحديد الوصول للشريك](https://experience.dynamics.com/requestlicense) لمراجعة عرض الشريك الجديد. 
 - بالنسبة للشركاء الذين يريدون الحصول على مزيد من المعلومات حول حقوق الاستخدام الداخلي، راجع [مزايا البرنامج والسحابة لحقوق الاستخدام الداخلي (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

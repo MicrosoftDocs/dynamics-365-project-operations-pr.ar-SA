@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0fbaed028db11d8fb1551d304a40543faf35b0d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921470"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028313"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Project Operations
 
@@ -26,7 +26,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 تهدف هذه القائمة إلى مساعدتك في التفكير في عمليات الإزالة والإهمال هذه لتخطيطك الخاص.
 
 > [!NOTE]
-> يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات التمويل والعمليات في [**التقارير المرجعية التقنية**](/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة الإصدارات المختلفة من هذه التقارير للتعرف على العناصر التي تم تغييرها أو إزالتها في كل إصدار من تطبيقات التمويل والعمليات.
+> يمكن العثور على معلومات مفصلة عن الكائنات في تطبيقات التمويل والعمليات في [**التقارير المرجعية التقنية**](/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة الإصدارات المختلفة من هذه التقارير للتعرف على الكائنات التي تم تغييرها أو إزالتها في كل إصدار من تطبيقات التمويل والعمليات.
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>الميزات التي تمت إزالتها أو إهمالها في إصدار مارس 2022 من Project Operations
 

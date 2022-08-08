@@ -6,12 +6,12 @@ ms.date: 10/15/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 67f71aa045dc3c9dd513462709db79436c971b7b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8f19f8476ed2b7958f0ba90d135bda483d05c923
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911213"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028186"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>الجديد في نوفمبر 2020 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
 
@@ -23,7 +23,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="regulatory-updates"></a>التحديثات التنظيمية
 
-للحصول على معلومات حول التحديثات التنظيمية لتطبيقات Dynamics 365 Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+للحصول على معلومات عن التحديثات التنظيمية لتطبيقات التمويل والعمليات في Dynamics 365، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

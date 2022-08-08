@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931176"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028457"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>متطلبات العناصر المتعلقة بعقود المشروع مع مصادر تمويل متعددة
 
@@ -33,7 +33,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ### <a name="prerequisites"></a>المتطلبات
 
-- Microsoft Dynamics 365 Finance and Operations **الإصدار 10.0.27 أو الإصدارات الأحدث** مطلوب لاستخدام متطلبات العناصر التي لها حسابات فواتير متعددة.
+- Microsoft Dynamics 365 Finance and Operations **الإصدار 10.0.27 أو الإصدارات الأحدث** مطلوبة لاستخدام متطلبات العناصر التي لها حسابات فواتير متعددة.
 - يجب أن يقوم مسؤول النظام بتمكين ميزة **السماح بمتطلبات العنصر مع مصادر تمويل متعددة لسيناريوهات Project Operations المخزنة / المستندة إلى الإنتاج** في مساحة عمل **إدارة الميزات**.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>إعداد القواعد الافتراضية لحساب الفاتورة

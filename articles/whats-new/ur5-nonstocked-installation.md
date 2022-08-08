@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912454"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030019"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>تحديث Project Operations في بيئة Finance
 
@@ -119,7 +119,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 4. في صفحة **إصدار خريطة الجدول**، قم بتطبيق إصدار جديد من الخريطة على كل كيان من الكيانات الثلاثة.
 5. في صفحة **الكتابة المزدوجة**، حدد تشغيل لإعادة تشغيل الخرائط.
 6. من قائمة الخرائط، حدد خريطة **دفتر الأستاذ (msdyn_ledgers)** مع كافة المتطلبات وحدد خانة الاختيار **المزامنة الأولية**. 
-7. في الحقل **أصل المزامنة الأولية**، قم بتحديد **تطبيقات التمويل والعمليات** ثم قم بتحديد **تشغيل**.
+7. في حقل **أصل المزامنة الأولية** قم بتحديد **تطبيقات التمويل والعمليات** ثم قم بتحديد **تشغيل**.
  
  ![مزامنة خريطة دفتر الأستاذ.](media/DW6.png)
  

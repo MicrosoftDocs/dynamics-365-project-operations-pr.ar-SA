@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924828"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183958"
 ---
 # <a name="review-proposed-resources"></a>مراجعة الموارد المقترحة
 
@@ -40,8 +40,8 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
     تحدث تحديثات الحالة الآتية:
 
     - في الصفحة **مساعد الجدولة**، يتم تحديث مؤشرات الحالة للإشارة إلى أن الحجز مقترح، وليس حجزًا محددًا.
-    - في طلب الموارد، تغيرت الحالة إلى **بحاجة إلى المراجعة**.
-    - في علامة التبويب **الفريق** الخاصة بالمشروع، تغيرت قيمة **حالة الطلب** الخاصة بعضو الفريق العام إلى **بحاجة إلى المراجعة**.
+    - في طلب المورد، يجب على مراجع الطلب تغيير الحالة إلى **بحاجة للمراجعة**".
+    - في علامة تبويب **الفريق** الخاصة بالمشروع، تتغير قيمة **حالة الطلب** الخاصة بعضو الفريق العام إلى **بحاجة للمراجعة**.
 
 يمكن لمدير المشروع قبول الاقتراح أو رفضه.
 

@@ -6,12 +6,12 @@ ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 75a7b63c12b0ad3c6808785b6cbe6f22bd65f126
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923402"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029514"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في نوفمبر 2020 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬
 
@@ -65,7 +65,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | محاسبة المشروع  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | لا يمكن تمكين الميزة، شروط تعاقد متعددة من دون تكامل CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>التحديثات التنظيمية
-للحصول على معلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+للحصول على معلومات عن التحديثات التنظيمية لتطبيقات التمويل والعمليات، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

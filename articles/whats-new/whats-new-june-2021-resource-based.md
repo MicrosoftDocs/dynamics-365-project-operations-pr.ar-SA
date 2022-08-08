@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: fd745107fa6d50882ebea302d3d2ae0de21b79ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910568"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028153"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في يونيو 2021 - Project Operations للسيناريوهات المستندة إلى المنتجات غير المخزنة/الإنتاج
 
@@ -21,7 +21,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 ينطبق هذا المقال على مكونات وإصدارات Dynamics 365 Project Operations التالية:
 
 - بيئة Project Operations على Dynamics 365 Dataverse الإصدار 4.11.0.156 أو 4.11.0.164.
-- إدارة المشاريع والمحاسبة في بيئات تطبيقات Finance and Operations الإصدار 10.0.19.
+- إدارة المشاريع ومحاسبتها في بيئات تطبيقات التمويل والعمليات الإصدار 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
@@ -38,7 +38,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 للحصول على القائمة والإصدارات الحالية لخرائط الكتابة المزدوجة في Project Operations، راجع [إصدارات خرائط الكتابة المزدوجة لـ Project Operations](../environment/resource-dual-write-maps.md).
 
-قم دائمًا بتشغيل أحدث إصدار من الخريطة في بيئتك، وتمكين جميع خرائط الجدول ذات الصلة أثناء تحديث حل Project Operations Dataverse وإصدار حل تطبيقات التمويل والعمليات. قد لا تعمل بعض الميزات والإمكانات بشكل صحيح إذا لم يتم تنشيط أحدث إصدار من المخطط. يمكنك رؤية الإصدار النشط من الخريطة في صفحة **الكتابة المزدوجة** في العمود **الإصدار**. تنشيط إصدار جديد من الخريطة عن طريق تحديد **إصدارات خريطة الجدول**، وتحديد أحدث إصدار، ثم حفظ الإصدار المحدد. إذا قمت بتخصيص مخطط جدول جاهز، فأعد تطبيق التغييرات. مزيد من المعلومات، راجع [إدارة دورة حياة التطبيقات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+قم دائمًا بتشغيل أحدث إصدار من التعيينات في بيئتك، وقم بتمكين جميع تعيينات الجداول ذات الصلة في أثناء تحديث إصدار حل Dataverse لـ Project Operations وحل تطبيقات التمويل والعمليات. قد لا تعمل بعض الميزات والإمكانات بشكل صحيح إذا لم يتم تنشيط أحدث إصدار من المخطط. يمكنك رؤية الإصدار النشط من الخريطة في صفحة **الكتابة المزدوجة** في العمود **الإصدار**. تنشيط إصدار جديد من الخريطة عن طريق تحديد **إصدارات خريطة الجدول**، وتحديد أحدث إصدار، ثم حفظ الإصدار المحدد. إذا قمت بتخصيص مخطط جدول جاهز، فأعد تطبيق التغييرات. مزيد من المعلومات، راجع [إدارة دورة حياة التطبيقات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 إذا واجهتك مشكلة عند بدء تشغيل الخريطة، اتبع التعليمات الموجودة في القسم [مشكلة أعمدة الجدول المفقودة على الخرائط](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) في دليل استكشاف الأخطاء وإصلاحها للكتابة المزدوجة.
 

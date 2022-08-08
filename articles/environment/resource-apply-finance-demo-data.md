@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924644"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029881"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>تطبيق بيانات العرض التوضيحي على بيئة مستضافة في سحابة Finance
 
@@ -76,7 +76,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 18. قم بإغلاق جلسة عمل سطح المكتب البعيد واستخدم صفحة **تفاصيل بيئة** LCS لتسجيل الدخول إلى البيئة للتأكد من أنها تعمل كما هو متوقع.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![التمويل والعمليات.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

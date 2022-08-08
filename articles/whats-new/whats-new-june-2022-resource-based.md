@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fde1f0be42eecfc5ee809cb9b2191d3aeae57131
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 32bc7793c5a0ee8c04272d3ffcbd290b39fce4cc
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959378"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031315"
 ---
 # <a name="whats-new-june-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في يونيو 2022 - Project Operations للسيناريوهات المستندة إلى المنتجات غير المخزنة/الإنتاج
 
@@ -20,7 +20,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ينطبق هذا المقال على المكونات والإصدارات التالية من Microsoft Dynamics 365 Project Operations:
 
-- Project Operations في بيئة Dataverse الإصدار 4.43.0.77
+- Project Operations في إصدار بيئة Dataverse 4.43.0.77أو 4.43.0.119
 - إدارة المشاريع والمحاسبة في بيئة Dynamics 365 Finance، الإصدار 10.0.27
 
 ## <a name="project-operations-dual-write-maps-updates"></a>تحديثات مخططات ‏‫الكتابة المزدوجة في Project Operations

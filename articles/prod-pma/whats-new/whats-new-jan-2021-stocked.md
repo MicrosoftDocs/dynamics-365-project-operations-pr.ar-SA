@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 84a49994267d0c070769090f9fce9c6a969c98be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 210ef2bf0316c5e88c287052f739e438f3796c5b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923908"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029422"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>الجديد أو المتغير في Project Operations، يناير 2021 للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
 
@@ -142,7 +142,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | السفر والمصروفات                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | في Project Operations، لا يمكن إنشاء الوقت مع المهام المشتركة بين الشركات في Dataverse أو الموافقة عليه.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>التحديثات التنظيمية
-للحصول على معلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+للحصول على معلومات عن التحديثات التنظيمية لتطبيقات التمويل والعمليات، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2d773603abef7ab45d4d1c298e5553e57893294d
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 8313288ecf7ff1350cd82c62d3d0c291d8a3ded4
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959375"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031177"
 ---
 # <a name="whats-new-june-2022---project-operations-lite-deployment"></a>الجديد في يونيو 2022 - النشر الخفيف لـ Project Operations
 
@@ -20,7 +20,7 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 
 ينطبق هذا المقال على المكونات والإصدارات التالية من Microsoft Dynamics 365 Project Operations:
 
-- Project Operations في بيئة Dataverse الإصدار 4.43.0.77
+- Project Operations في إصدار بيئة Dataverse 4.43.0.77أو 4.43.0.119
 
 ## <a name="quality-updates"></a>التحديثات الإصلاحية
 

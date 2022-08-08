@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912408"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029232"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في أبريل 2021 - Project Operations للسيناريوهات المستندة إلى الموارد/ المنتجات غير المخزنة
 
@@ -42,13 +42,13 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | **خريطة الكيان** | **الإصدار المُحدث** | **التعليقات** |
 | --- | --- | --- |
 | القيم الفعلية لتكامل Project Operations (msdyn\_actuals) | 1.0.0.14  | تم تعديل المخطط لمزامنة القيم الفعلية لمشروع المواد. |
-| كيان تكامل Project Operations لتقديرات المصروفات (msdyn\_estimateslines) | 1.0.0.2 | تمت إضافة مزامنة سطر عقد المشروع لتطبيقات Finance and Operations لدعم الفواتير المستندة إلى المهام. |
-| كيان تكامل Project Operations لتقديرات الساعات (msdyn\_resourceassignments) | 1.0.0.5  | تمت إضافة مزامنة سطر عقد المشروع لتطبيقات Finance and Operations لدعم الفواتير المستندة إلى المهام. |
-| جدول تكامل Project Operations لتقديرات المواد (msdyn\_estimatelines) | 1.0.0.0  | خريطة جدول جديدة لمزامنة تقديرات المواد من Dataverse إلى تطبيقات Finance and Operations. |
-| كيان تصدير فاتورة مورد المشروع لتكامل Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0  | مخطط جدول جديد لمزامنة رؤوس فواتير البائع من تطبيقات Finance and Operations إلى Dataverse. |
-| كيان تصدير بند فاتورة مورد المشروع لتكامل Project Operations(msdyn\_projectvendorinvoicelines) | 1.0.0.0  | مخطط جدول جديد لمزامنة سطور فواتير البائع من تطبيقات Finance and Operations إلى Dataverse. |
+| كيان تكامل Project Operations لتقديرات المصروفات (msdyn\_estimateslines) | 1.0.0.2 | تمت إضافة مزامنة شرط تعاقد المشروع إلى تطبيقات التمويل والعمليات لدعم الفوترة المستندة إلى المهام. |
+| كيان تكامل Project Operations لتقديرات الساعات (msdyn\_resourceassignments) | 1.0.0.5  | تمت إضافة مزامنة شرط تعاقد المشروع إلى تطبيقات التمويل والعمليات لدعم الفوترة المستندة إلى المهام. |
+| جدول تكامل Project Operations لتقديرات المواد (msdyn\_estimatelines) | 1.0.0.0  | مخطط جدول جديد لمزامنة تقديرات المواد من Dataverse إلى تطبيقات التمويل والعمليات. |
+| كيان تصدير فاتورة مورد المشروع لتكامل Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0  | تعيين جدول جديد لمزامنة رؤوس فواتير المورّد من تطبيقات التمويل والعمليات إلى Dataverse. |
+| كيان تصدير بند فاتورة مورد المشروع لتكامل Project Operations(msdyn\_projectvendorinvoicelines) | 1.0.0.0  | تعيين جدول جديد لمزامنة بنود فواتير المورد من تطبيقات التمويل والعمليات إلى Dataverse. |
 
-يجب عليك دائمًا تشغيل أحدث إصدار من الخريطة في بيئتك، وتمكين جميع خرائط الجدول ذات الصلة أثناء تحديث حل Project Operations Dataverse وإصدار حل Finance and Operations. قد لا تعمل بعض الميزات والإمكانات بشكل صحيح إذا لم يتم تنشيط أحدث إصدار من المخطط. يمكن رؤية الإصدار النشط من المخطط في عمود **الإصدار** في الصفحة **الكتابة المزدوجة**. يمكنك تنشيط إصدار جديد من المخطط من خلال تحديد **إصدارات مخطط الجدول** ثم تحديد الإصدار الأخيرن وحفظ الإصدار المحدد. إذا قمت بتخصيص مخطط جدول جاهز، فأعد تطبيق التغييرات. مزيد من المعلومات، راجع [إدارة دورة حياة التطبيقات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+يجب عليك دائمًا تشغيل أحدث إصدار من المخططات في بيئتك، وتمكين جميع مخططات الجداول ذات الصلة خلال تحديث حل Dataverse لـ Project Operations وإصدار حل التمويل والعمليات. قد لا تعمل بعض الميزات والإمكانات بشكل صحيح إذا لم يتم تنشيط أحدث إصدار من المخطط. يمكن رؤية الإصدار النشط من المخطط في عمود **الإصدار** في الصفحة **الكتابة المزدوجة**. يمكنك تنشيط إصدار جديد من المخطط من خلال تحديد **إصدارات مخطط الجدول** ثم تحديد الإصدار الأخيرن وحفظ الإصدار المحدد. إذا قمت بتخصيص مخطط جدول جاهز، فأعد تطبيق التغييرات. مزيد من المعلومات، راجع [إدارة دورة حياة التطبيقات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 إذا واجهتك مشكلة عند بدء تشغيل المخطط، فاتبع الإرشادات في قسم [مشكلة أعمدة الجدول المفقود في المخططات](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) من دليل استكشاف أخطاء الكتابة المزدوجة وإصلاحها.
 

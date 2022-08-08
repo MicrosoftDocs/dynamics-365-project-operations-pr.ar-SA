@@ -6,12 +6,12 @@ ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a25e2a59f1c069057c6689825ce52b13d842af71
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911994"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028548"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>نشر تطبيق Project Operations Dataverse يدويًا مع دعم الكتابة المزدوجة
 
@@ -37,7 +37,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 3. حدد نوع البيئة. إذا قمت بالاشتراك في العرض التجريبي، فحدد **"تجريبي" (مستند إلى الاشتراك)**.
 4. تأكيد منطقة النشر.
 5. تمكين خيار **إنشاء قاعدة بيانات لهذه البيئة**. 
-6. قم بتأكيد اللغة، ثم قم بتأكيد تطابق العملة مع العملة الخاصة بتطبيقات Finance and Operations الخاصة بك.
+6. قم بتأكيد اللغة، ثم قم بتأكيد تطابق العملة مع العملة الخاصة بتطبيقات التمويل والعمليات الخاصة بك.
 7. تمكين الخيار **تطبيقات Dynamics 365** وتأكد من تعيين الحقل **النشر التلقائي لهذه التطبيقات** على **بلا**.
 8. قم بإضافة مجموعة أمان، إذا كانت مجموعة الأمان مطلوبة.
 9. حدد **حفظ** لإنشاء البيئة.
@@ -62,4 +62,4 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="link-your-environments"></a><a name="link"></a>ربط بيئاتك
 
-بعد توزيع بيئة Dataverse، يمكنك إعداد الارتباط في تطبيقات Finance and Operations. اتبع الخطوات المتبعة في [استخدام معالج الكتابة المزدوجة لربط بيئاتك](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+بعد توزيع بيئة Dataverse يمكنك إعداد الارتباط في تطبيقات التمويل والعمليات الخاصة بك. اتبع الخطوات المتبعة في [استخدام معالج الكتابة المزدوجة لربط بيئاتك](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

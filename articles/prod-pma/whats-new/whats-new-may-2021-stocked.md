@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: eff34a4e9fc1fc6429f1fa7a3e4b0d5b664222f9
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927128"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029376"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>‏‫الجديد أو المتغير في Project Operations، مايو 2021 للسيناريوهات المخزنة/المستندة إلى الإنتاج
 
@@ -93,7 +93,7 @@ ms.locfileid: "8927128"
 | السفر والمصروفات                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | توجد مشكلات في المزامنة مع تطبيق المصروفات للأجهزة المحمولة. 
 
 ### <a name="regulatory-updates"></a>التحديثات التنظيمية
-للحصول على معلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى Lifecycle Services (LCS) وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشكلات. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+للحصول على معلومات عن التحديثات التنظيمية لتطبيقات التمويل والعمليات، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى Lifecycle Services (LCS) وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشكلات. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

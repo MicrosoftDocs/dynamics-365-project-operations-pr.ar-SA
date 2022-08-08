@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 727f2c782370b61fce65385fe29fbfa6f2387087
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911304"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028732"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>الجديد أو المتغير في Project Operations، مارس 2021 للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
 
@@ -121,7 +121,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | إدارة المشاريع والمحاسبة | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | تم إهمال أسلوب فئة هيكل تنظيم العمل القديم **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder**.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>التحديثات التنظيمية
-للحصول على معلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+للحصول على معلومات عن التحديثات التنظيمية لتطبيقات التمويل والعمليات، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

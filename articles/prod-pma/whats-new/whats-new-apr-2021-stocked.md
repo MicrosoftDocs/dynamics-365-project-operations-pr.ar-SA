@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 74cace069e0b5a982e6ea1df0607ff72f1911a0f
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916456"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028138"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>الجديد أو المتغير في Project Operations، أبريل 2021 للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
 
@@ -83,7 +83,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | السفر والمصروفات                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | عندما تكون فئة مصروفات فئة غير خاصة بمشروع، لا يتم نسخ البُعد المالي المحدد في صفحة **المصروفات** إلى تقرير المصروفات.                                          |
 
 ### <a name="regulatory-updates"></a>التحديثات التنظيمية
-للحصول على معلومات حول التحديثات التنظيمية لتطبيقات Finance and Operations، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
+للحصول على معلومات عن التحديثات التنظيمية لتطبيقات التمويل والعمليات، راجع [التحديثات التنظيمية](/dynamics365/finance/localizations/regulatory-updates). يمكنك أيضًا تسجيل الدخول إلى LCS وعرض التحديثات التنظيمية المخططة باستخدام أداة البحث عن المشاكل. تتيح لك عملية البحث عن المشاكل بالبحث حسب البلد ونوع الميزة والإصدار.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
