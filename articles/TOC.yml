@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: ما الجديد
       items:
-        - name: يوليو 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: أغسطس 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: أرشيف
           items:
+            - name: يوليو 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: يونيو 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: مايو 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
@@ -384,6 +386,42 @@
           items:
             - name: نظرة عامة على استخدام الموارد
               href: resource-management/resource-utilization-overview.md
+    - name: إدارة التعاقد من الباطن‬
+      items:
+        - name: إدارة العقود الفرعية في Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: ‏‫المفاهيم الأساسية في التعاقد من الباطن
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: إدارة الموردين وقوائم أسعار المشروع
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: ‏‫المقاولون من الباطن كموارد قابلة للحجز
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: تفاصيل الرأس للعقود من الباطن
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: بنود التعاقد من الباطن للوقت
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: بنود التعاقد من الباطن لفئات المصروفات
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: بنود التعاقد من الباطن للمنتجات
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: موارد التعاقد من الباطن
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: الأحداث الرئيسية لشروط التعاقد من الباطن
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: التعاقد من الباطن مع أعضاء فريق المشروع
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: خيارات التعاقد من الباطن مع أعضاء فريق المشروع
+          href: pro/subcontracting/subcon-options.md
+        - name: تقدير تكلفة تعيينات الموارد المتعاقد عليها من الباطن
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: تكوين لوحة الجدولة لإظهار العمال المتعاقدين والقدرة الإنتاجية المتعاقد عليها من الباطن
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: التوظيف في المشروع بالعمال المتعاقدين والقدرة الإنتاجية المتعاقد عليها من الباطن
+          href: pro/subcontracting/staffing-cw.md
+        - name: تسجيل الوقت والمصروفات واستخدام المواد للمكونات المتعاقد عليها من الباطن
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: انتقالات الحالة في عقد من الباطن
+          href: pro/subcontracting/subcon-states.md
     - name: الوقت
       items:
         - name: نظرة عامة على الوقت
@@ -580,6 +618,8 @@
       items:
         - name: ترحيل مراحل الفوترة المفوترة بالكامل أثناء التكوين المرحلي
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: لمزامنة حالة المشروع لمنع الإدخال مقابل المشروعات المغلقة
+          href: advanced-configuration/sync-project-status.md
     - name: ترقية
       items:
         - name: اعتبارات الترقية للموافقات الحديثة
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: ما الجديد
       items:
-        - name: الجديد في يوليو 2022 - النشر الخفيف
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: الجديد في أغسطس 2022 - النشر الخفيف
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: أرشيف
           items:
+            - name: الجديد في يوليو 2022 - النشر الخفيف
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: الجديد في يونيو 2022 - النشر الخفيف
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: الجديد في الوصول المبكر للموجة 2 من إصدار 2021 - النشر الخفيف
