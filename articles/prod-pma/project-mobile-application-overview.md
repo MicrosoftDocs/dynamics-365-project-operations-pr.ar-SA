@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 74d3f5377559763e035155bd3f10818076f97ea3
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9028870"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316971"
 ---
 # <a name="project-mobile-applications-overview"></a>نظرة عامة على تطبيقات المشروع للأجهزة المحمولة
 
@@ -42,9 +42,8 @@ ms.locfileid: "9028870"
 ## <a name="for-more-information"></a>لمزيد من المعلومات
 
 - [تطبيق الأجهزة المحمولة الخاص بجدول زمني المشروع](project-timesheet.md)
-- [إدخال وقت المشروع]( project-time-entry-mobile-workspace.md)
+- [إدخال وقت المشروع](project-time-entry-mobile-workspace.md)
 - [أوراق المشروع الزمنية علي جهاز محمول](Mobile-timesheets.md)
 - [تنفيذ الحقول المخصصة لتطبيق الأجهزة المحمولة لـ Microsoft Dynamics 365 Project Timesheet على iOS وAndroid](custom-fields-mobile.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,17 +1,17 @@
 ---
-title: إعداد بيانات التكوين وتطبيقها في Common Data Service
+title: إعداد بيانات التكوين وتطبيقها في Microsoft Dataverse
 description: يوفر هذا المقال معلومات حول كيفية اعداد بيانات التكوين‬ وتطبيقها في Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928002"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230209"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>إعداد بيانات التكوين وتطبيقها في Common Data Service 
 
@@ -19,12 +19,12 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 
 
-## <a name="prerequisites"></a>المتطلبات الأساسية
+## <a name="prerequisites"></a>المتطلبات
 
-قبل أن تبدأ في تهيئة البيانات في Common Data Service (CDS)، فإنه يجب استيفاء المتطلبات الأساسية التالية:
+قبل أن تبدأ في تكوين البيانات في Microsoft Dataverse، يجب الوفاء بالمتطلبات الأساسية التالية:
 
-1.  توفير بيئة CDS وبيئة Dynamics 365 Finance لـ Project Operations.
-2.  يتم مشاركة معلومات الكيان القانوني من Dynamics 365 Finance مع بيئة CDS. وهذا يعني أن كيان **الشركة** في CDS يتضمن سجلات الشركة التالية:
+1.  توفير بيئة Dataverse وبيئة Dynamics 365 Finance لـ Project Operations.
+2.  تتم مشاركة معلومات الكيان القانوني من Dynamics 365 Finance مع بيئة Dataverse. ويعني هذا أن كيان **الشركة** في Dataverse يتضمن سجلات الشركة التالية:
   - THPM
   - USPM
   - GBPM
