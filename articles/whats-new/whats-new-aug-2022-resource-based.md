@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9347993"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403840"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>الجديد في أغسطس 2022 - Project Operations للسيناريوهات المستندة إلى المنتجات غير المخزنة/الموارد
 
@@ -38,6 +38,11 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | منطقة الميزات | رقم المرجع | تحديث إصلاحي |
 | --- | --- | --- |
 | إدارة الفرص | 2762089  | خطأ في المعالجة أثناء إغلاق العقد على أنه مفقود إذا تم تعطيل الحفظ التلقائي في المؤسسة.|
+|تخطيط المشاريع وتعقبها | 2767841  | يعمل قياس تتبع الاستخدام على تحديث سيناريوهات إنشاء أو تحديث كيان المشروع.|
+|الفوترة والتسعير | 2771072  | معالجة استثناء مرجعي فارغ عند التعامل أثناء عرض أسعار الفوز.|
+|الفوترة والتسعير | 2844181  |فشل في الحصول على معرف الارتباط وحظر إنشاء فاتورة.|
+|الفوترة والتسعير | 2852836  | القيم الفعلية للشركات الشقيقة مفقودة للمصروفات بين الشركات التي تم إنشاؤها وموافقتها في CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>إدارة المشاريع والمحاسبة في Finance
 
