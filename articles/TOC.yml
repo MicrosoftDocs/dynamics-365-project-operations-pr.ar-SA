@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: نسخ عروض أسعار المشروع
               href: sales/lose-quote.md
+            - name: تنشيط عرض أسعار المشروع ومرجعته
+              href: sales/activation-and-revision.md
             - name: إغلاق عروض أسعار المشروع
               href: sales/win-quote.md
         - name: إدارة عقود المشروع
@@ -198,11 +200,13 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: إنشاء جداول فواتير على شروط التعاقد المستندة إلى المشروع
                   href: sales/invoice-schedules-contract-line.md
+            - name: نسخ العقود المستندة إلى المشروع
+              href: sales/copy-project-based-contracts-sales.md
             - name: تأكيد عقد مشروع
               href: pro/sales/confirm-contract-sales.md
             - name: مقدمات الأتعاب والسُلف
               items:
-                - name: إعداد السلف والعقود المستندة إلى مقدم الأتعاب
+                - name: العقود المستندة إلى السلف ومقدم الأتعاب
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: إعداد جدولة مقدم الأتعاب
                   href: pro/sales/set-up-schedule-retainers-sales.md
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: تجاوز قوائم أسعار مبيعات المشروع
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: حل أسعار التكلفة للتقديرات والقيم الفعلية
+            - name: تحديد أسعار التكلفة للتقديرات والقيم الفعلية
               href: pricing-costing/cost-price-resolution.md
-            - name: حل أسعار المبيعات للتقديرات والقيم الفعلية
+            - name: تحديد أسعار المبيعات للتقديرات والقيم الفعلية
               href: pricing-costing/sales-price-resolution.md
             - name: نسخ قوائم الأسعار
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: نسخ عروض الأسعار المستندة إلى المشروع
               href: sales/lose-quote.md
+            - name: تنشيط عرض أسعار المشروع ومرجعته
+              href: sales/activation-and-revision.md
             - name: إغلاق عروض الأسعار المستندة إلى المشروع
               href: pro/sales/win-quote-sales.md
         - name: إدارة العقود المستندة إلى المشروع
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: تجاوز قوائم أسعار مبيعات المشروع
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: حل أسعار التكلفة على التقديرات والقيم الفعلية للمشروع
+            - name: تحديد أسعار التكلفة على التقديرات والقيم الفعلية للمشروع
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: حل أسعار المبيعات للتقديرات والقيم الفعلية للمشروع
+            - name: تحديد أسعار المبيعات للتقديرات والقيم الفعلية للمشروع
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: نسخ قوائم الأسعار
               href: pricing-costing/copy-price-lists.md
