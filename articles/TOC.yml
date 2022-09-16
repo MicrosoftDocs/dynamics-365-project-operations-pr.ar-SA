@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: تجاوز قوائم أسعار مبيعات المشروع
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: إعداد تجاوزات تواريخ السريان‬ على التاريخ لأسعار معينة في قائمة أسعار
+              href: pricing-costing/dateffective_price_overrides.md
             - name: تحديد أسعار التكلفة للتقديرات والقيم الفعلية
               href: pricing-costing/cost-price-resolution.md
             - name: تحديد أسعار المبيعات للتقديرات والقيم الفعلية
@@ -544,11 +546,19 @@
           href: procurement/pending-vendor-invoices.md
         - name: طلب سلع وخدمات للمشاريع باستخدام أوامر شراء المشروع
           href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: الاحتفاظ بالموردين
+        - name: فواتير المورّدين الخاصة بالتعاقدات من الباطن‬ في Dataverse
           items:
-            - name: نظرة عامة على الاحتفاظ بالموردين
+            - name: إنشاء فواتير المورّد
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: التحقق من فواتير المورّد بالقيم الفعلية التي تمت الموافقة عليها
+              href: pro/subcontracting/VI-Verification.md
+            - name: تأكيد فواتير مورّد المشروع
+              href: procurement/Confirm-a-project-vendor-invoice.md
+        - name: الاحتفاظ بالمورّدين
+          items:
+            - name: نظرة عامة على الاحتفاظ بالمورّدين
               href: procurement/vendor-retention-overview.md
-            - name: إعداد الاحتفاظ بالموردين
+            - name: إعداد الاحتفاظ بالمورّدين
               href: procurement/set-up-vendor-retention.md
     - name: الفوترة
       items:
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: تجاوز قوائم أسعار مبيعات المشروع
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: إعداد تجاوزات تواريخ السريان‬ على التاريخ لأسعار معينة في قائمة أسعار
+              href: pricing-costing/dateffective_price_overrides.md
             - name: تحديد أسعار التكلفة على التقديرات والقيم الفعلية للمشروع
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: تحديد أسعار المبيعات للتقديرات والقيم الفعلية للمشروع
@@ -1050,7 +1062,7 @@
           href: pro/subcontracting/vi-line-milestone.md
         - name: بنود فاتورة المورد لفئات المصروفات
           href: pro/subcontracting/vi-line-expense.md
-        - name: التحقق من فواتير المورد بالقيم الفعلية التي تمت الموافقة عليها
+        - name: التحقق من فواتير المورّد بالقيم الفعلية التي تمت الموافقة عليها
           href: pro/subcontracting/VI-Verification.md
         - name: إلغاء فاتورة مورد مشروع
           href: pro/subcontracting/cancel-vi.md
