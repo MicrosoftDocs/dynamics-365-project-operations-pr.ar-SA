@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230206"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446019"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>الترقية من Project Service Automation إلى Project Operations
 
@@ -29,7 +29,7 @@ ms.locfileid: "9230206"
 
 سيتم تقسيم برنامج تسليم الترقية إلى ثلاث مراحل.
 
-| تسليم الترقية | المرحلة الأولى (يناير 2022) | المرحلة الثانية (موجة أبريل 2022) | المرحلة 3  |
+| تسليم الترقية | المرحلة الأولى (يناير 2022) | المرحلة الثانية (نوفمبر 2022) | المرحلة الثانية (موجة أبريل 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | لا تبعية على هيكل تنظيم العمل (WBS) للمشاريع | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | هيكل تنظيم العمل (WBS) ضمن الحدود المدعومة حاليًا في Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ ms.locfileid: "9230206"
 
 كجزء من عملية الترقية، أضفنا سجلات الترقية إلى مخطط الموقع، لتمكين المسؤولين من تشخيص حالات الفشل بسهولة أكبر. بالإضافة إلى الواجهة الجديدة، ستُضاف قواعد تحقق من الصحة جديدة لضمان سلامة البيانات بعد الترقية. ستُضاف عمليات التحقق من الصحة التالية إلى عملية الترقية.
 
-| عمليات التحقق من الصحة | المرحلة الأولى (يناير 2022) | المرحلة الثانية (موجة أبريل 2022) | المرحلة 3  |
+| عمليات التحقق من الصحة | المرحلة الأولى (يناير 2022) | المرحلة الثانية (نوفمبر 2022) | المرحلة 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | سيتم التحقق من صحة WBS مقابل علاقة عمليات الانتهاك الشائعة لسلامة البيانات (على سبيل المثال، تعيينات الموارد المقترنة بنفس المهمة الأصلية ولكن لديها مشاريع أصلية مختلفة). | | :heavy_check_mark: | :heavy_check_mark: |
 | سيتم التحقق من صحة WBS في مقابل [الحدود المعروفة في Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |

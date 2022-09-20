@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925334"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459910"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>تغييرات الميزة من Project Service Automation إلى Project Operations
 
 سيتم تسليم الترقية من Dynamics 365 Project Service Automation إلى Dynamics 365 Project Operations Lite على ثلاث مراحل. يوفر هذا المقال معلومات حول التغييرات الرئيسية التي يمكن أن تتوقع رؤيتها عند اكتمال الترقية.
 
-| تسليم الترقية | المرحلة 1 <br>(يناير 2022) | المرحلة 2 <br>(موجة أبريل 2022) | المرحلة 3  |
+| تسليم الترقية | المرحلة 1 <br>(يناير 2022) | المرحلة 2 <br>(نوفمبر 2022) | المرحلة 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | لا تبعية على هيكل تنظيم العمل (WBS) للمشاريع. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | هيكل تنظيم العمل (WBS) مضمن في الحدود المدعومة حاليًا في Project Operations. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
