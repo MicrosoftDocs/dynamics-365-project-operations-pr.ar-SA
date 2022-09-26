@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: استدعاء الكيانات التي تمت الموافقة عليها مسبقًا
           href: approvals/recall-cancel.md
+        - name: الأمان والموافقات
+          href: approvals/approvals-security.md
         - name: ملاحظات المطورين
           items:
             - name: ملاحظات المطورين للموافقات
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: إعداد الاحتفاظ بالمورّدين
               href: procurement/set-up-vendor-retention.md
+            - name: الدفع عند الاستلام
+              href: procurement/Pay-when-paid.md
     - name: الفوترة
       items:
         - name: نظرة عامة على عملية الفوترة
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: استدعاء الكيانات التي تمت الموافقة عليها مسبقًا
           href: approvals/recall-cancel.md
+        - name: الأمان والموافقات
+          href: approvals/approvals-security.md
         - name: ملاحظات المطورين
           items:
             - name: ملاحظات المطورين للموافقات
