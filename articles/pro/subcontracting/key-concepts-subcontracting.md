@@ -2,21 +2,21 @@
 title: المفاهيم الأساسية في التعاقد من الباطن
 description: يشرح هذا المقال بعض المفاهيم الأساسية التي تنطبق على التعاقد من الباطن في Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 08/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9577169f12198222e647ed07ae8a1b6c55da4323
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262153"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522732"
 ---
 # <a name="key-concepts-in-subcontracting"></a>المفاهيم الأساسية في التعاقد من الباطن
 
 
-_**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
+_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 يشرح هذا المقال بعض المفاهيم الأساسية التي يجب أن تكون على علم بها قبل بدء استخدام وظيفة التعاقد من الباطن في Microsoft Dynamics 365 Project Operations.
 

@@ -2,21 +2,21 @@
 title: إدارة العقود الفرعية في Project Operations
 description: يقدم هذا المقال نظرة عامة على عملية إدارة عقد من الباطن بشكل كامل عادةً في المؤسسات التي تعتمد على المشروعات.
 author: rumant
-ms.date: 08/02/2021
+ms.date: 09/14/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 783ab1b642bb8cfe2fb3b977a95c8064f33a7994
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b2e4518f77b2099f9818ea56623be9efb20b01f4
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261153"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522309"
 ---
 # <a name="subcontract-management-in-project-operations"></a>إدارة العقود الفرعية في Project Operations
 
 
-_**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
+_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 يقدم هذا المقال نظرة عامة على عملية إدارة عقد من الباطن بشكل كامل في المؤسسات التي تعتمد على المشروعات. عادةً ما يتبع التعاقد من الباطن للخدمات سير إجراءات العمل الموضحة في الرسم البياني التالي.
 

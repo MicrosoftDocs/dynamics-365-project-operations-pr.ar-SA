@@ -1,8 +1,8 @@
 ---
 title: نشر تقارير المصروفات
 description: يشرح هذا المقال كيفية ترحيل تقارير المصروفات.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934488"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524853"
 ---
 # <a name="post-expense-reports"></a>نشر تقارير المصروفات
 
@@ -30,5 +30,15 @@ ms.locfileid: "8934488"
 
 يمكنك أيضا ترحيل كافة تقارير المصروفات الموجودة في القائمة في نفس الوقت. حدد كافة تقارير المصروفات، ثم حدد **نشر**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>تمكين القدرة على ترحيل التزام المصروفات بعملة المورد لميزة طريقة الدفع النقدي
+
+تتيح ميزة **القدرة على ترحيل التزام المصروفات بعملة المورد لطريقة الدفع النقدي** ترحيل تقارير المصروفات بعملة المورّد لطريقة الدفع النقدي.
+
+في الوقت الحالي، عند إرسال المصروفات النقدية، يتم ترحيل تقارير المصروفات بعملة المحاسبة. بسبب تحويل المبلغ بين عملة الحركة وعملة المحاسبة وعملة المورد، يتم دفع مبلغ غير صحيح للموردين، إذا كان تاريخ حركة المصروفات وتاريخ الدفع الفعلي لهما أسعار صرف مختلفة.
+
+ستضمن هذه الميزة تسجيل رصيد المورد بعملة المورد عند ترحيل تقرير المصروفات.
+
+1. انتقل إلى **مساحات العمل** \> **إدارة الميزة**.
+2. في القائمة، ابحث عن وحدد **القدرة على ترحيل التزام المصروفات بعملة المورد لطريقة الدفع النقدي‬**، ثم حدد **تمكين الآن**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,20 +2,20 @@
 title: تسجيل الوقت والمصروفات واستخدام المواد للمكونات المتعاقد عليها من الباطن
 description: يشرح هذا المقال كيف يتعقب Microsoft Dynamics 365 Project Operations معلومات الوقت والمصروفات واستخدام المواد التي تم تسجيلها على المشاريع من مكونات المتعاقد عليها من الباطن.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 89fbbfcd1535660e92d0cc80beb91029331e990f
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b82c14412cfb0405040902a2329c3b6692422d89
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261120"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522497"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>تسجيل الوقت والمصروفات واستخدام المواد على المشاريع للمكونات المتعاقد عليها من الباطن
 
-_**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
+_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 يشرح هذا المقال كيف يتعقب Microsoft Dynamics 365 Project Operations معلومات الوقت والمصروفات واستخدام المواد التي تم تسجيلها على المشاريع من مكونات المتعاقد عليها من الباطن.
 

@@ -2,20 +2,20 @@
 title: انتقالات الحالات في تعاقد من الباطن
 description: يشرح هذا المقال انتقالات الحالات على تعاقد من الباطن في Microsoft Dynamics 365 Project Operations عند إنشاء التعاقد من الباطن وتنفيذه وإغلاقه.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 2804fc30f8dade42dc1093e5fc0f01fa1db22ca3
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261157"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522872"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>انتقالات الحالات في تعاقد من الباطن 
 
-_**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
+_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 يشرح هذا المقال انتقالات الحالات على تعاقد من الباطن Microsoft Dynamics 365 Project Operations. يتم تمثيل كل حالة إما كمسودة أو مؤكدة أو مغلقة أو ملغاة. تمثل الصورة التالية انتقالات الحالات.
 

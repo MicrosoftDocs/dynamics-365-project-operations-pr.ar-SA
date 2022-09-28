@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029193"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9527971"
 ---
 # <a name="expense-management-integration"></a>تكامل إدارة المصروفات
 
@@ -34,7 +34,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 
 ## <a name="expense-reports"></a>تقارير المصروفات
 
-يتم إنشاء تقارير المصروفات والموافقة عليها في تطبيقات التمويل والعمليات. لمزيد من المعلومات، راجع [إنشاء ومعالجة تقارير المصروفات في Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). بعد اعتماد تقرير المصروفات من قبل مدير المشروع، يتم ترحيلها إلى دفتر الأستاذ العام. في Project Operations، يتم ترحيل بنود تقرير المصروفات المتعلقة بالمشروع باستخدام قواعد الترحيل الخاصة:
+يتم إنشاء تقارير المصروفات والموافقة عليها في تطبيقات التمويل والعمليات. لمزيد من المعلومات، راجع [إنشاء ومعالجة تقارير المصروفات في Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). بعد اعتماد تقرير المصروفات من قبل مدير المشروع، يتم ترحيلها إلى دفتر الأستاذ العام. في Project Operations، يتم ترحيل بنود تقرير المصروفات المتعلقة بالمشروع باستخدام قواعد الترحيل الخاصة:
 
   - لا يتم ترحيل التكلفة المرتبطة بالمشروع (بما في ذلك الضريبة غير القابلة للاسترداد) على الفور إلى حساب تكلفة المشروع في دفتر الأستاذ العام، ولكن بدلاً من ذلك يتم ترحيلها إلى حساب تكامل المصروفات. يتم تكوين هذا الحساب في **إدارة المشاريع والمحاسبة** > **الإعداد** > **معلمات إدارة المشاريع والمحاسبة**، علامة التبويب **Project Operations في Dynamics 365 Customer engagement**
   - مزامنة الكتابة المزدوجة مع Dataverse باستخدام مخطط جدول **كيان تصدير مصروفات المشروع لتكامل عمليات Project Operations (msdyn\_المصروفات)**.

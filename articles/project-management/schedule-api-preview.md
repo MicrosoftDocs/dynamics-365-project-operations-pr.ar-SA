@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230299"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541108"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>استخدام واجهات برمجة التطبيقات لجدولة المشروع لتنفيذ عمليات مع كيانات الجدولة
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 
-
-## <a name="scheduling-entities"></a>كيانات الجدولة
+**كيانات الجدولة**
 
 توفر واجهات برمجة التطبيقات لجدولة المشروع القدرة على تنفيذ عمليات إنشاء وتحديث وحذف باستخدام **كيانات الجدولة**. تُدار هذه الكيانات من خلال محرك جدولة في المشروع للويب. كانت عمليات الإنشاء والتحديث والحذف باستخدام **كيانات الجدولة** مقيدة في إصدارات Dynamics 365 Project Operations السابقة.
 
 يوفر الجدول التالي قائمة كاملة بكيانات جدولة المشروع.
 
-| اسم الكيان  | اسم منطقي للكيان |
-| --- | --- |
-| Project | msdyn_project |
-| مهمة المشروع  | msdyn_projecttask  |
-| تبعية مهمة المشروع  | msdyn_projecttaskdependency  |
-| تعيين المورد | msdyn_resourceassignment |
-| مستودع المشروع  | msdyn_projectbucket |
-| عضو فريق المشروع | msdyn_projectteam |
+| **اسم الكيان**         | **اسم منطقي للكيان**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| مهمة المشروع            | msdyn_projecttask           |
+| تبعية مهمة المشروع | msdyn_projecttaskdependency |
+| تعيين المورد     | msdyn_resourceassignment    |
+| مستودع المشروع          | msdyn_projectbucket         |
+| عضو فريق المشروع     | msdyn_projectteam           |
+| قوائم اختيار المشروع      | msdyn_projectchecklist      |
+| تسمية المشروع           | msdyn_projectlabel          |
+| مهمة المشروع المُراد تسميتها   | msdyn_projecttasktolabel    |
+| الدورة المتكررة للمشروع‬          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 إن OperationSet عبارة نمط وحدة عمل يمكن استخدامه عندما يكون من الضروري معالجة طلبات متعددة تؤثر على الجدولة ضمن حركة.
 
-## <a name="project-schedule-apis"></a>واجهات برمجة التطبيقات لجدولة المشروع
+**واجهات برمجة التطبيقات لجدولة المشروع**
 
 وفيما يلي قائمة بواجهات برمجة التطبيقات لجدولة المشروع.
 
-- **msdyn_CreateProjectV1**: يمكن استخدام واجهة برمجة التطبيقات هذه لإنشاء مشروع. يتم إنشاء المشروع والحاوية الافتراضية للمشروع على الفور.
-- **msdyn_CreateTeamMemberV1**: يمكن استخدام واجهة برمجة التطبيقات هذه لإنشاء عضو فريق مشروع. يتم إنشاء سجل عضو الفريق على الفور.
-- **msdyn_CreateOperationSetV1**: يمكن استخدام واجهة برمجة التطبيقات هذه لجدولة طلبات متعددة يجب تنفيذها ضمن حركة.
-- **msdyn_PssCreateV1**: يمكن استخدام واجهة برمجة التطبيقات هذه لإنشاء كيان. يمكن أن يكون الكيان أيًا من كيانات جدولة المشروع التي تدعم عملية الإنشاء.
-- **msdyn_PssUpdateV1**: يمكن استخدام واجهة برمجة التطبيقات هذه لتحديث كيان. يمكن أن يكون الكيان أيًا من كيانات جدولة المشروع التي تدعم عملية التحديث.
-- **msdyn_PssDeleteV1**: يمكن استخدام واجهة برمجة التطبيقات هذه لحذف كيان. يمكن أن يكون الكيان أيًا من كيانات جدولة المشروع التي تدعم عملية الحذف.
-- **msdyn_ExecuteOperationSetV1**: يتم استخدام واجهة برمجة التطبيقات هذه لتنفيذ جميع العمليات ضمن مجموعة عمليات معينة.
+| **API**                                 | الوصف                                                                                                                        |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | تُستخدم API هذه لإنشاء مشروع. يتم إنشاء المشروع والحاوية الافتراضية للمشروع على الفور.                         |
+| **msdyn_CreateTeamMemberV1**            | تُستخدم API هذه لإنشاء عضو فريق مشروع. يتم إنشاء سجل عضو الفريق على الفور.                                  |
+| **msdyn_CreateOperationSetV1**          | تُستخدم API هذه لجدولة طلبات متعددة يجب تنفيذها ضمن حركة.                                        |
+| **msdyn_PssCreateV1**                   | تُستخدم API هذه لإنشاء كيان. يمكن أن يكون الكيان أيًا من كيانات جدولة المشروع التي تدعم عملية الإنشاء. |
+| **msdyn_PssUpdateV1**                   | تُستخدم API هذه لتحديث كيان. بإمكان الكيان أن يكون عبارة عن أي من كيانات جدولة المشروع التي تدعم عملية التحديث  |
+| **msdyn_PssDeleteV1**                   | تُستخدم API هذه لحذف كيان. يمكن أن يكون الكيان أيًا من كيانات جدولة المشروع التي تدعم عملية الحذف. |
+| **msdyn_ExecuteOperationSetV1**         | تُستخدم API هذه لتنفيذ جميع العمليات ضمن مجموعة عمليات معينة.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | تُستخدم API هذه في تحديث مجموعة العمل المخططة لتعيين الموارد.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>استخدام واجهات برمجة التطبيقات لجدولة المشروع مع OperationSet
+
+
+**استخدام واجهات برمجة التطبيقات لجدولة المشروع مع OperationSet**
 
 نظرًا لاستخدام السجلات مع كل من **CreateProjectV1** و **CreateTeamMemberV1** على الفور، لا يمكن استخدام واجهات برمجة التطبيقات هذه في **OperationSet** بشكل مباشر. ومع ذلك، يمكنك استخدام واجهة برمجة التطبيقات لإنشاء السجلات المطلوبة، وإنشاء  **OperationSet**، ثم استخدام هذه السجلات المنشأة مسبقًا في **OperationSet**.
 
-## <a name="supported-operations"></a>العمليات المدعومة
+**العمليات المدعومة**
 
-| كيان الجدولة | ‏إنشاء | ‏‏تحديث | حذف  | اعتبارات هامة |
-| --- | --- | --- | --- | --- |
-مهمة المشروع | نعم  | نعم  | نعم  | يمكن تحرير حقول **Progress** و **EffortCompleted** و **EffortRemaining** في Project for the Web، ولكن لا يمكن تحريرها في Project Operations.  |
-| تبعية مهمة المشروع | نعم  |  | نعم  | لا يتم تحديث سجلات تبعية مهمة المشروع. بدلاً من ذلك، يمكن حذف سجل قديم، ويمكن إنشاء سجل جديد. |
-| تعيين الموارد | نعم  | نعم  | | العمليات مع الحقول التالية غير مدعومة: **BookableResourceID** و **Effort** و **EffortCompleted** و **EffortRemaining** ة **PlannedWork**. لا يتم تحديث سجلات تعيين الموارد. بدلاً من ذلك، يمكن حذف السجل القديم، ويمكن إنشاء سجل جديد. |
-| مستودع المشروع | نعم  | نعم  | نعم  | يتم إنشاء الحاوية الافتراضية باستخدام واجهة برمجة تطبيقات **CreateProjectV1**. تمت إضافة دعم إنشاء حاويات المشروع وحذفها في تحديث الإصدار 16. |
-| عضو فريق المشروع | نعم  | نعم  | نعم  | بالنسبة لعملية الإنشاء، استخدم واجهة برمجة التطبيقات **CreateTeamMemberV1**. |
-| Project | نعم  | نعم  |  | العمليات مع الحقول التالية غير مدعومة: **StateCode** و **BulkGenerationStatus** و **GlobalRevisionToken** و **CalendarID** و **Effort** و **EffortCompleted** و **EffortRemaining** و **Progress** و **Finish** و **TaskEarliestStart** و **Duration**. |
+| **كيان الجدولة**   | **‏إنشاء** | **تحديث** | **حذف** | **اعتبارات هامة**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| مهمة المشروع            | نعم         | نعم         | نعم         | يمكن تحرير حقول **Progress** و **EffortCompleted** و **EffortRemaining** في Project for the Web، ولكن لا يمكن تحريرها في Project Operations.                                                                                                                                                                                             |
+| تبعية مهمة المشروع | نعم         | لا          | نعم         | لا يتم تحديث سجلات تبعية مهمة المشروع. بدلاً من ذلك، يمكن حذف سجل قديم، ويمكن إنشاء سجل جديد.                                                                                                                                                                                                                                 |
+| تعيين الموارد     | نعم         | نعم\*      | نعم         | العمليات مع الحقول التالية غير مدعومة: **BookableResourceID** و **Effort** و **EffortCompleted** و **EffortRemaining** ة **PlannedWork**. لا يتم تحديث سجلات تعيين الموارد. بدلاً من ذلك، يمكن حذف السجل القديم، ويمكن إنشاء سجل جديد. تم توفير API منفصلة لتحديث خطوط تعيين الموارد. |
+| مستودع المشروع          | نعم         | نعم         | نعم         | يتم إنشاء الحاوية الافتراضية باستخدام واجهة برمجة تطبيقات **CreateProjectV1**. تمت إضافة دعم إنشاء حاويات المشروع وحذفها في تحديث الإصدار 16.                                                                                                                                                                                                   |
+| عضو فريق المشروع     | نعم         | نعم         | نعم         | بالنسبة لعملية الإنشاء، استخدم واجهة برمجة التطبيقات **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
+| Project                 | نعم         | نعم         |            | العمليات مع الحقول التالية غير مدعومة: **StateCode** و **BulkGenerationStatus** و **GlobalRevisionToken** و **CalendarID** و **Effort** و **EffortCompleted** و **EffortRemaining** و **Progress** و **Finish** و **TaskEarliestStart** و **Duration**.                                                                                       |
+| قوائم اختيار المشروع      | نعم         | نعم         | نعم         |                                                                                                                                                                                                                                                                                                                                                         |
+| تسمية المشروع           | لا          | نعم         | لا          | يمكن تغيير أسماء بطاقات التسميات. هذه الميزة متاحة فقط لـ Project for the Web.                                                                                                                                                                                                                                                                      |
+| مهمة المشروع المُراد تسميتها   | نعم         | لا          | نعم         | هذه الميزة متاحة فقط لـ Project for the Web.                                                                                                                                                                                                                                                                                                  |
+| الدورة المتكررة للمشروع‬          | نعم         | نعم         | نعم         | يجب أن يكون حقل **البدء** أقدم من حقل **الإنهاء**. لا يمكن أن تتداخل الدورات المتكررة لنفس المشروع مع بعضها البعض. هذه الميزة متاحة فقط لـ Project for the Web.                                                                                                                                                                    |
 
-يمكن استدعاء واجهات برمجة التطبيقات مع كائنات الكيانات التي تتضمن حقولاً مخصصة.
+
+
 
 خاصية المعرف اختيارية. إذا تم توفيرها، يحاول النظام استخدامها ويلقي استثناءً إذا لم يكن من الممكن استخدامها. إذا لم يتم توفيرها، سيقوم النظام بإنشائها.
 
-## <a name="restricted-fields"></a>الحقول المقيدة
+**القيود والمشاكل المعروفة**
 
-يُعرف الجداول التالي الحقول المقيدة من **الإنشاء** و **التحرير**.
-
-### <a name="project-task"></a>مهمة المشروع
-
-| الاسم المنطقي                           | يمكن الإنشاء     | يمكنه التحرير         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | لا              | لا                |
-| msdyn_actualcost_base                  | لا              | لا                |
-| msdyn_actualend                        | لا              | لا                |
-| msdyn_actualsales                      | لا              | لا                |
-| msdyn_actualsales_base                 | لا              | لا                |
-| msdyn_actualstart                      | لا              | لا                |
-| msdyn_costatcompleteestimate           | لا              | لا                |
-| msdyn_costatcompleteestimate_base      | لا              | لا                |
-| msdyn_costconsumptionpercentage        | لا              | لا                |
-| msdyn_effortcompleted                  | لا (نعم للمشروع)             | لا (نعم للمشروع)               |
-| msdyn_effortremaining                  | لا (نعم للمشروع)              | لا (نعم للمشروع)                |
-| msdyn_effortestimateatcomplete         | لا              | لا                |
-| msdyn_iscritical                       | لا              | لا                |
-| msdyn_iscriticalname                   | لا              | لا                |
-| msdyn_ismanual                         | لا              | لا                |
-| msdyn_ismanualname                     | لا              | لا                |
-| msdyn_ismilestone                      | لا              | لا                |
-| msdyn_ismilestonename                  | لا              | لا                |
-| msdyn_LinkStatus                       | لا              | لا                |
-| msdyn_linkstatusname                   | لا              | لا                |
-| msdyn_msprojectclientid                | لا              | لا                |
-| msdyn_plannedcost                      | لا              | لا                |
-| msdyn_plannedcost_base                 | لا              | لا                |
-| msdyn_plannedsales                     | لا              | لا                |
-| msdyn_plannedsales_base                | لا              | لا                |
-| msdyn_pluginprocessingdata             | لا              | لا                |
-| msdyn_progress                         | لا (نعم للمشروع)             | لا (نعم للمشروع) |
-| msdyn_remainingcost                    | لا              | لا                |
-| msdyn_remainingcost_base               | لا              | لا                |
-| msdyn_remainingsales                   | لا              | لا                |
-| msdyn_remainingsales_base              | لا              | لا                |
-| msdyn_requestedhours                   | لا              | لا                |
-| msdyn_resourcecategory                 | لا              | لا                |
-| msdyn_resourcecategoryname             | لا              | لا                |
-| msdyn_resourceorganizationalunitid     | لا              | لا                |
-| msdyn_resourceorganizationalunitidname | لا              | لا                |
-| msdyn_salesconsumptionpercentage       | لا              | لا                |
-| msdyn_salesestimateatcomplete          | لا              | لا                |
-| msdyn_salesestimateatcomplete_base     | لا              | لا                |
-| msdyn_salesvariance                    | لا              | لا                |
-| msdyn_salesvariance_base               | لا              | لا                |
-| msdyn_scheduleddurationminutes         | لا              | لا                |
-| msdyn_scheduledend                     | لا              | لا                |
-| msdyn_scheduledstart                   | لا              | لا                |
-| msdyn_schedulevariance                 | لا              | لا                |
-| msdyn_skipupdateestimateline           | لا              | لا                |
-| msdyn_skipupdateestimatelinename       | لا              | لا                |
-| msdyn_summary                          | لا              | لا                |
-| msdyn_varianceofcost                   | لا              | لا                |
-| msdyn_varianceofcost_base              | لا              | لا                |
-
-### <a name="project-task-dependency"></a>تبعية مهمة المشروع
-
-| الاسم المنطقي                  | يمكن الإنشاء     | يمكنه التحرير     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | لا              | لا            |
-| msdyn_linktypename            | لا              | لا            |
-| msdyn_predecessortask         | نعم             | لا            |
-| msdyn_predecessortaskname     | نعم             | لا            |
-| msdyn_project                 | نعم             | لا            |
-| msdyn_projectname             | نعم             | لا            |
-| msdyn_projecttaskdependencyid | نعم             | لا            |
-| msdyn_successortask           | نعم             | لا            |
-| msdyn_successortaskname       | نعم             | لا            |
-
-### <a name="resource-assignment"></a>تعيين الموارد
-
-| الاسم المنطقي                 | يمكن الإنشاء     | يمكنه التحرير     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | نعم             | لا            |
-| msdyn_bookableresourceidname | نعم             | لا            |
-| msdyn_bookingstatusid        | لا              | لا            |
-| msdyn_bookingstatusidname    | لا              | لا            |
-| msdyn_committype             | لا              | لا            |
-| msdyn_committypename         | لا              | لا            |
-| msdyn_effort                 | لا              | لا            |
-| msdyn_effortcompleted        | لا              | لا            |
-| msdyn_effortremaining        | لا              | لا            |
-| msdyn_finish                 | لا              | لا            |
-| msdyn_plannedcost            | لا              | لا            |
-| msdyn_plannedcost_base       | لا              | لا            |
-| msdyn_plannedcostcontour     | لا              | لا            |
-| msdyn_plannedsales           | لا              | لا            |
-| msdyn_plannedsales_base      | لا              | لا            |
-| msdyn_plannedsalescontour    | لا              | لا            |
-| msdyn_plannedwork            | لا              | لا            |
-| msdyn_projectid              | نعم             | لا            |
-| msdyn_projectidname          | لا              | لا            |
-| msdyn_projectteamid          | لا              | لا            |
-| msdyn_projectteamidname      | لا              | لا            |
-| msdyn_start                  | لا              | لا            |
-| msdyn_taskid                 | لا              | لا            |
-| msdyn_taskidname             | لا              | لا            |
-| msdyn_userresourceid         | لا              | لا            |
-
-### <a name="project-team-member"></a>عضو فريق المشروع
-
-| الاسم المنطقي                                     | يمكن الإنشاء     | يمكنه التحرير     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | لا              | لا            |
-| msdyn_creategenericteammemberwithrequirementname | لا              | لا            |
-| msdyn_deletestatus                               | لا              | لا            |
-| msdyn_deletestatusname                           | لا              | لا            |
-| msdyn_effort                                     | لا              | لا            |
-| msdyn_effortcompleted                            | لا              | لا            |
-| msdyn_effortremaining                            | لا              | لا            |
-| msdyn_finish                                     | لا              | لا            |
-| msdyn_hardbookedhours                            | لا              | لا            |
-| msdyn_hours                                      | لا              | لا            |
-| msdyn_markedfordeletiontimer                     | لا              | لا            |
-| msdyn_markedfordeletiontimestamp                 | لا              | لا            |
-| msdyn_msprojectclientid                          | لا              | لا            |
-| msdyn_percentage                                 | لا              | لا            |
-| msdyn_requiredhours                              | لا              | لا            |
-| msdyn_softbookedhours                            | لا              | لا            |
-| msdyn_start                                      | لا              | لا            |
-
-### <a name="project"></a>Project
-
-| الاسم المنطقي                           | يمكن الإنشاء     | يمكنه التحرير     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | لا              | لا            |
-| msdyn_actualexpensecost_base           | لا              | لا            |
-| msdyn_actuallaborcost                  | لا              | لا            |
-| msdyn_actuallaborcost_base             | لا              | لا            |
-| msdyn_actualsales                      | لا              | لا            |
-| msdyn_actualsales_base                 | لا              | لا            |
-| msdyn_contractlineproject              | نعم             | لا            |
-| msdyn_contractorganizationalunitid     | نعم             | لا            |
-| msdyn_contractorganizationalunitidname | نعم             | لا            |
-| msdyn_costconsumption                  | لا              | لا            |
-| msdyn_costestimateatcomplete           | لا              | لا            |
-| msdyn_costestimateatcomplete_base      | لا              | لا            |
-| msdyn_costvariance                     | لا              | لا            |
-| msdyn_costvariance_base                | لا              | لا            |
-| msdyn_duration                         | لا              | لا            |
-| msdyn_effort                           | لا              | لا            |
-| msdyn_effortcompleted                  | لا              | لا            |
-| msdyn_effortestimateatcompleteeac      | لا              | لا            |
-| msdyn_effortremaining                  | لا              | لا            |
-| msdyn_finish                           | نعم             | نعم           |
-| msdyn_globalrevisiontoken              | لا              | لا            |
-| msdyn_islinkedtomsprojectclient        | لا              | لا            |
-| msdyn_islinkedtomsprojectclientname    | لا              | لا            |
-| msdyn_linkeddocumenturl                | لا              | لا            |
-| msdyn_msprojectdocument                | لا              | لا            |
-| msdyn_msprojectdocumentname            | لا              | لا            |
-| msdyn_plannedexpensecost               | لا              | لا            |
-| msdyn_plannedexpensecost_base          | لا              | لا            |
-| msdyn_plannedlaborcost                 | لا              | لا            |
-| msdyn_plannedlaborcost_base            | لا              | لا            |
-| msdyn_plannedsales                     | لا              | لا            |
-| msdyn_plannedsales_base                | لا              | لا            |
-| msdyn_progress                         | لا              | لا            |
-| msdyn_remainingcost                    | لا              | لا            |
-| msdyn_remainingcost_base               | لا              | لا            |
-| msdyn_remainingsales                   | لا              | لا            |
-| msdyn_remainingsales_base              | لا              | لا            |
-| msdyn_replaylogheader                  | لا              | لا            |
-| msdyn_salesconsumption                 | لا              | لا            |
-| msdyn_salesestimateatcompleteeac       | لا              | لا            |
-| msdyn_salesestimateatcompleteeac_base  | لا              | لا            |
-| msdyn_salesvariance                    | لا              | لا            |
-| msdyn_salesvariance_base               | لا              | لا            |
-| msdyn_scheduleperformance              | لا              | لا            |
-| msdyn_scheduleperformancename          | لا              | لا            |
-| msdyn_schedulevariance                 | لا              | لا            |
-| msdyn_taskearlieststart                | لا              | لا            |
-| msdyn_teamsize                         | لا              | لا            |
-| msdyn_teamsize_date                    | لا              | لا            |
-| msdyn_teamsize_state                   | لا              | لا            |
-| msdyn_totalactualcost                  | لا              | لا            |
-| msdyn_totalactualcost_base             | لا              | لا            |
-| msdyn_totalplannedcost                 | لا              | لا            |
-| msdyn_totalplannedcost_base            | لا              | لا            |
-
-### <a name="project-bucket"></a>مستودع المشروع
-
-| الاسم المنطقي          | يمكن الإنشاء      | يمكنه التحرير     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | نعم              | لا            |
-| msdyn_name            | نعم              | نعم           |
-| msdyn_project         | نعم              | لا            |
-| msdyn_projectbucketid | نعم              | لا            |
-
-## <a name="limitations-and-known-issues"></a>القيود والمشاكل المعروفة
 فيما يلي قائمة بالقيود والمشاكل المعروفة:
 
-- لا يمكن استخدام واجهات برمجة تطبيقات جدولة المشروع إلا بواسطة **المستخدمين الذين لديهم ترخيص Microsoft Project**. لا يمكن استخدامها بواسطة:
+-   لا يمكن استخدام واجهات برمجة تطبيقات جدولة المشروع إلا بواسطة **المستخدمين الذين لديهم ترخيص Microsoft Project**. لا يمكن استخدامها بواسطة:
+    -   مستخدمي التطبيق
+    -   مستخدمي النظام
+    -   مستخدمي التكامل
+    -   المستخدمين الآخرين الذين ليس لديهم الترخيص المطلوب
+-   تتضمن كل **OperationSet** مئة عملية كحدٍ أقصى.
+-   بإمكان كل مستخدم أن يحصل على عشر **OperationSet** مفتوحة كحدٍ أقصى.
+-   يدعم Project Operations في الوقت الحالي 500 مهمة إجمالية كحد أقصى على مشروع.
+-   يتم عد كل عملية تحديث مخطط تعيين موارد كعملية واحدة.
+-   يمكن لكل قائمة بالمخططات المحدثة أن تحتوي على 100 شريحة وقت كحد أقصى.
+-   في الوقت الحالي، لا تتوفر حالة فشل **OperationSet** وسجلات الفشل.
+-   توجد 400 دورة متكررة كحد أقصى لكل مشروع.
+-   [القيود والحدود على المشاريع والمهام](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   التسميات متاحة فقط لـ Project for the Web حاليًا.
 
-    - مستخدمي التطبيق
-    - مستخدمي النظام
-    - مستخدمي التكامل
-    - المستخدمين الآخرين الذين ليس لديهم الترخيص المطلوب
+**معالجة الخطأ**
 
-- تتضمن كل **OperationSet** مئة عملية كحدٍ أقصى.
-- بإمكان كل مستخدم أن يحصل على عشر **OperationSet** مفتوحة كحدٍ أقصى.
-- يدعم Project Operations في الوقت الحالي 500 مهمة إجمالية كحد أقصى على مشروع.
-- في الوقت الحالي، لا تتوفر حالة فشل **OperationSet** وسجلات الفشل.
-- [القيود والحدود على المشروعات والمهام](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   لمراجعة الأخطاء التي تم إنشاؤها من مجموعات العمليات، انتقل إلى **الإعدادات** \> **تكامل الجدول** \> **مجموعات العمليات**.
+-   لمراجعة الأخطاء التي تم إنشاؤها من خدمة جدولة المشروع، انتقل إلى **إعدادات** \> **‏‫تكامل الجدولة** \> **سجلات أخطاء PSS**.
 
-## <a name="error-handling"></a>معالجة الخطأ
+**تحرير مخططات تعيين الموارد**
 
-- لمراجعة الأخطاء التي تم إنشاؤها من مجموعات العمليات، انتقل إلى **الإعدادات** \> **تكامل الجدول** \> **مجموعات العمليات**.
-- لمراجعة الأخطاء التي تم إنشاؤها من خدمة جدولة المشروع، انتقل إلى **إعدادات** \> **‏‫تكامل الجدولة** \> **سجلات أخطاء PSS**.
+على عكس جميع واجهات API الأخرى لجدولة المشروع التي تقوم بتحديث الكيان، إن واجهة API تعيين الموارد هي المسؤولة وحدها عن التحديثات لحقل واحد، msdyn_plannedwork، في كيان واحد، msydn_resourceassignment.
 
-## <a name="sample-scenario"></a>سيناريو نموذجي
+وضع الجدولة المحدد هو:
+
+-   **وحدات ثابتة**
+-   تقويم المشروع هو 9-5 مساءً من 9 إلى 5 مساءً بتوقيت المحيط الهادئ، الإثنين، الثلاثاء، الخميس، الجمعة (لا يوجد أيام عمل أيام الأربعاء)
+-   وتقويم الموارد هو 9-1 مساء بتوقيت المحيط الهادئ من الإثنين إلى الجمعة
+
+هذه المهمة لمدة أسبوع واحد، أربع ساعات في اليوم. هذا لأن تقويم المورد من 9-1 بتوقيت المحيط الهادي، أو أربع ساعات في اليوم.
+
+| &nbsp;     | المهمة | تاريخ البدء | تاريخ الانتهاء  | الكمية | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| عامل 9-1 |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+على سبيل المثال، إذا كنت تريد أن يعمل العامل ثلاث ساعات فقط كل يوم في هذا الأسبوع ويسمح له بساعة واحدة للقيام بمهام أخرى.
+
+#### <a name="updatedcontours-sample-payload"></a>حمولة عينة المخططات المحدثة:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+هذا هو التعيين بعد تشغيل واجهة API لتحديث جدولة المخططات.
+
+| &nbsp;     | المهمة | تاريخ البدء | تاريخ الانتهاء  | الكمية | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| عامل 9-1 | T1   | 6/13/2022  | 6/17/2022 | 15       | 3          | 3          | 3          | 3          | 3          |
+
+
+**سيناريو نموذجي**
 
 في هذا السيناريو، ستقوم بإنشاء مشروع، وعضو فريق، وأربع مهام، وعمليتي تعيين للموارد. بعد ذلك، عليك تحديث مهمة واحدة وتحديث المشروع وحذف مهمة واحدة وحذف تعيين مورد واحد وإنشاء تبعية مهمة.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>عينات إضافية
+** عينات إضافية
 
 ```csharp
 #region Call actions --- Sample code ----

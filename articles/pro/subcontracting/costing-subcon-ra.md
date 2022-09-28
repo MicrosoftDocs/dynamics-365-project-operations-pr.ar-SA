@@ -2,20 +2,20 @@
 title: تقدير تكلفة تعيينات الموارد المتعاقد عليها من الباطن
 description: يشرح هذا المقال كيفية قيام Microsoft Dynamics 365 Project Operations باحتساب تقدير تكلفة تعيينات الموارد المتعاقد عليها من الباطن‬.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262043"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522638"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>تقدير تكلفة تعيينات الموارد المتعاقد عليها من الباطن
 
-_**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
+_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 يتم احتساب تكلفة تعيينات المهام لأعضاء فريق المشروع المتعاقدين من الباطن باستخدام قائمة أسعار **الشراء** المرفقة بالتعاقد من الباطن على سجل عضو الفريق المرتبط. وهذا يختلف عن كيفية حساب تكلفة تعيينات موارد الموظفين حيث يتم احتساب تكلفة تعيينات المهام الخاصة بموارد الموظفين باستخدام قائمة أسعار **التكلفة** المرفقة بوحدة التعاقد الخاصة بالمشروع. 
 

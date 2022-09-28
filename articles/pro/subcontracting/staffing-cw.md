@@ -2,20 +2,20 @@
 title: التوظيف في المشروع بواسطة العاملين المتعاقدين والقدرة الإنتاجية المتعاقد عليها من الباطن
 description: يشرح هذا المقال كيفية استخدام العاملين المتعاقدين والقدرة الإنتاجية المتعاقد عليها من الباطن لتزويد المشروع بالموظفين لتلبية متطلباته في Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261238"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522419"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>التوظيف في المشروع بواسطة العاملين المتعاقدين والقدرة الإنتاجية المتعاقد عليها من الباطن
 
-_**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
+_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 يمكن تزويد أعضاء فريق المشروع العامين بموظفين أو عاملين متعاقدين. عند تزويد المشروع بعاملين متعاقدين، يمكنك تحديد خيارات التوظيف بحيث تقتصر على العاملين المتعاقدين، المعينين إلى بند تعاقد من الباطن. 
 

@@ -2,20 +2,20 @@
 title: موارد شروط التعاقد من الباطن
 description: يشرح هذا المقال كيفية تحديد الموارد المخصصة التي يتم توفيرها من قبل المورّد لشرط تعاقد معين للوقت.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261448"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522356"
 ---
 # <a name="subcontract-line-resources"></a>موارد شروط التعاقد من الباطن
 
-_**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
+_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 
 في Dynamics 365 Project Operations، يمكن للمورد تحديد الموارد التي سيتم استخدامها لتوريد القدرة الإنتاجية للموارد التي يتم شراؤها على شروط التعاقد من الباطن بالوقت.
 

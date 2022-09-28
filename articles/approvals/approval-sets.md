@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918066"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524900"
 ---
 # <a name="approval-sets"></a>مجموعات الموافقة
 
@@ -45,14 +45,9 @@ _**ينطبق علي:** ‏‫Project Operations للسيناريوهات الم
 ## <a name="configure-approval-sets"></a>تكوين مجموعات الموافقة
 
 ### <a name="enable-the-approval-sets-feature"></a>تمكين ميزة مجموعات الموافقة
-قبل تمكين ميزة مجموعات الموافقة، تحقق من عدم وجود موافقات تتم معالجتها حاليًا.
+قبل تمكين ميزة مجموعات الموافقة، تحقق من عدم وجود موافقات تتم معالجتها حاليًا. بعد تمكين هذه الميزة، لا يمكن تعطيلها.
 
 - انتقل إلى الصفحة **معلمات المشروع** وحدد **التحكم في الميزات** > **تمكين الموافقات الحديثة**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>إيقاف تشغيل ميزة مجموعات الموافقة
-قبل إيقاف تشغيل ميزة مجموعات الموافقة، تحقق من عدم وجود موافقات تتم معالجتها حاليًا.
-
-- انتقل إلى الصفحة **معلمات المشروع** وحدد **التحكم في الميزات** > **تعطيل الموافقات الحديثة**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>تكوين الحد غير المتزامن 
 عند إنشاء مجموعات الموافقة، يتم نقل المعالجة إلى الخلفية عندما يتجاوز العدد المحدد من السجلات للموافقة الحد المُشار إليه. استخدم الحقل **الحد غير المتزامن** لتكوين الوقت الذي يجب فيه تشغيل معالجة الموافقة بشكل متزامن أو غير متزامن. حدد أحد القيم التالية:
