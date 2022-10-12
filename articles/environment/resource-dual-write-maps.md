@@ -6,12 +6,12 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112413"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621065"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>إصدارات مخطط الكتابة المزدوجة في Project Operations
 
@@ -48,14 +48,14 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | مصدر تمويل المشروع (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | غير مطلوب للتزويد. ||
 | جدول تكامل المشروع الخاص بتقديرات المواد (msdyn\_estimatelines) | 1.0.0.0  | غير مطلوب للتزويد. ||
 | اقتراحات فواتير المشروع V2 (الفواتير) | 1.0.0.3 | غير مطلوب للتزويد. ||
-| القيم الفعلية لتكامل Project Operations (msdyn_actuals) | 1.0.0.14  | غير مطلوب للتزويد. ||
+| القيم الفعلية لتكامل Project Operations (msdyn_actuals) | 1.0.0.15  | غير مطلوب للتزويد. |10.0.29 أو إصدار أحدث|
 | المراحل الرئيسية لشروط عقد تكامل Project Operations ‏ (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | غير مطلوب للتزويد. ||
 | كيان تكامل Project Operations لتقديرات المصروفات (msdyn_estimatelines) | 1.0.0.2 | غير مطلوب للتزويد. ||
 | كيان تكامل Project Operations لتقديرات الساعات (msdyn_resourceassignments) | 1.0.0.5  | غير مطلوب للتزويد. ||
 | كيان تصدير فئات مصروفات مشروع لتكامل Project Operations (msdyn_expensecategories) | 1.0.0.1 | غير مطلوب للتزويد. ||
 | كيان تصدير مصروفات مشروع لتكامل Project Operations (msdyn_expenses) | 1.0.0.3 | غير مطلوب للتزويد. ||
-| كيان تصدير فاتورة مورد المشروع لتكامل Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | غير مطلوب للتزويد. |10.0.26 أو إصدار أحدث|
-| كيان تصدير بند فاتورة مورد المشروع لتكامل Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | غير مطلوب للتزويد. | 10.0.26 أو إصدار أحدث |
+| كيان تصدير فاتورة مورد المشروع لتكامل Project Operations (msdyn_projectvendorinvoices) | 1.0.0.2 | غير مطلوب للتزويد. |10.0.29 أو إصدار أحدث|
+| كيان تصدير بند فاتورة مورد المشروع لتكامل Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.5  | غير مطلوب للتزويد. | 10.0.29 أو إصدار أحدث |
 | أدوار موارد المشروع لجميع الشركات (bookableresourcecategories) | 1.0.0.1  | يتطلب الأمر إجراء مزامنة أولية لمخطط الجدول لمزامنة أدوار موارد مدير المشروع وعضو الفريق التي تم ملؤها في بيئة Dynamics 365 Dataverse أثناء التزويد. Dataverse هو المصدر الرئيسي للمزامنة الأولية. ||
 | مهام المشروع (msdyn_projecttasks) | 1.0.0.4  | غير مطلوب للتزويد. ||
 | فئات معاملات المشروع (msdyn_transactioncategories) | 1.0.0.0  | غير مطلوب للتزويد. ||
