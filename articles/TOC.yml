@@ -1534,9 +1534,17 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: الجديد أو المتغير في Project Service Automation V3
           href: psa/whats-new-changed-v3.md
+    - name: ترقية Project Service Automation (إصدار التطبيق Project Operations 4.x - خفيف)
+      items:
+        - name: الترقية من Project Service Automation إلى Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: تغييرات الميزات من Project Service Automation إلى Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: عملية تحويل جدولة المشاريع من Project Service Automation إلى Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: تخطيط التنفيذ (إصدار التطبيق 3.x)
       items:
-        - name: تثبيت عينات البيانات
+        - name: تثبيت عينة البيانات
           href: psa/install-sample-data-3-x.md
         - name: دليل تخطيط المشاريع وتعقبها
           href: psa/implementation-guides/project-planning-tracking.md
@@ -1550,7 +1558,7 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: الترقية من Project Service Automation إلى Project Operations - خفيف
       href: psa/upgrade-project-operations-non-stocked.md
-    - name: تغييرات الميزة من Project Service Automation إلى Project Operations
+    - name: تغييرات الميزات من Project Service Automation إلى Project Operations
       href: psa/psa-project-operations-changes.md
     - name: ترقية Project Service Automation (إصدار التطبيق 3.x)
       items:

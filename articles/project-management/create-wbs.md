@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932050"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655172"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>إنشاء هيكل تنظيم العمل (WBS)
 
@@ -112,6 +112,18 @@ ms.locfileid: "8932050"
 يمكنك استخدام الجدول في Project Operations لإنشاء العلاقات السابقة بين المهام. يستخدم حقل **النشاط السابق** قيمة واحدة أو أكثر للإشارة إلى المهام التي تعتمد عليها المهمة. عند تعيين قيم أنشطة سابقة لمهمة، يمكن بدء المهمة فقط بعد إكمال كافة المهام السابقة. وبسبب التبعية، تتم إعادة تعيين تاريخ البدء المخطط للمهمة إلى تاريخ إتمام المهام السابقة.
 
 لا يؤثر وضع المهمة على التحديثات التي يتم إجراؤها على تاريخي البدء والانتهاء للمهام السابقة/التابعة.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>فهم تأثيرات المدة وتقويمات الموارد وتقويمات المشروع على المهام
+يتم تحديد مدة المهمة على أنها عدد ساعات العمل بين وقت بدء تاريخ البدء ووقت الانتهاء لتاريخ انتهاء المهمة.   يحدد Project for the Web وحدات المدة الزمنية على النحو التالي:
+
+| **قياس المدة** | **الكمية**|
+|----------------------------------------------------|----------------------|
+| ساعة في اليوم | 8 |
+| ساعة في الأسبوع |  40 |
+| يوم في الشهر |  20 |
+
+تتم جدولة المهام غير المعينة باستخدام تقويم المشروع. ومع ذلك، فإنه بعد تعيين الموارد الأولية، يتم تحديث جدولة المهمة بحيث تُراعي تقويم المورد. سيتم تنظيم التغييرات اللاحقة على المهمة التي لها تعيين من خلال [وضع الجدولة](scheduling-modes.md) الخاص بالمشروع. لمعرفة المزيد حول تأثير التقويمات على المهام، راجع [تقويمات الموارد في Project for the Web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) و [أوقات بدء المهمة ومشروعاتك!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>اختصارات لوحة المفاتيح وذوي الاحتياجات الخاصة
 

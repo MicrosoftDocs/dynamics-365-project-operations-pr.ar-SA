@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621201"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634789"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>ما الجديد سبتمبر 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
 
@@ -35,6 +35,7 @@ _**ينطبق على:** Project Operations للسيناريوهات المستن
 | إدارة المصروفات | **القدرة على ترحيل التزام المصروفات بعملة المورّد**<br>تمكّن هذه الميزة ترحيل التزام تقارير المصروفات بعملة المورّد لطريقة الدفع النقدي | [القدرة على ترحيل التزام المصروفات بعملة المورّد](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | تدبير المشروع | **الدفع عند دفع فعات الموردين**<br>تمكّن هذه الميزة استخدام ميزة الدفع عند الاستلام (PWP) مع بيئات المنتجات غير المخزنة في Project Operations. إنها تسمح بحظر/استبقاء دفعات المورّد، بالاستناد إلى شروط الاستبقاء، إلى أن يتم استلام الدفعة من العميل. | [الدفع عند دفع فعات الموردين](/dynamics365/project-operations/procurement/pay-when-paid) |
 | تدبير المشروع | **طلبات الشراء الخاصة بالمشروع**<br>تمكّن هذه الميزة المستخدمين من إنشاء أوامر شراء متعلقة بالمشروع في الكيانات القانونية حيث يتم تمكين Project Operations على تكامل Dynamics 365 Customer Engagement. يمكن استخدام أوامر شراء المشروع لتسجيل تدير المواد غير المخزنة مقابل المشروع بواسطة الشخص المسؤول عن قسم التدبير. لن تتم مزامنة أوامر شراء المشروع مع Dataverse. ومع ذلك، يمكنك استخدام كيان ظاهري لإظهار بنود أوامر شراء المشروع في Dataverse للحصول على معلومات مدير المشروع. يتم دمج تكلفة فواتير المورّد المرتبطة بالمشروع مع كيان القيم الفعلية للمشروع في Dataverse. يتم تسجيل تكلفة المشروع في دفتر الأستاذ الفرعي للمشروع باستخدام دفتر يوميه تكامل Project Operations. | |
+|تخطيط المشاريع وتعقبها|**استخدام واجهات برمجة التطبيقات لجدولة المشروع لتنفيذ عمليات مع كيانات الجدولة** </br> </br>تتيح واجهة برمجة تطبيقات تحرير مخططات تعيين الموارد‬ للمطورين تحديد جهد المسؤول عن المهمة برمجيًا عبر أي نطاق زمني مدعوم لمزيد من التخطيط الدقيق للجهد على مراحل.|[استخدام واجهات برمجة التطبيقات لجدولة المشروع لتنفيذ عمليات مع كيانات الجدولة](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>تحديثات مخططات ‏‫الكتابة المزدوجة في Project Operations
 

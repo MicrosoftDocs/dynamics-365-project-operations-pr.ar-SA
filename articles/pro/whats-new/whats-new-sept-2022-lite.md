@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621202"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634836"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>ما الجديد في سبتمبر 2022 - نشر Project Operations الخفيف
 
@@ -30,6 +30,7 @@ _**ينطبق على:** النشر الخفيف – التعامل مع الفو
 | الفوترة والتسعير | **الإعداد الافتراضي للأسعار في منطقة زمنية غير محددة**<br>أدخل Project Operations مفهوم تاريخ المنطقة الزمنية غير المحددة على جميع القيم الفعلية للمشروع. يتوفر الآن حقل جديد، **تاريخ الحركة**، على بنود دفتر اليومية والقيم الفعلية، وسيُستخدم لتخزين تاريخ حدوث الحركة، ولكن دون تحويل ذلك التاريخ إلى التوقيت العالمي المتفق عليه‬. سيتم استخدام هذا التاريخ للعمليات النهائية مثل تحديد الأسعار الافتراضية وإنشاء الفاتورة. | <p>[تحديد معدلات التكلفة للتقديرات والقيم الفعلية المستندة إلى المشروع](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[تحديد أسعار المبيعات للتقديرات والقيم الفعلية المستندة إلى المشروع](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | الفوترة والتسعير | **تجاوزات الأسعار لتواريخ السريان‬ في Project Operations**<br>توفر تجاوزات الأسعار لتواريخ السريان طريقة لتجاوز أو تغيير أسعار معينة في قائمة الأسعار. | [تجاوزات الأسعار لتواريخ السريان](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | الوقت والمصروفات | **الموافق العمومي**<br>تمكّن هذه الميزة مورّدي البرامج المستقلين (ISV) والموافقة المركزية، بغض النظر عن حالة المشروع أو عضو الفريق في المشروع. | [الأمان والموافقات](/dynamics365/project-operations/approvals/approvals-security) |
+|تخطيط المشاريع وتعقبها|**استخدام واجهات برمجة التطبيقات لجدولة المشروع لتنفيذ عمليات مع كيانات الجدولة** </br> </br>تتيح واجهة برمجة تطبيقات تحرير مخططات تعيين الموارد‬ للمطورين تحديد جهد المسؤول عن المهمة برمجيًا عبر أي نطاق زمني مدعوم لمزيد من التخطيط الدقيق للجهد على مراحل.|[استخدام واجهات برمجة التطبيقات لجدولة المشروع لتنفيذ عمليات مع كيانات الجدولة](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>التحديثات الإصلاحية
 
