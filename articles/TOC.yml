@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: كيف يمكنني تخصيص سير إجراءات العمل في مراحل المشروع؟
               href: psa/FAQ-customize-bpf.md
-            - name: اعتبارات ترقية هيكل تنظيم العمل
-              href: psa/upgrade-considerations-tasks.md
         - name: المستندات التقنية
           href: psa/white-papers.md
         - name: دليل المسؤول
