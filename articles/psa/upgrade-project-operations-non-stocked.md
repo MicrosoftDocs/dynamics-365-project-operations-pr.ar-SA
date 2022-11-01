@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686959"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709428"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>الترقية من Project Service Automation إلى Project Operations
 
@@ -70,7 +70,7 @@ ms.locfileid: "9686959"
 
 ## <a name="licensing"></a>الترخيص
 
-إذا كانت لديك تراخيص Project Service Automation نشطة، فيمكنك تثبيت Project Operations واستخدامه، وهو يتضمن كافة قدرات Project Service Automation وغيرها الكثير. يمكنك بعد ذلك اختبار إمكانات Project Operations في بيئة منفصلة بينما تستمر في استخدام Project Service Automation في بيئة التشغيل. بعد انتهاء صلاحية تراخيص Project Service Automation، عليك الانتقال إلى Project Operations. عندما تخطط لعملية الانتقال هذه، يجب عليك مراعاة حقيقة أن ترخيص Project Operations لا يتضمن ترخيص Project Service Automation.
+إذا كانت لديك تراخيص Project Service Automation نشطة، فيمكنك تثبيت Project Operations واستخدامه، وهو يتضمن كافة قدرات Project Service Automation وغيرها الكثير. بهذه الطريقة، يمكنك اختبار قدرات Project Operations مع متابعة استخدام Project Service Automation في الإنتاج. بعد انتهاء صلاحية تراخيص Project Service Automation، عليك الانتقال إلى Project Operations. عندما تخطط لعملية الانتقال هذه، يجب عليك مراعاة حقيقة أن ترخيص Project Operations لا يتضمن ترخيص Project Service Automation. يمكن للعملاء الذين لديهم سيناريوهات قاموا فيها بنشر Project Service Automation ويحتاجون إلى الاستمرار في استخدام أو زيادة تراخيص PSA أثناء التخطيط للانتقال إلى Project Operations طلب تراخيص PSA مؤقتة بناءً على التراخيص التي تم شراؤها من Project Operations. سيتم إصدار ترخيص Project Service Automation واحد لترخيص Project Operations واحد. قد يتم طلب تراخيص PSA المؤقتة باستخدام هذا الرابط: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>اختبار التخصيصات وإعادة بنائها
 
