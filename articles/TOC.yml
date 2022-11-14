@@ -282,10 +282,12 @@
           href: project-management/navigate-ui.md
         - name: فهم حالة المشروع
           href: project-management/understand-project-status.md
-        - name: تحديد تقاويم المشاريع
+        - name: تحديد تقويمات المشاريع
           href: project-management/define-project-calendars.md
         - name: أوضاع الجدولة
           href: project-management/scheduling-modes.md
+        - name: الجدولة الخارجية
+          href: project-management/external-scheduling.md
         - name: تحديث مشروع
           href: project-management/update-project.md
         - name: نسخ مشروع
@@ -910,10 +912,12 @@
           href: project-management/navigate-ui.md
         - name: فهم حالة المشروع
           href: project-management/understand-project-status.md
-        - name: تحديد تقاويم المشاريع
+        - name: تحديد تقويمات المشاريع
           href: project-management/define-project-calendars.md
         - name: أوضاع الجدولة
           hreF: project-management/scheduling-modes.md
+        - name: الجدولة الخارجية
+          href: project-management/external-scheduling.md
         - name: تحديث مشروع
           href: project-management/update-project.md
         - name: نسخ مشروع
