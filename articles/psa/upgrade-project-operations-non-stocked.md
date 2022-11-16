@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709428"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736650"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>الترقية من Project Service Automation إلى Project Operations
 
@@ -97,7 +97,7 @@ ms.locfileid: "9709428"
     وقد تستغرق عملية التحديث عدة ساعات، بحسب كمية البيانات الموجودة في البيئة. يتعين على الفريق الأساسي الذي يدير عملية الترقية التخطيط وفقًا لذلك وتشغيل الترقية خارج ساعات العمل. في بعض الحالات، إذا كان حجم البيانات كبيرًا، فيجب تشغيل الترقية خلال عطلة نهاية الأسبوع. يجب أن يعتمد قرار الجدولة على نتائج الاختبار في بيئات أدنى.
 
 3. ترقية الحلول المخصصة على النحو المناسب. في هذه المرحلة، انشر أية تغييرات قمت بها في تخصيصاتك في القسم [اختبار التخصيصات وإعادة بنائها‬](#testing-and-refactoring-customizations) التابع لهذا المقال.
-4. انتقل إلى **الإعدادات** \> **الحلول**، وحدد إزالة تثبيت الحل **مكونات Project Operations المهملة**.
+4. انتقل إلى **make.powerapps.com**، وحدد بيئتك من القائمة المنسدلة الموجودة في الزاوية العلوية اليمنى من المدخل، وحدد **الحلول** من القائمة اليسرى، وحدد حل **مكونات Project Operations المهملة**، و **إزالة التثبيت**.
 
     هذا الحل عبارة عن حل مؤقت يحتفظ بنموذج البيانات والمكونات الموجودة أثناء عملية الترقية. ومن خلال إزالة هذا الحل، تُزال كافة الحقول والمكونات التي لم تعد مستخدمة. وبهذه الطريقة، يمكنك المساعدة في تبسيط الواجهة وجعل التكامل والتوسع أسهل.
     
