@@ -62,10 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: ما الجديد
       items:
-        - name: سبتمبر 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: نوفمبر 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: أرشيف
           items:
+            - name: أكتوبر 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: سبتمبر 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: أغسطس 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: يوليو 2022 - Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة
@@ -122,9 +126,9 @@
               href: sales/sales-currency.md
             - name: الوحدات التنظيمية
               href: sales/OrgUnits.md
-        - name: إدارة العملاء المتوقعين للمشروع
+        - name: إدارة العملاء المتوقعين المستندين إلى المشروع
           href: sales/manage-leads.md
-        - name: إدارة فرص المشروع
+        - name: إدارة الفرص المستندة إلى المشروع
           items:
             - name: نظرة عامة على إدارة فرص المشروع
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: بنود الفرصة المستندة إلى المشروع
               href: sales/project-based-lines.md
-            - name: إنشاء عروض أسعار المشروع من الفرص
+            - name: إنشاء عروض أسعار من فرص المشروع
               href: sales/link-quotes-opportunities.md
-            - name: نسخ الفرص المستندة إلى المشروع
+            - name: نسخ فرص المشاريع
               href: sales/copy-project-based-opportunity.md
             - name: إغلاق فرصة مشروع
               href: sales/close-opportunity.md
-        - name: إدارة عروض أسعار المشروع
+        - name: إدارة عروض الأسعار المستندة إلى المشروع
           items:
             - name: نظرة عامة على إدارة عروض أسعار المشروع
               href: pro/sales/manage-quotes-sales.md
@@ -146,61 +150,59 @@
               href: sales/quotes-key-concepts.md
             - name: تفاصيل الرأس لعروض الأسعار المستندة إلى المشروع
               href: sales/quote-values-budget-limits-contract.md
-            - name: إدارة عدة عملاء على عرض أسعار المشروع
+            - name: إدارة عدة عملاء في عرض الأسعار القائم على المشروع
               href: sales/manage-multiple-customers-quote.md
-            - name: إدارة قوائم أسعار المشروع على عرض أسعار
+            - name: قوائم أسعار المشروع على عروض أسعار المشروع
               href: pro/sales/manage-project-price-lists-sales.md
             - name: بنود عرض الأسعار القائم على المشروع
               items:
-                - name: نظرة عامة على بنود عرض الأسعار القائم على المشروع
+                - name: نظرة عامة على بنود عرض أسعار المشروع
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: إدارة عدة عملاء على بنود عرض الأسعار القائم على المشروع
+                - name: إدارة عدة عملاء في بنود عرض الأسعار القائم على المشروع
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: تعيين المشاريع والمهام إلى بنود عرض أسعار قائم على المشروع
+                - name: تعيين المشاريع والمهام إلى بنود عرض أسعار المشروع
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: تكوين المكونات الخاضعة للرسوم لبنود عرض أسعار قائم على المشروع
+                - name: تكوين المكونات الخاضعة للرسوم في بنود عرض أسعار المشروع
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: تكوين المكونات الخاضعة للرسوم لبند عرض أسعار المشروع
-                  href: sales/configure-chargeable-quoteline.md
                 - name: تقدير بند عرض أسعار المشروع
-                  href: sales/create-estimate-quote-line.md
-                - name: استيراد التقديرات من مشروع إلى بند عرض أسعار قائم على المشروع
-                  href: sales/import-estimate-quote-line.md
-                - name: جداول الفواتير على بنود عرض الأسعار القائم على المشروع
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: استيراد التقديرات من بند عرض أسعار المشروع
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: جداول الفواتير على بنود عرض أسعار المشروع
                   href: sales/invoice-schedule-quote-line.md
             - name: نسخ عروض أسعار المشروع
               href: sales/lose-quote.md
             - name: تنشيط عرض أسعار المشروع ومرجعته
               href: sales/activation-and-revision.md
-            - name: إغلاق عروض أسعار المشروع
+            - name: إغلاق عروض الأسعار المستندة إلى المشروع
               href: sales/win-quote.md
-        - name: إدارة عقود المشروع
+        - name: إدارة العقود المستندة إلى المشروع
           items:
-            - name: نظرة عامة على إدارة عقود المشروع
+            - name: إدارة عقود المشروع
               href: pro/sales/manage-contracts-sales.md
             - name: مفاهيم فريدة للعقود المستندة إلى المشروع
               href: sales/contracts-key-concepts.md
             - name: تفاصيل الرأس للعقود المستندة إلى المشروع
               href: sales/project-contract-settings.md
-            - name: إدارة قوائم أسعار المشروع على عقود المشروع
+            - name: إدارة قوائم أسعار المشروع في العقود المستندة إلى المشروع
               href: sales/contracts-manage-project-price-lists.md
-            - name: إدارة عدة عملاء على عقود المشروع
+            - name: إدارة عدة عملاء في العقود المستندة إلى المشروع
               href: sales/manage-multiple-customers-contract.md
             - name: شروط التعاقد المستندة إلى المشروع
               items:
-                - name: نظرة عامة على شروط التعاقد المستندة إلى المشروع
+                - name: نظرة عامة على بنود عقود المشروع
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: إدارة عدة عملاء على شروط التعاقد المستندة إلى المشروع
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: تعيين المشاريع والمهام على شروط تعاقد المشروع
+                - name: تعيين المشاريع والمهام إلى شروط تعاقد المشروع
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: تكوين مكونات خاضعة للرسوم لشروط تعاقد المشروع
+                - name: تكوين مكونات خاضعة للرسوم لبند عقد المشروع
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: تقدير شروط تعاقد المشروع
+                - name: تقدير شروط التعاقد المستندة إلى المشروع
                   href: sales/create-estimate-contract-line.md
-                - name: استيراد التقديرات من مشروع إلى شروط التعاقد المستندة إلى المشروع
-                  href: sales/import-estimate-project-contract-line.md
-                - name: إنشاء جداول فواتير على شروط التعاقد المستندة إلى المشروع
+                - name: استيراد التقديرات من شروط تعاقد المشروع
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: إنشاء جداول فواتير في بند العقد المستند إلى المشروع
                   href: sales/invoice-schedules-contract-line.md
             - name: نسخ العقود المستندة إلى المشروع
               href: sales/copy-project-based-contracts-sales.md
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: مقدمات الأتعاب والسُلف
               items:
-                - name: العقود المستندة إلى السلف ومقدم الأتعاب
+                - name: عقود المشاريع المستندة إلى السلف ومقدم الأتعاب‬
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: إعداد جدولة مقدم الأتعاب
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: إنشاء سُلفة مؤقتة على عقد
+                - name: إنشاء سُلفة مؤقتة في عقد مشروع
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: التسعير والتكلفة
       items:
@@ -642,6 +644,8 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: لمزامنة حالة المشروع لمنع الإدخال مقابل المشروعات المغلقة
           href: advanced-configuration/sync-project-status.md
+        - name: إعداد تحويل العملات لحساب أسعار المبيعات من معدلات التكلفة
+          href: advanced-configuration/currencyconversion.md
     - name: ترقية
       items:
         - name: اعتبارات الترقية للموافقات الحديثة
@@ -664,7 +668,7 @@
           href: pro/project-operations-overview-lite.md
         - name: التسجيل في اشتراك معاينة - خفيف
           href: environment/lite-preview-subscription-sign-up.md
-        - name: نشر Project Operations - خفيف
+        - name: نشر Project Operations Lite
           href: environment/lite-deployment.md
         - name: تطبيق اعداد العرض التوضيحي وبيانات التكوين - خفيف
           href: environment/lite-apply-demo-setup-config-data.md
@@ -672,10 +676,14 @@
           href: environment/security-model.md
     - name: ما الجديد
       items:
-        - name: الجديد في سبتمبر 2022 - النشر الخفيف
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: الجديد في نوفمبر 2022 - النشر الخفيف
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: أرشيف
           items:
+            - name: الجديد في أكتوبر 2022 - النشر الخفيف
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: الجديد في سبتمبر 2022 - النشر الخفيف
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: الجديد في أغسطس 2022 - النشر الخفيف
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: الجديد في يوليو 2022 - النشر الخفيف
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: إنشاء عروض أسعار من فرص المشروع
               href: sales/link-quotes-opportunities.md
-            - name: نسخ الفرص المستندة إلى المشروع
+            - name: نسخ فرص المشاريع
               href: sales/copy-project-based-opportunity.md
             - name: إغلاق فرصة مشروع
               href: sales/close-opportunity.md
-        - name: إدارة عروض الأسعار المستندة إلى المشروع
+        - name: إدارة عروض أسعار المشروع
           items:
-            - name: نظرة عامة على عروض الأسعار المستندة إلى المشروع
+            - name: نظرة عامة على عروض أسعار المشروع
               href: pro/sales/manage-quotes-sales.md
             - name: المفاهيم الفريدة لعروض أسعار المشروع
               href: pro/sales/quotes-key-concepts-sales.md
             - name: تفاصيل الرأس لعروض أسعار المشروع
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: عملاء متعددون على عروض أسعار المشروع
+            - name: إدارة عدة عملاء في عروض أسعار المشروع
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: قوائم أسعار المشروع على عروض أسعار المشروع
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: إدارة الوحدات المعقدة لبنود عرض الأسعار المستندة إلى المنتج
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: بنود عرض الأسعار القائم على المشروع
+            - name: بنود عروض أسعار المشاريع
               items:
-                - name: نظرة عامة على بنود عرض الأسعار القائم على المشروع
+                - name: نظرة عامة على بنود عرض أسعار المشروع
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: إدارة عدة عملاء
+                - name: إدارة عدة عملاء في بنود عرض أسعار المشروع
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: تعيين المشاريع والمهام
+                - name: تعيين المشاريع والمهام إلى بنود عرض أسعار المشروع
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: تكوين المكونات الخاضعة للرسوم
+                - name: تكوين المكونات الخاضعة للرسوم في بنود عرض أسعار المشروع
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: تقدير بند عرض أسعار قائم على المشروع
+                - name: تقدير بند عرض أسعار المشروع
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: استيراد تقدير من مشروع
+                - name: استيراد التقديرات من بند عرض أسعار المشروع
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: إدارة جداول الفواتير
+                - name: جداول الفواتير على بنود عرض أسعار المشروع
                   href: sales/invoice-schedule-quote-line.md
-            - name: نسخ عروض الأسعار المستندة إلى المشروع
+            - name: نسخ عروض أسعار المشروع
               href: sales/lose-quote.md
             - name: تنشيط عرض أسعار المشروع ومرجعته
               href: sales/activation-and-revision.md
-            - name: إغلاق عروض الأسعار المستندة إلى المشروع
+            - name: إغلاق عروض أسعار المشروع
               href: pro/sales/win-quote-sales.md
-        - name: إدارة العقود المستندة إلى المشروع
+        - name: إدارة عقود المشروع
           items:
-            - name: نظرة عامة على العقود المستندة إلى المشروع
+            - name: نظرة عامة على عقود المشروع
               href: pro/sales/manage-contracts-sales.md
             - name: مفاهيم فريدة لعقود المشروع
               href: pro/sales/contracts-key-concepts-sales.md
             - name: تفاصيل الرأس لعقود المشروع
               href: pro/sales/project-contract-settings-sales.md
-            - name: عدة عملاء على عقود المشروع
+            - name: إدارة عدة عملاء على عقود المشروع
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: قوائم أسعار المشروع على عقود المشروع
               href: sales/contracts-manage-project-price-lists.md
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: إدارة الوحدات المعقدة لشروط التعاقد المستندة إلى المنتج
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: شروط التعاقد المستندة إلى المشروع
+            - name: بنود عقد المشروع
               items:
-                - name: نظرة عامة على شروط التعاقد المستندة إلى المشروع
+                - name: نظرة عامة على بنود عقود المشروع
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: إدارة عدة عملاء في عقد
+                - name: إدارة عدة عملاء على عقود المشروع
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: تعيين المشاريع والمهام إلى شروط تعاقد المشروع
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: تكوين مكونات خاضعة للرسوم على شروط تعاقد المشروع
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: تقدير شروط التعاقد المستندة إلى المشروع
+                - name: تقدير شروط تعاقد المشروع
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: استيراد التقديرات من شروط تعاقد المشروع
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: إدارة جداول الفواتير على شروط تعاقد المشروع
+                - name: إنشاء جداول الفواتير في بند عقد المشروع
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: نسخ عقود المشروع
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,11 +844,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: مقدمات الأتعاب والسُلف
               items:
-                - name: العقود المستندة إلى مقدمات الأتعاب والسُلف - خفيف
+                - name: العقود المستندة إلى السلف ومقدم الأتعاب
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: إعداد جدول مقدمات الأتعاب - خفيف
+                - name: إعداد جدولة مقدم الأتعاب إعداد جدولة مقدم الأتعاب‬
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: إنشاء سُلفة مؤقتة على عقد - خفيف
+                - name: إنشاء سُلفة مؤقتة في عقد مشروع
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: التسعير والتكلفة
       items:
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: ما الجديد
       items:
-        - name: الجديد في سبتمبر 2022 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: الجديد في أكتوبر 2022 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: أرشيف
           items:
+            - name: الجديد في سبتمبر 2022 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: الجديد في يوليو 2022 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: الجديد في يونيو 2022 - Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: نظرة عامة على نشر Project Operations للسيناريوهات المستندة إلى المنتجات المخزنة/الإنتاج‬
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: نظرة عامة على إدارة المشاريع والمحاسبة
-      href: prod-pma/overview-project-management-accounting.md
+    - name: محاسبة المشروع
+      items:
+        - name: نظرة عامة على إدارة المشاريع والمحاسبة
+          href: prod-pma/overview-project-management-accounting.md
+        - name: تسويات المشاريع
+          href: project-accounting/project-adjustments.md
     - name: عملية مبيعات المشروع
       items:
         - name: عروض أسعار المشروع
