@@ -1,21 +1,21 @@
 ---
-title: استيراد تقدير إلى شرط تعاقد قائم على المشروع - خفيف
+title: استيراد التقديرات من شروط تعاقد المشروع
 description: يوفر هذا المقال معلومات حول استيراد التقديرات المالية من مشروع إلى شرط تعاقد.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924184"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824658"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>استيراد تقدير إلى شرط تعاقد قائم على المشروع - خفيف
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>استيراد التقديرات من شروط تعاقد المشروع
 
-_**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
+_**ينطبق علي:** النشر الخفيف - التعامل مع الفواتير الأولية‬، Project Operations للسيناريوهات المستندة إلى الموارد/المنتجات غير المخزنة‬‬_ _
 
 في Dynamics 365 Project Operations، يمكنك استيراد التقديرات من مشروع إلى شروط التعاقد المستندة إلى المشروع.
 

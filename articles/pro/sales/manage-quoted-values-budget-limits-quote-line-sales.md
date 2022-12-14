@@ -1,19 +1,19 @@
 ---
-title: نظرة عامة على بنود عرض الأسعار القائم على المشروع
+title: نظرة عامة على بنود عرض أسعار المشروع
 description: يوفر هذا المقال معلومات حول استخدام بنود عرض الأسعار القائم على المشروع لعمل المشروع.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 90c5affa25b113476e43f0bbbadd5c9615f9c05c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e6a67b5c37508085c9ec3d8385eaa6828536de00
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934442"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825642"
 ---
-# <a name="project-based-quote-lines-overview"></a>نظرة عامة على بنود عرض الأسعار القائم على المشروع 
+# <a name="project-quote-lines-overview"></a>نظرة عامة على بنود عرض أسعار المشروع 
 
 _**ينطبق على:** نشر خفيف - التعامل مع الفواتير الأولية‬، Project Operations لسيناريوهات الموارد/المنتجات غير المخزنة_
 

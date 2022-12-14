@@ -1,23 +1,23 @@
 ---
-title: إغلاق عرض أسعار
+title: إغلاق عروض الأسعار المستندة إلى المشروع
 description: يوفر هذا المقال معلومات حول إغلاق عروض الأسعار في Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b35417d4258a1e837fdf7a61bbcc303ec04a900
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931866"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824200"
 ---
-# <a name="close-a-quote"></a>إنشاء عرض أسعار
+# <a name="close-project-based-quotes"></a>إغلاق عروض الأسعار المستندة إلى المشروع
 
 _**ينطبق على:** Project Operations للسيناريوهات المستندة إلى موارد/منتجات غير مخزنة‬_
 
-يمكن إقفال عرض أسعار مشروع على أنه تم الفوز به أو تمت خسارته. ويمكن إغلاق مسودة عروض الأسعار لأن وظائف التنشيط والمراجعة غير مدعومة على عروض الأسعار في Microsoft Dynamics 365 Project Operations.
+يمكن إقفال عرض أسعار مشروع على أنه **فائز** أو **خاسر**. 
 
 ## <a name="close-a-quote-as-won"></a>إقفال عرض أسعار على أنه تم الفوز به
 

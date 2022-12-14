@@ -1,19 +1,19 @@
 ---
-title: إنشاء سُلفة مؤقتة في عقد
+title: إنشاء سُلفة مؤقتة على عقد مشروع
 description: يوفر هذا المقال معلومات عن إنشاء سلفة على عقد حسب الحاجة.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3e450a17990c6fc783ddffdb05e1ab5b9429a3c1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 62e41e5faeb5e40143e26e2cdf48c1279941a6b4
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922160"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824806"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>إنشاء سُلفة مؤقتة في عقد
+# <a name="create-an-ad-hoc-advance-on-a-project-contract"></a>إنشاء سُلفة مؤقتة على عقد مشروع
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 

@@ -1,19 +1,19 @@
 ---
-title: نظرة عامة على شروط التعاقد المستندة إلى المشروع
-description: يوفر هذا المقال معلومات حول العمل مع شروط تعاقد قائمة على المشروع.
+title: نظرة عامة على بنود عقد المشروع
+description: يوفر هذا المقال معلومات حول العمل مع بنود عقد المشروع في Project Operations.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d32edac6537a4b0f51e9d2f72cb4a7342606d2c5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f5a529233692a39b0674417cd4ea225e40243086
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931406"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824610"
 ---
-# <a name="project-based-contract-lines-overview"></a>نظرة عامة على شروط التعاقد المستندة إلى المشروع
+# <a name="project-contract-lines-overview"></a>نظرة عامة على بنود عقد المشروع
 
 _**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
 

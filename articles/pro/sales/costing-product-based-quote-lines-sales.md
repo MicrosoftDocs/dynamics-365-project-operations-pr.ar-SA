@@ -1,21 +1,21 @@
 ---
 title: حساب تكاليف بنود عروض الأسعار المستندة إلى المنتج
 description: يوفر هذا المقال معلومات حول تطبيق سعر التكلفة على بند عرض أسعار قائم على منتج.
-author: ruhercul
+author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
-ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.author: rumant
+ms.openlocfilehash: a8b3569ff217f6fc62606dae4292be14f9d3358c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932556"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825595"
 ---
 # <a name="costing-product-based-quote-lines"></a>حساب تكاليف بنود عروض الأسعار المستندة إلى المنتج
 
-_**ينطبق علي:** ‏‫Project Operations للسيناريوهات المستندة إلى مورد/غير مخزنة‬، ‏‫النشر الخفيف – التعامل مع الفواتير الأولية‬_
+_**ينطبق على:** النشر الخفيف – التعامل مع الفواتير الأولية_
 
 
 تتضمن أيضًا بنود عرض الأسعار المستندة إلى المنتج في Dynamics 365 Project Operations حقل **سعر التكلفة**. يستخدم هذا الحقل لتتبع سعر التكلفة للمنتج في بند عرض الأسعار وحسابات الربحية اللاحقة.
