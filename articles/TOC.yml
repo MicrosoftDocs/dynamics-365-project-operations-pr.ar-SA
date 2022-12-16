@@ -846,7 +846,7 @@
               items:
                 - name: العقود المستندة إلى السلف ومقدم الأتعاب
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: إعداد جدولة مقدم الأتعاب إعداد جدولة مقدم الأتعاب‬
+                - name: إعداد جدولة مقدم الأتعاب
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: إنشاء سُلفة مؤقتة في عقد مشروع
                   href: pro/sales/create-ad-hoc-advance-sales.md
